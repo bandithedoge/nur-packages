@@ -14,5 +14,4 @@
   modules = import ./modules; # NixOS modules
   overlays = import ./overlays; # nixpkgs overlays
 
-  mpdcord = pkgs.callPackage ./pkgs/mpdcord { };
 }

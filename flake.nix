@@ -16,7 +16,10 @@
       ];
       forAllSystems = nixpkgs.lib.genAttrs systems;
     in {
-      packages = forAllSystems (system:
-        import ./default.nix { pkgs = import nixpkgs { inherit system; }; });
+      packages = (forAllSystems (system:
+        import ./default.nix { pkgs = import nixpkgs { inherit system; }; }))
+        // {
+          inherit (inputs) mpdcord;
+        };
     };
 }
