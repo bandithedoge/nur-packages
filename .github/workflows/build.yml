@@ -50,7 +50,6 @@ jobs:
       - name: Check evaluation
         run: |
           nix-env -f . -qa \* --meta --xml \
-            --option restrict-eval true \
             --option allow-import-from-derivation true \
             --drv-path --show-trace \
             -I nixpkgs=$(nix-instantiate --find-file nixpkgs) \
