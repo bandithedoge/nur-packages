@@ -1,0 +1,3 @@
+[submodule "pkgs/mpdcord/mpdcord"]
+	path = pkgs/mpdcord/mpdcord
+	url = https://github.com/bandithedoge/mpdcord.git
