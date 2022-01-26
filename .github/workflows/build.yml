@@ -24,8 +24,16 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2.4.0
+
+      - name: Update submodules
+        if: ${{ github.event_name != 'pull_request' }}
+        run: git submodule update --force
+
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v8.0.1
         with:
-          submodules: recursive
+          default_author: github_actions
+          message: Update submodules
 
       - name: Install nix
         uses: cachix/install-nix-action@v16
