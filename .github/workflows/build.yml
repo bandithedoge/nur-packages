@@ -24,10 +24,14 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          submodules: recursive
 
-      - name: Update submodules
-        if: ${{ github.event_name != 'pull_request' }}
-        run: git submodule update --force
+      # - name: Update submodules
+      #   if: ${{ github.event_name != 'pull_request' }}
+      #   run: |
+      #     git pull --recurse-submodules
+      #     git submodule update --remote --recursive
 
       - name: Commit changes
         uses: EndBug/add-and-commit@v9

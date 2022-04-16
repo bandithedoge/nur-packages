@@ -1,3 +1,6 @@
-[submodule "mpdcord"]
-	path = pkgs/mpdcord
-	url = https://github.com/bandithedoge/mpdcord.git
+[submodule "dwm-flexipatch"]
+	path = pkgs/flexipatch/dwm-flexipatch
+	url = https://github.com/bakkeby/dwm-flexipatch.git
+[submodule "st-flexipatch"]
+	path = pkgs/flexipatch/st-flexipatch
+	url = https://github.com/bakkeby/st-flexipatch.git
