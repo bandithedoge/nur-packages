@@ -2,7 +2,6 @@
   description = "My personal NUR repository";
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
-    mpdcord.url = "github:bandithedoge/mpdcord";
   };
   outputs = { self, nixpkgs }@inputs:
     let
@@ -15,7 +14,8 @@
         "armv7l-linux"
       ];
       forAllSystems = nixpkgs.lib.genAttrs systems;
-    in {
+    in
+    {
       packages = forAllSystems (system:
         import ./default.nix { pkgs = import nixpkgs { inherit system; }; });
     };
