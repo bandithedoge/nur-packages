@@ -1,0 +1,40 @@
+{
+    "dwm-flexipatch": {
+        "cargoLocks": null,
+        "extract": null,
+        "name": "dwm-flexipatch",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "bakkeby",
+            "repo": "dwm-flexipatch",
+            "rev": "2ecc15a2ef8ab45d49cbf261cb3280fe9ab3d058",
+            "sha256": "sha256-yV0xRlQjlNwl0oztOe80/PItopXFeCAMc+cI1QrEJf0=",
+            "type": "github"
+        },
+        "version": "2ecc15a2ef8ab45d49cbf261cb3280fe9ab3d058"
+    },
+    "st-flexipatch": {
+        "cargoLocks": null,
+        "extract": null,
+        "name": "st-flexipatch",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "bakkeby",
+            "repo": "st-flexipatch",
+            "rev": "3e41e252b1f85babab0a6c8a3cf084a0e06831a2",
+            "sha256": "sha256-SIq+OhAEWcOH/CCaZhcSLkNgVOXYkYBwSSUFpeQi8bk=",
+            "type": "github"
+        },
+        "version": "3e41e252b1f85babab0a6c8a3cf084a0e06831a2"
+    }
+}

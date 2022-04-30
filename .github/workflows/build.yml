@@ -10,16 +10,6 @@ on:
     - cron: "15 5 * * *"
 jobs:
   tests:
-    strategy:
-      matrix:
-        nurRepo:
-          - bandithedoge
-        cachixName:
-          - bandithedoge
-        nixPath:
-          - nixpkgs=channel:nixos-unstable
-          - nixpkgs=channel:nixpkgs-unstable
-          - nixpkgs=channel:nixos-21.05
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -30,7 +20,7 @@ jobs:
       - name: Install nix
         uses: cachix/install-nix-action@v17
         with:
-          nix_path: "${{ matrix.nixPath }}"
+          nix_path: nixpkgs=channel:nixpkgs-unstable
           extra_nix_config: |
             experimental-features = nix-command flakes
             access-tokens = github.com=${{ secrets.GITHUB_TOKEN }}
@@ -49,10 +39,8 @@ jobs:
 
       - name: Setup cachix
         uses: cachix/cachix-action@v10
-        # Don't replace <YOUR_CACHIX_NAME> here!
-        if: ${{ matrix.cachixName != '<YOUR_CACHIX_NAME>' }}
         with:
-          name: ${{ matrix.cachixName }}
+          name: bandithedoge
           signingKey: "${{ secrets.CACHIX_SIGNING_KEY }}"
           authToken: "${{ secrets.CACHIX_AUTH_TOKEN }}"
 
@@ -68,6 +56,4 @@ jobs:
         run: nix shell -f '<nixpkgs>' nix-build-uncached -c nix-build-uncached ci.nix -A cacheOutputs
 
       - name: Trigger NUR update
-        # Don't replace <YOUR_REPO_NAME> here!
-        if: ${{ matrix.nurRepo != '<YOUR_REPO_NAME>' }}
-        run: curl -XPOST "https://nur-update.herokuapp.com/update?repo=${{ matrix.nurRepo }}"
+        run: curl -XPOST "https://nur-update.herokuapp.com/update?repo=bandithedoge"
