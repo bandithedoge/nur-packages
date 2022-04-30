@@ -1,9 +1,10 @@
-{ pkgs ? import <nixpkgs> { }, patches ? null, extraLibs ? [ ], conf ? null }:
+{ pkgs, sources, patches ? null, extraLibs ? [ ], conf ? null }:
+
 pkgs.stdenv.mkDerivation rec {
   pname = "st-flexipatch";
   version = "0.8.5";
 
-  src = ./st-flexipatch;
+  inherit (sources.st-flexipatch) src;
 
   nativeBuildInputs = with pkgs; [
     pkg-config
@@ -33,7 +34,7 @@ pkgs.stdenv.mkDerivation rec {
     pkgs.lib.optionalString (conf != null) "cp ${patchesFile} patches.def.h";
 
   postPatch = pkgs.lib.optionalString (conf != null) "cp ${configFile} config.def.h"
-    + pkgs.lib.optionalString pkgs.stdenv.isDarwin ''
+  + pkgs.lib.optionalString pkgs.stdenv.isDarwin ''
     substituteInPlace config.mk --replace "-lrt" ""
   '';
 

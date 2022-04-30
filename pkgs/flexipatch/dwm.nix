@@ -1,9 +1,14 @@
-{ pkgs ? import <nixpkgs> { }, conf ? null, patches ? null }:
+{ pkgs
+, sources
+, conf ? null
+, patches ? null
+}:
+
 pkgs.stdenv.mkDerivation rec {
   pname = "dwm-flexipatch";
   version = "6.3";
 
-  src = ./dwm-flexipatch;
+  inherit (sources.dwm-flexipatch) src;
 
   buildInputs = with pkgs; [ xorg.libX11 xorg.libXinerama xorg.libXft ];
 
