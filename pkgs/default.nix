@@ -6,6 +6,8 @@ let
   callPackage' = pkg: pkgs.callPackage pkg { inherit pkgs sources; };
 in
 {
+  vimPlugins = pkgs.callPackage ./vimPlugins { inherit pkgs; };
+
   dwm-flexipatch = callPackage' ./flexipatch/dwm.nix;
   st-flexipatch = callPackage' ./flexipatch/st.nix;
 }

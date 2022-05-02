@@ -1,5 +1,4 @@
----
-name: "Build and populate cache"
+name: Build and populate cache
 on:
   pull_request:
   push:
@@ -7,7 +6,7 @@ on:
       - main
       - master
   schedule:
-    - cron: "15 5 * * *"
+    - cron: 15 5 * * *
 jobs:
   tests:
     runs-on: ubuntu-latest
@@ -31,6 +30,11 @@ jobs:
       - name: Update sources
         run: nix run github:berberman/nvfetcher
 
+      - name: Update vim plugins
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: "nix run nixpkgs#niv -- -s pkgs/vimPlugins/nix/sources.json update"
+
       - name: Commit changes
         uses: EndBug/add-and-commit@v9
         with:
@@ -41,8 +45,8 @@ jobs:
         uses: cachix/cachix-action@v10
         with:
           name: bandithedoge
-          signingKey: "${{ secrets.CACHIX_SIGNING_KEY }}"
-          authToken: "${{ secrets.CACHIX_AUTH_TOKEN }}"
+          signingKey: ${{ secrets.CACHIX_SIGNING_KEY }}
+          authToken: ${{ secrets.CACHIX_AUTH_TOKEN }}
 
       - name: Check evaluation
         run: |
