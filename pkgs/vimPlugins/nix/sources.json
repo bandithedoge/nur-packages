@@ -683,6 +683,18 @@
         "url": "https://github.com/lewis6991/spellsitter.nvim/archive/f84e7a31c516f2a9cb857a02e4b551b009a81afb.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "sqlite.lua": {
+        "branch": "master",
+        "description": "SQLite/LuaJIT binding for lua and neovim",
+        "homepage": "",
+        "owner": "tami5",
+        "repo": "sqlite.lua",
+        "rev": "9ccd2a6538d8a201d1ea08784bd866950e1b4130",
+        "sha256": "16yq3zi8zvr39ihpw8zik7frplpmgcc3a6xf424rsxfzshn92k9f",
+        "type": "tarball",
+        "url": "https://github.com/tami5/sqlite.lua/archive/9ccd2a6538d8a201d1ea08784bd866950e1b4130.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "telescope-dap.nvim": {
         "branch": "master",
         "description": "Integration for nvim-dap with telescope.nvim",

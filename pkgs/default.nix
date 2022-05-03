@@ -6,7 +6,7 @@ let
   callPackage' = pkg: pkgs.callPackage pkg { inherit pkgs sources; };
 in
 {
-  vimPlugins = pkgs.callPackage ./vimPlugins { inherit pkgs; };
+  vimPlugins = (pkgs.callPackage ./vimPlugins { inherit pkgs; }).extend (import ./vimPlugins/overrides.nix);
 
   dwm-flexipatch = callPackage' ./flexipatch/dwm.nix;
   st-flexipatch = callPackage' ./flexipatch/st.nix;
