@@ -515,18 +515,6 @@
         "url": "https://github.com/kyazdani42/nvim-tree.lua/archive/483f1550d1c53f7dcf261d40af5f993ffcb8b9c3.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
-    "nvim-treesitter": {
-        "branch": "master",
-        "description": "Nvim Treesitter configurations and abstraction layer",
-        "homepage": "",
-        "owner": "nvim-treesitter",
-        "repo": "nvim-treesitter",
-        "rev": "4067351ffd6e5cfd5527873f6db9845e04527b8b",
-        "sha256": "0232nmbp82wjpv3npb4302pmsdfcfs67cgl7775d552zqfr2va9r",
-        "type": "tarball",
-        "url": "https://github.com/nvim-treesitter/nvim-treesitter/archive/4067351ffd6e5cfd5527873f6db9845e04527b8b.tar.gz",
-        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
-    },
     "nvim-ts-autotag": {
         "branch": "main",
         "description": "Use treesitter to auto close and auto rename html tag",
