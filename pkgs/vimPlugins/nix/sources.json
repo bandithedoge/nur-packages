@@ -29,10 +29,10 @@
         "homepage": "",
         "owner": "L3MON4D3",
         "repo": "LuaSnip",
-        "rev": "1dbafec2379bd836bd09c4659d4c6e1a70eb380e",
-        "sha256": "1y0jp1saggg59lpicyvjbklg3fb5qmbmh8q7gacx27zgp26hz66r",
+        "rev": "50760912f54dfd0087b29abef6ede39c33615ab9",
+        "sha256": "0271h0pjb91l3f403qr88krz308wd3glzixzrwz7lkwxww4w5i47",
         "type": "tarball",
-        "url": "https://github.com/L3MON4D3/LuaSnip/archive/1dbafec2379bd836bd09c4659d4c6e1a70eb380e.tar.gz",
+        "url": "https://github.com/L3MON4D3/LuaSnip/archive/50760912f54dfd0087b29abef6ede39c33615ab9.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "SchemaStore.nvim": {
@@ -569,10 +569,10 @@
         "homepage": "",
         "owner": "nvim-orgmode",
         "repo": "orgmode",
-        "rev": "1a52ca239c726d62104fad012472c28a00cdcc22",
-        "sha256": "17360m754y0fsxh95pl0zfl8jhhgw4hvk4991kxksrir0v3xsayz",
+        "rev": "a47492fde7f348dd2a02bba552d983dc683e4abb",
+        "sha256": "0nyy9r6jn59bka34823z51q0czsh2z8kyjyqs2yhwbrgjbr2zw42",
         "type": "tarball",
-        "url": "https://github.com/nvim-orgmode/orgmode/archive/1a52ca239c726d62104fad012472c28a00cdcc22.tar.gz",
+        "url": "https://github.com/nvim-orgmode/orgmode/archive/a47492fde7f348dd2a02bba552d983dc683e4abb.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "playground": {
@@ -737,10 +737,10 @@
         "homepage": "",
         "owner": "nvim-telescope",
         "repo": "telescope.nvim",
-        "rev": "23e28d066a55a8e33bff33196f7bd65ea3ecbdbe",
-        "sha256": "1yhc81k57ar58i0pwcwr28jsbkpcn8qqqjv95qcfi4hh14z75wfn",
+        "rev": "e454a0ad37ba72a14bebe516f99935c16f33ca50",
+        "sha256": "0kgdbdw54yc97vva0h5gs5k23abr1mh2j76rdj3c1sqfznw5p3ff",
         "type": "tarball",
-        "url": "https://github.com/nvim-telescope/telescope.nvim/archive/23e28d066a55a8e33bff33196f7bd65ea3ecbdbe.tar.gz",
+        "url": "https://github.com/nvim-telescope/telescope.nvim/archive/e454a0ad37ba72a14bebe516f99935c16f33ca50.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "vim-parinfer": {
