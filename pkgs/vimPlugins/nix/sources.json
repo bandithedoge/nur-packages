@@ -383,6 +383,18 @@
         "url": "https://github.com/alaviss/nim.nvim/archive/dbc853fedb963a97b1c5fbac54a05ba4f5100f06.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "nim.vim": {
+        "branch": "master",
+        "description": "Nim language plugin for vim",
+        "homepage": "",
+        "owner": "zah",
+        "repo": "nim.vim",
+        "rev": "a15714fea392b0f06ff2b282921a68c7033e39a2",
+        "sha256": "1vf3af8b85rjsccvclkb6aw9zgkwfpxd43jgnkbx6wrsv9bfz034",
+        "type": "tarball",
+        "url": "https://github.com/zah/nim.vim/archive/a15714fea392b0f06ff2b282921a68c7033e39a2.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "nui.nvim": {
         "branch": "main",
         "description": "UI Component Library for Neovim.",
