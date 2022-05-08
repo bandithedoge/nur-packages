@@ -59,6 +59,18 @@
         "url": "https://github.com/Olical/aniseed/archive/618c2115d5046cc04c8a4af7727ee4d90fc2061c.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "bufferline.nvim": {
+        "branch": "main",
+        "description": "A snazzy bufferline for Neovim",
+        "homepage": "",
+        "owner": "akinsho",
+        "repo": "bufferline.nvim",
+        "rev": "2d5266d14b7b5dbc54923469b4599f0349f7cedc",
+        "sha256": "0i8k8paa23v0l011lvydcv45c4jnr8wfiiwyw16hhndfamcwhgfh",
+        "type": "tarball",
+        "url": "https://github.com/akinsho/bufferline.nvim/archive/2d5266d14b7b5dbc54923469b4599f0349f7cedc.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "cheatsheet.nvim": {
         "branch": "master",
         "description": "A cheatsheet plugin for neovim with bundled cheatsheets for the editor, multiple vim plugins, nerd-fonts, regex, etc. with a Telescope fuzzy finder interface !",
@@ -263,6 +275,18 @@
         "url": "https://github.com/lewis6991/gitsigns.nvim/archive/0beb1941641bd7d5d7072d3612ee47c0eb80b63d.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "hibiscus.nvim": {
+        "branch": "master",
+        "description": ":hibiscus: Flavored Fennel Macros for Neovim",
+        "homepage": "",
+        "owner": "udayvir-singh",
+        "repo": "hibiscus.nvim",
+        "rev": "e4949215b93211e09da566203a32c8add9da0d28",
+        "sha256": "15gpqqgm6bm506c0dmwgr9wl20a301hmkfl9xkmmbvh2xiwma768",
+        "type": "tarball",
+        "url": "https://github.com/udayvir-singh/hibiscus.nvim/archive/e4949215b93211e09da566203a32c8add9da0d28.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "impatient.nvim": {
         "branch": "main",
         "description": "Improve startup time for Neovim",
@@ -335,6 +359,18 @@
         "url": "https://github.com/nvim-lualine/lualine.nvim/archive/619ededcff79e33a7e0ea677881dd07957449f9d.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "luv-vimdocs": {
+        "branch": "main",
+        "description": null,
+        "homepage": "",
+        "owner": "nanotee",
+        "repo": "luv-vimdocs",
+        "rev": "d1e34cb3dbec5ca5e7a5246f7a7186f8560ac716",
+        "sha256": "076g70rqfiqx1skcxlxkqsy6zy2c4fiwhrrrbq64jypagflyn972",
+        "type": "tarball",
+        "url": "https://github.com/nanotee/luv-vimdocs/archive/d1e34cb3dbec5ca5e7a5246f7a7186f8560ac716.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "mini.nvim": {
         "branch": "main",
         "description": "Neovim plugin with collection of minimal, independent, and fast Lua modules dedicated to improve Neovim (version 0.5 and higher) experience",
@@ -357,6 +393,30 @@
         "sha256": "1irpi2aqi2pr0ydxsw2d4m2lkhzkqcs6gvz15snvnsckvk03j3v7",
         "type": "tarball",
         "url": "https://github.com/jghauser/mkdir.nvim/archive/01261650382bef195dab8ac39344234b57914f09.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "neo-tree.nvim": {
+        "branch": "v2.x",
+        "description": "Neovim plugin to manage the file system and other tree like structures.",
+        "homepage": "",
+        "owner": "nvim-neo-tree",
+        "repo": "neo-tree.nvim",
+        "rev": "71e3d71db729a3ae9d0abc870c6a193343b60a96",
+        "sha256": "0n0z776ksgpach5qlnigg2y49s4aavdrzsnq9p776g95g97z0yqm",
+        "type": "tarball",
+        "url": "https://github.com/nvim-neo-tree/neo-tree.nvim/archive/71e3d71db729a3ae9d0abc870c6a193343b60a96.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "neogen": {
+        "branch": "main",
+        "description": "A better annotation generator. Supports multiple languages and annotation conventions.",
+        "homepage": "",
+        "owner": "danymat",
+        "repo": "neogen",
+        "rev": "a4b2fd5ba5ec3cdd9c3c7a5f6868b6c52eea0313",
+        "sha256": "0zp48i3vxlcphmp6vs9s8d6wmrdwhg946vyyx21vcwiavip0hc7v",
+        "type": "tarball",
+        "url": "https://github.com/danymat/neogen/archive/a4b2fd5ba5ec3cdd9c3c7a5f6868b6c52eea0313.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nightfox.nvim": {
@@ -417,6 +477,18 @@
         "sha256": "0k74064x0k2l4k07zlfv3kl3qm3f7spj49rr9ahcwn0pni38y71c",
         "type": "tarball",
         "url": "https://github.com/jose-elias-alvarez/null-ls.nvim/archive/3dbded7cfaf0591157280bc97d11407eeaef3ea9.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "numbers.nvim": {
+        "branch": "master",
+        "description": "Toggles relativenumbers when not needed",
+        "homepage": "",
+        "owner": "nkakouros-original",
+        "repo": "numbers.nvim",
+        "rev": "01c50eb6cd66ca61e7009b19a71603cc55768fb1",
+        "sha256": "0pzpc7fxq1z9mzl3sa982985fmgnr37hq7bgmr7v0d024fpqchff",
+        "type": "tarball",
+        "url": "https://github.com/nkakouros-original/numbers.nvim/archive/01c50eb6cd66ca61e7009b19a71603cc55768fb1.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nvim-autopairs": {
@@ -515,6 +587,30 @@
         "url": "https://github.com/neovim/nvim-lspconfig/archive/2f37b2ca07a3f89e7994b3b7f54c997e2cb3400a.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "nvim-luaref": {
+        "branch": "main",
+        "description": "Add a vim :help reference for lua ",
+        "homepage": null,
+        "owner": "milisims",
+        "repo": "nvim-luaref",
+        "rev": "9cd3ed50d5752ffd56d88dd9e395ddd3dc2c7127",
+        "sha256": "0zlz9qzd28kaxl8rkl0dv1ghpk4x4m9lrbrp3ghvgsr1a21hlswy",
+        "type": "tarball",
+        "url": "https://github.com/milisims/nvim-luaref/archive/9cd3ed50d5752ffd56d88dd9e395ddd3dc2c7127.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "nvim-notify": {
+        "branch": "master",
+        "description": "A fancy, configurable, notification manager for NeoVim",
+        "homepage": "",
+        "owner": "rcarriga",
+        "repo": "nvim-notify",
+        "rev": "d4a01eedeb2e6c3d453f3aa0f1b303dd8611dc71",
+        "sha256": "0i0nikpin6fab7x72mzjsxsfgpyjnk4fhmw7il51i2igllxm5krs",
+        "type": "tarball",
+        "url": "https://github.com/rcarriga/nvim-notify/archive/d4a01eedeb2e6c3d453f3aa0f1b303dd8611dc71.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "nvim-tree.lua": {
         "branch": "master",
         "description": "A file explorer tree for neovim written in lua",
@@ -525,6 +621,18 @@
         "sha256": "1zlc1i4hr3nsx5543qawim51lhkhl7wmh7hcdd1q28qxcbkakppr",
         "type": "tarball",
         "url": "https://github.com/kyazdani42/nvim-tree.lua/archive/a1600e57f2233db9bdfeb1f602434fd57c43c3ff.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "nvim-treesitter-textsubjects": {
+        "branch": "master",
+        "description": "Location and syntax aware text objects which *do what you mean*",
+        "homepage": "",
+        "owner": "RRethy",
+        "repo": "nvim-treesitter-textsubjects",
+        "rev": "20d2bd5ffd99a07f554eb75b56d1686a2de9775c",
+        "sha256": "0rpavw9i2ssggzbiz0cvpns2ygfsbdz36jf7qijailj0cqp8275p",
+        "type": "tarball",
+        "url": "https://github.com/RRethy/nvim-treesitter-textsubjects/archive/20d2bd5ffd99a07f554eb75b56d1686a2de9775c.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nvim-ts-autotag": {
@@ -705,6 +813,18 @@
         "sha256": "16yq3zi8zvr39ihpw8zik7frplpmgcc3a6xf424rsxfzshn92k9f",
         "type": "tarball",
         "url": "https://github.com/tami5/sqlite.lua/archive/9ccd2a6538d8a201d1ea08784bd866950e1b4130.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "tangerine.nvim": {
+        "branch": "master",
+        "description": "🍊 Sweet Fennel integration for Neovim",
+        "homepage": "",
+        "owner": "udayvir-singh",
+        "repo": "tangerine.nvim",
+        "rev": "3473e8dd04572acdca1ab6e9bbbfe9f81ed76107",
+        "sha256": "0ppcv8151pj10x9pbw40s8qpki3wl9c79h8rr0sxv8qbavq2k9ml",
+        "type": "tarball",
+        "url": "https://github.com/udayvir-singh/tangerine.nvim/archive/3473e8dd04572acdca1ab6e9bbbfe9f81ed76107.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "telescope-dap.nvim": {
