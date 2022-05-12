@@ -269,10 +269,10 @@
         "homepage": "",
         "owner": "lewis6991",
         "repo": "gitsigns.nvim",
-        "rev": "aca84fd16ce129965d7c3c69de59f333d9da116c",
-        "sha256": "0syv3hsp9v1qpsm1mcfb14r6hnlmdsk1gjngv2dfzblgk7bb0d1q",
+        "rev": "ffd06e36f6067935d8cb9793905dd2e84e291310",
+        "sha256": "00lm0685mwrm4c4r4vprb0ksmylnrlz8silghaqdg80zlhbn729v",
         "type": "tarball",
-        "url": "https://github.com/lewis6991/gitsigns.nvim/archive/aca84fd16ce129965d7c3c69de59f333d9da116c.tar.gz",
+        "url": "https://github.com/lewis6991/gitsigns.nvim/archive/ffd06e36f6067935d8cb9793905dd2e84e291310.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "hibiscus.nvim": {
