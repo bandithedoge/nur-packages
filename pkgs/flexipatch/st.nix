@@ -39,7 +39,7 @@ pkgs.stdenv.mkDerivation rec {
     patchesFile =
       if pkgs.lib.isDerivation conf || builtins.isPath patches
       then patches
-      else pkgs.writeText "config.def.h" patches;
+      else pkgs.writeText "patches.def.h" patches;
   in
     pkgs.lib.optionalString (conf != null) "cp ${patchesFile} patches.def.h";
 
