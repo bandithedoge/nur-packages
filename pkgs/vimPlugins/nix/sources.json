@@ -65,10 +65,10 @@
         "homepage": "",
         "owner": "akinsho",
         "repo": "bufferline.nvim",
-        "rev": "ee1d51e44ce361b4a037ca5fbbb27f270d3ea03c",
-        "sha256": "16zhxvvcj01gg1dl2z0a5pgniz4skcibp8bdnz388qbwv3ycyl27",
+        "rev": "29d5789aa407e7105968c43dba566defd3ca96bd",
+        "sha256": "0skrqpxszp2z2zv21vh2prxdyizps43qjyyy56rxs25cl6hrzb1j",
         "type": "tarball",
-        "url": "https://github.com/akinsho/bufferline.nvim/archive/ee1d51e44ce361b4a037ca5fbbb27f270d3ea03c.tar.gz",
+        "url": "https://github.com/akinsho/bufferline.nvim/archive/29d5789aa407e7105968c43dba566defd3ca96bd.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "cheatsheet.nvim": {
@@ -881,10 +881,10 @@
         "homepage": "",
         "owner": "nvim-telescope",
         "repo": "telescope.nvim",
-        "rev": "795a63ed293ba249a588e9e67aa1f2cec82028e8",
-        "sha256": "1p0prcay8dw96f7fi0p51whaiqjwz6y5f3hq4l4ls4wrpxkbl6a5",
+        "rev": "39b12d84e86f5054e2ed98829b367598ae53ab41",
+        "sha256": "12krg8l13j4rqxqn9jx5nkpfpa3ffh2avv9z687ag7k1axvcak9h",
         "type": "tarball",
-        "url": "https://github.com/nvim-telescope/telescope.nvim/archive/795a63ed293ba249a588e9e67aa1f2cec82028e8.tar.gz",
+        "url": "https://github.com/nvim-telescope/telescope.nvim/archive/39b12d84e86f5054e2ed98829b367598ae53ab41.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "vim-parinfer": {
