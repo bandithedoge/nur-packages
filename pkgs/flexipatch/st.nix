@@ -4,6 +4,7 @@
   patches ? null,
   extraLibs ? [],
   conf ? null,
+  mkConfig ? null,
 }:
 pkgs.stdenv.mkDerivation rec {
   pname = "st-flexipatch";
@@ -40,8 +41,14 @@ pkgs.stdenv.mkDerivation rec {
       if pkgs.lib.isDerivation conf || builtins.isPath patches
       then patches
       else pkgs.writeText "patches.def.h" patches;
-  in
-    pkgs.lib.optionalString (conf != null) "cp ${patchesFile} patches.def.h";
+    mkConfigFile =
+      if pkgs.lib.isDerivation mkConfig || builtins.isPath mkConfig
+      then mkConfig
+      else pkgs.writeText "config.mk" mkConfig;
+  in ''
+    ${pkgs.lib.optionalString (conf != null) "cp ${patchesFile} patches.def.h"}
+    ${pkgs.lib.optionalString (mkConfig != null) "cp ${mkConfigFile} config.mk"}
+  '';
 
   postPatch =
     pkgs.lib.optionalString (conf != null) "cp ${configFile} config.def.h"
