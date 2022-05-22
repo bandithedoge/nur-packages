@@ -9,5 +9,6 @@ with open("nix/sources.json", "r") as f:
 with open("README.md", "w") as f:
     list = "| Name | Description |\n| ---- | ----------- |"
     for plugin, meta in sources.items():
-        list += f'\n| [{plugin}](https://github.com/{meta["owner"]}/{meta["repo"]}) | {meta["description"]} |'
+        sanitized_name = plugin.replace(".", "-")
+        list += f'\n| [{sanitized_name}](https://github.com/{meta["owner"]}/{meta["repo"]}) | {meta["description"]} |'
     f.write(list)
