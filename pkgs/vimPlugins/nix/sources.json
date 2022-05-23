@@ -305,10 +305,10 @@
         "homepage": "",
         "owner": "lukas-reineke",
         "repo": "indent-blankline.nvim",
-        "rev": "8567ac8ccd19ee41a6ec55bf044884799fa3f56b",
-        "sha256": "0gbdgn8031i4wgl5w2halaxjir39710n5cs8997cf3fhjj8zk5ss",
+        "rev": "9eda5143a776fe931580e37e35517a624811db01",
+        "sha256": "127kg1c0zkxw80vjyw12a23fqsmk6498pxyqv0kfcdj0nnkz2czd",
         "type": "tarball",
-        "url": "https://github.com/lukas-reineke/indent-blankline.nvim/archive/8567ac8ccd19ee41a6ec55bf044884799fa3f56b.tar.gz",
+        "url": "https://github.com/lukas-reineke/indent-blankline.nvim/archive/9eda5143a776fe931580e37e35517a624811db01.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "lsp_signature.nvim": {
