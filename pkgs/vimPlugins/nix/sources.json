@@ -905,10 +905,10 @@
         "homepage": "",
         "owner": "lewis6991",
         "repo": "satellite.nvim",
-        "rev": "70cd65be6c4747966286c1de05c30f885d426fb1",
-        "sha256": "1qlzykjrkxxmy0d4mhc1wlqqcb9x9hyxy6lx2lnpwqg3mjvnrf7l",
+        "rev": "662525dda418fd4ed2466418336d4e393c804d3b",
+        "sha256": "1pmwiljfdkqx7z025ma7dzncpbrlj6xrgrvlrll2gb03avfk7xp8",
         "type": "tarball",
-        "url": "https://github.com/lewis6991/satellite.nvim/archive/70cd65be6c4747966286c1de05c30f885d426fb1.tar.gz",
+        "url": "https://github.com/lewis6991/satellite.nvim/archive/662525dda418fd4ed2466418336d4e393c804d3b.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "size-matters.nvim": {
@@ -1001,10 +1001,10 @@
         "homepage": null,
         "owner": "nvim-telescope",
         "repo": "telescope-frecency.nvim",
-        "rev": "979a6f3d882b7b5352cc6a751faa9c9427d40e74",
-        "sha256": "0fy357m0pb1r3ficlkf89hcl4p8pxqr5il83zv5kzdai4zdnqwa8",
+        "rev": "68ac8cfe6754bb656b4f84d6c3dafa421b6f9697",
+        "sha256": "16w5h2ns324wmn3m4ikphli8kqbm1ldcys43s0a5qrrvriaddrmz",
         "type": "tarball",
-        "url": "https://github.com/nvim-telescope/telescope-frecency.nvim/archive/979a6f3d882b7b5352cc6a751faa9c9427d40e74.tar.gz",
+        "url": "https://github.com/nvim-telescope/telescope-frecency.nvim/archive/68ac8cfe6754bb656b4f84d6c3dafa421b6f9697.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "telescope-fzy-native.nvim": {
@@ -1037,10 +1037,10 @@
         "homepage": "",
         "owner": "nvim-telescope",
         "repo": "telescope.nvim",
-        "rev": "1a91238a6ad7a1f77fabdbee7225692a04b20d48",
-        "sha256": "10kyimz5zggjwv9nmrkgkz2f3w9scsanjw9n3fjl51zjf80hj6wf",
+        "rev": "cd9e6aaee01624c1a5423a783e7fd5bc8fc955c5",
+        "sha256": "1qvf0z2q0dz0nbvicz1vhd3684vx7nandxnz7246wncm2l5k26xr",
         "type": "tarball",
-        "url": "https://github.com/nvim-telescope/telescope.nvim/archive/1a91238a6ad7a1f77fabdbee7225692a04b20d48.tar.gz",
+        "url": "https://github.com/nvim-telescope/telescope.nvim/archive/cd9e6aaee01624c1a5423a783e7fd5bc8fc955c5.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "trouble.nvim": {
@@ -1061,10 +1061,10 @@
         "homepage": "",
         "owner": "Aetf",
         "repo": "ucw.nvim",
-        "rev": "eb872aea972ae9af20ef37f61b38e31fa4e57926",
-        "sha256": "0yykp4n2zsil027xa8i4sx0dxmmv057dn8mkb4pfkc1hn42afmbh",
+        "rev": "8976b3b400fe58e928b492fd8596ec9f3cd36c94",
+        "sha256": "184wwn8sxrk8h18c5if1qky4crlzn1fs0wfkmlrhfs6mr7qjnf4p",
         "type": "tarball",
-        "url": "https://github.com/Aetf/ucw.nvim/archive/eb872aea972ae9af20ef37f61b38e31fa4e57926.tar.gz",
+        "url": "https://github.com/Aetf/ucw.nvim/archive/8976b3b400fe58e928b492fd8596ec9f3cd36c94.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "vim-parinfer": {
