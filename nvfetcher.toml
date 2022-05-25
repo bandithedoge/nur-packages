@@ -5,3 +5,7 @@ fetch.github = "bakkeby/dwm-flexipatch"
 [st-flexipatch]
 src.git = "https://github.com/bakkeby/st-flexipatch"
 fetch.github = "bakkeby/st-flexipatch"
+
+[dmenu-flexipatch]
+src.git = "https://github.com/bakkeby/dmenu-flexipatch"
+fetch.github = "bakkeby/dmenu-flexipatch"

@@ -83,6 +83,18 @@
         "url": "https://github.com/sudormrfbin/cheatsheet.nvim/archive/9716f9aaa94dd1fd6ce59b5aae0e5f25e2a463ef.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "cinnamon.nvim": {
+        "branch": "master",
+        "description": "Smooth scrolling for ANY movement command 🤯. A Neovim plugin written in Lua!",
+        "homepage": "",
+        "owner": "declancm",
+        "repo": "cinnamon.nvim",
+        "rev": "b519cacba2c5984d22d1a0576669f7be19b993f8",
+        "sha256": "131j4faxpvvcrrsnp5bdf62bi447bnjd7yyfclnnb98q4rkyhx5v",
+        "type": "tarball",
+        "url": "https://github.com/declancm/cinnamon.nvim/archive/b519cacba2c5984d22d1a0576669f7be19b993f8.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "cmp-cmdline": {
         "branch": "main",
         "description": "nvim-cmp source for vim's cmdline",
@@ -191,6 +203,18 @@
         "url": "https://github.com/Saecki/crates.nvim/archive/ce6da0ec93d8160e2bf1f0850bc3d0eec1a2e383.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "diaglist.nvim": {
+        "branch": "master",
+        "description": "Live render workspace diagnostics in quickfix with current buf errors on top, buffer diagnostics in loclist",
+        "homepage": "",
+        "owner": "onsails",
+        "repo": "diaglist.nvim",
+        "rev": "6c43beac1ff07f6ef00f063090b5a6c9ed11b800",
+        "sha256": "1a10hmz38g3lpf1xxsk3b62vr16iaz5z5yqvk21m9bpai871fv1r",
+        "type": "tarball",
+        "url": "https://github.com/onsails/diaglist.nvim/archive/6c43beac1ff07f6ef00f063090b5a6c9ed11b800.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "direnv.vim": {
         "branch": "master",
         "description": "vim plugin for direnv support",
@@ -213,6 +237,18 @@
         "sha256": "1i34pk9l76n8ianz9hww8kn7dnnzivv8sbyf0vf7w21r2bh1p1k4",
         "type": "tarball",
         "url": "https://github.com/stevearc/dressing.nvim/archive/55e4ceae81d9169f46ea4452ce6e8c58cca00651.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "e-kaput.nvim": {
+        "branch": "master",
+        "description": "Diagnostics floating window for Neovim Lsp written in lua",
+        "homepage": "",
+        "owner": "kaputi",
+        "repo": "e-kaput.nvim",
+        "rev": "50f0b1b303ad79aaa62e2a4782e9a9ac14f09663",
+        "sha256": "0q2d7nm6lvwbl5hsqdck53fzrbp4kgc6h1sqdf9wcq39flnx2vq7",
+        "type": "tarball",
+        "url": "https://github.com/kaputi/e-kaput.nvim/archive/50f0b1b303ad79aaa62e2a4782e9a9ac14f09663.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "editorconfig.nvim": {
@@ -275,6 +311,18 @@
         "url": "https://github.com/lewis6991/gitsigns.nvim/archive/44372ff5dca2ca4c0cff13bb9a0d382238756c68.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "guess-indent.nvim": {
+        "branch": "main",
+        "description": "Automatic indentation style detection for Neovim",
+        "homepage": "",
+        "owner": "NMAC427",
+        "repo": "guess-indent.nvim",
+        "rev": "3c17b9a1e132d0b28a90772e3c24d226c47dbb7f",
+        "sha256": "180xyindivjwv9pc0bjjcji335wzfb5qvcdiwz8qw3s7fw6w3cjy",
+        "type": "tarball",
+        "url": "https://github.com/NMAC427/guess-indent.nvim/archive/3c17b9a1e132d0b28a90772e3c24d226c47dbb7f.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "hibiscus.nvim": {
         "branch": "master",
         "description": ":hibiscus: Flavored Fennel Macros for Neovim",
@@ -299,6 +347,18 @@
         "url": "https://github.com/lewis6991/impatient.nvim/archive/bcc22509bdf1c9d9e63e5e44ad00f5fcf581d651.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "incline.nvim": {
+        "branch": "main",
+        "description": "🎈 Floating winbar statuslines for Neovim",
+        "homepage": "",
+        "owner": "b0o",
+        "repo": "incline.nvim",
+        "rev": "a43a25047f267b9526f17d7fcde176dfb5f872bd",
+        "sha256": "1466ipj96nbc8548mjmkkhbf9wbs7m7x0frblxz8b2n2j89annbm",
+        "type": "tarball",
+        "url": "https://github.com/b0o/incline.nvim/archive/a43a25047f267b9526f17d7fcde176dfb5f872bd.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "indent-blankline.nvim": {
         "branch": "master",
         "description": "Indent guides  for Neovim",
@@ -309,6 +369,18 @@
         "sha256": "1bsyzbcj9jmpx6sl6mf2f5k1a60lhgq7vmsrpqab2wc0vm4v8kap",
         "type": "tarball",
         "url": "https://github.com/lukas-reineke/indent-blankline.nvim/archive/6177a59552e35dfb69e1493fd68194e673dc3ee2.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "lsp_extensions.nvim": {
+        "branch": "master",
+        "description": "Repo to hold a bunch of info & extension callbacks for built-in LSP. Use at your own risk :wink:",
+        "homepage": null,
+        "owner": "nvim-lua",
+        "repo": "lsp_extensions.nvim",
+        "rev": "4011f4aec61ba59c734f5dbf52e91f258b99d985",
+        "sha256": "0nzxadzc2namm1lxrklw6gqwdw6wvl2ddpg7c0alhw5c1j05lb64",
+        "type": "tarball",
+        "url": "https://github.com/nvim-lua/lsp_extensions.nvim/archive/4011f4aec61ba59c734f5dbf52e91f258b99d985.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "lsp_signature.nvim": {
@@ -333,6 +405,18 @@
         "sha256": "1c13ll09v16prhzgmv8pappck4x3ahhc5sizp6r61kb7k4mkfpfk",
         "type": "tarball",
         "url": "https://github.com/onsails/lspkind.nvim/archive/57e5b5dfbe991151b07d272a06e365a77cc3d0e7.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "lspsaga.nvim": {
+        "branch": "main",
+        "description": "The neovim language-server-client UI",
+        "homepage": "",
+        "owner": "tami5",
+        "repo": "lspsaga.nvim",
+        "rev": "39b6faccb57fd640a06c7d73a30507b13263fcbf",
+        "sha256": "09xym8gbrabr0y8bwkb4aq3iwdrd6yb9104gzy7l180pvrjq58qn",
+        "type": "tarball",
+        "url": "https://github.com/tami5/lspsaga.nvim/archive/39b6faccb57fd640a06c7d73a30507b13263fcbf.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "lua-dev.nvim": {
@@ -393,6 +477,18 @@
         "sha256": "1irpi2aqi2pr0ydxsw2d4m2lkhzkqcs6gvz15snvnsckvk03j3v7",
         "type": "tarball",
         "url": "https://github.com/jghauser/mkdir.nvim/archive/01261650382bef195dab8ac39344234b57914f09.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "modes.nvim": {
+        "branch": "main",
+        "description": "Prismatic line decorations for the adventurous vim user",
+        "homepage": "",
+        "owner": "mvllow",
+        "repo": "modes.nvim",
+        "rev": "1086d94b1f7d6ba105593a1dd21e2cb02ab92fc0",
+        "sha256": "1yr6l1z8h9nj7y5l06ld34zsvd894qwybgzlhcc1m16pphnp2g3n",
+        "type": "tarball",
+        "url": "https://github.com/mvllow/modes.nvim/archive/1086d94b1f7d6ba105593a1dd21e2cb02ab92fc0.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "neo-tree.nvim": {
@@ -575,6 +671,18 @@
         "url": "https://github.com/kevinhwang91/nvim-hlslens/archive/1944094111217db8d40aac697ffc71f16136d9ec.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "nvim-lightbulb": {
+        "branch": "master",
+        "description": "VSCode 💡 for neovim's built-in LSP.",
+        "homepage": null,
+        "owner": "kosayoda",
+        "repo": "nvim-lightbulb",
+        "rev": "1adc99adcfe2f3e2b3051f6449e1673e66643e77",
+        "sha256": "0s0fx7h59i9m4rh1zzdw14mjnkwl3p3sjc1n0ih4ciwpyvqw7mr5",
+        "type": "tarball",
+        "url": "https://github.com/kosayoda/nvim-lightbulb/archive/1adc99adcfe2f3e2b3051f6449e1673e66643e77.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "nvim-lspconfig": {
         "branch": "master",
         "description": "Quickstart configurations for the Nvim LSP client",
@@ -609,6 +717,18 @@
         "sha256": "096pk6gzxvwg55acz9r3wmrmdbz9s0ccyikmm0r91y42aa13xl73",
         "type": "tarball",
         "url": "https://github.com/rcarriga/nvim-notify/archive/c6ca279271f03db5ee03523d1c312ba624d3fa75.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "nvim-scrollbar": {
+        "branch": "main",
+        "description": "Extensible Neovim Scrollbar",
+        "homepage": "",
+        "owner": "petertriho",
+        "repo": "nvim-scrollbar",
+        "rev": "21c606c3ae17b474d1ab335e02d6e3936f96a370",
+        "sha256": "1xj33pd717wfgasgs9zc463zfbs73r6fsn8nqp0kkcnqla3fryl2",
+        "type": "tarball",
+        "url": "https://github.com/petertriho/nvim-scrollbar/archive/21c606c3ae17b474d1ab335e02d6e3936f96a370.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nvim-tree.lua": {
@@ -681,6 +801,18 @@
         "sha256": "1sdswis1xw6j8ajqkvcffrs7cz9fxrmhj5p0hv2ns1x70pa9frf2",
         "type": "tarball",
         "url": "https://github.com/kyazdani42/nvim-web-devicons/archive/0c5b6d16dea316bf0a28ab59f20c1fd5362bf432.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "nvim-yati": {
+        "branch": "main",
+        "description": "Yet another tree-sitter powered indent plugin for Neovim.",
+        "homepage": "",
+        "owner": "yioneko",
+        "repo": "nvim-yati",
+        "rev": "d3a898e5afd079e1586fe39a45899bf706dfbd12",
+        "sha256": "12ppj08sn2mvqi83isn3d9nvx6p1rnmb76kkwb4pgm5iwjihycib",
+        "type": "tarball",
+        "url": "https://github.com/yioneko/nvim-yati/archive/d3a898e5afd079e1586fe39a45899bf706dfbd12.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "orgmode": {
@@ -765,6 +897,30 @@
         "sha256": "0m11pw2xp9c8ggj62c7i86c3sjadf1bkz2qii73f7k6s7manjaq3",
         "type": "tarball",
         "url": "https://github.com/Fymyte/rasi.vim/archive/a3c5eaf37f2f778f4d62dad2f1e3dbb4596ac6eb.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "satellite.nvim": {
+        "branch": "main",
+        "description": "Decorate scrollbar for Neovim",
+        "homepage": "",
+        "owner": "lewis6991",
+        "repo": "satellite.nvim",
+        "rev": "70cd65be6c4747966286c1de05c30f885d426fb1",
+        "sha256": "1qlzykjrkxxmy0d4mhc1wlqqcb9x9hyxy6lx2lnpwqg3mjvnrf7l",
+        "type": "tarball",
+        "url": "https://github.com/lewis6991/satellite.nvim/archive/70cd65be6c4747966286c1de05c30f885d426fb1.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "size-matters.nvim": {
+        "branch": "main",
+        "description": "Dynamic font scaling for modern neovim GUI clients.",
+        "homepage": "",
+        "owner": "tenxsoydev",
+        "repo": "size-matters.nvim",
+        "rev": "2a0970fc76a851887815ed17e04197acb14d03ba",
+        "sha256": "0axhd93kz1rz188r1cyr68bzw78dn58pqcjlx67rmn7qmmgwa2h4",
+        "type": "tarball",
+        "url": "https://github.com/tenxsoydev/size-matters.nvim/archive/2a0970fc76a851887815ed17e04197acb14d03ba.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "sort.nvim": {
@@ -887,6 +1043,30 @@
         "url": "https://github.com/nvim-telescope/telescope.nvim/archive/1a91238a6ad7a1f77fabdbee7225692a04b20d48.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "trouble.nvim": {
+        "branch": "main",
+        "description": "🚦 A pretty diagnostics, references, telescope results, quickfix and location list to help you solve all the trouble your code is causing.",
+        "homepage": "",
+        "owner": "folke",
+        "repo": "trouble.nvim",
+        "rev": "da61737d860ddc12f78e638152834487eabf0ee5",
+        "sha256": "1aa45r9z8mghak8f5gymhm875rssi1afs92h0mpnn43y0j76xy31",
+        "type": "tarball",
+        "url": "https://github.com/folke/trouble.nvim/archive/da61737d860ddc12f78e638152834487eabf0ee5.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "ucw.nvim": {
+        "branch": "main",
+        "description": "nvimd - specify plugin dependencies using the familiar systemd unit wants/requires before/after concepts",
+        "homepage": "",
+        "owner": "Aetf",
+        "repo": "ucw.nvim",
+        "rev": "eb872aea972ae9af20ef37f61b38e31fa4e57926",
+        "sha256": "0yykp4n2zsil027xa8i4sx0dxmmv057dn8mkb4pfkc1hn42afmbh",
+        "type": "tarball",
+        "url": "https://github.com/Aetf/ucw.nvim/archive/eb872aea972ae9af20ef37f61b38e31fa4e57926.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "vim-parinfer": {
         "branch": "master",
         "description": "vim plugin to balance your parenthesis ",
@@ -897,6 +1077,18 @@
         "sha256": "0dkxfdakgcs6743dzja7l5vdc2pczv3ahr79g93mzjj0wbn6gd1i",
         "type": "tarball",
         "url": "https://github.com/bhurlow/vim-parinfer/archive/e8ae788a91f41d627cec905c61a2dec9c9183341.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "virtual-types.nvim": {
+        "branch": "master",
+        "description": "Neovim plugin that shows type annotations as virtual text",
+        "homepage": "",
+        "owner": "jubnzv",
+        "repo": "virtual-types.nvim",
+        "rev": "31da847fa54b801f309a08123935626adda4aaad",
+        "sha256": "0kqg29xld064fz1xly1kc7wcyck62q5hjkb5fc5vrj0zdnrdzz22",
+        "type": "tarball",
+        "url": "https://github.com/jubnzv/virtual-types.nvim/archive/31da847fa54b801f309a08123935626adda4aaad.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "which-key.nvim": {
