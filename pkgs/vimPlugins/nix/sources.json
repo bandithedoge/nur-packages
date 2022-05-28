@@ -17,10 +17,10 @@
         "homepage": "",
         "owner": "numToStr",
         "repo": "FTerm.nvim",
-        "rev": "11ec9290389d22215df93e1c9c35f782c5ceec4a",
-        "sha256": "16nli4nwsqn3zrc05m6w2h05ab423w8jjk81lys5kd609521wi0y",
+        "rev": "2628685bddb50370bec6c65be95b68b343ed8443",
+        "sha256": "0r43ddrr7nyrd8fpmrapcgbjh592a86dqay869zqnil6wrxlfxi5",
         "type": "tarball",
-        "url": "https://github.com/numToStr/FTerm.nvim/archive/11ec9290389d22215df93e1c9c35f782c5ceec4a.tar.gz",
+        "url": "https://github.com/numToStr/FTerm.nvim/archive/2628685bddb50370bec6c65be95b68b343ed8443.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "LuaSnip": {
@@ -57,6 +57,18 @@
         "sha256": "0fddy9c2bzzbmvc7kqci0cdavnrj5a3vk8gnsciylzp2z2c4hcr9",
         "type": "tarball",
         "url": "https://github.com/Olical/aniseed/archive/bfaefa11c9e6b36b17a7fe11f8f005198411c3e5.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "barbar.nvim": {
+        "branch": "master",
+        "description": "The neovim tabline plugin.",
+        "homepage": "",
+        "owner": "romgrk",
+        "repo": "barbar.nvim",
+        "rev": "3ff68b8ce6c777cc12a452d8ee265a0b0788d475",
+        "sha256": "0zkqgyj5prs1anzbggrnijyfygkmw2xrpd6nbnyqp8rr7yvdqz7i",
+        "type": "tarball",
+        "url": "https://github.com/romgrk/barbar.nvim/archive/3ff68b8ce6c777cc12a452d8ee265a0b0788d475.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "bufferline.nvim": {
@@ -239,6 +251,18 @@
         "url": "https://github.com/stevearc/dressing.nvim/archive/e3b31d45bc65d1b1c48615110373e7e375104d6f.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "dwm.nvim": {
+        "branch": "main",
+        "description": null,
+        "homepage": "",
+        "owner": "delphinus",
+        "repo": "dwm.nvim",
+        "rev": "0718df1b2f8425e10a82ed6ea2b7ce2ea45a0d02",
+        "sha256": "1zyfy43l4g81ijwfw32y1sfw3jd3agbslz2gydnm962jhcxvdsdk",
+        "type": "tarball",
+        "url": "https://github.com/delphinus/dwm.nvim/archive/0718df1b2f8425e10a82ed6ea2b7ce2ea45a0d02.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "e-kaput.nvim": {
         "branch": "master",
         "description": "Diagnostics floating window for Neovim Lsp written in lua",
@@ -275,6 +299,18 @@
         "url": "https://github.com/j-hui/fidget.nvim/archive/37d536bbbee47222ddfeca0e8186e8ee6884f9a2.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "flare.nvim": {
+        "branch": "main",
+        "description": "Configurable Cursor highlighting.",
+        "homepage": "",
+        "owner": "stonelasley",
+        "repo": "flare.nvim",
+        "rev": "748d0207b75e887b00ed328ad741e35cedc868da",
+        "sha256": "07z646cfh8c0wkrfd4hhibrajm8q6xf5k99x3jkjjsqnnr98dfkj",
+        "type": "tarball",
+        "url": "https://github.com/stonelasley/flare.nvim/archive/748d0207b75e887b00ed328ad741e35cedc868da.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "fm-nvim": {
         "branch": "master",
         "description": "🗂 Neovim plugin that lets you use your favorite terminal file managers (and fuzzy finders) from within Neovim.",
@@ -285,6 +321,30 @@
         "sha256": "0nscz30qvkx456dzd531wm29isi5hasjwcxadk4jr2ppiwarj1xh",
         "type": "tarball",
         "url": "https://github.com/is0n/fm-nvim/archive/9905c4877a7ac5c6185e9daef7af54e992fd491e.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "fold-cycle.nvim": {
+        "branch": "main",
+        "description": "This neovim plugin allows you to cycle folds open or closed",
+        "homepage": null,
+        "owner": "jghauser",
+        "repo": "fold-cycle.nvim",
+        "rev": "54c732eacaedfbdfc28fd96c711301e179b164cc",
+        "sha256": "1fkh2llsq9qj395k2mmz978x2x4qkfhsdnik5rn14yyjwzsca8hn",
+        "type": "tarball",
+        "url": "https://github.com/jghauser/fold-cycle.nvim/archive/54c732eacaedfbdfc28fd96c711301e179b164cc.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "foldsigns.nvim": {
+        "branch": "main",
+        "description": "Signs for folded lines",
+        "homepage": null,
+        "owner": "lewis6991",
+        "repo": "foldsigns.nvim",
+        "rev": "6abc76a3eed8a76f1eb94170d349258b6ca2139f",
+        "sha256": "1q7zrkvky1n8dxqmags3d32wj8wkgi7nipnqcxxqmhz3lbdzwblh",
+        "type": "tarball",
+        "url": "https://github.com/lewis6991/foldsigns.nvim/archive/6abc76a3eed8a76f1eb94170d349258b6ca2139f.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "friendly-snippets": {
@@ -323,6 +383,18 @@
         "url": "https://github.com/NMAC427/guess-indent.nvim/archive/3c17b9a1e132d0b28a90772e3c24d226c47dbb7f.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "heirline.nvim": {
+        "branch": "master",
+        "description": "Heirline.nvim is a no-nonsense Neovim Statusline plugin designed around recursive inheritance to be exceptionally fast and versatile.",
+        "homepage": "",
+        "owner": "rebelot",
+        "repo": "heirline.nvim",
+        "rev": "bb7eaec8f5f8e762b23da91109b54e1b3518c7b8",
+        "sha256": "0hly8zaqn7fvvak7dapr2rhx9z4y4rga8sh3v3w3divk9nnqf55v",
+        "type": "tarball",
+        "url": "https://github.com/rebelot/heirline.nvim/archive/bb7eaec8f5f8e762b23da91109b54e1b3518c7b8.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "hibiscus.nvim": {
         "branch": "master",
         "description": ":hibiscus: Flavored Fennel Macros for Neovim",
@@ -333,6 +405,18 @@
         "sha256": "03408qi3w0icynwycc30afnza3rphri0vx615xdcch1xdf8p9j22",
         "type": "tarball",
         "url": "https://github.com/udayvir-singh/hibiscus.nvim/archive/b99dcc0133668dcf5d4a6bf9cad49372878973c1.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "hlargs.nvim": {
+        "branch": "main",
+        "description": "Highlight arguments' definitions and usages, using Treesitter",
+        "homepage": "",
+        "owner": "m-demare",
+        "repo": "hlargs.nvim",
+        "rev": "76d99cc573d24a6eadd56a1cebc33fc4b563401f",
+        "sha256": "0lhp8q1c4jbq8s8akgsr0dpbxvxchs9igf3462rdffx12rafmw07",
+        "type": "tarball",
+        "url": "https://github.com/m-demare/hlargs.nvim/archive/76d99cc573d24a6eadd56a1cebc33fc4b563401f.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "impatient.nvim": {
@@ -491,6 +575,18 @@
         "url": "https://github.com/mvllow/modes.nvim/archive/1086d94b1f7d6ba105593a1dd21e2cb02ab92fc0.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "move.nvim": {
+        "branch": "main",
+        "description": "Gain the power to move lines and blocks and auto-indent them!",
+        "homepage": "",
+        "owner": "fedepujol",
+        "repo": "move.nvim",
+        "rev": "902110c584d214951b8bac52374afc7263d02a6a",
+        "sha256": "0rphb9cb45cb7z5511m08iwx79cs2wxjlcswn8gmglpqcyf3qn6f",
+        "type": "tarball",
+        "url": "https://github.com/fedepujol/move.nvim/archive/902110c584d214951b8bac52374afc7263d02a6a.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "neo-tree.nvim": {
         "branch": "v2.x",
         "description": "Neovim plugin to manage the file system and other tree like structures.",
@@ -623,6 +719,18 @@
         "url": "https://github.com/norcalli/nvim-colorizer.lua/archive/36c610a9717cc9ec426a07c8e6bf3b3abcb139d6.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "nvim-cursorword": {
+        "branch": "master",
+        "description": "highlight the word under the cursor.",
+        "homepage": "",
+        "owner": "xiyaowong",
+        "repo": "nvim-cursorword",
+        "rev": "08dfc44db4a4f54d4c1189e3873f24e3dde3e7bf",
+        "sha256": "1r1cxq87jkyisg03s78gc7gjcjn4hgpq7n104q06spc1inm5pc63",
+        "type": "tarball",
+        "url": "https://github.com/xiyaowong/nvim-cursorword/archive/08dfc44db4a4f54d4c1189e3873f24e3dde3e7bf.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "nvim-dap": {
         "branch": "master",
         "description": "Debug Adapter Protocol client implementation for Neovim",
@@ -737,10 +845,10 @@
         "homepage": "",
         "owner": "kyazdani42",
         "repo": "nvim-tree.lua",
-        "rev": "84cb79e760964820391bd5e66579e1bdb36f1103",
-        "sha256": "1fr3rm26p01vrrhxb5ww3mwpvgz7rdvhwb03miy6jw95xds2izfm",
+        "rev": "e482bad61cbab18ed6c2334c51c6854d0935c878",
+        "sha256": "0sm2xmchd61vsq9m098ia7rsizcah4gr99s71lgganv793qm9kdx",
         "type": "tarball",
-        "url": "https://github.com/kyazdani42/nvim-tree.lua/archive/84cb79e760964820391bd5e66579e1bdb36f1103.tar.gz",
+        "url": "https://github.com/kyazdani42/nvim-tree.lua/archive/e482bad61cbab18ed6c2334c51c6854d0935c878.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nvim-treesitter-textsubjects": {
@@ -827,6 +935,18 @@
         "url": "https://github.com/nvim-orgmode/orgmode/archive/62a7873b07ae6f33ec44aac6f5c5a8ca0f2c7a32.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "package-info.nvim": {
+        "branch": "master",
+        "description": "✍️ All the npm/yarn commands I don't want to type",
+        "homepage": "",
+        "owner": "vuki656",
+        "repo": "package-info.nvim",
+        "rev": "10de4d0d50ec1d4d26118c4aa067a9d09e370c9c",
+        "sha256": "1mhhff6knqqq6pgmd3w6vfljcig37yyxvmrvhb205y67igy3vcr2",
+        "type": "tarball",
+        "url": "https://github.com/vuki656/package-info.nvim/archive/10de4d0d50ec1d4d26118c4aa067a9d09e370c9c.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "playground": {
         "branch": "master",
         "description": "Treesitter playground integrated into Neovim",
@@ -887,6 +1007,30 @@
         "url": "https://github.com/anuvyklack/pretty-fold.nvim/archive/e6385d62eec67fdc8a21700b42a701d0d6fb8b32.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "prosesitter.nvim": {
+        "branch": "main",
+        "description": "A (work in progress) grammar, spelling and style plugin for Neovim",
+        "homepage": "",
+        "owner": "dvdsk",
+        "repo": "prosesitter.nvim",
+        "rev": "1854fdddf729ce5052d61569220fffa1be4e1392",
+        "sha256": "0j76wj5249nwibj7j2kajz25adkvnjcc344q9j186igw4v4v51ns",
+        "type": "tarball",
+        "url": "https://github.com/dvdsk/prosesitter.nvim/archive/1854fdddf729ce5052d61569220fffa1be4e1392.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "range-highlight.nvim": {
+        "branch": "master",
+        "description": "An extremely lightweight plugin (~ 120loc) that hightlights ranges you have entered in commandline.",
+        "homepage": "",
+        "owner": "winston0410",
+        "repo": "range-highlight.nvim",
+        "rev": "8b5e8ccb3460b2c3675f4639b9f54e64eaab36d9",
+        "sha256": "1yswni0p1w7ja6cddxyd3m4hi8gsdyh8hm8rlk878b096maxkgw1",
+        "type": "tarball",
+        "url": "https://github.com/winston0410/range-highlight.nvim/archive/8b5e8ccb3460b2c3675f4639b9f54e64eaab36d9.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "rasi.vim": {
         "branch": "main",
         "description": "Rofi config syntax highlighting for vim",
@@ -899,16 +1043,52 @@
         "url": "https://github.com/Fymyte/rasi.vim/archive/a3c5eaf37f2f778f4d62dad2f1e3dbb4596ac6eb.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "refactoring.nvim": {
+        "branch": "master",
+        "description": "The Refactoring library based off the Refactoring book by Martin Fowler",
+        "homepage": null,
+        "owner": "ThePrimeagen",
+        "repo": "refactoring.nvim",
+        "rev": "7b517db886f6b5435663fffa3ce60e64cd695068",
+        "sha256": "18xyjj6dd6ss0a7xfx77ah2fa7nrbill4wl5jakal44px8iw53gl",
+        "type": "tarball",
+        "url": "https://github.com/ThePrimeagen/refactoring.nvim/archive/7b517db886f6b5435663fffa3ce60e64cd695068.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "remember.nvim": {
+        "branch": "master",
+        "description": "A port of the Vim plugin vim-lastplace. It uses the same logic as vim-lastplace, but leverages the Neovim Lua API.",
+        "homepage": "",
+        "owner": "vladdoster",
+        "repo": "remember.nvim",
+        "rev": "d884c980d2b1464731dbcf53a068b4125be09d68",
+        "sha256": "0i8kpykd62k95c0wmfwcf0agl0k4hgf5dyw6qb2rq6lzmsnpvhb2",
+        "type": "tarball",
+        "url": "https://github.com/vladdoster/remember.nvim/archive/d884c980d2b1464731dbcf53a068b4125be09d68.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "satellite.nvim": {
         "branch": "main",
         "description": "Decorate scrollbar for Neovim",
         "homepage": "",
         "owner": "lewis6991",
         "repo": "satellite.nvim",
-        "rev": "2795afee73e2fcc2296567aef3f2a20614d2f8c4",
-        "sha256": "0qb15g8vf3a7r6swhmns470h25zvpw3va8pyk2kbmg5ygwnrim8r",
+        "rev": "f9d0b08faebe97ccd3822df5d1581b0757c0ca66",
+        "sha256": "06a7wnrhdr0j5zz35z1xgbps2kgy50c0qch6swl141x2w4s0vmpf",
         "type": "tarball",
-        "url": "https://github.com/lewis6991/satellite.nvim/archive/2795afee73e2fcc2296567aef3f2a20614d2f8c4.tar.gz",
+        "url": "https://github.com/lewis6991/satellite.nvim/archive/f9d0b08faebe97ccd3822df5d1581b0757c0ca66.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "sidebar.nvim": {
+        "branch": "main",
+        "description": "A generic and modular lua sidebar for Neovim",
+        "homepage": "",
+        "owner": "sidebar-nvim",
+        "repo": "sidebar.nvim",
+        "rev": "820190b9f4a75c68f812f4c368409dbb31b9043d",
+        "sha256": "14ipxa9ja1pa6j62rba5rhy055ggg56srakfmlj4cnznq3xg22zr",
+        "type": "tarball",
+        "url": "https://github.com/sidebar-nvim/sidebar.nvim/archive/820190b9f4a75c68f812f4c368409dbb31b9043d.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "size-matters.nvim": {
@@ -969,6 +1149,18 @@
         "sha256": "16yq3zi8zvr39ihpw8zik7frplpmgcc3a6xf424rsxfzshn92k9f",
         "type": "tarball",
         "url": "https://github.com/tami5/sqlite.lua/archive/9ccd2a6538d8a201d1ea08784bd866950e1b4130.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "tabby.nvim": {
+        "branch": "main",
+        "description": "A minimal, configurable, neovim style tabline. Use your nvim tabs as workspace multiplexer.",
+        "homepage": "",
+        "owner": "nanozuki",
+        "repo": "tabby.nvim",
+        "rev": "7b101a88a5246fb6932cf7b97b0da0024200f596",
+        "sha256": "0y3w1qb7rav21dpp7qd3bqx57hjwq9f3jvsppl2y1z5wnxj6h40q",
+        "type": "tarball",
+        "url": "https://github.com/nanozuki/tabby.nvim/archive/7b101a88a5246fb6932cf7b97b0da0024200f596.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "tangerine.nvim": {
@@ -1043,6 +1235,18 @@
         "url": "https://github.com/nvim-telescope/telescope.nvim/archive/cd9e6aaee01624c1a5423a783e7fd5bc8fc955c5.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "todo-comments.nvim": {
+        "branch": "main",
+        "description": "✅  Highlight, list and search todo comments in your projects",
+        "homepage": "",
+        "owner": "folke",
+        "repo": "todo-comments.nvim",
+        "rev": "98b1ebf198836bdc226c0562b9f906584e6c400e",
+        "sha256": "02qjn45qpvxhw7zifw0a86alika5r8b5a98y1199jpdx2d7zks7j",
+        "type": "tarball",
+        "url": "https://github.com/folke/todo-comments.nvim/archive/98b1ebf198836bdc226c0562b9f906584e6c400e.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "trouble.nvim": {
         "branch": "main",
         "description": "🚦 A pretty diagnostics, references, telescope results, quickfix and location list to help you solve all the trouble your code is causing.",
@@ -1101,6 +1305,18 @@
         "sha256": "0vf685xgdb967wmvffk1pfrvbhg1jkvzp1kb7r0vs90mg8gpv1aj",
         "type": "tarball",
         "url": "https://github.com/folke/which-key.nvim/archive/bd4411a2ed4dd8bb69c125e339d837028a6eea71.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "yaml-companion.nvim": {
+        "branch": "main",
+        "description": "Get, set and autodetect YAML schemas in your buffers.",
+        "homepage": "",
+        "owner": "someone-stole-my-name",
+        "repo": "yaml-companion.nvim",
+        "rev": "1b6aea26872794e4666b850cc31dd8142d8508aa",
+        "sha256": "11ijv3qg1gpk3bw0qxhk680cbwpf8n5y8gpbkkgm5h7w0z7hky6d",
+        "type": "tarball",
+        "url": "https://github.com/someone-stole-my-name/yaml-companion.nvim/archive/1b6aea26872794e4666b850cc31dd8142d8508aa.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     }
 }
