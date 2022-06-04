@@ -34,7 +34,7 @@ in
     in
       ''
         sed -i "s@PREFIX = /usr/local@PREFIX = $out@g" config.mk
-        ${pkgs.lib.optionalString (conf != null) "cp ${patchesFile} patches.def.h"}
+        ${pkgs.lib.optionalString (patches != null) "cp ${patchesFile} patches.def.h"}
         ${pkgs.lib.optionalString (mkConfig != null) "cp ${mkConfigFile} config.mk"}
       ''
       + pkgs.lib.optionalString (conf != null) "cp ${configFile} config.def.h";

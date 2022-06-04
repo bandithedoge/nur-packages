@@ -467,6 +467,18 @@
         "url": "https://github.com/nvim-lua/lsp_extensions.nvim/archive/4011f4aec61ba59c734f5dbf52e91f258b99d985.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "lsp_lines.nvim": {
+        "branch": "main",
+        "description": "Forked from https://git.sr.ht/~whynothugo/lsp_lines.nvim",
+        "homepage": null,
+        "owner": "Maan2003",
+        "repo": "lsp_lines.nvim",
+        "rev": "ef668fa65b41f48b956a63c048e009143ab0c3cf",
+        "sha256": "19m0j4hwpmj3fpbnrb8paiimsxa04ngs9qy6sjqh9syc4iwjrdiz",
+        "type": "tarball",
+        "url": "https://github.com/Maan2003/lsp_lines.nvim/archive/ef668fa65b41f48b956a63c048e009143ab0c3cf.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "lsp_signature.nvim": {
         "branch": "master",
         "description": "LSP signature hint as you type",
