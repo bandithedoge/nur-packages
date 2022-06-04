@@ -833,10 +833,10 @@
         "homepage": "",
         "owner": "rcarriga",
         "repo": "nvim-notify",
-        "rev": "c6ca279271f03db5ee03523d1c312ba624d3fa75",
-        "sha256": "096pk6gzxvwg55acz9r3wmrmdbz9s0ccyikmm0r91y42aa13xl73",
+        "rev": "b517277b2782b9fe20f64220435b8b6f9f02f840",
+        "sha256": "0najyal8r9a443jqyv84sgpa235lkms2ggy835i4pb47azizwmfa",
         "type": "tarball",
-        "url": "https://github.com/rcarriga/nvim-notify/archive/c6ca279271f03db5ee03523d1c312ba624d3fa75.tar.gz",
+        "url": "https://github.com/rcarriga/nvim-notify/archive/b517277b2782b9fe20f64220435b8b6f9f02f840.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nvim-scrollbar": {
