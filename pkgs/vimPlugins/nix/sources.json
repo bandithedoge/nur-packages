@@ -720,15 +720,15 @@
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nvim-colorizer.lua": {
-        "branch": "master",
+        "branch": "mine",
         "description": "The fastest Neovim colorizer.",
         "homepage": "",
-        "owner": "norcalli",
+        "owner": "xiyaowong",
         "repo": "nvim-colorizer.lua",
-        "rev": "36c610a9717cc9ec426a07c8e6bf3b3abcb139d6",
-        "sha256": "0gvqdfkqf6k9q46r0vcc3nqa6w45gsvp8j4kya1bvi24vhifg2p9",
+        "rev": "6683d64ac08a2131dcb7550033eb3cd2dd3642a2",
+        "sha256": "0qhb1k6w1zxij9qi5ic5322yl4hms3xkpxvv4hg957rhxragh3s2",
         "type": "tarball",
-        "url": "https://github.com/norcalli/nvim-colorizer.lua/archive/36c610a9717cc9ec426a07c8e6bf3b3abcb139d6.tar.gz",
+        "url": "https://github.com/xiyaowong/nvim-colorizer.lua/archive/6683d64ac08a2131dcb7550033eb3cd2dd3642a2.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nvim-cursorword": {
