@@ -60,7 +60,7 @@
 | [numbers-nvim](https://github.com/nkakouros-original/numbers.nvim) | Toggles relativenumbers when not needed |
 | [nvim-autopairs](https://github.com/windwp/nvim-autopairs) | autopairs for neovim written by lua |
 | [nvim-cmp](https://github.com/hrsh7th/nvim-cmp) | A completion plugin for neovim coded in Lua. |
-| [nvim-colorizer-lua](https://github.com/norcalli/nvim-colorizer.lua) | The fastest Neovim colorizer. |
+| [nvim-colorizer-lua](https://github.com/xiyaowong/nvim-colorizer.lua) | The fastest Neovim colorizer. |
 | [nvim-cursorword](https://github.com/xiyaowong/nvim-cursorword) | highlight the word under the cursor. |
 | [nvim-dap](https://github.com/mfussenegger/nvim-dap) | Debug Adapter Protocol client implementation for Neovim |
 | [nvim-dap-ui](https://github.com/rcarriga/nvim-dap-ui) | A UI for nvim-dap |
