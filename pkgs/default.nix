@@ -9,4 +9,6 @@ in {
   dmenu-flexipatch = callPackage' ./flexipatch/dmenu.nix;
   dwm-flexipatch = callPackage' ./flexipatch/dwm.nix;
   st-flexipatch = callPackage' ./flexipatch/st.nix;
+
+  taffybar = callPackage' ./taffybar.nix;
 }

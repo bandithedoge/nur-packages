@@ -9,3 +9,7 @@ fetch.github = "bakkeby/st-flexipatch"
 [dmenu-flexipatch]
 src.git = "https://github.com/bakkeby/dmenu-flexipatch"
 fetch.github = "bakkeby/dmenu-flexipatch"
+
+[taffybar]
+src.git = "https://github.com/taffybar/taffybar"
+fetch.github = "taffybar/taffybar"

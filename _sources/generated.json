@@ -50,10 +50,29 @@
             "name": null,
             "owner": "bakkeby",
             "repo": "st-flexipatch",
-            "rev": "3e41e252b1f85babab0a6c8a3cf084a0e06831a2",
-            "sha256": "sha256-SIq+OhAEWcOH/CCaZhcSLkNgVOXYkYBwSSUFpeQi8bk=",
+            "rev": "6e962cc929455bcbba4b50348ad67f41d09a9cc2",
+            "sha256": "sha256-X3EORP9hGR7wqsJWb6cv6zHGL5cNjQbcG2Dci0QDcws=",
             "type": "github"
         },
-        "version": "3e41e252b1f85babab0a6c8a3cf084a0e06831a2"
+        "version": "6e962cc929455bcbba4b50348ad67f41d09a9cc2"
+    },
+    "taffybar": {
+        "cargoLocks": null,
+        "extract": null,
+        "name": "taffybar",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "taffybar",
+            "repo": "taffybar",
+            "rev": "945a08452660de603193da8d297d559fdca497d1",
+            "sha256": "sha256-3H8sRK7qszYpVnX9o1UMCDUGTGtS+KLhyZ+Pu0h8EbY=",
+            "type": "github"
+        },
+        "version": "945a08452660de603193da8d297d559fdca497d1"
     }
 }
