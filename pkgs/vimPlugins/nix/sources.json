@@ -245,10 +245,10 @@
         "homepage": "",
         "owner": "stevearc",
         "repo": "dressing.nvim",
-        "rev": "1706d00209ee250be56029f8c5b439daa19a1411",
-        "sha256": "0wkixp0gc001hgryqxkm5hdw1pcbjxndz2x4za1b7djq340n9md4",
+        "rev": "55ce0400b2c2ca8ebbaf5e61a00559b5e6ce0474",
+        "sha256": "1cvbn1jivpwl2jmvwacagv0dcrz9xxshzw78x89ysl6s333nk690",
         "type": "tarball",
-        "url": "https://github.com/stevearc/dressing.nvim/archive/1706d00209ee250be56029f8c5b439daa19a1411.tar.gz",
+        "url": "https://github.com/stevearc/dressing.nvim/archive/55ce0400b2c2ca8ebbaf5e61a00559b5e6ce0474.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "dwm.nvim": {
@@ -941,10 +941,10 @@
         "homepage": "",
         "owner": "nvim-orgmode",
         "repo": "orgmode",
-        "rev": "10b102fd0527b27dda722eba6c9d5ca4ff6c3f37",
-        "sha256": "1bgz62mz40a7nwhsrb4m3vli49jzhcinjjm124k2apc29nfs3il3",
+        "rev": "667ffd7727f9fd05481fb1e89acc7f55a9b63739",
+        "sha256": "01xy01xjpd8ms5aprrca6i0drvhx4s63l97288kjm8rdv9w60kib",
         "type": "tarball",
-        "url": "https://github.com/nvim-orgmode/orgmode/archive/10b102fd0527b27dda722eba6c9d5ca4ff6c3f37.tar.gz",
+        "url": "https://github.com/nvim-orgmode/orgmode/archive/667ffd7727f9fd05481fb1e89acc7f55a9b63739.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "package-info.nvim": {
@@ -1097,10 +1097,10 @@
         "homepage": "",
         "owner": "sidebar-nvim",
         "repo": "sidebar.nvim",
-        "rev": "820190b9f4a75c68f812f4c368409dbb31b9043d",
-        "sha256": "14ipxa9ja1pa6j62rba5rhy055ggg56srakfmlj4cnznq3xg22zr",
+        "rev": "56f55a4e9adf055afa27d60787b923b5d0a0e388",
+        "sha256": "06qskbihhy0dxhrb8qpvjzi7bi2cmfx31ylmrj8la7ixh74jflmv",
         "type": "tarball",
-        "url": "https://github.com/sidebar-nvim/sidebar.nvim/archive/820190b9f4a75c68f812f4c368409dbb31b9043d.tar.gz",
+        "url": "https://github.com/sidebar-nvim/sidebar.nvim/archive/56f55a4e9adf055afa27d60787b923b5d0a0e388.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "size-matters.nvim": {
