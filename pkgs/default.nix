@@ -11,6 +11,4 @@ in {
   st-flexipatch = callPackage' ./flexipatch/st.nix;
 
   taffybar = callPackage' ./taffybar.nix;
-
-  kmonad = callPackage' ./kmonad.nix;
 }

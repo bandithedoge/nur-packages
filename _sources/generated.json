@@ -37,25 +37,6 @@
         },
         "version": "c553f93b528449ed2e7d4b424f063ef3c1d3d8f6"
     },
-    "kmonad": {
-        "cargoLocks": null,
-        "extract": null,
-        "name": "kmonad",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "deepClone": false,
-            "fetchSubmodules": false,
-            "leaveDotGit": false,
-            "name": null,
-            "owner": "kmonad",
-            "repo": "kmonad",
-            "rev": "f9df30991c1adfdcf4e4ef1623b9e716704e40eb",
-            "sha256": "sha256-OZCcqFhHqXa0nuZ1mpuUW970oaxvYtCZDvmgIIDs1Ec=",
-            "type": "github"
-        },
-        "version": "f9df30991c1adfdcf4e4ef1623b9e716704e40eb"
-    },
     "st-flexipatch": {
         "cargoLocks": null,
         "extract": null,
@@ -94,3 +75,4 @@
         },
         "version": "945a08452660de603193da8d297d559fdca497d1"
     }
+}
