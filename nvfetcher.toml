@@ -13,3 +13,7 @@ fetch.github = "bakkeby/dmenu-flexipatch"
 [taffybar]
 src.git = "https://github.com/taffybar/taffybar"
 fetch.github = "taffybar/taffybar"
+
+[kmonad]
+src.git = "https://github.com/kmonad/kmonad"
+fetch.github = "kmonad/kmonad"
