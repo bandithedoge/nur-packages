@@ -56,4 +56,15 @@
       sha256 = "sha256-3H8sRK7qszYpVnX9o1UMCDUGTGtS+KLhyZ+Pu0h8EbY=";
     });
   };
+  xmonad-entryhelper = {
+    pname = "xmonad-entryhelper";
+    version = "ee2d0c14f9258503d7bd62907aa731dd64fa34d0";
+    src = fetchFromGitHub ({
+      owner = "Javran";
+      repo = "xmonad-entryhelper";
+      rev = "ee2d0c14f9258503d7bd62907aa731dd64fa34d0";
+      fetchSubmodules = false;
+      sha256 = "sha256-CGaibR0Yejng9IQInm92Zx0pEZS29tJjWvPgaiWgUNQ=";
+    });
+  };
 }
