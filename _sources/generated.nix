@@ -14,13 +14,24 @@
   };
   dwm-flexipatch = {
     pname = "dwm-flexipatch";
-    version = "c553f93b528449ed2e7d4b424f063ef3c1d3d8f6";
+    version = "54070d7e51aec3d35c19cd2fe855c861af2fc21b";
     src = fetchFromGitHub ({
       owner = "bakkeby";
       repo = "dwm-flexipatch";
-      rev = "c553f93b528449ed2e7d4b424f063ef3c1d3d8f6";
+      rev = "54070d7e51aec3d35c19cd2fe855c861af2fc21b";
       fetchSubmodules = false;
-      sha256 = "sha256-6aji4pxzpqyEU42oRlgK3jAQEPMihgxS+AUMWA9w5gA=";
+      sha256 = "sha256-xfINbL9WyzlJKkR3CyA1RxjJOcj+ih5m1NoZLaKtxYQ=";
+    });
+  };
+  kiwmi = {
+    pname = "kiwmi";
+    version = "822e5b5063059ae169b7690c66484c65097e4cdd";
+    src = fetchFromGitHub ({
+      owner = "buffet";
+      repo = "kiwmi";
+      rev = "822e5b5063059ae169b7690c66484c65097e4cdd";
+      fetchSubmodules = false;
+      sha256 = "sha256-ZhPk95dMyA4ia2ChtJRUGMfe55zwC7Vi80glFWBXOPk=";
     });
   };
   kmonad = {
@@ -36,13 +47,13 @@
   };
   st-flexipatch = {
     pname = "st-flexipatch";
-    version = "6e962cc929455bcbba4b50348ad67f41d09a9cc2";
+    version = "df36caf56bae629044249c4ee3a4468f6418606f";
     src = fetchFromGitHub ({
       owner = "bakkeby";
       repo = "st-flexipatch";
-      rev = "6e962cc929455bcbba4b50348ad67f41d09a9cc2";
+      rev = "df36caf56bae629044249c4ee3a4468f6418606f";
       fetchSubmodules = false;
-      sha256 = "sha256-X3EORP9hGR7wqsJWb6cv6zHGL5cNjQbcG2Dci0QDcws=";
+      sha256 = "sha256-wpVVb1EHq3MUG/1SQxUMcDGrpQCstJWIlmB67gprWuw=";
     });
   };
   taffybar = {

@@ -31,11 +31,30 @@
             "name": null,
             "owner": "bakkeby",
             "repo": "dwm-flexipatch",
-            "rev": "c553f93b528449ed2e7d4b424f063ef3c1d3d8f6",
-            "sha256": "sha256-6aji4pxzpqyEU42oRlgK3jAQEPMihgxS+AUMWA9w5gA=",
+            "rev": "54070d7e51aec3d35c19cd2fe855c861af2fc21b",
+            "sha256": "sha256-xfINbL9WyzlJKkR3CyA1RxjJOcj+ih5m1NoZLaKtxYQ=",
             "type": "github"
         },
-        "version": "c553f93b528449ed2e7d4b424f063ef3c1d3d8f6"
+        "version": "54070d7e51aec3d35c19cd2fe855c861af2fc21b"
+    },
+    "kiwmi": {
+        "cargoLocks": null,
+        "extract": null,
+        "name": "kiwmi",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "buffet",
+            "repo": "kiwmi",
+            "rev": "822e5b5063059ae169b7690c66484c65097e4cdd",
+            "sha256": "sha256-ZhPk95dMyA4ia2ChtJRUGMfe55zwC7Vi80glFWBXOPk=",
+            "type": "github"
+        },
+        "version": "822e5b5063059ae169b7690c66484c65097e4cdd"
     },
     "kmonad": {
         "cargoLocks": null,
@@ -69,11 +88,11 @@
             "name": null,
             "owner": "bakkeby",
             "repo": "st-flexipatch",
-            "rev": "6e962cc929455bcbba4b50348ad67f41d09a9cc2",
-            "sha256": "sha256-X3EORP9hGR7wqsJWb6cv6zHGL5cNjQbcG2Dci0QDcws=",
+            "rev": "df36caf56bae629044249c4ee3a4468f6418606f",
+            "sha256": "sha256-wpVVb1EHq3MUG/1SQxUMcDGrpQCstJWIlmB67gprWuw=",
             "type": "github"
         },
-        "version": "6e962cc929455bcbba4b50348ad67f41d09a9cc2"
+        "version": "df36caf56bae629044249c4ee3a4468f6418606f"
     },
     "taffybar": {
         "cargoLocks": null,

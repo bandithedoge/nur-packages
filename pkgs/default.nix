@@ -15,4 +15,6 @@ in {
   kmonad = callPackage' ./kmonad.nix;
 
   xmonad-entryhelper = callPackage' ./xmonad-entryhelper.nix;
+
+  kiwmi = callPackage' ./kiwmi.nix;
 }

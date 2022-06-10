@@ -21,3 +21,7 @@ fetch.github = "kmonad/kmonad"
 [xmonad-entryhelper]
 src.git = "https://github.com/Javran/xmonad-entryhelper"
 fetch.github = "Javran/xmonad-entryhelper"
+
+[kiwmi]
+src.git = "https://github.com/buffet/kiwmi"
+fetch.github = "buffet/kiwmi"
