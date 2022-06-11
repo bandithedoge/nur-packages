@@ -677,10 +677,10 @@
         "homepage": "",
         "owner": "jose-elias-alvarez",
         "repo": "null-ls.nvim",
-        "rev": "7540baa0d5ca766a1958bb44c235dce990d98ce1",
-        "sha256": "086l4v7lxr0x6xj54agjppqggyzsp7bkdnncxjlml463c1npbagk",
+        "rev": "dfdd5fab3c53c30f83c78ea351b9a8f65715a5b7",
+        "sha256": "16yy40k5pxwlwdi36dhpywrg3p4qwgwdxsydqparw4filjbv0iks",
         "type": "tarball",
-        "url": "https://github.com/jose-elias-alvarez/null-ls.nvim/archive/7540baa0d5ca766a1958bb44c235dce990d98ce1.tar.gz",
+        "url": "https://github.com/jose-elias-alvarez/null-ls.nvim/archive/dfdd5fab3c53c30f83c78ea351b9a8f65715a5b7.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "numbers.nvim": {
@@ -857,10 +857,10 @@
         "homepage": "",
         "owner": "kyazdani42",
         "repo": "nvim-tree.lua",
-        "rev": "1caca6285427ebd2b4f0eb10f4d1ae3956ff09c0",
-        "sha256": "13m893pjn816fp5b0s423vbgk5f6fdhbiqwbbxzz2311ijg72nhh",
+        "rev": "9219831aa2a5e0f8ebc2105ef85b391e0b5543d2",
+        "sha256": "1waf72d5qsznh45rp6irc8iahzvrdh0zkwqicr6vhkvi12lcxsy6",
         "type": "tarball",
-        "url": "https://github.com/kyazdani42/nvim-tree.lua/archive/1caca6285427ebd2b4f0eb10f4d1ae3956ff09c0.tar.gz",
+        "url": "https://github.com/kyazdani42/nvim-tree.lua/archive/9219831aa2a5e0f8ebc2105ef85b391e0b5543d2.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nvim-treesitter-textsubjects": {
@@ -1061,10 +1061,10 @@
         "homepage": null,
         "owner": "ThePrimeagen",
         "repo": "refactoring.nvim",
-        "rev": "21b47bda407194fbe1f603256e101c26c0dbe589",
-        "sha256": "0ggd17mmvxpym4ablhy3s46yw9a3xavn9rzvla3j83skpmqyhmmk",
+        "rev": "802667c9b8da79678a78cb10bc0286e8a2644e8d",
+        "sha256": "0mz9xgsvgwnyyv8rbkwh5fclzasgb2ihh2fwkp349bz8w56i5irw",
         "type": "tarball",
-        "url": "https://github.com/ThePrimeagen/refactoring.nvim/archive/21b47bda407194fbe1f603256e101c26c0dbe589.tar.gz",
+        "url": "https://github.com/ThePrimeagen/refactoring.nvim/archive/802667c9b8da79678a78cb10bc0286e8a2644e8d.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "remember.nvim": {
