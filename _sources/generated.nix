@@ -36,13 +36,13 @@
   };
   kmonad = {
     pname = "kmonad";
-    version = "f9df30991c1adfdcf4e4ef1623b9e716704e40eb";
+    version = "edf2686fa928239274c37aecf88f8c2337c2d434";
     src = fetchFromGitHub ({
       owner = "kmonad";
       repo = "kmonad";
-      rev = "f9df30991c1adfdcf4e4ef1623b9e716704e40eb";
+      rev = "edf2686fa928239274c37aecf88f8c2337c2d434";
       fetchSubmodules = false;
-      sha256 = "sha256-OZCcqFhHqXa0nuZ1mpuUW970oaxvYtCZDvmgIIDs1Ec=";
+      sha256 = "sha256-RmpL3PlxMvw1tBbeJALp9OUbh5LqQ1kej4hdii4JZRM=";
     });
   };
   st-flexipatch = {
