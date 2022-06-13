@@ -12,7 +12,7 @@ in {
 
   taffybar = callPackage' ./taffybar.nix;
 
-  kmonad = callPackage' ./kmonad.nix;
+  # kmonad = callPackage' ./kmonad.nix;
 
   xmonad-entryhelper = callPackage' ./xmonad-entryhelper.nix;
 
