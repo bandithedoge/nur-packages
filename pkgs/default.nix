@@ -10,11 +10,11 @@ in {
   dwm-flexipatch = callPackage' ./flexipatch/dwm.nix;
   st-flexipatch = callPackage' ./flexipatch/st.nix;
 
-  taffybar = callPackage' ./taffybar.nix;
+  # taffybar = callPackage' ./taffybar.nix;
 
   # kmonad = callPackage' ./kmonad.nix;
 
-  xmonad-entryhelper = callPackage' ./xmonad-entryhelper.nix;
+  # xmonad-entryhelper = callPackage' ./xmonad-entryhelper.nix;
 
   kiwmi = callPackage' ./kiwmi.nix;
 }
