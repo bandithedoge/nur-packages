@@ -617,10 +617,10 @@
         "homepage": "",
         "owner": "danymat",
         "repo": "neogen",
-        "rev": "a4b2fd5ba5ec3cdd9c3c7a5f6868b6c52eea0313",
-        "sha256": "0zp48i3vxlcphmp6vs9s8d6wmrdwhg946vyyx21vcwiavip0hc7v",
+        "rev": "f5fbf3130c2b923928b2cb4000522a7635f5b017",
+        "sha256": "08s59y1cn2rqp2m2ylw0rplx2hd68g7r69y74dsvyna3vh2k5250",
         "type": "tarball",
-        "url": "https://github.com/danymat/neogen/archive/a4b2fd5ba5ec3cdd9c3c7a5f6868b6c52eea0313.tar.gz",
+        "url": "https://github.com/danymat/neogen/archive/f5fbf3130c2b923928b2cb4000522a7635f5b017.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nightfox.nvim": {
