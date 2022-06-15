@@ -38,6 +38,7 @@
 | [impatient-nvim](https://github.com/lewis6991/impatient.nvim) | Improve startup time for Neovim |
 | [incline-nvim](https://github.com/b0o/incline.nvim) | 🎈 Floating winbar statuslines for Neovim |
 | [indent-blankline-nvim](https://github.com/lukas-reineke/indent-blankline.nvim) | Indent guides  for Neovim |
+| [lazily-nvim](https://github.com/Chromosore/lazily-nvim) | A standalone plugin lazy loader for Neovim |
 | [lsp_extensions-nvim](https://github.com/nvim-lua/lsp_extensions.nvim) | Repo to hold a bunch of info & extension callbacks for built-in LSP. Use at your own risk :wink: |
 | [lsp_lines-nvim](https://github.com/Maan2003/lsp_lines.nvim) | Forked from https://git.sr.ht/~whynothugo/lsp_lines.nvim |
 | [lsp_signature-nvim](https://github.com/ray-x/lsp_signature.nvim) | LSP signature hint as you type |
