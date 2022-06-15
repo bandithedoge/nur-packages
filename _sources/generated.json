@@ -75,6 +75,42 @@
         },
         "version": "3e7f2aa3cdb4bf0a69dcb0b4c8ad38ff186ada8a"
     },
+    "libadwaita": {
+        "cargoLocks": null,
+        "extract": null,
+        "name": "libadwaita",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "rev": "4e2e3322a15c7db5fbc51510e60ff0011815a927",
+            "sha256": "sha256-wnnE72jvONvuC2GwOo1WpbP+6RNYZnOi42WmqJHh39Y=",
+            "type": "git",
+            "url": "https://gitlab.gnome.org/GNOME/libadwaita"
+        },
+        "version": "4e2e3322a15c7db5fbc51510e60ff0011815a927"
+    },
+    "libpanel": {
+        "cargoLocks": null,
+        "extract": null,
+        "name": "libpanel",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "rev": "80823f08b5b0c96dc2ef7ef0f51bd064f152f9ea",
+            "sha256": "sha256-k5I0pfaNnxiDmkD2Lg9v/l7uclUn741wqZBM1YfqmMk=",
+            "type": "git",
+            "url": "https://gitlab.gnome.org/chergert/libpanel"
+        },
+        "version": "80823f08b5b0c96dc2ef7ef0f51bd064f152f9ea"
+    },
     "st-flexipatch": {
         "cargoLocks": null,
         "extract": null,
@@ -131,5 +167,23 @@
             "type": "github"
         },
         "version": "ee2d0c14f9258503d7bd62907aa731dd64fa34d0"
+    },
+    "zrythm": {
+        "cargoLocks": null,
+        "extract": null,
+        "name": "zrythm",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "rev": "e5ebae347306979cbde0906d1cc04dd0713586eb",
+            "sha256": "sha256-0KD5FlKuJ9dPxNPAnTlWClCC+VW09z1LVNF/VFn/gfk=",
+            "type": "git",
+            "url": "https://git.sr.ht/~alextee/zrythm"
+        },
+        "version": "e5ebae347306979cbde0906d1cc04dd0713586eb"
     }
 }

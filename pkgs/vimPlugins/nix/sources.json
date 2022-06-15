@@ -455,6 +455,18 @@
         "url": "https://github.com/lukas-reineke/indent-blankline.nvim/archive/6177a59552e35dfb69e1493fd68194e673dc3ee2.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "lazily-nvim": {
+        "branch": "master",
+        "description": "A standalone plugin lazy loader for Neovim",
+        "homepage": null,
+        "owner": "Chromosore",
+        "repo": "lazily-nvim",
+        "rev": "b70a2a430a4bb1220bd78214149a1e88b0902ade",
+        "sha256": "0wfv0aj8qwcswz7q8y909rnp9ab8zqwmf7lrnbl60vryddn9203m",
+        "type": "tarball",
+        "url": "https://github.com/Chromosore/lazily-nvim/archive/b70a2a430a4bb1220bd78214149a1e88b0902ade.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "lsp_extensions.nvim": {
         "branch": "master",
         "description": "Repo to hold a bunch of info & extension callbacks for built-in LSP. Use at your own risk :wink:",

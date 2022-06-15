@@ -17,4 +17,6 @@ in {
   # xmonad-entryhelper = callPackage' ./xmonad-entryhelper.nix;
 
   kiwmi = callPackage' ./kiwmi.nix;
+
+  zrythm = callPackage' ./zrythm.nix;
 }
