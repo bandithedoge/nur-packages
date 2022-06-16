@@ -47,14 +47,14 @@
   };
   libadwaita = {
     pname = "libadwaita";
-    version = "4e2e3322a15c7db5fbc51510e60ff0011815a927";
+    version = "5cb00a274318b870f4b3ff09ed8f24d52f11f7de";
     src = fetchgit {
       url = "https://gitlab.gnome.org/GNOME/libadwaita";
-      rev = "4e2e3322a15c7db5fbc51510e60ff0011815a927";
+      rev = "5cb00a274318b870f4b3ff09ed8f24d52f11f7de";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-wnnE72jvONvuC2GwOo1WpbP+6RNYZnOi42WmqJHh39Y=";
+      sha256 = "sha256-h30s6R1TAi5Z0ps81T0DWazl6GdM+JjQkfcV/YRXHBQ=";
     };
   };
   libpanel = {
