@@ -347,6 +347,18 @@
         "url": "https://github.com/lewis6991/foldsigns.nvim/archive/6abc76a3eed8a76f1eb94170d349258b6ca2139f.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "formatter.nvim": {
+        "branch": "master",
+        "description": null,
+        "homepage": "",
+        "owner": "mhartington",
+        "repo": "formatter.nvim",
+        "rev": "3cb1239d9f6da9168e929d6cb4816fd7b545c71b",
+        "sha256": "0dxj6xvhhwdcv8l4d41qnkahsmvwrkb3nfmmgmp7hdqiqjmjf3rm",
+        "type": "tarball",
+        "url": "https://github.com/mhartington/formatter.nvim/archive/3cb1239d9f6da9168e929d6cb4816fd7b545c71b.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "friendly-snippets": {
         "branch": "main",
         "description": "Set of preconfigured snippets for different languages. ",
@@ -813,6 +825,18 @@
         "sha256": "0mff25sbbksfl88zcylqj4p6b9iyr34pqws1lssvrajbqjgprcbq",
         "type": "tarball",
         "url": "https://github.com/kosayoda/nvim-lightbulb/archive/1e2844b68a07d3e7ad9e6cc9a2aebc347488ec1b.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "nvim-lint": {
+        "branch": "master",
+        "description": "An asynchronous linter plugin for Neovim complementary to the built-in Language Server Protocol support.",
+        "homepage": "",
+        "owner": "mfussenegger",
+        "repo": "nvim-lint",
+        "rev": "5249977a585c3c17d94afdc8f0255a689d3a0057",
+        "sha256": "0d5gh1n2r0knhmlqpgqx2f67fg5828p6pwhpf7zi89jap53skrwn",
+        "type": "tarball",
+        "url": "https://github.com/mfussenegger/nvim-lint/archive/5249977a585c3c17d94afdc8f0255a689d3a0057.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nvim-lspconfig": {
@@ -1293,6 +1317,18 @@
         "sha256": "0ads535v2bmmkk3vz3m8aix18z1kbc3b6f2mv021l2gzqa7q9s61",
         "type": "tarball",
         "url": "https://github.com/Aetf/ucw.nvim/archive/1578133eb3e59491dd466c8f02f935aafb69f58a.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "vim-coffee-script": {
+        "branch": "master",
+        "description": "CoffeeScript support for vim",
+        "homepage": "",
+        "owner": "kchmck",
+        "repo": "vim-coffee-script",
+        "rev": "28421258a8dde5a50deafbfc19cd9873cacfaa79",
+        "sha256": "07k7whr32x782jyvzl2vg6c2pdrj5jynf4b4f2my7502rgv03w02",
+        "type": "tarball",
+        "url": "https://github.com/kchmck/vim-coffee-script/archive/28421258a8dde5a50deafbfc19cd9873cacfaa79.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "vim-parinfer": {
