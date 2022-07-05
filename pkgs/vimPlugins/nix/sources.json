@@ -383,6 +383,18 @@
         "url": "https://github.com/lewis6991/gitsigns.nvim/archive/4883988cf8b623f63cc8c7d3f11b18b7e81f06ff.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "glow-hover.nvim": {
+        "branch": "main",
+        "description": "A Neovim plugin leveraging glow for LSPs hover responses.",
+        "homepage": "",
+        "owner": "JASONews",
+        "repo": "glow-hover.nvim",
+        "rev": "c8d0cae5d05c658f4701425b05f1432121092c68",
+        "sha256": "04cif3frm4xfzc5rllp57zn11wi6pkydd7swghq3pcavgfmiykm4",
+        "type": "tarball",
+        "url": "https://github.com/JASONews/glow-hover.nvim/archive/c8d0cae5d05c658f4701425b05f1432121092c68.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "guess-indent.nvim": {
         "branch": "main",
         "description": "Automatic indentation style detection for Neovim",
