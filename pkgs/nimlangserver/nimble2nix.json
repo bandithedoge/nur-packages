@@ -1,0 +1,211 @@
+{
+  "websock-0.1.0": {
+    "url": "https://github.com/status-im/nim-websock",
+    "rev": "8a433c6ba43940b13ce56f83d79a93273ece5684",
+    "date": "2022-07-05T21:24:30+00:00",
+    "path": "/nix/store/6gj44qqjbp1xl6xp4fy7pn62jrlaxkdr-nim-websock-8a433c6",
+    "sha256": "05q4xg8nhmch9wv2zb8kybz1gwijpbgapfyyg4f595c7immvxcwa",
+    "fetchLFS": false,
+    "fetchSubmodules": true,
+    "deepClone": false,
+    "leaveDotGit": false
+  },
+  "zlib-0.1.0": {
+    "url": "https://github.com/status-im/nim-zlib",
+    "rev": "74cdeb54b21bededb5a515d36f608bc1850555a2",
+    "date": "2022-01-15T00:13:54+01:00",
+    "path": "/nix/store/3w73rrz9lz58nb3mmp00d9f3g3bajdpj-nim-zlib-74cdeb5",
+    "sha256": "1y0bl4v21wgk10zdm55k4vq69chax3kzim5mhsnlzj4agb41csgh",
+    "fetchLFS": false,
+    "fetchSubmodules": true,
+    "deepClone": false,
+    "leaveDotGit": false
+  },
+  "chronos-3.0.11": {
+    "url": "https://github.com/status-im/nim-chronos",
+    "rev": "f2e4d447d6aec99b3641d51994650769c5c00d02",
+    "date": "2022-07-04T12:31:18+03:00",
+    "path": "/nix/store/695b2kanh453ga221kdz0n6d3g73mmsk-nim-chronos-f2e4d44",
+    "sha256": "1f9mr19irpi7j4cgnkg44bh6jf4smn4hxp2agxkxl2878nnbpr4g",
+    "fetchLFS": false,
+    "fetchSubmodules": true,
+    "deepClone": false,
+    "leaveDotGit": false
+  },
+  "chronicles-0.10.2": {
+    "url": "https://github.com/status-im/nim-chronicles",
+    "rev": "2a2681b60289aaf7895b7056f22616081eb1a882",
+    "date": "2021-12-15T10:38:44+01:00",
+    "path": "/nix/store/crwl9z7m409mjxi4llajc14rsyka86a8-nim-chronicles-2a2681b",
+    "sha256": "0n8awgrmn9f6vd7ibv1jlyxk61lrs7hc51fghilrw6g6xq5w9rxq",
+    "fetchLFS": false,
+    "fetchSubmodules": true,
+    "deepClone": false,
+    "leaveDotGit": false
+  },
+  "faststreams-0.3.0": {
+    "url": "https://github.com/status-im/nim-faststreams",
+    "rev": "49e2c52eb5dda46b1c9c10d079abe7bffe6cea89",
+    "date": "2022-04-12T19:36:09+03:00",
+    "path": "/nix/store/hfhv04z9gb9rvbjaa626idr2pa5fi2hy-nim-faststreams-49e2c52",
+    "sha256": "03ljvia3m28wchyycxnchdzdqizifbf9sb2a3km2yd8ph25cjy1w",
+    "fetchLFS": false,
+    "fetchSubmodules": true,
+    "deepClone": false,
+    "leaveDotGit": false
+  },
+  "nimcrypto-0.5.4": {
+    "url": "https://github.com/cheatfate/nimcrypto",
+    "rev": "24e006df85927f64916e60511620583b11403178",
+    "date": "2022-07-06T02:24:18+03:00",
+    "path": "/nix/store/qx451wk41b17z2vsasvg6rlkcsgv0jvz-nimcrypto-24e006d",
+    "sha256": "021azw7ad1wk57a65rgaqv7sys34j45v0rn0vlajsf95f55qqw18",
+    "fetchLFS": false,
+    "fetchSubmodules": true,
+    "deepClone": false,
+    "leaveDotGit": false
+  },
+  "with-0.4.0": {
+    "url": "https://github.com/zevv/with",
+    "rev": "2f95909c767605e06670dc70f5cffd6b9284f192",
+    "date": "2019-09-25T10:55:20+02:00",
+    "path": "/nix/store/c8hjwg9whdg1ymhfb434a057ib6dhd69-with-2f95909",
+    "sha256": "1qdq9wpm6xahqczmvdn3a7yvvrw5x42ylvzmbybdwjzd8vmgg0zv",
+    "fetchLFS": false,
+    "fetchSubmodules": true,
+    "deepClone": false,
+    "leaveDotGit": false
+  },
+  "serialization-0.1.0": {
+    "url": "https://github.com/status-im/nim-serialization",
+    "rev": "1d33fa3ced6bc274ed43d99345ceb9cd6bb4dd24",
+    "date": "2022-06-19T13:04:38+03:00",
+    "path": "/nix/store/b6s7m5syw755r8kdw1mppj3gl9i6gh5b-nim-serialization-1d33fa3",
+    "sha256": "16g4x8fl786arpf1xv74mj97z0x8vhhfhwqszij974mamzk8zxkz",
+    "fetchLFS": false,
+    "fetchSubmodules": true,
+    "deepClone": false,
+    "leaveDotGit": false
+  },
+  "stint-0.0.1": {
+    "url": "https://github.com/status-im/nim-stint",
+    "rev": "c05f75a8dae5f0066db5008dbe41a803ecbfbbcf",
+    "date": "2022-04-07T09:53:11+02:00",
+    "path": "/nix/store/0ypf1f87cwgnwrbgpn5g1x1a5bnvwkz4-nim-stint-c05f75a",
+    "sha256": "18s3rv1cw8cqb5s6p5hfnl4g49gm7jglr9f1kqsyjiw2fjh1lc1f",
+    "fetchLFS": false,
+    "fetchSubmodules": true,
+    "deepClone": false,
+    "leaveDotGit": false
+  },
+  "json_rpc-#notif-changes": {
+    "url": "https://github.com/yyoncho/nim-json-rpc",
+    "rev": "38885260934d36ce6955a0599af1578cadaf65ec",
+    "date": "2022-06-13T11:42:29+03:00",
+    "path": "/nix/store/mbkr61ga84sabp1xs22a194591pg9hh2-nim-json-rpc-3888526",
+    "sha256": "1jx8pj10n07485s4bcwxvcx6xphfrqa12pczizi928dfgfiyn8vv",
+    "fetchLFS": false,
+    "fetchSubmodules": true,
+    "deepClone": false,
+    "leaveDotGit": false
+  },
+  "bearssl-0.1.5": {
+    "url": "https://github.com/status-im/nim-bearssl",
+    "rev": "1e9b70265052dd1ba5d2ef162f03d11ade5b9173",
+    "date": "2022-07-07T18:47:59+02:00",
+    "path": "/nix/store/zr29sk6335283hmmidyz7xp17vq24swx-nim-bearssl-1e9b702",
+    "sha256": "0mqncd6n3ra4lzknm21c3khxxipz40wgy7fsribm32vzqiyr38jl",
+    "fetchLFS": false,
+    "fetchSubmodules": true,
+    "deepClone": false,
+    "leaveDotGit": false
+  },
+  "httputils-0.3.0": {
+    "url": "https://github.com/status-im/nim-http-utils",
+    "rev": "f83fbce4d6ec7927b75be3f85e4fa905fcb69788",
+    "date": "2022-04-17T11:41:23+02:00",
+    "path": "/nix/store/y1aqicxn716x66984ff044xivqppy1b8-nim-http-utils-f83fbce",
+    "sha256": "0hl06yryfvgkqgs0l4rsy7j4lgzma4r5sgl0p6ij43i9fk442r2q",
+    "fetchLFS": false,
+    "fetchSubmodules": true,
+    "deepClone": false,
+    "leaveDotGit": false
+  },
+  "news-#status": {
+    "url": "https://github.com/status-im/news",
+    "rev": "6676f04e3aa38b5bdf50ad3c381a0a14ab92bb47",
+    "date": "2022-07-07T12:27:28+00:00",
+    "path": "/nix/store/qfq0pll248fwi80vkcbi2ij59xhm4i3a-news",
+    "sha256": "1x1kql1w8xgkapikbvgv18da5jy1n53dgfz7r9x2f89gik2z06v4",
+    "fetchLFS": false,
+    "fetchSubmodules": true,
+    "deepClone": false,
+    "leaveDotGit": false
+  },
+  "testutils-0.5.0": {
+    "url": "https://github.com/status-im/nim-testutils",
+    "rev": "dfc4c1b39f9ded9baf6365014de2b4bfb4dafc34",
+    "date": "2022-06-29T17:18:00+03:00",
+    "path": "/nix/store/5vdg8g4i7hc39d4vq7j0jp4rd7x56yq4-nim-testutils-dfc4c1b",
+    "sha256": "0fi59m8yvayzlh1ajbl98ddy43i3ikjqh3s5px16y0s3cidg4fai",
+    "fetchLFS": false,
+    "fetchSubmodules": true,
+    "deepClone": false,
+    "leaveDotGit": false
+  },
+  "json_serialization-0.1.0": {
+    "url": "https://github.com/status-im/nim-json-serialization",
+    "rev": "5a7f9a86cb201606ae669ed4f7f605047c26628c",
+    "date": "2022-07-01T17:48:29+00:00",
+    "path": "/nix/store/zffy0jri0nrdgjzbkw0bi9yc5jp6h7gh-nim-json-serialization-5a7f9a8",
+    "sha256": "142wl8kbw8qw6hn0mkl5kzfa9fcd0vgwaddqmlh1zg0wqg9f8q75",
+    "fetchLFS": false,
+    "fetchSubmodules": true,
+    "deepClone": false,
+    "leaveDotGit": false
+  },
+  "itertools-0.4.0": {
+    "url": "https://github.com/narimiran/itertools",
+    "rev": "96525a8caf93e9e12a773727aab7936c783924e7",
+    "date": "2020-12-28T15:00:01+01:00",
+    "path": "/nix/store/v1z5gx69h835m8h3129k8ls2nwixp6xf-itertools",
+    "sha256": "011ginny27nq46rs0y22qyw9mxa6157k5fn8x929hfkpylj2d8ly",
+    "fetchLFS": false,
+    "fetchSubmodules": true,
+    "deepClone": false,
+    "leaveDotGit": false
+  },
+  "unittest2-0.0.4": {
+    "url": "https://github.com/status-im/nim-unittest2",
+    "rev": "f180f596c88dfd266f746ed6f8dbebce39c824db",
+    "date": "2022-06-16T13:28:28+02:00",
+    "path": "/nix/store/7lziz672c2k0hy6gcyi66fb1mxbxn3ld-nim-unittest2-f180f59",
+    "sha256": "1qga1a1gn3z4pvcgfcmf3bayqm4f7a25845mw4c363n93w62baw3",
+    "fetchLFS": false,
+    "fetchSubmodules": true,
+    "deepClone": false,
+    "leaveDotGit": false
+  },
+  "stew-0.1.0": {
+    "url": "https://github.com/status-im/nim-stew",
+    "rev": "9c3596d9de809a5933fd777cec1183c2cdf521ec",
+    "date": "2022-07-08T10:34:21+01:00",
+    "path": "/nix/store/40gswnzzab9zk6gc79n3pdcj1zvg2ap4-nim-stew-9c3596d",
+    "sha256": "0v27hs2ylvyd8gcqdq7jsh1zsbhk0miqfk3wigvqakbx7w2x232p",
+    "fetchLFS": false,
+    "fetchSubmodules": true,
+    "deepClone": false,
+    "leaveDotGit": false
+  },
+  "asynctools-#non-blocking": {
+    "url": "https://github.com/yyoncho/asynctools",
+    "rev": "f1ad7289ff38f3b1c1987307845de373fc9af499",
+    "date": "2022-05-17T13:43:01+03:00",
+    "path": "/nix/store/qdiycnrz0vrdc342gkwni49f8m85989g-asynctools-f1ad728",
+    "sha256": "1iyr2k3vrbqfwm70w9bsyhis799lm9rin8j5pkjxgrpshm1znpbd",
+    "fetchLFS": false,
+    "fetchSubmodules": true,
+    "deepClone": false,
+    "leaveDotGit": false
+  }
+}

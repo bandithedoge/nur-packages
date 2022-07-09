@@ -58,14 +58,14 @@
   };
   libadwaita = {
     pname = "libadwaita";
-    version = "0edce77ff5283ca05d03e8f15584193e5185aaad";
+    version = "df80e9087b80b6a0c3d2494434391730481789c2";
     src = fetchgit {
       url = "https://gitlab.gnome.org/GNOME/libadwaita";
-      rev = "0edce77ff5283ca05d03e8f15584193e5185aaad";
+      rev = "df80e9087b80b6a0c3d2494434391730481789c2";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-iRveDXhmwhufXZ6GAa2wRyBipPFGAgkMYZznffMkuDc=";
+      sha256 = "sha256-RBngVw4uJ8sw/r+ZhbrnmzRELqUkW2lmhEQ7thM3xTY=";
     };
   };
   libpanel = {
@@ -79,6 +79,28 @@
       leaveDotGit = false;
       sha256 = "sha256-Y4zpGLdHaqeNj4cLpRo037sU3VnuiZgAuUAyw8TUsLs=";
     };
+  };
+  nimble2nix = {
+    pname = "nimble2nix";
+    version = "6a6c4da2e2b3cc3b643744b76ecd8bb08f6be3a3";
+    src = fetchFromGitHub ({
+      owner = "bandithedoge";
+      repo = "nimble2nix";
+      rev = "6a6c4da2e2b3cc3b643744b76ecd8bb08f6be3a3";
+      fetchSubmodules = false;
+      sha256 = "sha256-e9h5Yiv7fPycKsCHgxHcOScSF4CMZ+iB6bdwC44BFt0=";
+    });
+  };
+  nimlangserver = {
+    pname = "nimlangserver";
+    version = "3fcf4c87904ec691ebca035872a4913000fa85df";
+    src = fetchFromGitHub ({
+      owner = "nim-lang";
+      repo = "langserver";
+      rev = "3fcf4c87904ec691ebca035872a4913000fa85df";
+      fetchSubmodules = false;
+      sha256 = "sha256-DnLACh9vBLrf6Q3O3MOIUBdlRSY4aOwS1c18TbeW2Qs=";
+    });
   };
   st-flexipatch = {
     pname = "st-flexipatch";
