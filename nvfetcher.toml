@@ -1,14 +1,6 @@
-# build support
-
 [haskellNix]
 src.git = "https://github.com/input-output-hk/haskell.nix"
 fetch.github = "input-output-hk/haskell.nix"
-
-[nimble2nix]
-src.git = "https://github.com/bandithedoge/nimble2nix"
-fetch.github = "bandithedoge/nimble2nix"
-
-# programs
 
 [dwm-flexipatch]
 src.git = "https://github.com/bakkeby/dwm-flexipatch"
@@ -30,6 +22,10 @@ fetch.github = "taffybar/taffybar"
 src.git = "https://github.com/kmonad/kmonad"
 fetch.github = "kmonad/kmonad"
 
+[xmonad-entryhelper]
+src.git = "https://github.com/Javran/xmonad-entryhelper"
+fetch.github = "Javran/xmonad-entryhelper"
+
 [kiwmi]
 src.git = "https://github.com/buffet/kiwmi"
 fetch.github = "buffet/kiwmi"
@@ -38,12 +34,6 @@ fetch.github = "buffet/kiwmi"
 src.git = "https://git.sr.ht/~alextee/zrythm"
 fetch.git = "https://git.sr.ht/~alextee/zrythm"
 
-[nimlangserver]
-src.git = "https://github.com/nim-lang/langserver"
-fetch.github = "nim-lang/langserver"
-
-# libraries
-
 [libadwaita]
 src.git = "https://gitlab.gnome.org/GNOME/libadwaita"
 fetch.git = "https://gitlab.gnome.org/GNOME/libadwaita"
@@ -51,7 +41,3 @@ fetch.git = "https://gitlab.gnome.org/GNOME/libadwaita"
 [libpanel]
 src.git = "https://gitlab.gnome.org/chergert/libpanel"
 fetch.git = "https://gitlab.gnome.org/chergert/libpanel"
-
-[xmonad-entryhelper]
-src.git = "https://github.com/Javran/xmonad-entryhelper"
-fetch.github = "Javran/xmonad-entryhelper"

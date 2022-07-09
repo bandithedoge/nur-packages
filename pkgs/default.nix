@@ -16,6 +16,4 @@ in {
   kiwmi = callPackage' ./kiwmi.nix;
 
   zrythm = callPackage' ./zrythm.nix;
-
-  nimlangserver = callPackage' ./nimlangserver;
 }
