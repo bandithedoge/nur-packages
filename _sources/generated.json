@@ -112,24 +112,6 @@
         },
         "version": "0475afa54ee12fc1f691102c8186c7fc06fcd357"
     },
-    "libpanel": {
-        "cargoLocks": null,
-        "extract": null,
-        "name": "libpanel",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "deepClone": false,
-            "fetchSubmodules": false,
-            "leaveDotGit": false,
-            "name": null,
-            "rev": "5d7c0ef57c73ca1509395a65efe51d12c553ed6c",
-            "sha256": "sha256-a4lgDp6U7zo7hVseT7HNcGcYwhWCiQFGpU0n+1cD9EM=",
-            "type": "git",
-            "url": "https://gitlab.gnome.org/chergert/libpanel"
-        },
-        "version": "5d7c0ef57c73ca1509395a65efe51d12c553ed6c"
-    },
     "st-flexipatch": {
         "cargoLocks": null,
         "extract": null,

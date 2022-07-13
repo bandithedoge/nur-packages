@@ -68,18 +68,6 @@
       sha256 = "sha256-3ESu34HhsycVV2QNtcxfP7YffCGddKqLTtIkzeJc+GE=";
     };
   };
-  libpanel = {
-    pname = "libpanel";
-    version = "5d7c0ef57c73ca1509395a65efe51d12c553ed6c";
-    src = fetchgit {
-      url = "https://gitlab.gnome.org/chergert/libpanel";
-      rev = "5d7c0ef57c73ca1509395a65efe51d12c553ed6c";
-      fetchSubmodules = false;
-      deepClone = false;
-      leaveDotGit = false;
-      sha256 = "sha256-a4lgDp6U7zo7hVseT7HNcGcYwhWCiQFGpU0n+1cD9EM=";
-    };
-  };
   st-flexipatch = {
     pname = "st-flexipatch";
     version = "dc8abceecaa18c064c23b5296f74a3c55dce2cca";
