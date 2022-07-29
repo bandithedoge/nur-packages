@@ -1390,5 +1390,17 @@
         "type": "tarball",
         "url": "https://github.com/someone-stole-my-name/yaml-companion.nvim/archive/ab42ea608dfb8e82adb506cc90f85786efa37923.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "yuck.vim": {
+        "branch": "master",
+        "description": null,
+        "homepage": null,
+        "owner": "elkowar",
+        "repo": "yuck.vim",
+        "rev": "6dc3da77c53820c32648cf67cbdbdfb6994f4e08",
+        "sha256": "0890cyxnnvbbhv1irm0nxl5x7a49h1327cmhl1gmayigd4jym7ln",
+        "type": "tarball",
+        "url": "https://github.com/elkowar/yuck.vim/archive/6dc3da77c53820c32648cf67cbdbdfb6994f4e08.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     }
 }
