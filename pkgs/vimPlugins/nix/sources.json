@@ -589,14 +589,14 @@
     },
     "lspsaga.nvim": {
         "branch": "main",
-        "description": "The neovim language-server-client UI",
+        "description": "neovim lsp plugin ",
         "homepage": "",
-        "owner": "tami5",
+        "owner": "glepnir",
         "repo": "lspsaga.nvim",
-        "rev": "ea39528f8eab7af4bcd8b0f88abfad86e3ea2995",
-        "sha256": "0l5hqmk8dp2rjr1hdppvjr376dv216rp05jkk8fx3p7cyzj19wjk",
+        "rev": "014aeb8be75d927960914d442bf81ada4e24295b",
+        "sha256": "1h6dinzjry6mxwpqd52vhgykafxris3vgzlyp6b6hsjnba1xrc0x",
         "type": "tarball",
-        "url": "https://github.com/tami5/lspsaga.nvim/archive/ea39528f8eab7af4bcd8b0f88abfad86e3ea2995.tar.gz",
+        "url": "https://github.com/glepnir/lspsaga.nvim/archive/014aeb8be75d927960914d442bf81ada4e24295b.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "lua-dev.nvim": {
