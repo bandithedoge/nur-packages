@@ -983,6 +983,18 @@
         "url": "https://github.com/sitiom/nvim-numbertoggle/archive/1b10222a338b511a9f54ad4ace9abe1d054fdf3b.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "nvim-parinfer": {
+        "branch": "master",
+        "description": "parinfer for Neovim",
+        "homepage": "",
+        "owner": "gpanders",
+        "repo": "nvim-parinfer",
+        "rev": "82bce5798993f4fe5ced20e74003b492490b4fe8",
+        "sha256": "1dzhlaxxf6cf6jcd2a5y97y7li6wkwjhg1q7rny3lkwrf2kxyp0f",
+        "type": "tarball",
+        "url": "https://github.com/gpanders/nvim-parinfer/archive/82bce5798993f4fe5ced20e74003b492490b4fe8.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "nvim-scrollbar": {
         "branch": "main",
         "description": "Extensible Neovim Scrollbar",
