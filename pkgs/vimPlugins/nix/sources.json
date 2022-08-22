@@ -383,6 +383,18 @@
         "url": "https://github.com/rafamadriz/friendly-snippets/archive/6227548c97d7bd7d2f5f0897814c16649fcce368.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "fzf-lua": {
+        "branch": "main",
+        "description": "Improved fzf.vim written in lua",
+        "homepage": null,
+        "owner": "ibhagwan",
+        "repo": "fzf-lua",
+        "rev": "c56c492218ea94549b195fd3c48b760443bf0090",
+        "sha256": "1mcn7w2xjbghch4s0ipc8mhm3x8pk26ipb4d9w3x9zvmf3rbj4g7",
+        "type": "tarball",
+        "url": "https://github.com/ibhagwan/fzf-lua/archive/c56c492218ea94549b195fd3c48b760443bf0090.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "gitsigns.nvim": {
         "branch": "main",
         "description": "Git integration for buffers",
