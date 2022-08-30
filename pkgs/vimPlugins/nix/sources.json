@@ -1031,6 +1031,18 @@
         "url": "https://github.com/kyazdani42/nvim-tree.lua/archive/e8bf3d778a74882d748f55d67af206fa8b321d99.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "nvim-treesitter": {
+        "branch": "master",
+        "description": "Nvim Treesitter configurations and abstraction layer",
+        "homepage": "",
+        "owner": "nvim-treesitter",
+        "repo": "nvim-treesitter",
+        "rev": "f0c9a186eab06d7e4dcd78c973dcb60b702ac5d2",
+        "sha256": "0k4s4i7k3m49gi483l13sz8jnxqx2mh47qk5yw2pxi9m0k0s5qrx",
+        "type": "tarball",
+        "url": "https://github.com/nvim-treesitter/nvim-treesitter/archive/f0c9a186eab06d7e4dcd78c973dcb60b702ac5d2.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "nvim-treesitter-textsubjects": {
         "branch": "master",
         "description": "Location and syntax aware text objects which *do what you mean*",
