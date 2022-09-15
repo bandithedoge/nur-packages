@@ -95,6 +95,18 @@
         "url": "https://github.com/akinsho/bufferline.nvim/archive/ffa1d0009f5e52d3d32d08c9a781f18b2b2ef507.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "chartoggle.nvim": {
+        "branch": "main",
+        "description": "Toggle character in Neovim",
+        "homepage": null,
+        "owner": "saifulapm",
+        "repo": "chartoggle.nvim",
+        "rev": "e96641c7ee7972033f832b7f4af78d9ed04b130f",
+        "sha256": "0lxj7znqa94ka8j84if1lzkqpy8jbp8bshmyn6h50lzdhi78zyj7",
+        "type": "tarball",
+        "url": "https://github.com/saifulapm/chartoggle.nvim/archive/e96641c7ee7972033f832b7f4af78d9ed04b130f.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "cheatsheet.nvim": {
         "branch": "master",
         "description": "A cheatsheet plugin for neovim with bundled cheatsheets for the editor, multiple vim plugins, nerd-fonts, regex, etc. with a Telescope fuzzy finder interface !",
@@ -249,6 +261,18 @@
         "sha256": "1caaaa2ngrabq3i0b4x88y2r0adxx2s3vjz5q1bwvds7wq07slma",
         "type": "tarball",
         "url": "https://github.com/Saecki/crates.nvim/archive/003442e2448870f6f2fab6ec7ac7b4de21e6d1d4.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "detect-language.nvim": {
+        "branch": "main",
+        "description": "neovim plugin for better language auto-detection, powered by tree-sitter",
+        "homepage": "",
+        "owner": "spywhere",
+        "repo": "detect-language.nvim",
+        "rev": "5735c97f1bafbc4dcd577e47893e9ce0aee646be",
+        "sha256": "12b715lmphqvhs4rh45vxjr70y162gix4cbiv0jlha0xa3kzvjp4",
+        "type": "tarball",
+        "url": "https://github.com/spywhere/detect-language.nvim/archive/5735c97f1bafbc4dcd577e47893e9ce0aee646be.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "diaglist.nvim": {
@@ -587,6 +611,18 @@
         "url": "https://github.com/Chromosore/lazily-nvim/archive/a12d7eddf8d56ae14fe617c3bce2d7ba47572d45.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "legendary.nvim": {
+        "branch": "master",
+        "description": "🗺️ A legend for your keymaps, commands, and autocmds, with which-key.nvim integration",
+        "homepage": "",
+        "owner": "mrjones2014",
+        "repo": "legendary.nvim",
+        "rev": "a7ded867f33600ae7cefdcdd8cdb1ab486427b33",
+        "sha256": "0hz5n1jnbjyr985ynk25xdjpwkwbwkkam4463x4d8y46x388sk21",
+        "type": "tarball",
+        "url": "https://github.com/mrjones2014/legendary.nvim/archive/a7ded867f33600ae7cefdcdd8cdb1ab486427b33.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "lsp_extensions.nvim": {
         "branch": "master",
         "description": "Repo to hold a bunch of info & extension callbacks for built-in LSP. Use at your own risk :wink:",
@@ -753,6 +789,18 @@
         "sha256": "0z7qak1b448vrmw9j3d2fkqk69h6aqi6vhn1r59bd16vsqa1fix9",
         "type": "tarball",
         "url": "https://github.com/nvim-neo-tree/neo-tree.nvim/archive/b13425d57111a7885961110f8e51907fa630642b.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "neodim": {
+        "branch": "master",
+        "description": "Neovim plugin for dimming the highlights of unused functions, variables, parameters, and more",
+        "homepage": "",
+        "owner": "zbirenbaum",
+        "repo": "neodim",
+        "rev": "6632650ca9789b8073e2d85e7a6665e8035e6941",
+        "sha256": "0skqay8zxrgm3i8kn41h418z53w7q13sz5i0i92p3gx1wkp8aqq4",
+        "type": "tarball",
+        "url": "https://github.com/zbirenbaum/neodim/archive/6632650ca9789b8073e2d85e7a6665e8035e6941.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "neogen": {
@@ -1413,6 +1461,18 @@
         "sha256": "1yx3bar8gsapaka0x9bkm5d7frzz3k1kpwbc7n110f5x3cirf1yx",
         "type": "tarball",
         "url": "https://github.com/tami5/sqlite.lua/archive/56c5aacd5e31496d9b3cd3d1b0e570bb9a65d35b.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "stabilize.nvim": {
+        "branch": "master",
+        "description": "Neovim plugin to stabilize window open/close events.",
+        "homepage": "",
+        "owner": "luukvbaal",
+        "repo": "stabilize.nvim",
+        "rev": "f7c4d93d6822df1770a90b7fdb46f6df5c94052e",
+        "sha256": "01ngpjnpppazq4dqfwrdc2jkgz5ikpxkscsy0gc89lyi4q2srpai",
+        "type": "tarball",
+        "url": "https://github.com/luukvbaal/stabilize.nvim/archive/f7c4d93d6822df1770a90b7fdb46f6df5c94052e.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "tabby.nvim": {
