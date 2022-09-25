@@ -1,7 +1,6 @@
 {
     "dmenu-flexipatch": {
         "cargoLocks": null,
-        "date": "2022-09-05",
         "extract": null,
         "name": "dmenu-flexipatch",
         "passthru": null,
@@ -21,7 +20,6 @@
     },
     "dwm-flexipatch": {
         "cargoLocks": null,
-        "date": "2022-09-18",
         "extract": null,
         "name": "dwm-flexipatch",
         "passthru": null,
@@ -41,7 +39,6 @@
     },
     "kiwmi": {
         "cargoLocks": null,
-        "date": "2022-07-30",
         "extract": null,
         "name": "kiwmi",
         "passthru": null,
@@ -61,7 +58,6 @@
     },
     "libadwaita": {
         "cargoLocks": null,
-        "date": "2022-09-23",
         "extract": null,
         "name": "libadwaita",
         "passthru": null,
@@ -80,7 +76,6 @@
     },
     "lua-dbus": {
         "cargoLocks": null,
-        "date": "2015-04-22",
         "extract": null,
         "name": "lua-dbus",
         "passthru": null,
@@ -100,7 +95,6 @@
     },
     "lua-dbus_proxy": {
         "cargoLocks": null,
-        "date": "2022-07-30",
         "extract": null,
         "name": "lua-dbus_proxy",
         "passthru": null,
@@ -120,7 +114,6 @@
     },
     "luakit": {
         "cargoLocks": null,
-        "date": "2022-08-31",
         "extract": null,
         "name": "luakit",
         "passthru": null,
@@ -138,9 +131,27 @@
         },
         "version": "a8b1cd5c0cc0c9a0126e44ccc78b78e962092adc"
     },
+    "lv2vst": {
+        "cargoLocks": null,
+        "extract": null,
+        "name": "lv2vst",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "x42",
+            "repo": "lv2vst",
+            "rev": "30a669a021812da05258519cef9d4202f5ce26c3",
+            "sha256": "sha256-WFVscNivFrsADl7w5pSYx9g+UzK2XUBF7x0Iqg8WKiQ=",
+            "type": "github"
+        },
+        "version": "30a669a021812da05258519cef9d4202f5ce26c3"
+    },
     "slock-flexipatch": {
         "cargoLocks": null,
-        "date": "2022-06-03",
         "extract": null,
         "name": "slock-flexipatch",
         "passthru": null,
@@ -160,7 +171,6 @@
     },
     "st-flexipatch": {
         "cargoLocks": null,
-        "date": "2022-09-24",
         "extract": null,
         "name": "st-flexipatch",
         "passthru": null,
@@ -180,7 +190,6 @@
     },
     "taffybar": {
         "cargoLocks": null,
-        "date": "2022-05-30",
         "extract": null,
         "name": "taffybar",
         "passthru": null,
@@ -200,7 +209,6 @@
     },
     "tailwindcss-intellisense": {
         "cargoLocks": null,
-        "date": "2022-09-13",
         "extract": null,
         "name": "tailwindcss-intellisense",
         "passthru": null,
@@ -220,7 +228,6 @@
     },
     "xmonad-entryhelper": {
         "cargoLocks": null,
-        "date": "2022-05-18",
         "extract": null,
         "name": "xmonad-entryhelper",
         "passthru": null,
@@ -240,7 +247,6 @@
     },
     "zix": {
         "cargoLocks": null,
-        "date": "2022-09-08",
         "extract": null,
         "name": "zix",
         "passthru": null,
@@ -260,7 +266,6 @@
     },
     "zrythm": {
         "cargoLocks": null,
-        "date": "2022-09-24",
         "extract": null,
         "name": "zrythm",
         "passthru": null,
