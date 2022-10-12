@@ -6,26 +6,26 @@
 }: {
   cardinal = {
     pname = "cardinal";
-    version = "896c1ab73200f6e6a80302396a40b12320bc917b";
-    src = fetchFromGitHub ({
+    version = "3a9b6623c52f57f2819acd1b7e251f914210b8be";
+    src = fetchFromGitHub {
       owner = "DISTRHO";
       repo = "Cardinal";
-      rev = "896c1ab73200f6e6a80302396a40b12320bc917b";
+      rev = "3a9b6623c52f57f2819acd1b7e251f914210b8be";
       fetchSubmodules = true;
-      sha256 = "sha256-hEHfJESomsC6Dbb97NUrANrPar4JifsuyX84cKNPQ8g=";
-    });
-    date = "2022-10-11";
+      sha256 = "sha256-qORQHwmUQjene4sqHcPlRaANYACtryE9XwxT0io0+CQ=";
+    };
+    date = "2022-10-12";
   };
   carla = {
     pname = "carla";
     version = "bae7149b0d9145b23d98be625b9ed98342783e29";
-    src = fetchFromGitHub ({
+    src = fetchFromGitHub {
       owner = "falkTX";
       repo = "Carla";
       rev = "bae7149b0d9145b23d98be625b9ed98342783e29";
       fetchSubmodules = false;
       sha256 = "sha256-6tCh2G33Q7mfqzscWmeIf1r56qcYcJwuariNJfIldAM=";
-    });
+    };
     date = "2022-10-12";
   };
   dmenu-flexipatch = {
@@ -43,13 +43,13 @@
   dwm-flexipatch = {
     pname = "dwm-flexipatch";
     version = "9a5378440c57718e6d219418eee4fd4f90704e74";
-    src = fetchFromGitHub ({
+    src = fetchFromGitHub {
       owner = "bakkeby";
       repo = "dwm-flexipatch";
       rev = "9a5378440c57718e6d219418eee4fd4f90704e74";
       fetchSubmodules = false;
       sha256 = "sha256-BgftYzaJf0e/o111xYcU83KboVniuwKzUReah5WwbAY=";
-    });
+    };
     date = "2022-10-10";
   };
   keepmenu = {
@@ -160,13 +160,13 @@
   taffybar = {
     pname = "taffybar";
     version = "4129b2aed4349752dd9a1b47676d457883d95490";
-    src = fetchFromGitHub ({
+    src = fetchFromGitHub {
       owner = "taffybar";
       repo = "taffybar";
       rev = "4129b2aed4349752dd9a1b47676d457883d95490";
       fetchSubmodules = false;
       sha256 = "sha256-nlClc8iPZhgn+95CmGuKMsueHdruPpYWBtUCD9fgDig=";
-    });
+    };
     date = "2022-10-10";
   };
   tailwindcss-intellisense = {
