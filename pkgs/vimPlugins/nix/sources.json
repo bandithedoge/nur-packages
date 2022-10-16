@@ -455,6 +455,18 @@
         "url": "https://github.com/ibhagwan/fzf-lua/archive/025d8c5ef8495aef838ac8e6be47f8da1bd9cc2c.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "galaxyline.nvim": {
+        "branch": "main",
+        "description": "neovim statusline plugin written in lua ",
+        "homepage": null,
+        "owner": "glepnir",
+        "repo": "galaxyline.nvim",
+        "rev": "eb81be07bf690c5ef7474ace72920b32ad089585",
+        "sha256": "1i4khr7nigmnxxsbrnas3aw3fw56p5pgnfchg36q2yzv5mr0mpzg",
+        "type": "tarball",
+        "url": "https://github.com/glepnir/galaxyline.nvim/archive/eb81be07bf690c5ef7474ace72920b32ad089585.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "gitsigns.nvim": {
         "branch": "main",
         "description": "Git integration for buffers",
@@ -1473,6 +1485,18 @@
         "sha256": "0ik3p1p3wndclw7a72rx507fzk6d9zv6b75lahd0sp9ra9xhzc86",
         "type": "tarball",
         "url": "https://github.com/luukvbaal/stabilize.nvim/archive/34069870a8e72632c5447188e638e1c6bfebc353.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "staline.nvim": {
+        "branch": "main",
+        "description": "A modern lightweight statusline and bufferline plugin for neovim in lua. Mainly uses unicode symbols for showing info.",
+        "homepage": "",
+        "owner": "tamton-aquib",
+        "repo": "staline.nvim",
+        "rev": "c2ac9411815cf7fb135d798174ff5782e1b64075",
+        "sha256": "15wpb6fk7q467blydj6fas716l47vyvxkkr4g4zdyq5h5g6fxfyb",
+        "type": "tarball",
+        "url": "https://github.com/tamton-aquib/staline.nvim/archive/c2ac9411815cf7fb135d798174ff5782e1b64075.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "tabby.nvim": {
