@@ -863,6 +863,18 @@
         "url": "https://github.com/zah/nim.vim/archive/a15714fea392b0f06ff2b282921a68c7033e39a2.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "noice.nvim": {
+        "branch": "main",
+        "description": "💥 Highly experimental plugin that completely replaces the UI for messages, cmdline and the popupmenu.",
+        "homepage": "",
+        "owner": "folke",
+        "repo": "noice.nvim",
+        "rev": "2122caf02fc2bf89c605371818c4b5451791b67c",
+        "sha256": "0nzijfzi1dxa2in0vmx2dvxivy84j7g9wzv5hmjx8lwhyjmglyqc",
+        "type": "tarball",
+        "url": "https://github.com/folke/noice.nvim/archive/2122caf02fc2bf89c605371818c4b5451791b67c.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "notifier.nvim": {
         "branch": "master",
         "description": "Non-intrusive notification system for neovim",
