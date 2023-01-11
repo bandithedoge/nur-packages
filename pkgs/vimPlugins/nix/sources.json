@@ -228,15 +228,15 @@
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "colortils.nvim": {
-        "branch": "master",
+        "branch": "main",
         "description": "Some color utils for neovim",
         "homepage": null,
         "owner": "nvim-colortils",
         "repo": "colortils.nvim",
-        "rev": "49bbc9c849fa279378d451765f4a978878691c42",
-        "sha256": "0lr31br06b8qvdmsiwnfha3zblwqs2ibrya25lvr3jn4k5wv8kxl",
+        "rev": "4f4d89ccaac8e544c18ab7101e718604a5cdd6b0",
+        "sha256": "1r53j8vgaqjyf3pgmnzs67li9wwwchgaxmbwqbdmf7mj0vy287cj",
         "type": "tarball",
-        "url": "https://github.com/nvim-colortils/colortils.nvim/archive/49bbc9c849fa279378d451765f4a978878691c42.tar.gz",
+        "url": "https://github.com/nvim-colortils/colortils.nvim/archive/4f4d89ccaac8e544c18ab7101e718604a5cdd6b0.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "coq_nvim": {
