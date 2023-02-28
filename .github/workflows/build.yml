@@ -11,26 +11,39 @@ jobs:
   tests:
     runs-on: ubuntu-latest
     steps:
+      - name: Free disk space
+        uses: jlumbroso/free-disk-space@v1.2.0
+        with:
+          tool-cache: true
+
       - name: Checkout repository
         uses: actions/checkout@v3
-        with:
-          submodules: recursive
 
       - name: Install nix
         uses: cachix/install-nix-action@v19
         with:
           nix_path: nixpkgs=channel:nixpkgs-unstable
+          # https://github.com/cachix/cachix-action/issues/138
+          install_url: https://releases.nixos.org/nix/nix-2.13.3/install
           extra_nix_config: |
-            experimental-features = nix-command flakes
             access-tokens = github.com=${{ secrets.GITHUB_TOKEN }}
+            keep-derivations = false
 
       - name: Show nixpkgs version
         run: nix-instantiate --eval -E '(import <nixpkgs> {}).lib.version'
 
+      - name: Setup cachix
+        uses: cachix/cachix-action@v12
+        with:
+          name: bandithedoge
+          signingKey: ${{ secrets.CACHIX_SIGNING_KEY }}
+          authToken: ${{ secrets.CACHIX_AUTH_TOKEN }}
+
       - name: Update sources
         run: |
+          nix flake update
           echo -e '[keys]\ngithub = "${{ secrets.GITHUB_TOKEN }}"' > keyfile.toml
-          nix run github:berberman/nvfetcher -- -k keyfile.toml
+          nix run "nixpkgs#nvfetcher" -- -k keyfile.toml
           rm keyfile.toml
 
       - name: Update vim plugins
@@ -53,13 +66,6 @@ jobs:
 
       - name: Format Nix expressions
         run: nix run github:kamadorueda/alejandra .
-
-      - name: Setup cachix
-        uses: cachix/cachix-action@v12
-        with:
-          name: bandithedoge
-          signingKey: ${{ secrets.CACHIX_SIGNING_KEY }}
-          authToken: ${{ secrets.CACHIX_AUTH_TOKEN }}
 
       - name: Check evaluation
         run: |
