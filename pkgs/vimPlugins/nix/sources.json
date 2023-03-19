@@ -263,6 +263,18 @@
         "url": "https://github.com/Saecki/crates.nvim/archive/aa94d3844d6a12b1a8bf73c8a242ff2f540fb749.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "dashboard-nvim": {
+        "branch": "master",
+        "description": "vim dashboard",
+        "homepage": "",
+        "owner": "glepnir",
+        "repo": "dashboard-nvim",
+        "rev": "6e0a35343fc37a2a2ca5ab1734d60fcc06c4cf01",
+        "sha256": "14av4336k72djlc0wnaaj3j53brczmhf4iwib6ywzka1rjhkyp2r",
+        "type": "tarball",
+        "url": "https://github.com/glepnir/dashboard-nvim/archive/6e0a35343fc37a2a2ca5ab1734d60fcc06c4cf01.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "detect-language.nvim": {
         "branch": "main",
         "description": "neovim plugin for better language auto-detection, powered by tree-sitter",
@@ -1413,6 +1425,18 @@
         "sha256": "02hpg77mk7bwssw24jqpfhs4bnia4h6c6i4fs7hdqpzaqvgzvjy6",
         "type": "tarball",
         "url": "https://github.com/vladdoster/remember.nvim/archive/6b4176330a25c42597ac3dba0cdce9aa8b22d60e.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "reticle.nvim": {
+        "branch": "main",
+        "description": "NVIM plugin to highlight only the screen line of the cursor in the currently active window",
+        "homepage": "",
+        "owner": "Tummetott",
+        "repo": "reticle.nvim",
+        "rev": "7290f2649684415a9d3da98957ea44f5421f4f2a",
+        "sha256": "0nzxbnpjrbzlkqx02ih8nx7c6nx5fzakvczgzi1n74ciac1vynia",
+        "type": "tarball",
+        "url": "https://github.com/Tummetott/reticle.nvim/archive/7290f2649684415a9d3da98957ea44f5421f4f2a.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "satellite.nvim": {
