@@ -1225,14 +1225,14 @@
     },
     "nvim-ts-rainbow": {
         "branch": "master",
-        "description": "Rainbow parentheses for neovim using tree-sitter. https://sr.ht/~p00f/nvim-ts-rainbow preferred",
-        "homepage": "",
-        "owner": "p00f",
-        "repo": "nvim-ts-rainbow",
-        "rev": "ef95c15a935f97c65a80e48e12fe72d49aacf9b9",
-        "sha256": "0ldv8g9i25286n0xqa1cj7a2lglcz9564dawz6ixd4ipsysjj571",
+        "description": "Rainbow delimiters for Neovim through Tree-sitter",
+        "homepage": null,
+        "owner": "HiPhish",
+        "repo": "nvim-ts-rainbow2",
+        "rev": "cee4601ff8aac73dee4afa1074814343bb5a0b80",
+        "sha256": "0g0jy6jcpmpia6k8c0i91yjajx9crin4lgwmmmr0dl20yd77gqki",
         "type": "tarball",
-        "url": "https://github.com/p00f/nvim-ts-rainbow/archive/ef95c15a935f97c65a80e48e12fe72d49aacf9b9.tar.gz",
+        "url": "https://github.com/HiPhish/nvim-ts-rainbow2/archive/cee4601ff8aac73dee4afa1074814343bb5a0b80.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nvim-web-devicons": {
