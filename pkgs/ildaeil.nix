@@ -22,4 +22,11 @@ pkgs.stdenv.mkDerivation {
   '';
 
   makeFlags = ["PREFIX=$(out)"];
+
+  meta = with pkgs.lib; {
+    description = "mini-plugin host as plugin";
+    homepage = "https://github.com/DISTRHO/Ildaeil";
+    license = licenses.gpl2;
+    platforms = platforms.linux;
+  };
 }
