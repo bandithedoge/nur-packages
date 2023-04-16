@@ -19,27 +19,27 @@
   };
   cardinal = {
     pname = "cardinal";
-    version = "3f024a0d61dd0761d4143349d624c93a16ebb4cd";
+    version = "a42ca2c5df52f9d300f0e712465cf8082e46d133";
     src = fetchFromGitHub {
       owner = "DISTRHO";
       repo = "Cardinal";
-      rev = "3f024a0d61dd0761d4143349d624c93a16ebb4cd";
+      rev = "a42ca2c5df52f9d300f0e712465cf8082e46d133";
       fetchSubmodules = true;
-      sha256 = "sha256-6qBB3dRRkIVBR7jtHOjhvxza2EIs6yF/1KAzqNRP50Y=";
+      sha256 = "sha256-gVAqTuIQuP5r2GfGbauIYwbjX4tclSInzxBR7bVk3yY=";
     };
-    date = "2023-04-07";
+    date = "2023-04-15";
   };
   carla = {
     pname = "carla";
-    version = "7131a918b284219ccec13c26b87978dce4f57737";
+    version = "cf11562c505407f12a6e6d085ca448fefd7399ba";
     src = fetchFromGitHub {
       owner = "falkTX";
       repo = "Carla";
-      rev = "7131a918b284219ccec13c26b87978dce4f57737";
+      rev = "cf11562c505407f12a6e6d085ca448fefd7399ba";
       fetchSubmodules = false;
-      sha256 = "sha256-kmdZjBTXzCouVGR2r2mH965nl4NnhT2geeioEnkUvSE=";
+      sha256 = "sha256-xvixHpY5D/YY6NMSMQyvMF9h9Rhf24lKF085t0rVuX4=";
     };
-    date = "2023-04-14";
+    date = "2023-04-15";
   };
   dmenu-flexipatch = {
     pname = "dmenu-flexipatch";
@@ -55,13 +55,13 @@
   };
   dpf-plugins = {
     pname = "dpf-plugins";
-    version = "v1.6";
+    version = "v1.7";
     src = fetchFromGitHub {
       owner = "DISTRHO";
       repo = "DPF-Plugins";
-      rev = "v1.6";
+      rev = "v1.7";
       fetchSubmodules = false;
-      sha256 = "sha256-sdsOfEsLHiAZxq8lGVWOTi+0p2FBeeLzbX3OOTgj7QQ=";
+      sha256 = "sha256-768DlGZrD2vNoHAuVh3SxQHCIT4l44qORGWajo4bTiA=";
     };
   };
   dwm-flexipatch = {
@@ -95,15 +95,15 @@
   };
   ildaeil = {
     pname = "ildaeil";
-    version = "b6f33ff1d741597c74923bb7253d72db5cab89f3";
+    version = "952538a74587d2aa92f63802b42bd19aec2dfef4";
     src = fetchFromGitHub {
       owner = "DISTRHO";
       repo = "Ildaeil";
-      rev = "b6f33ff1d741597c74923bb7253d72db5cab89f3";
+      rev = "952538a74587d2aa92f63802b42bd19aec2dfef4";
       fetchSubmodules = true;
-      sha256 = "sha256-CJUQhveFml21cXDxfTNhPk5p7P7CYUwf5gI9PpZ0M7s=";
+      sha256 = "sha256-YGKPXulZkvqcIQl4XfDWrONHq/8EfzZIH2vpR6UMt04=";
     };
-    date = "2023-03-05";
+    date = "2023-04-15";
   };
   keepmenu = {
     pname = "keepmenu";
@@ -189,13 +189,13 @@
   };
   raze = {
     pname = "raze";
-    version = "1.7.0";
+    version = "1.7.1";
     src = fetchFromGitHub {
       owner = "ZDoom";
       repo = "Raze";
-      rev = "1.7.0";
+      rev = "1.7.1";
       fetchSubmodules = false;
-      sha256 = "sha256-JgZ/Nfwel03xYUE0iGu3BVLH61iAAxw7NpE8DVjW/v4=";
+      sha256 = "sha256-8e8F18kYLmEvQF0ZSpgih8hMYfcaZ0otrh26rkju9b4=";
     };
   };
   slock-flexipatch = {

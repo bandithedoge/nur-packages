@@ -173,10 +173,10 @@
   };
   "github-isometric-contributions" = buildFirefoxXpiAddon {
     pname = "github-isometric-contributions";
-    version = "1.1.24";
+    version = "1.1.25";
     addonId = "isometric-contributions@jasonlong.me";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4087901/github_isometric_contributions-1.1.24.xpi";
-    sha256 = "1feb9f2d24a3d8ad50b3c142949071363ccf500c5dcd2762763c5b290231678c";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4097884/github_isometric_contributions-1.1.25.xpi";
+    sha256 = "217b1addeedc76cf8a334c29c60a5dbb4ed0911224ca376122d92bda0af911e8";
     meta = with lib; {
       description = "Renders an isometric pixel view of GitHub contribution graphs.";
       license = licenses.mit;
@@ -314,10 +314,10 @@
   };
   "refined-github" = buildFirefoxXpiAddon {
     pname = "refined-github";
-    version = "23.4.10";
+    version = "23.4.15";
     addonId = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4095054/refined_github-23.4.10.xpi";
-    sha256 = "97be7356c27ad0603eb001c4957f550b03441721aa2e29d08248154b7e977f26";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4097949/refined_github-23.4.15.xpi";
+    sha256 = "022592b8a7c31858c90334d4decfb22ce61dd80ee9b4daafe54d2750210b2ab4";
     meta = with lib; {
       homepage = "https://github.com/sindresorhus/refined-github";
       description = "Simplifies the GitHub interface and adds many useful features.";
