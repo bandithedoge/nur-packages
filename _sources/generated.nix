@@ -19,15 +19,15 @@
   };
   cardinal = {
     pname = "cardinal";
-    version = "a42ca2c5df52f9d300f0e712465cf8082e46d133";
+    version = "23526829960a273433b7203137de70c3faa870cc";
     src = fetchFromGitHub {
       owner = "DISTRHO";
       repo = "Cardinal";
-      rev = "a42ca2c5df52f9d300f0e712465cf8082e46d133";
+      rev = "23526829960a273433b7203137de70c3faa870cc";
       fetchSubmodules = true;
-      sha256 = "sha256-gVAqTuIQuP5r2GfGbauIYwbjX4tclSInzxBR7bVk3yY=";
+      sha256 = "sha256-U9c2nu1qsKTY2rDQ7qQdpCu/TIgkPIKyUA7iPwStWBs=";
     };
-    date = "2023-04-15";
+    date = "2023-04-18";
   };
   carla = {
     pname = "carla";
@@ -236,15 +236,15 @@
   };
   tailwindcss-intellisense = {
     pname = "tailwindcss-intellisense";
-    version = "105b8b86ec69646c402e8b9df197716fb1849ccb";
+    version = "6fa8861efd3830aaeda14fc3100a56c5b45f2e1b";
     src = fetchFromGitHub {
       owner = "tailwindlabs";
       repo = "tailwindcss-intellisense";
-      rev = "105b8b86ec69646c402e8b9df197716fb1849ccb";
+      rev = "6fa8861efd3830aaeda14fc3100a56c5b45f2e1b";
       fetchSubmodules = false;
-      sha256 = "sha256-tyLFtbKHdewKBDzXe+2juongc4A0v5md0LhNyINNOig=";
+      sha256 = "sha256-ZO47b54oAoubSQHSPC6/56Zm2ROyO0gWANCsEOZQ45M=";
     };
-    date = "2023-04-17";
+    date = "2023-04-18";
   };
   xmonad-entryhelper = {
     pname = "xmonad-entryhelper";

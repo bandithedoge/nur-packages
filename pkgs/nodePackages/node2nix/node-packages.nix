@@ -131,10 +131,10 @@ in {
   emmet-ls = nodeEnv.buildNodePackage {
     name = "emmet-ls";
     packageName = "emmet-ls";
-    version = "0.3.1";
+    version = "0.4.1";
     src = fetchurl {
-      url = "https://registry.npmjs.org/emmet-ls/-/emmet-ls-0.3.1.tgz";
-      sha512 = "SbNxxpLHnkaT/lA8CpOnnu1fH+VMzEAniAoyqQV+CGVJ9BYwHbaDlOPRckoJFK/6czWCQqDWax1Gk5Pa+HrNmA==";
+      url = "https://registry.npmjs.org/emmet-ls/-/emmet-ls-0.4.1.tgz";
+      sha512 = "T9z7ZWJWMgppDFfO80pZm2MBiQQgU/WN8TbSDh0zUUSR+xUwkjIMtX+OYRWs+3ZKCXaDa2RF6/HQzDMP22BncA==";
     };
     dependencies = [
       sources."@emmetio/abbreviation-2.3.1"
