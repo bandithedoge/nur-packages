@@ -383,6 +383,18 @@
         "url": "https://github.com/gpanders/editorconfig.nvim/archive/5b9e303e1d6f7abfe616ce4cc8d3fffc554790bf.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "faust-nvim": {
+        "branch": "main",
+        "description": "NeoVim plugin for writing Faust DSP code",
+        "homepage": "",
+        "owner": "madskjeldgaard",
+        "repo": "faust-nvim",
+        "rev": "d6e8b1658233df74ac8dc1dc84a3f7568dc00586",
+        "sha256": "0zf8zfc6baxd93w5iyhldcda5izb5ldrxb0wkcxqkp95azsc871w",
+        "type": "tarball",
+        "url": "https://github.com/madskjeldgaard/faust-nvim/archive/d6e8b1658233df74ac8dc1dc84a3f7568dc00586.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "fidget.nvim": {
         "branch": "main",
         "description": "Standalone UI for nvim-lsp progress",
@@ -1749,6 +1761,18 @@
         "sha256": "07k7whr32x782jyvzl2vg6c2pdrj5jynf4b4f2my7502rgv03w02",
         "type": "tarball",
         "url": "https://github.com/kchmck/vim-coffee-script/archive/28421258a8dde5a50deafbfc19cd9873cacfaa79.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "vim-faust": {
+        "branch": "main",
+        "description": "This is a Vim syntax-highlighting plugin for Faust based on the original file in the Faust repository.",
+        "homepage": "http://gmoe.github.io/vim-faust",
+        "owner": "gmoe",
+        "repo": "vim-faust",
+        "rev": "6c329ddf32349e4f161e0c7a3570ad095fd8acc8",
+        "sha256": "1z5by6qn21vpq86ca24xzx5kz3q151cfqskqm4g7liwaj2hrkbc4",
+        "type": "tarball",
+        "url": "https://github.com/gmoe/vim-faust/archive/6c329ddf32349e4f161e0c7a3570ad095fd8acc8.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "vim-parinfer": {
