@@ -497,10 +497,10 @@
         "homepage": null,
         "owner": "ibhagwan",
         "repo": "fzf-lua",
-        "rev": "624e39d982dcc47d445217d272266a1c623b7a5f",
-        "sha256": "0glx309lm5phq4g2l2dj3qa0s9dbvj9j8jdjk9blgidp3pws9w1v",
+        "rev": "44f1ec92b57f15745f5f21cf224e521ce9ba0b66",
+        "sha256": "0g2sydkmj7rx7gkfb1aaaiq0y5rxxj6m8fvd87qyiqz5685p4ih2",
         "type": "tarball",
-        "url": "https://github.com/ibhagwan/fzf-lua/archive/624e39d982dcc47d445217d272266a1c623b7a5f.tar.gz",
+        "url": "https://github.com/ibhagwan/fzf-lua/archive/44f1ec92b57f15745f5f21cf224e521ce9ba0b66.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "galaxyline.nvim": {
@@ -1217,10 +1217,10 @@
         "homepage": "",
         "owner": "nvim-treesitter",
         "repo": "nvim-treesitter",
-        "rev": "831f37635df26864a397a5e35450eec97bfe60cd",
-        "sha256": "1lm3pp7svvcxyfx3f22l4004sjg6mnj05vsx8jhpg1ppixwz192a",
+        "rev": "481d1eda24eed1f5184c38f16960fd99c2bb9a37",
+        "sha256": "0c6wbbd497vqxrkxcr9aax2xgzfkaimvl3qb4rqagn88gm7nap8n",
         "type": "tarball",
-        "url": "https://github.com/nvim-treesitter/nvim-treesitter/archive/831f37635df26864a397a5e35450eec97bfe60cd.tar.gz",
+        "url": "https://github.com/nvim-treesitter/nvim-treesitter/archive/481d1eda24eed1f5184c38f16960fd99c2bb9a37.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nvim-treesitter-textsubjects": {
@@ -1553,10 +1553,10 @@
         "homepage": "",
         "owner": "tami5",
         "repo": "sqlite.lua",
-        "rev": "376e4735c48e07dade3e6ff5f09a654a04f5d4ba",
-        "sha256": "1l6c9z72kfnj4pzhipnscprvlmbw44jhrvbi14pplvj7wk9x9c85",
+        "rev": "b7e28c8463254c46a8e61c52d27d6a2040492fc3",
+        "sha256": "0dx4d29zfp7psp2x42lpag0midadk51fcjiyw4hq570sd0j44jaw",
         "type": "tarball",
-        "url": "https://github.com/tami5/sqlite.lua/archive/376e4735c48e07dade3e6ff5f09a654a04f5d4ba.tar.gz",
+        "url": "https://github.com/tami5/sqlite.lua/archive/b7e28c8463254c46a8e61c52d27d6a2040492fc3.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "stabilize.nvim": {
