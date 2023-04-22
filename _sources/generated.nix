@@ -43,15 +43,15 @@
   };
   dmenu-flexipatch = {
     pname = "dmenu-flexipatch";
-    version = "0329c28407217e82e5e5829078a8415e764ae666";
+    version = "fc8c1c56c6548660e3b32a18327ca8f0d98e8e33";
     src = fetchFromGitHub {
       owner = "bakkeby";
       repo = "dmenu-flexipatch";
-      rev = "0329c28407217e82e5e5829078a8415e764ae666";
+      rev = "fc8c1c56c6548660e3b32a18327ca8f0d98e8e33";
       fetchSubmodules = false;
-      sha256 = "sha256-xs87cczRy34cE6ImEyZ8x8AnmFuhYDV9zEtsSiTS3bM=";
+      sha256 = "sha256-hoROVS3unzHP6DY0N2KMsnF05rVqWUi19dvaqNACexs=";
     };
-    date = "2023-04-11";
+    date = "2023-04-21";
   };
   dpf-plugins = {
     pname = "dpf-plugins";
@@ -283,15 +283,15 @@
   };
   zrythm = {
     pname = "zrythm";
-    version = "3f24933de86c74fafcc4dd47e8c1acc95a1e227f";
+    version = "1bf7bb02c3b763ce8fa3d02b7109cd7036a7dbf1";
     src = fetchgit {
       url = "https://git.sr.ht/~alextee/zrythm";
-      rev = "3f24933de86c74fafcc4dd47e8c1acc95a1e227f";
+      rev = "1bf7bb02c3b763ce8fa3d02b7109cd7036a7dbf1";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-OejlMd/KdZsIpm8ZhlxdDN/mTfpoW42BGRxt4/xSXtE=";
+      sha256 = "sha256-d5BjM5K2OguiqC6109Pc9huk/6yMxbh3pt7iwjMgL54=";
     };
-    date = "2023-04-20";
+    date = "2023-04-22";
   };
 }
