@@ -19,27 +19,27 @@
   };
   cardinal = {
     pname = "cardinal";
-    version = "5555e22d43177c92e4294d55fb054872881e7b17";
+    version = "26e206f3d8ef3ad9a28056a114146c7f41445ad9";
     src = fetchFromGitHub {
       owner = "DISTRHO";
       repo = "Cardinal";
-      rev = "5555e22d43177c92e4294d55fb054872881e7b17";
+      rev = "26e206f3d8ef3ad9a28056a114146c7f41445ad9";
       fetchSubmodules = true;
-      sha256 = "sha256-VlPC3vM5SihI4zKbFAIA6qgfFPSiYXeJEvp7QroDBww=";
+      sha256 = "sha256-93JW+dmLL+iAxmNh9mETmqP0cI7ouqF4/0A0XtmEgvg=";
     };
-    date = "2023-04-20";
+    date = "2023-04-23";
   };
   carla = {
     pname = "carla";
-    version = "5adae9496f3bd3a35373b2644af1ee902e624390";
+    version = "3b92085050c3dc00ac304e100ad648d55c067e65";
     src = fetchFromGitHub {
       owner = "falkTX";
       repo = "Carla";
-      rev = "5adae9496f3bd3a35373b2644af1ee902e624390";
+      rev = "3b92085050c3dc00ac304e100ad648d55c067e65";
       fetchSubmodules = false;
-      sha256 = "sha256-9q8bTMjhh3oGWZt5sXlATeFX2nIC2fDmm9RoSkbAZ7Y=";
+      sha256 = "sha256-YCRGkRSzBSY2cv4F/NCAOnrCEpZa7DY4unAAlVzjLKU=";
     };
-    date = "2023-04-20";
+    date = "2023-04-23";
   };
   dmenu-flexipatch = {
     pname = "dmenu-flexipatch";
@@ -95,15 +95,15 @@
   };
   ildaeil = {
     pname = "ildaeil";
-    version = "952538a74587d2aa92f63802b42bd19aec2dfef4";
+    version = "bb049f7e549c54266c0ae9b91d9784821dba55bb";
     src = fetchFromGitHub {
       owner = "DISTRHO";
       repo = "Ildaeil";
-      rev = "952538a74587d2aa92f63802b42bd19aec2dfef4";
+      rev = "bb049f7e549c54266c0ae9b91d9784821dba55bb";
       fetchSubmodules = true;
-      sha256 = "sha256-YGKPXulZkvqcIQl4XfDWrONHq/8EfzZIH2vpR6UMt04=";
+      sha256 = "sha256-3u1+kYZgBsnbcY2kH5IVrc3Lgq7NFDQ1YjXhuiLQ+DI=";
     };
-    date = "2023-04-15";
+    date = "2023-04-22";
   };
   keepmenu = {
     pname = "keepmenu";
@@ -283,14 +283,14 @@
   };
   zrythm = {
     pname = "zrythm";
-    version = "1bf7bb02c3b763ce8fa3d02b7109cd7036a7dbf1";
+    version = "e0fc2a42927f88a5b7a48c703e577a6e2c745b4c";
     src = fetchgit {
       url = "https://git.sr.ht/~alextee/zrythm";
-      rev = "1bf7bb02c3b763ce8fa3d02b7109cd7036a7dbf1";
+      rev = "e0fc2a42927f88a5b7a48c703e577a6e2c745b4c";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-d5BjM5K2OguiqC6109Pc9huk/6yMxbh3pt7iwjMgL54=";
+      sha256 = "sha256-KQvcw42Z56aSlv/GAXbu75A9HRFHQ8tA0AE7J2uEa2Q=";
     };
     date = "2023-04-22";
   };

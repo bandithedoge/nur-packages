@@ -21,7 +21,7 @@
     },
     "cardinal": {
         "cargoLocks": null,
-        "date": "2023-04-20",
+        "date": "2023-04-23",
         "extract": null,
         "name": "cardinal",
         "passthru": null,
@@ -33,15 +33,15 @@
             "name": null,
             "owner": "DISTRHO",
             "repo": "Cardinal",
-            "rev": "5555e22d43177c92e4294d55fb054872881e7b17",
-            "sha256": "sha256-VlPC3vM5SihI4zKbFAIA6qgfFPSiYXeJEvp7QroDBww=",
+            "rev": "26e206f3d8ef3ad9a28056a114146c7f41445ad9",
+            "sha256": "sha256-93JW+dmLL+iAxmNh9mETmqP0cI7ouqF4/0A0XtmEgvg=",
             "type": "github"
         },
-        "version": "5555e22d43177c92e4294d55fb054872881e7b17"
+        "version": "26e206f3d8ef3ad9a28056a114146c7f41445ad9"
     },
     "carla": {
         "cargoLocks": null,
-        "date": "2023-04-20",
+        "date": "2023-04-23",
         "extract": null,
         "name": "carla",
         "passthru": null,
@@ -53,11 +53,11 @@
             "name": null,
             "owner": "falkTX",
             "repo": "Carla",
-            "rev": "5adae9496f3bd3a35373b2644af1ee902e624390",
-            "sha256": "sha256-9q8bTMjhh3oGWZt5sXlATeFX2nIC2fDmm9RoSkbAZ7Y=",
+            "rev": "3b92085050c3dc00ac304e100ad648d55c067e65",
+            "sha256": "sha256-YCRGkRSzBSY2cv4F/NCAOnrCEpZa7DY4unAAlVzjLKU=",
             "type": "github"
         },
-        "version": "5adae9496f3bd3a35373b2644af1ee902e624390"
+        "version": "3b92085050c3dc00ac304e100ad648d55c067e65"
     },
     "dmenu-flexipatch": {
         "cargoLocks": null,
@@ -146,7 +146,7 @@
     },
     "ildaeil": {
         "cargoLocks": null,
-        "date": "2023-04-15",
+        "date": "2023-04-22",
         "extract": null,
         "name": "ildaeil",
         "passthru": null,
@@ -158,11 +158,11 @@
             "name": null,
             "owner": "DISTRHO",
             "repo": "Ildaeil",
-            "rev": "952538a74587d2aa92f63802b42bd19aec2dfef4",
-            "sha256": "sha256-YGKPXulZkvqcIQl4XfDWrONHq/8EfzZIH2vpR6UMt04=",
+            "rev": "bb049f7e549c54266c0ae9b91d9784821dba55bb",
+            "sha256": "sha256-3u1+kYZgBsnbcY2kH5IVrc3Lgq7NFDQ1YjXhuiLQ+DI=",
             "type": "github"
         },
-        "version": "952538a74587d2aa92f63802b42bd19aec2dfef4"
+        "version": "bb049f7e549c54266c0ae9b91d9784821dba55bb"
     },
     "keepmenu": {
         "cargoLocks": null,
@@ -476,11 +476,11 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "1bf7bb02c3b763ce8fa3d02b7109cd7036a7dbf1",
-            "sha256": "sha256-d5BjM5K2OguiqC6109Pc9huk/6yMxbh3pt7iwjMgL54=",
+            "rev": "e0fc2a42927f88a5b7a48c703e577a6e2c745b4c",
+            "sha256": "sha256-KQvcw42Z56aSlv/GAXbu75A9HRFHQ8tA0AE7J2uEa2Q=",
             "type": "git",
             "url": "https://git.sr.ht/~alextee/zrythm"
         },
-        "version": "1bf7bb02c3b763ce8fa3d02b7109cd7036a7dbf1"
+        "version": "e0fc2a42927f88a5b7a48c703e577a6e2c745b4c"
     }
 }
