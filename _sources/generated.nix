@@ -19,15 +19,15 @@
   };
   cardinal = {
     pname = "cardinal";
-    version = "a92384535feff66a69c80f10953a60b303a1c8fc";
+    version = "2c7bcfbb4abda087e967843a20f59d4b2fad0434";
     src = fetchFromGitHub {
       owner = "DISTRHO";
       repo = "Cardinal";
-      rev = "a92384535feff66a69c80f10953a60b303a1c8fc";
+      rev = "2c7bcfbb4abda087e967843a20f59d4b2fad0434";
       fetchSubmodules = true;
-      sha256 = "sha256-brGD83gxi4NDnzjeh0P09OaI2YVl9t/tKJTvzORzkzA=";
+      sha256 = "sha256-YFMkniyY5pv/AtnN75JP16CjWhgki+WqhaDS5Ze97ps=";
     };
-    date = "2023-04-24";
+    date = "2023-04-25";
   };
   carla = {
     pname = "carla";
@@ -236,15 +236,15 @@
   };
   tailwindcss-intellisense = {
     pname = "tailwindcss-intellisense";
-    version = "6fa8861efd3830aaeda14fc3100a56c5b45f2e1b";
+    version = "752cd5eae4456f4f40b5cc2773f230ebe395322d";
     src = fetchFromGitHub {
       owner = "tailwindlabs";
       repo = "tailwindcss-intellisense";
-      rev = "6fa8861efd3830aaeda14fc3100a56c5b45f2e1b";
+      rev = "752cd5eae4456f4f40b5cc2773f230ebe395322d";
       fetchSubmodules = false;
-      sha256 = "sha256-ZO47b54oAoubSQHSPC6/56Zm2ROyO0gWANCsEOZQ45M=";
+      sha256 = "sha256-nDOZeBlF0Rx1l54ji3b1t5BOt9FH2LZtbOWiRHdIzUQ=";
     };
-    date = "2023-04-18";
+    date = "2023-04-24";
   };
   xmonad-entryhelper = {
     pname = "xmonad-entryhelper";
@@ -260,15 +260,15 @@
   };
   zix = {
     pname = "zix";
-    version = "262d4a1522c38be0588746e874159da5c7bb457d";
+    version = "9e966d0f5a11bb43d17a56aab1ed9a43b8c2a112";
     src = fetchFromGitHub {
       owner = "drobilla";
       repo = "zix";
-      rev = "262d4a1522c38be0588746e874159da5c7bb457d";
+      rev = "9e966d0f5a11bb43d17a56aab1ed9a43b8c2a112";
       fetchSubmodules = false;
-      sha256 = "sha256-3vuefgnirM4ksK3j9sjBHgOmx0JpL+6tCPb69/7jI00=";
+      sha256 = "sha256-ixJqSbNglGd+lSL71kZbj7ktnd8Ax4HvxU++wEPcQcs=";
     };
-    date = "2023-02-13";
+    date = "2023-04-24";
   };
   zmusic = {
     pname = "zmusic";
