@@ -147,10 +147,10 @@
   };
   "gitako" = buildFirefoxXpiAddon {
     pname = "gitako";
-    version = "3.10.3";
+    version = "3.11.0";
     addonId = "{983bd86b-9d6f-4394-92b8-63d844c4ce4c}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4063952/gitako_github_file_tree-3.10.3.xpi";
-    sha256 = "3dd9fa36b86eaa054e98d3d22f47023da708252f4c2e4b9707ff35e8f7e19cd0";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4103085/gitako_github_file_tree-3.11.0.xpi";
+    sha256 = "4a20ac342ad83e3fcdb9f4b6da0aa4eca8a5cbbbb18a39cc68aac0b6facadd5f";
     meta = with lib; {
       homepage = "https://github.com/EnixCoda/Gitako";
       description = "Gitako is a file tree extension for GitHub, available on Firefox, Chrome, and Edge.\n\nVideo intro: <a href=\"https://prod.outgoing.prod.webservices.mozgcp.net/v1/1c1a0c23e84b9c3e43af4c047563692e835dfa55acf38822fa3ca2bd4cb9ad0e/https%3A//youtu.be/r4Ein-s2pN0\" rel=\"nofollow\">https://youtu.be/r4Ein-s2pN0</a>\nHomepage: <a href=\"https://prod.outgoing.prod.webservices.mozgcp.net/v1/414db85f00575463826dd366beac0a912bf5a9dc43e679f39ddb998d218d376c/https%3A//github.com/EnixCoda/Gitako\" rel=\"nofollow\">https://github.com/EnixCoda/Gitako</a>";
@@ -314,10 +314,10 @@
   };
   "refined-github" = buildFirefoxXpiAddon {
     pname = "refined-github";
-    version = "23.4.15";
+    version = "23.4.26";
     addonId = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4097949/refined_github-23.4.15.xpi";
-    sha256 = "022592b8a7c31858c90334d4decfb22ce61dd80ee9b4daafe54d2750210b2ab4";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4103020/refined_github-23.4.26.xpi";
+    sha256 = "617802388da1098c82e26dd185e48f3c7e4ea739262bc3172217b7467b976234";
     meta = with lib; {
       homepage = "https://github.com/sindresorhus/refined-github";
       description = "Simplifies the GitHub interface and adds many useful features.";
@@ -351,10 +351,10 @@
   };
   "sponsorblock" = buildFirefoxXpiAddon {
     pname = "sponsorblock";
-    version = "5.3.1";
+    version = "5.4.1";
     addonId = "sponsorBlocker@ajay.app";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4085308/sponsorblock-5.3.1.xpi";
-    sha256 = "02385a0765aa88fbff553953a202fcca31012b1fb0ed9b82320c0572929a3849";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4098861/sponsorblock-5.4.1.xpi";
+    sha256 = "a7ceb7b83271f62d8619bc46e797592dc662b133cbff29e928a77c9fff9219f3";
     meta = with lib; {
       homepage = "https://sponsor.ajay.app";
       description = "Easily skip YouTube video sponsors. When you visit a YouTube video, the extension will check the database for reported sponsors and automatically skip known sponsors. You can also report sponsors in videos.\n\nOther browsers: https://sponsor.ajay.app";
@@ -427,10 +427,10 @@
   };
   "ublock-origin" = buildFirefoxXpiAddon {
     pname = "ublock-origin";
-    version = "1.48.4";
+    version = "1.49.0";
     addonId = "uBlock0@raymondhill.net";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4092158/ublock_origin-1.48.4.xpi";
-    sha256 = "d7666b963c2969b0014937aae55472eea5098ff21ed3bea8a2e1f595f62856c1";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4099143/ublock_origin-1.49.0.xpi";
+    sha256 = "7c32a32fc6ad2ee76d6c097a7562799b3765c8200ca27f77436f9771d3fd6c64";
     meta = with lib; {
       homepage = "https://github.com/gorhill/uBlock#ublock-origin";
       description = "Finally, an efficient wide-spectrum content blocker. Easy on CPU and memory.";
