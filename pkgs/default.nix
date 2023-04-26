@@ -37,4 +37,6 @@ in {
   fennel-language-server = callPackage' ./fennel-language-server.nix;
 
   ildaeil = callPackage' ./ildaeil.nix;
+
+  sheepshaver = callPackage' ./sheepshaver.nix;
 }

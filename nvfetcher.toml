@@ -101,3 +101,7 @@ cargo_locks = ["Cargo.lock"]
 src.git = "https://github.com/DISTRHO/Ildaeil"
 fetch.github = "DISTRHO/Ildaeil"
 git.fetchSubmodules = true
+
+[macemu]
+src.git = "https://github.com/kanjitalk755/macemu"
+fetch.github = "kanjitalk755/macemu"

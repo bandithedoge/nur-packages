@@ -304,6 +304,26 @@
         },
         "version": "30a669a021812da05258519cef9d4202f5ce26c3"
     },
+    "macemu": {
+        "cargoLocks": null,
+        "date": "2023-04-04",
+        "extract": null,
+        "name": "macemu",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "kanjitalk755",
+            "repo": "macemu",
+            "rev": "ef3f61c30d7febbb604554335a4ea7721734e3e3",
+            "sha256": "sha256-RVdQtT02AeGa70kWIQ5zIDEFX1T/cafAcdyy4l1cUIQ=",
+            "type": "github"
+        },
+        "version": "ef3f61c30d7febbb604554335a4ea7721734e3e3"
+    },
     "raze": {
         "cargoLocks": null,
         "date": null,
