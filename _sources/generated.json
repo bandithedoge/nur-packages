@@ -1,4 +1,19 @@
 {
+    "basiliskii-bin": {
+        "cargoLocks": null,
+        "date": null,
+        "extract": null,
+        "name": "basiliskii-bin",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-PEJ4HHGRO8+BuOYaR3jIRn7+TlHqxyqkegHL7w5eLU8=",
+            "type": "url",
+            "url": "https://github.com/Korkman/macemu-appimage-builder/releases/download/2023-04-11/BasiliskII-x86_64.AppImage"
+        },
+        "version": "2023-04-11"
+    },
     "bling": {
         "cargoLocks": null,
         "date": "2023-03-07",
@@ -343,6 +358,21 @@
             "type": "github"
         },
         "version": "1.7.1"
+    },
+    "sheepshaver-bin": {
+        "cargoLocks": null,
+        "date": null,
+        "extract": null,
+        "name": "sheepshaver-bin",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-YwCKFY7OAuM6L0DU/fr/0G6QDUKlVutpSB1daCstvgc=",
+            "type": "url",
+            "url": "https://github.com/Korkman/macemu-appimage-builder/releases/download/2023-04-11/SheepShaver-x86_64.AppImage"
+        },
+        "version": "2023-04-11"
     },
     "slock-flexipatch": {
         "cargoLocks": null,
