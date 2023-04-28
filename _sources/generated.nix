@@ -264,15 +264,15 @@
   };
   tailwindcss-intellisense = {
     pname = "tailwindcss-intellisense";
-    version = "8266d6b0aa4ba58402cff320445d88adac8dc449";
+    version = "9b47dd0597447e2967b1de3f8cbecb42349d36c1";
     src = fetchFromGitHub {
       owner = "tailwindlabs";
       repo = "tailwindcss-intellisense";
-      rev = "8266d6b0aa4ba58402cff320445d88adac8dc449";
+      rev = "9b47dd0597447e2967b1de3f8cbecb42349d36c1";
       fetchSubmodules = false;
-      sha256 = "sha256-AAqA1l+XKgqTZ6DDxKzaVuibgEPw5RFQml4rMoKAKyk=";
+      sha256 = "sha256-qjacDlp3IoHkGkwGmVWHPJ2hE8tZnC/JBri6v9ejDMg=";
     };
-    date = "2023-04-25";
+    date = "2023-04-27";
   };
   xmonad-entryhelper = {
     pname = "xmonad-entryhelper";
@@ -311,15 +311,15 @@
   };
   zrythm = {
     pname = "zrythm";
-    version = "e0fc2a42927f88a5b7a48c703e577a6e2c745b4c";
+    version = "8bdbe740a10dfc20594e144bd87b7a6b659db8c0";
     src = fetchgit {
       url = "https://git.sr.ht/~alextee/zrythm";
-      rev = "e0fc2a42927f88a5b7a48c703e577a6e2c745b4c";
+      rev = "8bdbe740a10dfc20594e144bd87b7a6b659db8c0";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-KQvcw42Z56aSlv/GAXbu75A9HRFHQ8tA0AE7J2uEa2Q=";
+      sha256 = "sha256-3U8N1U/3FJW4K5a9nX3vYDJ+oD9JYN7AE/ejUReS71U=";
     };
-    date = "2023-04-22";
+    date = "2023-04-27";
   };
 }
