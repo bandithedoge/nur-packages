@@ -436,7 +436,7 @@
     },
     "tailwindcss-intellisense": {
         "cargoLocks": null,
-        "date": "2023-04-27",
+        "date": "2023-04-28",
         "extract": null,
         "name": "tailwindcss-intellisense",
         "passthru": null,
@@ -448,11 +448,11 @@
             "name": null,
             "owner": "tailwindlabs",
             "repo": "tailwindcss-intellisense",
-            "rev": "9b47dd0597447e2967b1de3f8cbecb42349d36c1",
-            "sha256": "sha256-qjacDlp3IoHkGkwGmVWHPJ2hE8tZnC/JBri6v9ejDMg=",
+            "rev": "ae99cbfafc0ddeaecd16edd519ab48cf306190c0",
+            "sha256": "sha256-HWIBOFENkvdmfYmbeqluTaSO3J1Qs3VyxmB4GHAOn2c=",
             "type": "github"
         },
-        "version": "9b47dd0597447e2967b1de3f8cbecb42349d36c1"
+        "version": "ae99cbfafc0ddeaecd16edd519ab48cf306190c0"
     },
     "xmonad-entryhelper": {
         "cargoLocks": null,
@@ -516,7 +516,7 @@
     },
     "zrythm": {
         "cargoLocks": null,
-        "date": "2023-04-27",
+        "date": "2023-04-29",
         "extract": null,
         "name": "zrythm",
         "passthru": null,
@@ -526,11 +526,11 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "8bdbe740a10dfc20594e144bd87b7a6b659db8c0",
-            "sha256": "sha256-3U8N1U/3FJW4K5a9nX3vYDJ+oD9JYN7AE/ejUReS71U=",
+            "rev": "9d52b05848e008e907868e61cb2beb1221f76072",
+            "sha256": "sha256-U3IUqNbHu20uyWfkTsLOOlUZjcUL4QdHilB3srSsebw=",
             "type": "git",
             "url": "https://git.sr.ht/~alextee/zrythm"
         },
-        "version": "8bdbe740a10dfc20594e144bd87b7a6b659db8c0"
+        "version": "9d52b05848e008e907868e61cb2beb1221f76072"
     }
 }
