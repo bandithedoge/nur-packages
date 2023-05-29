@@ -563,6 +563,18 @@
         "url": "https://github.com/NMAC427/guess-indent.nvim/archive/b8ae749fce17aa4c267eec80a6984130b94f80b2.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "haskell-tools.nvim": {
+        "branch": "master",
+        "description": "Supercharge your Haskell experience in neovim!",
+        "homepage": "",
+        "owner": "MrcJkb",
+        "repo": "haskell-tools.nvim",
+        "rev": "811d616fdbe2087cd63848dfa7b3bc8785de7dcd",
+        "sha256": "18a4ffg4ciadyax5a8qs79cxsmqn7ay3jq5xv6piwymi40rpl4wb",
+        "type": "tarball",
+        "url": "https://github.com/MrcJkb/haskell-tools.nvim/archive/811d616fdbe2087cd63848dfa7b3bc8785de7dcd.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "heirline.nvim": {
         "branch": "master",
         "description": "Heirline.nvim is a no-nonsense Neovim Statusline plugin designed around recursive inheritance to be exceptionally fast and versatile.",
