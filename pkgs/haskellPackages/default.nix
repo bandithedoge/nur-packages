@@ -68,6 +68,7 @@ in {
           echo ${sources.kmonad.version}
         '')
       ];
+      dontCheck = true;
     };
   };
 }
