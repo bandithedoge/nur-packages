@@ -4,7 +4,7 @@
 src.git = "https://github.com/Javran/xmonad-entryhelper"
 fetch.github = "Javran/xmonad-entryhelper"
 
-[zix]
+[zix-git]
 src.git = "https://github.com/drobilla/zix"
 fetch.github = "drobilla/zix"
 
@@ -24,9 +24,13 @@ fetch.github = "blingcorp/bling"
 src.github = "ZDoom/ZMusic"
 fetch.github = "ZDoom/ZMusic"
 
-[carla]
+[carla-git]
 src.git = "https://github.com/falkTX/Carla"
 fetch.github = "falkTX/Carla"
+
+[gtk-4_13_0]
+src.manual = "4.13.0"
+fetch.git = "https://gitlab.gnome.org/GNOME/gtk"
 
 # programs
 
