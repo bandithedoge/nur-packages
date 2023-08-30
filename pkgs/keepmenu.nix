@@ -9,6 +9,7 @@ pkgs.python3Packages.buildPythonApplication {
   format = "pyproject";
 
   propagatedBuildInputs = with pkgs.python3Packages; [
+    hatch-vcs
     hatchling
     pykeepass
     pynput
