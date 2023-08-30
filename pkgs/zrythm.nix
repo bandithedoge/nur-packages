@@ -12,8 +12,13 @@
   });
 
   # remove when 4.13 gets added to nixpkgs
-  gtk4 = pkgs.gtk4.overrideAttrs (_: {
+  gtk4 = pkgs.gtk4.overrideAttrs (oldAttrs: {
     inherit (sources.gtk-4_13_0) version src;
+
+    postPatch = oldAttrs.postPatch + ''
+      chmod +x build-aux/meson/gen-visibility-macros.py
+      patchShebangs build-aux/meson/gen-visibility-macros.py
+    '';
   });
 in
   pkgs.stdenv.mkDerivation rec {
