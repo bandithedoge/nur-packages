@@ -30,7 +30,8 @@ fetch.github = "falkTX/Carla"
 
 [gtk-4_13_0]
 src.manual = "4.13.0"
-fetch.git = "https://gitlab.gnome.org/GNOME/gtk"
+# gitlab.gnome.org gives 503
+fetch.github = "GNOME/gtk"
 
 # programs
 
