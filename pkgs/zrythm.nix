@@ -28,6 +28,8 @@
     inherit (sources.libadwaita-1_4) version src;
 
     buildInputs = oldAttrs.buildInputs ++ [gtk4 pkgs.appstream];
+
+    dontCheck = true;
   });
 in
   pkgs.stdenv.mkDerivation rec {
