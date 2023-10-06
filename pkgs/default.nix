@@ -3,10 +3,7 @@
 
   callPackage' = pkg: pkgs.callPackage pkg {inherit pkgs sources;};
 in {
-  vimPlugins = pkgs.lib.recurseIntoAttrs (
-    (pkgs.callPackage ./vimPlugins {inherit pkgs;}).extend
-    (import ./vimPlugins/overrides.nix {inherit pkgs;})
-  );
+  vimPlugins = (pkgs.callPackage ./vimPlugins {inherit pkgs;}).extend (import ./vimPlugins/overrides.nix {inherit pkgs;});
 
   firefoxAddons = pkgs.lib.recurseIntoAttrs (callPackage' ./firefoxAddons);
   haskellPackages = pkgs.lib.recurseIntoAttrs (callPackage' ./haskellPackages);
