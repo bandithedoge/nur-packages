@@ -36,7 +36,11 @@
   },
   "cardinal": {
     "cargoLocks": null,
+<<<<<<< HEAD
     "date": "2023-10-23",
+=======
+    "date": "2023-10-24",
+>>>>>>> master
     "extract": null,
     "name": "cardinal",
     "passthru": null,
@@ -48,11 +52,19 @@
       "name": null,
       "owner": "DISTRHO",
       "repo": "Cardinal",
+<<<<<<< HEAD
       "rev": "da276ee93811c98571663b2e63309eba4eec6915",
       "sha256": "sha256-xLNC8xp5Vw3OKO9DIrTia5YRnZGWvx+VzOOstSGSQiQ=",
       "type": "github"
     },
     "version": "da276ee93811c98571663b2e63309eba4eec6915"
+=======
+      "rev": "388fc8ddb202f8b87f86a0327b563f67ffaf5c2f",
+      "sha256": "sha256-WnF1eEwc6/vk0PgbZHBQRhJdKp45uAkHyRwnhPh9n8w=",
+      "type": "github"
+    },
+    "version": "388fc8ddb202f8b87f86a0327b563f67ffaf5c2f"
+>>>>>>> master
   },
   "carla-git": {
     "cargoLocks": null,
@@ -241,7 +253,11 @@
   },
   "kmonad": {
     "cargoLocks": null,
+<<<<<<< HEAD
     "date": "2023-10-17",
+=======
+    "date": "2023-10-25",
+>>>>>>> master
     "extract": null,
     "name": "kmonad",
     "passthru": null,
@@ -253,11 +269,19 @@
       "name": null,
       "owner": "kmonad",
       "repo": "kmonad",
+<<<<<<< HEAD
       "rev": "a1aea16c7a3239c0a3d7522b09edb1d6988bae02",
       "sha256": "sha256-hh5a82fbujCOitFjbzClCMZ/XZQeFsdOHxZWCXXv1i4=",
       "type": "github"
     },
     "version": "a1aea16c7a3239c0a3d7522b09edb1d6988bae02"
+=======
+      "rev": "1b2ec006259ddbe6cda30db8eb783e8177a9f12b",
+      "sha256": "sha256-RPfi08g5DHvq5oEX57sJ1al2smBk0d9d8gAzL7jRnNQ=",
+      "type": "github"
+    },
+    "version": "1b2ec006259ddbe6cda30db8eb783e8177a9f12b"
+>>>>>>> master
   },
   "libadwaita-1_4": {
     "cargoLocks": null,
