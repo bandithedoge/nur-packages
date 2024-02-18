@@ -23,4 +23,11 @@ pkgs.stdenv.mkDerivation {
   cmakeFlags = [
     "-DCMAKE_INSTALL_LIBDIR=lib"
   ];
+
+  meta = with pkgs.lib; {
+    description = "A free software percussive synthesizer";
+    homepage = "https://geonkick.org/index.html";
+    license = licenses.gpl3;
+    platforms = platforms.linux;
+  };
 }
