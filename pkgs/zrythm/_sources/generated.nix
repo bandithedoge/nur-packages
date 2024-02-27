@@ -13,8 +13,8 @@
     };
     date = "2024-02-26";
   };
-  gtk-4_13_0 = {
-    pname = "gtk-4_13_0";
+  gtk-4_13_4 = {
+    pname = "gtk-4_13_4";
     version = "4.13.4";
     src = fetchFromGitHub {
       owner = "GNOME";

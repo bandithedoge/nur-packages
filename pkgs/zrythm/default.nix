@@ -10,7 +10,7 @@
 
   # remove when 4.13 gets added to nixpkgs
   gtk4 = pkgs.gtk4.overrideAttrs (_: {
-    inherit (sources.gtk-4_13_0) version src;
+    inherit (sources.gtk-4_13_4) version src;
 
     patches = [];
   });

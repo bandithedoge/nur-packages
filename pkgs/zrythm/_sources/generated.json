@@ -19,11 +19,11 @@
         },
         "version": "b22143f28cddd1b029297643b006e644c75a6bbe"
     },
-    "gtk-4_13_0": {
+    "gtk-4_13_4": {
         "cargoLocks": null,
         "date": null,
         "extract": null,
-        "name": "gtk-4_13_0",
+        "name": "gtk-4_13_4",
         "passthru": null,
         "pinned": false,
         "src": {
@@ -58,45 +58,43 @@
         },
         "version": "80ce807876b0e9f80ca44d8aa38efdb617df9a09"
     },
-    "version": "7dfbfa5bbe500dfe02e24daff88f20aaef6ff1b8"
-  },
-  "rtaudio-git": {
-    "cargoLocks": null,
-    "date": null,
-    "extract": null,
-    "name": "rtaudio-git",
-    "passthru": null,
-    "pinned": false,
-    "src": {
-      "deepClone": false,
-      "fetchSubmodules": false,
-      "leaveDotGit": false,
-      "name": null,
-      "owner": "thestk",
-      "repo": "rtaudio",
-      "rev": "6.0.1",
-      "sha256": "sha256-Acsxbnl+V+Y4mKC1gD11n0m03E96HMK+oEY/YV7rlIY=",
-      "type": "github"
+    "rtaudio-git": {
+        "cargoLocks": null,
+        "date": null,
+        "extract": null,
+        "name": "rtaudio-git",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "thestk",
+            "repo": "rtaudio",
+            "rev": "6.0.1",
+            "sha256": "sha256-Acsxbnl+V+Y4mKC1gD11n0m03E96HMK+oEY/YV7rlIY=",
+            "type": "github"
+        },
+        "version": "6.0.1"
     },
-    "version": "6.0.1"
-  },
-  "zrythm": {
-    "cargoLocks": null,
-    "date": "2024-02-23",
-    "extract": null,
-    "name": "zrythm",
-    "passthru": null,
-    "pinned": false,
-    "src": {
-      "deepClone": false,
-      "fetchSubmodules": false,
-      "leaveDotGit": false,
-      "name": null,
-      "rev": "af4766d68d893864d5da7d0938698c76e5a5d5c0",
-      "sha256": "sha256-Uum/qgn+G+YED8HAFZHBWNGPjWZOYIeMbfziAH6D+DI=",
-      "type": "git",
-      "url": "https://gitlab.zrythm.org/zrythm/zrythm.git"
-    },
-    "version": "af4766d68d893864d5da7d0938698c76e5a5d5c0"
-  }
+    "zrythm": {
+        "cargoLocks": null,
+        "date": "2024-02-23",
+        "extract": null,
+        "name": "zrythm",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "rev": "af4766d68d893864d5da7d0938698c76e5a5d5c0",
+            "sha256": "sha256-Uum/qgn+G+YED8HAFZHBWNGPjWZOYIeMbfziAH6D+DI=",
+            "type": "git",
+            "url": "https://gitlab.zrythm.org/zrythm/zrythm.git"
+        },
+        "version": "af4766d68d893864d5da7d0938698c76e5a5d5c0"
+    }
 }
