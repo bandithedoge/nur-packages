@@ -144,13 +144,13 @@
         sha512 = "P46VikoEZadYCqx7mbClKlaJnOyvc+JfRJPRf1YwlOjwqeYmutgFe1w9hvfXe819VhpU0N0TNXtxyVAUlAgaNA==";
       };
     };
-    "c12-1.8.0" = {
+    "c12-1.9.0" = {
       name = "c12";
       packageName = "c12";
-      version = "1.8.0";
+      version = "1.9.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/c12/-/c12-1.8.0.tgz";
-        sha512 = "93U6RndoaAwFQPBcS9F/6lwtgBfrWh4695sQ/ChILkbj0C7zOZVptOU3Sxp0I/9xvfW/lzBWD90AXDQz4muSkA==";
+        url = "https://registry.npmjs.org/c12/-/c12-1.9.0.tgz";
+        sha512 = "7KTCZXdIbOA2hLRQ+1KzJ15Qp9Wn58one74dkihMVp2H6EzKTa3OYBy0BSfS1CCcmxYyqeX8L02m40zjQ+dstg==";
       };
     };
     "cac-6.7.14" = {
@@ -198,6 +198,15 @@
         sha512 = "tskPPKEs8D2KPafUypv2gxwJP8h/OaJmC82QQGGDQcHvXX43xF2VDACcJVmZ0EuSxkpO9Kc4MlrA3q0+FG58AQ==";
       };
     };
+    "confbox-0.1.3" = {
+      name = "confbox";
+      packageName = "confbox";
+      version = "0.1.3";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/confbox/-/confbox-0.1.3.tgz";
+        sha512 = "eH3ZxAihl1PhKfpr4VfEN6/vUd87fmgb6JkldHgg/YR6aEBhW63qUDgzP2Y6WM0UumdsYp5H3kibalXAdHfbgg==";
+      };
+    };
     "consola-3.2.3" = {
       name = "consola";
       packageName = "consola";
@@ -225,22 +234,22 @@
         sha512 = "mEQCMmwJu317oSz8CwdIOdwf3xMif1ttiM8LTufzc3g6kR+9Pe236twL8j3IYT1F7GfRgGcW6MWxzZjLIkuHIg==";
       };
     };
-    "destr-2.0.2" = {
+    "destr-2.0.3" = {
       name = "destr";
       packageName = "destr";
-      version = "2.0.2";
+      version = "2.0.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/destr/-/destr-2.0.2.tgz";
-        sha512 = "65AlobnZMiCET00KaFFjUefxDX0khFA/E4myqZ7a6Sq1yZtR8+FVIvilVX66vF2uobSumxooYZChiRPCKNqhmg==";
+        url = "https://registry.npmjs.org/destr/-/destr-2.0.3.tgz";
+        sha512 = "2N3BOUU4gYMpTP24s5rF5iP7BDr7uNTCs4ozw3kf/eKfvWSIu93GEBi5m427YoyJoeOzQ5smuu4nNAPGb8idSQ==";
       };
     };
-    "dotenv-16.4.4" = {
+    "dotenv-16.4.5" = {
       name = "dotenv";
       packageName = "dotenv";
-      version = "16.4.4";
+      version = "16.4.5";
       src = fetchurl {
-        url = "https://registry.npmjs.org/dotenv/-/dotenv-16.4.4.tgz";
-        sha512 = "XvPXc8XAQThSjAbY6cQ/9PcBXmFoWuw1sQ3b8HqUCR6ziGXjkTi//kB9SWa2UwqlgdAIuRqAa/9hVljzPehbYg==";
+        url = "https://registry.npmjs.org/dotenv/-/dotenv-16.4.5.tgz";
+        sha512 = "ZmdL2rui+eB2YwhsWzjInR8LldtZHGDoQ1ugH85ppHKwpUHL7j7rN0Ti9NCnGiQbhaZ11FpR+7ao1dNsmduNUg==";
       };
     };
     "emmet-2.4.6" = {
@@ -414,15 +423,6 @@
         sha512 = "wpxZs9NoxZaJESJGIZTyDEaYpl0FKSA+FB9aJiyemKhMwkxQg63h4T1KJgUGHpTqPDNRcmmYLugrRjJlBtWvRA==";
       };
     };
-    "json5-2.2.3" = {
-      name = "json5";
-      packageName = "json5";
-      version = "2.2.3";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/json5/-/json5-2.2.3.tgz";
-        sha512 = "XmOWe7eyHYH14cLdVPoyg+GOH3rYX++KpzrylJwSW98t3Nk+U8XOl8FWKOgwtzdb8lXGf6zYwDUzeHMWfxasyg==";
-      };
-    };
     "jsonc-parser-2.3.1" = {
       name = "jsonc-parser";
       packageName = "jsonc-parser";
@@ -531,13 +531,13 @@
         sha512 = "vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==";
       };
     };
-    "mlly-1.5.0" = {
+    "mlly-1.6.1" = {
       name = "mlly";
       packageName = "mlly";
-      version = "1.5.0";
+      version = "1.6.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/mlly/-/mlly-1.5.0.tgz";
-        sha512 = "NPVQvAY1xr1QoVeG0cy8yUYC7FQcOx6evl/RjT1wL5FvzPnzOysoqB/jmx/DhssT2dYa8nxECLAaFI/+gVLhDQ==";
+        url = "https://registry.npmjs.org/mlly/-/mlly-1.6.1.tgz";
+        sha512 = "vLgaHvaeunuOXHSmEbZ9izxPx3USsk8KCQ8iC+aTlp5sKRSoZvwhHh5L9VbKSaVC6sJDqbyohIS76E2VmHIPAA==";
       };
     };
     "node-fetch-native-1.6.2" = {
@@ -558,13 +558,13 @@
         sha512 = "6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==";
       };
     };
-    "npm-run-path-5.2.0" = {
+    "npm-run-path-5.3.0" = {
       name = "npm-run-path";
       packageName = "npm-run-path";
-      version = "5.2.0";
+      version = "5.3.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/npm-run-path/-/npm-run-path-5.2.0.tgz";
-        sha512 = "W4/tgAXFqFA0iL7fk0+uQ3g7wkL8xJmx3XdK0VGb4cHW//eZTtKGvFBBoRKVTpY7n6ze4NL9ly7rgXcHufqXKg==";
+        url = "https://registry.npmjs.org/npm-run-path/-/npm-run-path-5.3.0.tgz";
+        sha512 = "ppwTtiJZq0O/ai0z7yfudtBpWIoxM8yE6nHi1X47eFR2EWORqfbu6CnPlNsjeN683eT0qG6H/Pyf9fCcvjnnnQ==";
       };
     };
     "nypm-0.3.6" = {
@@ -1001,22 +1001,18 @@ in {
       sources."binary-extensions-2.2.0"
       sources."braces-3.0.2"
       sources."bumpp-9.3.0"
-      (sources."c12-1.8.0"
-        // {
-          dependencies = [
-            sources."jsonc-parser-3.2.1"
-          ];
-        })
+      sources."c12-1.9.0"
       sources."cac-6.7.14"
       sources."call-me-maybe-1.0.2"
       sources."chokidar-3.6.0"
       sources."chownr-2.0.0"
       sources."citty-0.1.6"
+      sources."confbox-0.1.3"
       sources."consola-3.2.3"
       sources."cross-spawn-7.0.3"
       sources."defu-6.1.4"
-      sources."destr-2.0.2"
-      sources."dotenv-16.4.4"
+      sources."destr-2.0.3"
+      sources."dotenv-16.4.5"
       sources."emmet-2.4.6"
       sources."execa-8.0.1"
       sources."fast-glob-3.3.2"
@@ -1041,7 +1037,6 @@ in {
       sources."isexe-2.0.0"
       sources."jiti-1.21.0"
       sources."js-yaml-4.1.0"
-      sources."json5-2.2.3"
       sources."jsonc-parser-2.3.1"
       sources."kleur-3.0.3"
       sources."lru-cache-6.0.0"
@@ -1057,10 +1052,10 @@ in {
           ];
         })
       sources."mkdirp-1.0.4"
-      sources."mlly-1.5.0"
+      sources."mlly-1.6.1"
       sources."node-fetch-native-1.6.2"
       sources."normalize-path-3.0.0"
-      (sources."npm-run-path-5.2.0"
+      (sources."npm-run-path-5.3.0"
         // {
           dependencies = [
             sources."path-key-4.0.0"
