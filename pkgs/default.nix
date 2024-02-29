@@ -39,5 +39,6 @@ in {
   tal = callPackages ./tal;
   treeSitterGrammars = callPackages ./treeSitterGrammars;
   vimPlugins = callPackage' ./vimPlugins;
+  xplrPlugins = callPackages ./xplrPlugins;
   zrythm = callPackage' ./zrythm;
 }
