@@ -38,7 +38,7 @@ in {
   symbols-nerd-font = callPackage' ./symbols-nerd-font;
   tal = callPackages ./tal;
   treeSitterGrammars = callPackages ./treeSitterGrammars;
-  vimPlugins = callPackage' ./vimPlugins;
-  xplrPlugins = callPackage' ./xplrPlugins;
+  vimPlugins = callPackages ./vimPlugins;
+  xplrPlugins = callPackages ./xplrPlugins;
   zrythm = callPackage' ./zrythm;
 }
