@@ -10,6 +10,9 @@ on:
 jobs:
   tests:
     runs-on: ubuntu-latest
+    concurrency:
+      group: ${{ github.workflow }}
+      cancel-in-progress: true
     steps:
       - name: Free disk space
         uses: jlumbroso/free-disk-space@v1.3.1
