@@ -50,6 +50,7 @@ jobs:
           chmod +x fetch
           nix develop -c ./fetch
           rm keyfile.toml
+          git add -A
 
       - name: Format code
         run: nix fmt
