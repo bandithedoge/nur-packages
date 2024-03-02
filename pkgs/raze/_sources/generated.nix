@@ -18,15 +18,15 @@
   };
   zmusic = {
     pname = "zmusic";
-    version = "5ce525efc75a97d1391b46cca4def41a13ff1619";
+    version = "7476a189755d2665b24a58182640752b82b3a66d";
     src = fetchgit {
       url = "https://github.com/ZDoom/ZMusic";
-      rev = "5ce525efc75a97d1391b46cca4def41a13ff1619";
+      rev = "7476a189755d2665b24a58182640752b82b3a66d";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-XWhYOoSO4vC3hXIkMu08YenoKVb1KZiHhRWvi2IRYMk=";
+      sha256 = "sha256-P5YEY/7aXJRRwoXsS5VdHgK3dFMJN66P76mPqYW/RLU=";
     };
-    date = "2023-11-29";
+    date = "2024-02-29";
   };
 }

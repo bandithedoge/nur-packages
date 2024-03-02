@@ -7,14 +7,14 @@
 }: {
   cardinal = {
     pname = "cardinal";
-    version = "472bc6091764cc792e9535d6c79dd9e271d7f976";
+    version = "4b3b458ffaeec8e9459d3d97cd31cc60ae82192c";
     src = fetchFromGitHub {
       owner = "DISTRHO";
       repo = "Cardinal";
-      rev = "472bc6091764cc792e9535d6c79dd9e271d7f976";
+      rev = "4b3b458ffaeec8e9459d3d97cd31cc60ae82192c";
       fetchSubmodules = true;
-      sha256 = "sha256-NURpwYBihiv43XDUWrOk3LuZQZvYmVXaF3F1axnWtqw=";
+      sha256 = "sha256-XuCjOgsnTCNF9jxhwDrcrJfycGu7UEAsN/Cn1+JKrms=";
     };
-    date = "2024-02-10";
+    date = "2024-03-01";
   };
 }
