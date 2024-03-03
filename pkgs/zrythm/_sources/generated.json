@@ -51,12 +51,12 @@
       "fetchSubmodules": false,
       "leaveDotGit": false,
       "name": null,
-      "rev": "1a7bb78065b2094eb15f3f0696a3d0089725fa84",
-      "sha256": "sha256-RhY4GppFDc6pJE0VQGALECwQh/ZeMjxacxvUqLnGigc=",
+      "rev": "d4b0f1c42b01ea7f15ba9238743aaf9ae128f678",
+      "sha256": "sha256-moCz0kyB676w8plSHX/lcSj7Ion+Q53qePwOqKxgdN8=",
       "type": "git",
       "url": "https://gitlab.gnome.org/GNOME/libadwaita"
     },
-    "version": "1a7bb78065b2094eb15f3f0696a3d0089725fa84"
+    "version": "d4b0f1c42b01ea7f15ba9238743aaf9ae128f678"
   },
   "rtaudio-git": {
     "cargoLocks": null,
