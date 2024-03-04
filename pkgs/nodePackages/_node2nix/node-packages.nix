@@ -135,13 +135,13 @@
         sha512 = "b8um+L1RzM3WDSzvhm6gIz1yfTbBt6YTlcEKAvsmqCZZFw46z626lVj9j1yEPW33H5H+lBQpZMP1k8l+78Ha0A==";
       };
     };
-    "bumpp-9.3.0" = {
+    "bumpp-9.3.1" = {
       name = "bumpp";
       packageName = "bumpp";
-      version = "9.3.0";
+      version = "9.3.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/bumpp/-/bumpp-9.3.0.tgz";
-        sha512 = "P46VikoEZadYCqx7mbClKlaJnOyvc+JfRJPRf1YwlOjwqeYmutgFe1w9hvfXe819VhpU0N0TNXtxyVAUlAgaNA==";
+        url = "https://registry.npmjs.org/bumpp/-/bumpp-9.3.1.tgz";
+        sha512 = "GQsf2Kwsvoxu8RL4euMvUwN3baZsIuigCPF+iGNQEa19+62MqYcpzxyjbspJT9qCipecpWKcEy6lC5kVoTs1Kw==";
       };
     };
     "c12-1.9.0" = {
@@ -567,13 +567,13 @@
         sha512 = "ppwTtiJZq0O/ai0z7yfudtBpWIoxM8yE6nHi1X47eFR2EWORqfbu6CnPlNsjeN683eT0qG6H/Pyf9fCcvjnnnQ==";
       };
     };
-    "nypm-0.3.6" = {
+    "nypm-0.3.8" = {
       name = "nypm";
       packageName = "nypm";
-      version = "0.3.6";
+      version = "0.3.8";
       src = fetchurl {
-        url = "https://registry.npmjs.org/nypm/-/nypm-0.3.6.tgz";
-        sha512 = "2CATJh3pd6CyNfU5VZM7qSwFu0ieyabkEdnogE30Obn1czrmOYiZ8DOZLe1yBdLKWoyD3Mcy2maUs+0MR3yVjQ==";
+        url = "https://registry.npmjs.org/nypm/-/nypm-0.3.8.tgz";
+        sha512 = "IGWlC6So2xv6V4cIDmoV0SwwWx7zLG086gyqkyumteH2fIgCAM4nDVFB2iDRszDvmdSVW9xb1N+2KjQ6C7d4og==";
       };
     };
     "ohash-1.1.3" = {
@@ -1000,7 +1000,7 @@ in {
       sources."argparse-2.0.1"
       sources."binary-extensions-2.2.0"
       sources."braces-3.0.2"
-      sources."bumpp-9.3.0"
+      sources."bumpp-9.3.1"
       sources."c12-1.9.0"
       sources."cac-6.7.14"
       sources."call-me-maybe-1.0.2"
@@ -1061,7 +1061,7 @@ in {
             sources."path-key-4.0.0"
           ];
         })
-      sources."nypm-0.3.6"
+      sources."nypm-0.3.8"
       sources."ohash-1.1.3"
       sources."onetime-6.0.0"
       sources."path-key-3.1.1"
