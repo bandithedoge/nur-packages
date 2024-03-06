@@ -135,13 +135,13 @@
         sha512 = "b8um+L1RzM3WDSzvhm6gIz1yfTbBt6YTlcEKAvsmqCZZFw46z626lVj9j1yEPW33H5H+lBQpZMP1k8l+78Ha0A==";
       };
     };
-    "bumpp-9.3.1" = {
+    "bumpp-9.4.0" = {
       name = "bumpp";
       packageName = "bumpp";
-      version = "9.3.1";
+      version = "9.4.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/bumpp/-/bumpp-9.3.1.tgz";
-        sha512 = "GQsf2Kwsvoxu8RL4euMvUwN3baZsIuigCPF+iGNQEa19+62MqYcpzxyjbspJT9qCipecpWKcEy6lC5kVoTs1Kw==";
+        url = "https://registry.npmjs.org/bumpp/-/bumpp-9.4.0.tgz";
+        sha512 = "T+N+B5mSSvsTt7kgxGXCKQd957IxmEZwMn2nWirspGUY08u/cBNrpQDMXk43fzLegZtKtXS1v9S06vq2zf6lXQ==";
       };
     };
     "c12-1.9.0" = {
@@ -259,6 +259,15 @@
       src = fetchurl {
         url = "https://registry.npmjs.org/emmet/-/emmet-2.4.6.tgz";
         sha512 = "dJfbdY/hfeTyf/Ef7Y7ubLYzkBvPQ912wPaeVYpAxvFxkEBf/+hJu4H6vhAvFN6HlxqedlfVn2x1S44FfQ97pg==";
+      };
+    };
+    "escalade-3.1.2" = {
+      name = "escalade";
+      packageName = "escalade";
+      version = "3.1.2";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/escalade/-/escalade-3.1.2.tgz";
+        sha512 = "ErCHMCae19vR8vQGe50xIsVomy19rg6gFu3+r3jkEO46suLMWBksvVyoGgQV+jOfl84ZSOSlmv6Gxa89PmTGmA==";
       };
     };
     "execa-8.0.1" = {
@@ -1000,7 +1009,7 @@ in {
       sources."argparse-2.0.1"
       sources."binary-extensions-2.2.0"
       sources."braces-3.0.2"
-      sources."bumpp-9.3.1"
+      sources."bumpp-9.4.0"
       sources."c12-1.9.0"
       sources."cac-6.7.14"
       sources."call-me-maybe-1.0.2"
@@ -1014,6 +1023,7 @@ in {
       sources."destr-2.0.3"
       sources."dotenv-16.4.5"
       sources."emmet-2.4.6"
+      sources."escalade-3.1.2"
       sources."execa-8.0.1"
       sources."fast-glob-3.3.2"
       sources."fastq-1.17.1"

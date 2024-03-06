@@ -7,10 +7,10 @@
 }: {
   swift-mesonlsp-bin = {
     pname = "swift-mesonlsp-bin";
-    version = "v3.1.3";
+    version = "v3.1.4";
     src = fetchurl {
-      url = "https://github.com/JCWasmx86/Swift-MesonLSP/releases/download/v3.1.3/Swift-MesonLSP.zip";
-      sha256 = "sha256-rvH2s4blF6wx5YKGslxr2CitH8HmlYoY1c1SqGi98ao=";
+      url = "https://github.com/JCWasmx86/Swift-MesonLSP/releases/download/v3.1.4/Swift-MesonLSP.zip";
+      sha256 = "sha256-Jdm8onZ8GPywVv0M0NIqoAkP9iVh1ebdtalpCdCoYtA=";
     };
   };
 }
