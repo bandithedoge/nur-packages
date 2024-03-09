@@ -7,15 +7,15 @@
 }: {
   carla-git = {
     pname = "carla-git";
-    version = "fe8631bc13a507507ccc6b5c408d5a4a880b1936";
+    version = "66afe24a08790732cc17d81d4b846a1e0cfa0118";
     src = fetchFromGitHub {
       owner = "falkTX";
       repo = "Carla";
-      rev = "fe8631bc13a507507ccc6b5c408d5a4a880b1936";
+      rev = "66afe24a08790732cc17d81d4b846a1e0cfa0118";
       fetchSubmodules = false;
-      sha256 = "sha256-/v2TXK3BMe3Ort6voP3YV+t2CjkfsYy2SN3HOJUT2z0=";
+      sha256 = "sha256-m4Htw/c+xGgJEvBKgxrfwnSNFbJ8osA0+loQ6uGJx5Y=";
     };
-    date = "2024-03-01";
+    date = "2024-03-07";
   };
   gtk-4_13_4 = {
     pname = "gtk-4_13_4";
@@ -30,16 +30,16 @@
   };
   libadwaita-git = {
     pname = "libadwaita-git";
-    version = "684640cd519e4efdbf36abf756b48696e5737ea9";
+    version = "f0da80e9af4b545a80c406df408bd0797ea54da8";
     src = fetchgit {
       url = "https://gitlab.gnome.org/GNOME/libadwaita";
-      rev = "684640cd519e4efdbf36abf756b48696e5737ea9";
+      rev = "f0da80e9af4b545a80c406df408bd0797ea54da8";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-yqvYAi9Lpd5znCmD7hFV0LTFauzRn7KtIurlKi5LArI=";
+      sha256 = "sha256-4WKp6P2vNuf5cfMFpDLUMFQQspQwNEDKMiuHQE5SYes=";
     };
-    date = "2024-03-06";
+    date = "2024-03-08";
   };
   rtaudio-git = {
     pname = "rtaudio-git";

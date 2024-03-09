@@ -1,7 +1,7 @@
 {
   "carla-git": {
     "cargoLocks": null,
-    "date": "2024-03-01",
+    "date": "2024-03-07",
     "extract": null,
     "name": "carla-git",
     "passthru": null,
@@ -13,11 +13,11 @@
       "name": null,
       "owner": "falkTX",
       "repo": "Carla",
-      "rev": "fe8631bc13a507507ccc6b5c408d5a4a880b1936",
-      "sha256": "sha256-/v2TXK3BMe3Ort6voP3YV+t2CjkfsYy2SN3HOJUT2z0=",
+      "rev": "66afe24a08790732cc17d81d4b846a1e0cfa0118",
+      "sha256": "sha256-m4Htw/c+xGgJEvBKgxrfwnSNFbJ8osA0+loQ6uGJx5Y=",
       "type": "github"
     },
-    "version": "fe8631bc13a507507ccc6b5c408d5a4a880b1936"
+    "version": "66afe24a08790732cc17d81d4b846a1e0cfa0118"
   },
   "gtk-4_13_4": {
     "cargoLocks": null,
@@ -41,7 +41,7 @@
   },
   "libadwaita-git": {
     "cargoLocks": null,
-    "date": "2024-03-06",
+    "date": "2024-03-08",
     "extract": null,
     "name": "libadwaita-git",
     "passthru": null,
@@ -51,12 +51,12 @@
       "fetchSubmodules": false,
       "leaveDotGit": false,
       "name": null,
-      "rev": "684640cd519e4efdbf36abf756b48696e5737ea9",
-      "sha256": "sha256-yqvYAi9Lpd5znCmD7hFV0LTFauzRn7KtIurlKi5LArI=",
+      "rev": "f0da80e9af4b545a80c406df408bd0797ea54da8",
+      "sha256": "sha256-4WKp6P2vNuf5cfMFpDLUMFQQspQwNEDKMiuHQE5SYes=",
       "type": "git",
       "url": "https://gitlab.gnome.org/GNOME/libadwaita"
     },
-    "version": "684640cd519e4efdbf36abf756b48696e5737ea9"
+    "version": "f0da80e9af4b545a80c406df408bd0797ea54da8"
   },
   "rtaudio-git": {
     "cargoLocks": null,
