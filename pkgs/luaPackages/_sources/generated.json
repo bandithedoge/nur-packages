@@ -1,7 +1,7 @@
 {
   "bling": {
     "cargoLocks": null,
-    "date": "2024-02-21",
+    "date": "2024-03-09",
     "extract": null,
     "name": "bling",
     "passthru": null,
@@ -11,12 +11,12 @@
       "fetchSubmodules": false,
       "leaveDotGit": false,
       "name": null,
-      "rev": "c42d64222a33f121322e74282cbf34127083d4fc",
-      "sha256": "sha256-NAQhIOYJfv1Gs2Htk7AFxhsxkLkXmblKU4GsdazFqdQ=",
+      "rev": "14a9988567b5fb73ca103e9a4d78b8f32dd1f333",
+      "sha256": "sha256-UJtzX31dhJ3IirSspi8gJ013FJVQ9wof99Tn73+Kabk=",
       "type": "git",
       "url": "https://github.com/blingcorp/bling"
     },
-    "version": "c42d64222a33f121322e74282cbf34127083d4fc"
+    "version": "14a9988567b5fb73ca103e9a4d78b8f32dd1f333"
   },
   "lua-dbus": {
     "cargoLocks": null,

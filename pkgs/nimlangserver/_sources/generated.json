@@ -39,7 +39,7 @@
   },
   "faststreams": {
     "cargoLocks": null,
-    "date": "2024-03-08",
+    "date": "2024-03-09",
     "extract": null,
     "name": "faststreams",
     "passthru": null,
@@ -49,12 +49,12 @@
       "fetchSubmodules": false,
       "leaveDotGit": false,
       "name": null,
-      "rev": "426c88010e4d95bda23197414b7cca8c23017e7f",
-      "sha256": "sha256-XFcd7wLXYGiYZ7noVk7XvCnOSVn6gYx3vuxnwn5suBc=",
+      "rev": "f26a9909cebf29cc5e61dd795427eda60c6e431e",
+      "sha256": "sha256-LeZUiLMJgY0R2k4Qymot/NHs4gzjjPcbKn583ygf7UM=",
       "type": "git",
       "url": "https://github.com/status-im/nim-faststreams"
     },
-    "version": "426c88010e4d95bda23197414b7cca8c23017e7f"
+    "version": "f26a9909cebf29cc5e61dd795427eda60c6e431e"
   },
   "json-rpc": {
     "cargoLocks": null,
