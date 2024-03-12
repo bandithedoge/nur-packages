@@ -30,16 +30,16 @@
   };
   libadwaita-git = {
     pname = "libadwaita-git";
-    version = "068a68104fa05b4287c4b225d900b1f9213a37c8";
+    version = "0d534ea56f0a3076036d9dbbe6f57954a201bc49";
     src = fetchgit {
       url = "https://gitlab.gnome.org/GNOME/libadwaita";
-      rev = "068a68104fa05b4287c4b225d900b1f9213a37c8";
+      rev = "0d534ea56f0a3076036d9dbbe6f57954a201bc49";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-dXn0oCSco0Sxtf5OhWm9eyuiV+/ZxpY/fJv+SKEOiR4=";
+      sha256 = "sha256-T+itSiMDbvdowjD/XBM/Mi819ZYFCXX8532u8fSPTcw=";
     };
-    date = "2024-03-10";
+    date = "2024-03-11";
   };
   rtaudio-git = {
     pname = "rtaudio-git";
