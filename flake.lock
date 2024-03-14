@@ -130,11 +130,11 @@
         "pre-commit-hooks": "pre-commit-hooks"
       },
       "locked": {
-        "lastModified": 1705701547,
-        "narHash": "sha256-5RInoqaB8nPjgzCRlKppo3uVxE1y9eaE7yE4lexDZYA=",
+        "lastModified": 1710373627,
+        "narHash": "sha256-OA4wWd4HsemNIeEGunL2R4CTU7WUdxNf8IJdJepaYW8=",
         "owner": "~rycee",
         "repo": "mozilla-addons-to-nix",
-        "rev": "a5629a22ac5bf1f23fa025f14fec5f358478f36e",
+        "rev": "0cc8422fd76645fea8a8f1052f7ba0c70e927b1f",
         "type": "sourcehut"
       },
       "original": {
@@ -195,11 +195,11 @@
     },
     "nixpkgs_2": {
       "locked": {
-        "lastModified": 1710252211,
-        "narHash": "sha256-hQChQpB4LDBaSrNlD6DPLhU9T+R6oyxMCg2V+S7Y1jg=",
+        "lastModified": 1710346304,
+        "narHash": "sha256-vwoyBoCovK7+vdbCYqL9MssoFQjaXtZN8sElcjUdbx8=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "7eeacecff44e05a9fd61b9e03836b66ecde8a525",
+        "rev": "a0906f14161a5c5792e9883117b9471f5bf6df72",
         "type": "github"
       },
       "original": {
