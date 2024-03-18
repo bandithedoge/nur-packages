@@ -19,15 +19,15 @@
   };
   dwm-flexipatch = {
     pname = "dwm-flexipatch";
-    version = "5e85bc8b5c784b47cdd3015b53c5bb517500ba9c";
+    version = "58b58dc44ead403891436122725118f16197b8f2";
     src = fetchFromGitHub {
       owner = "bakkeby";
       repo = "dwm-flexipatch";
-      rev = "5e85bc8b5c784b47cdd3015b53c5bb517500ba9c";
+      rev = "58b58dc44ead403891436122725118f16197b8f2";
       fetchSubmodules = false;
-      sha256 = "sha256-feWn0HbBY5XvpqjdsVNoYyaUKjeqgFSwUkIOCkMNr/E=";
+      sha256 = "sha256-YaaUUa5HqpQOmsd2vEFsPs5pOcDhrLxZAaG2Cli85kM=";
     };
-    date = "2024-02-01";
+    date = "2024-03-14";
   };
   slock-flexipatch = {
     pname = "slock-flexipatch";
@@ -43,14 +43,14 @@
   };
   st-flexipatch = {
     pname = "st-flexipatch";
-    version = "25a28a61a39d87317766fa980c55fbe4f1bf3d6e";
+    version = "dba3d178a444249532832f3141966170fd66d88e";
     src = fetchFromGitHub {
       owner = "bakkeby";
       repo = "st-flexipatch";
-      rev = "25a28a61a39d87317766fa980c55fbe4f1bf3d6e";
+      rev = "dba3d178a444249532832f3141966170fd66d88e";
       fetchSubmodules = false;
-      sha256 = "sha256-zOlFv6iEVQ4u8zUWnnGaWHM1Ha5eeSfCbpB5iM92pKg=";
+      sha256 = "sha256-2PGM5p34aRfndSnBFRdJLOtRLwt5UCp/jV5eMHT0LFY=";
     };
-    date = "2024-03-13";
+    date = "2024-03-17";
   };
 }

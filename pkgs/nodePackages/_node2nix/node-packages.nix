@@ -117,13 +117,13 @@
         sha512 = "8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==";
       };
     };
-    "binary-extensions-2.2.0" = {
+    "binary-extensions-2.3.0" = {
       name = "binary-extensions";
       packageName = "binary-extensions";
-      version = "2.2.0";
+      version = "2.3.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/binary-extensions/-/binary-extensions-2.2.0.tgz";
-        sha512 = "jDctJ/IVQbZoJykoeHbhXpOlNBqGNcwXJKJog42E5HDPUwQTSdjCHdihjj0DlnheQ7blbT6dHOafNAiS8ooQKA==";
+        url = "https://registry.npmjs.org/binary-extensions/-/binary-extensions-2.3.0.tgz";
+        sha512 = "Ceh+7ox5qe7LJuLHoY0feh3pHuUDHAcRUeyL2VYghZwfpkNIy/+8Ocg0a3UuSoYzavmylwuLWQOf3hl0jjMMIw==";
       };
     };
     "braces-3.0.2" = {
@@ -810,13 +810,13 @@
         sha512 = "1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==";
       };
     };
-    "ufo-1.4.0" = {
+    "ufo-1.5.1" = {
       name = "ufo";
       packageName = "ufo";
-      version = "1.4.0";
+      version = "1.5.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/ufo/-/ufo-1.4.0.tgz";
-        sha512 = "Hhy+BhRBleFjpJ2vchUNN40qgkh0366FWJGqVLYBHev0vpHTrXSA0ryT+74UiW6KWsldNurQMKGqCm1M2zBciQ==";
+        url = "https://registry.npmjs.org/ufo/-/ufo-1.5.1.tgz";
+        sha512 = "HGyF79+/qZ4soRvM+nHERR2pJ3VXDZ/8sL1uLahdgEDf580NkgiWOxLk33FetExqOWp352JZRsgXbG/4MaGOSg==";
       };
     };
     "vscode-jsonrpc-6.0.0" = {
@@ -1007,7 +1007,7 @@ in {
       sources."acorn-8.11.3"
       sources."anymatch-3.1.3"
       sources."argparse-2.0.1"
-      sources."binary-extensions-2.2.0"
+      sources."binary-extensions-2.3.0"
       sources."braces-3.0.2"
       sources."bumpp-9.4.0"
       sources."c12-1.10.0"
@@ -1100,7 +1100,7 @@ in {
       sources."tar-6.2.0"
       sources."to-regex-range-5.0.1"
       sources."type-detect-4.0.8"
-      sources."ufo-1.4.0"
+      sources."ufo-1.5.1"
       sources."vscode-jsonrpc-8.1.0"
       sources."vscode-languageserver-8.1.0"
       (sources."vscode-languageserver-protocol-3.17.3"
