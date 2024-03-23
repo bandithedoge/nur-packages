@@ -167,7 +167,7 @@ in
     meta = with pkgs.lib; {
       description = "A highly automated and intuitive digital audio workstation";
       homepage = "https://www.zrythm.org/";
-      license = licenses.agpl3;
+      license = licenses.agpl3Plus;
       platforms = platforms.linux;
     };
   }
