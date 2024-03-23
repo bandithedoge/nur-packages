@@ -26,6 +26,7 @@
     luaPackages = callPackages ./luaPackages;
     luakit = callPackage' ./luakit;
     lv2vst = callPackage' ./lv2vst;
+    mesonlsp-bin = callPackage' ./mesonlsp-bin;
     nimlangserver = callPackage' ./nimlangserver;
     nodePackages = callPackages ./nodePackages;
     octasine = callPackage' ./octasine;
@@ -35,7 +36,6 @@
     raze = callPackage' ./raze;
     satty = callPackage' ./satty;
     sheepshaver-bin = callPackage' ./sheepshaver-bin;
-    mesonlsp-bin = callPackage' ./mesonlsp-bin;
     symbols-nerd-font = callPackage' ./symbols-nerd-font;
     tal = callPackages ./tal;
     treeSitterGrammars = callPackages ./treeSitterGrammars;

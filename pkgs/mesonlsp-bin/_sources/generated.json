@@ -1,17 +1,17 @@
 {
-  "mesonlsp-bin": {
-    "cargoLocks": null,
-    "date": null,
-    "extract": null,
-    "name": "mesonlsp-bin",
-    "passthru": null,
-    "pinned": false,
-    "src": {
-      "name": null,
-      "sha256": "sha256-vlVmWOjXgC/ucSZ5013pDFPgG7+aEm+yg21VBwmS4hs=",
-      "type": "url",
-      "url": "https://github.com/JCWasmx86/mesonlsp/releases/download/v4.1.0/mesonlsp-alpine-static.zip"
-    },
-    "version": "v4.1.0"
-  }
+    "mesonlsp-bin": {
+        "cargoLocks": null,
+        "date": null,
+        "extract": null,
+        "name": "mesonlsp-bin",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-Y5xa7yB4pGTI6HDQRuM/xQHZQHwh8/L/gFTntwjsaWI=",
+            "type": "url",
+            "url": "https://github.com/JCWasmx86/mesonlsp/releases/download/v4.1.3/mesonlsp-x86_64-unknown-linux-musl.zip"
+        },
+        "version": "v4.1.3"
+    }
 }
