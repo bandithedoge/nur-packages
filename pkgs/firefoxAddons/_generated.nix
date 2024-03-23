@@ -1052,10 +1052,10 @@
   };
   "refined-github" = buildFirefoxXpiAddon {
     pname = "refined-github";
-    version = "24.2.8";
+    version = "24.3.20";
     addonId = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4233557/refined_github-24.2.8.xpi";
-    sha256 = "df51ec2cd17001bd474b86d75d6657156e91b54de607b6c7b4977a2044c5f6a7";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4252355/refined_github-24.3.20.xpi";
+    sha256 = "ad3cc2317f57e5e6bd3101714a6dc6369f878cc619814e6628781ad34dd29716";
     meta = with lib; {
       homepage = "https://github.com/refined-github/refined-github";
       description = "Simplifies the GitHub interface and adds many useful features.";
@@ -1119,10 +1119,10 @@
   };
   "sponsorblock" = buildFirefoxXpiAddon {
     pname = "sponsorblock";
-    version = "5.5.8";
+    version = "5.5.9";
     addonId = "sponsorBlocker@ajay.app";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4246981/sponsorblock-5.5.8.xpi";
-    sha256 = "c20dc2f508fcc7ee4939b2e30d151db5273047a639a8a5412cc742bcdf893556";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4251917/sponsorblock-5.5.9.xpi";
+    sha256 = "a4ea4938ca5375c3de6966caec5cd63ae458788830abdab49a700fdc39d80f58";
     meta = with lib; {
       homepage = "https://sponsor.ajay.app";
       description = "Easily skip YouTube video sponsors. When you visit a YouTube video, the extension will check the database for reported sponsors and automatically skip known sponsors. You can also report sponsors in videos. Other browsers: https://sponsor.ajay.app";
@@ -1139,10 +1139,10 @@
   };
   "steam-database" = buildFirefoxXpiAddon {
     pname = "steam-database";
-    version = "3.7.9";
+    version = "3.7.10";
     addonId = "firefox-extension@steamdb.info";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4202136/steam_database-3.7.9.xpi";
-    sha256 = "87f93bee3c42c469da72d7fce76db7cecbe843875ea8f098ecafad06940a973b";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4251832/steam_database-3.7.10.xpi";
+    sha256 = "aee51bce4e6b84b95cadafd804c9f271394ae634fe121d0b9d82c4e6af022f73";
     meta = with lib; {
       homepage = "https://steamdb.info/";
       description = "Adds SteamDB links and new features on the Steam store and community. View lowest game prices and stats.";
@@ -1151,8 +1151,6 @@
         "storage"
         "https://steamdb.info/*"
         "https://store.steampowered.com/*"
-        "https://store.steampowered.com/checkout/*"
-        "https://store.steampowered.com/cart/*"
         "https://store.steampowered.com/app/*"
         "https://store.steampowered.com/news/app/*"
         "https://store.steampowered.com/account/licenses*"
@@ -1164,7 +1162,6 @@
         "https://store.steampowered.com/app/*/agecheck"
         "https://store.steampowered.com/agecheck/*"
         "https://store.steampowered.com/explore*"
-        "https://store.steampowered.com/checkout/sendgift/*"
         "https://steamcommunity.com/app/*"
         "https://steamcommunity.com/sharedfiles/filedetails*"
         "https://steamcommunity.com/workshop/filedetails*"
@@ -1250,10 +1247,10 @@
   };
   "tree-style-tab" = buildFirefoxXpiAddon {
     pname = "tree-style-tab";
-    version = "4.0.8";
+    version = "4.0.10";
     addonId = "treestyletab@piro.sakura.ne.jp";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4251381/tree_style_tab-4.0.8.xpi";
-    sha256 = "2264a8615f57e3936ff56eeea7f343745437adfbbc8f3d8c7ea9426e7efdceb9";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4252861/tree_style_tab-4.0.10.xpi";
+    sha256 = "d13a67005f9d0241b16ef50c4fb37ec11d8cd22fe51fba68550fd0c395440302";
     meta = with lib; {
       homepage = "http://piro.sakura.ne.jp/xul/_treestyletab.html.en";
       description = "Show tabs like a tree.";

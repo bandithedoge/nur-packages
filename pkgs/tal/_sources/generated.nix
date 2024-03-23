@@ -10,7 +10,7 @@
     version = "latest";
     src = fetchurl {
       url = "https://tal-software.com/downloads/plugins/TAL-BassLine-101_64_linux.zip";
-      sha256 = "sha256-QO1jNXugL7mcjfNnKl/s+c0Gf5Qw2gfAeiDwh7ot3gc=";
+      sha256 = "sha256-EiGW1ICp3uROxQp4u6BMwA7vVgSioVlioQII4kQCz2M=";
     };
   };
   chorus-lx = {
@@ -58,7 +58,7 @@
     version = "latest";
     src = fetchurl {
       url = "https://tal-software.com/downloads/plugins/TAL-J-8_64_linux.zip";
-      sha256 = "sha256-+wwzi/dfNFoOrekyAxsgBTlLPLF7Y5Uz3fFEM8BuCD8=";
+      sha256 = "sha256-Ut+fQsi4/DT3HnEW+7v7cFmGfEeSsz+tJTpykrTNjYI=";
     };
   };
   mod = {

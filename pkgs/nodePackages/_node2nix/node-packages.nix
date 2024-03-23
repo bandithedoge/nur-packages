@@ -333,13 +333,13 @@
         sha512 = "VaUJspBffn/LMCJVoMvSAdmscJyS1auj5Zulnn5UoYcY531UWmdwhRWkcGKnGU93m5HSXP9LP2usOryrBtQowA==";
       };
     };
-    "giget-1.2.1" = {
+    "giget-1.2.3" = {
       name = "giget";
       packageName = "giget";
-      version = "1.2.1";
+      version = "1.2.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/giget/-/giget-1.2.1.tgz";
-        sha512 = "4VG22mopWtIeHwogGSy1FViXVo0YT+m6BrqZfz0JJFwbSsePsCdOzdLIIli5BtMp7Xe8f/o2OmBpQX2NBOC24g==";
+        url = "https://registry.npmjs.org/giget/-/giget-1.2.3.tgz";
+        sha512 = "8EHPljDvs7qKykr6uw8b+lqLiUc/vUg+KVTI0uND4s63TdsZM2Xus3mflvF0DDG9SiM4RlCkFGL+7aAjRmV7KA==";
       };
     };
     "glob-parent-5.1.2" = {
@@ -549,13 +549,13 @@
         sha512 = "vLgaHvaeunuOXHSmEbZ9izxPx3USsk8KCQ8iC+aTlp5sKRSoZvwhHh5L9VbKSaVC6sJDqbyohIS76E2VmHIPAA==";
       };
     };
-    "node-fetch-native-1.6.2" = {
+    "node-fetch-native-1.6.4" = {
       name = "node-fetch-native";
       packageName = "node-fetch-native";
-      version = "1.6.2";
+      version = "1.6.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/node-fetch-native/-/node-fetch-native-1.6.2.tgz";
-        sha512 = "69mtXOFZ6hSkYiXAVB5SqaRvrbITC/NPyqv7yuu/qw0nmgPyYbIMYYNIDhNtwPrzk0ptrimrLz/hhjvm4w5Z+w==";
+        url = "https://registry.npmjs.org/node-fetch-native/-/node-fetch-native-1.6.4.tgz";
+        sha512 = "IhOigYzAKHd244OC0JIMIUrjzctirCmPkaIfhDeGcEETWof5zKYUW7e7MYvChGWh/4CJeXEgsRyGzuF334rOOQ==";
       };
     };
     "normalize-path-3.0.0" = {
@@ -774,13 +774,13 @@
         sha512 = "dOESqjYr96iWYylGObzd39EuNTa5VJxyvVAEm5Jnh7KGo75V43Hk1odPQkNDyXNmUR6k+gEiDVXnjB8HJ3crXw==";
       };
     };
-    "tar-6.2.0" = {
+    "tar-6.2.1" = {
       name = "tar";
       packageName = "tar";
-      version = "6.2.0";
+      version = "6.2.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/tar/-/tar-6.2.0.tgz";
-        sha512 = "/Wo7DcT0u5HUV486xg675HtjNd3BXZ6xDbzsCUZPt5iw8bTQ63bP0Raut3mvro9u+CUyq7YQd8Cx55fsZXxqLQ==";
+        url = "https://registry.npmjs.org/tar/-/tar-6.2.1.tgz";
+        sha512 = "DZ4yORTwrbTj/7MZYq2w+/ZFdI6OZ/f9SFHR+71gIVUZhOQPHzVCLpvRnPgyaMpfWxxk/4ONva3GQSyNIKRv6A==";
       };
     };
     "to-regex-range-5.0.1" = {
@@ -810,13 +810,13 @@
         sha512 = "1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==";
       };
     };
-    "ufo-1.5.2" = {
+    "ufo-1.5.3" = {
       name = "ufo";
       packageName = "ufo";
-      version = "1.5.2";
+      version = "1.5.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/ufo/-/ufo-1.5.2.tgz";
-        sha512 = "eiutMaL0J2MKdhcOM1tUy13pIrYnyR87fEd8STJQFrrAwImwvlXkxlZEjaKah8r2viPohld08lt73QfLG1NxMg==";
+        url = "https://registry.npmjs.org/ufo/-/ufo-1.5.3.tgz";
+        sha512 = "Y7HYmWaFwPUmkoQCUIAYpKqkOf+SbVj/2fJJZ4RJMCfZp0rTGwRbzQD+HghfnhKOjL9E01okqz+ncJskGYfBNw==";
       };
     };
     "vscode-jsonrpc-6.0.0" = {
@@ -1036,7 +1036,7 @@ in {
           ];
         })
       sources."get-stream-8.0.1"
-      sources."giget-1.2.1"
+      sources."giget-1.2.3"
       sources."glob-parent-5.1.2"
       sources."human-signals-5.0.0"
       sources."is-binary-path-2.1.0"
@@ -1063,7 +1063,7 @@ in {
         })
       sources."mkdirp-1.0.4"
       sources."mlly-1.6.1"
-      sources."node-fetch-native-1.6.2"
+      sources."node-fetch-native-1.6.4"
       sources."normalize-path-3.0.0"
       (sources."npm-run-path-5.3.0"
         // {
@@ -1097,10 +1097,10 @@ in {
       sources."sisteransi-1.0.5"
       sources."string-argv-0.3.2"
       sources."strip-final-newline-3.0.0"
-      sources."tar-6.2.0"
+      sources."tar-6.2.1"
       sources."to-regex-range-5.0.1"
       sources."type-detect-4.0.8"
-      sources."ufo-1.5.2"
+      sources."ufo-1.5.3"
       sources."vscode-jsonrpc-8.1.0"
       sources."vscode-languageserver-8.1.0"
       (sources."vscode-languageserver-protocol-3.17.3"
