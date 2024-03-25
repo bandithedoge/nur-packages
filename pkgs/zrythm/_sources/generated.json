@@ -1,7 +1,7 @@
 {
   "carla-git": {
     "cargoLocks": null,
-    "date": "2024-03-07",
+    "date": "2024-03-24",
     "extract": null,
     "name": "carla-git",
     "passthru": null,
@@ -13,11 +13,11 @@
       "name": null,
       "owner": "falkTX",
       "repo": "Carla",
-      "rev": "66afe24a08790732cc17d81d4b846a1e0cfa0118",
-      "sha256": "sha256-m4Htw/c+xGgJEvBKgxrfwnSNFbJ8osA0+loQ6uGJx5Y=",
+      "rev": "86afb5f65c93f24521a3669bfdbf20bdee4a7cb0",
+      "sha256": "sha256-2ePgcmrenNfmwHhn5DBGrazb9hDPjLpsKnc6CgMofGI=",
       "type": "github"
     },
-    "version": "66afe24a08790732cc17d81d4b846a1e0cfa0118"
+    "version": "86afb5f65c93f24521a3669bfdbf20bdee4a7cb0"
   },
   "gtk-4_14_0": {
     "cargoLocks": null,
@@ -81,7 +81,7 @@
   },
   "zrythm": {
     "cargoLocks": null,
-    "date": "2024-03-22",
+    "date": "2024-03-26",
     "extract": null,
     "name": "zrythm",
     "passthru": null,
@@ -91,11 +91,11 @@
       "fetchSubmodules": false,
       "leaveDotGit": false,
       "name": null,
-      "rev": "a749acd75a846b2c3f4edaa8f82968c0cdf88ebe",
-      "sha256": "sha256-7KPXAkU836NQe4HBb3kpXSndSQUlo2tfMub7SnKYQV4=",
+      "rev": "75992faa61380713c7fb71e475dfd53ec77c9939",
+      "sha256": "sha256-zQ8meIHUOxVWRzKachYN8smgQux7yIc5VhzhPrQm8Bg=",
       "type": "git",
       "url": "https://gitlab.zrythm.org/zrythm/zrythm.git"
     },
-    "version": "a749acd75a846b2c3f4edaa8f82968c0cdf88ebe"
+    "version": "75992faa61380713c7fb71e475dfd53ec77c9939"
   }
 }
