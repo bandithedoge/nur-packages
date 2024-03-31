@@ -439,14 +439,19 @@
   };
   "github-isometric-contributions" = buildFirefoxXpiAddon {
     pname = "github-isometric-contributions";
-    version = "1.1.28";
+    version = "1.1.29";
     addonId = "isometric-contributions@jasonlong.me";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4196768/github_isometric_contributions-1.1.28.xpi";
-    sha256 = "fff29a12f3b4dbdd0ab67969af582d321ff2f14f50f8283ce55d7330f0da1a59";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4257762/github_isometric_contributions-1.1.29.xpi";
+    sha256 = "e1ff15fb7968d53ee161e050342a3402735ddf3e6d2df68955771f72fe120e0d";
     meta = with lib; {
       description = "Renders an isometric pixel view of GitHub contribution graphs.";
       license = licenses.mit;
-      mozPermissions = ["storage" "https://github.com/*"];
+      mozPermissions = [
+        "storage"
+        "contextMenus"
+        "activeTab"
+        "https://github.com/*"
+      ];
       platforms = platforms.all;
     };
   };
@@ -491,19 +496,15 @@
   };
   "lovely-forks" = buildFirefoxXpiAddon {
     pname = "lovely-forks";
-    version = "3.7.2";
+    version = "3.7.3";
     addonId = "github-forks-addon@musicallyut.in";
-    url = "https://addons.mozilla.org/firefox/downloads/file/3805375/lovely_forks-3.7.2.xpi";
-    sha256 = "a96c0da726fd46ce6a14ea39ceaaf571e7cf9a2d467b2e2e72543a7c57312b78";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4257592/lovely_forks-3.7.3.xpi";
+    sha256 = "ab9a444acbaa2bebf1bea88a1d41edd9f35208b05510522ab574fdf4cae3058d";
     meta = with lib; {
       homepage = "https://github.com/musically-ut/lovely-forks";
       description = "Show notable forks of Github projects.";
       license = licenses.mpl20;
-      mozPermissions = [
-        "*://github.com/*"
-        "*://api.github.com/*"
-        "storage"
-      ];
+      mozPermissions = ["storage" "*://github.com/*"];
       platforms = platforms.all;
     };
   };
