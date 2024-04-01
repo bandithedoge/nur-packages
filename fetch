@@ -12,6 +12,12 @@ fetch_vim() {
     cd ../..
 }
 
+fetch_emacs() {
+    cd pkgs/emacsPackages || exit
+    niv update
+    cd ../..
+}
+
 fetch_node() {
     cd pkgs/nodePackages/_node2nix || exit 
     node2nix -i node-packages.json || exit 1
@@ -35,6 +41,7 @@ if [ "$#" -eq 0 ]; then
         fetch "$(dirname "$pkg")"
     done
     fetch_vim
+    fetch_emacs
     fetch_node
     fetch_firefox
     fetch_xplr
@@ -42,6 +49,7 @@ else
     for pkg in "$@"; do
         case "$pkg" in
         vim) fetch_vim ;;
+        emacs) fetch_emacs ;;
         node) fetch_node ;;
         firefox) fetch_firefox ;;
         xplr) fetch_xplr ;;
