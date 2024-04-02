@@ -36,6 +36,7 @@
     pythonPackages = callPackages ./pythonPackages;
     raze = callPackage' ./raze;
     satty = callPackage' ./satty;
+    sgdboop-bin = callPackage' ./sgdboop-bin;
     sheepshaver-bin = callPackage' ./sheepshaver-bin;
     symbols-nerd-font = callPackage' ./symbols-nerd-font;
     tal = callPackages ./tal;
