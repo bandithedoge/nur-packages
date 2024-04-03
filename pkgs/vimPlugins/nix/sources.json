@@ -281,10 +281,10 @@
     "homepage": "",
     "owner": "ms-jpq",
     "repo": "coq_nvim",
-    "rev": "c6f4505074674c5d7fdd3afbbd6164323fe20fd7",
-    "sha256": "1d31a6w0rd0dv003yim7chlz1limdg8w91kimv97q8gh6l43sxh0",
+    "rev": "c7fc9a764f91d7152c6a435de730eb436aeeed49",
+    "sha256": "0ljpylgxir8sbcxh9qmvwm1vpabs2l4s3im81yfcyj1164hwsk84",
     "type": "tarball",
-    "url": "https://github.com/ms-jpq/coq_nvim/archive/c6f4505074674c5d7fdd3afbbd6164323fe20fd7.tar.gz",
+    "url": "https://github.com/ms-jpq/coq_nvim/archive/c7fc9a764f91d7152c6a435de730eb436aeeed49.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "crates.nvim": {
@@ -557,10 +557,10 @@
     "homepage": null,
     "owner": "ibhagwan",
     "repo": "fzf-lua",
-    "rev": "15b9b8d7a216179a07a6a888a469b05ce266b7ce",
-    "sha256": "0ll32fgn4pdm1ivbvpv0vdbcrcg3si00l92mb9096z9dc302svkq",
+    "rev": "faf585f8cdc2b9fd633f9f9fd3c5df2de27567d7",
+    "sha256": "0a2xixqxmplrv8fzf12iz3njc6p79hmrw18c8982xhkhjzw3lraa",
     "type": "tarball",
-    "url": "https://github.com/ibhagwan/fzf-lua/archive/15b9b8d7a216179a07a6a888a469b05ce266b7ce.tar.gz",
+    "url": "https://github.com/ibhagwan/fzf-lua/archive/faf585f8cdc2b9fd633f9f9fd3c5df2de27567d7.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "galaxyline.nvim": {
