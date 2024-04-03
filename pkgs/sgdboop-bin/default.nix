@@ -17,9 +17,10 @@ pkgs.stdenv.mkDerivation {
   ];
 
   buildPhase = ''
-    mkdir -p $out/bin $out/lib
+    mkdir -p $out/bin $out/lib $out/share/applications
     cp SGDBoop $out/bin
     cp libiup.so $out/lib
+    cp com.steamgriddb.SGDBoop.desktop $out/share/applications
   '';
 
   meta = with pkgs.lib; {
