@@ -21,7 +21,7 @@
   },
   "zmusic": {
     "cargoLocks": null,
-    "date": "2024-02-29",
+    "date": "2024-04-03",
     "extract": null,
     "name": "zmusic",
     "passthru": null,
@@ -31,11 +31,11 @@
       "fetchSubmodules": false,
       "leaveDotGit": false,
       "name": null,
-      "rev": "7476a189755d2665b24a58182640752b82b3a66d",
-      "sha256": "sha256-P5YEY/7aXJRRwoXsS5VdHgK3dFMJN66P76mPqYW/RLU=",
+      "rev": "b31b43efd0e92c8bff5501e95b31d9439642b711",
+      "sha256": "sha256-AkrqMb5PLO6D2UMsFVvxdNXNQKZvBDRMmAGkieTl6WU=",
       "type": "git",
       "url": "https://github.com/ZDoom/ZMusic"
     },
-    "version": "7476a189755d2665b24a58182640752b82b3a66d"
+    "version": "b31b43efd0e92c8bff5501e95b31d9439642b711"
   }
 }

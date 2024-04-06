@@ -8,10 +8,10 @@
     "pinned": false,
     "src": {
       "name": null,
-      "sha256": "sha256-jGRhPv4MXRFmSpMdJB51bqQiz0rRjXmfHLXkMXEianY=",
+      "sha256": "sha256-Al5krYr6yxHLsr0Usa6peWbM8LZ92P+hz08XnNvShjw=",
       "type": "url",
-      "url": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/NerdFontsSymbolsOnly.zip"
+      "url": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.0/NerdFontsSymbolsOnly.zip"
     },
-    "version": "v3.1.1"
+    "version": "v3.2.0"
   }
 }
