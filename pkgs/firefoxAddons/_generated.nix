@@ -301,10 +301,10 @@
   };
   "csgofloat" = buildFirefoxXpiAddon {
     pname = "csgofloat";
-    version = "3.2.5";
+    version = "3.3.1";
     addonId = "{194d0dc6-7ada-41c6-88b8-95d7636fe43c}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4217119/csgofloat-3.2.5.xpi";
-    sha256 = "d4825ad6c1ff0b38a6f9db743f536008d9736a7613edc5e448ca7eb41aa88f8e";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4259722/csgofloat-3.3.1.xpi";
+    sha256 = "24a903e27d9e137e8eb87ec83f8df0f26ed8c902c50c775d6c1b219dab9c1011";
     meta = with lib; {
       homepage = "https://csgofloat.com";
       description = "Shows the float value, paint seed, and screenshots of Counter-Strike (CS:GO &amp; CS2) items on the Steam Market or Inventories";
@@ -318,6 +318,7 @@
         "*://*.steamcommunity.com/id/*/inventory*"
         "*://*.steamcommunity.com/profiles/*/inventory*"
         "*://*.steamcommunity.com/tradeoffer/*"
+        "*://*.csfloat.com/*"
       ];
       platforms = platforms.all;
     };
@@ -1249,10 +1250,10 @@
   };
   "tree-style-tab" = buildFirefoxXpiAddon {
     pname = "tree-style-tab";
-    version = "4.0.11";
+    version = "4.0.12";
     addonId = "treestyletab@piro.sakura.ne.jp";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4259083/tree_style_tab-4.0.11.xpi";
-    sha256 = "ec53eb91431544981ea19e372a2b07f14c9264a9eb3b96a7b00570d4beb18ee0";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4260305/tree_style_tab-4.0.12.xpi";
+    sha256 = "e6ac13b311a251e47238c8eb0e07779f2e10d6b782be879126bd83c219813bd8";
     meta = with lib; {
       homepage = "http://piro.sakura.ne.jp/xul/_treestyletab.html.en";
       description = "Show tabs like a tree.";
