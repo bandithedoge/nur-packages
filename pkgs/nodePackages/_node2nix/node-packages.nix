@@ -306,15 +306,6 @@
         sha512 = "qOo9F+dMUmC2Lcb4BbVvnKJxTPjCm+RRpe4gDuGrzkL7mEVl/djYSu2OdQ2Pa302N4oqkSg9ir6jaLWJ2USVpQ==";
       };
     };
-    "flat-5.0.2" = {
-      name = "flat";
-      packageName = "flat";
-      version = "5.0.2";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/flat/-/flat-5.0.2.tgz";
-        sha512 = "b6suED+5/3rTpUBdG1gupIl8MPFCAMA0QXwmljLhvCUKcUvdE4gWky9zpuGCcXHOsz4J9wPGNWq6OKpmIzz3hQ==";
-      };
-    };
     "fs-minipass-2.1.0" = {
       name = "fs-minipass";
       packageName = "fs-minipass";
@@ -675,13 +666,13 @@
         sha512 = "NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==";
       };
     };
-    "rc9-2.1.1" = {
+    "rc9-2.1.2" = {
       name = "rc9";
       packageName = "rc9";
-      version = "2.1.1";
+      version = "2.1.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/rc9/-/rc9-2.1.1.tgz";
-        sha512 = "lNeOl38Ws0eNxpO3+wD1I9rkHGQyj1NU1jlzv4go2CtEnEQEUfqnIvZG7W+bC/aXdJ27n5x/yUjb6RoT9tko+Q==";
+        url = "https://registry.npmjs.org/rc9/-/rc9-2.1.2.tgz";
+        sha512 = "btXCnMmRIBINM2LDZoEmOogIZU7Qe7zn4BpomSKZ/ykbLObuBdvG+mFq11DL6fjH1DRwHhrlgtYWG96bJiC7Cg==";
       };
     };
     "readdirp-3.6.0" = {
@@ -1028,7 +1019,6 @@ in {
       sources."fast-glob-3.3.2"
       sources."fastq-1.17.1"
       sources."fill-range-7.0.1"
-      sources."flat-5.0.2"
       (sources."fs-minipass-2.1.0"
         // {
           dependencies = [
@@ -1086,7 +1076,7 @@ in {
         })
       sources."prompts-2.4.2"
       sources."queue-microtask-1.2.3"
-      sources."rc9-2.1.1"
+      sources."rc9-2.1.2"
       sources."readdirp-3.6.0"
       sources."reusify-1.0.4"
       sources."run-parallel-1.2.0"
