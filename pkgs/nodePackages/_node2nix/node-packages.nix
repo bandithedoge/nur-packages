@@ -198,13 +198,13 @@
         sha512 = "tskPPKEs8D2KPafUypv2gxwJP8h/OaJmC82QQGGDQcHvXX43xF2VDACcJVmZ0EuSxkpO9Kc4MlrA3q0+FG58AQ==";
       };
     };
-    "confbox-0.1.3" = {
+    "confbox-0.1.6" = {
       name = "confbox";
       packageName = "confbox";
-      version = "0.1.3";
+      version = "0.1.6";
       src = fetchurl {
-        url = "https://registry.npmjs.org/confbox/-/confbox-0.1.3.tgz";
-        sha512 = "eH3ZxAihl1PhKfpr4VfEN6/vUd87fmgb6JkldHgg/YR6aEBhW63qUDgzP2Y6WM0UumdsYp5H3kibalXAdHfbgg==";
+        url = "https://registry.npmjs.org/confbox/-/confbox-0.1.6.tgz";
+        sha512 = "ONc4FUXne/1UBN1EuxvQ5rAjjAbo+N4IxrxWI8bzGHbd1PyrFlI/E3G23/yoJZDFBaFFxPGfI0EOq0fa4dgX7A==";
       };
     };
     "consola-3.2.3" = {
@@ -1007,7 +1007,7 @@ in {
       sources."chokidar-3.6.0"
       sources."chownr-2.0.0"
       sources."citty-0.1.6"
-      sources."confbox-0.1.3"
+      sources."confbox-0.1.6"
       sources."consola-3.2.3"
       sources."cross-spawn-7.0.3"
       sources."defu-6.1.4"
