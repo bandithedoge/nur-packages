@@ -7,10 +7,10 @@
 }: {
   symbols-nerd-font = {
     pname = "symbols-nerd-font";
-    version = "v3.2.0";
+    version = "v3.2.1";
     src = fetchurl {
-      url = "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.0/NerdFontsSymbolsOnly.zip";
-      sha256 = "sha256-Al5krYr6yxHLsr0Usa6peWbM8LZ92P+hz08XnNvShjw=";
+      url = "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/NerdFontsSymbolsOnly.zip";
+      sha256 = "sha256-vFnC6nTQIqYmL/njcv3lw2zVrj+CpWeUFIns+rTwPWY=";
     };
   };
 }
