@@ -278,10 +278,10 @@
   };
   "canvasblocker" = buildFirefoxXpiAddon {
     pname = "canvasblocker";
-    version = "1.9";
+    version = "1.10.1";
     addonId = "CanvasBlocker@kkapsner.de";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4097901/canvasblocker-1.9.xpi";
-    sha256 = "5248c2c2dedd14b8aa2cd73f9484285d9453e93339f64fcf04a3d63c859cf3d7";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4262820/canvasblocker-1.10.1.xpi";
+    sha256 = "dae3b648f0b559b8b08cdad8adaaba2fcde3aa7baf0ffe9b2cbca5a3373c98b7";
     meta = with lib; {
       homepage = "https://github.com/kkapsner/CanvasBlocker/";
       description = "Alters some JS APIs to prevent fingerprinting.";
@@ -1250,10 +1250,10 @@
   };
   "tree-style-tab" = buildFirefoxXpiAddon {
     pname = "tree-style-tab";
-    version = "4.0.12";
+    version = "4.0.13";
     addonId = "treestyletab@piro.sakura.ne.jp";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4260305/tree_style_tab-4.0.12.xpi";
-    sha256 = "e6ac13b311a251e47238c8eb0e07779f2e10d6b782be879126bd83c219813bd8";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4262807/tree_style_tab-4.0.13.xpi";
+    sha256 = "85b2e86f316080f955897340f5eabb8cd0ffae752eea769f637a282e6f6bb951";
     meta = with lib; {
       homepage = "http://piro.sakura.ne.jp/xul/_treestyletab.html.en";
       description = "Show tabs like a tree.";
