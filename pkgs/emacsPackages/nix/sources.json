@@ -1,62 +1,62 @@
 {
-    "explain-pause-mode": {
-        "branch": "master",
-        "description": "top, but for Emacs.",
-        "homepage": "",
-        "owner": "lastquestion",
-        "repo": "explain-pause-mode",
-        "rev": "2356c8c3639cbeeb9751744dbe737267849b4b51",
-        "sha256": "0frnfwqal9mrnrz6q4v7vcai26ahaw81894arff1yjw372pfgv7v",
-        "type": "tarball",
-        "url": "https://github.com/lastquestion/explain-pause-mode/archive/2356c8c3639cbeeb9751744dbe737267849b4b51.tar.gz",
-        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
-    },
-    "indent-bars": {
-        "branch": "main",
-        "description": "Fast, configurable indentation guide-bars for Emacs",
-        "homepage": "",
-        "owner": "jdtsmith",
-        "repo": "indent-bars",
-        "rev": "88261051823961f0fc60c3c76b0cf2bae4ab32e4",
-        "sha256": "1apb2wqh5ijbkavff9q6l75hxsb7j81g47y42pqgaxink33brims",
-        "type": "tarball",
-        "url": "https://github.com/jdtsmith/indent-bars/archive/88261051823961f0fc60c3c76b0cf2bae4ab32e4.tar.gz",
-        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
-    },
-    "on": {
-        "branch": "master",
-        "description": "Hooks for faster Emacs startup – GitHub mirror",
-        "homepage": "https://gitlab.com/ajgrf/on.el",
-        "owner": "ajgrf",
-        "repo": "on.el",
-        "rev": "3cf623e1a4331e259ef92e49154ed0551f300436",
-        "sha256": "161ivhq7plx15s65dskzfdy28wmiwwjysmjsyli8bgrhjh59bm42",
-        "type": "tarball",
-        "url": "https://github.com/ajgrf/on.el/archive/3cf623e1a4331e259ef92e49154ed0551f300436.tar.gz",
-        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
-    },
-    "once": {
-        "branch": "master",
-        "description": "Extra init.el deferred evaluation utilities",
-        "homepage": null,
-        "owner": "emacs-magus",
-        "repo": "once",
-        "rev": "a6f950c29c846a50018bc63695f24f611c1a58be",
-        "sha256": "1k1bnki9139fdgmvyn36hm7zbmhhlsxqr23hwldid32inpw66fll",
-        "type": "tarball",
-        "url": "https://github.com/emacs-magus/once/archive/a6f950c29c846a50018bc63695f24f611c1a58be.tar.gz",
-        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
-    },
-    "org-bars": {
-        "branch": "master",
-        "description": "org-bars-mode is a minor mode for org-mode.  It adds bars to the virtual indentation provided by the built-in package org-indent.",
-        "homepage": null,
-        "owner": "tonyaldon",
-        "repo": "org-bars",
-        "rev": "59ff8976ce789c0c594fd4756cbeb5354b6178d2",
-        "sha256": "1lh36b86s0jmqvp363cw9z8zpx6qqn9hpni95q34qi9a41f36rwf",
-        "type": "tarball",
-        "url": "https://github.com/tonyaldon/org-bars/archive/59ff8976ce789c0c594fd4756cbeb5354b6178d2.tar.gz",
-        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
-    }
+  "explain-pause-mode": {
+    "branch": "master",
+    "description": "top, but for Emacs.",
+    "homepage": "",
+    "owner": "lastquestion",
+    "repo": "explain-pause-mode",
+    "rev": "2356c8c3639cbeeb9751744dbe737267849b4b51",
+    "sha256": "0frnfwqal9mrnrz6q4v7vcai26ahaw81894arff1yjw372pfgv7v",
+    "type": "tarball",
+    "url": "https://github.com/lastquestion/explain-pause-mode/archive/2356c8c3639cbeeb9751744dbe737267849b4b51.tar.gz",
+    "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+  },
+  "indent-bars": {
+    "branch": "main",
+    "description": "Fast, configurable indentation guide-bars for Emacs",
+    "homepage": "",
+    "owner": "jdtsmith",
+    "repo": "indent-bars",
+    "rev": "88261051823961f0fc60c3c76b0cf2bae4ab32e4",
+    "sha256": "1apb2wqh5ijbkavff9q6l75hxsb7j81g47y42pqgaxink33brims",
+    "type": "tarball",
+    "url": "https://github.com/jdtsmith/indent-bars/archive/88261051823961f0fc60c3c76b0cf2bae4ab32e4.tar.gz",
+    "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+  },
+  "on": {
+    "branch": "master",
+    "description": "Hooks for faster Emacs startup – GitHub mirror",
+    "homepage": "https://gitlab.com/ajgrf/on.el",
+    "owner": "ajgrf",
+    "repo": "on.el",
+    "rev": "3cf623e1a4331e259ef92e49154ed0551f300436",
+    "sha256": "161ivhq7plx15s65dskzfdy28wmiwwjysmjsyli8bgrhjh59bm42",
+    "type": "tarball",
+    "url": "https://github.com/ajgrf/on.el/archive/3cf623e1a4331e259ef92e49154ed0551f300436.tar.gz",
+    "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+  },
+  "once": {
+    "branch": "master",
+    "description": "Extra init.el deferred evaluation utilities",
+    "homepage": null,
+    "owner": "emacs-magus",
+    "repo": "once",
+    "rev": "a6f950c29c846a50018bc63695f24f611c1a58be",
+    "sha256": "1k1bnki9139fdgmvyn36hm7zbmhhlsxqr23hwldid32inpw66fll",
+    "type": "tarball",
+    "url": "https://github.com/emacs-magus/once/archive/a6f950c29c846a50018bc63695f24f611c1a58be.tar.gz",
+    "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+  },
+  "org-bars": {
+    "branch": "master",
+    "description": "org-bars-mode is a minor mode for org-mode.  It adds bars to the virtual indentation provided by the built-in package org-indent.",
+    "homepage": null,
+    "owner": "tonyaldon",
+    "repo": "org-bars",
+    "rev": "59ff8976ce789c0c594fd4756cbeb5354b6178d2",
+    "sha256": "1lh36b86s0jmqvp363cw9z8zpx6qqn9hpni95q34qi9a41f36rwf",
+    "type": "tarball",
+    "url": "https://github.com/tonyaldon/org-bars/archive/59ff8976ce789c0c594fd4756cbeb5354b6178d2.tar.gz",
+    "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+  }
 }
