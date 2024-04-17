@@ -81,13 +81,13 @@
         sha512 = "w+tIMs3rq2afQdsPJlODhoUEKzFP1ayaoyl1CcnwtIlsVe7K7bA1NGm4s3PraqTLlXnbIN84zuBlxBWo1u9BLw==";
       };
     };
-    "@vscode/emmet-helper-2.9.2" = {
+    "@vscode/emmet-helper-2.9.3" = {
       name = "_at_vscode_slash_emmet-helper";
       packageName = "@vscode/emmet-helper";
-      version = "2.9.2";
+      version = "2.9.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@vscode/emmet-helper/-/emmet-helper-2.9.2.tgz";
-        sha512 = "MaGuyW+fa13q3aYsluKqclmh62Hgp0BpKIqS66fCxfOaBcVQ1OnMQxRRgQUYnCkxFISAQlkJ0qWWPyXjro1Qrg==";
+        url = "https://registry.npmjs.org/@vscode/emmet-helper/-/emmet-helper-2.9.3.tgz";
+        sha512 = "rB39LHWWPQYYlYfpv9qCoZOVioPCftKXXqrsyqN1mTWZM6dTnONT63Db+03vgrBbHzJN45IrgS/AGxw9iiqfEw==";
       };
     };
     "acorn-8.11.3" = {
@@ -994,7 +994,7 @@ in {
       sources."@nodelib/fs.scandir-2.1.5"
       sources."@nodelib/fs.stat-2.0.5"
       sources."@nodelib/fs.walk-1.2.8"
-      sources."@vscode/emmet-helper-2.9.2"
+      sources."@vscode/emmet-helper-2.9.3"
       sources."acorn-8.11.3"
       sources."anymatch-3.1.3"
       sources."argparse-2.0.1"
