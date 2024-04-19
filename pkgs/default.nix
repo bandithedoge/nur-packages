@@ -31,6 +31,7 @@
     nimlangserver = callPackage' ./nimlangserver;
     nodePackages = callPackages ./nodePackages;
     octasine = callPackage' ./octasine;
+    onagre = callPackage' ./onagre;
     osirus = callPackage' ./osirus;
     powertab = callPackage' ./powertab;
     pythonPackages = callPackages ./pythonPackages;
