@@ -101,10 +101,10 @@
     "homepage": "",
     "owner": "akinsho",
     "repo": "bufferline.nvim",
-    "rev": "64e2c5def50dfd6b6f14d96a45fa3d815a4a1eef",
-    "sha256": "1r9bb6jmcj2048ny86v7ha8scjv1qispmxhj98l11jb2xb1f1fvn",
+    "rev": "f6f00d9ac1a51483ac78418f9e63126119a70709",
+    "sha256": "1681xqpvxb7zhfig69d0qf287qzxfwcwb6vipnhykiisd8vn9inv",
     "type": "tarball",
-    "url": "https://github.com/akinsho/bufferline.nvim/archive/64e2c5def50dfd6b6f14d96a45fa3d815a4a1eef.tar.gz",
+    "url": "https://github.com/akinsho/bufferline.nvim/archive/f6f00d9ac1a51483ac78418f9e63126119a70709.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "chartoggle.nvim": {
@@ -269,10 +269,10 @@
     "homepage": null,
     "owner": "nvim-colortils",
     "repo": "colortils.nvim",
-    "rev": "5bb2d0c5c0ab9780b6528fe735163df8fd6654ff",
-    "sha256": "1drp36jqifwwqxwzhq8zhyyxk0drd74pvif53b7bbnyn69g52c3f",
+    "rev": "b56383d065575305e943e353e1ae6634f39f48f7",
+    "sha256": "0dwm2dxrj4bn9xapz72i7alxnfjjliw5vl7zgrj31ixaamvd8s3a",
     "type": "tarball",
-    "url": "https://github.com/nvim-colortils/colortils.nvim/archive/5bb2d0c5c0ab9780b6528fe735163df8fd6654ff.tar.gz",
+    "url": "https://github.com/nvim-colortils/colortils.nvim/archive/b56383d065575305e943e353e1ae6634f39f48f7.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "coq_nvim": {
@@ -485,10 +485,10 @@
     "homepage": "",
     "owner": "akinsho",
     "repo": "flutter-tools.nvim",
-    "rev": "4f18033c3b78aa5450e538d81dfbbb3e67aeadec",
-    "sha256": "0xppabjh206gppm7ip0h3i6654k951am80v5ckrsksp0q7c7612d",
+    "rev": "f04131d6b2c82c2a7624a8843642d6269b50b437",
+    "sha256": "0i8nincmm9jnq36hhgmygq2101993mabya61mmjgpcf96dl1mdwj",
     "type": "tarball",
-    "url": "https://github.com/akinsho/flutter-tools.nvim/archive/4f18033c3b78aa5450e538d81dfbbb3e67aeadec.tar.gz",
+    "url": "https://github.com/akinsho/flutter-tools.nvim/archive/f04131d6b2c82c2a7624a8843642d6269b50b437.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "fm-nvim": {
@@ -557,10 +557,10 @@
     "homepage": null,
     "owner": "ibhagwan",
     "repo": "fzf-lua",
-    "rev": "52637a72ed728d7955a6a2b24afdf455ebaba623",
-    "sha256": "1y2bkmxzhzwkdinsmh0rs32b8wwslrcbp0ijcn3c9lbjp453zhv5",
+    "rev": "213da0b65bf81e8849d1ebf2a3d47f32a7dc9000",
+    "sha256": "09dz4d0fgh5dm71nhs2b28azxmr7cka2lvm1a5mrczld2xafjzw8",
     "type": "tarball",
-    "url": "https://github.com/ibhagwan/fzf-lua/archive/52637a72ed728d7955a6a2b24afdf455ebaba623.tar.gz",
+    "url": "https://github.com/ibhagwan/fzf-lua/archive/213da0b65bf81e8849d1ebf2a3d47f32a7dc9000.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "galaxyline.nvim": {
@@ -785,10 +785,10 @@
     "homepage": "",
     "owner": "mrjones2014",
     "repo": "legendary.nvim",
-    "rev": "a88744dcfc1e0ad0ed1e347778f036d7b6e4a0ca",
-    "sha256": "04qsmqcx3asxyva2bqdkr49qq6v6anx6k2mh8aq2awc5y9xv95jp",
+    "rev": "02a7799750a56865c58e3ea58e13b19ae1d2dc31",
+    "sha256": "1y7v6xa9n620vlzcvvcf7xc1pfbzidz7ybr7yf1k30gyv3sxpp4j",
     "type": "tarball",
-    "url": "https://github.com/mrjones2014/legendary.nvim/archive/a88744dcfc1e0ad0ed1e347778f036d7b6e4a0ca.tar.gz",
+    "url": "https://github.com/mrjones2014/legendary.nvim/archive/02a7799750a56865c58e3ea58e13b19ae1d2dc31.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "lsp_extensions.nvim": {
@@ -1223,10 +1223,10 @@
     "homepage": "",
     "owner": "neovim",
     "repo": "nvim-lspconfig",
-    "rev": "9eb6d866840df0f3fb1d2e8f34a7e0cfdf80f980",
-    "sha256": "05r7ha0kfm0bzpb2lh4barrblslzpzqzyln0xgrzyh358c0plyl4",
+    "rev": "ed8b8a15acc441aec669f97d75f2c1f2ac8c8aa5",
+    "sha256": "0rqjcksb0dcvvxnc0r4n499xlkviwp2sbn29r8b1bnf68d7qnapx",
     "type": "tarball",
-    "url": "https://github.com/neovim/nvim-lspconfig/archive/9eb6d866840df0f3fb1d2e8f34a7e0cfdf80f980.tar.gz",
+    "url": "https://github.com/neovim/nvim-lspconfig/archive/ed8b8a15acc441aec669f97d75f2c1f2ac8c8aa5.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "nvim-luaref": {
@@ -1343,10 +1343,10 @@
     "homepage": "",
     "owner": "nvim-treesitter",
     "repo": "nvim-treesitter",
-    "rev": "208d504421e4ac53f4230a34cd4b831e8e76cb69",
-    "sha256": "125xgl23vns3fgqqh8yy1h6w1gbqhf7l7h5i2hnx710lmapcxd79",
+    "rev": "bc808622986b0ba8eb64780b94d30cdfbd7c6a9f",
+    "sha256": "0gp1wh7y5610q0wkg5idszqiha24qsjq7rqg5yzv95627b1lqdx6",
     "type": "tarball",
-    "url": "https://github.com/nvim-treesitter/nvim-treesitter/archive/208d504421e4ac53f4230a34cd4b831e8e76cb69.tar.gz",
+    "url": "https://github.com/nvim-treesitter/nvim-treesitter/archive/bc808622986b0ba8eb64780b94d30cdfbd7c6a9f.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "nvim-treesitter-textsubjects": {
@@ -1427,10 +1427,10 @@
     "homepage": "",
     "owner": "nvim-orgmode",
     "repo": "orgmode",
-    "rev": "ba2ab785f23cf6c60cc21c4731fdde393f525448",
-    "sha256": "1arklwxhggyw1k9ghary5dz2myvqpdqv2j675hin7y5rh2g04y9z",
+    "rev": "389e91f6f935aa845bc0cd13dd80f75431c34751",
+    "sha256": "1fzckfi00bb4mi5l9wadhgv98z7fmlgryx24zipcr7k98pdaw36h",
     "type": "tarball",
-    "url": "https://github.com/nvim-orgmode/orgmode/archive/ba2ab785f23cf6c60cc21c4731fdde393f525448.tar.gz",
+    "url": "https://github.com/nvim-orgmode/orgmode/archive/389e91f6f935aa845bc0cd13dd80f75431c34751.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "package-info.nvim": {
@@ -1853,10 +1853,10 @@
     "homepage": "",
     "owner": "akinsho",
     "repo": "toggleterm.nvim",
-    "rev": "193786e0371e3286d3bc9aa0079da1cd41beaa62",
-    "sha256": "0cz6i3xa61mh8s5b9b2z008ay85ggaw02ak9w58wzgmn172q770l",
+    "rev": "dca1c80fb8ec41c97e7c3ef308719d8143fbbb05",
+    "sha256": "11rmk7hpmf75n0lgchj7hvsw9915m493hlgqsmjkkyhs9w0bwb4n",
     "type": "tarball",
-    "url": "https://github.com/akinsho/toggleterm.nvim/archive/193786e0371e3286d3bc9aa0079da1cd41beaa62.tar.gz",
+    "url": "https://github.com/akinsho/toggleterm.nvim/archive/dca1c80fb8ec41c97e7c3ef308719d8143fbbb05.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "tree-sitter-hypr": {
