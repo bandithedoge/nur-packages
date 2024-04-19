@@ -432,15 +432,6 @@
         sha512 = "H8jvkz1O50L3dMZCsLqiuB2tA7muqbSg1AtGEkN0leAqGjsUzDJir3Zwr02BhqdcITPg3ei3mZ+HjMocAknhhg==";
       };
     };
-    "jsonc-parser-3.2.1" = {
-      name = "jsonc-parser";
-      packageName = "jsonc-parser";
-      version = "3.2.1";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/jsonc-parser/-/jsonc-parser-3.2.1.tgz";
-        sha512 = "AilxAyFOAcK5wA1+LeaySVBrHsGQvUFCDWXKpZjzaL0PqW+xfBOttn8GNtWKFWqneyMZj41MWF9Kl6iPWLwgOA==";
-      };
-    };
     "kleur-3.0.3" = {
       name = "kleur";
       packageName = "kleur";
@@ -639,13 +630,13 @@
         sha512 = "JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==";
       };
     };
-    "pkg-types-1.0.3" = {
+    "pkg-types-1.1.0" = {
       name = "pkg-types";
       packageName = "pkg-types";
-      version = "1.0.3";
+      version = "1.1.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/pkg-types/-/pkg-types-1.0.3.tgz";
-        sha512 = "nN7pYi0AQqJnoLPC9eHFQ8AcyaixBUOwvqc5TDnIKCMEE6I0y8P7OKA7fPexsXGCGxQDl/cmrLAp26LhcwxZ4A==";
+        url = "https://registry.npmjs.org/pkg-types/-/pkg-types-1.1.0.tgz";
+        sha512 = "/RpmvKdxKf8uILTtoOhAgf30wYbP2Qw+L9p3Rvshx1JZVX+XQNZQFjlbmGHEGIm4CkVPlSn+NXmIM8+9oWQaSA==";
       };
     };
     "prompts-2.4.2" = {
@@ -1068,12 +1059,7 @@ in {
       sources."pathe-1.1.2"
       sources."perfect-debounce-1.0.0"
       sources."picomatch-2.3.1"
-      (sources."pkg-types-1.0.3"
-        // {
-          dependencies = [
-            sources."jsonc-parser-3.2.1"
-          ];
-        })
+      sources."pkg-types-1.1.0"
       sources."prompts-2.4.2"
       sources."queue-microtask-1.2.3"
       sources."rc9-2.1.2"
