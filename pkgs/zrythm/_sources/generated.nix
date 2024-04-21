@@ -52,15 +52,15 @@
   };
   zrythm = {
     pname = "zrythm";
-    version = "44adfbe68e8628f144489f81f966e4e6e44d48ba";
+    version = "cf383e66fd9d126d9ba39de2db57eb1296cc8471";
     src = fetchgit {
       url = "https://gitlab.zrythm.org/zrythm/zrythm.git";
-      rev = "44adfbe68e8628f144489f81f966e4e6e44d48ba";
+      rev = "cf383e66fd9d126d9ba39de2db57eb1296cc8471";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-WAPqUtt17+edioHAc8p8qnNTKwUb3iVSRfU1Cl7XRCo=";
+      sha256 = "sha256-QgxxA3pvZuUgbqOLRpfRpjVE9ZjxiOejM+RtDHdNZBk=";
     };
-    date = "2024-04-19";
+    date = "2024-04-21";
   };
 }
