@@ -98,16 +98,16 @@
   };
   stew = {
     pname = "stew";
-    version = "a0c085a51fe4f2d82aa96173ac49b3bfe6043858";
+    version = "104132fd0217e846b04dd26a5fbe3e43a4929a05";
     src = fetchgit {
       url = "https://github.com/status-im/nim-stew";
-      rev = "a0c085a51fe4f2d82aa96173ac49b3bfe6043858";
+      rev = "104132fd0217e846b04dd26a5fbe3e43a4929a05";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-sV1J/vRdZM0C5vWG64omUvQubAn7+3baMX58ZurkyNQ=";
+      sha256 = "sha256-HffUeSpIlgEUlRhRZ5wRlGNL+vZKh9tpmSJPeios6mI=";
     };
-    date = "2024-03-13";
+    date = "2024-04-22";
   };
   zevv-with = {
     pname = "zevv-with";
