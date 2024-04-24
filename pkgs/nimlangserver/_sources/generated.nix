@@ -20,16 +20,16 @@
   };
   chronicles = {
     pname = "chronicles";
-    version = "5b79c5ed5e460b19d8d8afc241b5f5a02de628a6";
+    version = "856514a5b10e9293f6cdcf4cc60d7bb969f6b1c0";
     src = fetchgit {
       url = "https://github.com/status-im/nim-chronicles";
-      rev = "5b79c5ed5e460b19d8d8afc241b5f5a02de628a6";
+      rev = "856514a5b10e9293f6cdcf4cc60d7bb969f6b1c0";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-aj4DhrJcmh49OQdkPBhtDYY7dkDWaFnRcCeC0qfxd3c=";
+      sha256 = "sha256-QS7t5TWN+J19MP6HQgO31OIpbiVXtXDi1pD56ZwsFyQ=";
     };
-    date = "2024-03-25";
+    date = "2024-04-24";
   };
   faststreams = {
     pname = "faststreams";
