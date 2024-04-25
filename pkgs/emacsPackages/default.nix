@@ -4,10 +4,11 @@ in
   (pkgs.lib.makeExtensible (_:
     pkgs.lib.attrsets.mapAttrs'
     (name: src: let
-      sanitizedName =
-        builtins.replaceStrings
-        ["."] ["-"]
-        (pkgs.lib.strings.sanitizeDerivationName name);
+      sanitizedName = pkgs.lib.pipe name [
+        (pkgs.lib.removeSuffix ".el")
+        (builtins.replaceStrings ["."] ["-"])
+        pkgs.lib.strings.sanitizeDerivationName
+      ];
     in
       pkgs.lib.attrsets.nameValuePair
       sanitizedName
