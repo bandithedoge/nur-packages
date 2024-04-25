@@ -239,10 +239,10 @@
   };
   "base64-decoder" = buildFirefoxXpiAddon {
     pname = "base64-decoder";
-    version = "1.0";
+    version = "1.1resigned1";
     addonId = "{b20e4f00-ab03-4a88-90e7-4f6b6232c5a9}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/806183/base64_decoder-1.0.xpi";
-    sha256 = "77703d2f99b04279486ffc67daf4db8700e46799ffd68ee5d168b540e02307bf";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4273906/base64_decoder-1.1resigned1.xpi";
+    sha256 = "0456e008a8c7e1acf03f48b7be05d75c92a00a4ebdc201e06fd9b85b02e6298d";
     meta = with lib; {
       description = "select some text, and base64 decode it.";
       license = licenses.mpl20;
@@ -426,10 +426,10 @@
   };
   "github-code-folding" = buildFirefoxXpiAddon {
     pname = "github-code-folding";
-    version = "0.1.1";
+    version = "0.1.2resigned1";
     addonId = "{b588f8ac-dbdf-4397-bcd7-3d29be2f17d7}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/569290/github_code_folding-0.1.1.xpi";
-    sha256 = "62f9e4fad039a2fa29223c267d9ddd497bbc9f8481140f80e333b0fb2f2c29a8";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4271738/github_code_folding-0.1.2resigned1.xpi";
+    sha256 = "50d2fa82c8411e220cdc856f24042143f212b9d892018835d02271781f4eec3d";
     meta = with lib; {
       homepage = "https://github.com/noam3127/github-code-folding";
       description = "Enable code folding when viewing files in GitHub.";
