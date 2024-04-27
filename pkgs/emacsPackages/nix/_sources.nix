@@ -21,13 +21,6 @@ let
   fetch_tarball = pkgs: name: spec: let
     name' = sanitizeName name + "-src";
   in
-    if spec.builtin or true
-    then
-      builtins_fetchTarball {
-        name = name';
-        inherit (spec) url sha256;
-      }
-    else
       pkgs.fetchzip {
         name = name';
         inherit (spec) url sha256;

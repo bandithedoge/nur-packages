@@ -1,5 +1,5 @@
 {pkgs, ...}: let
-  sources = import ./nix/_sources.nix;
+  sources = import ./nix/_sources.nix {inherit pkgs;};
 in
   (pkgs.lib.makeExtensible (_:
     pkgs.lib.attrsets.mapAttrs'

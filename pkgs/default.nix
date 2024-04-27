@@ -14,7 +14,7 @@
     deemix-gui-bin = callPackage' ./deemix-gui-bin;
     distrho-ports = callPackage' ./distrho-ports;
     dpf-plugins = callPackage' ./dpf-plugins;
-    emacsPackages = pkgs.lib.recurseIntoAttrs (pkgs.callPackage ./emacsPackages {});
+    emacsPackages = callPackages ./emacsPackages;
     fennel-language-server = callPackage' ./fennel-language-server;
     firefoxAddons = callPackages ./firefoxAddons;
     flexipatch = callPackages ./flexipatch;
