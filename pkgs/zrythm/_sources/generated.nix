@@ -7,15 +7,15 @@
 }: {
   carla-git = {
     pname = "carla-git";
-    version = "948991d7b5104280c03960925908e589c77b169a";
+    version = "a580473fbca5b1a14af45518e4d4fbfeabef8b6e";
     src = fetchFromGitHub {
       owner = "falkTX";
       repo = "Carla";
-      rev = "948991d7b5104280c03960925908e589c77b169a";
+      rev = "a580473fbca5b1a14af45518e4d4fbfeabef8b6e";
       fetchSubmodules = false;
-      sha256 = "sha256-uGAuKheoMfP9hZXsw29ec+58dJM8wMuowe95QutzKBY=";
+      sha256 = "sha256-tNK6M1SpwEwU/wQHBhWnNN5OWZ84Xw0PJl0axuB36v4=";
     };
-    date = "2024-04-22";
+    date = "2024-04-26";
   };
   gtk-4_14_0 = {
     pname = "gtk-4_14_0";
@@ -52,15 +52,15 @@
   };
   zrythm = {
     pname = "zrythm";
-    version = "8184a893c1ffafc03703623403676115d6f4a59d";
+    version = "8d4e2e1ddba5f77dac6bdfc0b53846f0a578e793";
     src = fetchgit {
       url = "https://gitlab.zrythm.org/zrythm/zrythm.git";
-      rev = "8184a893c1ffafc03703623403676115d6f4a59d";
+      rev = "8d4e2e1ddba5f77dac6bdfc0b53846f0a578e793";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-lvkdsgpJ3+IIomGR3bUj3NJ1HM6z6fg9YhDUT56u6fk=";
+      sha256 = "sha256-ggB4LBpZfACCWNNiTGnHzDmsZNoDee0noiPKOMIOcuQ=";
     };
-    date = "2024-04-26";
+    date = "2024-04-27";
   };
 }
