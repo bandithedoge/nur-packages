@@ -21,10 +21,10 @@ let
   fetch_tarball = pkgs: name: spec: let
     name' = sanitizeName name + "-src";
   in
-      pkgs.fetchzip {
-        name = name';
-        inherit (spec) url sha256;
-      };
+    pkgs.fetchzip {
+      name = name';
+      inherit (spec) url sha256;
+    };
 
   fetch_git = name: spec: let
     ref =

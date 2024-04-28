@@ -161,10 +161,10 @@
     "homepage": "",
     "owner": "Civitasv",
     "repo": "cmake-tools.nvim",
-    "rev": "fa23e7009ff92c4c5e784188ccddf021d9044a84",
-    "sha256": "182mg5mwlgr9l1ljgh2k84kjw8si4qdm55g9z96zx4xjmrf4n93z",
+    "rev": "1efee7713b6ecd4ba814f7b36b0fe6f62379831d",
+    "sha256": "1hr9dvkfr5n4mn1rjy7v9kaiv1crw4y4p29q83y452lpih1jmf2h",
     "type": "tarball",
-    "url": "https://github.com/Civitasv/cmake-tools.nvim/archive/fa23e7009ff92c4c5e784188ccddf021d9044a84.tar.gz",
+    "url": "https://github.com/Civitasv/cmake-tools.nvim/archive/1efee7713b6ecd4ba814f7b36b0fe6f62379831d.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "cmp-cmdline": {
@@ -1355,10 +1355,10 @@
     "homepage": "",
     "owner": "nvim-treesitter",
     "repo": "nvim-treesitter",
-    "rev": "ab3b3ff01028fef83cfb79b651bf65afb76ee062",
-    "sha256": "0hzi1cafjhwlkzjbdnyymxk0y96hd6f8y05p5s8pbrzxwx2n8i9i",
+    "rev": "0883ff05655117a3fc79ab295a640c4984cfd415",
+    "sha256": "1xnnhzhklz5paffhhky1zhpg496z6s7075jfw8l15jys2zrrcng1",
     "type": "tarball",
-    "url": "https://github.com/nvim-treesitter/nvim-treesitter/archive/ab3b3ff01028fef83cfb79b651bf65afb76ee062.tar.gz",
+    "url": "https://github.com/nvim-treesitter/nvim-treesitter/archive/0883ff05655117a3fc79ab295a640c4984cfd415.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "nvim-treesitter-textsubjects": {
@@ -1415,10 +1415,10 @@
     "homepage": null,
     "owner": "kyazdani42",
     "repo": "nvim-web-devicons",
-    "rev": "beb6367ab8496c9e43f22e0252735fdadae1872d",
-    "sha256": "1qqwfzfk5w2sfaavfa2nn01caj753j272hpnhmvgwknfgvl9cv81",
+    "rev": "27eac98fd6675d29d0e19d4d0622fd7a3968483a",
+    "sha256": "0fhfsrmrmz7bj7k52g4hphbz4rji132jcy33w089awpxpnxkk475",
     "type": "tarball",
-    "url": "https://github.com/kyazdani42/nvim-web-devicons/archive/beb6367ab8496c9e43f22e0252735fdadae1872d.tar.gz",
+    "url": "https://github.com/kyazdani42/nvim-web-devicons/archive/27eac98fd6675d29d0e19d4d0622fd7a3968483a.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "nvim-yati": {
