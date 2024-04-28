@@ -7,26 +7,26 @@
 }: {
   raze = {
     pname = "raze";
-    version = "1.10.1";
+    version = "1.10.2";
     src = fetchFromGitHub {
       owner = "ZDoom";
       repo = "Raze";
-      rev = "1.10.1";
+      rev = "1.10.2";
       fetchSubmodules = false;
-      sha256 = "sha256-ATz5DsyUpAmaisZHIqr8hUV3tJk6E+qYdzLs86wZrMU=";
+      sha256 = "sha256-8kr+BLwfTQ0kx6TMqu1AUxiCgvwJd2urZqJ09FH48lo=";
     };
   };
   zmusic = {
     pname = "zmusic";
-    version = "b31b43efd0e92c8bff5501e95b31d9439642b711";
+    version = "50ad730c381ce01a01a693e9e1d43e80c34eaeed";
     src = fetchgit {
       url = "https://github.com/ZDoom/ZMusic";
-      rev = "b31b43efd0e92c8bff5501e95b31d9439642b711";
+      rev = "50ad730c381ce01a01a693e9e1d43e80c34eaeed";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-AkrqMb5PLO6D2UMsFVvxdNXNQKZvBDRMmAGkieTl6WU=";
+      sha256 = "sha256-rvvMS5KciHEvoY4hSfgAEyWJiDMqBto4o09oIpQIGTQ=";
     };
-    date = "2024-04-03";
+    date = "2024-04-28";
   };
 }
