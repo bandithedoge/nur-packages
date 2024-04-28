@@ -1548,7 +1548,10 @@
         "branch": "master",
         "repo": "https://gitlab.com/HiPhish/rainbow-delimiters.nvim",
         "rev": "7ef0766b5cd2f5cdf4fcb08886f0a2ebf65981fa",
-        "type": "git"
+        "sha256": "0q6sk8q98lbwc7flmwgdzsd0iy0nwb3f0dml4h49kgkay2dik47d",
+        "type": "tarball",
+        "url": "https://gitlab.com/HiPhish/rainbow-delimiters.nvim/-/archive/7ef0766b5cd2f5cdf4fcb08886f0a2ebf65981fa/rainbow-delimiters.nvim-7ef0766b5cd2f5cdf4fcb08886f0a2ebf65981fa.tar.gz",
+        "url_template": "https://gitlab.com/HiPhish/rainbow-delimiters.nvim/-/archive/<rev>/rainbow-delimiters.nvim-<rev>.tar.gz"
     },
     "range-highlight.nvim": {
         "branch": "master",
