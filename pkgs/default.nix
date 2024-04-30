@@ -34,6 +34,7 @@
     onagre = callPackage' ./onagre;
     osirus = callPackage' ./osirus;
     powertab = callPackage' ./powertab;
+    propertree = callPackage' ./propertree;
     pythonPackages = callPackages ./pythonPackages;
     raze = callPackage' ./raze;
     satty = callPackage' ./satty;
