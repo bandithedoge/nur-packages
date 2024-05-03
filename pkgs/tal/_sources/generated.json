@@ -53,7 +53,7 @@
     "pinned": false,
     "src": {
       "name": null,
-      "sha256": "sha256-uBDobN6dN7DhWOL7lza6DanN+jPoRGbipfqIR6YMC2A=",
+      "sha256": "sha256-PH2xzYhCvBJl9wazVq5/JWD916gmwNfQBv5Oz/nkzl4=",
       "type": "url",
       "url": "https://tal-software.com/downloads/plugins/TAL-Drum_64_linux.zip"
     },
@@ -98,7 +98,7 @@
     "pinned": false,
     "src": {
       "name": null,
-      "sha256": "sha256-LKEHlnuP/tAy/rAkvpo7a3S1LvXGqvPvpxKtFPs+h0A=",
+      "sha256": "sha256-n9DemQXnHTIM8ScSK/UBqvdXmNi388D7S3hMr2LwnC0=",
       "type": "url",
       "url": "https://tal-software.com/downloads/plugins/TAL-J-8_64_linux.zip"
     },

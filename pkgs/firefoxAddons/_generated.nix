@@ -497,10 +497,10 @@
   };
   "indie-wiki-buddy" = buildFirefoxXpiAddon {
     pname = "indie-wiki-buddy";
-    version = "3.6.2";
+    version = "3.7.0";
     addonId = "{cb31ec5d-c49a-4e5a-b240-16c767444f62}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4251384/indie_wiki_buddy-3.6.2.xpi";
-    sha256 = "3cdf0a46da7036b0b64e7e178edf3dca613c39dcfe9386c82658ac44dc6bd1cf";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4279027/indie_wiki_buddy-3.7.0.xpi";
+    sha256 = "2aafeefa58b20f540d3344e1fd13ff437b64f6ea764dc76f26cdfec2307fda5f";
     meta = with lib; {
       homepage = "https://getindie.wiki/";
       description = "Helping you discover quality, independent wikis!\n\nWhen visiting a Fandom wiki, Indie Wiki Buddy redirects or alerts you of independent alternatives. It also filters search engine results. BreezeWiki is also supported, to reduce clutter on Fandom.";

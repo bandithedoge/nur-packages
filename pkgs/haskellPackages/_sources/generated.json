@@ -21,7 +21,7 @@
   },
   "taffybar": {
     "cargoLocks": null,
-    "date": "2024-05-01",
+    "date": "2024-05-02",
     "extract": null,
     "name": "taffybar",
     "passthru": null,
@@ -33,11 +33,11 @@
       "name": null,
       "owner": "taffybar",
       "repo": "taffybar",
-      "rev": "ee90fcd0934e89e5f548416ae5de2835c3b08848",
-      "sha256": "sha256-7bUmTvrT/m8VAVCs1iYh/+OkNXQHWSLnvGzBHD5j2jA=",
+      "rev": "a82a8a0cffb34b5eae38e46d88f02641bf8a8fe5",
+      "sha256": "sha256-OZNPY2LNBm+NkIHqo8SX2f/BfuwqkQIGYePkiAmz2YA=",
       "type": "github"
     },
-    "version": "ee90fcd0934e89e5f548416ae5de2835c3b08848"
+    "version": "a82a8a0cffb34b5eae38e46d88f02641bf8a8fe5"
   },
   "xmonad-entryhelper": {
     "cargoLocks": null,
