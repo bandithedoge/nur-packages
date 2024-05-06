@@ -1358,10 +1358,10 @@
     "homepage": "",
     "owner": "nvim-treesitter",
     "repo": "nvim-treesitter",
-    "rev": "73fdd31377d76aa1eea63e66581a8c6b7a71da94",
-    "sha256": "0k0hq195kg52i1jmr1vfvpm0ll9cafqq946h6gllrahz85jfhs7v",
+    "rev": "fc7657a071ad7be0616d7c66a74991a3c1b1dbcd",
+    "sha256": "0xayng2x920s9kh9xgpd34q4x5q034653ncx61rf04lfcq3hl4qv",
     "type": "tarball",
-    "url": "https://github.com/nvim-treesitter/nvim-treesitter/archive/73fdd31377d76aa1eea63e66581a8c6b7a71da94.tar.gz",
+    "url": "https://github.com/nvim-treesitter/nvim-treesitter/archive/fc7657a071ad7be0616d7c66a74991a3c1b1dbcd.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "nvim-treesitter-textsubjects": {
