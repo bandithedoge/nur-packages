@@ -77,10 +77,10 @@
     "homepage": "",
     "owner": "jdtsmith",
     "repo": "indent-bars",
-    "rev": "4974f6c16c7fcc8bbe53fbcd93c74794877287a1",
-    "sha256": "0mj0g2c02ansx2c551mlp0mxzqbj2x7qk7ayla7zpls28brqysi8",
+    "rev": "74c08d82fd5c7cc01085504c92aef12c95823379",
+    "sha256": "07cjl3368vnkvbadbadi00nfbpva2xb566svnr339v6fc66w6dkx",
     "type": "tarball",
-    "url": "https://github.com/jdtsmith/indent-bars/archive/4974f6c16c7fcc8bbe53fbcd93c74794877287a1.tar.gz",
+    "url": "https://github.com/jdtsmith/indent-bars/archive/74c08d82fd5c7cc01085504c92aef12c95823379.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "on": {
