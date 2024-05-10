@@ -497,10 +497,10 @@
   };
   "indie-wiki-buddy" = buildFirefoxXpiAddon {
     pname = "indie-wiki-buddy";
-    version = "3.7.0";
+    version = "3.7.1";
     addonId = "{cb31ec5d-c49a-4e5a-b240-16c767444f62}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4279027/indie_wiki_buddy-3.7.0.xpi";
-    sha256 = "2aafeefa58b20f540d3344e1fd13ff437b64f6ea764dc76f26cdfec2307fda5f";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4281778/indie_wiki_buddy-3.7.1.xpi";
+    sha256 = "c59057b3b654f6f19f43bed8c22c522f6304626b832ee881aa97e59cb45a246a";
     meta = with lib; {
       homepage = "https://getindie.wiki/";
       description = "Helping you discover quality, independent wikis!\n\nWhen visiting a Fandom wiki, Indie Wiki Buddy redirects or alerts you of independent alternatives. It also filters search engine results. BreezeWiki is also supported, to reduce clutter on Fandom.";
@@ -769,10 +769,10 @@
   };
   "material-icons-for-github" = buildFirefoxXpiAddon {
     pname = "material-icons-for-github";
-    version = "1.8.12";
+    version = "1.8.13";
     addonId = "{eac6e624-97fa-4f28-9d24-c06c9b8aa713}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4268265/material_icons_for_github-1.8.12.xpi";
-    sha256 = "e5b67ac5c159d2736050b53f945bd6211e33b9c68bd4a5b62822f99613b496b0";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4284864/material_icons_for_github-1.8.13.xpi";
+    sha256 = "c32f62ecf6e6c3224273650508c30d367f09b0bb4b828ec6e9774a5389f55990";
     meta = with lib; {
       homepage = "https://github.com/Claudiohbsantos/github-material-icons-extension";
       description = "Replace the file/folder icons on github file browsers with icons representing the file's type and which tool it is used by.";

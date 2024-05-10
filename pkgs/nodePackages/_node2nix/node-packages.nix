@@ -621,13 +621,13 @@
         sha512 = "JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==";
       };
     };
-    "pkg-types-1.1.0" = {
+    "pkg-types-1.1.1" = {
       name = "pkg-types";
       packageName = "pkg-types";
-      version = "1.1.0";
+      version = "1.1.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/pkg-types/-/pkg-types-1.1.0.tgz";
-        sha512 = "/RpmvKdxKf8uILTtoOhAgf30wYbP2Qw+L9p3Rvshx1JZVX+XQNZQFjlbmGHEGIm4CkVPlSn+NXmIM8+9oWQaSA==";
+        url = "https://registry.npmjs.org/pkg-types/-/pkg-types-1.1.1.tgz";
+        sha512 = "ko14TjmDuQJ14zsotODv7dBlwxKhUKQEhuhmbqo1uCi9BB0Z2alo/wAXg6q1dTR5TyuqYyWhjtfe/Tsh+X28jQ==";
       };
     };
     "prompts-2.4.2" = {
@@ -684,13 +684,13 @@
         sha512 = "5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==";
       };
     };
-    "semver-7.6.1" = {
+    "semver-7.6.2" = {
       name = "semver";
       packageName = "semver";
-      version = "7.6.1";
+      version = "7.6.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/semver/-/semver-7.6.1.tgz";
-        sha512 = "f/vbBsu+fOiYt+lmwZV0rVwJScl46HppnOA1ZvIuBWKOTlllpyJ3bfVax76/OrhCH38dyxoDIA8K7uB963IYgA==";
+        url = "https://registry.npmjs.org/semver/-/semver-7.6.2.tgz";
+        sha512 = "FNAIBWCx9qcRhoHcgcJ0gvU7SN1lYU2ZXuSfl04bSC5OpvDHFyJCjdNHomPXxjQlCBU67YW64PzY7/VIEH7F2w==";
       };
     };
     "shebang-command-2.0.0" = {
@@ -1049,14 +1049,14 @@ in {
       sources."pathe-1.1.2"
       sources."perfect-debounce-1.0.0"
       sources."picomatch-2.3.1"
-      sources."pkg-types-1.1.0"
+      sources."pkg-types-1.1.1"
       sources."prompts-2.4.2"
       sources."queue-microtask-1.2.3"
       sources."rc9-2.1.2"
       sources."readdirp-3.6.0"
       sources."reusify-1.0.4"
       sources."run-parallel-1.2.0"
-      sources."semver-7.6.1"
+      sources."semver-7.6.2"
       sources."shebang-command-2.0.0"
       sources."shebang-regex-3.0.0"
       sources."signal-exit-4.1.0"
