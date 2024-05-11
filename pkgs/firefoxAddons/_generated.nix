@@ -1289,10 +1289,10 @@
   };
   "reddit-enhancement-suite" = buildFirefoxXpiAddon {
     pname = "reddit-enhancement-suite";
-    version = "5.24.4";
+    version = "5.24.6";
     addonId = "jid1-xUfzOsOFlzSOXg@jetpack";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4257183/reddit_enhancement_suite-5.24.4.xpi";
-    sha256 = "86cf6958c54604b9f1dcc7e925c1c18bdf3ed2a8e098608964527e6b359d057c";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4282309/reddit_enhancement_suite-5.24.6.xpi";
+    sha256 = "8065fa2d119e6f6bde2a0d7d2e1696e45709a1583de63bb700eeaa31876f146a";
     meta = with lib; {
       homepage = "https://redditenhancementsuite.com/";
       description = "Reddit Enhancement Suite (RES) is a suite of tools to enhance your Reddit browsing experience.";
