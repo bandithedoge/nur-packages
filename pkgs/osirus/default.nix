@@ -36,7 +36,7 @@ pkgs.stdenv.mkDerivation {
     ''
       mkdir -p $out/bin
       cp -r root/usr/local/lib $out
-      cp root/usr/virusTestConsole $out/bin
+      cp root/usr/local/virusTestConsole $out/bin
     ''
     + pkgs.lib.optionalString (rom != null) ''
       mkdir -p $out/share/osirus
