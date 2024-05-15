@@ -25,9 +25,11 @@ pkgs.stdenv.mkDerivation {
     '') (with sources; [
       osirus-test-console
       osirus-clap
+      osirus-lv2
       osirus-vst2
       osirus-vst3
       osirusfx-clap
+      osirusfx-lv2
       osirusfx-vst2
       osirusfx-vst3
     ]);
@@ -44,6 +46,7 @@ pkgs.stdenv.mkDerivation {
 
       ln -s $out/share/osirus/osirus_rom.bin $out/bin
       ln -s $out/share/osirus/osirus_rom.bin $out/lib/clap
+      ln -s $out/share/osirus/osirus_rom.bin $out/lib/lv2
       ln -s $out/share/osirus/osirus_rom.bin $out/lib/vst
       ln -s $out/share/osirus/osirus_rom.bin $out/lib/vst3
     '';

@@ -9,6 +9,14 @@
       sha256 = "sha256-8F467ILJswNDj3fCU87KptJdwSLuoup3Sn8pqaGsakI=";
     };
   };
+  osirus-lv2 = {
+    pname = "osirus-lv2";
+    version = "1.3.14";
+    src = fetchurl {
+      url = "https://futurenoize.com/dsp56300/builds/osirus/DSP56300Emu-1.3.14-Linux_x86_64-Osirus-LV2.deb";
+      sha256 = "sha256-6BG1CatGvSVF6SEuMSLumI/8L35Iw1xaoaQssIC1uQY=";
+    };
+  };
   osirus-test-console = {
     pname = "osirus-test-console";
     version = "1.3.14";
@@ -39,6 +47,14 @@
     src = fetchurl {
       url = "https://futurenoize.com/dsp56300/builds/osirus/DSP56300Emu-1.3.14-Linux_x86_64-OsirusFX-CLAP.deb";
       sha256 = "sha256-4kxwAhSEiFCwQ/4f2P8GnY+DUF89IKI7yYGcGP/qRIg=";
+    };
+  };
+  osirusfx-lv2 = {
+    pname = "osirusfx-lv2";
+    version = "1.3.14";
+    src = fetchurl {
+      url = "https://futurenoize.com/dsp56300/builds/osirus/DSP56300Emu-1.3.14-Linux_x86_64-OsirusFX-LV2.deb";
+      sha256 = "sha256-FXl8yWUT3XB5dkQPlEjeigrbvBk/NPgFghrwhePnLVQ=";
     };
   };
   osirusfx-vst2 = {
