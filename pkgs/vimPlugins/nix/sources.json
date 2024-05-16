@@ -557,10 +557,10 @@
     "homepage": "",
     "owner": "rafamadriz",
     "repo": "friendly-snippets",
-    "rev": "3e9a3f5a0cfcef1741e352c37bda4e82e5eb846a",
-    "sha256": "03z76x6a444fxys8qnsjbafy3ij8hf3y15wn6gc22glxfqyfvjsn",
+    "rev": "dd2fd1281d4b22e7b4a5bfafa3e142d958e251f2",
+    "sha256": "06w5m39zbkbqr85cj32dn44n11z4yji4k9iij722fci9cp66g2wl",
     "type": "tarball",
-    "url": "https://github.com/rafamadriz/friendly-snippets/archive/3e9a3f5a0cfcef1741e352c37bda4e82e5eb846a.tar.gz",
+    "url": "https://github.com/rafamadriz/friendly-snippets/archive/dd2fd1281d4b22e7b4a5bfafa3e142d958e251f2.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "fzf-lua": {
@@ -1106,10 +1106,10 @@
     "homepage": "",
     "owner": "windwp",
     "repo": "nvim-autopairs",
-    "rev": "14e97371b2aab6ee70054c1070a123dfaa3e217e",
-    "sha256": "0vbvy8fp32rd3463mhi6qnh21gj2mi227qspdrvp0y18f7anvi1c",
+    "rev": "b0b79e42a28f09719a7da9534c3731fa37319d9b",
+    "sha256": "0xaaazahwc4f5d1vb8g0y4gz70wqc65gihf7512r8llw3c5diix9",
     "type": "tarball",
-    "url": "https://github.com/windwp/nvim-autopairs/archive/14e97371b2aab6ee70054c1070a123dfaa3e217e.tar.gz",
+    "url": "https://github.com/windwp/nvim-autopairs/archive/b0b79e42a28f09719a7da9534c3731fa37319d9b.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "nvim-biscuits": {
@@ -1859,10 +1859,10 @@
     "homepage": "",
     "owner": "nvim-telescope",
     "repo": "telescope.nvim",
-    "rev": "6f6bb8065567b56c42e283b06e8a1c670c0092a1",
-    "sha256": "08fpn289mh6yl41s98x89pkhcqsm1qabg9s6mnaav39l0hj1nwwl",
+    "rev": "52f500110bcf9190b44b4d8640162adc86772ec4",
+    "sha256": "0l3vd9xabwx40rqmmwzj1sgnn62z0gg174yl2gl7k2w935nj707z",
     "type": "tarball",
-    "url": "https://github.com/nvim-telescope/telescope.nvim/archive/6f6bb8065567b56c42e283b06e8a1c670c0092a1.tar.gz",
+    "url": "https://github.com/nvim-telescope/telescope.nvim/archive/52f500110bcf9190b44b4d8640162adc86772ec4.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "todo-comments.nvim": {
