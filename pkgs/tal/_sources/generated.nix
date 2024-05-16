@@ -34,7 +34,7 @@
     version = "latest";
     src = fetchurl {
       url = "https://tal-software.com/downloads/plugins/TAL-Drum_64_linux.zip";
-      sha256 = "sha256-Z/dDYdluR/I6b2W4RHuSTMBR/rnYDzNbKqjjk84GTDE=";
+      sha256 = "sha256-jyxd/t6RFCNSyG+RZOJE8/LKdb2jipURK4eSw8G+iX8=";
     };
   };
   dub-x = {
@@ -106,7 +106,7 @@
     version = "latest";
     src = fetchurl {
       url = "https://tal-software.com/downloads/plugins/TAL-U-NO-LX-V2_64_linux.zip";
-      sha256 = "sha256-8+anlQGtUI1iCNQeqAYIyw0ZPWt1FFRF41y2peXoJCM=";
+      sha256 = "sha256-0v7EYcDqCxZLlUBrWTwyKvz+hZTGrQ/G2JNmhE9QcEo=";
     };
   };
   vocoder = {
