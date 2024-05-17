@@ -13,11 +13,11 @@
       "name": null,
       "owner": "bakkeby",
       "repo": "dmenu-flexipatch",
-      "rev": "4f71e5593e5058b29ce70d335c7ea35aa4a57252",
-      "sha256": "sha256-VYwsh1AsF1Be+NG5DfhAcf9QGNlnGNJlnQVEr3hJRko=",
+      "rev": "9ef1b3c317d6395ac7fd2c6951d356e9990ce23d",
+      "sha256": "sha256-2mr+qT6CZJohMG05itxp63eCNfZEJqKD4BLp/GP5ZCA=",
       "type": "github"
     },
-    "version": "4f71e5593e5058b29ce70d335c7ea35aa4a57252"
+    "version": "9ef1b3c317d6395ac7fd2c6951d356e9990ce23d"
   },
   "dwm-flexipatch": {
     "cargoLocks": null,
