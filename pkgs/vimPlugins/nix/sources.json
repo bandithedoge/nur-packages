@@ -65,10 +65,10 @@
     "homepage": "https://www.schemastore.org/",
     "owner": "b0o",
     "repo": "SchemaStore.nvim",
-    "rev": "953dc9a37f646a7f0420c41394f716f0dddf5687",
-    "sha256": "1nwigzrzz0fbsb552g4vjzl3s3lcg07sz2p0bia2685vhynmz78r",
+    "rev": "de73a884679a2461c53f96035894ef073a5a7f4f",
+    "sha256": "1bjhnjlnj6hk2vxfp6kf0sj7n68b0cpslsw555zzd7z5z0rh6ma6",
     "type": "tarball",
-    "url": "https://github.com/b0o/SchemaStore.nvim/archive/953dc9a37f646a7f0420c41394f716f0dddf5687.tar.gz",
+    "url": "https://github.com/b0o/SchemaStore.nvim/archive/de73a884679a2461c53f96035894ef073a5a7f4f.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "aniseed": {
@@ -641,10 +641,10 @@
     "homepage": "",
     "owner": "ray-x",
     "repo": "go.nvim",
-    "rev": "db45cc91cf1bedb5fe5640cf71c452d43a87595a",
-    "sha256": "1g22fg37clakkg4013s48223k1rf9knicmld0adbsi7hx6cizbz4",
+    "rev": "e80846dec565dac6418334cfc4eecc087678ff69",
+    "sha256": "15y47zakacd6sxdsywjpp1yr0riyiq93hwjax4293z9bn3rxgyfm",
     "type": "tarball",
-    "url": "https://github.com/ray-x/go.nvim/archive/db45cc91cf1bedb5fe5640cf71c452d43a87595a.tar.gz",
+    "url": "https://github.com/ray-x/go.nvim/archive/e80846dec565dac6418334cfc4eecc087678ff69.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "guess-indent.nvim": {
@@ -986,10 +986,10 @@
     "homepage": "",
     "owner": "folke",
     "repo": "neoconf.nvim",
-    "rev": "0065de89c834e1090a847a9aa126af5dce1db4dc",
-    "sha256": "0cr93mr6rnq0wniw6ribcd22s3i62r0qxqpbfv8nll1387s7l0zd",
+    "rev": "d321ba056f06e079da99924b948a45dfbacdfba9",
+    "sha256": "1ryaaa1kj5qqfm4mszsr4wq5ac7prqsv8whcwlph9b0kgv2dbnbw",
     "type": "tarball",
-    "url": "https://github.com/folke/neoconf.nvim/archive/0065de89c834e1090a847a9aa126af5dce1db4dc.tar.gz",
+    "url": "https://github.com/folke/neoconf.nvim/archive/d321ba056f06e079da99924b948a45dfbacdfba9.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "neodev.nvim": {
@@ -1142,10 +1142,10 @@
     "homepage": "",
     "owner": "windwp",
     "repo": "nvim-autopairs",
-    "rev": "b0b79e42a28f09719a7da9534c3731fa37319d9b",
-    "sha256": "0xaaazahwc4f5d1vb8g0y4gz70wqc65gihf7512r8llw3c5diix9",
+    "rev": "c15de7e7981f1111642e7e53799e1211d4606cb9",
+    "sha256": "0nd175qdh4fr0qjvdj7fa89lxhzdrf6ilc5r5vajzbfmbj72lh30",
     "type": "tarball",
-    "url": "https://github.com/windwp/nvim-autopairs/archive/b0b79e42a28f09719a7da9534c3731fa37319d9b.tar.gz",
+    "url": "https://github.com/windwp/nvim-autopairs/archive/c15de7e7981f1111642e7e53799e1211d4606cb9.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "nvim-biscuits": {
@@ -1418,10 +1418,10 @@
     "homepage": "",
     "owner": "nvim-treesitter",
     "repo": "nvim-treesitter",
-    "rev": "ccfa76d4cb53224cb0ecefb12f79ecdbbf1fd62d",
-    "sha256": "0fj875rbn6b881ks2qs7k0z12ynwi6z63sshwyqxgpl4ba461rkw",
+    "rev": "d184407e33084f4a57302bc1adf991997ccdd1da",
+    "sha256": "1psmm4jnpw1b7fdsrmrm1x1c840d73khh8qpsk7l4ihfah557xvp",
     "type": "tarball",
-    "url": "https://github.com/nvim-treesitter/nvim-treesitter/archive/ccfa76d4cb53224cb0ecefb12f79ecdbbf1fd62d.tar.gz",
+    "url": "https://github.com/nvim-treesitter/nvim-treesitter/archive/d184407e33084f4a57302bc1adf991997ccdd1da.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "nvim-treesitter-textsubjects": {
@@ -1442,10 +1442,10 @@
     "homepage": "",
     "owner": "windwp",
     "repo": "nvim-ts-autotag",
-    "rev": "aeb7090098722ffce16597bd0331105495640153",
-    "sha256": "0jwk231kzzx8dfb9g0ymmygac2r6ij349gsiw8ryxw7y5s2867w2",
+    "rev": "cb57b07803476ee902c89412aeff219a9a58be13",
+    "sha256": "1hwzl95zxj47nnp4bwxwhwl5f83w8n7hnxw1vbqrhpcyygw8qcd9",
     "type": "tarball",
-    "url": "https://github.com/windwp/nvim-ts-autotag/archive/aeb7090098722ffce16597bd0331105495640153.tar.gz",
+    "url": "https://github.com/windwp/nvim-ts-autotag/archive/cb57b07803476ee902c89412aeff219a9a58be13.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "nvim-ts-context-commentstring": {
@@ -1799,10 +1799,10 @@
     "homepage": "",
     "owner": "tamton-aquib",
     "repo": "staline.nvim",
-    "rev": "7605fbdbcf50b589cd4b2c60185dded99c0257cd",
-    "sha256": "15bvwbasji75arg5cja60cfzss19sqnfgypw4y7kzpvjm3dcn1ld",
+    "rev": "bb2b05b1407c6350a8ae45337609b43ed578fcc7",
+    "sha256": "1r88gdjmc4qpxa35s0735v3pv3k97iw4b3k5iizp5w7lk2h07b6z",
     "type": "tarball",
-    "url": "https://github.com/tamton-aquib/staline.nvim/archive/7605fbdbcf50b589cd4b2c60185dded99c0257cd.tar.gz",
+    "url": "https://github.com/tamton-aquib/staline.nvim/archive/bb2b05b1407c6350a8ae45337609b43ed578fcc7.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "tabby.nvim": {
@@ -1811,10 +1811,10 @@
     "homepage": "",
     "owner": "nanozuki",
     "repo": "tabby.nvim",
-    "rev": "67d374290efc6108a7a5017c3405c0dbb4c8b92d",
-    "sha256": "0pwml4adsknfrnl7wrd2dkb1pzgcvwggi03c02p3pyrk5hnhgx70",
+    "rev": "a57286c76cd7336940f8221f3df486a4dd26673f",
+    "sha256": "1v1gkhm1l8y89c6p4cnk1b0l8x954rmzcgqdrjd2gp729ff83i9p",
     "type": "tarball",
-    "url": "https://github.com/nanozuki/tabby.nvim/archive/67d374290efc6108a7a5017c3405c0dbb4c8b92d.tar.gz",
+    "url": "https://github.com/nanozuki/tabby.nvim/archive/a57286c76cd7336940f8221f3df486a4dd26673f.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "tangerine.nvim": {
@@ -1847,10 +1847,10 @@
     "homepage": null,
     "owner": "nvim-telescope",
     "repo": "telescope-frecency.nvim",
-    "rev": "6b6565e6584c86ca501bdac485cbdc2ca64556e4",
-    "sha256": "0rmj6sk7yz5qmn6mdpcww2lgsq9q4x7r166a8lhwlm8ch3lddcf6",
+    "rev": "328452afcc29187732575842c19172f4d4ed749d",
+    "sha256": "1svdkrfjlfc1cblzbmd8s8ykpz30hg3gs17w79rap59pz7hvl1k9",
     "type": "tarball",
-    "url": "https://github.com/nvim-telescope/telescope-frecency.nvim/archive/6b6565e6584c86ca501bdac485cbdc2ca64556e4.tar.gz",
+    "url": "https://github.com/nvim-telescope/telescope-frecency.nvim/archive/328452afcc29187732575842c19172f4d4ed749d.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "telescope-fzy-native.nvim": {
