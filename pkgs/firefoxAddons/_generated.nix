@@ -835,10 +835,10 @@
   };
   "privacy-badger" = buildFirefoxXpiAddon {
     pname = "privacy-badger";
-    version = "2024.2.6";
+    version = "2024.5.17";
     addonId = "jid1-MnnxcxisBPnSXQ@jetpack";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4232703/privacy_badger17-2024.2.6.xpi";
-    sha256 = "81d80bff29b6209aa444713bc548a3d06fd5bde208c9c3c596dba81cc97add02";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4288634/privacy_badger17-2024.5.17.xpi";
+    sha256 = "5dfe8b3a8d1a8dde87c2873a5b82b5e78e413f981e629c8b341dcd947c3ec4fe";
     meta = with lib; {
       homepage = "https://privacybadger.org/";
       description = "Automatically learns to block invisible trackers.";
