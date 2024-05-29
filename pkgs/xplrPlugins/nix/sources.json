@@ -387,7 +387,10 @@
         "branch": "main",
         "repo": "https://gitlab.com/hartan/web-devicons.xplr",
         "rev": "b54187954f0a2639c2e355f8f0970d5692357eb0",
-        "type": "git"
+        "sha256": "1csypn5cp21vpplpjzhgqcsgc1ahlrazb4kmlg0w463isjh34va1",
+        "type": "tarball",
+        "url": "https://gitlab.com/hartan/web-devicons.xplr/-/archive/b54187954f0a2639c2e355f8f0970d5692357eb0/web-devicons.xplr-b54187954f0a2639c2e355f8f0970d5692357eb0.tar.gz",
+        "url_template": "https://gitlab.com/hartan/web-devicons.xplr/-/archive/<rev>/web-devicons.xplr-<rev>.tar.gz"
     },
     "wl-clipboard.xplr": {
         "branch": "main",
