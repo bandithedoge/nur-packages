@@ -3,40 +3,84 @@
   sources,
   ...
 }: let
-  mkToneLib = name:
-    pkgs.stdenv.mkDerivation {
-      inherit (sources.${name}) pname version src;
+  mkToneLib = name: attrs:
+    pkgs.stdenv.mkDerivation ({
+        inherit (sources.${name}) pname version src;
 
-      nativeBuildInputs = with pkgs; [
-        autoPatchelfHook
-        dpkg
-      ];
+        nativeBuildInputs = with pkgs; [
+          autoPatchelfHook
+          dpkg
+        ];
 
-      buildInputs = with pkgs; [
-        alsa-lib
-        freetype
-        libGL
-      ];
+        buildInputs = with pkgs; [
+          alsa-lib
+          freetype
+          libGL
+        ];
 
-      unpackPhase = ''
-        mkdir -p root
-        dpkg-deb --fsys-tarfile $src | tar --extract --directory=root
-      '';
+        unpackPhase = ''
+          mkdir -p root
+          dpkg-deb --fsys-tarfile $src | tar --extract --directory=root
+        '';
 
-      buildPhase = ''
-        cp -r root/usr $out
-      '';
-    };
+        buildPhase = ''
+          cp -r root/usr $out
+        '';
+      }
+      // attrs);
 in {
-  bassdrive = mkToneLib "bassdrive";
-  easycomp = mkToneLib "easycomp";
-  noisereducer = mkToneLib "noisereducer";
-  tubewarmth = mkToneLib "tubewarmth";
-  zoom = (mkToneLib "zoom").overrideAttrs (old: {
-    buildInputs = old.buildInputs ++ (with pkgs; [
-      gtk3
-      stdenv.cc.cc.lib
-      webkitgtk
-    ]);
-  });
+  bassdrive = mkToneLib "bassdrive" {
+    meta = with pkgs.lib; {
+      description = "Full Power of the Legendary Drive Pedal for the Highest String Gauges";
+      homepage = "https://tonelib.net/tl-bassdrive.html";
+      license = licenses.unfree;
+      platforms = ["x86_64-linux"];
+    };
+  };
+
+  easycomp = mkToneLib "easycomp" {
+    meta = with pkgs.lib; {
+      description = "Powerful Compressor without any Complexity";
+      homepage = "https://tonelib.net/plugins/tl-easycomp.html";
+      license = licenses.unfree;
+      platforms = ["x86_64-linux"];
+    };
+  };
+
+  noisereducer = mkToneLib "noisereducer" {
+    meta = with pkgs.lib; {
+      description = "Powerful, yet simple two-unit rack effect on guard of your mix clarity";
+      homepage = "https://tonelib.net/tl-noisereducer.html";
+      license = licenses.unfree;
+      platforms = ["x86_64-linux"];
+    };
+  };
+
+  tubewarmth = mkToneLib "tubewarmth" {
+    meta = with pkgs.lib; {
+      description = "The Vibrancy and Warmth of the Tube along with the Digital Precision and Clarity";
+      homepage = "https://tonelib.net/tl-tubewarmth.html";
+      license = licenses.unfree;
+      platforms = ["x86_64-linux"];
+    };
+  };
+
+  zoom =
+    (mkToneLib "zoom" {
+      meta = with pkgs.lib; {
+        description = "Best way to manage your Zoom processor";
+        homepage = "https://tonelib.net/tonelib-zoom.html";
+        license = licenses.unfree;
+        platforms = ["x86_64-linux"];
+      };
+    })
+    .overrideAttrs (old: {
+      buildInputs =
+        old.buildInputs
+        ++ (with pkgs; [
+          gtk3
+          stdenv.cc.cc.lib
+          webkitgtk
+        ]);
+    });
 }
