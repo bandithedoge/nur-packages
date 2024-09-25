@@ -56,6 +56,7 @@
     vimPlugins = callPackages ./vimPlugins;
     waterfox-bin = callPackage' ./waterfox-bin;
     xplrPlugins = callPackages ./xplrPlugins;
+    yaziPlugins = callPackages ./yaziPlugins;
     zrythm = callPackage' ./zrythm;
   };
 in
