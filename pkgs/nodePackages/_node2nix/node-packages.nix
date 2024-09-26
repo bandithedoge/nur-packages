@@ -603,13 +603,13 @@
         sha512 = "ppwTtiJZq0O/ai0z7yfudtBpWIoxM8yE6nHi1X47eFR2EWORqfbu6CnPlNsjeN683eT0qG6H/Pyf9fCcvjnnnQ==";
       };
     };
-    "nypm-0.3.11" = {
+    "nypm-0.3.12" = {
       name = "nypm";
       packageName = "nypm";
-      version = "0.3.11";
+      version = "0.3.12";
       src = fetchurl {
-        url = "https://registry.npmjs.org/nypm/-/nypm-0.3.11.tgz";
-        sha512 = "E5GqaAYSnbb6n1qZyik2wjPDZON43FqOJO59+3OkWrnmQtjggrMOVnsyzfjxp/tS6nlYJBA4zRA5jSM2YaadMg==";
+        url = "https://registry.npmjs.org/nypm/-/nypm-0.3.12.tgz";
+        sha512 = "D3pzNDWIvgA+7IORhD/IuWzEk4uXv6GsgOxiid4UU3h9oq5IqV1KtPDi63n4sZJ/xcWlr88c0QM2RgN5VbOhFA==";
       };
     };
     "ohash-1.1.4" = {
@@ -1124,7 +1124,7 @@ in {
             sources."path-key-4.0.0"
           ];
         })
-      sources."nypm-0.3.11"
+      sources."nypm-0.3.12"
       sources."ohash-1.1.4"
       sources."onetime-6.0.0"
       sources."path-key-3.1.1"

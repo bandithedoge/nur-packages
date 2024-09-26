@@ -998,10 +998,10 @@
     "homepage": "",
     "owner": "folke",
     "repo": "neoconf.nvim",
-    "rev": "4bba87a057867004e70596dafe7262bbaac38810",
-    "sha256": "1pkc1c0jyaj6qsjwi84nxcgl2cfqrl6clfkk116gp3hynjk2ram2",
+    "rev": "944f30e58171cf909b6567ce206e9097745560d1",
+    "sha256": "0g8xbzk9kac3pybwj0pzavl0g2kddi37jlsldsn0yiv40dmml51y",
     "type": "tarball",
-    "url": "https://github.com/folke/neoconf.nvim/archive/4bba87a057867004e70596dafe7262bbaac38810.tar.gz",
+    "url": "https://github.com/folke/neoconf.nvim/archive/944f30e58171cf909b6567ce206e9097745560d1.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "neodev.nvim": {
@@ -1943,10 +1943,10 @@
     "homepage": "",
     "owner": "nvim-telescope",
     "repo": "telescope.nvim",
-    "rev": "6b08cdcc22a630d19172b9db55f7b8db5f81d761",
-    "sha256": "0hjd4i9bnscdl1wj00hyiwyjdzdsqpqh6kfvky4azsfq5bc8zq2h",
+    "rev": "cb3f98d935842836cc115e8c9e4b38c1380fbb6b",
+    "sha256": "05d8ziw6y8530rd8gal0shija3cb3d9bm7yhy6k1jh5m5ni1rpkg",
     "type": "tarball",
-    "url": "https://github.com/nvim-telescope/telescope.nvim/archive/6b08cdcc22a630d19172b9db55f7b8db5f81d761.tar.gz",
+    "url": "https://github.com/nvim-telescope/telescope.nvim/archive/cb3f98d935842836cc115e8c9e4b38c1380fbb6b.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "todo-comments.nvim": {
