@@ -91,17 +91,17 @@
   };
   json_serialization = {
     pname = "json_serialization";
-    version = "8b51cd8bc9b099d4dd3495d1b3c7f9231cddd251";
+    version = "b83739b4304b1cde05ad7470dd5faa1341cffb2e";
     src = fetchgit {
       url = "https://github.com/status-im/nim-json-serialization";
-      rev = "8b51cd8bc9b099d4dd3495d1b3c7f9231cddd251";
+      rev = "b83739b4304b1cde05ad7470dd5faa1341cffb2e";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [];
-      sha256 = "sha256-gyT3duSCDNgGHEzkJjLnmqyBW6kTCHX2T0c7CB/u8vQ=";
+      sha256 = "sha256-+kQfGOKtK3tlvFheHp0OjCqjzvo/bzhClctJ0hcPcjY=";
     };
-    date = "2024-09-23";
+    date = "2024-09-26";
   };
   nimcrypto = {
     pname = "nimcrypto";
@@ -161,17 +161,17 @@
   };
   stew = {
     pname = "stew";
-    version = "41f48efee97ac688fc48d40280c8d45d340cc46d";
+    version = "9501d3d60c8d277a953eb73dd35e2f6d9931eb7f";
     src = fetchgit {
       url = "https://github.com/status-im/nim-stew";
-      rev = "41f48efee97ac688fc48d40280c8d45d340cc46d";
+      rev = "9501d3d60c8d277a953eb73dd35e2f6d9931eb7f";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [];
-      sha256 = "sha256-OLgI5wDp5QX5etC7LjP4ba6n936b5d/i3EKNCtN+NSU=";
+      sha256 = "sha256-bsOjHrz0rR44pgc0DI+hy+TOedTVd9O6XMzxzmpgCEs=";
     };
-    date = "2024-09-24";
+    date = "2024-09-26";
   };
   websock = {
     pname = "websock";
