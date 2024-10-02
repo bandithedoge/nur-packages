@@ -23,8 +23,8 @@ in
     inherit (sources.hvcc) pname version src;
 
     dependencies = with pythonPkgs; [
-      # pip
       importlib-resources
+      pydantic
       wstd2daisy
     ];
 
