@@ -7,30 +7,30 @@
 }: {
   carla-git = {
     pname = "carla-git";
-    version = "2f7c9394134ad8479a7c9f236123ff365fa68e99";
+    version = "e312817b6f3d95e928dfde119934e7657092e7cc";
     src = fetchgit {
       url = "https://github.com/falkTX/Carla";
-      rev = "2f7c9394134ad8479a7c9f236123ff365fa68e99";
+      rev = "e312817b6f3d95e928dfde119934e7657092e7cc";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [];
-      sha256 = "sha256-XlOWPsMzpzayim+rfxxzWhpm0jA0z669zukR03zIqPA=";
+      sha256 = "sha256-jznejvHl6+L0IHmbfSEkdk5vxWbueN9BVa+xl1NQQ4c=";
     };
-    date = "2024-09-22";
+    date = "2024-10-01";
   };
   zrythm = {
     pname = "zrythm";
-    version = "1792598e05da73f70192c85b7969999735aa22c6";
+    version = "292b14a853fc2099b03ce82be1d80cf365a2b888";
     src = fetchgit {
       url = "https://gitlab.zrythm.org/zrythm/zrythm.git";
-      rev = "1792598e05da73f70192c85b7969999735aa22c6";
+      rev = "292b14a853fc2099b03ce82be1d80cf365a2b888";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [];
-      sha256 = "sha256-4VLD29UlbrnMpk3qHBrWsoZSv4kORjbSNhGn8XF63Vw=";
+      sha256 = "sha256-TuuB2bnwoRXpE3EFfSy5kcY6NWPBBNDrzcUyQwsyJVk=";
     };
-    date = "2024-05-28";
+    date = "2024-10-02";
   };
 }

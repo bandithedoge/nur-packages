@@ -1282,10 +1282,10 @@
   };
   "reddit-enhancement-suite" = buildFirefoxXpiAddon {
     pname = "reddit-enhancement-suite";
-    version = "5.24.6";
+    version = "5.24.7";
     addonId = "jid1-xUfzOsOFlzSOXg@jetpack";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4282309/reddit_enhancement_suite-5.24.6.xpi";
-    sha256 = "8065fa2d119e6f6bde2a0d7d2e1696e45709a1583de63bb700eeaa31876f146a";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4357190/reddit_enhancement_suite-5.24.7.xpi";
+    sha256 = "f5b4325eba0e6d5be36bf07a5324bdca97a2e44824df83005193a73ca5d7f260";
     meta = with lib; {
       homepage = "https://redditenhancementsuite.com/";
       description = "Reddit Enhancement Suite (RES) is a suite of tools to enhance your Reddit browsing experience.";
@@ -1305,10 +1305,10 @@
   };
   "refined-github" = buildFirefoxXpiAddon {
     pname = "refined-github";
-    version = "24.9.21";
+    version = "24.10.1";
     addonId = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4357180/refined_github-24.9.21.xpi";
-    sha256 = "b6cc27d1fb085573fd23dc0bdbaea958fad7adc2a8127fed8950ad5dd1dc9d07";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4362555/refined_github-24.10.1.xpi";
+    sha256 = "d922b9094365977860ec490d66fa96b004bb8446084930111514b2d8a6143c1d";
     meta = with lib; {
       homepage = "https://github.com/refined-github/refined-github";
       description = "Simplifies the GitHub interface and adds many useful features.";
@@ -1566,10 +1566,10 @@
   };
   "ublock-origin" = buildFirefoxXpiAddon {
     pname = "ublock-origin";
-    version = "1.59.0";
+    version = "1.60.0";
     addonId = "uBlock0@raymondhill.net";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4328681/ublock_origin-1.59.0.xpi";
-    sha256 = "1db9c676a07d141f8d36dbbc24f9e3d64a6cc2340dbfc6c848bc4395f96cfb14";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4359936/ublock_origin-1.60.0.xpi";
+    sha256 = "e2cda9b2a1b0a7f6e5ef0da9f87f28df52f8560587ba2e51a3003121cfb81600";
     meta = with lib; {
       homepage = "https://github.com/gorhill/uBlock#ublock-origin";
       description = "Finally, an efficient wide-spectrum content blocker. Easy on CPU and memory.";

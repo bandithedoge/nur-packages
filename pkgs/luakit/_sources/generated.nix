@@ -7,14 +7,14 @@
 }: {
   luakit = {
     pname = "luakit";
-    version = "da1d727d946c70be919d57532aafeb8fc7bbe195";
+    version = "27cff3ceb1a7870e781c5ea061884d664ff0dc41";
     src = fetchFromGitHub {
       owner = "luakit";
       repo = "luakit";
-      rev = "da1d727d946c70be919d57532aafeb8fc7bbe195";
+      rev = "27cff3ceb1a7870e781c5ea061884d664ff0dc41";
       fetchSubmodules = false;
-      sha256 = "sha256-K6L9EVXh4npP2qEeHi7wuGS2Rd/KV7JhZeXOzLoXH/k=";
+      sha256 = "sha256-WbxovaYGVz/yoZB7h0CuJOi0ChhHrBse01y9BvbaQ1Q=";
     };
-    date = "2024-09-20";
+    date = "2024-10-02";
   };
 }

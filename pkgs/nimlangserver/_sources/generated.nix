@@ -91,17 +91,17 @@
   };
   json_serialization = {
     pname = "json_serialization";
-    version = "b83739b4304b1cde05ad7470dd5faa1341cffb2e";
+    version = "ab1a061756bb6fc2e0f98cb57852f2bb0c6f9772";
     src = fetchgit {
       url = "https://github.com/status-im/nim-json-serialization";
-      rev = "b83739b4304b1cde05ad7470dd5faa1341cffb2e";
+      rev = "ab1a061756bb6fc2e0f98cb57852f2bb0c6f9772";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [];
-      sha256 = "sha256-+kQfGOKtK3tlvFheHp0OjCqjzvo/bzhClctJ0hcPcjY=";
+      sha256 = "sha256-Xx5rB9zI3bETGd5BZvcrZIy6zjsLdMe2azgUwlmPRiQ=";
     };
-    date = "2024-09-26";
+    date = "2024-09-30";
   };
   nimcrypto = {
     pname = "nimcrypto";
@@ -119,17 +119,17 @@
   };
   nimlangserver = {
     pname = "nimlangserver";
-    version = "ed6cc7438e16a360ec61d5accc3be1bd509ea48f";
+    version = "5ccf289d667b57e998c772d39925a08865b35623";
     src = fetchgit {
       url = "https://github.com/nim-lang/langserver";
-      rev = "ed6cc7438e16a360ec61d5accc3be1bd509ea48f";
+      rev = "5ccf289d667b57e998c772d39925a08865b35623";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [];
-      sha256 = "sha256-A6nTDTbhgIFWSgLZO2U40r3QxS/zrcYxTWouNTy6W6w=";
+      sha256 = "sha256-OI+90aVbQIlaP9sPtH6Zf45SPtxXQm8df8/tAbr2gIU=";
     };
-    date = "2024-09-29";
+    date = "2024-10-01";
   };
   results = {
     pname = "results";
@@ -147,17 +147,17 @@
   };
   serialization = {
     pname = "serialization";
-    version = "b28eeb6714d78f5bc08f26e0d9071c0b56777f68";
+    version = "7950ac1e8c9f0019c798f97ab1fe1d9367cc2e6d";
     src = fetchgit {
       url = "https://github.com/status-im/nim-serialization";
-      rev = "b28eeb6714d78f5bc08f26e0d9071c0b56777f68";
+      rev = "7950ac1e8c9f0019c798f97ab1fe1d9367cc2e6d";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [];
-      sha256 = "sha256-ttYuVp8Hei7pEzD1cmJzzyc+jdl+VMxmHOps5nkFCm4=";
+      sha256 = "sha256-RKW8Ewsz3+9SbimSsxeV4garuxdGPfDATssxz7uqLXU=";
     };
-    date = "2024-09-11";
+    date = "2024-09-30";
   };
   stew = {
     pname = "stew";
