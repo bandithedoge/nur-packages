@@ -65,10 +65,10 @@
     "homepage": "https://www.schemastore.org/",
     "owner": "b0o",
     "repo": "SchemaStore.nvim",
-    "rev": "14e405d383a97766ff5d3432a4868d312090450d",
-    "sha256": "1f32argmv25215c86h3iil9s8bdlrqsja9vmkbkadlcbpxndw2sl",
+    "rev": "dd374887d6e1de38e9d7041da824a8dc10cae401",
+    "sha256": "02k5grghlzmxw03av99y5xbmkyq9rh3mb26nhmcs0wmf0d431d92",
     "type": "tarball",
-    "url": "https://github.com/b0o/SchemaStore.nvim/archive/14e405d383a97766ff5d3432a4868d312090450d.tar.gz",
+    "url": "https://github.com/b0o/SchemaStore.nvim/archive/dd374887d6e1de38e9d7041da824a8dc10cae401.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "aniseed": {
@@ -305,10 +305,10 @@
     "homepage": "",
     "owner": "stevearc",
     "repo": "conform.nvim",
-    "rev": "1a99fdc1d3aa9ccdf3021e67982a679a8c5c740c",
-    "sha256": "0r6isycbgi6n55c5sn5kqbs35i11ib4yym2awxpgr1w1bvxhcs01",
+    "rev": "40d4e98fcc3e6f485f0e8924c63734bc7e305967",
+    "sha256": "0w78hq284hl3c8wqvsxfkpwpcr1phby5xnnb7wmj4lqr4rak5k1w",
     "type": "tarball",
-    "url": "https://github.com/stevearc/conform.nvim/archive/1a99fdc1d3aa9ccdf3021e67982a679a8c5c740c.tar.gz",
+    "url": "https://github.com/stevearc/conform.nvim/archive/40d4e98fcc3e6f485f0e8924c63734bc7e305967.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "coq_nvim": {
@@ -317,10 +317,10 @@
     "homepage": "",
     "owner": "ms-jpq",
     "repo": "coq_nvim",
-    "rev": "c56c8236a9d2fec45a4627bb13d1f00fa03bf54f",
-    "sha256": "0hpfy2z824fibvmkrvf4aji34jfw7h2y55a6yc4nnhjp3828mbhx",
+    "rev": "014c4c056517698bda1ec4bbd33a6b620fda807a",
+    "sha256": "10406x7ih351iyc285yx1zpkrf2dkh8k0fqm4p5mbzp3h14afr7j",
     "type": "tarball",
-    "url": "https://github.com/ms-jpq/coq_nvim/archive/c56c8236a9d2fec45a4627bb13d1f00fa03bf54f.tar.gz",
+    "url": "https://github.com/ms-jpq/coq_nvim/archive/014c4c056517698bda1ec4bbd33a6b620fda807a.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "crates.nvim": {
@@ -593,10 +593,10 @@
     "homepage": null,
     "owner": "ibhagwan",
     "repo": "fzf-lua",
-    "rev": "ebb89e4e4065e31b029eee8f618e1ca660f41f35",
-    "sha256": "032wj20nyzbw3j7d5ghs9nqjwzjy0c0s69g8k1x50z2z0519k4rr",
+    "rev": "ace9968be267b034e450be4feaf6e9107bc34fbd",
+    "sha256": "055kysm7yn2826ygmwrgsv9a9xq9fnnys7409kiwil9qck48lfwa",
     "type": "tarball",
-    "url": "https://github.com/ibhagwan/fzf-lua/archive/ebb89e4e4065e31b029eee8f618e1ca660f41f35.tar.gz",
+    "url": "https://github.com/ibhagwan/fzf-lua/archive/ace9968be267b034e450be4feaf6e9107bc34fbd.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "galaxyline.nvim": {
@@ -677,10 +677,10 @@
     "homepage": "",
     "owner": "MrcJkb",
     "repo": "haskell-tools.nvim",
-    "rev": "bf7eb0b866eb83a59917680708038f83ece94267",
-    "sha256": "0drl0ndi1d5f6mj1mwai24vwblmmmqssvm2wky617nl1ab385mbv",
+    "rev": "c1d3fe28af68c372f61f236ffd65184cbe595f90",
+    "sha256": "1zfnjyadamvf4if15gn7g6q35p1zvzgmsbbjwwy1vgh4mc0vmfav",
     "type": "tarball",
-    "url": "https://github.com/MrcJkb/haskell-tools.nvim/archive/bf7eb0b866eb83a59917680708038f83ece94267.tar.gz",
+    "url": "https://github.com/MrcJkb/haskell-tools.nvim/archive/c1d3fe28af68c372f61f236ffd65184cbe595f90.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "heirline.nvim": {
@@ -785,10 +785,10 @@
     "homepage": "",
     "owner": "lukas-reineke",
     "repo": "indent-blankline.nvim",
-    "rev": "18603eb949eba08300799f64027af11ef922283f",
-    "sha256": "0jai4zh4xf9h981419k5k7dvvwkcippcyc6arfv06pqjy2b6xr77",
+    "rev": "3af6493bf69e4a857a8b1fab36f333629d413a18",
+    "sha256": "0dd8q75fjd0z4xq1l6k2h44bqf1hj798ss4kpbchs3slrblb2mx0",
     "type": "tarball",
-    "url": "https://github.com/lukas-reineke/indent-blankline.nvim/archive/18603eb949eba08300799f64027af11ef922283f.tar.gz",
+    "url": "https://github.com/lukas-reineke/indent-blankline.nvim/archive/3af6493bf69e4a857a8b1fab36f333629d413a18.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "lazily-nvim": {
@@ -821,10 +821,10 @@
     "homepage": "",
     "owner": "mrjones2014",
     "repo": "legendary.nvim",
-    "rev": "4195d2446a925b25d6b8f1d8460a2f0188c04736",
-    "sha256": "1zbgjdcfriahdd745d47kibmgcw2fw3lz67acparna93v1qpqygy",
+    "rev": "71a8d41f18d931b47ed69879da832ce4fe33d647",
+    "sha256": "086l1kbcwwcxxs9fbrwwh4591d7c1dwxn0n0ab560w9al8a8cwrw",
     "type": "tarball",
-    "url": "https://github.com/mrjones2014/legendary.nvim/archive/4195d2446a925b25d6b8f1d8460a2f0188c04736.tar.gz",
+    "url": "https://github.com/mrjones2014/legendary.nvim/archive/71a8d41f18d931b47ed69879da832ce4fe33d647.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "lsp_extensions.nvim": {
@@ -1298,10 +1298,10 @@
     "homepage": "",
     "owner": "neovim",
     "repo": "nvim-lspconfig",
-    "rev": "c9ac9613ad627f52c9387e4f8bd4625b75788c90",
-    "sha256": "1rliz16gf1j80yw5kh20h5b4s7da6yp1c6pmg3pwn3gph38ms0kr",
+    "rev": "39f31e178466e4ed23c8ea6fddd5b7a4d9699398",
+    "sha256": "0sb9vk1vnzpf3m1gskj57fba3f8lnr2fwd8p53pv59zpcr7wyl4r",
     "type": "tarball",
-    "url": "https://github.com/neovim/nvim-lspconfig/archive/c9ac9613ad627f52c9387e4f8bd4625b75788c90.tar.gz",
+    "url": "https://github.com/neovim/nvim-lspconfig/archive/39f31e178466e4ed23c8ea6fddd5b7a4d9699398.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "nvim-luaref": {
@@ -1442,10 +1442,10 @@
     "homepage": "",
     "owner": "nvim-treesitter",
     "repo": "nvim-treesitter",
-    "rev": "cc2c11c403a9143827501223b4ee64432dcaf246",
-    "sha256": "0zn05ldy626a1ayvapmr3spr9r4isdjkfww8n37rqscyqh0vwm2k",
+    "rev": "45386764cc9535200d2288cab929c5093d33660e",
+    "sha256": "1vsa6w7b9xxjc5mdsgim5v3hixx0wwl1jpn7w6dkwsd6l5cswfw8",
     "type": "tarball",
-    "url": "https://github.com/nvim-treesitter/nvim-treesitter/archive/cc2c11c403a9143827501223b4ee64432dcaf246.tar.gz",
+    "url": "https://github.com/nvim-treesitter/nvim-treesitter/archive/45386764cc9535200d2288cab929c5093d33660e.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "nvim-treesitter-textsubjects": {
@@ -1502,10 +1502,10 @@
     "homepage": null,
     "owner": "kyazdani42",
     "repo": "nvim-web-devicons",
-    "rev": "6b53401918a9033a41159d012160c5fb5eb249ae",
-    "sha256": "1bncyvmx5x0ic8xi2bw533lvgzkghiwfkiy4ir2rbhcq4c579j1g",
+    "rev": "56f17def81478e406e3a8ec4aa727558e79786f3",
+    "sha256": "1855li3b7j64w1m1jxqxxdsdf0m6vs8migddhkrfkz6nmm1f3lfq",
     "type": "tarball",
-    "url": "https://github.com/kyazdani42/nvim-web-devicons/archive/6b53401918a9033a41159d012160c5fb5eb249ae.tar.gz",
+    "url": "https://github.com/kyazdani42/nvim-web-devicons/archive/56f17def81478e406e3a8ec4aa727558e79786f3.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "nvim-yati": {

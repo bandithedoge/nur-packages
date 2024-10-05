@@ -113,10 +113,10 @@
     "homepage": "",
     "owner": "Reledia",
     "repo": "glow.yazi",
-    "rev": "4e016fa2357e5e7e9b1a4881e1492d73a0a2f2cc",
-    "sha256": "18gs0ryhki80i7pzcc548qjkg7wywpy3bg7sqls9gwr9rzrc5gbp",
+    "rev": "d8b36ff0113e73a400891726dc2eca8b3c049dea",
+    "sha256": "1igmq0rp84p4nf10awz6g65pj400qsyqyygq6gna2wvivsapk8kw",
     "type": "tarball",
-    "url": "https://github.com/Reledia/glow.yazi/archive/4e016fa2357e5e7e9b1a4881e1492d73a0a2f2cc.tar.gz",
+    "url": "https://github.com/Reledia/glow.yazi/archive/d8b36ff0113e73a400891726dc2eca8b3c049dea.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "hexyl.yazi": {
