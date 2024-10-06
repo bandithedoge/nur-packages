@@ -23,11 +23,11 @@
     "pinned": false,
     "src": {
       "name": null,
-      "sha256": "sha256-vGBruV8b3qJ1vNge/HtWPuYuLfYss3vSZfD6zXKH3Mo=",
+      "sha256": "sha256-0ux+COXnLCk68eTEnNaCmvyuy4HJj4ggdXBpVLsguTQ=",
       "type": "url",
       "url": "https://tonelib.net/download/ToneLib-EasyComp-amd64.deb"
     },
-    "version": "2.0.1"
+    "version": "2.2.1"
   },
   "noisereducer": {
     "cargoLocks": null,
