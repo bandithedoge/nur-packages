@@ -1,23 +1,23 @@
 {
-    "cantata": {
-        "cargoLocks": null,
-        "date": null,
-        "extract": null,
-        "name": "cantata",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "deepClone": false,
-            "fetchSubmodules": false,
-            "leaveDotGit": false,
-            "name": null,
-            "owner": "nullobsi",
-            "repo": "cantata",
-            "rev": "v3.2.1",
-            "sha256": "sha256-H7+IuT9hDfFkHLLzlTzHy1XSPUmREQ88DEiJPWgxerw=",
-            "sparseCheckout": [],
-            "type": "github"
-        },
-        "version": "v3.2.1"
-    }
+  "cantata": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "cantata",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "deepClone": false,
+      "fetchSubmodules": false,
+      "leaveDotGit": false,
+      "name": null,
+      "owner": "nullobsi",
+      "repo": "cantata",
+      "rev": "v3.2.1",
+      "sha256": "sha256-H7+IuT9hDfFkHLLzlTzHy1XSPUmREQ88DEiJPWgxerw=",
+      "sparseCheckout": [],
+      "type": "github"
+    },
+    "version": "v3.2.1"
+  }
 }

@@ -98,7 +98,7 @@
     version = "latest";
     src = fetchurl {
       url = "https://tal-software.com/downloads/plugins/TAL-Sampler_64_linux.zip";
-      sha256 = "sha256-ifgPrgtFeIfnAznhVwsSLUv8REgAVaODRSiUnDTSXlQ=";
+      sha256 = "sha256-Vkv5+iNzNFLD8VZnRxBDFQb6QSxaqHJpfYDblrJGdKQ=";
     };
   };
   u-no-lx = {
