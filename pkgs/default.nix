@@ -11,6 +11,7 @@
     airwindows-consolidated = callPackage' ./airwindows-consolidated;
     basiliskii-bin = callPackage' ./basiliskii-bin;
     bitdos-bin = callPackage' ./bitdos-bin;
+    cantata = callPackage' ./cantata;
     cardinal = callPackage' ./cardinal;
     cinelerra-gg-bin = callPackage' ./cinelerra-gg-bin;
     clap-info = callPackage' ./clap-info;
