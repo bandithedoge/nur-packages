@@ -234,13 +234,13 @@
         sha512 = "tskPPKEs8D2KPafUypv2gxwJP8h/OaJmC82QQGGDQcHvXX43xF2VDACcJVmZ0EuSxkpO9Kc4MlrA3q0+FG58AQ==";
       };
     };
-    "confbox-0.1.7" = {
+    "confbox-0.1.8" = {
       name = "confbox";
       packageName = "confbox";
-      version = "0.1.7";
+      version = "0.1.8";
       src = fetchurl {
-        url = "https://registry.npmjs.org/confbox/-/confbox-0.1.7.tgz";
-        sha512 = "uJcB/FKZtBMCJpK8MQji6bJHgu1tixKPxRLeGkNzBoOZzpnZUJm0jm2/sBDWcuBx1dYgxV4JU+g5hmNxCyAmdA==";
+        url = "https://registry.npmjs.org/confbox/-/confbox-0.1.8.tgz";
+        sha512 = "RMtmw0iFkeR4YV+fUOSucriAQNb9g8zFR52MWCtl+cCZOFRNL6zeB395vPzFhEjjn4fMxXudmELnl/KF/WrK6w==";
       };
     };
     "consola-3.2.3" = {
@@ -567,13 +567,13 @@
         sha512 = "vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==";
       };
     };
-    "mlly-1.7.1" = {
+    "mlly-1.7.2" = {
       name = "mlly";
       packageName = "mlly";
-      version = "1.7.1";
+      version = "1.7.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/mlly/-/mlly-1.7.1.tgz";
-        sha512 = "rrVRZRELyQzrIUAVMHxP97kv+G786pHmOKzuFII8zDYahFBS7qnHh2AlYSl1GAHhaMPCz6/oHjVMcfFYgFYHgA==";
+        url = "https://registry.npmjs.org/mlly/-/mlly-1.7.2.tgz";
+        sha512 = "tN3dvVHYVz4DhSXinXIk7u9syPYaJvio118uomkovAtWBT+RdbP6Lfh/5Lvo519YMmwBafwlh20IPTXIStscpA==";
       };
     };
     "node-fetch-native-1.6.4" = {
@@ -1070,7 +1070,7 @@ in {
       sources."chokidar-3.6.0"
       sources."chownr-2.0.0"
       sources."citty-0.1.6"
-      sources."confbox-0.1.7"
+      sources."confbox-0.1.8"
       sources."consola-3.2.3"
       sources."cross-spawn-7.0.3"
       sources."defu-6.1.4"
@@ -1115,7 +1115,7 @@ in {
           ];
         })
       sources."mkdirp-1.0.4"
-      sources."mlly-1.7.1"
+      sources."mlly-1.7.2"
       sources."node-fetch-native-1.6.4"
       sources."normalize-path-3.0.0"
       (sources."npm-run-path-5.3.0"
