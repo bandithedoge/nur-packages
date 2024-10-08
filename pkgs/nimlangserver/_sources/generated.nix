@@ -161,17 +161,17 @@
   };
   stew = {
     pname = "stew";
-    version = "b7b596955726a65788561d2d69978223d4484c95";
+    version = "763147cf821ea105936502e029ac9f5cfad86568";
     src = fetchgit {
       url = "https://github.com/status-im/nim-stew";
-      rev = "b7b596955726a65788561d2d69978223d4484c95";
+      rev = "763147cf821ea105936502e029ac9f5cfad86568";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [];
-      sha256 = "sha256-Y7bbZLdRPlXrW+mhY5Au3w3fPOxKgnVVQFxlsw6+wVk=";
+      sha256 = "sha256-NffTtV+J08Amw+xFa3rqZF9zNtBiA+ylzFK8uhEPtgY=";
     };
-    date = "2024-09-27";
+    date = "2024-10-07";
   };
   websock = {
     pname = "websock";
