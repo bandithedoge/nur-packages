@@ -257,10 +257,10 @@
     "homepage": null,
     "owner": "AnirudhG07",
     "repo": "rich-preview.yazi",
-    "rev": "9bcf15426140417b37d042ccbec9ecdddeacc305",
-    "sha256": "093xl78qfx3qa5zmkjl0l3pdgq9qs0h72mh4kksmvcl5w5cylj7d",
+    "rev": "fe432192db970b5c3f8a9f037280c7431d9c2abe",
+    "sha256": "0djpii5xx1w8r985ib806r922qcmwh39y8akysrb2wagkij9v8mh",
     "type": "tarball",
-    "url": "https://github.com/AnirudhG07/rich-preview.yazi/archive/9bcf15426140417b37d042ccbec9ecdddeacc305.tar.gz",
+    "url": "https://github.com/AnirudhG07/rich-preview.yazi/archive/fe432192db970b5c3f8a9f037280c7431d9c2abe.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "rsync.yazi": {
