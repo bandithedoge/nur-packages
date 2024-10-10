@@ -31,12 +31,12 @@
       "fetchSubmodules": false,
       "leaveDotGit": false,
       "name": null,
-      "rev": "aabb9dcad6bb53d407c1f712350481281095ca3e",
-      "sha256": "sha256-iCoRN3L68oW72RKF2+eMuWm8MTBkQ1Er7USYRsJlRuo=",
+      "rev": "ff50e6a442f7845b145ef21def934a6b3bcc02ce",
+      "sha256": "sha256-SjKLoEeLB3k3AD/5ne2gQOS4DiDNF2Ysc0cY2BKdJ1E=",
       "sparseCheckout": [],
       "type": "git",
       "url": "https://gitlab.zrythm.org/zrythm/zrythm.git"
     },
-    "version": "aabb9dcad6bb53d407c1f712350481281095ca3e"
+    "version": "ff50e6a442f7845b145ef21def934a6b3bcc02ce"
   }
 }
