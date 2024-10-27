@@ -44,6 +44,10 @@
 
       inherit postBuild;
 
+      passthru = {
+        inherit product;
+      };
+
       meta =
         meta
         // {
