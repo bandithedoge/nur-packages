@@ -85,6 +85,14 @@ in {
     homepage = "https://tal-software.com/products/tal-filter";
   };
 
+  g-verb = mkTal {
+    product = "TAL-G-Verb";
+    source = sources.g-verb;
+    description = "TAL-G-Verb is a musical effect capable to build high quality artificial reverb sounds";
+    homepage = "https://tal-software.com/products/tal-g-verb";
+    extraLibs = with pkgs; [fontconfig];
+  };
+
   j-8 = mkTal {
     product = "TAL-J-8";
     source = sources.j-8;
