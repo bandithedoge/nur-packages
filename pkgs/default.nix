@@ -41,6 +41,7 @@
     octasine = callPackage' ./octasine;
     onagre = callPackage' ./onagre;
     osirus = callPackage' ./osirus;
+    panacea-bin = callPackage' ./panacea-bin;
     powertab = callPackage' ./powertab;
     propertree = callPackage' ./propertree;
     pythonPackages = callPackages ./pythonPackages;
