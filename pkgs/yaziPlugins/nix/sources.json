@@ -245,10 +245,10 @@
     "homepage": null,
     "owner": "dedukun",
     "repo": "relative-motions.yazi",
-    "rev": "6aecfcd63bd29b734ca20199bb4ec5a8f9c4f2ab",
-    "sha256": "1azy2xmv5abybzl9lrqggc88p7y0ah5qc0yrbxb72sklj0dx445q",
+    "rev": "d8dd68f01ece586877203ba95d45a164079ebee4",
+    "sha256": "1q9ggya68d61zr8vxbw6ya3fkxlrq77zdkqq6q98y2w9klbxg5ca",
     "type": "tarball",
-    "url": "https://github.com/dedukun/relative-motions.yazi/archive/6aecfcd63bd29b734ca20199bb4ec5a8f9c4f2ab.tar.gz",
+    "url": "https://github.com/dedukun/relative-motions.yazi/archive/d8dd68f01ece586877203ba95d45a164079ebee4.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "rich-preview.yazi": {
