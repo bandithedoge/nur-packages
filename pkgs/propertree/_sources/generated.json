@@ -11,12 +11,12 @@
       "fetchSubmodules": false,
       "leaveDotGit": false,
       "name": null,
-      "rev": "dcd1dcc46d848bd6f728a0c7483309c572e50ea3",
-      "sha256": "sha256-v9rFWzqD9VRTHQSj2GuoUpLa6Mf7G82DRb4N4XzIyCQ=",
+      "rev": "f2d126c69b7f58ecfe1d7cba033373860874e004",
+      "sha256": "sha256-IOZIkFLmVfaCzb2LObZoSfTg4FyOQnOUt4/F19MnTvE=",
       "sparseCheckout": [],
       "type": "git",
       "url": "https://github.com/corpnewt/ProperTree"
     },
-    "version": "dcd1dcc46d848bd6f728a0c7483309c572e50ea3"
+    "version": "f2d126c69b7f58ecfe1d7cba033373860874e004"
   }
 }
