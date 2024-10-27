@@ -8,6 +8,6 @@
   });
 
   org-bars = prev.org-bars.overrideAttrs (_: {
-    buildInputs = with pkgs.emacsPackages; [dash];
+    buildInputs = with pkgs.emacsPackages; [dash s];
   });
 }
