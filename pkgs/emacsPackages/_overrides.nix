@@ -10,4 +10,8 @@
   org-bars = prev.org-bars.overrideAttrs (_: {
     buildInputs = with pkgs.emacsPackages; [dash s];
   });
+
+  smartparens = prev.smartparens.overrideAttrs (_: {
+    buildInputs = with pkgs.emacsPackages; [dash];
+  });
 }
