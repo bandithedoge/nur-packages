@@ -17,10 +17,10 @@
     "homepage": null,
     "owner": "AnirudhG07",
     "repo": "archivemount.yazi",
-    "rev": "354a4d6df9df6187f811c9e24598351e3180e195",
-    "sha256": "1c6bymfraf01p7n05j9jb2ydda4dqpi8jaqjqsx0ag57ygjh06cx",
+    "rev": "e82e38eda858716a1328b5e0c34382547777cb28",
+    "sha256": "0m9mqdq5zcz75k7lriffa0ahh9zq91bb1z9ha27p7aypj0y3hyc0",
     "type": "tarball",
-    "url": "https://github.com/AnirudhG07/archivemount.yazi/archive/354a4d6df9df6187f811c9e24598351e3180e195.tar.gz",
+    "url": "https://github.com/AnirudhG07/archivemount.yazi/archive/e82e38eda858716a1328b5e0c34382547777cb28.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "augment-command.yazi": {
@@ -29,10 +29,10 @@
     "homepage": "",
     "owner": "hankertrix",
     "repo": "augment-command.yazi",
-    "rev": "b81c325d08333ee3b1229b852fe982503ec92ae3",
-    "sha256": "0xj34dryk18zvksrrj4wclvaiskgbq622nll3zdppk7rp8hx8z6h",
+    "rev": "7ea8dde3725ff01a91006897bc90de8f11cf1867",
+    "sha256": "08nvwqw1vx382kc1dgfq8b4smzs5li4jwzb1cx017c526ld282s1",
     "type": "tarball",
-    "url": "https://github.com/hankertrix/augment-command.yazi/archive/b81c325d08333ee3b1229b852fe982503ec92ae3.tar.gz",
+    "url": "https://github.com/hankertrix/augment-command.yazi/archive/7ea8dde3725ff01a91006897bc90de8f11cf1867.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "bookmarks.yazi": {
@@ -77,10 +77,10 @@
     "homepage": null,
     "owner": "Sonico98",
     "repo": "exifaudio.yazi",
-    "rev": "6205460405fa39c017d0eef12997c1180658e695",
-    "sha256": "08jbvrnqji3d4bvwjv2rv9cq46hgl3n1pfc158s05qnx37pym2wr",
+    "rev": "855ff055c11fb8f268b4c006a8bd59dd9bcf17a7",
+    "sha256": "09w84v4kb2kycrrj8nvzfxcwmlnx4s3isrigw4lbnbjkshdn5zgi",
     "type": "tarball",
-    "url": "https://github.com/Sonico98/exifaudio.yazi/archive/6205460405fa39c017d0eef12997c1180658e695.tar.gz",
+    "url": "https://github.com/Sonico98/exifaudio.yazi/archive/855ff055c11fb8f268b4c006a8bd59dd9bcf17a7.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "eza-preview.yazi": {
@@ -113,10 +113,10 @@
     "homepage": "",
     "owner": "Reledia",
     "repo": "glow.yazi",
-    "rev": "d8b36ff0113e73a400891726dc2eca8b3c049dea",
-    "sha256": "1igmq0rp84p4nf10awz6g65pj400qsyqyygq6gna2wvivsapk8kw",
+    "rev": "f52b3822c98dfa84998cc3140803a0704faa515d",
+    "sha256": "1dwm64kkcafvh11yd367sh1j9hpi10qmd5fxfq65izah76m8b9kf",
     "type": "tarball",
-    "url": "https://github.com/Reledia/glow.yazi/archive/d8b36ff0113e73a400891726dc2eca8b3c049dea.tar.gz",
+    "url": "https://github.com/Reledia/glow.yazi/archive/f52b3822c98dfa84998cc3140803a0704faa515d.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "hexyl.yazi": {
@@ -125,10 +125,10 @@
     "homepage": null,
     "owner": "Reledia",
     "repo": "hexyl.yazi",
-    "rev": "f845ea5e198f6b63545534e644527e1d120d8ee8",
-    "sha256": "0wym3ql3m2dyf4x6ymm1c4zxal77cppf730j8jrci784k2rjf28s",
+    "rev": "ccc0a4a959bea14dbe8f2b243793aacd697e34e2",
+    "sha256": "1j37zblqsaz3ss6id42lsc2qw5h2vffl5ic9jlwjdd8q0drckczn",
     "type": "tarball",
-    "url": "https://github.com/Reledia/hexyl.yazi/archive/f845ea5e198f6b63545534e644527e1d120d8ee8.tar.gz",
+    "url": "https://github.com/Reledia/hexyl.yazi/archive/ccc0a4a959bea14dbe8f2b243793aacd697e34e2.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "lazygit.yazi": {
@@ -209,10 +209,10 @@
     "homepage": "",
     "owner": "ndtoan96",
     "repo": "ouch.yazi",
-    "rev": "251da6930ca8b7ee0384810086c3bf644caede3e",
-    "sha256": "0h5j8aimhvzwk0j65pc3dhj0ampdmk832nwf0jfq6l51irlpvfy8",
+    "rev": "d13f7c08cdebcfaadf38c3eb9999639ddd89201c",
+    "sha256": "0ra0v89kb3iphfpydml5cmmqm9kc80wbb3nn2jhggs9i1fij0b92",
     "type": "tarball",
-    "url": "https://github.com/ndtoan96/ouch.yazi/archive/251da6930ca8b7ee0384810086c3bf644caede3e.tar.gz",
+    "url": "https://github.com/ndtoan96/ouch.yazi/archive/d13f7c08cdebcfaadf38c3eb9999639ddd89201c.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "projects.yazi": {
@@ -245,10 +245,10 @@
     "homepage": null,
     "owner": "dedukun",
     "repo": "relative-motions.yazi",
-    "rev": "89d0cb9c84a7bba98d2e7ca4bac706d2458d0c06",
-    "sha256": "1ia0drqngj35lhyd4p6jy3i35p8bmhfznalcah2qcjwdgy0c1n5a",
+    "rev": "6aecfcd63bd29b734ca20199bb4ec5a8f9c4f2ab",
+    "sha256": "1azy2xmv5abybzl9lrqggc88p7y0ah5qc0yrbxb72sklj0dx445q",
     "type": "tarball",
-    "url": "https://github.com/dedukun/relative-motions.yazi/archive/89d0cb9c84a7bba98d2e7ca4bac706d2458d0c06.tar.gz",
+    "url": "https://github.com/dedukun/relative-motions.yazi/archive/6aecfcd63bd29b734ca20199bb4ec5a8f9c4f2ab.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "rich-preview.yazi": {
@@ -305,10 +305,10 @@
     "homepage": null,
     "owner": "TD-Sky",
     "repo": "sudo.yazi",
-    "rev": "9f20f83e874e0a0713a86cff1f54b5814b7140cb",
-    "sha256": "065d5qx44x5a901r7pfwz57545anr03v675cjr86n61cfsd08nms",
+    "rev": "7cbc3f1b9e0322178353cb7058f8e5bd9f9fd8b1",
+    "sha256": "07zqrgmlyf0dmlx8d7y3swyjmhxhg74wx5xhan3m3f05ffjrb8pg",
     "type": "tarball",
-    "url": "https://github.com/TD-Sky/sudo.yazi/archive/9f20f83e874e0a0713a86cff1f54b5814b7140cb.tar.gz",
+    "url": "https://github.com/TD-Sky/sudo.yazi/archive/7cbc3f1b9e0322178353cb7058f8e5bd9f9fd8b1.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "system-clipboard.yazi": {

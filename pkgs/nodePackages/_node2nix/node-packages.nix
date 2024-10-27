@@ -9,40 +9,40 @@
   globalBuildInputs ? [],
 }: let
   sources = {
-    "@babel/helper-string-parser-7.25.7" = {
+    "@babel/helper-string-parser-7.25.9" = {
       name = "_at_babel_slash_helper-string-parser";
       packageName = "@babel/helper-string-parser";
-      version = "7.25.7";
+      version = "7.25.9";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/helper-string-parser/-/helper-string-parser-7.25.7.tgz";
-        sha512 = "CbkjYdsJNHFk8uqpEkpCvRs3YRp9tY6FmFY7wLMSYuGYkrdUi7r2lc4/wqsvlHoMznX3WJ9IP8giGPq68T/Y6g==";
+        url = "https://registry.npmjs.org/@babel/helper-string-parser/-/helper-string-parser-7.25.9.tgz";
+        sha512 = "4A/SCr/2KLd5jrtOMFzaKjVtAei3+2r/NChoBNoZ3EyP/+GlhoaEGoWOZUmFmoITP7zOJyHIMm+DYRd8o3PvHA==";
       };
     };
-    "@babel/helper-validator-identifier-7.25.7" = {
+    "@babel/helper-validator-identifier-7.25.9" = {
       name = "_at_babel_slash_helper-validator-identifier";
       packageName = "@babel/helper-validator-identifier";
-      version = "7.25.7";
+      version = "7.25.9";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/helper-validator-identifier/-/helper-validator-identifier-7.25.7.tgz";
-        sha512 = "AM6TzwYqGChO45oiuPqwL2t20/HdMC1rTPAesnBCgPCSF1x3oN9MVUwQV2iyz4xqWrctwK5RNC8LV22kaQCNYg==";
+        url = "https://registry.npmjs.org/@babel/helper-validator-identifier/-/helper-validator-identifier-7.25.9.tgz";
+        sha512 = "Ed61U6XJc3CVRfkERJWDz4dJwKe7iLmmJsbOGu9wSloNSFttHV0I8g6UAgb7qnK5ly5bGLPd4oXZlxCdANBOWQ==";
       };
     };
-    "@babel/parser-7.25.7" = {
+    "@babel/parser-7.26.1" = {
       name = "_at_babel_slash_parser";
       packageName = "@babel/parser";
-      version = "7.25.7";
+      version = "7.26.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/parser/-/parser-7.25.7.tgz";
-        sha512 = "aZn7ETtQsjjGG5HruveUK06cU3Hljuhd9Iojm4M8WWv3wLE6OkE5PWbDUkItmMgegmccaITudyuW5RPYrYlgWw==";
+        url = "https://registry.npmjs.org/@babel/parser/-/parser-7.26.1.tgz";
+        sha512 = "reoQYNiAJreZNsJzyrDNzFQ+IQ5JFiIzAHJg9bn94S3l+4++J7RsIhNMoB+lgP/9tpmiAQqspv+xfdxTSzREOw==";
       };
     };
-    "@babel/types-7.25.7" = {
+    "@babel/types-7.26.0" = {
       name = "_at_babel_slash_types";
       packageName = "@babel/types";
-      version = "7.25.7";
+      version = "7.26.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/types/-/types-7.25.7.tgz";
-        sha512 = "vwIVdXG+j+FOpkwqHRcBgHLYNL7XMkufrlaFvL9o6Ai9sJn9+PdyIL5qa0XzTZw084c+u9LOls53eoZWP/W5WQ==";
+        url = "https://registry.npmjs.org/@babel/types/-/types-7.26.0.tgz";
+        sha512 = "Z/yiTPj+lDVnF7lWeKCIJzaIkI0vYO87dMpZ4bg4TDrFe4XXLFWL1TbXU27gBP3QccxV9mZICCrnjnYlJjXHOA==";
       };
     };
     "@emmetio/abbreviation-2.3.3" = {
@@ -126,13 +126,13 @@
         sha512 = "rB39LHWWPQYYlYfpv9qCoZOVioPCftKXXqrsyqN1mTWZM6dTnONT63Db+03vgrBbHzJN45IrgS/AGxw9iiqfEw==";
       };
     };
-    "acorn-8.12.1" = {
+    "acorn-8.14.0" = {
       name = "acorn";
       packageName = "acorn";
-      version = "8.12.1";
+      version = "8.14.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/acorn/-/acorn-8.12.1.tgz";
-        sha512 = "tcpGyI9zbizT9JbV6oYE477V6mTlXvvi0T0G3SNIYE2apm/G5huBa1+K89VGeovbg+jycCrfhl3ADxErOuO6Jg==";
+        url = "https://registry.npmjs.org/acorn/-/acorn-8.14.0.tgz";
+        sha512 = "cl669nCJTZBsL97OF4kUQm5g5hC2uihk0NxY3WENAC0TYdILVkAyHymAntgxGkl7K+t0cXIrH5siy5S4XkFycA==";
       };
     };
     "anymatch-3.1.3" = {
@@ -819,15 +819,6 @@
         sha512 = "DZ4yORTwrbTj/7MZYq2w+/ZFdI6OZ/f9SFHR+71gIVUZhOQPHzVCLpvRnPgyaMpfWxxk/4ONva3GQSyNIKRv6A==";
       };
     };
-    "to-fast-properties-2.0.0" = {
-      name = "to-fast-properties";
-      packageName = "to-fast-properties";
-      version = "2.0.0";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/to-fast-properties/-/to-fast-properties-2.0.0.tgz";
-        sha512 = "/OaKK0xYrs3DmxRYqL/yDc+FxFUVYhDlXMhRmv3z915w2HF1tnN1omB354j8VUGO/hbRzyD6Y3sA7v7GS/ceog==";
-      };
-    };
     "to-regex-range-5.0.1" = {
       name = "to-regex-range";
       packageName = "to-regex-range";
@@ -1041,10 +1032,10 @@ in {
       sha512 = "ACyWly9RNoKB+lpBpJXNm8xl0uamsjuy/wBYg/7xruShb2qW/GKXeFl8Rt4a6qMTSxoAdd96vz/lLulkaDdrOA==";
     };
     dependencies = [
-      sources."@babel/helper-string-parser-7.25.7"
-      sources."@babel/helper-validator-identifier-7.25.7"
-      sources."@babel/parser-7.25.7"
-      sources."@babel/types-7.25.7"
+      sources."@babel/helper-string-parser-7.25.9"
+      sources."@babel/helper-validator-identifier-7.25.9"
+      sources."@babel/parser-7.26.1"
+      sources."@babel/types-7.26.0"
       sources."@emmetio/abbreviation-2.3.3"
       sources."@emmetio/css-abbreviation-2.1.8"
       sources."@emmetio/scanner-1.0.4"
@@ -1053,7 +1044,7 @@ in {
       sources."@nodelib/fs.stat-2.0.5"
       sources."@nodelib/fs.walk-1.2.8"
       sources."@vscode/emmet-helper-2.9.3"
-      sources."acorn-8.12.1"
+      sources."acorn-8.14.0"
       sources."anymatch-3.1.3"
       sources."argparse-2.0.1"
       sources."binary-extensions-2.3.0"
@@ -1147,7 +1138,6 @@ in {
       sources."string-argv-0.3.2"
       sources."strip-final-newline-3.0.0"
       sources."tar-6.2.1"
-      sources."to-fast-properties-2.0.0"
       sources."to-regex-range-5.0.1"
       sources."type-detect-4.1.0"
       sources."ufo-1.5.4"

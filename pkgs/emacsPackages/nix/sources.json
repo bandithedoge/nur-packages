@@ -29,10 +29,10 @@
     "homepage": "",
     "owner": "emacs-languagetool",
     "repo": "eglot-ltex",
-    "rev": "302720b3e34f5990dec2709317b0424614d4823c",
-    "sha256": "0iw105jyx4pgcb1np908b7v6lz4vsqp4220ac2sw6s31zm7i3889",
+    "rev": "1ec941df79113323e6d0fa827aecc6cddc91dd37",
+    "sha256": "0cchbjs56yfzwhn8q4zpi0mdpzfglwd9jkj297g0hqh03x3r35ii",
     "type": "tarball",
-    "url": "https://github.com/emacs-languagetool/eglot-ltex/archive/302720b3e34f5990dec2709317b0424614d4823c.tar.gz",
+    "url": "https://github.com/emacs-languagetool/eglot-ltex/archive/1ec941df79113323e6d0fa827aecc6cddc91dd37.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "eglot-x": {
@@ -41,10 +41,10 @@
     "homepage": null,
     "owner": "nemethf",
     "repo": "eglot-x",
-    "rev": "a5ad50636cc331543f43f0e55afb213233819f1d",
-    "sha256": "19znzy69gjj3qj8lvhbxh0qbyil2d4bn5hz4ryl65m348k96w77r",
+    "rev": "295c0309dc836966467c95867d1593f1376507b6",
+    "sha256": "1w9nbnfdcdikhn603dkcmqzkfg80vhd71fd50mlsr8sm0h8ygy0v",
     "type": "tarball",
-    "url": "https://github.com/nemethf/eglot-x/archive/a5ad50636cc331543f43f0e55afb213233819f1d.tar.gz",
+    "url": "https://github.com/nemethf/eglot-x/archive/295c0309dc836966467c95867d1593f1376507b6.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "eglot-yaml": {
@@ -77,10 +77,10 @@
     "homepage": "",
     "owner": "jdtsmith",
     "repo": "indent-bars",
-    "rev": "912486722771d9ef5c6000011edf7e6d6c0cebc2",
-    "sha256": "06p2qlpx6y92xm3q9wijgbxzg6fw7dk953653miihdgr7h8s1f07",
+    "rev": "aff8cf8b9fbbc6a85ee32c536d4bc8b75306e13c",
+    "sha256": "1w6amjvi2whn4pwzqja1agsic35gqa5igfxnx923w8zw7ny63fdy",
     "type": "tarball",
-    "url": "https://github.com/jdtsmith/indent-bars/archive/912486722771d9ef5c6000011edf7e6d6c0cebc2.tar.gz",
+    "url": "https://github.com/jdtsmith/indent-bars/archive/aff8cf8b9fbbc6a85ee32c536d4bc8b75306e13c.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "on": {

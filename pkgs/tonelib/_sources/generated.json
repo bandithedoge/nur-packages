@@ -8,11 +8,11 @@
     "pinned": false,
     "src": {
       "name": null,
-      "sha256": "sha256-FybUm1iPCzqO1VMSvRCCUDa2+WO4+4UQ8p0Ab3RjHLc=",
+      "sha256": "sha256-XELcM+XCMYVkyQAsb08rJSoet8FUcPjr0C76kOEg/0Y=",
       "type": "url",
       "url": "https://www.tonelib.net/download/ToneLib-BassDrive-amd64.deb"
     },
-    "version": "1.5.0"
+    "version": "2.0.0"
   },
   "easycomp": {
     "cargoLocks": null,

@@ -7,13 +7,13 @@
 }: {
   geonkick = {
     pname = "geonkick";
-    version = "v3.4.0";
+    version = "v3.5.0";
     src = fetchFromGitHub {
       owner = "Geonkick-Synthesizer";
       repo = "geonkick";
-      rev = "v3.4.0";
+      rev = "v3.5.0";
       fetchSubmodules = false;
-      sha256 = "sha256-zoEC85QYcQMF92KvLBikYw1nDoSHaedpTDDqvoAtte0=";
+      sha256 = "sha256-bqdqAr4NX5WZ6zp0Kq7GFHiy/JkBvDvzuZz7jxtru0Q=";
     };
   };
 }

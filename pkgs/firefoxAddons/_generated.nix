@@ -329,10 +329,10 @@
   };
   "downthemall" = buildFirefoxXpiAddon {
     pname = "downthemall";
-    version = "4.12.1";
+    version = "4.13.1";
     addonId = "{DDC359D1-844A-42a7-9AA1-88A850A938A8}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4228862/downthemall-4.12.1.xpi";
-    sha256 = "4e652c23da2560d02246afa3eeeee442b6de3dddb1ee3ce10aaa214e57e676fd";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4370602/downthemall-4.13.1.xpi";
+    sha256 = "ae0dbb3446bf96fdce8f9da9f82d492d8f21aa903fb971c7d5e84ea5cb637164";
     meta = with lib; {
       homepage = "https://www.downthemall.org/";
       description = "The Mass Downloader for your browser";
@@ -487,10 +487,10 @@
   };
   "indie-wiki-buddy" = buildFirefoxXpiAddon {
     pname = "indie-wiki-buddy";
-    version = "3.10.1";
+    version = "3.11.0";
     addonId = "{cb31ec5d-c49a-4e5a-b240-16c767444f62}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4340783/indie_wiki_buddy-3.10.1.xpi";
-    sha256 = "d4fc7516b2f5cf8bd4d9d286d4b7b3790001970f5b979ca4de8749ab9a9e2899";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4367565/indie_wiki_buddy-3.11.0.xpi";
+    sha256 = "415889791d30e3426dba185dcf567ddfe30f69abc39a5e9e115fe8f06ea849d0";
     meta = with lib; {
       homepage = "https://getindie.wiki/";
       description = "Helping you discover quality, independent wikis!\n\nWhen visiting a Fandom wiki, Indie Wiki Buddy redirects or alerts you of independent alternatives. It also filters search engine results. BreezeWiki is also supported, to reduce clutter on Fandom.";
@@ -759,10 +759,10 @@
   };
   "material-icons-for-github" = buildFirefoxXpiAddon {
     pname = "material-icons-for-github";
-    version = "1.8.27";
+    version = "1.8.28";
     addonId = "{eac6e624-97fa-4f28-9d24-c06c9b8aa713}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4357299/material_icons_for_github-1.8.27.xpi";
-    sha256 = "dc145c859b58b49c16ec07beac97738c4f7e811ebc47e5f9d6e45a116184a8e6";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4375350/material_icons_for_github-1.8.28.xpi";
+    sha256 = "e2f82cc58d10f5202ac6e08b73aa52c9dfe4fba4f777e71e112a433d9c3382ed";
     meta = with lib; {
       homepage = "https://github.com/Claudiohbsantos/github-material-icons-extension";
       description = "Replace the file/folder icons on github file browsers with icons representing the file's type and which tool it is used by.";
@@ -1258,10 +1258,10 @@
   };
   "pronoundb" = buildFirefoxXpiAddon {
     pname = "pronoundb";
-    version = "0.14.5";
+    version = "0.14.6";
     addonId = "firefox-addon@pronoundb.org";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4286934/pronoundb-0.14.5.xpi";
-    sha256 = "db1d30550fb5cb27502d09e971b2c1e234167f6e0ad9aeb15ec78efb59c0a8d3";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4376744/pronoundb-0.14.6.xpi";
+    sha256 = "5fb1f32c2584e90a1fc8ae5c5471584fa0d4ec0e6af80c6a2d1be8fe64c4ad00";
     meta = with lib; {
       homepage = "https://pronoundb.org";
       description = "PronounDB is a browser extension that helps people know each other's pronouns easily and instantly. Whether hanging out on a Twitch chat, or on any of the supported platforms, PronounDB will make your life easier.";
@@ -1305,10 +1305,10 @@
   };
   "refined-github" = buildFirefoxXpiAddon {
     pname = "refined-github";
-    version = "24.10.1";
+    version = "24.10.24";
     addonId = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4362555/refined_github-24.10.1.xpi";
-    sha256 = "d922b9094365977860ec490d66fa96b004bb8446084930111514b2d8a6143c1d";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4375465/refined_github-24.10.24.xpi";
+    sha256 = "2dcaf71a3cd96d538642679ffb7e2e8142fd22f5191c697197fa02698da3e99d";
     meta = with lib; {
       homepage = "https://github.com/refined-github/refined-github";
       description = "Simplifies the GitHub interface and adds many useful features.";
@@ -1320,7 +1320,6 @@
         "activeTab"
         "alarms"
         "https://github.com/*"
-        "https://api.github.com/*"
         "https://gist.github.com/*"
       ];
       platforms = platforms.all;
@@ -1373,10 +1372,10 @@
   };
   "sponsorblock" = buildFirefoxXpiAddon {
     pname = "sponsorblock";
-    version = "5.9.3";
+    version = "5.9.4";
     addonId = "sponsorBlocker@ajay.app";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4360577/sponsorblock-5.9.3.xpi";
-    sha256 = "ea3d137e458f1a87f406cbb39f3099ee673918c40c1bad5b48bc26e9bfc8be62";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4364207/sponsorblock-5.9.4.xpi";
+    sha256 = "1bff70a70685caaf444b57984a26c910a456bbbcc50d24d2d58a081ba114f7a3";
     meta = with lib; {
       homepage = "https://sponsor.ajay.app";
       description = "Easily skip YouTube video sponsors. When you visit a YouTube video, the extension will check the database for reported sponsors and automatically skip known sponsors. You can also report sponsors in videos. Other browsers: https://sponsor.ajay.app";
@@ -1393,10 +1392,10 @@
   };
   "steam-database" = buildFirefoxXpiAddon {
     pname = "steam-database";
-    version = "4.6";
+    version = "4.8";
     addonId = "firefox-extension@steamdb.info";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4350553/steam_database-4.6.xpi";
-    sha256 = "8eae2f65fe7fa0f347433b9618b89d6dd668314b4052145b27152ab94a3781d4";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4371564/steam_database-4.8.xpi";
+    sha256 = "71eab48fd805316b18659ec203b0e6486d73a926cc5c51a7b843fe5ea30667fb";
     meta = with lib; {
       homepage = "https://steamdb.info/";
       description = "Adds SteamDB links and new features on the Steam store and community. View lowest game prices and stats.";
@@ -1405,6 +1404,7 @@
         "storage"
         "https://steamdb.info/*"
         "https://store.steampowered.com/*"
+        "https://steamcommunity.com/*"
         "https://store.steampowered.com/app/*"
         "https://store.steampowered.com/news/app/*"
         "https://store.steampowered.com/account/licenses*"
@@ -1420,7 +1420,6 @@
         "https://steamcommunity.com/workshop/filedetails*"
         "https://steamcommunity.com/workshop/browse*"
         "https://steamcommunity.com/workshop/discussions*"
-        "https://steamcommunity.com/*"
         "https://steamcommunity.com/id/*"
         "https://steamcommunity.com/profiles/*"
         "https://steamcommunity.com/id/*/inventory*"
@@ -1438,10 +1437,10 @@
         "https://steamcommunity.com/id/*/gamecards/*"
         "https://steamcommunity.com/profiles/*/gamecards/*"
         "https://steamcommunity.com/market/multibuy*"
+        "https://steamcommunity.com/market/*"
         "https://steamcommunity.com/games/*"
         "https://steamcommunity.com/sharedfiles/*"
         "https://steamcommunity.com/workshop/*"
-        "https://steamcommunity.com/market/*"
       ];
       platforms = platforms.all;
     };
