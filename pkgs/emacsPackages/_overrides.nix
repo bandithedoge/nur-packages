@@ -6,4 +6,8 @@
   indent-bars = prev.indent-bars.overrideAttrs (_: {
     buildInputs = with pkgs.emacsPackages; [compat];
   });
+
+  org-bars = prev.org-bars.overrideAttrs (_: {
+    buildInputs = with pkgs.emacsPackages; [dash];
+  });
 }
