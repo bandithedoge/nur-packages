@@ -46,6 +46,7 @@ in {
     source = sources.bassline-101;
     description = "TAL-BassLine-101 is an accurate emulation of the popular SH 101";
     homepage = "https://tal-software.com/products/tal-bassline-101";
+    extraLibs = with pkgs; [fontconfig];
   };
 
   chorus-lx = mkTal {
