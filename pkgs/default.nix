@@ -52,6 +52,7 @@
     tal = callPackages ./tal;
     tonelib = callPackages ./tonelib;
     treeSitterGrammars = callPackages ./treeSitterGrammars;
+    u-he = callPackages ./u-he;
     umu = callPackage' ./umu;
     vgmtrans = callPackage' ./vgmtrans;
     vimPlugins = callPackages ./vimPlugins;
