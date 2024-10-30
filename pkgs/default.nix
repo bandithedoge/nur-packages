@@ -36,6 +36,7 @@
     lv2vst = callPackage' ./lv2vst;
     mesonlsp-bin = callPackage' ./mesonlsp-bin;
     modstems = callPackage' ./modstems;
+    musique = callPackage' ./musique;
     nimlangserver = callPackage' ./nimlangserver;
     nodePackages = callPackages ./nodePackages;
     octasine = callPackage' ./octasine;
