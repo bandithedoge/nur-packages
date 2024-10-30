@@ -49,17 +49,17 @@
   };
   faststreams = {
     pname = "faststreams";
-    version = "c246d00eaa7d6f52019464b37da510a8be23e939";
+    version = "cf8d4d22636b8e514caf17e49f9c786ac56b0e85";
     src = fetchgit {
       url = "https://github.com/status-im/nim-faststreams";
-      rev = "c246d00eaa7d6f52019464b37da510a8be23e939";
+      rev = "cf8d4d22636b8e514caf17e49f9c786ac56b0e85";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [];
-      sha256 = "sha256-+0lmc7nClNtIJuqM3ncWSb0KyZ/DSObdFD/fLWrsQyw=";
+      sha256 = "sha256-umvWQ6MxaYsHn8eXb24kl7bmEUXQzeiEgFQSTzNm8S8=";
     };
-    date = "2024-10-15";
+    date = "2024-10-29";
   };
   httputils = {
     pname = "httputils";
@@ -77,17 +77,17 @@
   };
   json-rpc = {
     pname = "json-rpc";
-    version = "98a5efba4de26ac852d0715656f6b0c52a203a75";
+    version = "31af0f2bda1486ffb7326c5df1dc47dc63d73fff";
     src = fetchgit {
       url = "https://github.com/status-im/nim-json-rpc";
-      rev = "98a5efba4de26ac852d0715656f6b0c52a203a75";
+      rev = "31af0f2bda1486ffb7326c5df1dc47dc63d73fff";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [];
-      sha256 = "sha256-Hms7E8cZJh+9XTgaOpL3rRPbIxJ+7ikygVhQIbdtW3g=";
+      sha256 = "sha256-tgeQYOXvsK6qhAheIv9nS+71SRCqfI1KFzoq74TOS+8=";
     };
-    date = "2024-10-22";
+    date = "2024-10-29";
   };
   json_serialization = {
     pname = "json_serialization";
@@ -175,17 +175,17 @@
   };
   websock = {
     pname = "websock";
-    version = "179f81dedaddb5ba8d02534ccc8b7a8335981f49";
+    version = "53c2ba2696ac5ad72a70b36d0711a0837f0b1c8f";
     src = fetchgit {
       url = "https://github.com/status-im/nim-websock";
-      rev = "179f81dedaddb5ba8d02534ccc8b7a8335981f49";
+      rev = "53c2ba2696ac5ad72a70b36d0711a0837f0b1c8f";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [];
-      sha256 = "sha256-8XMSa0K43QBk+o3n7pwqKLk9feiRBPeDksrfY/orgxI=";
+      sha256 = "sha256-WbeSVOQghJz+5AEOsZRT8zj9o/8ykrn/aeEwMcooBG4=";
     };
-    date = "2024-09-11";
+    date = "2024-10-29";
   };
   zevv-with = {
     pname = "zevv-with";
