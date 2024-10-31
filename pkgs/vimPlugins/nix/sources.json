@@ -653,10 +653,10 @@
     "homepage": "",
     "owner": "ray-x",
     "repo": "go.nvim",
-    "rev": "12ab6ac0fdd03b1ec9ee4e5378dd204f744a55bf",
-    "sha256": "0ckmvsqwms66h50xrh27rhn7f58ziqcrdzr08vf07k13ljnlsqkh",
+    "rev": "3ea80d76c1974921e8fb42066c3878bc05c9ec4e",
+    "sha256": "1m27adi7xax8122lbym55ggwz50mijn61yja9lsjf270h605bb7i",
     "type": "tarball",
-    "url": "https://github.com/ray-x/go.nvim/archive/12ab6ac0fdd03b1ec9ee4e5378dd204f744a55bf.tar.gz",
+    "url": "https://github.com/ray-x/go.nvim/archive/3ea80d76c1974921e8fb42066c3878bc05c9ec4e.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "guess-indent.nvim": {
@@ -998,10 +998,10 @@
     "homepage": "",
     "owner": "folke",
     "repo": "neoconf.nvim",
-    "rev": "610d93be4902db0fbf0fb5f79d59d9e06aed929b",
-    "sha256": "0gb06jzgmxq10g0ns5b4w3v2w8c34vjk0qwyi8jb6jy0ad0mkgmi",
+    "rev": "c32fd1d852e45cc03ed0729a2f5bec040ff9f065",
+    "sha256": "1fdq4lzpvnyj4vxk5330ykyxnwiqjxmq90pg8ig3n443zl4rbxzv",
     "type": "tarball",
-    "url": "https://github.com/folke/neoconf.nvim/archive/610d93be4902db0fbf0fb5f79d59d9e06aed929b.tar.gz",
+    "url": "https://github.com/folke/neoconf.nvim/archive/c32fd1d852e45cc03ed0729a2f5bec040ff9f065.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "neodev.nvim": {
@@ -1298,10 +1298,10 @@
     "homepage": "",
     "owner": "neovim",
     "repo": "nvim-lspconfig",
-    "rev": "59a6766cbf32c7e4cf3ed685ccad7ffe1dde8c40",
-    "sha256": "0w04mply303j4mq6myygwgr54bxv7cirnj3qrq4il798bxs71vix",
+    "rev": "54617a18f4cf46f0c2f6d024fa6feb7515fe036d",
+    "sha256": "1hxx86vpx39kps99q4dvhvv92whqbjiwqqmq9ja17bvcx954xp3n",
     "type": "tarball",
-    "url": "https://github.com/neovim/nvim-lspconfig/archive/59a6766cbf32c7e4cf3ed685ccad7ffe1dde8c40.tar.gz",
+    "url": "https://github.com/neovim/nvim-lspconfig/archive/54617a18f4cf46f0c2f6d024fa6feb7515fe036d.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "nvim-luaref": {
