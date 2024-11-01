@@ -27,7 +27,7 @@ in
     installPhase = ''
       mkdir -p $out/lib/{vst,vst3}
 
-      cp dist/js80p-dev-linux-${arch}-${instructionSet}-fst/js80p.so $out/lib/vst
+      cp dist/js80p-dev-linux-${arch}-sse2-fst/js80p.so $out/lib/vst
       cp dist/js80p.vstxml $out/lib/vst
 
       mkdir -p $out/lib/vst3/js80p.vst3/Contents/${pkgs.stdenv.system}
@@ -51,7 +51,7 @@ in
     INSTRUCTION_SET = "sse2";
     TARGET_PLATFORM = "${arch}-gpp";
     VERSION_STR = version;
-    VERSION_INT = pkgs.lib.concatStrings (pkgs.lib.splitString "." version);
+    VERSION_INT = pkgs.lib.concatStrings (pkgs.lib.splitString "." (pkgs.lib.removePrefix "v" version));
 
     NIX_CFLAGS_COMPILE = "-Wno-format-security";
 
