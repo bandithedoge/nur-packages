@@ -1,7 +1,7 @@
 {
   pkgs,
   sources,
-  instructionSet ? "sse2", # sse2 or avx
+  instructionSet ? "avx", # sse2 or avx
   ...
 }: let
   arch = pkgs.stdenv.targetPlatform.uname.processor;
