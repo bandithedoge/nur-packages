@@ -128,6 +128,5 @@ in
       homepage = "https://www.zrythm.org/";
       license = licenses.agpl3Plus;
       platforms = platforms.linux;
-      broken = true; # wait until qt6 merge is over
     };
   }
