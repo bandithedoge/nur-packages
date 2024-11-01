@@ -29,6 +29,7 @@
     haskellPackages = callPackages ./haskellPackages;
     hvcc = callPackage' ./hvcc;
     ildaeil = callPackage' ./ildaeil;
+    js80p = callPackage' ./js80p;
     keepmenu = callPackage' ./keepmenu;
     kiwmi = callPackage' ./kiwmi;
     lamb = callPackage' ./lamb;
