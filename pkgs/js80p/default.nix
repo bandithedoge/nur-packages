@@ -31,7 +31,7 @@ in
       cp dist/js80p.vstxml $out/lib/vst
 
       mkdir -p $out/lib/vst3/js80p.vst3/Contents/${pkgs.stdenv.system}
-      cp dist/js80p-dev-linux-${arch}-${instructionSet}-vst3_single_file/js80p.vst3 \
+      cp dist/js80p-dev-linux-${arch}-sse2-vst3_single_file/js80p.vst3 \
         $out/lib/vst3/js80p.vst3/Contents/${pkgs.stdenv.system}/js80p.so
     '';
 
