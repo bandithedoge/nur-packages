@@ -28,7 +28,7 @@ pkgs.stdenv.mkDerivation {
   meta = with pkgs.lib; {
     description = "destruqtor is a companding distortion/saturation/exciter plugin. Unlike traditional distortion, destruqtor applies expanding compression before the waveshaper and an opposite compression after the effect, which preserves and emphasises transients and adds more warmth to your sounds without sacrificing dynamic range";
     homepage = "https://fx.amee.ee/plugin/destruqtor/";
-    license = lib.licenses.unfree;
+    license = licenses.unfree;
     platforms = ["x86_64-linux"];
   };
 }
