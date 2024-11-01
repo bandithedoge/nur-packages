@@ -42,7 +42,7 @@
     version = "latest";
     src = fetchurl {
       url = "https://tal-software.com/downloads/plugins/TAL-Dub-X_64_linux.zip";
-      sha256 = "sha256-HkeSYuFS8ApVqUFZwuA2HUJgi1rQP7y0qeXldDpZ7tw=";
+      sha256 = "sha256-nfzNJ0TjwogR8/36zTFcnp9iUC24eoPtUR6+efzOXpQ=";
     };
   };
   filter-2 = {
@@ -66,7 +66,7 @@
     version = "latest";
     src = fetchurl {
       url = "https://tal-software.com/downloads/plugins/TAL-J-8_64_linux.zip";
-      sha256 = "sha256-OgQSGIORdbpTen/LyXiHBT18L3iv63QIz5gCC6TqBKw=";
+      sha256 = "sha256-URAGD/NK7A9dVVR4pNzG4ylTBghl8knpEdx6RAU1Vt4=";
     };
   };
   mod = {
@@ -114,7 +114,7 @@
     version = "latest";
     src = fetchurl {
       url = "https://tal-software.com/downloads/plugins/TAL-U-NO-LX-V2_64_linux.zip";
-      sha256 = "sha256-iM5j4sXec8QvnDitXefkA8rOazp8FQftegsuFFpqaxs=";
+      sha256 = "sha256-BW4kbR+WDqeIorXmTIDOIXNrmKnU0Z/h4iQ29CDh4tw=";
     };
   };
   vocoder = {

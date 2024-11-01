@@ -7,10 +7,10 @@
 }: {
   cinelerra-gg = {
     pname = "cinelerra-gg";
-    version = "20240930";
+    version = "20241031";
     src = fetchurl {
-      url = "https://cinelerra-gg.org/download/images/CinGG-20240930-x86_64.AppImage";
-      sha256 = "sha256-ZVSx1zuVdBioH3weKDnLNeyGbd9fjj1W9VTcjJs8vqI=";
+      url = "https://cinelerra-gg.org/download/images/CinGG-20241031-x86_64.AppImage";
+      sha256 = "sha256-xRIsd13znb8QNTAOghtQy7nv5Y2pjX1uPy+DLfS4ihc=";
     };
   };
 }

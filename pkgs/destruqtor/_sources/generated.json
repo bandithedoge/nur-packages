@@ -1,17 +1,17 @@
 {
-    "destruqtor": {
-        "cargoLocks": null,
-        "date": null,
-        "extract": null,
-        "name": "destruqtor",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "name": null,
-            "sha256": "sha256-dUs/jqoPjr1Td2UZHjTHM4gLC2OX+as/GMH6lElynhg=",
-            "type": "url",
-            "url": "https://github.com/blepfx/dist/releases/download/release-45/destruqtor-x86_64-unknown-linux-gnu.zip"
-        },
-        "version": "release-45"
-    }
+  "destruqtor": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "destruqtor",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-dUs/jqoPjr1Td2UZHjTHM4gLC2OX+as/GMH6lElynhg=",
+      "type": "url",
+      "url": "https://github.com/blepfx/dist/releases/download/release-45/destruqtor-x86_64-unknown-linux-gnu.zip"
+    },
+    "version": "release-45"
+  }
 }
