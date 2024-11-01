@@ -1082,10 +1082,10 @@
     "homepage": "",
     "owner": "folke",
     "repo": "noice.nvim",
-    "rev": "0783e229e437941bfd624af0e551dd17bf064cd1",
-    "sha256": "1vm7llpml9vf2f137wala4jfv75izqba6ixzpvmm0hc2m6278fmq",
+    "rev": "3cd84d402e0b5a56cf06b6c7f644a3cc9a3956a6",
+    "sha256": "1flrps950ffcsasm5xkh229f99cip0j0a98292g86sj3mdkkf74l",
     "type": "tarball",
-    "url": "https://github.com/folke/noice.nvim/archive/0783e229e437941bfd624af0e551dd17bf064cd1.tar.gz",
+    "url": "https://github.com/folke/noice.nvim/archive/3cd84d402e0b5a56cf06b6c7f644a3cc9a3956a6.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "none-ls.nvim": {
