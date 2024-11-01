@@ -1,0 +1,3 @@
+[destruqtor]
+src.github = "blepfx/dist"
+fetch.url = "https://github.com/blepfx/dist/releases/download/$ver/destruqtor-x86_64-unknown-linux-gnu.zip"
