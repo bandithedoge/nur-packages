@@ -8,9 +8,21 @@ pkgs.stdenv.mkDerivation {
   pname = "Osirus";
   inherit (sources.osirus-test-console) version;
 
+  srcs = with sources; [
+    osirus-test-console.src
+    osirus-clap.src
+    osirus-lv2.src
+    osirus-vst2.src
+    osirus-vst3.src
+    osirusfx-clap.src
+    osirusfx-lv2.src
+    osirusfx-vst2.src
+    osirusfx-vst3.src
+  ];
+
   nativeBuildInputs = with pkgs; [
-    dpkg
     autoPatchelfHook
+    unzip
   ];
 
   buildInputs = with pkgs; [
@@ -18,27 +30,12 @@ pkgs.stdenv.mkDerivation {
     alsa-lib
   ];
 
-  unpackPhase =
-    map (src: ''
-      mkdir -p root
-      dpkg-deb --fsys-tarfile "${src.src}" | tar --extract --directory=root
-    '') (with sources; [
-      osirus-test-console
-      osirus-clap
-      osirus-lv2
-      osirus-vst2
-      osirus-vst3
-      osirusfx-clap
-      osirusfx-lv2
-      osirusfx-vst2
-      osirusfx-vst3
-    ]);
-
   buildPhase =
     ''
+      ls local
       mkdir -p $out/bin
-      cp -r root/usr/local/lib $out
-      cp root/usr/local/virusTestConsole $out/bin
+      cp -r local/lib $out
+      cp local/virusTestConsole $out/bin
     ''
     + pkgs.lib.optionalString (rom != null) ''
       mkdir -p $out/share/osirus
