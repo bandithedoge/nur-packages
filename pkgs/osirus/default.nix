@@ -6,19 +6,34 @@
 }:
 pkgs.stdenv.mkDerivation {
   pname = "Osirus";
-  inherit (sources.osirus-test-console) version;
+  inherit (sources.osirus-test-console-x86_64) version;
 
-  srcs = with sources; [
-    osirus-test-console.src
-    osirus-clap.src
-    osirus-lv2.src
-    osirus-vst2.src
-    osirus-vst3.src
-    osirusfx-clap.src
-    osirusfx-lv2.src
-    osirusfx-vst2.src
-    osirusfx-vst3.src
-  ];
+  srcs = with sources;
+    {
+      x86_64 = [
+        osirus-test-console-x86_64.src
+        osirus-clap-x86_64.src
+        osirus-lv2-x86_64.src
+        osirus-vst2-x86_64.src
+        osirus-vst3-x86_64.src
+        osirusfx-clap-x86_64.src
+        osirusfx-lv2-x86_64.src
+        osirusfx-vst2-x86_64.src
+        osirusfx-vst3-x86_64.src
+      ];
+      aarch64 = [
+        osirus-test-console-aarch64.src
+        osirus-clap-aarch64.src
+        osirus-lv2-aarch64.src
+        osirus-vst2-aarch64.src
+        osirus-vst3-aarch64.src
+        osirusfx-clap-aarch64.src
+        osirusfx-lv2-aarch64.src
+        osirusfx-vst2-aarch64.src
+        osirusfx-vst3-aarch64.src
+      ];
+    }
+    .${pkgs.stdenv.targetPlatform.uname.processor};
 
   nativeBuildInputs = with pkgs; [
     autoPatchelfHook
@@ -32,7 +47,6 @@ pkgs.stdenv.mkDerivation {
 
   buildPhase =
     ''
-      ls local
       mkdir -p $out/bin
       cp -r local/lib $out
       cp local/virusTestConsole $out/bin
@@ -47,4 +61,11 @@ pkgs.stdenv.mkDerivation {
       ln -s $out/share/osirus/osirus_rom.bin $out/lib/vst
       ln -s $out/share/osirus/osirus_rom.bin $out/lib/vst3
     '';
+
+  meta = with pkgs.lib; {
+    description = "DSP56300 Emulator for Access Virus A, B, & C";
+    homepage = "https://dsp56300.wordpress.com/osirus/";
+    license = licenses.unfree;
+    platforms = ["x86_64-linux" "aarch64-linux"];
+  };
 }

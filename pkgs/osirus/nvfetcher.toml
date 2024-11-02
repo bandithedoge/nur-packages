@@ -1,44 +1,89 @@
-[osirus-test-console]
+[osirus-test-console-x86_64]
 src.webpage = "https://dsp56300.wordpress.com/osirus/"
 src.regex = 'DSP56300Emu-(\d+\.\d+\.\d+)-Linux'
 fetch.url = "https://futurenoize.com/dsp56300/builds/osirus/DSP56300Emu-$ver-Linux_x86_64-OsirusTestConsole.zip"
 
-[osirus-clap]
+[osirus-clap-x86_64]
 src.webpage = "https://dsp56300.wordpress.com/osirus/"
 src.regex = 'DSP56300Emu-(\d+\.\d+\.\d+)-Linux'
 fetch.url = "https://futurenoize.com/dsp56300/builds/osirus/DSP56300Emu-$ver-Linux_x86_64-Osirus-CLAP.zip"
 
-[osirus-lv2]
+[osirus-lv2-x86_64]
 src.webpage = "https://dsp56300.wordpress.com/osirus/"
 src.regex = 'DSP56300Emu-(\d+\.\d+\.\d+)-Linux'
 fetch.url = "https://futurenoize.com/dsp56300/builds/osirus/DSP56300Emu-$ver-Linux_x86_64-Osirus-LV2.zip"
 
-[osirus-vst2]
+[osirus-vst2-x86_64]
 src.webpage = "https://dsp56300.wordpress.com/osirus/"
 src.regex = 'DSP56300Emu-(\d+\.\d+\.\d+)-Linux'
 fetch.url = "https://futurenoize.com/dsp56300/builds/osirus/DSP56300Emu-$ver-Linux_x86_64-Osirus-VST2.zip"
 
-[osirus-vst3]
+[osirus-vst3-x86_64]
 src.webpage = "https://dsp56300.wordpress.com/osirus/"
 src.regex = 'DSP56300Emu-(\d+\.\d+\.\d+)-Linux'
 fetch.url = "https://futurenoize.com/dsp56300/builds/osirus/DSP56300Emu-$ver-Linux_x86_64-Osirus-VST3.zip"
 
-[osirusfx-clap]
+[osirusfx-clap-x86_64]
 src.webpage = "https://dsp56300.wordpress.com/osirus/"
 src.regex = 'DSP56300Emu-(\d+\.\d+\.\d+)-Linux'
 fetch.url = "https://futurenoize.com/dsp56300/builds/osirus/DSP56300Emu-$ver-Linux_x86_64-OsirusFX-CLAP.zip"
 
-[osirusfx-lv2]
+[osirusfx-lv2-x86_64]
 src.webpage = "https://dsp56300.wordpress.com/osirus/"
 src.regex = 'DSP56300Emu-(\d+\.\d+\.\d+)-Linux'
 fetch.url = "https://futurenoize.com/dsp56300/builds/osirus/DSP56300Emu-$ver-Linux_x86_64-OsirusFX-LV2.zip"
 
-[osirusfx-vst2]
+[osirusfx-vst2-x86_64]
 src.webpage = "https://dsp56300.wordpress.com/osirus/"
 src.regex = 'DSP56300Emu-(\d+\.\d+\.\d+)-Linux'
 fetch.url = "https://futurenoize.com/dsp56300/builds/osirus/DSP56300Emu-$ver-Linux_x86_64-OsirusFX-VST2.zip"
 
-[osirusfx-vst3]
+[osirusfx-vst3-x86_64]
 src.webpage = "https://dsp56300.wordpress.com/osirus/"
 src.regex = 'DSP56300Emu-(\d+\.\d+\.\d+)-Linux'
 fetch.url = "https://futurenoize.com/dsp56300/builds/osirus/DSP56300Emu-$ver-Linux_x86_64-OsirusFX-VST3.zip"
+
+[osirus-test-console-aarch64]
+src.webpage = "https://dsp56300.wordpress.com/osirus/"
+src.regex = 'DSP56300Emu-(\d+\.\d+\.\d+)-Linux'
+fetch.url = "https://futurenoize.com/dsp56300/builds/osirus/DSP56300Emu-$ver-Linux_aarch64-OsirusTestConsole.zip"
+
+[osirus-clap-aarch64]
+src.webpage = "https://dsp56300.wordpress.com/osirus/"
+src.regex = 'DSP56300Emu-(\d+\.\d+\.\d+)-Linux'
+fetch.url = "https://futurenoize.com/dsp56300/builds/osirus/DSP56300Emu-$ver-Linux_aarch64-Osirus-CLAP.zip"
+
+[osirus-lv2-aarch64]
+src.webpage = "https://dsp56300.wordpress.com/osirus/"
+src.regex = 'DSP56300Emu-(\d+\.\d+\.\d+)-Linux'
+fetch.url = "https://futurenoize.com/dsp56300/builds/osirus/DSP56300Emu-$ver-Linux_aarch64-Osirus-LV2.zip"
+
+[osirus-vst2-aarch64]
+src.webpage = "https://dsp56300.wordpress.com/osirus/"
+src.regex = 'DSP56300Emu-(\d+\.\d+\.\d+)-Linux'
+fetch.url = "https://futurenoize.com/dsp56300/builds/osirus/DSP56300Emu-$ver-Linux_aarch64-Osirus-VST2.zip"
+
+[osirus-vst3-aarch64]
+src.webpage = "https://dsp56300.wordpress.com/osirus/"
+src.regex = 'DSP56300Emu-(\d+\.\d+\.\d+)-Linux'
+fetch.url = "https://futurenoize.com/dsp56300/builds/osirus/DSP56300Emu-$ver-Linux_aarch64-Osirus-VST3.zip"
+
+[osirusfx-clap-aarch64]
+src.webpage = "https://dsp56300.wordpress.com/osirus/"
+src.regex = 'DSP56300Emu-(\d+\.\d+\.\d+)-Linux'
+fetch.url = "https://futurenoize.com/dsp56300/builds/osirus/DSP56300Emu-$ver-Linux_aarch64-OsirusFX-CLAP.zip"
+
+[osirusfx-lv2-aarch64]
+src.webpage = "https://dsp56300.wordpress.com/osirus/"
+src.regex = 'DSP56300Emu-(\d+\.\d+\.\d+)-Linux'
+fetch.url = "https://futurenoize.com/dsp56300/builds/osirus/DSP56300Emu-$ver-Linux_aarch64-OsirusFX-LV2.zip"
+
+[osirusfx-vst2-aarch64]
+src.webpage = "https://dsp56300.wordpress.com/osirus/"
+src.regex = 'DSP56300Emu-(\d+\.\d+\.\d+)-Linux'
+fetch.url = "https://futurenoize.com/dsp56300/builds/osirus/DSP56300Emu-$ver-Linux_aarch64-OsirusFX-VST2.zip"
+
+[osirusfx-vst3-aarch64]
+src.webpage = "https://dsp56300.wordpress.com/osirus/"
+src.regex = 'DSP56300Emu-(\d+\.\d+\.\d+)-Linux'
+fetch.url = "https://futurenoize.com/dsp56300/builds/osirus/DSP56300Emu-$ver-Linux_aarch64-OsirusFX-VST3.zip"
