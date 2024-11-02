@@ -13,6 +13,7 @@
     bitdos-bin = callPackage' ./bitdos-bin;
     cantata = callPackage' ./cantata;
     cardinal = callPackage' ./cardinal;
+    charlatan = callPackage' ./charlatan;
     cinelerra-gg-bin = callPackage' ./cinelerra-gg-bin;
     clap-info = callPackage' ./clap-info;
     deemix-gui-bin = callPackage' ./deemix-gui-bin;
