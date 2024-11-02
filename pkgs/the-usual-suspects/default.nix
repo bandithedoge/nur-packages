@@ -36,13 +36,13 @@
           ''
           + pkgs.lib.optionalString (rom != null) ''
             mkdir -p $out/share/${name}
-            cp ${rom} $out/share/${name}/osirus_rom.bin
+            cp ${rom} $out/share/${name}/${name}_rom.bin
 
-            ln -s $out/share/${name}/osirus_rom.bin $out/bin
-            ln -s $out/share/${name}/osirus_rom.bin $out/lib/clap
-            ln -s $out/share/${name}/osirus_rom.bin $out/lib/lv2
-            ln -s $out/share/${name}/osirus_rom.bin $out/lib/vst
-            ln -s $out/share/${name}/osirus_rom.bin $out/lib/vst3
+            ln -s $out/share/${name}/${name}_rom.bin $out/bin
+            ln -s $out/share/${name}/${name}_rom.bin $out/lib/clap
+            ln -s $out/share/${name}/${name}_rom.bin $out/lib/lv2
+            ln -s $out/share/${name}/${name}_rom.bin $out/lib/vst
+            ln -s $out/share/${name}/${name}_rom.bin $out/lib/vst3
           '';
 
         meta = with pkgs.lib; {
