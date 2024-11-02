@@ -62,6 +62,7 @@
     vgmtrans = callPackage' ./vgmtrans;
     vimPlugins = callPackages ./vimPlugins;
     waterfox-bin = callPackage' ./waterfox-bin;
+    white-elephant-audio = callPackage' ./white-elephant-audio;
     xplrPlugins = callPackages ./xplrPlugins;
     yaziPlugins = callPackages ./yaziPlugins;
     zrythm = callPackage' ./zrythm;
