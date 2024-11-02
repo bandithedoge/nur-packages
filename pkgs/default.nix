@@ -37,6 +37,7 @@
     luakit = callPackage' ./luakit;
     lv2vst = callPackage' ./lv2vst;
     mesonlsp-bin = callPackage' ./mesonlsp-bin;
+    misstrhortion = callPackage' ./misstrhortion;
     modstems = callPackage' ./modstems;
     musique = callPackage' ./musique;
     nimlangserver = callPackage' ./nimlangserver;
