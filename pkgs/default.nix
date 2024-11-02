@@ -43,7 +43,6 @@
     nodePackages = callPackages ./nodePackages;
     octasine = callPackage' ./octasine;
     onagre = callPackage' ./onagre;
-    osirus = callPackage' ./osirus;
     panacea-bin = callPackage' ./panacea-bin;
     powertab = callPackage' ./powertab;
     propertree = callPackage' ./propertree;
@@ -54,6 +53,7 @@
     sheepshaver-bin = callPackage' ./sheepshaver-bin;
     symbols-nerd-font = callPackage' ./symbols-nerd-font;
     tal = callPackages ./tal;
+    the-usual-suspects = callPackages ./the-usual-suspects;
     tonelib = callPackages ./tonelib;
     treeSitterGrammars = callPackages ./treeSitterGrammars;
     u-he = callPackages ./u-he;
@@ -67,4 +67,8 @@
     zrythm = callPackage' ./zrythm;
   };
 in
-  packages // builtins.mapAttrs (old: new: pkgs.lib.warn "${old} has been renamed to ${new}" packages.${new}) (import ./_renamed.nix)
+  packages
+  // (builtins.mapAttrs (old: new: pkgs.lib.warn "${old} has been renamed to ${new}" packages.${new}) (import ./_renamed.nix))
+  // {
+    osirus = pkgs.lib.warn "osirus has been moved to the-usual-suspects.osirus" packages.the-usual-suspects.osirus;
+  }
