@@ -538,5 +538,275 @@
       "url": "https://futurenoize.com/dsp56300/builds/ostirus/DSP56300Emu-1.3.15-Linux_x86_64-OsTIrusFX-VST3.zip"
     },
     "version": "1.3.15"
+  },
+  "vavra-clap-aarch64": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "vavra-clap-aarch64",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-YmFELfJcRpME841fP9KIJ1NY8es/9s+5BUXUqj6EWHc=",
+      "type": "url",
+      "url": "https://futurenoize.com/dsp56300/builds/vavra/DSP56300Emu-1.3.14-Linux_aarch64-Vavra-CLAP.zip"
+    },
+    "version": "1.3.14"
+  },
+  "vavra-clap-x86_64": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "vavra-clap-x86_64",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-BkPgRZ5cWX+4HE54lsSAgwMF7I5VOBy4+Bnj/5zIU+g=",
+      "type": "url",
+      "url": "https://futurenoize.com/dsp56300/builds/vavra/DSP56300Emu-1.3.14-Linux_x86_64-Vavra-CLAP.zip"
+    },
+    "version": "1.3.14"
+  },
+  "vavra-lv2-aarch64": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "vavra-lv2-aarch64",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-hDNmc6ur0XOejlGMbN/gZ6Fz9TaslKosz7TzITwOKD0=",
+      "type": "url",
+      "url": "https://futurenoize.com/dsp56300/builds/vavra/DSP56300Emu-1.3.14-Linux_aarch64-Vavra-LV2.zip"
+    },
+    "version": "1.3.14"
+  },
+  "vavra-lv2-x86_64": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "vavra-lv2-x86_64",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-yunW13nTokmiNHKdfMQNPEWKdqrbhQdArxY8lch2iYk=",
+      "type": "url",
+      "url": "https://futurenoize.com/dsp56300/builds/vavra/DSP56300Emu-1.3.14-Linux_x86_64-Vavra-LV2.zip"
+    },
+    "version": "1.3.14"
+  },
+  "vavra-performance-test-aarch64": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "vavra-performance-test-aarch64",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-KKuU8lARZLXhOuGakQF7s2Pnpx0AiTqCxzql98oZdYM=",
+      "type": "url",
+      "url": "https://futurenoize.com/dsp56300/builds/vavra/DSP56300Emu-1.3.14-Linux_aarch64-VavraPerformanceTest.zip"
+    },
+    "version": "1.3.14"
+  },
+  "vavra-performance-test-x86_64": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "vavra-performance-test-x86_64",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-P76Iq95CPaFMFlA5h2uIkpIvr40XnLcSa1K/xisSiBM=",
+      "type": "url",
+      "url": "https://futurenoize.com/dsp56300/builds/vavra/DSP56300Emu-1.3.14-Linux_x86_64-VavraPerformanceTest.zip"
+    },
+    "version": "1.3.14"
+  },
+  "vavra-vst2-aarch64": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "vavra-vst2-aarch64",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-8MaAkJk51tqiezYzp1o8li1ndoQh82oJJFH/WBUi0Ws=",
+      "type": "url",
+      "url": "https://futurenoize.com/dsp56300/builds/vavra/DSP56300Emu-1.3.14-Linux_aarch64-Vavra-VST2.zip"
+    },
+    "version": "1.3.14"
+  },
+  "vavra-vst2-x86_64": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "vavra-vst2-x86_64",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-YdPsRH2/lG660zl5jXYE8M7XqfM7issEOi4wtv5jZEA=",
+      "type": "url",
+      "url": "https://futurenoize.com/dsp56300/builds/vavra/DSP56300Emu-1.3.14-Linux_x86_64-Vavra-VST2.zip"
+    },
+    "version": "1.3.14"
+  },
+  "vavra-vst3-aarch64": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "vavra-vst3-aarch64",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-0PPXYMMgogPgumVr2qNi4ZCcEofjbK4oLMuZx+2h/JQ=",
+      "type": "url",
+      "url": "https://futurenoize.com/dsp56300/builds/vavra/DSP56300Emu-1.3.14-Linux_aarch64-Vavra-VST3.zip"
+    },
+    "version": "1.3.14"
+  },
+  "vavra-vst3-x86_64": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "vavra-vst3-x86_64",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-e0z/gA64H0owG5C/bNF8YpBb7wuWBwMUakZougF79hE=",
+      "type": "url",
+      "url": "https://futurenoize.com/dsp56300/builds/vavra/DSP56300Emu-1.3.14-Linux_x86_64-Vavra-VST3.zip"
+    },
+    "version": "1.3.14"
+  },
+  "vavrafx-clap-aarch64": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "vavrafx-clap-aarch64",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-lMnSf0rHRONWC0tc6Y+G5A+CkSH/yNXCH2pz/2slLQM=",
+      "type": "url",
+      "url": "https://futurenoize.com/dsp56300/builds/vavra/DSP56300Emu-1.3.14-Linux_aarch64-VavraFX-CLAP.zip"
+    },
+    "version": "1.3.14"
+  },
+  "vavrafx-clap-x86_64": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "vavrafx-clap-x86_64",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-Fxsy+zwoWI0uHtwf7gjG9LSu54zb//p3t+yrs5O0Qqk=",
+      "type": "url",
+      "url": "https://futurenoize.com/dsp56300/builds/vavra/DSP56300Emu-1.3.14-Linux_x86_64-VavraFX-CLAP.zip"
+    },
+    "version": "1.3.14"
+  },
+  "vavrafx-lv2-aarch64": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "vavrafx-lv2-aarch64",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-jr2H9CJkwYzFK48464xOSnepMNf9GlpVWGHM52hovtA=",
+      "type": "url",
+      "url": "https://futurenoize.com/dsp56300/builds/vavra/DSP56300Emu-1.3.14-Linux_aarch64-VavraFX-LV2.zip"
+    },
+    "version": "1.3.14"
+  },
+  "vavrafx-lv2-x86_64": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "vavrafx-lv2-x86_64",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-l+yyqmKCcfleLoDtk6BFyBSLQnWjcgUl64rNwnDMkkc=",
+      "type": "url",
+      "url": "https://futurenoize.com/dsp56300/builds/vavra/DSP56300Emu-1.3.14-Linux_x86_64-VavraFX-LV2.zip"
+    },
+    "version": "1.3.14"
+  },
+  "vavrafx-vst2-aarch64": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "vavrafx-vst2-aarch64",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-23Xhc4kiNLneDLpFaRmOjvQ2vPo+tImCUd6SnaDCuOU=",
+      "type": "url",
+      "url": "https://futurenoize.com/dsp56300/builds/vavra/DSP56300Emu-1.3.14-Linux_aarch64-VavraFX-VST2.zip"
+    },
+    "version": "1.3.14"
+  },
+  "vavrafx-vst2-x86_64": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "vavrafx-vst2-x86_64",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-c2J9vv+D4VX2ZTNYtqwbV2UPXpQUU3rFmknoky5VWqA=",
+      "type": "url",
+      "url": "https://futurenoize.com/dsp56300/builds/vavra/DSP56300Emu-1.3.14-Linux_x86_64-VavraFX-VST2.zip"
+    },
+    "version": "1.3.14"
+  },
+  "vavrafx-vst3-aarch64": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "vavrafx-vst3-aarch64",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-PoTTdl3XuhpEQytd2l1kbORuC6UJHO8ITTYUgTyXF6U=",
+      "type": "url",
+      "url": "https://futurenoize.com/dsp56300/builds/vavra/DSP56300Emu-1.3.14-Linux_aarch64-VavraFX-VST3.zip"
+    },
+    "version": "1.3.14"
+  },
+  "vavrafx-vst3-x86_64": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "vavrafx-vst3-x86_64",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-/2TQG+QyAW5G+nKO4Ix1Fq1tgyn85HpV91OKjYKQKo4=",
+      "type": "url",
+      "url": "https://futurenoize.com/dsp56300/builds/vavra/DSP56300Emu-1.3.14-Linux_x86_64-VavraFX-VST3.zip"
+    },
+    "version": "1.3.14"
   }
 }
