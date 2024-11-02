@@ -181,3 +181,95 @@ fetch.url = "https://futurenoize.com/dsp56300/builds/ostirus/DSP56300Emu-$ver-Li
 src.webpage = "https://dsp56300.wordpress.com/ostirus/"
 src.regex = 'DSP56300Emu-(\d+\.\d+\.\d+)-Linux'
 fetch.url = "https://futurenoize.com/dsp56300/builds/ostirus/DSP56300Emu-$ver-Linux_aarch64-OsTIrusFX-VST3.zip"
+
+# vavra ########################################################################
+
+[vavra-performance-test-x86_64]
+src.webpage = "https://dsp56300.wordpress.com/vavra/"
+src.regex = 'DSP56300Emu-(\d+\.\d+\.\d+)-Linux'
+fetch.url = "https://futurenoize.com/dsp56300/builds/vavra/DSP56300Emu-$ver-Linux_x86_64-VavraPerformanceTest.zip"
+
+[vavra-clap-x86_64]
+src.webpage = "https://dsp56300.wordpress.com/vavra/"
+src.regex = 'DSP56300Emu-(\d+\.\d+\.\d+)-Linux'
+fetch.url = "https://futurenoize.com/dsp56300/builds/vavra/DSP56300Emu-$ver-Linux_x86_64-Vavra-CLAP.zip"
+
+[vavra-lv2-x86_64]
+src.webpage = "https://dsp56300.wordpress.com/vavra/"
+src.regex = 'DSP56300Emu-(\d+\.\d+\.\d+)-Linux'
+fetch.url = "https://futurenoize.com/dsp56300/builds/vavra/DSP56300Emu-$ver-Linux_x86_64-Vavra-LV2.zip"
+
+[vavra-vst2-x86_64]
+src.webpage = "https://dsp56300.wordpress.com/vavra/"
+src.regex = 'DSP56300Emu-(\d+\.\d+\.\d+)-Linux'
+fetch.url = "https://futurenoize.com/dsp56300/builds/vavra/DSP56300Emu-$ver-Linux_x86_64-Vavra-VST2.zip"
+
+[vavra-vst3-x86_64]
+src.webpage = "https://dsp56300.wordpress.com/vavra/"
+src.regex = 'DSP56300Emu-(\d+\.\d+\.\d+)-Linux'
+fetch.url = "https://futurenoize.com/dsp56300/builds/vavra/DSP56300Emu-$ver-Linux_x86_64-Vavra-VST3.zip"
+
+[vavrafx-clap-x86_64]
+src.webpage = "https://dsp56300.wordpress.com/vavra/"
+src.regex = 'DSP56300Emu-(\d+\.\d+\.\d+)-Linux'
+fetch.url = "https://futurenoize.com/dsp56300/builds/vavra/DSP56300Emu-$ver-Linux_x86_64-VavraFX-CLAP.zip"
+
+[vavrafx-lv2-x86_64]
+src.webpage = "https://dsp56300.wordpress.com/vavra/"
+src.regex = 'DSP56300Emu-(\d+\.\d+\.\d+)-Linux'
+fetch.url = "https://futurenoize.com/dsp56300/builds/vavra/DSP56300Emu-$ver-Linux_x86_64-VavraFX-LV2.zip"
+
+[vavrafx-vst2-x86_64]
+src.webpage = "https://dsp56300.wordpress.com/vavra/"
+src.regex = 'DSP56300Emu-(\d+\.\d+\.\d+)-Linux'
+fetch.url = "https://futurenoize.com/dsp56300/builds/vavra/DSP56300Emu-$ver-Linux_x86_64-VavraFX-VST2.zip"
+
+[vavrafx-vst3-x86_64]
+src.webpage = "https://dsp56300.wordpress.com/vavra/"
+src.regex = 'DSP56300Emu-(\d+\.\d+\.\d+)-Linux'
+fetch.url = "https://futurenoize.com/dsp56300/builds/vavra/DSP56300Emu-$ver-Linux_x86_64-VavraFX-VST3.zip"
+
+[vavra-performance-test-aarch64]
+src.webpage = "https://dsp56300.wordpress.com/vavra/"
+src.regex = 'DSP56300Emu-(\d+\.\d+\.\d+)-Linux'
+fetch.url = "https://futurenoize.com/dsp56300/builds/vavra/DSP56300Emu-$ver-Linux_aarch64-VavraPerformanceTest.zip"
+
+[vavra-clap-aarch64]
+src.webpage = "https://dsp56300.wordpress.com/vavra/"
+src.regex = 'DSP56300Emu-(\d+\.\d+\.\d+)-Linux'
+fetch.url = "https://futurenoize.com/dsp56300/builds/vavra/DSP56300Emu-$ver-Linux_aarch64-Vavra-CLAP.zip"
+
+[vavra-lv2-aarch64]
+src.webpage = "https://dsp56300.wordpress.com/vavra/"
+src.regex = 'DSP56300Emu-(\d+\.\d+\.\d+)-Linux'
+fetch.url = "https://futurenoize.com/dsp56300/builds/vavra/DSP56300Emu-$ver-Linux_aarch64-Vavra-LV2.zip"
+
+[vavra-vst2-aarch64]
+src.webpage = "https://dsp56300.wordpress.com/vavra/"
+src.regex = 'DSP56300Emu-(\d+\.\d+\.\d+)-Linux'
+fetch.url = "https://futurenoize.com/dsp56300/builds/vavra/DSP56300Emu-$ver-Linux_aarch64-Vavra-VST2.zip"
+
+[vavra-vst3-aarch64]
+src.webpage = "https://dsp56300.wordpress.com/vavra/"
+src.regex = 'DSP56300Emu-(\d+\.\d+\.\d+)-Linux'
+fetch.url = "https://futurenoize.com/dsp56300/builds/vavra/DSP56300Emu-$ver-Linux_aarch64-Vavra-VST3.zip"
+
+[vavrafx-clap-aarch64]
+src.webpage = "https://dsp56300.wordpress.com/vavra/"
+src.regex = 'DSP56300Emu-(\d+\.\d+\.\d+)-Linux'
+fetch.url = "https://futurenoize.com/dsp56300/builds/vavra/DSP56300Emu-$ver-Linux_aarch64-VavraFX-CLAP.zip"
+
+[vavrafx-lv2-aarch64]
+src.webpage = "https://dsp56300.wordpress.com/vavra/"
+src.regex = 'DSP56300Emu-(\d+\.\d+\.\d+)-Linux'
+fetch.url = "https://futurenoize.com/dsp56300/builds/vavra/DSP56300Emu-$ver-Linux_aarch64-VavraFX-LV2.zip"
+
+[vavrafx-vst2-aarch64]
+src.webpage = "https://dsp56300.wordpress.com/vavra/"
+src.regex = 'DSP56300Emu-(\d+\.\d+\.\d+)-Linux'
+fetch.url = "https://futurenoize.com/dsp56300/builds/vavra/DSP56300Emu-$ver-Linux_aarch64-VavraFX-VST2.zip"
+
+[vavrafx-vst3-aarch64]
+src.webpage = "https://dsp56300.wordpress.com/vavra/"
+src.regex = 'DSP56300Emu-(\d+\.\d+\.\d+)-Linux'
+fetch.url = "https://futurenoize.com/dsp56300/builds/vavra/DSP56300Emu-$ver-Linux_aarch64-VavraFX-VST3.zip"

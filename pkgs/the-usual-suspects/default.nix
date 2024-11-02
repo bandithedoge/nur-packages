@@ -114,4 +114,36 @@ in {
     inherit (sources.ostirus-test-console-x86_64) version;
     synthName = "Virus TI";
   };
+
+  vavra = mkPlugin {
+    name = "vavra";
+    namePretty = "Vavra";
+    src = with sources; {
+      x86_64 = [
+        vavra-performance-test-x86_64.src
+        vavra-clap-x86_64.src
+        vavra-lv2-x86_64.src
+        vavra-vst2-x86_64.src
+        vavra-vst3-x86_64.src
+        vavrafx-clap-x86_64.src
+        vavrafx-lv2-x86_64.src
+        vavrafx-vst2-x86_64.src
+        vavrafx-vst3-x86_64.src
+      ];
+      aarch64 = [
+        vavra-performance-test-aarch64.src
+        vavra-clap-aarch64.src
+        vavra-lv2-aarch64.src
+        vavra-vst2-aarch64.src
+        vavra-vst3-aarch64.src
+        vavrafx-clap-aarch64.src
+        vavrafx-lv2-aarch64.src
+        vavrafx-vst2-aarch64.src
+        vavrafx-vst3-aarch64.src
+      ];
+    };
+    inherit (sources.vavra-performance-test-x86_64) version;
+    synthName = "Waldorf microQ";
+    testConsole = "mqPerformanceTest";
+  };
 }
