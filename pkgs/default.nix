@@ -38,6 +38,7 @@
     luakit = callPackage' ./luakit;
     lv2vst = callPackage' ./lv2vst;
     mesonlsp-bin = callPackage' ./mesonlsp-bin;
+    microbiome-bin = callPackage' ./microbiome-bin;
     misstrhortion = callPackage' ./misstrhortion;
     modstems = callPackage' ./modstems;
     musique = callPackage' ./musique;
