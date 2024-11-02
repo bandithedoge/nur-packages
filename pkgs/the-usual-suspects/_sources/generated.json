@@ -268,5 +268,275 @@
       "url": "https://futurenoize.com/dsp56300/builds/osirus/DSP56300Emu-1.3.14-Linux_x86_64-OsirusFX-VST3.zip"
     },
     "version": "1.3.14"
+  },
+  "ostirus-clap-aarch64": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "ostirus-clap-aarch64",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-0jnL+OHjWockNZ0u7Gs6B/fx/tXrTFo8ZYKGbWThzBc=",
+      "type": "url",
+      "url": "https://futurenoize.com/dsp56300/builds/ostirus/DSP56300Emu-1.3.15-Linux_aarch64-OsTIrus-CLAP.zip"
+    },
+    "version": "1.3.15"
+  },
+  "ostirus-clap-x86_64": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "ostirus-clap-x86_64",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-sK3HugjmtVukTGJH3EL+IRF6c/CYETkpWHSIxAHveSk=",
+      "type": "url",
+      "url": "https://futurenoize.com/dsp56300/builds/ostirus/DSP56300Emu-1.3.15-Linux_x86_64-OsTIrus-CLAP.zip"
+    },
+    "version": "1.3.15"
+  },
+  "ostirus-lv2-aarch64": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "ostirus-lv2-aarch64",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-4E0OCMqrqM3IqeOpqMSdTJ76xMpUG8Yshs3UnU9CSxw=",
+      "type": "url",
+      "url": "https://futurenoize.com/dsp56300/builds/ostirus/DSP56300Emu-1.3.15-Linux_aarch64-OsTIrus-LV2.zip"
+    },
+    "version": "1.3.15"
+  },
+  "ostirus-lv2-x86_64": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "ostirus-lv2-x86_64",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-Jt/wyoa+z3QKe38QYxHnArX3cwJ5CA2ZGI9exZlmgko=",
+      "type": "url",
+      "url": "https://futurenoize.com/dsp56300/builds/ostirus/DSP56300Emu-1.3.15-Linux_x86_64-OsTIrus-LV2.zip"
+    },
+    "version": "1.3.15"
+  },
+  "ostirus-test-console-aarch64": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "ostirus-test-console-aarch64",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-Olmugl9Nzq+J0JE5ly3WMYfcRTFknI0c6M/GUkq4cVM=",
+      "type": "url",
+      "url": "https://futurenoize.com/dsp56300/builds/ostirus/DSP56300Emu-1.3.15-Linux_aarch64-OsTIrusTestConsole.zip"
+    },
+    "version": "1.3.15"
+  },
+  "ostirus-test-console-x86_64": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "ostirus-test-console-x86_64",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-5j33IZgZQH5r0Q0OdrcbOclOygmr+oHgwfk1xEAPwDg=",
+      "type": "url",
+      "url": "https://futurenoize.com/dsp56300/builds/ostirus/DSP56300Emu-1.3.15-Linux_x86_64-OsTIrusTestConsole.zip"
+    },
+    "version": "1.3.15"
+  },
+  "ostirus-vst2-aarch64": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "ostirus-vst2-aarch64",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-3XhInGTbOE2jawVdxR/kK8oV3IeGXz9rdftVhMjhrXk=",
+      "type": "url",
+      "url": "https://futurenoize.com/dsp56300/builds/ostirus/DSP56300Emu-1.3.15-Linux_aarch64-OsTIrus-VST2.zip"
+    },
+    "version": "1.3.15"
+  },
+  "ostirus-vst2-x86_64": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "ostirus-vst2-x86_64",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-aDv4PsLJt+shuS1gAn+6aYtoQUJoH20dc9Rqdu4X3Mw=",
+      "type": "url",
+      "url": "https://futurenoize.com/dsp56300/builds/ostirus/DSP56300Emu-1.3.15-Linux_x86_64-OsTIrus-VST2.zip"
+    },
+    "version": "1.3.15"
+  },
+  "ostirus-vst3-aarch64": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "ostirus-vst3-aarch64",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-UdBXdwQSXgfpFBp92TAMKUMC2Rp/GTgtfFQYzTwCD1U=",
+      "type": "url",
+      "url": "https://futurenoize.com/dsp56300/builds/ostirus/DSP56300Emu-1.3.15-Linux_aarch64-OsTIrus-VST3.zip"
+    },
+    "version": "1.3.15"
+  },
+  "ostirus-vst3-x86_64": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "ostirus-vst3-x86_64",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-hjhJBTqZzVzLfL5JR5wy01O6Hog+moAqkydEy6jukqQ=",
+      "type": "url",
+      "url": "https://futurenoize.com/dsp56300/builds/ostirus/DSP56300Emu-1.3.15-Linux_x86_64-OsTIrus-VST3.zip"
+    },
+    "version": "1.3.15"
+  },
+  "ostirusfx-clap-aarch64": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "ostirusfx-clap-aarch64",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-OO/lbXvphKBVpmYhjFvYERfNGow63/BBuawQBjnav3c=",
+      "type": "url",
+      "url": "https://futurenoize.com/dsp56300/builds/ostirus/DSP56300Emu-1.3.15-Linux_aarch64-OsTIrusFX-CLAP.zip"
+    },
+    "version": "1.3.15"
+  },
+  "ostirusfx-clap-x86_64": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "ostirusfx-clap-x86_64",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-pbcv+iY9D3Wbit9jCtXORMYC13z94LFT2WhL0vz5kQk=",
+      "type": "url",
+      "url": "https://futurenoize.com/dsp56300/builds/ostirus/DSP56300Emu-1.3.15-Linux_x86_64-OsTIrusFX-CLAP.zip"
+    },
+    "version": "1.3.15"
+  },
+  "ostirusfx-lv2-aarch64": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "ostirusfx-lv2-aarch64",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-m5EVub/jsENn4Fx7J6qVnGfoahfef++CNDfutpFoKTI=",
+      "type": "url",
+      "url": "https://futurenoize.com/dsp56300/builds/ostirus/DSP56300Emu-1.3.15-Linux_aarch64-OsTIrusFX-LV2.zip"
+    },
+    "version": "1.3.15"
+  },
+  "ostirusfx-lv2-x86_64": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "ostirusfx-lv2-x86_64",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-ktsd1uI8x0UY2Q9ZbHjoplNl3l8LaOaYOArjZcFktLI=",
+      "type": "url",
+      "url": "https://futurenoize.com/dsp56300/builds/ostirus/DSP56300Emu-1.3.15-Linux_x86_64-OsTIrusFX-LV2.zip"
+    },
+    "version": "1.3.15"
+  },
+  "ostirusfx-vst2-aarch64": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "ostirusfx-vst2-aarch64",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-rEFLw+djBAslZnO2Deoqd1XMIozzAy8eTf4CEVjF9JY=",
+      "type": "url",
+      "url": "https://futurenoize.com/dsp56300/builds/ostirus/DSP56300Emu-1.3.15-Linux_aarch64-OsTIrusFX-VST2.zip"
+    },
+    "version": "1.3.15"
+  },
+  "ostirusfx-vst2-x86_64": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "ostirusfx-vst2-x86_64",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-YIMp3wFJtbCDe2TNsM+EZurAK3RDdoVkjd13jnojmmA=",
+      "type": "url",
+      "url": "https://futurenoize.com/dsp56300/builds/ostirus/DSP56300Emu-1.3.15-Linux_x86_64-OsTIrusFX-VST2.zip"
+    },
+    "version": "1.3.15"
+  },
+  "ostirusfx-vst3-aarch64": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "ostirusfx-vst3-aarch64",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-REaoe+SSMyLxf0nXmdld+5v25Np2vopxwN3A4NAcbvE=",
+      "type": "url",
+      "url": "https://futurenoize.com/dsp56300/builds/ostirus/DSP56300Emu-1.3.15-Linux_aarch64-OsTIrusFX-VST3.zip"
+    },
+    "version": "1.3.15"
+  },
+  "ostirusfx-vst3-x86_64": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "ostirusfx-vst3-x86_64",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-Ar/wHXlQsSQTY5F9Qw55YVidGwJe76Y79TajbAR+sog=",
+      "type": "url",
+      "url": "https://futurenoize.com/dsp56300/builds/ostirus/DSP56300Emu-1.3.15-Linux_x86_64-OsTIrusFX-VST3.zip"
+    },
+    "version": "1.3.15"
   }
 }
