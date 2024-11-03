@@ -677,10 +677,10 @@
     "homepage": "",
     "owner": "MrcJkb",
     "repo": "haskell-tools.nvim",
-    "rev": "4a7516d44e073dfbc3c3df4af06d72fbce019474",
-    "sha256": "10i05wrcspxfkdqh5plg1wgxbrbfr545awkg3rvmsbsfz5q1g6fy",
+    "rev": "a4c1cfab262bb18c7db6e062c6e4c56e2c56a230",
+    "sha256": "06c8xw59gkmzs9g4nckyypv3rswp5y4msazg6gpbhhxqqf9xlqk8",
     "type": "tarball",
-    "url": "https://github.com/MrcJkb/haskell-tools.nvim/archive/4a7516d44e073dfbc3c3df4af06d72fbce019474.tar.gz",
+    "url": "https://github.com/MrcJkb/haskell-tools.nvim/archive/a4c1cfab262bb18c7db6e062c6e4c56e2c56a230.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "heirline.nvim": {
@@ -1190,10 +1190,10 @@
     "homepage": "",
     "owner": "NvChad",
     "repo": "nvim-colorizer.lua",
-    "rev": "0671e0eabc6842676d3310370e8fae4e1c51d7f9",
-    "sha256": "1ilxfiq76a7wzh4nvhds5b7k6q2shrnfmyb4icnfc8w0kx1vby0m",
+    "rev": "19477946096b7800ca215bc813c0f021ae98c46c",
+    "sha256": "0d8ikscgkdpvzb61p684kj3skpfifalycw1k0njhf4nayzwhxys2",
     "type": "tarball",
-    "url": "https://github.com/NvChad/nvim-colorizer.lua/archive/0671e0eabc6842676d3310370e8fae4e1c51d7f9.tar.gz",
+    "url": "https://github.com/NvChad/nvim-colorizer.lua/archive/19477946096b7800ca215bc813c0f021ae98c46c.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "nvim-cursorword": {
@@ -1430,10 +1430,10 @@
     "homepage": "",
     "owner": "kyazdani42",
     "repo": "nvim-tree.lua",
-    "rev": "82ab19ebf79c1839d7351f2fed213d1af13a598e",
-    "sha256": "1633dhgzhgf3jm122za7mjfjpf183rmas7ifih2llja1mifbxg55",
+    "rev": "610a1c189bdb2b9b936169b2ea9d1838f971fa2b",
+    "sha256": "119hr70829j7gnswamwsayillmk9m920dmfnr9p2kwrs0j7yq34k",
     "type": "tarball",
-    "url": "https://github.com/kyazdani42/nvim-tree.lua/archive/82ab19ebf79c1839d7351f2fed213d1af13a598e.tar.gz",
+    "url": "https://github.com/kyazdani42/nvim-tree.lua/archive/610a1c189bdb2b9b936169b2ea9d1838f971fa2b.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "nvim-treesitter": {
