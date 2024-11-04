@@ -1,7 +1,7 @@
 {
   "airwin2rack": {
     "cargoLocks": null,
-    "date": "2024-10-28",
+    "date": "2024-11-03",
     "extract": null,
     "name": "airwin2rack",
     "passthru": null,
@@ -11,13 +11,13 @@
       "fetchSubmodules": true,
       "leaveDotGit": false,
       "name": null,
-      "rev": "46f07f0ab9dd5f144234a0abf198c70bdf7b026f",
-      "sha256": "sha256-cmBFujTr5J2EyFPaBWazbmytRnIlEC643Nu5gCIyVwQ=",
+      "rev": "f8944f74be11191de092223aaaf221f43f4bc313",
+      "sha256": "sha256-nEsGNaP+06hSBBCU7Af32KL94saODkc97StGcSN5LFc=",
       "sparseCheckout": [],
       "type": "git",
       "url": "https://github.com/baconpaul/airwin2rack"
     },
-    "version": "46f07f0ab9dd5f144234a0abf198c70bdf7b026f"
+    "version": "f8944f74be11191de092223aaaf221f43f4bc313"
   },
   "clap-juce-extensions": {
     "cargoLocks": null,

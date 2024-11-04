@@ -144,13 +144,13 @@
         sha512 = "yQbXgO/OSZVD2IsiLlro+7Hf6Q18EJrKSEsdoMzKePKXct3gvD8oLcOQdIzGupr5Fj+EDe8gO/lxc1BzfMpxvA==";
       };
     };
-    "bumpp-9.8.0" = {
+    "bumpp-9.8.1" = {
       name = "bumpp";
       packageName = "bumpp";
-      version = "9.8.0";
+      version = "9.8.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/bumpp/-/bumpp-9.8.0.tgz";
-        sha512 = "RKHjvOpN6RGhh7LNXGQCRRTPJ99PvVJRcX7EvKKpgj+3nKV8DWDM+8O1TMK0UvcGWhE74PRrQpISqFTcq8wPSg==";
+        url = "https://registry.npmjs.org/bumpp/-/bumpp-9.8.1.tgz";
+        sha512 = "25W55DZI/rq6FboM0Q5y8eHbUk9eNn9oZ4bg/I5kiWn8/rdZCw6iqML076akQiUOQGhrm6QDvSSn4PgQ48bS4A==";
       };
     };
     "c12-1.11.2" = {
@@ -983,7 +983,7 @@ in {
       sources."argparse-2.0.1"
       sources."binary-extensions-2.3.0"
       sources."braces-3.0.3"
-      (sources."bumpp-9.8.0"
+      (sources."bumpp-9.8.1"
         // {
           dependencies = [
             sources."jsonc-parser-3.3.1"
