@@ -5,10 +5,10 @@
     "homepage": "",
     "owner": "fargiolas",
     "repo": "clangd-inactive-regions.el",
-    "rev": "4b698aaeb830bc64b9ced09774adcbb52bf0a64b",
-    "sha256": "102wjkj9sxx149895nkchnpsv54fc4la4ycq6cn7s1d6phkijc8d",
+    "rev": "e3d63eeac05208a12a74d36d5af7c9d326e3603b",
+    "sha256": "03m58gmirzvivv8gk3hdfwv1zah8p3kbpkc72il2mxri70cgxz4s",
     "type": "tarball",
-    "url": "https://github.com/fargiolas/clangd-inactive-regions.el/archive/4b698aaeb830bc64b9ced09774adcbb52bf0a64b.tar.gz",
+    "url": "https://github.com/fargiolas/clangd-inactive-regions.el/archive/e3d63eeac05208a12a74d36d5af7c9d326e3603b.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "eglot-booster": {
@@ -77,10 +77,10 @@
     "homepage": "",
     "owner": "jdtsmith",
     "repo": "indent-bars",
-    "rev": "aff8cf8b9fbbc6a85ee32c536d4bc8b75306e13c",
-    "sha256": "1w6amjvi2whn4pwzqja1agsic35gqa5igfxnx923w8zw7ny63fdy",
+    "rev": "f860825f24710438b8dd95f36fdee892ffb2a245",
+    "sha256": "0cs5jzyvdp5mylh7n0gp9dj9dvrxfar1j3sxbwx36mz4155c5lsv",
     "type": "tarball",
-    "url": "https://github.com/jdtsmith/indent-bars/archive/aff8cf8b9fbbc6a85ee32c536d4bc8b75306e13c.tar.gz",
+    "url": "https://github.com/jdtsmith/indent-bars/archive/f860825f24710438b8dd95f36fdee892ffb2a245.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "on": {

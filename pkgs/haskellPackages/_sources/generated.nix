@@ -7,27 +7,27 @@
 }: {
   kmonad = {
     pname = "kmonad";
-    version = "d6815710c56f37341c5f81ba893c6a68491378e8";
+    version = "606c488862df6c3be1e4e670f6e1e06008c84732";
     src = fetchFromGitHub {
       owner = "kmonad";
       repo = "kmonad";
-      rev = "d6815710c56f37341c5f81ba893c6a68491378e8";
+      rev = "606c488862df6c3be1e4e670f6e1e06008c84732";
       fetchSubmodules = false;
-      sha256 = "sha256-Lx8Yqu/pwe+yKCOyvRPsXzezQBjErmQtMx9BdBHXe1s=";
+      sha256 = "sha256-0yT0oGinFhmXPR+pzRcDnaw1OZjhMlzTU8eWsdjvMZs=";
     };
-    date = "2024-10-27";
+    date = "2024-11-05";
   };
   taffybar = {
     pname = "taffybar";
-    version = "d40093295e8c3e887c80390c5351e42de8faf6ab";
+    version = "f14fe6d9f1800d9e9a4cf2e4313f2b0b978a4bd6";
     src = fetchFromGitHub {
       owner = "taffybar";
       repo = "taffybar";
-      rev = "d40093295e8c3e887c80390c5351e42de8faf6ab";
+      rev = "f14fe6d9f1800d9e9a4cf2e4313f2b0b978a4bd6";
       fetchSubmodules = false;
-      sha256 = "sha256-bDvsPNXQVIW8hbtVRWZSsbUC/Y1bN1T0AeJr6D2VrdQ=";
+      sha256 = "sha256-nPFZso5/rAYhKsuNp4jlLgLy/YyMbe/qi0QN7FaCMA8=";
     };
-    date = "2024-11-04";
+    date = "2024-11-12";
   };
   xmonad-entryhelper = {
     pname = "xmonad-entryhelper";

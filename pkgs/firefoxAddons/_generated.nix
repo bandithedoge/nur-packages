@@ -487,10 +487,10 @@
   };
   "indie-wiki-buddy" = buildFirefoxXpiAddon {
     pname = "indie-wiki-buddy";
-    version = "3.11.0";
+    version = "3.11.1";
     addonId = "{cb31ec5d-c49a-4e5a-b240-16c767444f62}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4367565/indie_wiki_buddy-3.11.0.xpi";
-    sha256 = "415889791d30e3426dba185dcf567ddfe30f69abc39a5e9e115fe8f06ea849d0";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4379107/indie_wiki_buddy-3.11.1.xpi";
+    sha256 = "2b63271fa42e3d46a683605f719de816195471ccd8654771606d6eb811f7596d";
     meta = with lib; {
       homepage = "https://getindie.wiki/";
       description = "Helping you discover quality, independent wikis!\n\nWhen visiting a Fandom wiki, Indie Wiki Buddy redirects or alerts you of independent alternatives. It also filters search engine results. BreezeWiki is also supported, to reduce clutter on Fandom.";
@@ -759,10 +759,10 @@
   };
   "material-icons-for-github" = buildFirefoxXpiAddon {
     pname = "material-icons-for-github";
-    version = "1.8.28";
+    version = "1.8.29";
     addonId = "{eac6e624-97fa-4f28-9d24-c06c9b8aa713}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4375350/material_icons_for_github-1.8.28.xpi";
-    sha256 = "e2f82cc58d10f5202ac6e08b73aa52c9dfe4fba4f777e71e112a433d9c3382ed";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4382779/material_icons_for_github-1.8.29.xpi";
+    sha256 = "10334a755c81170adaa7fa7ea2fcfa9023765629aea328147a4ec8a77bf5029a";
     meta = with lib; {
       homepage = "https://github.com/Claudiohbsantos/github-material-icons-extension";
       description = "Replace the file/folder icons on github file browsers with icons representing the file's type and which tool it is used by.";
@@ -1305,10 +1305,10 @@
   };
   "refined-github" = buildFirefoxXpiAddon {
     pname = "refined-github";
-    version = "24.10.28";
+    version = "24.11.12";
     addonId = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4377053/refined_github-24.10.28.xpi";
-    sha256 = "add339853e7d2c9296114993e7faa712725e2ce038605cd45df87f2d8e98a96e";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4386666/refined_github-24.11.12.xpi";
+    sha256 = "883ba8755883af1159027f555e568969fd9507b233a0545035a2a9d990e4cbff";
     meta = with lib; {
       homepage = "https://github.com/refined-github/refined-github";
       description = "Simplifies the GitHub interface and adds many useful features.";
@@ -1392,10 +1392,10 @@
   };
   "steam-database" = buildFirefoxXpiAddon {
     pname = "steam-database";
-    version = "4.8";
+    version = "4.9";
     addonId = "firefox-extension@steamdb.info";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4371564/steam_database-4.8.xpi";
-    sha256 = "71eab48fd805316b18659ec203b0e6486d73a926cc5c51a7b843fe5ea30667fb";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4379170/steam_database-4.9.xpi";
+    sha256 = "8c3d26153c009595a80d20d41cef38650e9938ec7836eb4e8b59c0dd65e725f8";
     meta = with lib; {
       homepage = "https://steamdb.info/";
       description = "Adds SteamDB links and new features on the Steam store and community. View lowest game prices and stats.";
@@ -1502,10 +1502,10 @@
   };
   "tree-style-tab" = buildFirefoxXpiAddon {
     pname = "tree-style-tab";
-    version = "4.0.23";
+    version = "4.0.24";
     addonId = "treestyletab@piro.sakura.ne.jp";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4350896/tree_style_tab-4.0.23.xpi";
-    sha256 = "d8061eff00b56ccfdd6fd290b14ef2c8ef692a14eb8db1a27529f21e43df1f30";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4377780/tree_style_tab-4.0.24.xpi";
+    sha256 = "e1826e2054aede2f390cb98ff22915cc1e89778a6ebf94d68467200aeba8fefd";
     meta = with lib; {
       homepage = "http://piro.sakura.ne.jp/xul/_treestyletab.html.en";
       description = "Show tabs like a tree.";

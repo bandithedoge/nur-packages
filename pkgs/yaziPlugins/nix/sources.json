@@ -29,10 +29,10 @@
     "homepage": "",
     "owner": "hankertrix",
     "repo": "augment-command.yazi",
-    "rev": "57adf8d2be8fcabd62126209bfd11fdc84057272",
-    "sha256": "1kff5zvgankizqkqdnkpia57isnz1g7d90lijjc9s1aqhrqiz2qh",
+    "rev": "fe145acca9ef83be3756444d37ff7fa764eaab59",
+    "sha256": "1rkpfabd37ym91bzdxhgy50gsflc7h31lv1hryiqd8gcrclbc207",
     "type": "tarball",
-    "url": "https://github.com/hankertrix/augment-command.yazi/archive/57adf8d2be8fcabd62126209bfd11fdc84057272.tar.gz",
+    "url": "https://github.com/hankertrix/augment-command.yazi/archive/fe145acca9ef83be3756444d37ff7fa764eaab59.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "bookmarks.yazi": {
@@ -209,10 +209,10 @@
     "homepage": "",
     "owner": "ndtoan96",
     "repo": "ouch.yazi",
-    "rev": "d13f7c08cdebcfaadf38c3eb9999639ddd89201c",
-    "sha256": "0ra0v89kb3iphfpydml5cmmqm9kc80wbb3nn2jhggs9i1fij0b92",
+    "rev": "db1488358941a2bc9918fa91c304d6724a0bb608",
+    "sha256": "1cbyxrv8qw2hszhaw889ynald5djd4x50f9zwghbcbsx8wffqivw",
     "type": "tarball",
-    "url": "https://github.com/ndtoan96/ouch.yazi/archive/d13f7c08cdebcfaadf38c3eb9999639ddd89201c.tar.gz",
+    "url": "https://github.com/ndtoan96/ouch.yazi/archive/db1488358941a2bc9918fa91c304d6724a0bb608.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "projects.yazi": {
