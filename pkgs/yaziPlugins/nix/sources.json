@@ -377,10 +377,10 @@
     "homepage": "",
     "owner": "imsi32",
     "repo": "yatline.yazi",
-    "rev": "7b56434864d6a0b5d547fed2339b99346a018522",
-    "sha256": "0glcaby1hy2ah1ib1aq2xzjhq66fvyzc9f2d94hi8g3jf40l3b72",
+    "rev": "e255f5cb72106ec95b0fce4655041877a88bdfde",
+    "sha256": "1qs559ldap7bygzl36nj819sacvis7qllq6rnapgmcclhnk2kirk",
     "type": "tarball",
-    "url": "https://github.com/imsi32/yatline.yazi/archive/7b56434864d6a0b5d547fed2339b99346a018522.tar.gz",
+    "url": "https://github.com/imsi32/yatline.yazi/archive/e255f5cb72106ec95b0fce4655041877a88bdfde.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   }
 }
