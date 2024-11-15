@@ -50,6 +50,7 @@
     peakeater-bin = callPackage' ./peakeater-bin;
     powertab = callPackage' ./powertab;
     propertree = callPackage' ./propertree;
+    protrekkr = callPackage' ./protrekkr;
     pythonPackages = callPackages ./pythonPackages;
     raze = callPackage' ./raze;
     satty = callPackage' ./satty;
