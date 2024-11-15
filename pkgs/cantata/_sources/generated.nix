@@ -7,13 +7,13 @@
 }: {
   cantata = {
     pname = "cantata";
-    version = "v3.2.1";
+    version = "v3.3.0";
     src = fetchFromGitHub {
       owner = "nullobsi";
       repo = "cantata";
-      rev = "v3.2.1";
+      rev = "v3.3.0";
       fetchSubmodules = false;
-      sha256 = "sha256-H7+IuT9hDfFkHLLzlTzHy1XSPUmREQ88DEiJPWgxerw=";
+      sha256 = "sha256-dx0XkMUrxg3+c3fxhXjYK36x5M8xbX+IyVAalvib2iY=";
     };
   };
 }
