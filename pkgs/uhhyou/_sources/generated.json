@@ -13,11 +13,11 @@
       "name": null,
       "owner": "ryukau",
       "repo": "VSTPlugins",
-      "rev": "UhhyouPlugins0.64.0",
-      "sha256": "sha256-7RImmD7IYRyKzfR72tj8GSRDZgb3I/zw3sDWMC+UyfA=",
+      "rev": "UhhyouPlugins0.65.0",
+      "sha256": "sha256-IoWSxefuWisqFFcKrhmwMvNnuZzyVb0Y6uZHP6mT1Qk=",
       "sparseCheckout": [],
       "type": "github"
     },
-    "version": "UhhyouPlugins0.64.0"
+    "version": "UhhyouPlugins0.65.0"
   }
 }

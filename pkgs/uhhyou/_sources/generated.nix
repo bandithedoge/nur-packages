@@ -7,13 +7,13 @@
 }: {
   uhhyou = {
     pname = "uhhyou";
-    version = "UhhyouPlugins0.64.0";
+    version = "UhhyouPlugins0.65.0";
     src = fetchFromGitHub {
       owner = "ryukau";
       repo = "VSTPlugins";
-      rev = "UhhyouPlugins0.64.0";
+      rev = "UhhyouPlugins0.65.0";
       fetchSubmodules = true;
-      sha256 = "sha256-7RImmD7IYRyKzfR72tj8GSRDZgb3I/zw3sDWMC+UyfA=";
+      sha256 = "sha256-IoWSxefuWisqFFcKrhmwMvNnuZzyVb0Y6uZHP6mT1Qk=";
     };
   };
 }

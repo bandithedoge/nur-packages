@@ -998,10 +998,10 @@
     "homepage": "",
     "owner": "folke",
     "repo": "neoconf.nvim",
-    "rev": "4757572aa9b6c72123cc2a9f27fc2ffadf877f28",
-    "sha256": "16wlp0q1gsb2dcra6qg6d0dj5p71gwp6i637hrwhy1j9zagm9am1",
+    "rev": "3633cb249f8bc71973c1434695ec7053d277b51a",
+    "sha256": "0k93dqp6sazkss6f1f01y7ai6is7c20zv6klydm0xn25zyn4k429",
     "type": "tarball",
-    "url": "https://github.com/folke/neoconf.nvim/archive/4757572aa9b6c72123cc2a9f27fc2ffadf877f28.tar.gz",
+    "url": "https://github.com/folke/neoconf.nvim/archive/3633cb249f8bc71973c1434695ec7053d277b51a.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "neodev.nvim": {
@@ -1835,10 +1835,10 @@
     "homepage": "",
     "owner": "nanozuki",
     "repo": "tabby.nvim",
-    "rev": "f0493ec5f86eb13166797ea0b182898a1de9335e",
-    "sha256": "1vzzz6ijkrf76acw8k8r4z2bs75js8h3whvc63hbp5dpij53drgk",
+    "rev": "96a392b151a4a7aa5368da3d29f46fe70909cb65",
+    "sha256": "1mdjpvw691q8i65zdral1x49d06n39baad0svk3cmlsr9qwv0y80",
     "type": "tarball",
-    "url": "https://github.com/nanozuki/tabby.nvim/archive/f0493ec5f86eb13166797ea0b182898a1de9335e.tar.gz",
+    "url": "https://github.com/nanozuki/tabby.nvim/archive/96a392b151a4a7aa5368da3d29f46fe70909cb65.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "tangerine.nvim": {
