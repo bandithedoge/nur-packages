@@ -75,7 +75,6 @@
   };
 in
   packages
-  // (builtins.mapAttrs (old: new: pkgs.lib.warn "${old} has been renamed to ${new}" packages.${new}) (import ./_renamed.nix))
-  // {
-    osirus = pkgs.lib.warn "osirus has been moved to the-usual-suspects.osirus" packages.the-usual-suspects.osirus;
-  }
+  // (builtins.mapAttrs
+    (old: new: pkgs.lib.warn "${old} has been renamed to ${pkgs.lib.concatStringsSep "." new}" (pkgs.lib.attrByPath new null packages))
+    (import ./_renamed.nix))
