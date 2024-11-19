@@ -101,10 +101,10 @@
     "homepage": "",
     "owner": "ourongxing",
     "repo": "fast-enter.yazi",
-    "rev": "dd498123cb0696d7fa50b32d2268fb8c2084a4a4",
-    "sha256": "0rq7n6h9bsjkvz70y5gnp59bbvl4srpbsk50r9w7a5g8asl6wfcf",
+    "rev": "9f7ce11d130f9f11d5fb7fde1861971217c5f7a3",
+    "sha256": "0sh1z9nz4pm6wyc7vspqb6i5i78dhpkd1l53xffxm78w45w4llmr",
     "type": "tarball",
-    "url": "https://github.com/ourongxing/fast-enter.yazi/archive/dd498123cb0696d7fa50b32d2268fb8c2084a4a4.tar.gz",
+    "url": "https://github.com/ourongxing/fast-enter.yazi/archive/9f7ce11d130f9f11d5fb7fde1861971217c5f7a3.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "glow.yazi": {
@@ -221,10 +221,10 @@
     "homepage": "",
     "owner": "MasouShizuka",
     "repo": "projects.yazi",
-    "rev": "7a1dc3729f0bc3f0d62214683117d490113c3007",
-    "sha256": "18vv0yy83yjacxccnl56qvylnl2dwg7sbf7sdpx1dxh233wcxl00",
+    "rev": "5994bc9862a84e84e01e148407d78e5c1fc3d495",
+    "sha256": "1kwifg8ns2p5d7wdranrc8dfhyqvbjlfvplppnzs8pgrk298wzz4",
     "type": "tarball",
-    "url": "https://github.com/MasouShizuka/projects.yazi/archive/7a1dc3729f0bc3f0d62214683117d490113c3007.tar.gz",
+    "url": "https://github.com/MasouShizuka/projects.yazi/archive/5994bc9862a84e84e01e148407d78e5c1fc3d495.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "reflink.yazi": {
