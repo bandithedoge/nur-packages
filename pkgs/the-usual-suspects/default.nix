@@ -48,7 +48,7 @@
         meta = with pkgs.lib; {
           description = "DSP56300 Emulator for ${synthName}";
           homepage = "https://dsp56300.wordpress.com/${name}/";
-          license = licenses.unfree;
+          license = licenses.gpl3Only;
           platforms = ["x86_64-linux" "aarch64-linux"];
         };
       }) {};
