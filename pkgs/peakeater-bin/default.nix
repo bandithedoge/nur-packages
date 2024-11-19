@@ -13,6 +13,7 @@ pkgs.stdenv.mkDerivation {
 
   buildInputs = with pkgs; [
     freetype
+    stdenv.cc.cc.lib
   ];
 
   buildPhase = ''
