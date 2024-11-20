@@ -17,6 +17,7 @@
     charlatan = callPackage' ./charlatan;
     cinelerra-gg-bin = callPackage' ./cinelerra-gg-bin;
     clap-info = callPackage' ./clap-info;
+    cloudreverb = callPackage' ./cloudreverb;
     deemix-gui-bin = callPackage' ./deemix-gui-bin;
     destruqtor = callPackage' ./destruqtor;
     digits-bin = callPackage' ./digits-bin;
