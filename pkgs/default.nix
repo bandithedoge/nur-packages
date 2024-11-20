@@ -75,6 +75,9 @@
   };
 in
   packages
-  // (builtins.mapAttrs
-    (old: new: pkgs.lib.warn "${old} has been renamed to ${pkgs.lib.concatStringsSep "." new}" (pkgs.lib.attrByPath new null packages))
+  // (pkgs.lib.mapAttrsRecursive
+    (old: new: let
+      concat = pkgs.lib.concatStringsSep ".";
+    in
+      pkgs.lib.warn "${concat old} has been renamed to ${concat new}" (pkgs.lib.attrByPath new null packages))
     (import ./_renamed.nix))
