@@ -22,6 +22,7 @@
     digits-bin = callPackage' ./digits-bin;
     distrho-ports = callPackage' ./distrho-ports;
     dpf-plugins = callPackage' ./dpf-plugins;
+    dsp56300 = callPackage' ./dsp56300;
     emacsPackages = callPackages ./emacsPackages;
     fennel-language-server = callPackage' ./fennel-language-server;
     firefoxAddons = callPackages ./firefoxAddons;
@@ -59,7 +60,6 @@
     sheepshaver-bin = callPackage' ./sheepshaver-bin;
     symbols-nerd-font = callPackage' ./symbols-nerd-font;
     tal = callPackages ./tal;
-    the-usual-suspects = callPackages ./the-usual-suspects;
     tonelib = callPackages ./tonelib;
     treeSitterGrammars = callPackages ./treeSitterGrammars;
     u-he = callPackages ./u-he;

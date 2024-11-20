@@ -1,4 +1,7 @@
 {
+  osirus = ["dsp56300"];
   swift-mesonlsp-bin = ["mesonlsp-bin"];
-  osirus = ["the-usual-suspects" "osirus"];
+  the-usual-suspects.osirus = ["dsp56300"];
+  the-usual-suspects.ostirus = ["dsp56300"];
+  the-usual-suspects.vavra = ["dsp56300"];
 }
