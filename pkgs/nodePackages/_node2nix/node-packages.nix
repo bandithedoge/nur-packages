@@ -90,13 +90,13 @@
         sha512 = "w+tIMs3rq2afQdsPJlODhoUEKzFP1ayaoyl1CcnwtIlsVe7K7bA1NGm4s3PraqTLlXnbIN84zuBlxBWo1u9BLw==";
       };
     };
-    "@vscode/emmet-helper-2.10.0" = {
+    "@vscode/emmet-helper-2.11.0" = {
       name = "_at_vscode_slash_emmet-helper";
       packageName = "@vscode/emmet-helper";
-      version = "2.10.0";
+      version = "2.11.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@vscode/emmet-helper/-/emmet-helper-2.10.0.tgz";
-        sha512 = "UHw1EQRgLbSYkyB73/7wR/IzV6zTBnbzEHuuU4Z6b95HKf2lmeTdGwBIwspWBSRrnIA1TI2x2tetBym6ErA7Gw==";
+        url = "https://registry.npmjs.org/@vscode/emmet-helper/-/emmet-helper-2.11.0.tgz";
+        sha512 = "QLxjQR3imPZPQltfbWRnHU6JecWTF1QSWhx3GAKQpslx7y3Dp6sIIXhKjiUJ/BR9FX8PVthjr9PD6pNwOJfAzw==";
       };
     };
     "acorn-8.14.0" = {
@@ -977,7 +977,7 @@ in {
       sources."@emmetio/css-abbreviation-2.1.8"
       sources."@emmetio/scanner-1.0.4"
       sources."@jsdevtools/ez-spawn-3.0.4"
-      sources."@vscode/emmet-helper-2.10.0"
+      sources."@vscode/emmet-helper-2.11.0"
       sources."acorn-8.14.0"
       sources."anymatch-3.1.3"
       sources."argparse-2.0.1"
