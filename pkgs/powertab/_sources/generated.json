@@ -13,11 +13,11 @@
       "name": null,
       "owner": "powertab",
       "repo": "powertabeditor",
-      "rev": "2.0.20",
-      "sha256": "sha256-d2pFyyQN5NF7pzTVCtjAqm04UibN31ibL5UdIqIj+S0=",
+      "rev": "2.0.21",
+      "sha256": "sha256-mYFguVcF7Xb6rXIIMXAUzRYddlvQDRj7zu6on7GGGeA=",
       "sparseCheckout": [],
       "type": "github"
     },
-    "version": "2.0.20"
+    "version": "2.0.21"
   }
 }

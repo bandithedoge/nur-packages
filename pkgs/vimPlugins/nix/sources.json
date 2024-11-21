@@ -125,10 +125,10 @@
     "homepage": null,
     "owner": "Saghen",
     "repo": "blink.compat",
-    "rev": "0bb4b68e8f09d66ca69f482c6aa782c0f643829b",
-    "sha256": "14ks05kqjvba935v8jngnp345nhzw1hwz8q5hgihnsz3c8l3pp2b",
+    "rev": "2499bba6193f17f5f0deb5a3ee3f9a080327c89c",
+    "sha256": "0pp9fx5mqkgpc8f253bd4i7m6ys25wlrri5wzi1wrp4my3vpgdgh",
     "type": "tarball",
-    "url": "https://github.com/Saghen/blink.compat/archive/0bb4b68e8f09d66ca69f482c6aa782c0f643829b.tar.gz",
+    "url": "https://github.com/Saghen/blink.compat/archive/2499bba6193f17f5f0deb5a3ee3f9a080327c89c.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "bufferline.nvim": {
@@ -1010,10 +1010,10 @@
     "homepage": "",
     "owner": "folke",
     "repo": "neoconf.nvim",
-    "rev": "6cbef40da67b18990670a90136773b55ce96f65e",
-    "sha256": "1ql7fds9cp907813mlq5sbjwc36wxxgglcwd0f2iimaxpg1npkzv",
+    "rev": "c927f0dd36473076816c682add10081f2e1e0a1c",
+    "sha256": "1f5qlghlv65l2530bzv0m810mg42wxpsv0shhkh5k7qfy516rsc1",
     "type": "tarball",
-    "url": "https://github.com/folke/neoconf.nvim/archive/6cbef40da67b18990670a90136773b55ce96f65e.tar.gz",
+    "url": "https://github.com/folke/neoconf.nvim/archive/c927f0dd36473076816c682add10081f2e1e0a1c.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "neodev.nvim": {
@@ -1202,10 +1202,10 @@
     "homepage": "",
     "owner": "NvChad",
     "repo": "nvim-colorizer.lua",
-    "rev": "547a45bbf5bf57c088f6f77924d503f95de1561a",
-    "sha256": "12bl8pmxnsx1wryxklfcrqx5sglkrcp3nqq519fghg053av3mpy0",
+    "rev": "486212f8ef9c427d3bb3d48be43756e23c8cdc61",
+    "sha256": "0jkil9f84a63dgjw3yiwcsbcp009zz2pyz59d40l0xs02mb78cq7",
     "type": "tarball",
-    "url": "https://github.com/NvChad/nvim-colorizer.lua/archive/547a45bbf5bf57c088f6f77924d503f95de1561a.tar.gz",
+    "url": "https://github.com/NvChad/nvim-colorizer.lua/archive/486212f8ef9c427d3bb3d48be43756e23c8cdc61.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "nvim-cursorword": {
