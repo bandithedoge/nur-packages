@@ -33,7 +33,7 @@ pkgs.stdenv.mkDerivation {
   meta = with pkgs.lib; {
     description = "Semi-modular synthesizer and FX plugin for Windows, Linux and Mac, VST3 and CLAP";
     homepage = "https://firefly-synth.com/";
-    license = licenses.glp3Only;
+    license = licenses.gpl3Only;
     platforms = platforms.linux;
   };
 }
