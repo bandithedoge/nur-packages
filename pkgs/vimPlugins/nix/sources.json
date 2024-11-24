@@ -65,10 +65,10 @@
     "homepage": "https://www.schemastore.org/",
     "owner": "b0o",
     "repo": "SchemaStore.nvim",
-    "rev": "68910b1584fb7fe520c4d5aa8e05c207cbba290e",
-    "sha256": "08k02447w0icj50sffbmzx4yi5gc9vin8bf493596fq475vhbpgq",
+    "rev": "bbd005a56daab7a19ceea22360a836957ac2c42c",
+    "sha256": "0jixj9m0k0cwqv0lr3h4jq36ryzjkpm4418jj3qdva8d87l5lp06",
     "type": "tarball",
-    "url": "https://github.com/b0o/SchemaStore.nvim/archive/68910b1584fb7fe520c4d5aa8e05c207cbba290e.tar.gz",
+    "url": "https://github.com/b0o/SchemaStore.nvim/archive/bbd005a56daab7a19ceea22360a836957ac2c42c.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "aniseed": {
@@ -125,10 +125,10 @@
     "homepage": null,
     "owner": "Saghen",
     "repo": "blink.compat",
-    "rev": "08943fdf2eb00432d6205db6d0239434135416bd",
-    "sha256": "1y450r1mg42rbikids50d9xa12cp5qi63xvhfwspz8ywajqc39hp",
+    "rev": "0f368c3c1fa987b14e2b096bcb9efbc9cec13829",
+    "sha256": "0gnk8x2nxgaw6jkiimjyhn55y8rpq66lwnxfdc94cpjir37yy2yw",
     "type": "tarball",
-    "url": "https://github.com/Saghen/blink.compat/archive/08943fdf2eb00432d6205db6d0239434135416bd.tar.gz",
+    "url": "https://github.com/Saghen/blink.compat/archive/0f368c3c1fa987b14e2b096bcb9efbc9cec13829.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "bufferline.nvim": {
