@@ -8,6 +8,7 @@
   callPackages = pkg: pkgs.lib.recurseIntoAttrs (callPackage' pkg);
 
   packages = {
+    actuate = callPackage' ./actuate;
     aida-x = callPackage' ./aida-x;
     airwindows-consolidated = callPackage' ./airwindows-consolidated;
     audible-planets-bin = callPackage' ./audible-planets-bin;
