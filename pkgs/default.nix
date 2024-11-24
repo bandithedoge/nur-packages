@@ -13,6 +13,7 @@
     audible-planets-bin = callPackage' ./audible-planets-bin;
     basiliskii-bin = callPackage' ./basiliskii-bin;
     bitdos-bin = callPackage' ./bitdos-bin;
+    blocks = callPackage' ./blocks;
     cantata = callPackage' ./cantata;
     cardinal = callPackage' ./cardinal;
     charlatan = callPackage' ./charlatan;
