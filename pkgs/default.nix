@@ -33,6 +33,7 @@
     geonkick = callPackage' ./geonkick;
     giada = callPackage' ./giada;
     haskellPackages = callPackages ./haskellPackages;
+    hera = callPackage' ./hera;
     hvcc = callPackage' ./hvcc;
     ildaeil = callPackage' ./ildaeil;
     js80p = callPackage' ./js80p;
