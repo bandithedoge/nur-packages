@@ -317,10 +317,10 @@
     "homepage": "",
     "owner": "stevearc",
     "repo": "conform.nvim",
-    "rev": "62d5accad8b29d6ba9b58d3dff90c43a55621c60",
-    "sha256": "1f2ljiv4zr6lq4f8k5h7fwwibbd7qba83hmn8bij5djva6iyiyl7",
+    "rev": "a203480a350b03092e473bf3001733d547160a73",
+    "sha256": "1bxaidj11lfd26w0ijczch7797q31vk42bw6j615msxhfmns2qhs",
     "type": "tarball",
-    "url": "https://github.com/stevearc/conform.nvim/archive/62d5accad8b29d6ba9b58d3dff90c43a55621c60.tar.gz",
+    "url": "https://github.com/stevearc/conform.nvim/archive/a203480a350b03092e473bf3001733d547160a73.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "coq_nvim": {
