@@ -7,17 +7,17 @@
 }: {
   carla-git = {
     pname = "carla-git";
-    version = "be2f1056ab48c0ec6a3877a19597cb36a44f1e30";
+    version = "17000e7fe99459b25a50094a8b00bdfa12f2bfbc";
     src = fetchgit {
       url = "https://github.com/falkTX/Carla";
-      rev = "be2f1056ab48c0ec6a3877a19597cb36a44f1e30";
+      rev = "17000e7fe99459b25a50094a8b00bdfa12f2bfbc";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [];
-      sha256 = "sha256-Qe7YSy6eSrsUW3PCI3qhLxfKksWD6mID3a9XDYqrlDs=";
+      sha256 = "sha256-eCXAGZX/nT51CJipajATdssY2DIvA6rA+WR/krvQNK4=";
     };
-    date = "2024-11-03";
+    date = "2024-11-24";
   };
   zrythm = {
     pname = "zrythm";
