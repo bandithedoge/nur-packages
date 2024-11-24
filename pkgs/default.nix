@@ -61,6 +61,7 @@
     protrekkr = callPackage' ./protrekkr;
     pythonPackages = callPackages ./pythonPackages;
     raze = callPackage' ./raze;
+    roomreverb = callPackage' ./roomreverb;
     satty = callPackage' ./satty;
     sg-323 = callPackage' ./sg-323;
     sgdboop-bin = callPackage' ./sgdboop-bin;
