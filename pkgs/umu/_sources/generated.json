@@ -11,12 +11,12 @@
       "fetchSubmodules": false,
       "leaveDotGit": false,
       "name": null,
-      "rev": "f6a6af3191f5497d95d8f8aaa08826a45da199c4",
-      "sha256": "sha256-lJjORlXC+NisdIn/FSWay9nmuCfLCcQZrN2CSmJ2QfA=",
+      "rev": "3aee06109c30b1f8f3d4511566ef443bcb820fec",
+      "sha256": "sha256-qD1lz0DlJ/fb6dp3J0IH6m+x8MsG0GUKoqsHDUUS8GQ=",
       "sparseCheckout": [],
       "type": "git",
       "url": "https://github.com/Open-Wine-Components/umu-launcher"
     },
-    "version": "f6a6af3191f5497d95d8f8aaa08826a45da199c4"
+    "version": "3aee06109c30b1f8f3d4511566ef443bcb820fec"
   }
 }
