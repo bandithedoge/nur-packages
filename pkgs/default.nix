@@ -35,6 +35,7 @@
     geonkick = callPackage' ./geonkick;
     giada = callPackage' ./giada;
     gnomedistort2 = callPackage' ./gnomedistort2;
+    guitarix-vst-bin = callPackage' ./guitarix-vst-bin;
     haskellPackages = callPackages ./haskellPackages;
     hera = callPackage' ./hera;
     hvcc = callPackage' ./hvcc;
