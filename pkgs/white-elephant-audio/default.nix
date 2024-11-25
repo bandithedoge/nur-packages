@@ -1,6 +1,7 @@
 {
   pkgs,
   sources,
+  callPackage',
   ...
 }: let
   mkWea = {
@@ -21,9 +22,9 @@
       ];
 
       buildInputs = with pkgs; [
+        (callPackage' ../curl-gnutls3)
         alsa-lib
         freetype
-        curlWithGnuTls
         libGL
         stdenv.cc.cc.lib
       ];

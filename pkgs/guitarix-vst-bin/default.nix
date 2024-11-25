@@ -1,6 +1,7 @@
 {
   pkgs,
   sources,
+  callPackage',
   ...
 }:
 pkgs.stdenv.mkDerivation {
@@ -13,7 +14,7 @@ pkgs.stdenv.mkDerivation {
   ];
 
   buildInputs = with pkgs; [
-    curlWithGnuTls
+    (callPackage' ../curl-gnutls3)
     fftwFloat
     freetype
     glibmm

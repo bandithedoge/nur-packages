@@ -21,6 +21,7 @@
     cinelerra-gg-bin = callPackage' ./cinelerra-gg-bin;
     clap-info = callPackage' ./clap-info;
     cloudreverb = callPackage' ./cloudreverb;
+    curl-gnutls3 = callPackage' ./curl-gnutls3;
     deemix-gui-bin = callPackage' ./deemix-gui-bin;
     destruqtor = callPackage' ./destruqtor;
     digits-bin = callPackage' ./digits-bin;
