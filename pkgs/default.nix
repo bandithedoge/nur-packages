@@ -66,6 +66,7 @@
     raze = callPackage' ./raze;
     roomreverb = callPackage' ./roomreverb;
     satty = callPackage' ./satty;
+    schrammel-ojd = callPackage' ./schrammel-ojd;
     sg-323 = callPackage' ./sg-323;
     sgdboop-bin = callPackage' ./sgdboop-bin;
     sheepshaver-bin = callPackage' ./sheepshaver-bin;
