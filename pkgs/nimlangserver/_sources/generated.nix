@@ -91,17 +91,17 @@
   };
   json_serialization = {
     pname = "json_serialization";
-    version = "6eadb6e939ffa7882ff5437033c11a9464d3385c";
+    version = "cb54306f712655116df073ad7194c45aa515a6ab";
     src = fetchgit {
       url = "https://github.com/status-im/nim-json-serialization";
-      rev = "6eadb6e939ffa7882ff5437033c11a9464d3385c";
+      rev = "cb54306f712655116df073ad7194c45aa515a6ab";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [];
-      sha256 = "sha256-Ci1l91tLaYgnoipIc74pNdiQSkmzz98L9ulDwsuehQM=";
+      sha256 = "sha256-UEOc3PrPSbmWHjH7l+h9WRiL3g7o7UwC/lvjPwBePuU=";
     };
-    date = "2024-10-19";
+    date = "2024-11-26";
   };
   nimcrypto = {
     pname = "nimcrypto";
