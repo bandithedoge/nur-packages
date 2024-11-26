@@ -74,6 +74,7 @@
     symbols-nerd-font = callPackage' ./symbols-nerd-font;
     tal = callPackages ./tal;
     tonelib = callPackages ./tonelib;
+    tonez = callPackage' ./tonez;
     treeSitterGrammars = callPackages ./treeSitterGrammars;
     u-he = callPackages ./u-he;
     uhhyou = callPackage' ./uhhyou;
