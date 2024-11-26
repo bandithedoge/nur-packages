@@ -119,17 +119,17 @@
   };
   nimlangserver = {
     pname = "nimlangserver";
-    version = "3ad3c9b627af41c4a1c31b59b0e4a7e5302b7530";
+    version = "c4bf63da55b1c56830a42940fbfcd9bd86fec313";
     src = fetchgit {
       url = "https://github.com/nim-lang/langserver";
-      rev = "3ad3c9b627af41c4a1c31b59b0e4a7e5302b7530";
+      rev = "c4bf63da55b1c56830a42940fbfcd9bd86fec313";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [];
-      sha256 = "sha256-I5ysw/k42SOKgquaSDx5EY5a4s6t9yNCDiYpa5mG1wU=";
+      sha256 = "sha256-h8zi2G3vGQp2fJ+5yz4CRNzNsJhovVQlNuRNg6+jDBY=";
     };
-    date = "2024-11-14";
+    date = "2024-11-26";
   };
   regex = {
     pname = "regex";
