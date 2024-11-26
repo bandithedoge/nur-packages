@@ -23,4 +23,11 @@ pkgs.stdenv.mkDerivation {
     cp -r lv2/ShowMIDI.lv2 $out/lib/lv2
     cp -r vst3/ShowMIDI.vst3 $out/lib/vst3
   '';
+
+  meta = with pkgs.lib; {
+    description = "Multi-platform GUI application to effortlessly visualize MIDI activity";
+    homepage = "https://github.com/gbevin/ShowMIDI";
+    license = licenses.gpl3Only;
+    platforms = ["x86_64-linux"];
+  };
 }
