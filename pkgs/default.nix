@@ -69,6 +69,7 @@
     sg-323 = callPackage' ./sg-323;
     sgdboop-bin = callPackage' ./sgdboop-bin;
     sheepshaver-bin = callPackage' ./sheepshaver-bin;
+    showmidi-bin = callPackage' ./showmidi-bin;
     symbols-nerd-font = callPackage' ./symbols-nerd-font;
     tal = callPackages ./tal;
     tonelib = callPackages ./tonelib;
