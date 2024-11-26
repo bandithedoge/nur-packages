@@ -23,7 +23,7 @@ pkgs.stdenv.mkDerivation {
     cp -r ToneZ_V2.vst3 $out/lib/vst3
   '';
 
-  meta = with pkgs; {
+  meta = with pkgs.lib; {
     description = "Free cross-platform polyphonic synthesizer";
     homepage = "https://www.retornz.com/plugins/tonez";
     license = licenses.gpl3Only;
