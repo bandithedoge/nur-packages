@@ -21,8 +21,10 @@
 
       buildInputs = with pkgs;
         [
-          freetype
           alsa-lib
+          fontconfig
+          freetype
+          libGL
           libgcc.lib
         ]
         ++ extraLibs;
@@ -46,7 +48,6 @@ in {
     source = sources.bassline-101;
     description = "TAL-BassLine-101 is an accurate emulation of the popular SH 101";
     homepage = "https://tal-software.com/products/tal-bassline-101";
-    extraLibs = with pkgs; [fontconfig];
   };
 
   chorus-lx = mkTal {
@@ -68,7 +69,6 @@ in {
     source = sources.drum;
     description = "TAL-Drum is a powerful audio plug-in that combines the nostalgic charm of vintage drum machines with modern usability. This intuitive tool lets you effortlessly create captivating beats with its meticulously sampled collection of iconic drum machine sounds.";
     homepage = "https://tal-software.com/products/tal-drum";
-    extraLibs = with pkgs; [libGL];
   };
 
   dub-x = mkTal {
@@ -90,7 +90,6 @@ in {
     source = sources.g-verb;
     description = "TAL-G-Verb is a musical effect capable to build high quality artificial reverb sounds";
     homepage = "https://tal-software.com/products/tal-g-verb";
-    extraLibs = with pkgs; [fontconfig];
   };
 
   j-8 = mkTal {
@@ -133,7 +132,6 @@ in {
     source = sources.sampler;
     description = "TAL-Sampler is not just a sample player. It's a full featured analog modeled synthesizer with a sampler engine as sound source, including a powerful modulation matrix and high quality self-oscillating filters.";
     homepage = "https://tal-software.com/products/tal-sampler";
-    extraLibs = with pkgs; [fontconfig];
   };
 
   u-no-lx = mkTal {
