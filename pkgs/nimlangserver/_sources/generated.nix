@@ -35,17 +35,17 @@
   };
   chronos = {
     pname = "chronos";
-    version = "9186950e03254b87533715f7c991a537b3167bef";
+    version = "03f4328de6135a06830103fdfd1d0aeb9bc8a1c8";
     src = fetchgit {
       url = "https://github.com/status-im/nim-chronos";
-      rev = "9186950e03254b87533715f7c991a537b3167bef";
+      rev = "03f4328de6135a06830103fdfd1d0aeb9bc8a1c8";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [];
-      sha256 = "sha256-pW2/8chlsbuwlBIT7wg3jAWhfDmQMXD3eGkSzIY3CaY=";
+      sha256 = "sha256-ClcwZzCIeXpkjV+25CSFqPEAZz3msVwJcWc3QKUcWuk=";
     };
-    date = "2024-10-15";
+    date = "2024-11-28";
   };
   faststreams = {
     pname = "faststreams";
