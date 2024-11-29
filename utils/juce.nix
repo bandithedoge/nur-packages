@@ -11,7 +11,7 @@
     xorg.libXrandr
   ];
 
-  mkJucePlugin = args @ {
+  mkJucePackage = args @ {
     nativeBuildInputs ? [],
     buildInputs ? [],
     cmakeFlags ? [],
