@@ -3,6 +3,7 @@
     pkgs.callPackage pkg {
       inherit pkgs callPackage';
       sources = pkgs.callPackage (pkg + "/_sources/generated.nix") {};
+      utils = pkgs.callPackage ../utils {};
     };
 
   callPackages = pkg: pkgs.lib.recurseIntoAttrs (callPackage' pkg);
