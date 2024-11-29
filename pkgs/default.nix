@@ -85,6 +85,7 @@
     white-elephant-audio = callPackage' ./white-elephant-audio;
     xplrPlugins = callPackages ./xplrPlugins;
     yaziPlugins = callPackages ./yaziPlugins;
+    ysfx = callPackage' ./ysfx;
     zl-audio = callPackages ./zl-audio;
     zrythm = callPackage' ./zrythm;
   };
