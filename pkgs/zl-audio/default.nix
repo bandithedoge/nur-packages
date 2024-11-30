@@ -11,22 +11,10 @@
     version ? source.version,
     meta,
     cflags ? [],
-    lv2 ? true,
   }:
     utils.juce.mkJucePackage {
       inherit pname version;
       inherit (source) src;
-
-      installPhase =
-        ''
-          mkdir -p $out/lib/vst3
-          cd ${pname}_artefacts/Release
-          cp -r "VST3/${prettyName}.vst3" $out/lib/vst3
-        ''
-        + pkgs.lib.optionalString lv2 ''
-          mkdir -p $out/lib/lv2
-          cp -r "LV2/${prettyName}.lv2" $out/lib/lv2
-        '';
 
       NIX_CFLAGS_COMPILE = cflags;
 
@@ -79,7 +67,6 @@ in {
       description = "distortion/saturation plugin";
       homepage = "https://github.com/ZL-Audio/ZLWarm";
     };
-    lv2 = false;
   };
 
   lmakeup = mkZl {
@@ -90,7 +77,6 @@ in {
       description = "loudness make-up plugin";
       homepage = "https://github.com/ZL-Audio/ZLLMakeup";
     };
-    lv2 = false;
   };
 
   lmatch = mkZl {
@@ -101,7 +87,6 @@ in {
       description = "loudness matching plugin";
       homepage = "https://github.com/ZL-Audio/ZLLMatch";
     };
-    lv2 = false;
   };
 
   inflator = mkZl {
@@ -111,7 +96,7 @@ in {
     meta = {
       description = "distortion/saturation plugin";
       homepage = "https://github.com/ZL-Audio/ZLInflator";
+      broken = true;
     };
-    lv2 = false;
   };
 }
