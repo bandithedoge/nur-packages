@@ -1,6 +1,7 @@
 {
   pkgs,
   sources,
+  utils,
   ...
 }:
 pkgs.stdenv.mkDerivation {
@@ -10,11 +11,11 @@ pkgs.stdenv.mkDerivation {
     autoPatchelfHook
   ];
 
-  buildInputs = with pkgs; [
-    alsa-lib
-    freetype
-    stdenv.cc.cc.lib
-  ];
+  buildInputs = with pkgs;
+    [
+      stdenv.cc.cc.lib
+    ]
+    ++ utils.juce.commonBuildInputs;
 
   buildPhase = ''
     mkdir -p $out/{bin,lib/clap,lib/lv2,lib/vst3}

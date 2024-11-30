@@ -1,6 +1,7 @@
 {
   pkgs,
   sources,
+  utils,
   ...
 }:
 pkgs.stdenv.mkDerivation {
@@ -17,12 +18,11 @@ pkgs.stdenv.mkDerivation {
     unzip
   ];
 
-  buildInputs = with pkgs; [
-    fontconfig
-    freetype
-    curl
-    stdenv.cc.cc.lib
-  ];
+  buildInputs = with pkgs;
+    [
+      stdenv.cc.cc.lib
+    ]
+    ++ utils.juce.commonBuildInputs;
 
   buildPhase = ''
     mkdir -p $out/lib/{lv2,vst3}

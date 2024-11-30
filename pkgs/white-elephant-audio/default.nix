@@ -1,7 +1,7 @@
 {
   pkgs,
   sources,
-  callPackage',
+  utils,
   ...
 }: let
   mkWea = {
@@ -21,13 +21,11 @@
         unzip
       ];
 
-      buildInputs = with pkgs; [
-        (callPackage' ../curl-gnutls3)
-        alsa-lib
-        freetype
-        libGL
-        stdenv.cc.cc.lib
-      ];
+      buildInputs = with pkgs;
+        [
+          stdenv.cc.cc.lib
+        ]
+        ++ utils.juce.commonBuildInputs;
 
       buildPhase = ''
         ls

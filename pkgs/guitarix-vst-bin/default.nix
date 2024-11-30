@@ -1,7 +1,6 @@
 {
   pkgs,
   sources,
-  callPackage',
   ...
 }:
 pkgs.stdenv.mkDerivation {
@@ -13,16 +12,16 @@ pkgs.stdenv.mkDerivation {
     unzip
   ];
 
-  buildInputs = with pkgs; [
-    (callPackage' ../curl-gnutls3)
-    fftwFloat
-    freetype
-    glibmm
-    libsigcxx
-    libsndfile
-    lilv
-    stdenv.cc.cc.lib
-  ];
+  buildInputs = with pkgs;
+    [
+      fftwFloat
+      glibmm
+      libsigcxx
+      libsndfile
+      lilv
+      stdenv.cc.cc.lib
+    ]
+    ++ utils.juce.commonBuildInputs;
 
   buildPhase = ''
     mkdir -p $out/lib/vst3

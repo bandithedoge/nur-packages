@@ -1,25 +1,11 @@
 {
   pkgs,
   sources,
+  utils,
   ...
 }:
-pkgs.stdenv.mkDerivation {
+utils.juce.mkJucePackage {
   inherit (sources.firefly-synth) pname version src;
-
-  nativeBuildInputs = with pkgs; [
-    cmake
-    pkg-config
-  ];
-
-  buildInputs = with pkgs; [
-    freetype
-    fontconfig
-    xorg.libX11
-    xorg.libXrandr
-    xorg.libXinerama
-    xorg.libXext
-    xorg.libXcursor
-  ];
 
   installPhase = ''
     mkdir -p $out/lib/{clap,vst3}

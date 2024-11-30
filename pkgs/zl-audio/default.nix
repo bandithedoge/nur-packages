@@ -1,9 +1,9 @@
 {
   pkgs,
   sources,
+  utils,
   ...
 }: let
-  stdenv = pkgs.stdenvAdapters.useMoldLinker pkgs.stdenv;
   mkZl = {
     pname,
     prettyName,
@@ -13,29 +13,9 @@
     cflags ? [],
     lv2 ? true,
   }:
-    stdenv.mkDerivation {
+    utils.juce.mkJucePackage {
       inherit pname version;
       inherit (source) src;
-
-      nativeBuildInputs = with pkgs; [
-        cmake
-        pkg-config
-      ];
-
-      buildInputs = with pkgs; [
-        xorg.libX11
-        xorg.libXrandr
-        xorg.libXinerama
-        xorg.libXext
-        xorg.libXcursor
-        freetype
-        fontconfig
-        alsa-lib
-      ];
-
-      postPatch = ''
-        substituteInPlace CMakeLists.txt --replace-fail "COPY_PLUGIN_AFTER_BUILD TRUE" "COPY_PLUGIN_AFTER_BUILD FALSE"
-      '';
 
       installPhase =
         ''

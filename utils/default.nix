@@ -1,3 +1,7 @@
-{pkgs, ...}: {
-  juce = pkgs.callPackage ./juce.nix {};
+{
+  pkgs,
+  callPackage',
+  ...
+}: {
+  juce = callPackage' ./juce.nix;
 }

@@ -43,22 +43,22 @@
         '';
 
         installPhase = ''
-          for f in *_artefacts/Release/Standalone; do
+          for f in *_artefacts/Release/Standalone/*; do
             mkdir -p $out/bin
             cp $f $out/bin
           done
 
-          for f in *_artefacts/Release/CLAP; do
+          for f in *_artefacts/Release/CLAP/*; do
             mkdir -p $out/lib/clap
             cp $f $out/lib/clap
           done
 
-          for f in *_artefacts/Release/LV2; do
+          for f in *_artefacts/Release/LV2/*; do
             mkdir -p $out/lib/lv2
             cp -r $f $out/lib/lv2
           done
 
-          for f in *_artefacts/Release/VST3; do
+          for f in *_artefacts/Release/VST3/*; do
             mkdir -p $out/lib/vst3
             cp -r $f $out/lib/vst3
           done

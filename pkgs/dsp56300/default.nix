@@ -1,28 +1,13 @@
 {
   pkgs,
   sources,
+  utils,
   variants ? ["osirus" "ostirus" "vavra" "xenia" "nodalred2x"],
   buildFx ? true,
   ...
 }:
-pkgs.stdenv.mkDerivation {
+utils.juce.mkJucePackage {
   inherit (sources.dsp56300) pname version src;
-
-  nativeBuildInputs = with pkgs; [
-    cmake
-    pkg-config
-  ];
-
-  buildInputs = with pkgs; [
-    alsa-lib
-    fontconfig
-    freetype
-    xorg.libX11
-    xorg.libXcursor
-    xorg.libXext
-    xorg.libXinerama
-    xorg.libXrandr
-  ];
 
   postPatch = ''
     substituteAll CMakeLists.txt --replace-fail "/usr/local" "${placeholder "out"}"

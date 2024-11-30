@@ -1,6 +1,7 @@
 {
   pkgs,
   sources,
+  utils,
   ...
 }:
 pkgs.stdenv.mkDerivation {
@@ -13,12 +14,11 @@ pkgs.stdenv.mkDerivation {
     autoPatchelfHook
   ];
 
-  buildInputs = with pkgs; [
-    curlWithGnuTls
-    fontconfig
-    freetype
-    stdenv.cc.cc.lib
-  ];
+  buildInputs = with pkgs;
+    [
+      stdenv.cc.cc.lib
+    ]
+    ++ utils.juce.commonBuildInputs;
 
   autoPatchelfIgnoreMissingDeps = ["libcurl-nss.so.4"];
 
