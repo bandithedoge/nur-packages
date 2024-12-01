@@ -6,16 +6,21 @@
   python' = pkgs.python3.withPackages (p:
     with p; [
       build
-      installer
-      hatchling
-      xlib
       filelock
+      hatchling
+      installer
+      urllib3
+      xlib
     ]);
 in
   python'.pkgs.buildPythonPackage {
     inherit (sources.umu) pname src;
     version = sources.umu.date;
     pyproject = false;
+
+    patches = [
+      "${sources.umu.src}/packaging/nix/0-Makefile-no-vendor.patch"
+    ];
 
     nativeBuildInputs = with pkgs; [
       git
