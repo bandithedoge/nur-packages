@@ -23,10 +23,10 @@
   };
   noisereducer = {
     pname = "noisereducer";
-    version = "1.5.0";
+    version = "2.0.2";
     src = fetchurl {
       url = "https://www.tonelib.net/download/ToneLib-NoiseReducer-amd64.deb";
-      sha256 = "sha256-XMEJS/m9Ofg8fD63prBoAcCE8F0qNpsCvDMHI4EfbL0=";
+      sha256 = "sha256-R+JXoc6waKGPMaghlJ8BkLumDcjC7Oq0jx8tFjAKegE=";
     };
   };
   tubewarmth = {
