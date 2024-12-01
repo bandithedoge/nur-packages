@@ -14,4 +14,6 @@
   smartparens = prev.smartparens.overrideAttrs (_: {
     buildInputs = with pkgs.emacsPackages; [dash];
   });
+
+  clangd-inactive-regions = pkgs.lib.warn "clangd-inactive-regions has been renamed to eglot-inactive-regions" prev.eglot-inactive-regions;
 }
