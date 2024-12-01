@@ -26,6 +26,8 @@ utils.juce.mkJucePackage {
       (enable "BUILD_JUCEPLUGIN_LV2" true)
     ];
 
+  dontUseJuceInstall = true;
+
   meta = with pkgs.lib; {
     description = "Emulation of classic VA synths of the late 90s/2000s that are based on Motorola 56300 family DSPs (${pkgs.lib.concatStringsSep ", " variants})";
     homepage = "https://dsp56300.wordpress.com/";

@@ -20,6 +20,7 @@
     nativeBuildInputs ? [],
     buildInputs ? [],
     cmakeFlags ? [],
+    dontUseJuceInstall ? false,
     ...
   }: let
     stdenv = pkgs.stdenvAdapters.useMoldLinker pkgs.stdenv;
@@ -42,27 +43,30 @@
           done
         '';
 
-        installPhase = ''
-          for f in *_artefacts/Release/Standalone/*; do
-            mkdir -p $out/bin
-            cp "$f" $out/bin
-          done
+        installPhase =
+          if dontUseJuceInstall
+          then null
+          else ''
+            for f in *_artefacts/Release/Standalone/*; do
+              mkdir -p $out/bin
+              cp "$f" $out/bin
+            done
 
-          for f in *_artefacts/Release/CLAP/*; do
-            mkdir -p $out/lib/clap
-            cp "$f" $out/lib/clap
-          done
+            for f in *_artefacts/Release/CLAP/*; do
+              mkdir -p $out/lib/clap
+              cp "$f" $out/lib/clap
+            done
 
-          for f in *_artefacts/Release/LV2/*; do
-            mkdir -p $out/lib/lv2
-            cp -r "$f" $out/lib/lv2
-          done
+            for f in *_artefacts/Release/LV2/*; do
+              mkdir -p $out/lib/lv2
+              cp -r "$f" $out/lib/lv2
+            done
 
-          for f in *_artefacts/Release/VST3/*; do
-            mkdir -p $out/lib/vst3
-            cp -r "$f" $out/lib/vst3
-          done
-        '';
+            for f in *_artefacts/Release/VST3/*; do
+              mkdir -p $out/lib/vst3
+              cp -r "$f" $out/lib/vst3
+            done
+          '';
       }
       // (pkgs.lib.removeAttrs args ["nativeBuildInputs" "buildInputs" "cmakeFlags"]));
 }
