@@ -96,7 +96,6 @@ in {
     meta = {
       description = "distortion/saturation plugin";
       homepage = "https://github.com/ZL-Audio/ZLInflator";
-      broken = true;
     };
   };
 }
