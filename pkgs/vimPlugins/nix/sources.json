@@ -593,10 +593,10 @@
     "homepage": "",
     "owner": "rafamadriz",
     "repo": "friendly-snippets",
-    "rev": "de8fce94985873666bd9712ea3e49ee17aadb1ed",
-    "sha256": "0aq3k61x8qni60ad30n67s531jpfpq2m5a08zshc8rkllz4i3phz",
+    "rev": "efff286dd74c22f731cdec26a70b46e5b203c619",
+    "sha256": "1vb5l8ipfjwsrqffbq8v2z5p1cpg035b3gk57692wd7835kr3i13",
     "type": "tarball",
-    "url": "https://github.com/rafamadriz/friendly-snippets/archive/de8fce94985873666bd9712ea3e49ee17aadb1ed.tar.gz",
+    "url": "https://github.com/rafamadriz/friendly-snippets/archive/efff286dd74c22f731cdec26a70b46e5b203c619.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "fzf-lua": {
@@ -1310,10 +1310,10 @@
     "homepage": "",
     "owner": "neovim",
     "repo": "nvim-lspconfig",
-    "rev": "90c1c6cc822b1836209514c096069b9bbeab63d9",
-    "sha256": "0rbair3bf6w3936x3mns5q4xy92iq0asjl2vaf8ihhwjn9cmidml",
+    "rev": "f59eba2ec08edda0e09ecf34ec29ad10a429e48d",
+    "sha256": "0ii22lygjilxw36drpb4hc60dl83fl7ik2kqmyq2k13y20031kys",
     "type": "tarball",
-    "url": "https://github.com/neovim/nvim-lspconfig/archive/90c1c6cc822b1836209514c096069b9bbeab63d9.tar.gz",
+    "url": "https://github.com/neovim/nvim-lspconfig/archive/f59eba2ec08edda0e09ecf34ec29ad10a429e48d.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "nvim-luaref": {
@@ -2027,10 +2027,10 @@
     "homepage": "",
     "owner": "Aetf",
     "repo": "ucw.nvim",
-    "rev": "c120a29744a67c4d7c5d436797e5c1e4a6b6931c",
-    "sha256": "1nf8q3d25fmqs67n6af4fx7p0b4nbdnjb4fchcd798dqfshi0fpj",
+    "rev": "9e48429f54d3d4d100cf360f3814f41aeb2da60d",
+    "sha256": "0npqrq55m2f1i3brlj19fcx4zz9rsybx3n18a8z4ldj5r1qz19za",
     "type": "tarball",
-    "url": "https://github.com/Aetf/ucw.nvim/archive/c120a29744a67c4d7c5d436797e5c1e4a6b6931c.tar.gz",
+    "url": "https://github.com/Aetf/ucw.nvim/archive/9e48429f54d3d4d100cf360f3814f41aeb2da60d.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "vim-coffee-script": {
