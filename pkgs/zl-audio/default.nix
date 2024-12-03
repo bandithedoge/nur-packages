@@ -16,6 +16,8 @@
       inherit pname version;
       inherit (source) src;
 
+      cmakeFlags = ["-DBUILD_SHARED_LIBS=OFF"];
+
       NIX_CFLAGS_COMPILE = cflags;
 
       meta = with pkgs.lib;
