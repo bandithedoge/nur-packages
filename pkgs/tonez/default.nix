@@ -29,5 +29,6 @@ pkgs.stdenv.mkDerivation {
     homepage = "https://www.retornz.com/plugins/tonez";
     license = licenses.gpl3Only;
     platforms = ["x86_64-linux"];
+    sourceProvenance = [sourceTypes.binaryNativeCode];
   };
 }

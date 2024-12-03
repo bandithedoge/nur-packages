@@ -12,5 +12,6 @@ pkgs.appimageTools.wrapType2 {
     homepage = "https://gitlab.com/RemixDev/deemix-gui";
     license = licenses.gpl3;
     platforms = ["x86_64-linux"];
+    sourceProvenance = [sourceTypes.binaryNativeCode];
   };
 }

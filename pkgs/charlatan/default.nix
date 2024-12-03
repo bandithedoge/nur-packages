@@ -34,5 +34,6 @@ pkgs.stdenv.mkDerivation {
     homepage = "https://blaukraut.info/";
     license = licenses.unfree;
     systems = ["x86_64-linux"];
+    sourceProvenance = [sourceTypes.binaryNativeCode];
   };
 }

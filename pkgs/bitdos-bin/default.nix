@@ -33,5 +33,6 @@ pkgs.stdenv.mkDerivation {
     homepage = "https://github.com/astriiddev/BitDOS-VST";
     license = licenses.agpl3Only;
     platforms = ["x86_64-linux"];
+    sourceProvenance = [sourceTypes.binaryNativeCode];
   };
 }

@@ -37,5 +37,6 @@ pkgs.stdenv.mkDerivation {
     homepage = "https://github.com/dsmaugy/microbiome";
     license = licenses.gpl3;
     platforms = ["x86_64-linux"];
+    sourceProvenance = [sourceTypes.binaryNativeCode];
   };
 }

@@ -30,5 +30,6 @@ pkgs.stdenv.mkDerivation {
     homepage = "https://fx.amee.ee/plugin/destruqtor/";
     license = licenses.unfree;
     platforms = ["x86_64-linux"];
+    sourceProvenance = [sourceTypes.binaryNativeCode];
   };
 }

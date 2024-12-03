@@ -34,5 +34,6 @@ pkgs.stdenv.mkDerivation {
     homepage = "https://github.com/brummer10/guitarix.vst";
     license = licenses.gpl3Plus;
     platforms = ["x86_64-linux"];
+    sourceProvenance = [sourceTypes.binaryNativeCode];
   };
 }

@@ -34,9 +34,10 @@
         cp -r Linux/${name}.vst3 $out/lib/vst3
       '';
 
-      meta = {
+      meta = with pkgs.lib; {
         inherit description homepage license;
         platforms = ["x86_64-linux"];
+        sourceProvenance = [sourceTypes.binaryNativeCode];
       };
     };
 in {
