@@ -4,8 +4,7 @@
   ...
 }:
 pkgs.appimageTools.wrapType2 {
-  name = "SheepShaver";
-  inherit (sources.sheepshaver-bin) src;
+  inherit (sources.sheepshaver-bin) pname version src;
 
   extraPkgs = pkgs:
     with pkgs; [

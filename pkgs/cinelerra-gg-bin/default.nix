@@ -4,8 +4,7 @@
   ...
 }:
 pkgs.appimageTools.wrapType2 {
-  name = "cinelerra-gg";
-  inherit (sources.cinelerra-gg) src;
+  inherit (sources.cinelerra-gg) pname version src;
 
   meta = with pkgs.lib; {
     description = "Cinelerra GG Infinity is a free and open source video editing software for Linux. It handles rendering, compositing, motion tracking, video editing and much more.";

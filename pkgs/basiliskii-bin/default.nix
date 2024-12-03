@@ -4,8 +4,7 @@
   ...
 }:
 pkgs.appimageTools.wrapType2 {
-  name = "BasiliskII";
-  inherit (sources.basiliskii-bin) version src;
+  inherit (sources.basiliskii-bin) pname version src;
 
   extraPkgs = pkgs:
     with pkgs; [
