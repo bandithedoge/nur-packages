@@ -1305,10 +1305,10 @@
   };
   "refined-github" = buildFirefoxXpiAddon {
     pname = "refined-github";
-    version = "24.11.21";
+    version = "24.12.2";
     addonId = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4391954/refined_github-24.11.21.xpi";
-    sha256 = "641fbd216f236295a109c36ba0bcc282dc17219ea64c6e49baeeb3f02b68d644";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4398027/refined_github-24.12.2.xpi";
+    sha256 = "b11a3756e6a04fcad2f91a58c668f1ab0a072240c019613f0fb19e03b0725478";
     meta = with lib; {
       homepage = "https://github.com/refined-github/refined-github";
       description = "Simplifies the GitHub interface and adds many useful features.";
@@ -1372,10 +1372,10 @@
   };
   "sponsorblock" = buildFirefoxXpiAddon {
     pname = "sponsorblock";
-    version = "5.9.6";
+    version = "5.10.1";
     addonId = "sponsorBlocker@ajay.app";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4385525/sponsorblock-5.9.6.xpi";
-    sha256 = "1112b79a0a10a9d19ec470585af245b25a2caf1302751553886d2975c07e5655";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4395988/sponsorblock-5.10.1.xpi";
+    sha256 = "68532967a5a510193ddbcf3397e4182388a129cc54a07aade0e9e6762c58f516";
     meta = with lib; {
       homepage = "https://sponsor.ajay.app";
       description = "Easily skip YouTube video sponsors. When you visit a YouTube video, the extension will check the database for reported sponsors and automatically skip known sponsors. You can also report sponsors in videos. Other browsers: https://sponsor.ajay.app";
@@ -1392,10 +1392,10 @@
   };
   "steam-database" = buildFirefoxXpiAddon {
     pname = "steam-database";
-    version = "4.9";
+    version = "4.10";
     addonId = "firefox-extension@steamdb.info";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4379170/steam_database-4.9.xpi";
-    sha256 = "8c3d26153c009595a80d20d41cef38650e9938ec7836eb4e8b59c0dd65e725f8";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4393736/steam_database-4.10.xpi";
+    sha256 = "1d77ec61f9905261e9f00885428e5791f457f08480b551d10279010496f24328";
     meta = with lib; {
       homepage = "https://steamdb.info/";
       description = "Adds SteamDB links and new features on the Steam store and community. View lowest game prices and stats.";

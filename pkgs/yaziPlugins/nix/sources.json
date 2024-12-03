@@ -29,10 +29,10 @@
     "homepage": "",
     "owner": "hankertrix",
     "repo": "augment-command.yazi",
-    "rev": "2212a976b86d87f3553e40ccfcc82a0bf8c54f50",
-    "sha256": "04lixzc95brjcrg8j9xfl3jfpg4fm7f0nsgd24lsbpmqmpyqdf3n",
+    "rev": "c2f01d781570fbe0f00e38fd2c83c29a39ac79cc",
+    "sha256": "045nrpl59b3dcmyqrc4s5ry8228zhvmfb9mwsy9wrgmkla6jy67m",
     "type": "tarball",
-    "url": "https://github.com/hankertrix/augment-command.yazi/archive/2212a976b86d87f3553e40ccfcc82a0bf8c54f50.tar.gz",
+    "url": "https://github.com/hankertrix/augment-command.yazi/archive/c2f01d781570fbe0f00e38fd2c83c29a39ac79cc.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "bookmarks.yazi": {
@@ -41,10 +41,10 @@
     "homepage": null,
     "owner": "dedukun",
     "repo": "bookmarks.yazi",
-    "rev": "600f87c02176175f55b0571f79c5ff0b1606362f",
-    "sha256": "1fcplhc2ym7p7lp5gfvmv48lgmlq7kdjp4pmycrfyh085v2m3m54",
+    "rev": "e755ebc1e61335fb0a8056152f0aebb46a2dc972",
+    "sha256": "1q6xya7bdwa2ja3rv0scfx7igqcwfbc0gd2vwy2j2h0r537x293i",
     "type": "tarball",
-    "url": "https://github.com/dedukun/bookmarks.yazi/archive/600f87c02176175f55b0571f79c5ff0b1606362f.tar.gz",
+    "url": "https://github.com/dedukun/bookmarks.yazi/archive/e755ebc1e61335fb0a8056152f0aebb46a2dc972.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "bypass.yazi": {
@@ -245,10 +245,10 @@
     "homepage": null,
     "owner": "dedukun",
     "repo": "relative-motions.yazi",
-    "rev": "44c4c1c38d9c1b9e7b4d7715496f8d7cb1135a44",
-    "sha256": "1jrfrk7yd63m3bs5idac9yz8k4cby4hkylbsb0v5qjcifrp87mqr",
+    "rev": "df97039a04595a40a11024f321a865b3e9af5092",
+    "sha256": "1b625x995ginp80q08wxwl2jlvdf7knlg9b9hcxbjzxrcr7zribj",
     "type": "tarball",
-    "url": "https://github.com/dedukun/relative-motions.yazi/archive/44c4c1c38d9c1b9e7b4d7715496f8d7cb1135a44.tar.gz",
+    "url": "https://github.com/dedukun/relative-motions.yazi/archive/df97039a04595a40a11024f321a865b3e9af5092.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "rich-preview.yazi": {

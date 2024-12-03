@@ -252,13 +252,13 @@
         sha512 = "2N3BOUU4gYMpTP24s5rF5iP7BDr7uNTCs4ozw3kf/eKfvWSIu93GEBi5m427YoyJoeOzQ5smuu4nNAPGb8idSQ==";
       };
     };
-    "dotenv-16.4.5" = {
+    "dotenv-16.4.7" = {
       name = "dotenv";
       packageName = "dotenv";
-      version = "16.4.5";
+      version = "16.4.7";
       src = fetchurl {
-        url = "https://registry.npmjs.org/dotenv/-/dotenv-16.4.5.tgz";
-        sha512 = "ZmdL2rui+eB2YwhsWzjInR8LldtZHGDoQ1ugH85ppHKwpUHL7j7rN0Ti9NCnGiQbhaZ11FpR+7ao1dNsmduNUg==";
+        url = "https://registry.npmjs.org/dotenv/-/dotenv-16.4.7.tgz";
+        sha512 = "47qPchRCykZC03FhkYAhrvwU4xDBFIj1QPqaarj6mdM/hgUzfPHcpkHJOn3mJAufFeeAxAzeGsr5X0M4k6fLZQ==";
       };
     };
     "emmet-2.4.11" = {
@@ -991,7 +991,7 @@ in {
       sources."cross-spawn-7.0.6"
       sources."defu-6.1.4"
       sources."destr-2.0.3"
-      sources."dotenv-16.4.5"
+      sources."dotenv-16.4.7"
       sources."emmet-2.4.11"
       sources."escalade-3.2.0"
       sources."execa-8.0.1"
