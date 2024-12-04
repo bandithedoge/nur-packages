@@ -21,13 +21,13 @@
   };
   equalizer = {
     pname = "equalizer";
-    version = "0.4.3";
+    version = "0.4.5";
     src = fetchFromGitHub {
       owner = "ZL-Audio";
       repo = "ZLEqualizer";
-      rev = "0.4.3";
+      rev = "0.4.5";
       fetchSubmodules = true;
-      sha256 = "sha256-da5ytIhbHcIgb/28anL0cts6/TihfIzWX8B5DK4N74Q=";
+      sha256 = "sha256-M7b0ADgIhLtfjwFhw7F8EU31BHQRxFQQY1u6AE9yXJY=";
     };
   };
   inflator = {

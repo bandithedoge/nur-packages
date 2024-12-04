@@ -41,10 +41,10 @@
     "homepage": null,
     "owner": "dedukun",
     "repo": "bookmarks.yazi",
-    "rev": "e755ebc1e61335fb0a8056152f0aebb46a2dc972",
-    "sha256": "1q6xya7bdwa2ja3rv0scfx7igqcwfbc0gd2vwy2j2h0r537x293i",
+    "rev": "20ece7e1ef3c8180f199cc311f187b662662bc87",
+    "sha256": "1b2swy9a0qinsg4db3nl9axgyf6d5xyspni7wnky8chyh2jhg6ha",
     "type": "tarball",
-    "url": "https://github.com/dedukun/bookmarks.yazi/archive/e755ebc1e61335fb0a8056152f0aebb46a2dc972.tar.gz",
+    "url": "https://github.com/dedukun/bookmarks.yazi/archive/20ece7e1ef3c8180f199cc311f187b662662bc87.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "bypass.yazi": {

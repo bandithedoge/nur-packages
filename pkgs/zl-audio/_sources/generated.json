@@ -33,12 +33,12 @@
       "name": null,
       "owner": "ZL-Audio",
       "repo": "ZLEqualizer",
-      "rev": "0.4.3",
-      "sha256": "sha256-da5ytIhbHcIgb/28anL0cts6/TihfIzWX8B5DK4N74Q=",
+      "rev": "0.4.5",
+      "sha256": "sha256-M7b0ADgIhLtfjwFhw7F8EU31BHQRxFQQY1u6AE9yXJY=",
       "sparseCheckout": [],
       "type": "github"
     },
-    "version": "0.4.3"
+    "version": "0.4.5"
   },
   "inflator": {
     "cargoLocks": null,
