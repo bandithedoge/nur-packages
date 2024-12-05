@@ -21,17 +21,17 @@
   };
   clap-juce-extensions = {
     pname = "clap-juce-extensions";
-    version = "24e70f7f7cde2842528bb66ff50260b1dc0f4dae";
+    version = "e3c3abe3b285acccabc8ed4f770a6636e4576690";
     src = fetchgit {
       url = "https://github.com/free-audio/clap-juce-extensions";
-      rev = "24e70f7f7cde2842528bb66ff50260b1dc0f4dae";
+      rev = "e3c3abe3b285acccabc8ed4f770a6636e4576690";
       fetchSubmodules = true;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [];
-      sha256 = "sha256-PgOk3nBMFz0A2iC7KuvwlayDiklJTU68e5hpacE2jJM=";
+      sha256 = "sha256-bv2iOx6kxjIu31zngvART7u1Zoo4CAKUpwuk8S6eMfE=";
     };
-    date = "2024-07-17";
+    date = "2024-12-04";
   };
   juce-7_0_12 = {
     pname = "juce-7_0_12";

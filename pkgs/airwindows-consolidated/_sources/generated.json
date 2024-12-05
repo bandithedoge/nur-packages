@@ -21,7 +21,7 @@
   },
   "clap-juce-extensions": {
     "cargoLocks": null,
-    "date": "2024-07-17",
+    "date": "2024-12-04",
     "extract": null,
     "name": "clap-juce-extensions",
     "passthru": null,
@@ -31,13 +31,13 @@
       "fetchSubmodules": true,
       "leaveDotGit": false,
       "name": null,
-      "rev": "24e70f7f7cde2842528bb66ff50260b1dc0f4dae",
-      "sha256": "sha256-PgOk3nBMFz0A2iC7KuvwlayDiklJTU68e5hpacE2jJM=",
+      "rev": "e3c3abe3b285acccabc8ed4f770a6636e4576690",
+      "sha256": "sha256-bv2iOx6kxjIu31zngvART7u1Zoo4CAKUpwuk8S6eMfE=",
       "sparseCheckout": [],
       "type": "git",
       "url": "https://github.com/free-audio/clap-juce-extensions"
     },
-    "version": "24e70f7f7cde2842528bb66ff50260b1dc0f4dae"
+    "version": "e3c3abe3b285acccabc8ed4f770a6636e4576690"
   },
   "juce-7_0_12": {
     "cargoLocks": null,
