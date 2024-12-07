@@ -202,7 +202,7 @@
   },
   "results": {
     "cargoLocks": null,
-    "date": "2024-08-22",
+    "date": "2024-12-07",
     "extract": null,
     "name": "results",
     "passthru": null,
@@ -212,13 +212,13 @@
       "fetchSubmodules": false,
       "leaveDotGit": false,
       "name": null,
-      "rev": "71d404b314479a6205bfd050f4fe5fe49cdafc69",
-      "sha256": "sha256-g8A5uNQ9cdjDqdBeLVfpOTVApDyM5Ek5a7B0OqOCX2A=",
+      "rev": "df8113dda4c2d74d460a8fa98252b0b771bf1f27",
+      "sha256": "sha256-KbNqt0FMuzDF4X+XM6JEaZJBypLDnvVPpnBpE7Sq6sA=",
       "sparseCheckout": [],
       "type": "git",
       "url": "https://github.com/arnetheduck/nim-results"
     },
-    "version": "71d404b314479a6205bfd050f4fe5fe49cdafc69"
+    "version": "df8113dda4c2d74d460a8fa98252b0b771bf1f27"
   },
   "serialization": {
     "cargoLocks": null,

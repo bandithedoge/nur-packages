@@ -144,17 +144,17 @@
   };
   results = {
     pname = "results";
-    version = "71d404b314479a6205bfd050f4fe5fe49cdafc69";
+    version = "df8113dda4c2d74d460a8fa98252b0b771bf1f27";
     src = fetchgit {
       url = "https://github.com/arnetheduck/nim-results";
-      rev = "71d404b314479a6205bfd050f4fe5fe49cdafc69";
+      rev = "df8113dda4c2d74d460a8fa98252b0b771bf1f27";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [];
-      sha256 = "sha256-g8A5uNQ9cdjDqdBeLVfpOTVApDyM5Ek5a7B0OqOCX2A=";
+      sha256 = "sha256-KbNqt0FMuzDF4X+XM6JEaZJBypLDnvVPpnBpE7Sq6sA=";
     };
-    date = "2024-08-22";
+    date = "2024-12-07";
   };
   serialization = {
     pname = "serialization";
