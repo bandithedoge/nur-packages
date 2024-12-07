@@ -29,10 +29,10 @@
     "homepage": "",
     "owner": "hankertrix",
     "repo": "augment-command.yazi",
-    "rev": "6ade375d13adf9da0418de7d3fd1f8397f693fa6",
-    "sha256": "1vdan87h23hrfch888h7h00mka2wqf65nfz07vvli58hdm5alk96",
+    "rev": "011489a2a881742c88aed235972031f7d8e572d0",
+    "sha256": "11lbb4s9xg817hnsi75678prih5c518k93pja2hccsvzsnkr9fkh",
     "type": "tarball",
-    "url": "https://github.com/hankertrix/augment-command.yazi/archive/6ade375d13adf9da0418de7d3fd1f8397f693fa6.tar.gz",
+    "url": "https://github.com/hankertrix/augment-command.yazi/archive/011489a2a881742c88aed235972031f7d8e572d0.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "bookmarks.yazi": {
@@ -113,10 +113,10 @@
     "homepage": "",
     "owner": "Reledia",
     "repo": "glow.yazi",
-    "rev": "388e847dca6497cf5903f26ca3b87485b2de4680",
-    "sha256": "1igmq0rp84p4nf10awz6g65pj400qsyqyygq6gna2wvivsapk8kw",
+    "rev": "c2ed51ed8c4ba965b793adab5868a307ab375c8a",
+    "sha256": "1g8725vcadzilf09hi44yrfzxs4kyi4n91fxm0x48vmzbv8gv3c5",
     "type": "tarball",
-    "url": "https://github.com/Reledia/glow.yazi/archive/388e847dca6497cf5903f26ca3b87485b2de4680.tar.gz",
+    "url": "https://github.com/Reledia/glow.yazi/archive/c2ed51ed8c4ba965b793adab5868a307ab375c8a.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "hexyl.yazi": {
@@ -125,10 +125,10 @@
     "homepage": null,
     "owner": "Reledia",
     "repo": "hexyl.yazi",
-    "rev": "ccc0a4a959bea14dbe8f2b243793aacd697e34e2",
-    "sha256": "1j37zblqsaz3ss6id42lsc2qw5h2vffl5ic9jlwjdd8q0drckczn",
+    "rev": "39d3d4e23ad7cec8888f648ddf55af4386950ce7",
+    "sha256": "0v6ir87ddwri8dkfy1lk16a0y127gwv6al2plwzskf55f4pygjcy",
     "type": "tarball",
-    "url": "https://github.com/Reledia/hexyl.yazi/archive/ccc0a4a959bea14dbe8f2b243793aacd697e34e2.tar.gz",
+    "url": "https://github.com/Reledia/hexyl.yazi/archive/39d3d4e23ad7cec8888f648ddf55af4386950ce7.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "lazygit.yazi": {

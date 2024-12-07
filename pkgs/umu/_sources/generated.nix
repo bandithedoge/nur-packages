@@ -7,15 +7,15 @@
 }: {
   umu = {
     pname = "umu";
-    version = "1c3dd941402a782dc9d3582ba6aaac00f5e498e0";
+    version = "562e3900eebde0fb276dd2f425c097c8b44ccb92";
     src = fetchgit {
       url = "https://github.com/Open-Wine-Components/umu-launcher";
-      rev = "1c3dd941402a782dc9d3582ba6aaac00f5e498e0";
+      rev = "562e3900eebde0fb276dd2f425c097c8b44ccb92";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [];
-      sha256 = "sha256-+kQb8wfQ6+73gVkJ3NDkHge1XUUDbounCxmG35GlcJY=";
+      sha256 = "sha256-KVpe03nlfvYnZo5EphvOjS4T3CcpQIUcFHGrY6J8Frs=";
     };
     date = "2024-12-06";
   };
