@@ -31,7 +31,7 @@ pkgs.stdenv.mkDerivation rec {
     cp -r squeezer-linux64-standalone_${version}/squeezer $out/bin
   '';
 
-  meta = with pkgs.lib;{
+  meta = with pkgs.lib; {
     description = "Flexible general-purpose audio compressor with a touch of citrus";
     homepage = "https://github.com/mzuther/Squeezer";
     license = licenses.gpl3Only;
