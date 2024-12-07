@@ -12,6 +12,7 @@
     actuate = callPackage' ./actuate;
     aida-x = callPackage' ./aida-x;
     airwindows-consolidated = callPackage' ./airwindows-consolidated;
+    arboreal = callPackages ./arboreal;
     audible-planets-bin = callPackage' ./audible-planets-bin;
     basiliskii-bin = callPackage' ./basiliskii-bin;
     bitdos-bin = callPackage' ./bitdos-bin;
