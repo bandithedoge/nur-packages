@@ -317,10 +317,10 @@
     "homepage": "",
     "owner": "stevearc",
     "repo": "conform.nvim",
-    "rev": "02fd64fb3d4b18ec029c0e0683c3dc3ec6d2c5b8",
-    "sha256": "05c5mqxrcx6w6llcdr019638rkmppynblmi3rg1zd4j7xb60xawz",
+    "rev": "e76afe8f7976071fae308e31bf426f557a8ef339",
+    "sha256": "1k3q9gqx78snggi28rly3y0zdbm5naxh75m9wy0zlpbrzb19878k",
     "type": "tarball",
-    "url": "https://github.com/stevearc/conform.nvim/archive/02fd64fb3d4b18ec029c0e0683c3dc3ec6d2c5b8.tar.gz",
+    "url": "https://github.com/stevearc/conform.nvim/archive/e76afe8f7976071fae308e31bf426f557a8ef339.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "coq_nvim": {
@@ -605,10 +605,10 @@
     "homepage": null,
     "owner": "ibhagwan",
     "repo": "fzf-lua",
-    "rev": "fca198e2abd2db6600b25443bc70ee7f342aa217",
-    "sha256": "0mclh30w0jfidll6hqiq62ssyk2qv0gk40raq7zrkbxkad91yra8",
+    "rev": "b0b6ca4b3607db4cbc74e7e8199cd628cb6fbeee",
+    "sha256": "0apx774dlbxlbznr41qc0kywjrv1yig7p0cccag17bm2lrbfj5cm",
     "type": "tarball",
-    "url": "https://github.com/ibhagwan/fzf-lua/archive/fca198e2abd2db6600b25443bc70ee7f342aa217.tar.gz",
+    "url": "https://github.com/ibhagwan/fzf-lua/archive/b0b6ca4b3607db4cbc74e7e8199cd628cb6fbeee.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "galaxyline.nvim": {
