@@ -24,5 +24,6 @@ pkgs.stdenv.mkDerivation {
     homepage = "https://github.com/ArdenButterfield/Maim";
     license = licenses.gpl3Only;
     platforms = ["x86_64-linux"];
+    sourceProvenance = [sourceTypes.binaryNativeCode];
   };
 }

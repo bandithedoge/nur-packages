@@ -30,6 +30,7 @@
         {
           license = licenses.unfree;
           platforms = ["x86_64-linux"];
+          sourceProvenance = [sourceTypes.binaryNativeCode];
         }
         // meta;
     };

@@ -24,5 +24,6 @@ pkgs.stdenv.mkDerivation {
     homepage = "https://github.com/liuanlin-mx/MXTune";
     license = licenses.gpl3Only;
     platforms = ["x86_64-linux"];
+    sourceProvenance = [sourceTypes.binaryNativeCode];
   };
 }
