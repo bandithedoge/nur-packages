@@ -54,6 +54,7 @@
     luaPackages = callPackages' ./luaPackages;
     luakit = callPackage' ./luakit;
     lv2vst = callPackage' ./lv2vst;
+    maim-bin = callPackage' ./maim-bin;
     mesonlsp-bin = callPackage' ./mesonlsp-bin;
     microbiome-bin = callPackage' ./microbiome-bin;
     misstrhortion = callPackage' ./misstrhortion;
