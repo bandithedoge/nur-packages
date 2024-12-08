@@ -1,19 +1,21 @@
 {pkgs, ...}: let
-  callPackage' = pkg:
-    pkgs.callPackage pkg {
-      inherit pkgs callPackage';
-      sources = pkgs.callPackage (pkg + "/_sources/generated.nix") {};
-      utils = callPackage' ../utils;
-    };
+  callPackageArgs = pkg: {
+    inherit pkgs callPackage';
+    sources = pkgs.callPackage (pkg + "/_sources/generated.nix") {};
+    utils = callPackage' ../utils;
+  };
 
-  callPackages = pkg: pkgs.lib.recurseIntoAttrs (callPackage' pkg);
+  callPackage' = pkg:
+    pkgs.callPackage pkg (callPackageArgs pkg);
+
+  callPackages' = pkg: pkgs.callPackages pkg (callPackageArgs pkg);
 
   packages = {
     actuate = callPackage' ./actuate;
     aida-x = callPackage' ./aida-x;
     airwindows-consolidated = callPackage' ./airwindows-consolidated;
-    apisonic = callPackages ./apisonic;
-    arboreal = callPackages ./arboreal;
+    apisonic = callPackages' ./apisonic;
+    arboreal = callPackages' ./arboreal;
     audible-planets-bin = callPackage' ./audible-planets-bin;
     basiliskii-bin = callPackage' ./basiliskii-bin;
     bitdos-bin = callPackage' ./bitdos-bin;
@@ -31,16 +33,16 @@
     distrho-ports = callPackage' ./distrho-ports;
     dpf-plugins = callPackage' ./dpf-plugins;
     dsp56300 = callPackage' ./dsp56300;
-    emacsPackages = callPackages ./emacsPackages;
+    emacsPackages = callPackages' ./emacsPackages;
     fennel-language-server = callPackage' ./fennel-language-server;
     firefly-synth = callPackage' ./firefly-synth;
-    firefoxAddons = callPackages ./firefoxAddons;
-    flexipatch = callPackages ./flexipatch;
+    firefoxAddons = callPackages' ./firefoxAddons;
+    flexipatch = callPackages' ./flexipatch;
     geonkick = callPackage' ./geonkick;
     giada = callPackage' ./giada;
     gnomedistort2 = callPackage' ./gnomedistort2;
     guitarix-vst-bin = callPackage' ./guitarix-vst-bin;
-    haskellPackages = callPackages ./haskellPackages;
+    haskellPackages = callPackages' ./haskellPackages;
     hera = callPackage' ./hera;
     hise = callPackage' ./hise;
     hvcc = callPackage' ./hvcc;
@@ -49,7 +51,7 @@
     keepmenu = callPackage' ./keepmenu;
     kiwmi = callPackage' ./kiwmi;
     lamb = callPackage' ./lamb;
-    luaPackages = callPackages ./luaPackages;
+    luaPackages = callPackages' ./luaPackages;
     luakit = callPackage' ./luakit;
     lv2vst = callPackage' ./lv2vst;
     mesonlsp-bin = callPackage' ./mesonlsp-bin;
@@ -58,7 +60,7 @@
     modstems = callPackage' ./modstems;
     musique = callPackage' ./musique;
     nimlangserver = callPackage' ./nimlangserver;
-    nodePackages = callPackages ./nodePackages;
+    nodePackages = callPackages' ./nodePackages;
     octasine = callPackage' ./octasine;
     onagre = callPackage' ./onagre;
     panacea-bin = callPackage' ./panacea-bin;
@@ -66,7 +68,7 @@
     powertab = callPackage' ./powertab;
     propertree = callPackage' ./propertree;
     protrekkr = callPackage' ./protrekkr;
-    pythonPackages = callPackages ./pythonPackages;
+    pythonPackages = callPackages' ./pythonPackages;
     raze = callPackage' ./raze;
     roomreverb = callPackage' ./roomreverb;
     satty = callPackage' ./satty;
@@ -77,21 +79,21 @@
     showmidi-bin = callPackage' ./showmidi-bin;
     squeezer-bin = callPackage' ./squeezer-bin;
     symbols-nerd-font = callPackage' ./symbols-nerd-font;
-    tal = callPackages ./tal;
-    tonelib = callPackages ./tonelib;
+    tal = callPackages' ./tal;
+    tonelib = callPackages' ./tonelib;
     tonez = callPackage' ./tonez;
-    treeSitterGrammars = callPackages ./treeSitterGrammars;
-    u-he = callPackages ./u-he;
+    treeSitterGrammars = callPackages' ./treeSitterGrammars;
+    u-he = callPackages' ./u-he;
     uhhyou = callPackage' ./uhhyou;
     umu = callPackage' ./umu;
     vgmtrans = callPackage' ./vgmtrans;
-    vimPlugins = callPackages ./vimPlugins;
+    vimPlugins = callPackages' ./vimPlugins;
     waterfox-bin = callPackage' ./waterfox-bin;
     white-elephant-audio = callPackage' ./white-elephant-audio;
-    xplrPlugins = callPackages ./xplrPlugins;
-    yaziPlugins = callPackages ./yaziPlugins;
+    xplrPlugins = callPackages' ./xplrPlugins;
+    yaziPlugins = callPackages' ./yaziPlugins;
     ysfx = callPackage' ./ysfx;
-    zl-audio = callPackages ./zl-audio;
+    zl-audio = callPackages' ./zl-audio;
     zrythm = callPackage' ./zrythm;
   };
 in
