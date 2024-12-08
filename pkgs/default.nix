@@ -60,6 +60,7 @@
     misstrhortion = callPackage' ./misstrhortion;
     modstems = callPackage' ./modstems;
     musique = callPackage' ./musique;
+    mxtune-bin = callPackage' ./mxtune-bin;
     nimlangserver = callPackage' ./nimlangserver;
     nodePackages = callPackages' ./nodePackages;
     octasine = callPackage' ./octasine;
