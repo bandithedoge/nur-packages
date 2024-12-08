@@ -42,6 +42,7 @@
     giada = callPackage' ./giada;
     gnomedistort2 = callPackage' ./gnomedistort2;
     guitarix-vst-bin = callPackage' ./guitarix-vst-bin;
+    guitarml = callPackages' ./guitarml;
     haskellPackages = callPackages' ./haskellPackages;
     hera = callPackage' ./hera;
     hise = callPackage' ./hise;
