@@ -83,6 +83,7 @@
     squeezer-bin = callPackage' ./squeezer-bin;
     symbols-nerd-font = callPackage' ./symbols-nerd-font;
     tal = callPackages' ./tal;
+    thorium-bin = callPackage' ./thorium-bin;
     tonelib = callPackages' ./tonelib;
     tonez = callPackage' ./tonez;
     treeSitterGrammars = callPackages' ./treeSitterGrammars;
