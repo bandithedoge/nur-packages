@@ -87,6 +87,7 @@
     u-he = callPackages' ./u-he;
     uhhyou = callPackage' ./uhhyou;
     umu = callPackage' ./umu;
+    venn = callPackages' ./venn;
     vgmtrans = callPackage' ./vgmtrans;
     vimPlugins = callPackages' ./vimPlugins;
     waterfox-bin = callPackage' ./waterfox-bin;
