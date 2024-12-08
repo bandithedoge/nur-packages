@@ -605,10 +605,10 @@
     "homepage": null,
     "owner": "ibhagwan",
     "repo": "fzf-lua",
-    "rev": "6b828622b9cf7364af52ce67dd97ba081b6a680e",
-    "sha256": "1872wplm1vj29jr46h7rs51s4h910rch1vp78b1jr0bd12mbiw12",
+    "rev": "fca198e2abd2db6600b25443bc70ee7f342aa217",
+    "sha256": "0mclh30w0jfidll6hqiq62ssyk2qv0gk40raq7zrkbxkad91yra8",
     "type": "tarball",
-    "url": "https://github.com/ibhagwan/fzf-lua/archive/6b828622b9cf7364af52ce67dd97ba081b6a680e.tar.gz",
+    "url": "https://github.com/ibhagwan/fzf-lua/archive/fca198e2abd2db6600b25443bc70ee7f342aa217.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "galaxyline.nvim": {
@@ -1310,10 +1310,10 @@
     "homepage": "",
     "owner": "neovim",
     "repo": "nvim-lspconfig",
-    "rev": "47f236c058f0511702286a21ba53bbf42abbd8a8",
-    "sha256": "1pqwnr0c861rjd1ckp0v7ihva6v1y1v1drq2c63wyrh06fmgdk2x",
+    "rev": "fc16fd4f9c5d72b45db0f45ee275db3a9a30481a",
+    "sha256": "1jriaindyc1mk2vqxn5wsds0zsqjsmsr302qb72262z0jg1ix5aa",
     "type": "tarball",
-    "url": "https://github.com/neovim/nvim-lspconfig/archive/47f236c058f0511702286a21ba53bbf42abbd8a8.tar.gz",
+    "url": "https://github.com/neovim/nvim-lspconfig/archive/fc16fd4f9c5d72b45db0f45ee275db3a9a30481a.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "nvim-luaref": {
