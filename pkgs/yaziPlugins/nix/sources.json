@@ -341,10 +341,10 @@
     "homepage": "",
     "owner": "Tyarel8",
     "repo": "video-ffmpeg.yazi",
-    "rev": "fe26a18f9b32880e10b686df5c4559d9af2bce6b",
-    "sha256": "148wpi8nfxs6ldzh2k2n7346nmz0xl40ci5qpx1mr6inbss1x2rw",
+    "rev": "1250b85f2eef2db8a544a641b095e493ad072bb0",
+    "sha256": "1i2l91wxsagypg53gv8fkx9ijkqz1k1ypdvr5sj3fjc8w5ryxxb7",
     "type": "tarball",
-    "url": "https://github.com/Tyarel8/video-ffmpeg.yazi/archive/fe26a18f9b32880e10b686df5c4559d9af2bce6b.tar.gz",
+    "url": "https://github.com/Tyarel8/video-ffmpeg.yazi/archive/1250b85f2eef2db8a544a641b095e493ad072bb0.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "what-size.yazi": {
