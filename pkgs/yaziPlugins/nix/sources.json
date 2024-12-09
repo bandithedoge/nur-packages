@@ -5,10 +5,10 @@
     "homepage": "",
     "owner": "Sonico98",
     "repo": "allmytoes.yazi",
-    "rev": "e5329138a19615e63bff6a581eb69d1d1eb5d4fe",
-    "sha256": "1l68n3kdlpp08gnn1dr9c9vn8q4wpc4rm6wwzmgyqx730j7brlsb",
+    "rev": "a9870513d935680c2d59da7d59b3f91660e2729d",
+    "sha256": "113ls0iijiwqn7c4j67hmfbvm8z5kdh3z4f3yy13jqx5kh3xcpk5",
     "type": "tarball",
-    "url": "https://github.com/Sonico98/allmytoes.yazi/archive/e5329138a19615e63bff6a581eb69d1d1eb5d4fe.tar.gz",
+    "url": "https://github.com/Sonico98/allmytoes.yazi/archive/a9870513d935680c2d59da7d59b3f91660e2729d.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "archivemount.yazi": {
@@ -77,10 +77,10 @@
     "homepage": null,
     "owner": "Sonico98",
     "repo": "exifaudio.yazi",
-    "rev": "855ff055c11fb8f268b4c006a8bd59dd9bcf17a7",
-    "sha256": "09w84v4kb2kycrrj8nvzfxcwmlnx4s3isrigw4lbnbjkshdn5zgi",
+    "rev": "d7946141c87a23dcc6fb3b2730a287faf3154593",
+    "sha256": "0gn5isxmx7g0429x1nxp4ryaaxxn3mzk5mfvn9pjwmlgdqy72w4x",
     "type": "tarball",
-    "url": "https://github.com/Sonico98/exifaudio.yazi/archive/855ff055c11fb8f268b4c006a8bd59dd9bcf17a7.tar.gz",
+    "url": "https://github.com/Sonico98/exifaudio.yazi/archive/d7946141c87a23dcc6fb3b2730a287faf3154593.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "eza-preview.yazi": {
@@ -221,10 +221,10 @@
     "homepage": "",
     "owner": "MasouShizuka",
     "repo": "projects.yazi",
-    "rev": "c1f9d1c9440b0e85d97a40cc2cc866e0c07be38d",
-    "sha256": "1cnv4q61xy3vz99c1d652zin497bcryd08lwpdmj1w3lh9lgz9dy",
+    "rev": "ba8d00b2202368ac837fffb93e38a427f9e52258",
+    "sha256": "0jvl8kf092f4cw9yh6kjx5kfp6g73dd85139dl7nbal8hppx5vf7",
     "type": "tarball",
-    "url": "https://github.com/MasouShizuka/projects.yazi/archive/c1f9d1c9440b0e85d97a40cc2cc866e0c07be38d.tar.gz",
+    "url": "https://github.com/MasouShizuka/projects.yazi/archive/ba8d00b2202368ac837fffb93e38a427f9e52258.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "reflink.yazi": {

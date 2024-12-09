@@ -605,10 +605,10 @@
     "homepage": null,
     "owner": "ibhagwan",
     "repo": "fzf-lua",
-    "rev": "b0b6ca4b3607db4cbc74e7e8199cd628cb6fbeee",
-    "sha256": "0apx774dlbxlbznr41qc0kywjrv1yig7p0cccag17bm2lrbfj5cm",
+    "rev": "0063769312e913b5de9f2db21285d806dcf4efcb",
+    "sha256": "14awics36c15g7gzv0059xwppn7isxk2fsn9bma519pl80zqpzn8",
     "type": "tarball",
-    "url": "https://github.com/ibhagwan/fzf-lua/archive/b0b6ca4b3607db4cbc74e7e8199cd628cb6fbeee.tar.gz",
+    "url": "https://github.com/ibhagwan/fzf-lua/archive/0063769312e913b5de9f2db21285d806dcf4efcb.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "galaxyline.nvim": {
