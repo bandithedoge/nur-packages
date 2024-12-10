@@ -193,12 +193,12 @@
       "name": null,
       "owner": "nitely",
       "repo": "nim-regex",
-      "rev": "v0.25.0",
-      "sha256": "sha256-H04fpa5zpLFAY8gScQ6rYt8TYKmtlQus2O0EoXcu970=",
+      "rev": "v0.26.0",
+      "sha256": "sha256-5YjPkUZc1Xho1KAqH1BamZEuL7SRKtQ5aKuixA+cDCM=",
       "sparseCheckout": [],
       "type": "github"
     },
-    "version": "v0.25.0"
+    "version": "v0.26.0"
   },
   "results": {
     "cargoLocks": null,

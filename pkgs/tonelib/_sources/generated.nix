@@ -7,7 +7,7 @@
 }: {
   bassdrive = {
     pname = "bassdrive";
-    version = "2.0.0";
+    version = "2.1.0";
     src = fetchurl {
       url = "https://www.tonelib.net/download/ToneLib-BassDrive-amd64.deb";
       sha256 = "sha256-Yqo3nbW6u8pp+oD3uCiqkU+rIv7TN0NHuxAdiC/Apyw=";

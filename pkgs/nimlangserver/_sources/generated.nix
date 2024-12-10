@@ -133,13 +133,13 @@
   };
   regex = {
     pname = "regex";
-    version = "v0.25.0";
+    version = "v0.26.0";
     src = fetchFromGitHub {
       owner = "nitely";
       repo = "nim-regex";
-      rev = "v0.25.0";
+      rev = "v0.26.0";
       fetchSubmodules = false;
-      sha256 = "sha256-H04fpa5zpLFAY8gScQ6rYt8TYKmtlQus2O0EoXcu970=";
+      sha256 = "sha256-5YjPkUZc1Xho1KAqH1BamZEuL7SRKtQ5aKuixA+cDCM=";
     };
   };
   results = {
