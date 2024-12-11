@@ -113,5 +113,8 @@
   },
   {
     "slug": "skip-redirect"
+  },
+  {
+    "slug": "search_by_image"
   }
 ]
