@@ -1325,6 +1325,34 @@
       platforms = platforms.all;
     };
   };
+  "search_by_image" = buildFirefoxXpiAddon {
+    pname = "search_by_image";
+    version = "7.1.0";
+    addonId = "{2e5ff8c8-32fe-46d0-9fc8-6b8986621f3c}";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4309046/search_by_image-7.1.0.xpi";
+    sha256 = "5255f873a71331bb466e32712adc650a1fb6343b4011faddb8646f3ab2abefae";
+    meta = with lib; {
+      homepage = "https://github.com/dessant/search-by-image#readme";
+      description = "A powerful reverse image search tool, with support for various search engines, such as Google, Bing, Yandex, Baidu and TinEye.";
+      license = licenses.gpl3;
+      mozPermissions = [
+        "alarms"
+        "contextMenus"
+        "storage"
+        "unlimitedStorage"
+        "tabs"
+        "activeTab"
+        "notifications"
+        "webRequest"
+        "webRequestBlocking"
+        "<all_urls>"
+        "http://*/*"
+        "https://*/*"
+        "file:///*"
+      ];
+      platforms = platforms.all;
+    };
+  };
   "sidebery" = buildFirefoxXpiAddon {
     pname = "sidebery";
     version = "5.2.0";
@@ -1347,6 +1375,27 @@
         "menus.overrideContext"
         "search"
         "theme"
+      ];
+      platforms = platforms.all;
+    };
+  };
+  "skip-redirect" = buildFirefoxXpiAddon {
+    pname = "skip-redirect";
+    version = "2.3.6";
+    addonId = "skipredirect@sblask";
+    url = "https://addons.mozilla.org/firefox/downloads/file/3920533/skip_redirect-2.3.6.xpi";
+    sha256 = "dbe8950245c1f475c5c1c6daab89c79b83ba4680621c91e80f15be7b09b618ae";
+    meta = with lib; {
+      description = "Some web pages use intermediary pages before redirecting to a final page. This add-on tries to extract the final url from the intermediary url and goes there straight away if successful.";
+      license = licenses.mit;
+      mozPermissions = [
+        "<all_urls>"
+        "clipboardWrite"
+        "contextMenus"
+        "notifications"
+        "storage"
+        "webRequest"
+        "webRequestBlocking"
       ];
       platforms = platforms.all;
     };
