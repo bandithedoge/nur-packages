@@ -13,11 +13,11 @@
       "name": null,
       "owner": "Geonkick-Synthesizer",
       "repo": "geonkick",
-      "rev": "v3.5.0",
-      "sha256": "sha256-bqdqAr4NX5WZ6zp0Kq7GFHiy/JkBvDvzuZz7jxtru0Q=",
+      "rev": "v3.5.1",
+      "sha256": "sha256-4nJ4yn64C44ExduPX2Iypf9Rw9MlAXFkmX5KZxySPSs=",
       "sparseCheckout": [],
       "type": "github"
     },
-    "version": "v3.5.0"
+    "version": "v3.5.1"
   }
 }
