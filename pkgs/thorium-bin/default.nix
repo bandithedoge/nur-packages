@@ -8,7 +8,8 @@
   };
 in
   pkgs.appimageTools.wrapType2 {
-    inherit (sources.thorium-bin) pname version src;
+    inherit (sources.thorium-bin) version src;
+    pname = "thorium";
 
     extraInstallCommands = ''
       cp -r ${appimageContents}/usr/share $out/share
