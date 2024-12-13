@@ -108,13 +108,13 @@
         sha512 = "8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==";
       };
     };
-    "bumpp-9.9.0" = {
+    "bumpp-9.9.1" = {
       name = "bumpp";
       packageName = "bumpp";
-      version = "9.9.0";
+      version = "9.9.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/bumpp/-/bumpp-9.9.0.tgz";
-        sha512 = "d6Bv4O26po6gOrrjqDQte4+LxedxW885ZW7gJcNFUwkn9XH+8tKIB80za69SRluWkAgWPmSt7288pkMpzY1lnw==";
+        url = "https://registry.npmjs.org/bumpp/-/bumpp-9.9.1.tgz";
+        sha512 = "M2CnokltfM7kLpYigS9PTAljG5pKng2MBTVpjCIXD+StNvhc+pnO+SYVnQDGjEVXD1fw2/Ofrf7wH45fxovoPg==";
       };
     };
     "c12-2.0.1" = {
@@ -835,7 +835,7 @@ in {
       sources."@vscode/emmet-helper-2.11.0"
       sources."acorn-8.14.0"
       sources."argparse-2.0.1"
-      (sources."bumpp-9.9.0"
+      (sources."bumpp-9.9.1"
         // {
           dependencies = [
             sources."jsonc-parser-3.3.1"

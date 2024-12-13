@@ -53,10 +53,10 @@
     "homepage": "",
     "owner": "Rolv-Apneseth",
     "repo": "bypass.yazi",
-    "rev": "db4c2a764536d0c377bdbeb1017535bb64119f85",
-    "sha256": "0yxm0xi4zmgilz793nx7h18r92jldzz008a78pi0v385wmhr8p88",
+    "rev": "6c5414f532ede57a74687c53fee3409a38746c04",
+    "sha256": "1r5wzh15fr8vdpxhcgqpn7imkyx1ldazgl41rcl5si30si9klccg",
     "type": "tarball",
-    "url": "https://github.com/Rolv-Apneseth/bypass.yazi/archive/db4c2a764536d0c377bdbeb1017535bb64119f85.tar.gz",
+    "url": "https://github.com/Rolv-Apneseth/bypass.yazi/archive/6c5414f532ede57a74687c53fee3409a38746c04.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "compress.yazi": {
