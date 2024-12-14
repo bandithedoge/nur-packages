@@ -1,43 +1,43 @@
 {
-  "hvcc": {
-    "cargoLocks": null,
-    "date": null,
-    "extract": null,
-    "name": "hvcc",
-    "passthru": null,
-    "pinned": false,
-    "src": {
-      "deepClone": false,
-      "fetchSubmodules": false,
-      "leaveDotGit": false,
-      "name": null,
-      "owner": "Wasted-Audio",
-      "repo": "hvcc",
-      "rev": "v0.12.1",
-      "sha256": "sha256-Ir4jqBSnrb+GdhCEw62fGPzgluZVX8Z0VQ0tadhFnpY=",
-      "sparseCheckout": [],
-      "type": "github"
+    "hvcc": {
+        "cargoLocks": null,
+        "date": null,
+        "extract": null,
+        "name": "hvcc",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "Wasted-Audio",
+            "repo": "hvcc",
+            "rev": "v0.13.0",
+            "sha256": "sha256-wa1oxKBRUPR0kZ9j7DaXFuYbaBuob9WQ4QmbQo32IQg=",
+            "sparseCheckout": [],
+            "type": "github"
+        },
+        "version": "v0.13.0"
     },
-    "version": "v0.12.1"
-  },
-  "wstd2daisy": {
-    "cargoLocks": null,
-    "date": "2024-09-20",
-    "extract": null,
-    "name": "wstd2daisy",
-    "passthru": null,
-    "pinned": false,
-    "src": {
-      "deepClone": false,
-      "fetchSubmodules": false,
-      "leaveDotGit": false,
-      "name": null,
-      "rev": "71e2982454d3410c5e4479c2d0dfa575a9826d17",
-      "sha256": "sha256-1QKYx9gocAKKWCP9uEmuhtFWCptCd+vBlga5keBxkzY=",
-      "sparseCheckout": [],
-      "type": "git",
-      "url": "https://github.com/Wasted-Audio/json2daisy"
-    },
-    "version": "71e2982454d3410c5e4479c2d0dfa575a9826d17"
-  }
+    "wstd2daisy": {
+        "cargoLocks": null,
+        "date": "2024-09-20",
+        "extract": null,
+        "name": "wstd2daisy",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "rev": "71e2982454d3410c5e4479c2d0dfa575a9826d17",
+            "sha256": "sha256-1QKYx9gocAKKWCP9uEmuhtFWCptCd+vBlga5keBxkzY=",
+            "sparseCheckout": [],
+            "type": "git",
+            "url": "https://github.com/Wasted-Audio/json2daisy"
+        },
+        "version": "71e2982454d3410c5e4479c2d0dfa575a9826d17"
+    }
 }

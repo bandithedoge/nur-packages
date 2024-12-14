@@ -22,8 +22,11 @@ in
   pythonPkgs.buildPythonPackage {
     inherit (sources.hvcc) pname version src;
 
+    pyproject = true;
+
     dependencies = with pythonPkgs; [
       importlib-resources
+      poetry-core
       pydantic
       wstd2daisy
     ];
