@@ -605,10 +605,10 @@
     "homepage": null,
     "owner": "ibhagwan",
     "repo": "fzf-lua",
-    "rev": "9568a385cb4a682ac20095a39dfcdec357220c07",
-    "sha256": "1cxad9dbvydvyy6dmmm4snvj6is2cpp22klc9wlb308awbffav31",
+    "rev": "8330321fa135f7fa9e4855099026c4ad622a0c85",
+    "sha256": "1nfan894jb67x56n6369q9wnljwh8sly6yynpq0qf0v6chrdzwm3",
     "type": "tarball",
-    "url": "https://github.com/ibhagwan/fzf-lua/archive/9568a385cb4a682ac20095a39dfcdec357220c07.tar.gz",
+    "url": "https://github.com/ibhagwan/fzf-lua/archive/8330321fa135f7fa9e4855099026c4ad622a0c85.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "galaxyline.nvim": {
@@ -689,10 +689,10 @@
     "homepage": "",
     "owner": "MrcJkb",
     "repo": "haskell-tools.nvim",
-    "rev": "61e8b4cd65e86e8e82771ab481a73abce37648c1",
-    "sha256": "0jb8wp403jlk3i3mvbfbndmd3bqh1fab560bvm556ylsxp134zb0",
+    "rev": "943b77b68a79d3991523ba4d373063c9355c6f55",
+    "sha256": "0f8j9x20bs62pnsx4kwklbnrnxqakmfg9xd7742rqfyg03s4v5c1",
     "type": "tarball",
-    "url": "https://github.com/MrcJkb/haskell-tools.nvim/archive/61e8b4cd65e86e8e82771ab481a73abce37648c1.tar.gz",
+    "url": "https://github.com/MrcJkb/haskell-tools.nvim/archive/943b77b68a79d3991523ba4d373063c9355c6f55.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "heirline.nvim": {
@@ -1310,10 +1310,10 @@
     "homepage": "",
     "owner": "neovim",
     "repo": "nvim-lspconfig",
-    "rev": "3da18150795cd0cf2c0efe3c6fe6e142800c14ef",
-    "sha256": "0njm8v0q37vrdgxgwrr8nbgnbw81ly3dhi2k533jq6pqhixlv3wn",
+    "rev": "ae8a01bb40848490548e5d07b97ed972ed43c2f9",
+    "sha256": "05vaqp22g91n5rih1skz3ckryvwvpglq7kghpns3ydvwl46n2dh2",
     "type": "tarball",
-    "url": "https://github.com/neovim/nvim-lspconfig/archive/3da18150795cd0cf2c0efe3c6fe6e142800c14ef.tar.gz",
+    "url": "https://github.com/neovim/nvim-lspconfig/archive/ae8a01bb40848490548e5d07b97ed972ed43c2f9.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "nvim-luaref": {
