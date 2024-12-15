@@ -7,16 +7,16 @@
 }: {
   misstrhortion = {
     pname = "misstrhortion";
-    version = "7504ab4036cc6598b61ba768b2b803a6b3f86178";
+    version = "c3d110fc48b5a867393c435e3722ff1ee4ecd6f4";
     src = fetchgit {
       url = "https://github.com/bandithedoge/misstrhortion";
-      rev = "7504ab4036cc6598b61ba768b2b803a6b3f86178";
+      rev = "c3d110fc48b5a867393c435e3722ff1ee4ecd6f4";
       fetchSubmodules = true;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [];
-      sha256 = "sha256-CN1q8pO8so10o06qKjtJqT8Le/E7RluPoopnjK53XrE=";
+      sha256 = "sha256-ub9cSNj5JlIjPqcPY5StCrqypYqZly2n4663Hd8Ry2g=";
     };
-    date = "2024-11-02";
+    date = "2024-12-14";
   };
 }

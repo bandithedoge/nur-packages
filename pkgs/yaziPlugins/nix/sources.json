@@ -17,10 +17,10 @@
     "homepage": null,
     "owner": "AnirudhG07",
     "repo": "archivemount.yazi",
-    "rev": "e82e38eda858716a1328b5e0c34382547777cb28",
-    "sha256": "0m9mqdq5zcz75k7lriffa0ahh9zq91bb1z9ha27p7aypj0y3hyc0",
+    "rev": "2d78ae4010017dc01d5be70c7fdd2d4f4f1d7b6e",
+    "sha256": "0ncbrd4vr8qd3zs2gkwsqflcm69845qwl8j9616n5048y3i9bw76",
     "type": "tarball",
-    "url": "https://github.com/AnirudhG07/archivemount.yazi/archive/e82e38eda858716a1328b5e0c34382547777cb28.tar.gz",
+    "url": "https://github.com/AnirudhG07/archivemount.yazi/archive/2d78ae4010017dc01d5be70c7fdd2d4f4f1d7b6e.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "augment-command.yazi": {
