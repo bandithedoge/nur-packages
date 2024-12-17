@@ -135,13 +135,13 @@
         sha512 = "b6Ilus+c3RrdDk+JhLKUAQfzzgLEPy6wcXqS7f/xe1EETvsDP6GORG7SFuOs6cID5YkqchW/LXZbX5bc8j7ZcQ==";
       };
     };
-    "chokidar-4.0.1" = {
+    "chokidar-4.0.2" = {
       name = "chokidar";
       packageName = "chokidar";
-      version = "4.0.1";
+      version = "4.0.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/chokidar/-/chokidar-4.0.1.tgz";
-        sha512 = "n8enUVCED/KVRQlab1hr3MVpcVMvxtZjmEa956u+4YijlmQED223XMSYj2tLuKvr4jcCTzNNMpQDUer72MMmzA==";
+        url = "https://registry.npmjs.org/chokidar/-/chokidar-4.0.2.tgz";
+        sha512 = "/b57FK+bblSU+dfewfFe0rT1YjVDfOmeLQwCAuC+vwvgLkXboATqqmy+Ipux6JrF6L5joe5CBnFOw+gLWH6yKg==";
       };
     };
     "chownr-2.0.0" = {
@@ -843,7 +843,7 @@ in {
         })
       sources."c12-2.0.1"
       sources."cac-6.7.14"
-      sources."chokidar-4.0.1"
+      sources."chokidar-4.0.2"
       sources."chownr-2.0.0"
       sources."citty-0.1.6"
       sources."confbox-0.1.8"
