@@ -7,17 +7,17 @@
 }: {
   bling = {
     pname = "bling";
-    version = "19ccfc0daf5edda8bbc508487616d00277a9d954";
+    version = "bcfb671248cf9ff636b7fd7d7120d8ed9deaa395";
     src = fetchgit {
       url = "https://github.com/blingcorp/bling";
-      rev = "19ccfc0daf5edda8bbc508487616d00277a9d954";
+      rev = "bcfb671248cf9ff636b7fd7d7120d8ed9deaa395";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [];
-      sha256 = "sha256-6NZSUb7sSBUegSIPIubQUOZG3knzXfnyfEbCoEyggtc=";
+      sha256 = "sha256-rhhUsXQ3awjFiEHEG0axilSCWS6pR+w74K/pIfEUc5w=";
     };
-    date = "2024-06-02";
+    date = "2024-12-17";
   };
   lua-dbus = {
     pname = "lua-dbus";
