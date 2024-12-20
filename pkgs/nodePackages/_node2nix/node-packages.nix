@@ -135,13 +135,13 @@
         sha512 = "b6Ilus+c3RrdDk+JhLKUAQfzzgLEPy6wcXqS7f/xe1EETvsDP6GORG7SFuOs6cID5YkqchW/LXZbX5bc8j7ZcQ==";
       };
     };
-    "chokidar-4.0.2" = {
+    "chokidar-4.0.3" = {
       name = "chokidar";
       packageName = "chokidar";
-      version = "4.0.2";
+      version = "4.0.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/chokidar/-/chokidar-4.0.2.tgz";
-        sha512 = "/b57FK+bblSU+dfewfFe0rT1YjVDfOmeLQwCAuC+vwvgLkXboATqqmy+Ipux6JrF6L5joe5CBnFOw+gLWH6yKg==";
+        url = "https://registry.npmjs.org/chokidar/-/chokidar-4.0.3.tgz";
+        sha512 = "Qgzu8kfBvo+cA4962jnP1KkS6Dop5NS6g7R5LFYJr4b8Ub94PPQXUksCw9PvXoeXPRRddRNC5C1JQUR2SMGtnA==";
       };
     };
     "chownr-2.0.0" = {
@@ -171,13 +171,13 @@
         sha512 = "RMtmw0iFkeR4YV+fUOSucriAQNb9g8zFR52MWCtl+cCZOFRNL6zeB395vPzFhEjjn4fMxXudmELnl/KF/WrK6w==";
       };
     };
-    "consola-3.2.3" = {
+    "consola-3.3.0" = {
       name = "consola";
       packageName = "consola";
-      version = "3.2.3";
+      version = "3.3.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/consola/-/consola-3.2.3.tgz";
-        sha512 = "I5qxpzLv+sJhTVEoLYNcTW+bThDCPsit0vLNKShZx6rLtpilNpmmeTPaeqJb9ZE9dV3DGaeby6Vuhrw38WjeyQ==";
+        url = "https://registry.npmjs.org/consola/-/consola-3.3.0.tgz";
+        sha512 = "kxltocVQCwQNFvw40dlVRYeAkAvtYjMFZYNlOcsF5wExPpGwPxMwgx4IfDJvBRPtBpnQwItd5WkTaR0ZwT/TmQ==";
       };
     };
     "cross-spawn-7.0.6" = {
@@ -843,11 +843,11 @@ in {
         })
       sources."c12-2.0.1"
       sources."cac-6.7.14"
-      sources."chokidar-4.0.2"
+      sources."chokidar-4.0.3"
       sources."chownr-2.0.0"
       sources."citty-0.1.6"
       sources."confbox-0.1.8"
-      sources."consola-3.2.3"
+      sources."consola-3.3.0"
       sources."cross-spawn-7.0.6"
       sources."defu-6.1.4"
       sources."destr-2.0.3"
