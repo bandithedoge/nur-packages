@@ -149,10 +149,10 @@
     "homepage": "",
     "owner": "Ape",
     "repo": "mediainfo.yazi",
-    "rev": "c69314e80f5b45fe87a0e06a10d064ed54110439",
-    "sha256": "0blb9pdjyhsvr5np23vxyj6q33qxafbhqg0mi5xh12wjs8yl25zk",
+    "rev": "df17c4fc0df7693e8f3c6e5b9eac58a267d7408f",
+    "sha256": "1n4bjaly1lgz7cp0wg6py2i38ipaq2day1lbwcq7l79sj4501ixc",
     "type": "tarball",
-    "url": "https://github.com/Ape/mediainfo.yazi/archive/c69314e80f5b45fe87a0e06a10d064ed54110439.tar.gz",
+    "url": "https://github.com/Ape/mediainfo.yazi/archive/df17c4fc0df7693e8f3c6e5b9eac58a267d7408f.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "miller.yazi": {
@@ -197,10 +197,10 @@
     "homepage": "",
     "owner": "Ape",
     "repo": "open-with-cmd.yazi",
-    "rev": "8d7abc8a347bfa065b6d339d26480f6fdcfac37e",
-    "sha256": "015abnfxjlx58nznsdnh5kfr8i90vb776sd4zj96s3inx725sk5m",
+    "rev": "a80d1cf41fc23f84fbdf0b8b26c5b13f06455472",
+    "sha256": "1y4qdnr9ni4pgggwprxpmd02kf6y2xkvwm3r94il4n5s2dk540i0",
     "type": "tarball",
-    "url": "https://github.com/Ape/open-with-cmd.yazi/archive/8d7abc8a347bfa065b6d339d26480f6fdcfac37e.tar.gz",
+    "url": "https://github.com/Ape/open-with-cmd.yazi/archive/a80d1cf41fc23f84fbdf0b8b26c5b13f06455472.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "ouch.yazi": {
@@ -281,10 +281,10 @@
     "homepage": "",
     "owner": "Ape",
     "repo": "simple-status.yazi",
-    "rev": "709f653ef1564def5c5ab3f4f111b3d1cfc7eebc",
-    "sha256": "10ssjwjz83la695nkb5s0fww70mqhanf5bwbj16alsq901fdqaa9",
+    "rev": "3ef1447d991fd51564185a722be1543e67923d76",
+    "sha256": "12prml03d8dczzlbvx779w3vp521hcpy6w5f1j72kzhvrnlbfnvy",
     "type": "tarball",
-    "url": "https://github.com/Ape/simple-status.yazi/archive/709f653ef1564def5c5ab3f4f111b3d1cfc7eebc.tar.gz",
+    "url": "https://github.com/Ape/simple-status.yazi/archive/3ef1447d991fd51564185a722be1543e67923d76.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "starship.yazi": {
