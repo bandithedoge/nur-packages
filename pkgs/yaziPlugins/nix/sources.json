@@ -29,10 +29,10 @@
     "homepage": "",
     "owner": "hankertrix",
     "repo": "augment-command.yazi",
-    "rev": "f2a8a2f199f8032f12ce8f092632d34a42ba49cb",
-    "sha256": "10kb0m89qjwnml877rszz3yj56gdf3xq40b0ld9pqs6qb66cnk8l",
+    "rev": "6ebd677ac10e69c537cc68550026264afb6e12b2",
+    "sha256": "11dhyhwzdpsp5xv6757acg4yb6nyp628kjfcmih2qj1f4lgvn5w6",
     "type": "tarball",
-    "url": "https://github.com/hankertrix/augment-command.yazi/archive/f2a8a2f199f8032f12ce8f092632d34a42ba49cb.tar.gz",
+    "url": "https://github.com/hankertrix/augment-command.yazi/archive/6ebd677ac10e69c537cc68550026264afb6e12b2.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "bookmarks.yazi": {
@@ -353,10 +353,10 @@
     "homepage": "https://fpira.com",
     "owner": "pirafrank",
     "repo": "what-size.yazi",
-    "rev": "f08f7f2d5c94958ac4cb66c51a7c24b4319c6c93",
-    "sha256": "1ckihyf89qg12m69gf5w5viszwbpr77hhxr6hky0lclkqc1qlh5b",
+    "rev": "2780de5aeef1ed16d1973dd6e0cd4d630c900d56",
+    "sha256": "12kd3dj5mwplc88j4bzf4i8wbpxq89y4b8q24gh0lkql1zp2jk3h",
     "type": "tarball",
-    "url": "https://github.com/pirafrank/what-size.yazi/archive/f08f7f2d5c94958ac4cb66c51a7c24b4319c6c93.tar.gz",
+    "url": "https://github.com/pirafrank/what-size.yazi/archive/2780de5aeef1ed16d1973dd6e0cd4d630c900d56.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "yamb.yazi": {

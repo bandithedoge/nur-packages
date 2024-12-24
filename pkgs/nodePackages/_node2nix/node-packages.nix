@@ -171,13 +171,13 @@
         sha512 = "RMtmw0iFkeR4YV+fUOSucriAQNb9g8zFR52MWCtl+cCZOFRNL6zeB395vPzFhEjjn4fMxXudmELnl/KF/WrK6w==";
       };
     };
-    "consola-3.3.0" = {
+    "consola-3.3.1" = {
       name = "consola";
       packageName = "consola";
-      version = "3.3.0";
+      version = "3.3.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/consola/-/consola-3.3.0.tgz";
-        sha512 = "kxltocVQCwQNFvw40dlVRYeAkAvtYjMFZYNlOcsF5wExPpGwPxMwgx4IfDJvBRPtBpnQwItd5WkTaR0ZwT/TmQ==";
+        url = "https://registry.npmjs.org/consola/-/consola-3.3.1.tgz";
+        sha512 = "GyKnPG3/I+a4RtJxgHquJXWr70g9I3c4NT3dvqh0LPHQP2nZFQBOBszb7a5u/pGzqr40AKplQA6UxM1BSynSXg==";
       };
     };
     "cross-spawn-7.0.6" = {
@@ -847,7 +847,7 @@ in {
       sources."chownr-2.0.0"
       sources."citty-0.1.6"
       sources."confbox-0.1.8"
-      sources."consola-3.3.0"
+      sources."consola-3.3.1"
       sources."cross-spawn-7.0.6"
       sources."defu-6.1.4"
       sources."destr-2.0.3"
