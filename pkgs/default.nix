@@ -10,6 +10,8 @@
 
   callPackages' = pkg: pkgs.callPackages pkg (callPackageArgs pkg);
 
+  concat = pkgs.lib.concatStringsSep ".";
+
   packages = {
     actuate = callPackage' ./actuate;
     aida-x = callPackage' ./aida-x;
@@ -72,7 +74,6 @@
     propertree = callPackage' ./propertree;
     protrekkr = callPackage' ./protrekkr;
     pythonPackages = callPackages' ./pythonPackages;
-    raze = callPackage' ./raze;
     roomreverb = callPackage' ./roomreverb;
     satty = callPackage' ./satty;
     schrammel-ojd = callPackage' ./schrammel-ojd;
@@ -104,8 +105,14 @@
 in
   packages
   // (pkgs.lib.mapAttrsRecursive
-    (old: new: let
-      concat = pkgs.lib.concatStringsSep ".";
-    in
-      pkgs.lib.warn "${concat old} has been renamed to ${concat new}" (pkgs.lib.attrByPath new null packages))
+    (old: new:
+      pkgs.lib.warn
+      "${concat old} has been renamed to ${concat new}"
+      (pkgs.lib.attrByPath new null packages))
     (import ./_renamed.nix))
+  // (pkgs.lib.mapAttrsRecursive
+    (old: new:
+      pkgs.lib.warn
+      "${concat old} has been upstreamed to nixpkgs as ${concat (["pkgs"] ++ new)}"
+      (pkgs.lib.attrByPath new null pkgs))
+    (import ./_upstreamed.nix))
