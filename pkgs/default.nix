@@ -112,6 +112,7 @@ in
     (import ./_renamed.nix))
   // (pkgs.lib.mapAttrsRecursive
     (old: new:
-      builtins.throw
-      "${concat old} has been upstreamed to nixpkgs as ${concat (["pkgs"] ++ new)}")
+      pkgs.lib.warn
+      "${concat old} has been upstreamed to nixpkgs as ${concat (["pkgs"] ++ new)}"
+      (pkgs.lib.attrByPath new null pkgs))
     (import ./_upstreamed.nix))
