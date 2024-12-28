@@ -35,6 +35,7 @@
     distrho-ports = callPackage' ./distrho-ports;
     dpf-plugins = callPackage' ./dpf-plugins;
     dsp56300 = callPackage' ./dsp56300;
+    element = callPackage' ./element;
     emacsPackages = callPackages' ./emacsPackages;
     fennel-language-server = callPackage' ./fennel-language-server;
     firefly-synth = callPackage' ./firefly-synth;
@@ -104,15 +105,9 @@
   };
 in
   packages
-  // (pkgs.lib.mapAttrsRecursive
-    (old: new:
-      pkgs.lib.warn
-      "${concat old} has been renamed to ${concat new}"
-      (pkgs.lib.attrByPath new null packages))
-    (import ./_renamed.nix))
-  // (pkgs.lib.mapAttrsRecursive
-    (old: new:
-      pkgs.lib.warn
-      "${concat old} has been upstreamed to nixpkgs as ${concat (["pkgs"] ++ new)}"
-      (pkgs.lib.attrByPath new null pkgs))
-    (import ./_upstreamed.nix))
+  // pkgs.lib.mapAttrsRecursive
+  (old: new:
+    pkgs.lib.warn
+    "${concat old} has been renamed to ${concat new}"
+    (pkgs.lib.attrByPath new null packages))
+  (import ./_renamed.nix)
