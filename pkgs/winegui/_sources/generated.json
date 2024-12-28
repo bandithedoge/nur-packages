@@ -1,22 +1,22 @@
 {
-    "winegui": {
-        "cargoLocks": null,
-        "date": "2024-12-04",
-        "extract": null,
-        "name": "winegui",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "deepClone": false,
-            "fetchSubmodules": false,
-            "leaveDotGit": false,
-            "name": null,
-            "rev": "519eb30a992a7b308d36e343c6881a443fa1e392",
-            "sha256": "sha256-ZhEClEy3+ft3oi7AE0SkouAEyLH52WPaAyHeLyMv6vw=",
-            "sparseCheckout": [],
-            "type": "git",
-            "url": "https://gitlab.melroy.org/melroy/winegui"
-        },
-        "version": "519eb30a992a7b308d36e343c6881a443fa1e392"
-    }
+  "winegui": {
+    "cargoLocks": null,
+    "date": "2024-12-04",
+    "extract": null,
+    "name": "winegui",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "deepClone": false,
+      "fetchSubmodules": false,
+      "leaveDotGit": false,
+      "name": null,
+      "rev": "519eb30a992a7b308d36e343c6881a443fa1e392",
+      "sha256": "sha256-ZhEClEy3+ft3oi7AE0SkouAEyLH52WPaAyHeLyMv6vw=",
+      "sparseCheckout": [],
+      "type": "git",
+      "url": "https://gitlab.melroy.org/melroy/winegui"
+    },
+    "version": "519eb30a992a7b308d36e343c6881a443fa1e392"
+  }
 }

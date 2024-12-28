@@ -1,22 +1,22 @@
 {
-    "radium": {
-        "cargoLocks": null,
-        "date": "2024-12-15",
-        "extract": null,
-        "name": "radium",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "deepClone": false,
-            "fetchSubmodules": false,
-            "leaveDotGit": false,
-            "name": null,
-            "rev": "4d09864b2930db8920143c3e1b6ea26297c55ff0",
-            "sha256": "sha256-m3turPgCKvSC7OflJItkg2qz4HmQpQnXKuivjMSNEzg=",
-            "sparseCheckout": [],
-            "type": "git",
-            "url": "https://github.com/kmatheussen/radium"
-        },
-        "version": "4d09864b2930db8920143c3e1b6ea26297c55ff0"
-    }
+  "radium": {
+    "cargoLocks": null,
+    "date": "2024-12-28",
+    "extract": null,
+    "name": "radium",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "deepClone": false,
+      "fetchSubmodules": false,
+      "leaveDotGit": false,
+      "name": null,
+      "rev": "01a03fa092a7f8f62bb4fa9136bc622119c884b8",
+      "sha256": "sha256-EjHEptvPg96ry0plbvUE0JWWbf5Kz3BnkfWAqCnTEa0=",
+      "sparseCheckout": [],
+      "type": "git",
+      "url": "https://github.com/kmatheussen/radium"
+    },
+    "version": "01a03fa092a7f8f62bb4fa9136bc622119c884b8"
+  }
 }

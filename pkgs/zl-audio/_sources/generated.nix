@@ -65,13 +65,13 @@
   };
   splitter = {
     pname = "splitter";
-    version = "0.0.2";
+    version = "0.1.0";
     src = fetchFromGitHub {
       owner = "ZL-Audio";
       repo = "ZLSplitter";
-      rev = "0.0.2";
+      rev = "0.1.0";
       fetchSubmodules = true;
-      sha256 = "sha256-o7KfzR2dFqZxoqfpHdwHXO9p0C9p2nRSx9CG8Eo3460=";
+      sha256 = "sha256-qPs2XC6SnRDAISrnJn4lHKV92ZiOp6mMG7EnqANvxBE=";
     };
   };
   warm = {

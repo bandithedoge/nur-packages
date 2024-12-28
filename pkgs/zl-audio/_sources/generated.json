@@ -117,12 +117,12 @@
       "name": null,
       "owner": "ZL-Audio",
       "repo": "ZLSplitter",
-      "rev": "0.0.2",
-      "sha256": "sha256-o7KfzR2dFqZxoqfpHdwHXO9p0C9p2nRSx9CG8Eo3460=",
+      "rev": "0.1.0",
+      "sha256": "sha256-qPs2XC6SnRDAISrnJn4lHKV92ZiOp6mMG7EnqANvxBE=",
       "sparseCheckout": [],
       "type": "github"
     },
-    "version": "0.0.2"
+    "version": "0.1.0"
   },
   "warm": {
     "cargoLocks": null,

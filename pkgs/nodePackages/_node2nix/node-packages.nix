@@ -171,13 +171,13 @@
         sha512 = "RMtmw0iFkeR4YV+fUOSucriAQNb9g8zFR52MWCtl+cCZOFRNL6zeB395vPzFhEjjn4fMxXudmELnl/KF/WrK6w==";
       };
     };
-    "consola-3.3.1" = {
+    "consola-3.3.3" = {
       name = "consola";
       packageName = "consola";
-      version = "3.3.1";
+      version = "3.3.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/consola/-/consola-3.3.1.tgz";
-        sha512 = "GyKnPG3/I+a4RtJxgHquJXWr70g9I3c4NT3dvqh0LPHQP2nZFQBOBszb7a5u/pGzqr40AKplQA6UxM1BSynSXg==";
+        url = "https://registry.npmjs.org/consola/-/consola-3.3.3.tgz";
+        sha512 = "Qil5KwghMzlqd51UXM0b6fyaGHtOC22scxrwrz4A2882LyUMwQjnvaedN1HAeXzphspQ6CpHkzMAWxBTUruDLg==";
       };
     };
     "cross-spawn-7.0.6" = {
@@ -513,13 +513,13 @@
         sha512 = "M7BAV6Rlcy5u+m6oPhAPFgJTzAioX/6B0DxyvDlo9l8+T3nLKbrczg2WLUyzd45L8RqfUMyGPzekbMvX2Ldkwg==";
       };
     };
-    "pkg-types-1.2.1" = {
+    "pkg-types-1.3.0" = {
       name = "pkg-types";
       packageName = "pkg-types";
-      version = "1.2.1";
+      version = "1.3.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/pkg-types/-/pkg-types-1.2.1.tgz";
-        sha512 = "sQoqa8alT3nHjGuTjuKgOnvjo4cljkufdtLMnO2LBP/wRwuDlo1tkaEdMxCRhyGRPacv/ztlZgDPm2b7FAmEvw==";
+        url = "https://registry.npmjs.org/pkg-types/-/pkg-types-1.3.0.tgz";
+        sha512 = "kS7yWjVFCkIw9hqdJBoMxDdzEngmkr5FXeWZZfQ6GoYacjVnsW6l2CcYW/0ThD0vF4LPJgVYnrg4d0uuhwYQbg==";
       };
     };
     "prompts-2.4.2" = {
@@ -847,7 +847,7 @@ in {
       sources."chownr-2.0.0"
       sources."citty-0.1.6"
       sources."confbox-0.1.8"
-      sources."consola-3.3.1"
+      sources."consola-3.3.3"
       sources."cross-spawn-7.0.6"
       sources."defu-6.1.4"
       sources."destr-2.0.3"
@@ -897,7 +897,7 @@ in {
       sources."pathe-1.1.2"
       sources."perfect-debounce-1.0.0"
       sources."picomatch-4.0.2"
-      sources."pkg-types-1.2.1"
+      sources."pkg-types-1.3.0"
       sources."prompts-2.4.2"
       sources."rc9-2.1.2"
       sources."readdirp-4.0.2"
