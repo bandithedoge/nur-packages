@@ -96,6 +96,7 @@
     vimPlugins = callPackages' ./vimPlugins;
     waterfox-bin = callPackage' ./waterfox-bin;
     white-elephant-audio = callPackage' ./white-elephant-audio;
+    winegui = callPackage' ./winegui;
     xplrPlugins = callPackages' ./xplrPlugins;
     yaziPlugins = callPackages' ./yaziPlugins;
     ysfx = callPackage' ./ysfx;
