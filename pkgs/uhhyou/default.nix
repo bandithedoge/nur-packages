@@ -3,9 +3,9 @@
   sources,
   ...
 }:
-pkgs.stdenv.mkDerivation {
+pkgs.gcc12Stdenv.mkDerivation {
   inherit (sources.uhhyou) pname src;
-  version = pkgs.lib.removePrefix "UhhyouPlugins-" sources.uhhyou.version;
+  version = pkgs.lib.removePrefix "UhhyouPlugins" sources.uhhyou.version;
 
   nativeBuildInputs = with pkgs; [
     cmake
@@ -13,14 +13,14 @@ pkgs.stdenv.mkDerivation {
   ];
 
   buildInputs = with pkgs; [
-    xorg.libX11
     freetype
-    xorg.xcbutil
-    xcb-util-cursor
-    xorg.xcbutilkeysyms
-    libxkbcommon
     gtkmm3
+    libxkbcommon
     sqlite
+    xcb-util-cursor
+    xorg.libX11
+    xorg.xcbutil
+    xorg.xcbutilkeysyms
   ];
 
   postPatch = ''
