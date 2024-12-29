@@ -789,6 +789,28 @@
       platforms = platforms.all;
     };
   };
+  "nexusmods-advance" = buildFirefoxXpiAddon {
+    pname = "nexusmods-advance";
+    version = "0.23.0.2";
+    addonId = "NexusModsAdvance@Caiota";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4403144/nexusmods_advance-0.23.0.2.xpi";
+    sha256 = "ff7954ba3784a782f16ad88607f59c4cf7f39d19d68dae2965ec9623d3b999d3";
+    meta = with lib; {
+      description = "Enhance your browsing experience on the NexusMods site and manage your mods directly through the browser!";
+      license = licenses.mpl20;
+      mozPermissions = [
+        "activeTab"
+        "tabs"
+        "storage"
+        "notifications"
+        "webNavigation"
+        "declarativeNetRequest"
+        "declarativeNetRequestWithHostAccess"
+        "https://*.nexusmods.com/*"
+      ];
+      platforms = platforms.all;
+    };
+  };
   "npm-hub" = buildFirefoxXpiAddon {
     pname = "npm-hub";
     version = "2024.7.26";
