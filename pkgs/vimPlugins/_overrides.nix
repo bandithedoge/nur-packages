@@ -39,4 +39,8 @@
   fzf-lua = prev.fzf-lua.overrideAttrs (_: {
     doCheck = false;
   });
+
+  hover-nvim = prev.hover-nvim.overrideAttrs (_: {
+    doCheck = false;
+  });
 }
