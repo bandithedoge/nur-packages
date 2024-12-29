@@ -43,4 +43,16 @@
   hover-nvim = prev.hover-nvim.overrideAttrs (_: {
     doCheck = false;
   });
+
+  telescope-zf-native-nvim = prev.telescope-zf-native-nvim.overrideAttrs (_: {
+    dependencies = [final.telescope-nvim];
+  });
+
+  telescope-nvim = prev.telescope-nvim.overrideAttrs (_: {
+    dependencies = [final.plenary-nvim];
+  });
+
+  plenary-nvim = prev.plenary-nvim.overrideAttrs (_: {
+    nativeCheckInputs = [pkgs.vimPlugins.rocks-nvim];
+  });
 }
