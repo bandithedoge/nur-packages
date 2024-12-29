@@ -7,10 +7,10 @@
 }: {
   destruqtor = {
     pname = "destruqtor";
-    version = "release-59";
+    version = "release-65";
     src = fetchurl {
-      url = "https://github.com/blepfx/dist/releases/download/release-59/destruqtor-x86_64-unknown-linux-gnu.zip";
-      sha256 = "sha256-yucUf/HVb5rKB8PMxLUsdOfUutOtvplDvG+RmmSKCpU=";
+      url = "https://github.com/blepfx/dist/releases/download/release-65/destruqtor-x86_64-unknown-linux-gnu.zip";
+      sha256 = "sha256-89j+BUzxD2SFXUN76byNrNj6tRjjGD/HPJSyd9KyIvQ=";
     };
   };
 }

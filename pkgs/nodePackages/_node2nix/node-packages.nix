@@ -621,13 +621,13 @@
         sha512 = "DZ4yORTwrbTj/7MZYq2w+/ZFdI6OZ/f9SFHR+71gIVUZhOQPHzVCLpvRnPgyaMpfWxxk/4ONva3GQSyNIKRv6A==";
       };
     };
-    "tinyexec-0.3.1" = {
+    "tinyexec-0.3.2" = {
       name = "tinyexec";
       packageName = "tinyexec";
-      version = "0.3.1";
+      version = "0.3.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/tinyexec/-/tinyexec-0.3.1.tgz";
-        sha512 = "WiCJLEECkO18gwqIp6+hJg0//p23HXp4S+gGtAKu3mI2F2/sXC4FvHvXvB0zJVVaTPhx1/tOwdbRsa1sOBIKqQ==";
+        url = "https://registry.npmjs.org/tinyexec/-/tinyexec-0.3.2.tgz";
+        sha512 = "KQQR9yN7R5+OSwaK0XQoj22pwHoTlgYqmUscPYoknOoWCWfj/5/ABTMRi69FrKU5ffPVh5QcFikpWJI/P1ocHA==";
       };
     };
     "tinyglobby-0.2.10" = {
@@ -909,7 +909,7 @@ in {
       sources."source-map-js-1.2.1"
       sources."strip-final-newline-3.0.0"
       sources."tar-6.2.1"
-      sources."tinyexec-0.3.1"
+      sources."tinyexec-0.3.2"
       sources."tinyglobby-0.2.10"
       sources."ufo-1.5.4"
       sources."vscode-jsonrpc-8.2.0"
