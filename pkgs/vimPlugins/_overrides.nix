@@ -29,6 +29,14 @@
   null-ls-nvim = pkgs.lib.warn "null-ls.nvim has been discontinued, consider switching to none-ls.nvim" prev.null-ls-nvim;
 
   playground = prev.playground.overrideAttrs (_: {
-    dependencies = [final.nvim-treesitter];
+    nativeCheckInputs = [final.nvim-treesitter];
+  });
+
+  faust-nvim = prev.faust-nvim.overrideAttrs (_: {
+    nativeCheckInputs = [final.fzf-lua];
+  });
+
+  fzf-lua = prev.fzf-lua.overrideAttrs (_: {
+    doCheck = false;
   });
 }
