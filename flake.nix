@@ -38,6 +38,7 @@
             alejandra.enable = true;
             prettier.enable = true;
             ruff-format.enable = true;
+            taplo.enable = true;
           };
         };
       };
