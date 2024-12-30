@@ -74,6 +74,7 @@
     propertree = callPackage' ./propertree;
     protrekkr = callPackage' ./protrekkr;
     pythonPackages = callPackages' ./pythonPackages;
+    rnnoise-plugin = callPackage' ./rnnoise-plugin;
     roomreverb = callPackage' ./roomreverb;
     satty = callPackage' ./satty;
     schrammel-ojd = callPackage' ./schrammel-ojd;
