@@ -1,7 +1,7 @@
 {
   "umu": {
     "cargoLocks": null,
-    "date": "2024-12-14",
+    "date": "2024-12-29",
     "extract": null,
     "name": "umu",
     "passthru": null,
@@ -11,12 +11,12 @@
       "fetchSubmodules": false,
       "leaveDotGit": false,
       "name": null,
-      "rev": "6189d0d9fd062e89a375db20aeae1d1c009e9833",
-      "sha256": "sha256-djzWQaAnt2WHmioOlhuY46wabByEYePfO/ec1bBZI/o=",
+      "rev": "59a82ea8cd284c7535bc06b8f6156abb7da96f6a",
+      "sha256": "sha256-4cR4mk1660p3y8wnX0XbHSQh4KX0mbMn6/2YnALNt8o=",
       "sparseCheckout": [],
       "type": "git",
       "url": "https://github.com/Open-Wine-Components/umu-launcher"
     },
-    "version": "6189d0d9fd062e89a375db20aeae1d1c009e9833"
+    "version": "59a82ea8cd284c7535bc06b8f6156abb7da96f6a"
   }
 }
