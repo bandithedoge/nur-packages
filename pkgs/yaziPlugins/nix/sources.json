@@ -353,10 +353,10 @@
     "homepage": "https://fpira.com",
     "owner": "pirafrank",
     "repo": "what-size.yazi",
-    "rev": "6791caa157f54873c955b804a30750d8209a863d",
-    "sha256": "0a2hphm60s8x08z4dycjw6crnavzhyazrkw8hv9dbrfw2sia067m",
+    "rev": "b23e3a4cf44ce12b81fa6be640524acbd40ad9d3",
+    "sha256": "0kwb081j6mjl93q89igxn4jb5kv47pfb22hnv02pdndfdl7rncs8",
     "type": "tarball",
-    "url": "https://github.com/pirafrank/what-size.yazi/archive/6791caa157f54873c955b804a30750d8209a863d.tar.gz",
+    "url": "https://github.com/pirafrank/what-size.yazi/archive/b23e3a4cf44ce12b81fa6be640524acbd40ad9d3.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "yamb.yazi": {
