@@ -98,6 +98,7 @@ in {
     source = sources.j-8;
     description = "TAL-J-8 is a synthesizer plug-in that meticulously emulates the legendary Jupiter 8 and is calibrated after our hardware device, delivering the most authentic and faithful reproduction of its iconic sound";
     homepage = "https://tal-software.com/products/tal-j-8";
+    extraLibs = with pkgs; [curl];
   };
 
   mod = mkTal {
