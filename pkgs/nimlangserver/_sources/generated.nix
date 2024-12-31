@@ -133,13 +133,13 @@
   };
   regex = {
     pname = "regex";
-    version = "v0.26.0";
+    version = "v0.26.1";
     src = fetchFromGitHub {
       owner = "nitely";
       repo = "nim-regex";
-      rev = "v0.26.0";
+      rev = "v0.26.1";
       fetchSubmodules = false;
-      sha256 = "sha256-5YjPkUZc1Xho1KAqH1BamZEuL7SRKtQ5aKuixA+cDCM=";
+      sha256 = "sha256-+z18HPG1HYhfLiFyOCUeYJaHwk/8AXlnh9LQDfNBN6o=";
     };
   };
   results = {
@@ -186,13 +186,13 @@
   };
   unicodedb = {
     pname = "unicodedb";
-    version = "v0.13.0";
+    version = "v0.13.2";
     src = fetchFromGitHub {
       owner = "nitely";
       repo = "nim-unicodedb";
-      rev = "v0.13.0";
+      rev = "v0.13.2";
       fetchSubmodules = false;
-      sha256 = "sha256-0khAhu84SI+/noc0SzQggH2NGgZ9FMqu1ASq4nWtRo8=";
+      sha256 = "sha256-k4lT/wlOI8c8mj3CF3s8dVKV98e1nSoVr/ms9ugbXyQ=";
     };
   };
   websock = {

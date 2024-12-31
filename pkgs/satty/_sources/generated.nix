@@ -7,13 +7,13 @@
 }: {
   satty = {
     pname = "satty";
-    version = "v0.15.0";
+    version = "v0.16.0";
     src = fetchurl {
-      url = "https://github.com/gabm/Satty/archive/v0.15.0.tar.gz";
-      sha256 = "sha256-Nl/1LW3aNaAzK/3Ef6U97BXi3AHv4KrT7/zVAzBzkzw=";
+      url = "https://github.com/gabm/Satty/archive/v0.16.0.tar.gz";
+      sha256 = "sha256-Nv++qXP9hE2SmY8dWu1Tx3lpLpVu0HSQ0ySBIiPqtL0=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./satty-v0.15.0/Cargo.lock;
+      lockFile = ./satty-v0.16.0/Cargo.lock;
       outputHashes = {
       };
     };

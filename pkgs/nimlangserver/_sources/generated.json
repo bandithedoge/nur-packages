@@ -193,12 +193,12 @@
       "name": null,
       "owner": "nitely",
       "repo": "nim-regex",
-      "rev": "v0.26.0",
-      "sha256": "sha256-5YjPkUZc1Xho1KAqH1BamZEuL7SRKtQ5aKuixA+cDCM=",
+      "rev": "v0.26.1",
+      "sha256": "sha256-+z18HPG1HYhfLiFyOCUeYJaHwk/8AXlnh9LQDfNBN6o=",
       "sparseCheckout": [],
       "type": "github"
     },
-    "version": "v0.26.0"
+    "version": "v0.26.1"
   },
   "results": {
     "cargoLocks": null,
@@ -274,12 +274,12 @@
       "name": null,
       "owner": "nitely",
       "repo": "nim-unicodedb",
-      "rev": "v0.13.0",
-      "sha256": "sha256-0khAhu84SI+/noc0SzQggH2NGgZ9FMqu1ASq4nWtRo8=",
+      "rev": "v0.13.2",
+      "sha256": "sha256-k4lT/wlOI8c8mj3CF3s8dVKV98e1nSoVr/ms9ugbXyQ=",
       "sparseCheckout": [],
       "type": "github"
     },
-    "version": "v0.13.0"
+    "version": "v0.13.2"
   },
   "websock": {
     "cargoLocks": null,
