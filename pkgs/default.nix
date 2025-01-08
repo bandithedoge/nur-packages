@@ -21,7 +21,9 @@
     audible-planets-bin = callPackage' ./audible-planets-bin;
     basiliskii-bin = callPackage' ./basiliskii-bin;
     bitdos-bin = callPackage' ./bitdos-bin;
+    blepfx = callPackages' ./blepfx;
     blocks = callPackage' ./blocks;
+    camomile-bin = callPackage' ./camomile-bin;
     cantata = callPackage' ./cantata;
     cardinal = callPackage' ./cardinal;
     charlatan = callPackage' ./charlatan;
@@ -30,7 +32,6 @@
     cloudreverb = callPackage' ./cloudreverb;
     curl-gnutls3 = callPackage' ./curl-gnutls3;
     deemix-gui-bin = callPackage' ./deemix-gui-bin;
-    destruqtor = callPackage' ./destruqtor;
     digits-bin = callPackage' ./digits-bin;
     distrho-ports = callPackage' ./distrho-ports;
     dpf-plugins = callPackage' ./dpf-plugins;
@@ -54,6 +55,7 @@
     keepmenu = callPackage' ./keepmenu;
     kiwmi = callPackage' ./kiwmi;
     lamb = callPackage' ./lamb;
+    lira-8-bin = callPackage' ./lira-8-bin;
     luaPackages = callPackages' ./luaPackages;
     luakit = callPackage' ./luakit;
     lv2vst = callPackage' ./lv2vst;
