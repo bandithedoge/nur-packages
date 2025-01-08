@@ -38,6 +38,12 @@
       };
     };
 in {
+  crunchrr = mkBlep {
+    source = sources.crunchrr;
+    description = "crunchrr is a really simple to use effect that adds digital artifacts to your sounds. It works by modulating a small fractional delay line at an audio rate at high frequency, resulting in a bit crush/sample divide/erosion kind of effect";
+    homepage = "https://fx.amee.ee/plugin/crunchrr/";
+  };
+
   destruqtor = mkBlep {
     source = sources.destruqtor;
     description = "destruqtor is a companding distortion/saturation/exciter plugin. Unlike traditional distortion, destruqtor applies expanding compression before the waveshaper and an opposite compression after the effect, which preserves and emphasises transients and adds more warmth to your sounds without sacrificing dynamic range";
