@@ -52,6 +52,7 @@
     hvcc = callPackage' ./hvcc;
     ildaeil = callPackage' ./ildaeil;
     js80p = callPackage' ./js80p;
+    just-a-sample-bin = callPackage' ./just-a-sample-bin;
     keepmenu = callPackage' ./keepmenu;
     kiwmi = callPackage' ./kiwmi;
     lamb = callPackage' ./lamb;
