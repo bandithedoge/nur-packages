@@ -23,7 +23,6 @@
     bitdos-bin = callPackage' ./bitdos-bin;
     blepfx = callPackages' ./blepfx;
     blocks = callPackage' ./blocks;
-    camomile-bin = callPackage' ./camomile-bin;
     cantata = callPackage' ./cantata;
     cardinal = callPackage' ./cardinal;
     charlatan = callPackage' ./charlatan;
@@ -56,7 +55,6 @@
     keepmenu = callPackage' ./keepmenu;
     kiwmi = callPackage' ./kiwmi;
     lamb = callPackage' ./lamb;
-    lira-8-bin = callPackage' ./lira-8-bin;
     luaPackages = callPackages' ./luaPackages;
     luakit = callPackage' ./luakit;
     lv2vst = callPackage' ./lv2vst;
