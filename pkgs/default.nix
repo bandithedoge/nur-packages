@@ -49,6 +49,7 @@
     hera = callPackage' ./hera;
     hise = callPackage' ./hise;
     hvcc = callPackage' ./hvcc;
+    igorski = callPackages' ./igorski;
     ildaeil = callPackage' ./ildaeil;
     js80p = callPackage' ./js80p;
     just-a-sample-bin = callPackage' ./just-a-sample-bin;
