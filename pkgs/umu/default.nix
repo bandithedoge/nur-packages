@@ -6,11 +6,15 @@
   python' = pkgs.python3.withPackages (p:
     with p; [
       build
+      cbor2
       filelock
       hatchling
       installer
+      truststore
       urllib3
       xlib
+      xxhash
+      zstd
     ]);
 in
   python'.pkgs.buildPythonPackage {
@@ -23,7 +27,9 @@ in
     ];
 
     nativeBuildInputs = with pkgs; [
+      cargo
       git
+      rustPlatform.cargoSetupHook
       scdoc
     ];
 
@@ -32,6 +38,8 @@ in
       mv -fv $out$out/* $out
       rm -vrf $out/nix
     '';
+
+    cargoDeps = pkgs.rustPlatform.importCargoLock sources.umu.cargoLock."Cargo.lock";
 
     configureScript = "./configure.sh";
     configureFlags = ["--prefix=${placeholder "out"}"];
