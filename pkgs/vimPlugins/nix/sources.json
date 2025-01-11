@@ -605,10 +605,10 @@
     "homepage": null,
     "owner": "ibhagwan",
     "repo": "fzf-lua",
-    "rev": "c238e015c9e3b1516ff6c1872131c8d050cc2c94",
-    "sha256": "11idp7m59l6qfm3dba5jzglzddlx10dyb8pc0vwc88cy4v0ffz91",
+    "rev": "8efb28fd24e9d55694460d0ac8fa147d7276d984",
+    "sha256": "10p9df0bvas2yb2l61w6ivf3kqkk0rs35m7hjfng3wpbwwgl06gh",
     "type": "tarball",
-    "url": "https://github.com/ibhagwan/fzf-lua/archive/c238e015c9e3b1516ff6c1872131c8d050cc2c94.tar.gz",
+    "url": "https://github.com/ibhagwan/fzf-lua/archive/8efb28fd24e9d55694460d0ac8fa147d7276d984.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "galaxyline.nvim": {
@@ -1010,10 +1010,10 @@
     "homepage": "",
     "owner": "folke",
     "repo": "neoconf.nvim",
-    "rev": "623beb6fc221c04b7740c063e7246aa61f52d32f",
-    "sha256": "0kqmc0w6pz15d8fgflfahfnmf5iqlyb3kh7lvdqrl0b3ff02sf3d",
+    "rev": "d18a4535e0ae80c772e6f396aa02c7312a53fa38",
+    "sha256": "1s0xsaadv54dbx964qiad083i7j2ay8awr1p8y69pbp72n9mgmxg",
     "type": "tarball",
-    "url": "https://github.com/folke/neoconf.nvim/archive/623beb6fc221c04b7740c063e7246aa61f52d32f.tar.gz",
+    "url": "https://github.com/folke/neoconf.nvim/archive/d18a4535e0ae80c772e6f396aa02c7312a53fa38.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "neodev.nvim": {
@@ -1106,10 +1106,10 @@
     "homepage": "",
     "owner": "nvimtools",
     "repo": "none-ls.nvim",
-    "rev": "7bebb35a05871aeb99825f29d869cbd9a46bdbba",
-    "sha256": "1pkz1wjhy88r4nvcr94kszq2897qg0wprqw55bb418mf65n3sqs7",
+    "rev": "0143bb5f117f76863cf0c24bcf0724d3137f04d2",
+    "sha256": "19nfrd7yiic9nfwin4rlb8gjswi4x0kvshgqqrcy8b062h4d2mcq",
     "type": "tarball",
-    "url": "https://github.com/nvimtools/none-ls.nvim/archive/7bebb35a05871aeb99825f29d869cbd9a46bdbba.tar.gz",
+    "url": "https://github.com/nvimtools/none-ls.nvim/archive/0143bb5f117f76863cf0c24bcf0724d3137f04d2.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "notifier.nvim": {
