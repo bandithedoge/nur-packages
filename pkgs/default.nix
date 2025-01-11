@@ -46,6 +46,7 @@
     guitarix-vst-bin = callPackage' ./guitarix-vst-bin;
     guitarml = callPackages' ./guitarml;
     haskellPackages = callPackages' ./haskellPackages;
+    helion-bin = callPackage' ./helion-bin;
     hera = callPackage' ./hera;
     hise = callPackage' ./hise;
     hvcc = callPackage' ./hvcc;
