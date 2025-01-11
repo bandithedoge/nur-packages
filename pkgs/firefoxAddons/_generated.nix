@@ -765,10 +765,10 @@
   };
   "material-icons-for-github" = buildFirefoxXpiAddon {
     pname = "material-icons-for-github";
-    version = "1.8.32";
+    version = "1.8.33";
     addonId = "{eac6e624-97fa-4f28-9d24-c06c9b8aa713}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4407457/material_icons_for_github-1.8.32.xpi";
-    sha256 = "f577001f603ecec888c525664f61d2bc1c7d2ee77ade534b69acc0d912596e07";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4415340/material_icons_for_github-1.8.33.xpi";
+    sha256 = "dd3a9d55351ee7747a2ef8ac3b0d972560416ba4c3c9b88b722a2285d8f20a08";
     meta = with lib; {
       homepage = "https://github.com/Claudiohbsantos/github-material-icons-extension";
       description = "Replace the file/folder icons on github file browsers with icons representing the file's type and which tool it is used by.";
@@ -791,10 +791,10 @@
   };
   "nexusmods-advance" = buildFirefoxXpiAddon {
     pname = "nexusmods-advance";
-    version = "0.23.0.2";
+    version = "0.24";
     addonId = "NexusModsAdvance@Caiota";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4403144/nexusmods_advance-0.23.0.2.xpi";
-    sha256 = "ff7954ba3784a782f16ad88607f59c4cf7f39d19d68dae2965ec9623d3b999d3";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4415332/nexusmods_advance-0.24.xpi";
+    sha256 = "d9fc6b63a9044669945b8e9130488484fe6e9da32adc70830e79b77de4e22fc9";
     meta = with lib; {
       description = "Enhance your browsing experience on the NexusMods site and manage your mods directly through the browser!";
       license = licenses.mpl20;
@@ -1449,10 +1449,10 @@
   };
   "sponsorblock" = buildFirefoxXpiAddon {
     pname = "sponsorblock";
-    version = "5.10.3";
+    version = "5.10.5";
     addonId = "sponsorBlocker@ajay.app";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4404647/sponsorblock-5.10.3.xpi";
-    sha256 = "8d670559ae17adc808ed061188822e5112728ba70eda0a3133dcc4abc3857bdc";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4410322/sponsorblock-5.10.5.xpi";
+    sha256 = "219e58141efd775fe0c549e3a225d7897616de5880cacc1b21e460f81042b1cb";
     meta = with lib; {
       homepage = "https://sponsor.ajay.app";
       description = "Easily skip YouTube video sponsors. When you visit a YouTube video, the extension will check the database for reported sponsors and automatically skip known sponsors. You can also report sponsors in videos. Other browsers: https://sponsor.ajay.app";
@@ -1469,10 +1469,10 @@
   };
   "steam-database" = buildFirefoxXpiAddon {
     pname = "steam-database";
-    version = "4.11";
+    version = "4.12";
     addonId = "firefox-extension@steamdb.info";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4399194/steam_database-4.11.xpi";
-    sha256 = "e92a5452c1df8016b67c49b13c93768a71b596e1baab6fafca773a55d8eb6e6a";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4409030/steam_database-4.12.xpi";
+    sha256 = "fa922a9ad4a4ff9bbe2b33d84897cd9cf961bfe8344b83708aa0c418535c3ecd";
     meta = with lib; {
       homepage = "https://steamdb.info/";
       description = "Adds SteamDB links and new features on the Steam store and community. View lowest game prices and stats.";
@@ -1579,10 +1579,10 @@
   };
   "tree-style-tab" = buildFirefoxXpiAddon {
     pname = "tree-style-tab";
-    version = "4.0.25";
+    version = "4.1.1";
     addonId = "treestyletab@piro.sakura.ne.jp";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4386321/tree_style_tab-4.0.25.xpi";
-    sha256 = "c228594161f3a436b74778ac6bfef0288c00639eb1f2a1e5d6cddacfa8af2ea6";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4417227/tree_style_tab-4.1.1.xpi";
+    sha256 = "07433d82622184206cea577f1689635f0e74ae3eb378f887fc03ab5f0c26259a";
     meta = with lib; {
       homepage = "http://piro.sakura.ne.jp/xul/_treestyletab.html.en";
       description = "Show tabs like a tree.";

@@ -29,10 +29,10 @@
     "homepage": "",
     "owner": "hankertrix",
     "repo": "augment-command.yazi",
-    "rev": "b923e7e4a94c95802805c01757775cbb9c3173df",
-    "sha256": "08kw7hfpxx7vrk7n8d2vwy8anr1j5hrgbhyyp4vmycfdca2igi1y",
+    "rev": "bf049800daac319426b1ddc39b1fe8903b7a7ec2",
+    "sha256": "0j44dcp045i22q9s43rvkjbn58s2hqyjqbsvqmvjnrkfml0zj006",
     "type": "tarball",
-    "url": "https://github.com/hankertrix/augment-command.yazi/archive/b923e7e4a94c95802805c01757775cbb9c3173df.tar.gz",
+    "url": "https://github.com/hankertrix/augment-command.yazi/archive/bf049800daac319426b1ddc39b1fe8903b7a7ec2.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "bookmarks.yazi": {
@@ -41,10 +41,10 @@
     "homepage": null,
     "owner": "dedukun",
     "repo": "bookmarks.yazi",
-    "rev": "35da1073b76993c8a07a51d106afa2ead1f6d0e0",
-    "sha256": "1jnm2zzc746mkm7p08majr7ndxqx5fxmsif96wigd9hyqyyif6b9",
+    "rev": "202e450b0088d3dde3c4a680f30cf9684acea1cc",
+    "sha256": "0l853yf05qxg7adhba42mn9iac38pixpmnnmzdfwb9f9m48wvyvh",
     "type": "tarball",
-    "url": "https://github.com/dedukun/bookmarks.yazi/archive/35da1073b76993c8a07a51d106afa2ead1f6d0e0.tar.gz",
+    "url": "https://github.com/dedukun/bookmarks.yazi/archive/202e450b0088d3dde3c4a680f30cf9684acea1cc.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "bypass.yazi": {
@@ -185,10 +185,10 @@
     "homepage": "",
     "owner": "saumyajyoti",
     "repo": "omp.yazi",
-    "rev": "e9f2e662fe3cec1adde3d109542078ba4cf7b961",
-    "sha256": "06dhi7j1wyy4bnks9331s0hln18mzzlxngr8h67bgcnp0cv88l4m",
+    "rev": "2ef59344d24e5fc85fc36ff9799930503fc2fb65",
+    "sha256": "16wdpa4havl6i7hdx5k0iw24q10971qci2x7v7l1lvag8z7zildn",
     "type": "tarball",
-    "url": "https://github.com/saumyajyoti/omp.yazi/archive/e9f2e662fe3cec1adde3d109542078ba4cf7b961.tar.gz",
+    "url": "https://github.com/saumyajyoti/omp.yazi/archive/2ef59344d24e5fc85fc36ff9799930503fc2fb65.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "open-with-cmd.yazi": {
@@ -209,10 +209,10 @@
     "homepage": "",
     "owner": "ndtoan96",
     "repo": "ouch.yazi",
-    "rev": "b8698865a0b1c7c1b65b91bcadf18441498768e6",
-    "sha256": "0xl4yzqdx2mzlgzi17pn53qhax913iwk09q8dvdi3raq29qds63r",
+    "rev": "083d5647345c8d2119d50860aabca57d292ab672",
+    "sha256": "1gjgfwmsizfk8rvbj63y0dj0kvz29ndv3qv13fjxa60rnwk1mc6c",
     "type": "tarball",
-    "url": "https://github.com/ndtoan96/ouch.yazi/archive/b8698865a0b1c7c1b65b91bcadf18441498768e6.tar.gz",
+    "url": "https://github.com/ndtoan96/ouch.yazi/archive/083d5647345c8d2119d50860aabca57d292ab672.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "projects.yazi": {
@@ -293,10 +293,10 @@
     "homepage": null,
     "owner": "Rolv-Apneseth",
     "repo": "starship.yazi",
-    "rev": "9c37d37099455a44343f4b491d56debf97435a0e",
-    "sha256": "1zn573v3bdc2qw1yjry357svmwlm6xj2hbc89pipysjna7pb4i60",
+    "rev": "4053c8c486f9cfd60f1f42fa5d80e97caef41eb1",
+    "sha256": "1h7p4mvqs2cjxcbqspm9ysi6in3xpz31840bqr0nj56mzn0pfcr9",
     "type": "tarball",
-    "url": "https://github.com/Rolv-Apneseth/starship.yazi/archive/9c37d37099455a44343f4b491d56debf97435a0e.tar.gz",
+    "url": "https://github.com/Rolv-Apneseth/starship.yazi/archive/4053c8c486f9cfd60f1f42fa5d80e97caef41eb1.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "sudo.yazi": {
@@ -377,10 +377,10 @@
     "homepage": "",
     "owner": "imsi32",
     "repo": "yatline.yazi",
-    "rev": "600ed1fb1d04e1292da04280a65f8deca04dc36a",
-    "sha256": "0lsqh2vmxlvn32ph5radsbn50p2y9nlkbmf4y2bnd16sqr4r2w50",
+    "rev": "93282055cfb4d74a9bc8e47cf2035ded9b3c5b00",
+    "sha256": "103c3by4j4axpmb3q5zccqpfm1ylbnx97jcavgcbyy889c7isfnm",
     "type": "tarball",
-    "url": "https://github.com/imsi32/yatline.yazi/archive/600ed1fb1d04e1292da04280a65f8deca04dc36a.tar.gz",
+    "url": "https://github.com/imsi32/yatline.yazi/archive/93282055cfb4d74a9bc8e47cf2035ded9b3c5b00.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   }
 }

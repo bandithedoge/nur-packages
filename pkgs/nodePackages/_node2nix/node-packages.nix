@@ -27,22 +27,22 @@
         sha512 = "Ed61U6XJc3CVRfkERJWDz4dJwKe7iLmmJsbOGu9wSloNSFttHV0I8g6UAgb7qnK5ly5bGLPd4oXZlxCdANBOWQ==";
       };
     };
-    "@babel/parser-7.26.3" = {
+    "@babel/parser-7.26.5" = {
       name = "_at_babel_slash_parser";
       packageName = "@babel/parser";
-      version = "7.26.3";
+      version = "7.26.5";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/parser/-/parser-7.26.3.tgz";
-        sha512 = "WJ/CvmY8Mea8iDXo6a7RK2wbmJITT5fN3BEkRuFlxVyNx8jOKIIhmC4fSkTcPcf8JyavbBwIe6OpiCOBXt/IcA==";
+        url = "https://registry.npmjs.org/@babel/parser/-/parser-7.26.5.tgz";
+        sha512 = "SRJ4jYmXRqV1/Xc+TIVG84WjHBXKlxO9sHQnA2Pf12QQEAp1LOh6kDzNHXcUnbH1QI0FDoPPVOt+vyUDucxpaw==";
       };
     };
-    "@babel/types-7.26.3" = {
+    "@babel/types-7.26.5" = {
       name = "_at_babel_slash_types";
       packageName = "@babel/types";
-      version = "7.26.3";
+      version = "7.26.5";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/types/-/types-7.26.3.tgz";
-        sha512 = "vN5p+1kl59GVKMvTHt55NzzmYVxprfJD+ql7U9NFIfKCBkYE55LYtS+WtPlaYOyzydrKI8Nezd+aZextrd+FMA==";
+        url = "https://registry.npmjs.org/@babel/types/-/types-7.26.5.tgz";
+        sha512 = "L6mZmwFDK6Cjh1nRCLXpa6no13ZIioJDz7mdkzHv399pThrTa/k0nUlNaenOeh2kWu/iaOQYElEpKPUswUa9Vg==";
       };
     };
     "@emmetio/abbreviation-2.3.3" = {
@@ -108,13 +108,13 @@
         sha512 = "8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==";
       };
     };
-    "bumpp-9.9.2" = {
+    "bumpp-9.10.0" = {
       name = "bumpp";
       packageName = "bumpp";
-      version = "9.9.2";
+      version = "9.10.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/bumpp/-/bumpp-9.9.2.tgz";
-        sha512 = "ggRxRV1rWHEyWXnf55UqYzGvttS/Vpkl1zxcNdE5xoYMTHlSgRA0Td4nKn3ckCcMuC+MTgaGQrbKBeyr0V9+Hg==";
+        url = "https://registry.npmjs.org/bumpp/-/bumpp-9.10.0.tgz";
+        sha512 = "gNY3tYEGKyqW8+qtpeLQ2UfQW7G81d/vhCWNGrMlvy0Toq1LZPRs8wk9woAw8o9Tzv7pvjaF/Gno+UN3qiqNxA==";
       };
     };
     "c12-2.0.1" = {
@@ -468,6 +468,15 @@
         sha512 = "1FlR+gjXK7X+AsAHso35MnyN5KqGwJRi/31ft6x0M194ht7S+rWAvd7PHss9xSKMzE0asv1pyIHaJYq+BbacAQ==";
       };
     };
+    "package-manager-detector-0.2.8" = {
+      name = "package-manager-detector";
+      packageName = "package-manager-detector";
+      version = "0.2.8";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/package-manager-detector/-/package-manager-detector-0.2.8.tgz";
+        sha512 = "ts9KSdroZisdvKMWVAVCXiKqnqNfXz4+IbrBG8/BWx/TR5le+jfenvoBuIZ6UWM9nz47W7AbD9qYfAwfWMIwzA==";
+      };
+    };
     "path-key-3.1.1" = {
       name = "path-key";
       packageName = "path-key";
@@ -770,10 +779,10 @@ in {
   "@tailwindcss/language-server" = nodeEnv.buildNodePackage {
     name = "_at_tailwindcss_slash_language-server";
     packageName = "@tailwindcss/language-server";
-    version = "0.0.27";
+    version = "0.12.18";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@tailwindcss/language-server/-/language-server-0.0.27.tgz";
-      sha512 = "p1E2SbuoZiynUaK6PLsN0FMPEdvx1VXowdj0VykcPnjcAbBPzek3zZLfHDDnYY6HR4zbsWTBpuVRf5gL9ja90Q==";
+      url = "https://registry.npmjs.org/@tailwindcss/language-server/-/language-server-0.12.18.tgz";
+      sha512 = "v69+026Ynq5gwtZAwUBTcRP7OHHSLu8ztgXKzzhSRmZiK9UGemlnHI4ZFDwn2uSsE4oW2VyWRxu3j2Kb5bDiJw==";
     };
     buildInputs = globalBuildInputs;
     meta = {
@@ -827,15 +836,15 @@ in {
     dependencies = [
       sources."@babel/helper-string-parser-7.25.9"
       sources."@babel/helper-validator-identifier-7.25.9"
-      sources."@babel/parser-7.26.3"
-      sources."@babel/types-7.26.3"
+      sources."@babel/parser-7.26.5"
+      sources."@babel/types-7.26.5"
       sources."@emmetio/abbreviation-2.3.3"
       sources."@emmetio/css-abbreviation-2.1.8"
       sources."@emmetio/scanner-1.0.4"
       sources."@vscode/emmet-helper-2.11.0"
       sources."acorn-8.14.0"
       sources."argparse-2.0.1"
-      (sources."bumpp-9.9.2"
+      (sources."bumpp-9.10.0"
         // {
           dependencies = [
             sources."jsonc-parser-3.3.1"
@@ -893,6 +902,7 @@ in {
       sources."nypm-0.3.12"
       sources."ohash-1.1.4"
       sources."onetime-6.0.0"
+      sources."package-manager-detector-0.2.8"
       sources."path-key-3.1.1"
       sources."pathe-1.1.2"
       sources."perfect-debounce-1.0.0"
