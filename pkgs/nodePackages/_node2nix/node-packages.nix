@@ -549,13 +549,13 @@
         sha512 = "btXCnMmRIBINM2LDZoEmOogIZU7Qe7zn4BpomSKZ/ykbLObuBdvG+mFq11DL6fjH1DRwHhrlgtYWG96bJiC7Cg==";
       };
     };
-    "readdirp-4.0.2" = {
+    "readdirp-4.1.1" = {
       name = "readdirp";
       packageName = "readdirp";
-      version = "4.0.2";
+      version = "4.1.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/readdirp/-/readdirp-4.0.2.tgz";
-        sha512 = "yDMz9g+VaZkqBYS/ozoBJwaBhTbZo3UNYQHNRw1D3UFQB8oHB4uS/tAODO+ZLjGWmUbKnIlOWO+aaIiAxrUWHA==";
+        url = "https://registry.npmjs.org/readdirp/-/readdirp-4.1.1.tgz";
+        sha512 = "h80JrZu/MHUZCyHu5ciuoI0+WxsCxzxJTILn6Fs8rxSnFPh+UVHYfeIxK1nVGugMqkfC4vJcBOYbkfkwYK0+gw==";
       };
     };
     "semver-7.6.3" = {
@@ -910,7 +910,7 @@ in {
       sources."pkg-types-1.3.0"
       sources."prompts-2.4.2"
       sources."rc9-2.1.2"
-      sources."readdirp-4.0.2"
+      sources."readdirp-4.1.1"
       sources."semver-7.6.3"
       sources."shebang-command-2.0.0"
       sources."shebang-regex-3.0.0"
