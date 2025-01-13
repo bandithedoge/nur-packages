@@ -105,6 +105,7 @@
     yaziPlugins = callPackages' ./yaziPlugins;
     ysfx = callPackage' ./ysfx;
     zl-audio = callPackages' ./zl-audio;
+    zlint-bin = callPackage' ./zlint-bin;
     zrythm = callPackage' ./zrythm;
   };
 in
