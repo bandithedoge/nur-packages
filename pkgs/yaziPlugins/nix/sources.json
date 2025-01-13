@@ -305,10 +305,10 @@
     "homepage": null,
     "owner": "TD-Sky",
     "repo": "sudo.yazi",
-    "rev": "a8287eac042469a534f4d788a1554dbc7094bae7",
-    "sha256": "0hqah70cyqzrwxcibfb3jfhzwpi2q8fyi05r1whj9mqm5l3ifc16",
+    "rev": "f4030083a8a4d1de66f88a8add27ec47b43b01c6",
+    "sha256": "1fccmdbygwf16rwv6fwl0b2jm0msw2w02rv3k3y682fhpj2479r0",
     "type": "tarball",
-    "url": "https://github.com/TD-Sky/sudo.yazi/archive/a8287eac042469a534f4d788a1554dbc7094bae7.tar.gz",
+    "url": "https://github.com/TD-Sky/sudo.yazi/archive/f4030083a8a4d1de66f88a8add27ec47b43b01c6.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "system-clipboard.yazi": {

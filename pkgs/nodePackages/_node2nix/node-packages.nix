@@ -414,13 +414,13 @@
         sha512 = "vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==";
       };
     };
-    "mlly-1.7.3" = {
+    "mlly-1.7.4" = {
       name = "mlly";
       packageName = "mlly";
-      version = "1.7.3";
+      version = "1.7.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/mlly/-/mlly-1.7.3.tgz";
-        sha512 = "xUsx5n/mN0uQf4V548PKQ+YShA4/IW0KI1dZhrNrPCLG+xizETbHTkOa1f8/xut9JRPp8kQuMnz0oqwkTiLo/A==";
+        url = "https://registry.npmjs.org/mlly/-/mlly-1.7.4.tgz";
+        sha512 = "qmdSIPC4bDJXgZTCR7XosJiNKySV7O215tsPtDN9iEO/7q/76b/ijtgRu/+epFXSJhijtTCCGp3DWS549P3xKw==";
       };
     };
     "node-fetch-native-1.6.4" = {
@@ -502,6 +502,15 @@
       src = fetchurl {
         url = "https://registry.npmjs.org/pathe/-/pathe-1.1.2.tgz";
         sha512 = "whLdWMYL2TwI08hn8/ZqAbrVemu0LNaNNJZX73O6qaIdCTfXutsLhMkjdENX0qhsQ9uIimo4/aQOmXkoon2nDQ==";
+      };
+    };
+    "pathe-2.0.1" = {
+      name = "pathe";
+      packageName = "pathe";
+      version = "2.0.1";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/pathe/-/pathe-2.0.1.tgz";
+        sha512 = "6jpjMpOth5S9ITVu5clZ7NOgHNsv5vRQdheL9ztp2vZmM6fRbLvyua1tiBIL4lk8SAe3ARzeXEly6siXCjDHDw==";
       };
     };
     "perfect-debounce-1.0.0" = {
@@ -891,7 +900,12 @@ in {
           ];
         })
       sources."mkdirp-1.0.4"
-      sources."mlly-1.7.3"
+      (sources."mlly-1.7.4"
+        // {
+          dependencies = [
+            sources."pathe-2.0.1"
+          ];
+        })
       sources."node-fetch-native-1.6.4"
       (sources."npm-run-path-5.3.0"
         // {

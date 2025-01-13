@@ -13,7 +13,7 @@ with open("README.md", "w") as f:
         url = (
             meta["repo"]
             if meta["type"] == "git"
-            else f'https://github.com/{meta["owner"]}/{meta["repo"]}'
+            else f"https://github.com/{meta['owner']}/{meta['repo']}"
         )
         description = meta["description"] if ("description" in meta) else ""
 
