@@ -85,6 +85,7 @@
     sgdboop-bin = callPackage' ./sgdboop-bin;
     sheepshaver-bin = callPackage' ./sheepshaver-bin;
     showmidi-bin = callPackage' ./showmidi-bin;
+    snyk-ls-bin = callPackage' ./snyk-ls-bin;
     squeezer-bin = callPackage' ./squeezer-bin;
     symbols-nerd-font = callPackage' ./symbols-nerd-font;
     tal = callPackages' ./tal;

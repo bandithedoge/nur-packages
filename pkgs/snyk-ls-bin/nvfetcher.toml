@@ -1,0 +1,24 @@
+[snyk-ls-bin-x86_64-linux]
+src.github = "snyk/snyk-ls"
+src.prefix = "v"
+fetch.url = "https://github.com/snyk/snyk-ls/releases/download/v$ver/snyk-ls_$ver_linux_amd64"
+
+[snyk-ls-bin-i686-linux]
+src.github = "snyk/snyk-ls"
+src.prefix = "v"
+fetch.url = "https://github.com/snyk/snyk-ls/releases/download/v$ver/snyk-ls_$ver_linux_386"
+
+[snyk-ls-bin-aarch64-linux]
+src.github = "snyk/snyk-ls"
+src.prefix = "v"
+fetch.url = "https://github.com/snyk/snyk-ls/releases/download/v$ver/snyk-ls_$ver_linux_arm64"
+
+[snyk-ls-bin-x86_64-darwin]
+src.github = "snyk/snyk-ls"
+src.prefix = "v"
+fetch.url = "https://github.com/snyk/snyk-ls/releases/download/v$ver/snyk-ls_$ver_darwin_amd64"
+
+[snyk-ls-bin-aarch64-darwin]
+src.github = "snyk/snyk-ls"
+src.prefix = "v"
+fetch.url = "https://github.com/snyk/snyk-ls/releases/download/v$ver/snyk-ls_$ver_darwin_arm64"
