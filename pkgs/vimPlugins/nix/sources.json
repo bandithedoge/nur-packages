@@ -1010,10 +1010,10 @@
     "homepage": "",
     "owner": "folke",
     "repo": "neoconf.nvim",
-    "rev": "9aefba9244a9cfd42c665e5b5dab7ac8594968a5",
-    "sha256": "1ssh92gw3pm20agvxv1h0gx7aln83s5x5vq8556zdz6mzwspq11x",
+    "rev": "82fc98b05ad1824b906dc9b4a414f6c096a0310c",
+    "sha256": "0zq8h61g57dgrw13whf42qw5rqgvi0wvf7j2dxfnsdglp5mvpw8l",
     "type": "tarball",
-    "url": "https://github.com/folke/neoconf.nvim/archive/9aefba9244a9cfd42c665e5b5dab7ac8594968a5.tar.gz",
+    "url": "https://github.com/folke/neoconf.nvim/archive/82fc98b05ad1824b906dc9b4a414f6c096a0310c.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "neodev.nvim": {
@@ -1310,10 +1310,10 @@
     "homepage": "",
     "owner": "neovim",
     "repo": "nvim-lspconfig",
-    "rev": "0913481440219390969ab56a3c33089679365ef7",
-    "sha256": "1n5s0gpvd81fgvmvz5p8w1w0lalv7rhkw91bymi81s7xm996jlhr",
+    "rev": "355c565eae59810c1af4cf132938fa0fc251c5a2",
+    "sha256": "0qb117sk5r2av5kd3jr8j3n1kh82cl9c9avn93zx0dvpa4262paj",
     "type": "tarball",
-    "url": "https://github.com/neovim/nvim-lspconfig/archive/0913481440219390969ab56a3c33089679365ef7.tar.gz",
+    "url": "https://github.com/neovim/nvim-lspconfig/archive/355c565eae59810c1af4cf132938fa0fc251c5a2.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "nvim-luaref": {
@@ -2003,10 +2003,10 @@
     "homepage": "",
     "owner": "folke",
     "repo": "trouble.nvim",
-    "rev": "46cf952fc115f4c2b98d4e208ed1e2dce08c9bf6",
-    "sha256": "12ky8alz6zi2vlqspnacmkj99d4sam4hrzs92i3n4sz6jx2w8696",
+    "rev": "4d36b8979287f5facc03fd6d955ace67db667e1d",
+    "sha256": "01j3nnc1azxwp6ld5hkz2ajmx7lrrlb98sh4dkl06lnxbbcbbgsv",
     "type": "tarball",
-    "url": "https://github.com/folke/trouble.nvim/archive/46cf952fc115f4c2b98d4e208ed1e2dce08c9bf6.tar.gz",
+    "url": "https://github.com/folke/trouble.nvim/archive/4d36b8979287f5facc03fd6d955ace67db667e1d.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "typescript.nvim": {
