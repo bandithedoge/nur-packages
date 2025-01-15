@@ -18,14 +18,15 @@ jobs:
         uses: jlumbroso/free-disk-space@v1.3.1
         with:
           tool-cache: true
-          # https://github.com/jlumbroso/free-disk-space/issues/4
-          large-packages: false
 
       - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Install Nix
         uses: DeterminateSystems/nix-installer-action@main
+        with:
+          # https://github.com/DeterminateSystems/nix-installer-action/issues/133
+          source-tag: v0.32.3
 
       - name: Magic Nix Cache
         uses: DeterminateSystems/magic-nix-cache-action@main
