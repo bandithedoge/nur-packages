@@ -274,10 +274,10 @@
   };
   "canvasblocker" = buildFirefoxXpiAddon {
     pname = "canvasblocker";
-    version = "1.10.1";
+    version = "1.11";
     addonId = "CanvasBlocker@kkapsner.de";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4262820/canvasblocker-1.10.1.xpi";
-    sha256 = "dae3b648f0b559b8b08cdad8adaaba2fcde3aa7baf0ffe9b2cbca5a3373c98b7";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4413485/canvasblocker-1.11.xpi";
+    sha256 = "0479b7315ce2c195fd2fbd519c50866030083abdb6d895c1b162d52762a676ec";
     meta = with lib; {
       homepage = "https://github.com/kkapsner/CanvasBlocker/";
       description = "Alters some JS APIs to prevent fingerprinting.";
@@ -1333,10 +1333,10 @@
   };
   "refined-github" = buildFirefoxXpiAddon {
     pname = "refined-github";
-    version = "24.12.20";
+    version = "25.1.15";
     addonId = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4407997/refined_github-24.12.20.xpi";
-    sha256 = "1c2b1ce845ad2e118ffb9adb341d02e792f995f1bbd2f04a61e5ed15bf18d23a";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4420467/refined_github-25.1.15.xpi";
+    sha256 = "ed0794fec3c2d30ddb3660adab5e31591353473de3102472115498cde6ee8447";
     meta = with lib; {
       homepage = "https://github.com/refined-github/refined-github";
       description = "Simplifies the GitHub interface and adds many useful features.";

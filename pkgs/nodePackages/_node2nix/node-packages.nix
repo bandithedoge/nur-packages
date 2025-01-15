@@ -108,13 +108,13 @@
         sha512 = "8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==";
       };
     };
-    "bumpp-9.10.0" = {
+    "bumpp-9.10.1" = {
       name = "bumpp";
       packageName = "bumpp";
-      version = "9.10.0";
+      version = "9.10.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/bumpp/-/bumpp-9.10.0.tgz";
-        sha512 = "gNY3tYEGKyqW8+qtpeLQ2UfQW7G81d/vhCWNGrMlvy0Toq1LZPRs8wk9woAw8o9Tzv7pvjaF/Gno+UN3qiqNxA==";
+        url = "https://registry.npmjs.org/bumpp/-/bumpp-9.10.1.tgz";
+        sha512 = "KG7oQmv6cz7QQwOvM3x/yPcF8+VBEtuLEEecmohNyb4+bLbtSVpJp8brjzcZYQN7UOyR4i0qIIYThnsBgP8uCA==";
       };
     };
     "c12-2.0.1" = {
@@ -531,13 +531,13 @@
         sha512 = "M7BAV6Rlcy5u+m6oPhAPFgJTzAioX/6B0DxyvDlo9l8+T3nLKbrczg2WLUyzd45L8RqfUMyGPzekbMvX2Ldkwg==";
       };
     };
-    "pkg-types-1.3.0" = {
+    "pkg-types-1.3.1" = {
       name = "pkg-types";
       packageName = "pkg-types";
-      version = "1.3.0";
+      version = "1.3.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/pkg-types/-/pkg-types-1.3.0.tgz";
-        sha512 = "kS7yWjVFCkIw9hqdJBoMxDdzEngmkr5FXeWZZfQ6GoYacjVnsW6l2CcYW/0ThD0vF4LPJgVYnrg4d0uuhwYQbg==";
+        url = "https://registry.npmjs.org/pkg-types/-/pkg-types-1.3.1.tgz";
+        sha512 = "/Jm5M4RvtBFVkKWRu2BLUTNP8/M2a+UwuAX+ae4770q1qVGtfjG+WTCupoZixokjmHiry8uI+dlY8KXYV5HVVQ==";
       };
     };
     "prompts-2.4.2" = {
@@ -853,7 +853,7 @@ in {
       sources."@vscode/emmet-helper-2.11.0"
       sources."acorn-8.14.0"
       sources."argparse-2.0.1"
-      (sources."bumpp-9.10.0"
+      (sources."bumpp-9.10.1"
         // {
           dependencies = [
             sources."jsonc-parser-3.3.1"
@@ -921,7 +921,12 @@ in {
       sources."pathe-1.1.2"
       sources."perfect-debounce-1.0.0"
       sources."picomatch-4.0.2"
-      sources."pkg-types-1.3.0"
+      (sources."pkg-types-1.3.1"
+        // {
+          dependencies = [
+            sources."pathe-2.0.1"
+          ];
+        })
       sources."prompts-2.4.2"
       sources."rc9-2.1.2"
       sources."readdirp-4.1.1"

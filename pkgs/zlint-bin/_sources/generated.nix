@@ -7,34 +7,34 @@
 }: {
   zlint-bin-aarch64-darwin = {
     pname = "zlint-bin-aarch64-darwin";
-    version = "v0.4.3";
+    version = "v0.5.0";
     src = fetchurl {
-      url = "https://github.com/DonIsaac/zlint/releases/download/v0.4.3/zlint-macos-aarch64";
-      sha256 = "sha256-SK8zfhewCs5vDBeJRLmJL1KIOOB+ak0be9Y3ZFYce5Q=";
+      url = "https://github.com/DonIsaac/zlint/releases/download/v0.5.0/zlint-macos-aarch64";
+      sha256 = "sha256-z0hLP3sCkiiU5VYYL/e9bC9hLz6lwryJ4ryBYJl2eEw=";
     };
   };
   zlint-bin-aarch64-linux = {
     pname = "zlint-bin-aarch64-linux";
-    version = "v0.4.3";
+    version = "v0.5.0";
     src = fetchurl {
-      url = "https://github.com/DonIsaac/zlint/releases/download/v0.4.3/zlint-linux-aarch64";
-      sha256 = "sha256-CuXsF8arVp1Uzi7ygNYHdlJqhcOkABr3TeqhtVs4LgU=";
+      url = "https://github.com/DonIsaac/zlint/releases/download/v0.5.0/zlint-linux-aarch64";
+      sha256 = "sha256-jQ1Bv6XI6vnTeSkNq9HPhffFxnxuhuQhHF02GO7c9/0=";
     };
   };
   zlint-bin-x86_64-darwin = {
     pname = "zlint-bin-x86_64-darwin";
-    version = "v0.4.3";
+    version = "v0.5.0";
     src = fetchurl {
-      url = "https://github.com/DonIsaac/zlint/releases/download/v0.4.3/zlint-macos-x86_64";
-      sha256 = "sha256-qCQoMiPCqb/WoTorR60fmgRHZnMoPLE2v9yfWEJKJz8=";
+      url = "https://github.com/DonIsaac/zlint/releases/download/v0.5.0/zlint-macos-x86_64";
+      sha256 = "sha256-mD5FWAqPiyObiffELHwZBSGx1o4g6Q/jh57kynd3dn4=";
     };
   };
   zlint-bin-x86_64-linux = {
     pname = "zlint-bin-x86_64-linux";
-    version = "v0.4.3";
+    version = "v0.5.0";
     src = fetchurl {
-      url = "https://github.com/DonIsaac/zlint/releases/download/v0.4.3/zlint-linux-x86_64";
-      sha256 = "sha256-u62D3aNSWyv8OZQbVct8qNMS1nhnZ1sRqaPFOtJNm0c=";
+      url = "https://github.com/DonIsaac/zlint/releases/download/v0.5.0/zlint-linux-x86_64";
+      sha256 = "sha256-tx3YPBDWw6ZfmotBZUnHRSRkp6jHmOSOhv9yO7NDtyQ=";
     };
   };
 }
