@@ -7,21 +7,21 @@
 }: {
   umu = {
     pname = "umu";
-    version = "2b4eb95a37d8680deb9ec14415743334ec85202e";
+    version = "e67216ad47e05bcf4fac37eea580b73b88997dee";
     src = fetchgit {
       url = "https://github.com/Open-Wine-Components/umu-launcher";
-      rev = "2b4eb95a37d8680deb9ec14415743334ec85202e";
+      rev = "e67216ad47e05bcf4fac37eea580b73b88997dee";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [];
-      sha256 = "sha256-AOzUhOCk1pQboWmCI2BrQ/K7PygcOc5LTt/Wiht1JnY=";
+      sha256 = "sha256-fKtL1HidTJGindg0wXD9Zk6s+209ymFSoDAER2txz70=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./umu-2b4eb95a37d8680deb9ec14415743334ec85202e/Cargo.lock;
+      lockFile = ./umu-e67216ad47e05bcf4fac37eea580b73b88997dee/Cargo.lock;
       outputHashes = {
       };
     };
-    date = "2025-01-13";
+    date = "2025-01-15";
   };
 }

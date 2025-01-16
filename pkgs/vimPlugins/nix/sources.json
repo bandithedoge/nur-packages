@@ -605,10 +605,10 @@
     "homepage": null,
     "owner": "ibhagwan",
     "repo": "fzf-lua",
-    "rev": "f10843834e79a71c07231b2642170b652c1095f1",
-    "sha256": "1kabrr5xkhzbq6v6g1fbah07mlfipngv59rmy16fy5ywb15zlyb1",
+    "rev": "04e4255ae850d35c18a018d4ce4ea14c3a08d3d1",
+    "sha256": "0fpq5xk2sgxr07a4ilybvmciclfyj3yl4apjl056z4kaghn6xnyb",
     "type": "tarball",
-    "url": "https://github.com/ibhagwan/fzf-lua/archive/f10843834e79a71c07231b2642170b652c1095f1.tar.gz",
+    "url": "https://github.com/ibhagwan/fzf-lua/archive/04e4255ae850d35c18a018d4ce4ea14c3a08d3d1.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "galaxyline.nvim": {
@@ -665,10 +665,10 @@
     "homepage": "",
     "owner": "ray-x",
     "repo": "go.nvim",
-    "rev": "c6d5ca26377d01c4de1f7bff1cd62c8b43baa6bc",
-    "sha256": "1vx86g8lgyhg7wa4azl4hajzh42hvb1a1q9ndihwb1v4dy5bizxf",
+    "rev": "6e5a74b866aa4a112ed85a1169befff2ef82c027",
+    "sha256": "10y12jgf6c8hcsqrp0y9zcvp1p0yvdx0jrmvvzfb65hgjxkqr5lz",
     "type": "tarball",
-    "url": "https://github.com/ray-x/go.nvim/archive/c6d5ca26377d01c4de1f7bff1cd62c8b43baa6bc.tar.gz",
+    "url": "https://github.com/ray-x/go.nvim/archive/6e5a74b866aa4a112ed85a1169befff2ef82c027.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "guess-indent.nvim": {
@@ -1010,10 +1010,10 @@
     "homepage": "",
     "owner": "folke",
     "repo": "neoconf.nvim",
-    "rev": "3262e646120c11b7e58dba371d40185d7a5c9588",
-    "sha256": "1zjms72fljhbpn9pf96a2ijpz14b9hb4b5bi979nx4y2b325kzmi",
+    "rev": "d7e408b03aaec27073deba5acb6c1d05794b1592",
+    "sha256": "0gjmbwzpvskf8jq3z4w2mrk9m7ha6lc8rrsgysm934p8k9g1vfig",
     "type": "tarball",
-    "url": "https://github.com/folke/neoconf.nvim/archive/3262e646120c11b7e58dba371d40185d7a5c9588.tar.gz",
+    "url": "https://github.com/folke/neoconf.nvim/archive/d7e408b03aaec27073deba5acb6c1d05794b1592.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "neodev.nvim": {
