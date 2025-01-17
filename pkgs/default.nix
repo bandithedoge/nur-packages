@@ -78,6 +78,7 @@
     propertree = callPackage' ./propertree;
     protrekkr = callPackage' ./protrekkr;
     pythonPackages = callPackages' ./pythonPackages;
+    reverse-camel = callPackage' ./reverse-camel;
     rnnoise-plugin = callPackage' ./rnnoise-plugin;
     roomreverb = callPackage' ./roomreverb;
     satty = callPackage' ./satty;
