@@ -98,6 +98,7 @@
     u-he = callPackages' ./u-he;
     uhhyou = callPackage' ./uhhyou;
     umu = callPackage' ./umu;
+    valentine = callPackage' ./valentine;
     venn = callPackages' ./venn;
     vgmtrans = callPackage' ./vgmtrans;
     vimPlugins = callPackages' ./vimPlugins;
