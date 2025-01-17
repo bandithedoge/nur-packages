@@ -102,6 +102,7 @@
     venn = callPackages' ./venn;
     vgmtrans = callPackage' ./vgmtrans;
     vimPlugins = callPackages' ./vimPlugins;
+    vitalium-verb-bin = callPackage' ./vitalium-verb-bin;
     vkdoom = callPackage' ./vkdoom;
     waterfox-bin = callPackage' ./waterfox-bin;
     white-elephant-audio = callPackage' ./white-elephant-audio;
