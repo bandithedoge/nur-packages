@@ -56,7 +56,7 @@
     just-a-sample-bin = callPackage' ./just-a-sample-bin;
     keepmenu = callPackage' ./keepmenu;
     kiwmi = callPackage' ./kiwmi;
-    lamb = callPackage' ./lamb;
+    lamb-bin = callPackage' ./lamb-bin;
     luaPackages = callPackages' ./luaPackages;
     luakit = callPackage' ./luakit;
     lv2vst = callPackage' ./lv2vst;

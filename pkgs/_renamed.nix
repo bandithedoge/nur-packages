@@ -1,5 +1,6 @@
 {
   destruqtor = ["blepfx" "destruqtor"];
+  lamb = ["lamb-bin"];
   osirus = ["dsp56300"];
   swift-mesonlsp-bin = ["mesonlsp-bin"];
   the-usual-suspects.osirus = ["dsp56300"];
