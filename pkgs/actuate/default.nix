@@ -16,9 +16,12 @@ pkgs.rustPlatform.buildRustPackage {
     xorg.libX11
   ];
 
+  postBuild = ''
+    cargo xtask bundle Actuate --profile release
+  '';
+
   installPhase = ''
     mkdir -p $out/lib/{clap,vst3}
-    cargo xtask bundle Actuate --profile release
     cp target/bundled/Actuate.clap $out/lib/clap
     cp -r target/bundled/Actuate.vst3 $out/lib/vst3
   '';
@@ -30,5 +33,6 @@ pkgs.rustPlatform.buildRustPackage {
     homepage = "https://github.com/ardura/Actuate";
     license = licenses.gpl3Plus;
     platforms = platforms.linux;
+    broken = true; # weird rust dependency hash things happening
   };
 }
