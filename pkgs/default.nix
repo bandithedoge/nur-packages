@@ -65,6 +65,7 @@
     microbiome-bin = callPackage' ./microbiome-bin;
     misstrhortion = callPackage' ./misstrhortion;
     modstems = callPackage' ./modstems;
+    molot-lite = callPackage' ./molot-lite;
     musique = callPackage' ./musique;
     mxtune-bin = callPackage' ./mxtune-bin;
     nimlangserver = callPackage' ./nimlangserver;
