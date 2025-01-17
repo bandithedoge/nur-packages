@@ -99,6 +99,7 @@
     venn = callPackages' ./venn;
     vgmtrans = callPackage' ./vgmtrans;
     vimPlugins = callPackages' ./vimPlugins;
+    vkdoom = callPackage' ./vkdoom;
     waterfox-bin = callPackage' ./waterfox-bin;
     white-elephant-audio = callPackage' ./white-elephant-audio;
     winegui = callPackage' ./winegui;

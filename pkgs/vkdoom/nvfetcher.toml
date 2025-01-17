@@ -1,0 +1,4 @@
+[vkdoom]
+src.git = "https://github.com/dpjudas/VkDoom"
+fetch.git = "https://github.com/dpjudas/VkDoom"
+git.leaveDotGit = true
