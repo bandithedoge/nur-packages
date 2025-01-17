@@ -1,17 +1,17 @@
 {
-    "vitalium-verb-bin": {
-        "cargoLocks": null,
-        "date": null,
-        "extract": null,
-        "name": "vitalium-verb-bin",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "name": null,
-            "sha256": "sha256-Us6jFq7oLbPjFw5Z8Vx9ijjK/QcdeIAyEIWH6ObhT40=",
-            "type": "url",
-            "url": "https://github.com/BillyDM/vitalium-verb/releases/download/v1.2.0/vitaliumverb-1.2.0-ubuntu-20.04.zip"
-        },
-        "version": "1.2.0"
-    }
+  "vitalium-verb-bin": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "vitalium-verb-bin",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-Us6jFq7oLbPjFw5Z8Vx9ijjK/QcdeIAyEIWH6ObhT40=",
+      "type": "url",
+      "url": "https://github.com/BillyDM/vitalium-verb/releases/download/v1.2.0/vitaliumverb-1.2.0-ubuntu-20.04.zip"
+    },
+    "version": "1.2.0"
+  }
 }

@@ -1,23 +1,23 @@
 {
-    "molot-lite": {
-        "cargoLocks": null,
-        "date": null,
-        "extract": null,
-        "name": "molot-lite",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "deepClone": false,
-            "fetchSubmodules": false,
-            "leaveDotGit": false,
-            "name": null,
-            "owner": "magnetophon",
-            "repo": "molot-lite",
-            "rev": "1.1.0",
-            "sha256": "sha256-0tmobsdCNon6udbkbQw7+EYQKBg2oaXlHIgNEf9U3XE=",
-            "sparseCheckout": [],
-            "type": "github"
-        },
-        "version": "1.1.0"
-    }
+  "molot-lite": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "molot-lite",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "deepClone": false,
+      "fetchSubmodules": false,
+      "leaveDotGit": false,
+      "name": null,
+      "owner": "magnetophon",
+      "repo": "molot-lite",
+      "rev": "1.1.0",
+      "sha256": "sha256-0tmobsdCNon6udbkbQw7+EYQKBg2oaXlHIgNEf9U3XE=",
+      "sparseCheckout": [],
+      "type": "github"
+    },
+    "version": "1.1.0"
+  }
 }

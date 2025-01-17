@@ -1550,10 +1550,10 @@
     "homepage": "",
     "owner": "nvim-orgmode",
     "repo": "orgmode",
-    "rev": "b1922c62640a69483f130fcfb47a27582b6dfd78",
-    "sha256": "1a1ij93nnqbzxr21cq1byjd6fky5a1lw47p7pdp05f80ssi23icn",
+    "rev": "4dcba706caa203181d173574a767e8ffafec345e",
+    "sha256": "0hwwsyxyj6wa1vb3h7l17zchdss55s4n2x80im7d49qqxjan62r9",
     "type": "tarball",
-    "url": "https://github.com/nvim-orgmode/orgmode/archive/b1922c62640a69483f130fcfb47a27582b6dfd78.tar.gz",
+    "url": "https://github.com/nvim-orgmode/orgmode/archive/4dcba706caa203181d173574a767e8ffafec345e.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "package-info.nvim": {
