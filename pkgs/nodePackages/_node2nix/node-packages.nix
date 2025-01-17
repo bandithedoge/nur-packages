@@ -243,13 +243,13 @@
         sha512 = "VyhnebXciFV2DESc+p6B+y0LjSm0krU4OgJN44qFAhBY0TJ+1V61tYD2+wHusZ6F9n5K+vl8k0sTy7PEfV4qpg==";
       };
     };
-    "fdir-6.4.2" = {
+    "fdir-6.4.3" = {
       name = "fdir";
       packageName = "fdir";
-      version = "6.4.2";
+      version = "6.4.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/fdir/-/fdir-6.4.2.tgz";
-        sha512 = "KnhMXsKSPZlAhp7+IjUkRZKPb4fUyccpDrdFXbi4QL1qkmFh9kVY09Yox+n4MaOb3lHZ1Tv829C3oaaXoMYPDQ==";
+        url = "https://registry.npmjs.org/fdir/-/fdir-6.4.3.tgz";
+        sha512 = "PMXmW2y1hDDfTSRc9gaXIuCCRpuoz3Kaz8cUelp3smouvfT632ozg2vrT6lJsHKKOF59YLbOGfAWGUcKEfRMQw==";
       };
     };
     "fs-minipass-2.1.0" = {
@@ -504,13 +504,13 @@
         sha512 = "whLdWMYL2TwI08hn8/ZqAbrVemu0LNaNNJZX73O6qaIdCTfXutsLhMkjdENX0qhsQ9uIimo4/aQOmXkoon2nDQ==";
       };
     };
-    "pathe-2.0.1" = {
+    "pathe-2.0.2" = {
       name = "pathe";
       packageName = "pathe";
-      version = "2.0.1";
+      version = "2.0.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/pathe/-/pathe-2.0.1.tgz";
-        sha512 = "6jpjMpOth5S9ITVu5clZ7NOgHNsv5vRQdheL9ztp2vZmM6fRbLvyua1tiBIL4lk8SAe3ARzeXEly6siXCjDHDw==";
+        url = "https://registry.npmjs.org/pathe/-/pathe-2.0.2.tgz";
+        sha512 = "15Ztpk+nov8DR524R4BF7uEuzESgzUEAV4Ah7CUMNGXdE5ELuvxElxGXndBl32vMSsWa1jpNf22Z+Er3sKwq+w==";
       };
     };
     "perfect-debounce-1.0.0" = {
@@ -873,7 +873,7 @@ in {
       sources."emmet-2.4.11"
       sources."escalade-3.2.0"
       sources."execa-8.0.1"
-      sources."fdir-6.4.2"
+      sources."fdir-6.4.3"
       (sources."fs-minipass-2.1.0"
         // {
           dependencies = [
@@ -903,7 +903,7 @@ in {
       (sources."mlly-1.7.4"
         // {
           dependencies = [
-            sources."pathe-2.0.1"
+            sources."pathe-2.0.2"
           ];
         })
       sources."node-fetch-native-1.6.4"
@@ -924,7 +924,7 @@ in {
       (sources."pkg-types-1.3.1"
         // {
           dependencies = [
-            sources."pathe-2.0.1"
+            sources."pathe-2.0.2"
           ];
         })
       sources."prompts-2.4.2"
