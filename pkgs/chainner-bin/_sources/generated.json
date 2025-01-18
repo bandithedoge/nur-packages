@@ -1,0 +1,17 @@
+{
+    "chainner-bin": {
+        "cargoLocks": null,
+        "date": null,
+        "extract": null,
+        "name": "chainner-bin",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-WwTkJtN8K3B39XfLHJBn0akGU8wcr4dolDMx9MekesE=",
+            "type": "url",
+            "url": "https://github.com/chaiNNer-org/chaiNNer/releases/download/v0.24.1/chaiNNer-linux-x64-0.24.1.zip"
+        },
+        "version": "0.24.1"
+    }
+}

@@ -25,6 +25,7 @@
     blocks = callPackage' ./blocks;
     cantata = callPackage' ./cantata;
     cardinal = callPackage' ./cardinal;
+    chainner-bin = callPackage' ./chainner-bin;
     charlatan = callPackage' ./charlatan;
     cinelerra-gg-bin = callPackage' ./cinelerra-gg-bin;
     clap-info = callPackage' ./clap-info;

@@ -1,0 +1,4 @@
+[chainner-bin]
+src.github = "chaiNNer-org/chaiNNer"
+fetch.url = "https://github.com/chaiNNer-org/chaiNNer/releases/download/v$ver/chaiNNer-linux-x64-$ver.zip"
+src.prefix = "v"
