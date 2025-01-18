@@ -1,0 +1,22 @@
+{
+    "monique": {
+        "cargoLocks": null,
+        "date": "2024-07-30",
+        "extract": null,
+        "name": "monique",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": true,
+            "leaveDotGit": true,
+            "name": null,
+            "rev": "df7d3395bce862847d40237350d0161a463dcc0d",
+            "sha256": "sha256-ivx9X+++9VA9t8sCSyzCyUPxx/NmlrUYQVIwyM0ovJ0=",
+            "sparseCheckout": [],
+            "type": "git",
+            "url": "https://github.com/surge-synthesizer/monique-monosynth"
+        },
+        "version": "df7d3395bce862847d40237350d0161a463dcc0d"
+    }
+}

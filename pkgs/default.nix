@@ -67,6 +67,7 @@
     misstrhortion = callPackage' ./misstrhortion;
     modstems = callPackage' ./modstems;
     molot-lite = callPackage' ./molot-lite;
+    monique = callPackage' ./monique;
     musique = callPackage' ./musique;
     mxtune-bin = callPackage' ./mxtune-bin;
     nimlangserver = callPackage' ./nimlangserver;
