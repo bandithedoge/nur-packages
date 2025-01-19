@@ -37,6 +37,7 @@
     distrho-ports = callPackage' ./distrho-ports;
     dpf-plugins = callPackage' ./dpf-plugins;
     dsp56300 = callPackage' ./dsp56300;
+    element = callPackage' ./element;
     emacsPackages = callPackages' ./emacsPackages;
     fennel-language-server = callPackage' ./fennel-language-server;
     firefly-synth = callPackage' ./firefly-synth;

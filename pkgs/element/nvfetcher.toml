@@ -1,0 +1,13 @@
+[element]
+src.git = "https://gitlab.com/kushview/element.git"
+fetch.git = "https://gitlab.com/kushview/element.git"
+git.leaveDotGit = true
+
+[juce-element]
+src.git = "https://gitlab.com/kushview/juce"
+src.branch = "element"
+fetch.git = "https://gitlab.com/kushview/juce"
+
+[lvtk]
+src.git = "https://github.com/lvtk/lvtk.git"
+fetch.git = "https://github.com/lvtk/lvtk.git"
