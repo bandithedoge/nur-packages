@@ -6,6 +6,8 @@
 pkgs.stdenv.mkDerivation {
   inherit (sources.crepe-vamp-plugin-bin) pname version src;
 
+  preferLocalBuild = true;
+
   nativeBuildInputs = with pkgs; [
     autoPatchelfHook
   ];

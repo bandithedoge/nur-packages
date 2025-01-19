@@ -6,6 +6,8 @@
 pkgs.stdenv.mkDerivation {
   inherit (sources.ircam-vamp-plugins-bin) pname version src;
 
+  preferLocalBuild = true;
+
   nativeBuildInputs = with pkgs; [
     autoPatchelfHook
     unzip
