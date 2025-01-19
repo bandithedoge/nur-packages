@@ -53,6 +53,7 @@
     hvcc = callPackage' ./hvcc;
     igorski = callPackages' ./igorski;
     ildaeil = callPackage' ./ildaeil;
+    ircam-vamp-plugins-bin = callPackage' ./ircam-vamp-plugins-bin;
     js80p = callPackage' ./js80p;
     just-a-sample-bin = callPackage' ./just-a-sample-bin;
     keepmenu = callPackage' ./keepmenu;
