@@ -1,7 +1,7 @@
 {
   "propertree": {
     "cargoLocks": null,
-    "date": "2025-01-15",
+    "date": "2025-01-18",
     "extract": null,
     "name": "propertree",
     "passthru": null,
@@ -11,12 +11,12 @@
       "fetchSubmodules": false,
       "leaveDotGit": false,
       "name": null,
-      "rev": "7cfea127124fae47e6f74682784180ca611ef349",
-      "sha256": "sha256-hNYCd44Kf21DzC2QKnSuJaaw9WWHFipNjEkCRdW4EB4=",
+      "rev": "7f5189274ba00ed0b54ac277c4d493b1f68864f7",
+      "sha256": "sha256-h/Lx4HIiXZBe7N+YZlbn4EtfkotFPezNJ7LfhXJpo8k=",
       "sparseCheckout": [],
       "type": "git",
       "url": "https://github.com/corpnewt/ProperTree"
     },
-    "version": "7cfea127124fae47e6f74682784180ca611ef349"
+    "version": "7f5189274ba00ed0b54ac277c4d493b1f68864f7"
   }
 }

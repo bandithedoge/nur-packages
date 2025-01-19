@@ -1,17 +1,17 @@
 {
-    "ircam-vamp-plugins-bin": {
-        "cargoLocks": null,
-        "date": null,
-        "extract": null,
-        "name": "ircam-vamp-plugins-bin",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "name": null,
-            "sha256": "sha256-yeskOFda9duIjWxP1vB0t6tXIHlzza1st2u9Qciy770=",
-            "type": "url",
-            "url": "https://github.com/Ircam-Partiels/ircam-vamp-plugins/releases/download/2.1.0/Ircam-Vamp-Plugins-Linux.zip"
-        },
-        "version": "2.1.0"
-    }
+  "ircam-vamp-plugins-bin": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "ircam-vamp-plugins-bin",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-yeskOFda9duIjWxP1vB0t6tXIHlzza1st2u9Qciy770=",
+      "type": "url",
+      "url": "https://github.com/Ircam-Partiels/ircam-vamp-plugins/releases/download/2.1.0/Ircam-Vamp-Plugins-Linux.zip"
+    },
+    "version": "2.1.0"
+  }
 }
