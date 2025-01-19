@@ -1,4 +1,5 @@
 [umu]
 src.git = "https://github.com/Open-Wine-Components/umu-launcher"
 fetch.git = "https://github.com/Open-Wine-Components/umu-launcher"
+git.leaveDotGit = true
 cargo_locks = ["Cargo.lock"]

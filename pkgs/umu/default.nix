@@ -34,9 +34,10 @@ in
     ];
 
     postInstall = ''
-      mv -fv $out${python'}/* $out
-      mv -fv $out$out/* $out
-      rm -vrf $out/nix
+      mkdir -p $out
+      cp -r $out${python'}/* $out
+      cp -r $out$out/* $out
+      rm -rf $out/nix
     '';
 
     cargoDeps = pkgs.rustPlatform.importCargoLock sources.umu.cargoLock."Cargo.lock";
