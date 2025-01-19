@@ -29,6 +29,7 @@
         nativeBuildInputs = with pkgs;
           [
             cmake
+            makeWrapper
             pkg-config
           ]
           ++ nativeBuildInputs;
@@ -50,6 +51,8 @@
             for f in *_artefacts/Release/Standalone/*; do
               mkdir -p $out/bin
               cp "$f" $out/bin
+              # https://github.com/juce-framework/JUCE/issues/619
+              wrapProgram $out/bin/$(basename $f) --prefix LD_LIBRARY_PATH : ${pkgs.lib.makeLibraryPath (commonBuildInputs ++ buildInputs)}
             done
 
             for f in *_artefacts/Release/CLAP/*; do
