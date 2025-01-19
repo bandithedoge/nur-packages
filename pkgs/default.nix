@@ -75,6 +75,7 @@
     octasine = callPackage' ./octasine;
     onagre = callPackage' ./onagre;
     panacea-bin = callPackage' ./panacea-bin;
+    partiels = callPackage' ./partiels;
     peakeater-bin = callPackage' ./peakeater-bin;
     powertab = callPackage' ./powertab;
     propertree = callPackage' ./propertree;
