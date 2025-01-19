@@ -30,6 +30,7 @@
     cinelerra-gg-bin = callPackage' ./cinelerra-gg-bin;
     clap-info = callPackage' ./clap-info;
     cloudreverb = callPackage' ./cloudreverb;
+    crepe-vamp-plugin-bin = callPackage' ./crepe-vamp-plugin-bin;
     curl-gnutls3 = callPackage' ./curl-gnutls3;
     deemix-gui-bin = callPackage' ./deemix-gui-bin;
     digits-bin = callPackage' ./digits-bin;
