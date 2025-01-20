@@ -60,6 +60,7 @@
     just-a-sample-bin = callPackage' ./just-a-sample-bin;
     keepmenu = callPackage' ./keepmenu;
     kiwmi = callPackage' ./kiwmi;
+    klknn = callPackages' ./klknn;
     lamb-bin = callPackage' ./lamb-bin;
     luaPackages = callPackages' ./luaPackages;
     luakit = callPackage' ./luakit;

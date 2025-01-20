@@ -1,0 +1,15 @@
+[envtool-bin]
+src.github = "klknn/kdr"
+fetch.url = "https://github.com/klknn/kdr/releases/download/$ver/ubuntu-latest-envtool.zip"
+
+[epiano2-bin]
+src.github = "klknn/kdr"
+fetch.url = "https://github.com/klknn/kdr/releases/download/$ver/ubuntu-latest-epiano2.zip"
+
+[freeverb-bin]
+src.github = "klknn/kdr"
+fetch.url = "https://github.com/klknn/kdr/releases/download/$ver/ubuntu-latest-freeverb.zip"
+
+[synth2-bin]
+src.github = "klknn/kdr"
+fetch.url = "https://github.com/klknn/kdr/releases/download/$ver/ubuntu-latest-synth2.zip"
