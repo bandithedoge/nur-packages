@@ -39,5 +39,6 @@ pkgs.stdenv.mkDerivation {
     homepage = "https://github.com/Helion-Engine/Helion";
     license = licenses.gpl3Only;
     platforms = ["x86_64-linux"];
+    sourceProvenance = [sourceTypes.binaryNativeCode];
   };
 }

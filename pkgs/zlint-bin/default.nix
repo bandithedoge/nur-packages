@@ -21,5 +21,6 @@ in
       homepage = "https://github.com/DonIsaac/zlint";
       license = licenses.mit;
       platforms = ["x86_64-linux" "aarch64-linux" "x86_64-darwin" "aarch64-darwin"];
+      sourceProvenance = [sourceTypes.binaryNativeCode];
     };
   }

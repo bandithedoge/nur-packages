@@ -48,12 +48,13 @@
         inherit product;
       };
 
-      meta =
-        meta
-        // {
-          license = pkgs.lib.licenses.unfree;
+      meta = with pkgs.lib;
+        {
+          license = licenses.unfree;
           platforms = ["x86_64-linux"];
-        };
+          sourceProvenance = [sourceTypes.binaryNativeCode];
+        }
+        // meta;
     };
 in {
   ace = mkUhe "ACE" {

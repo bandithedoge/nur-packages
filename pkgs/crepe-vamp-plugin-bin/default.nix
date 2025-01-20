@@ -26,5 +26,6 @@ pkgs.stdenv.mkDerivation {
     homepage = "https://github.com/Ircam-Partiels/crepe-vamp-plugin";
     license = licenses.mit;
     platforms = ["x86_64-linux"];
+    sourceProvenance = [sourceTypes.binaryNativeCode];
   };
 }

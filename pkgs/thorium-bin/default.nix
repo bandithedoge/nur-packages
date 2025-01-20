@@ -23,5 +23,6 @@ in
       homepage = "https://thorium.rocks";
       license = licenses.bsd3;
       platforms = ["x86_64-linux"];
+      sourceProvenance = [sourceTypes.binaryNativeCode];
     };
   }

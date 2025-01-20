@@ -41,5 +41,6 @@ pkgs.stdenv.mkDerivation {
     homepage = "https://chainner.app/";
     license = licenses.gpl3Only;
     platforms = ["x86_64-linux"];
+    sourceProvenance = [sourceTypes.binaryBytecode];
   };
 }
