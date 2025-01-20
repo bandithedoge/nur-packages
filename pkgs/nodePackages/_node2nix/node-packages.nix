@@ -423,13 +423,13 @@
         sha512 = "qmdSIPC4bDJXgZTCR7XosJiNKySV7O215tsPtDN9iEO/7q/76b/ijtgRu/+epFXSJhijtTCCGp3DWS549P3xKw==";
       };
     };
-    "node-fetch-native-1.6.4" = {
+    "node-fetch-native-1.6.6" = {
       name = "node-fetch-native";
       packageName = "node-fetch-native";
-      version = "1.6.4";
+      version = "1.6.6";
       src = fetchurl {
-        url = "https://registry.npmjs.org/node-fetch-native/-/node-fetch-native-1.6.4.tgz";
-        sha512 = "IhOigYzAKHd244OC0JIMIUrjzctirCmPkaIfhDeGcEETWof5zKYUW7e7MYvChGWh/4CJeXEgsRyGzuF334rOOQ==";
+        url = "https://registry.npmjs.org/node-fetch-native/-/node-fetch-native-1.6.6.tgz";
+        sha512 = "8Mc2HhqPdlIfedsuZoc3yioPuzp6b+L5jRCRY1QzuWZh2EGJVQrGppC6V6cF0bLdbW0+O2YpqCA25aF/1lvipQ==";
       };
     };
     "npm-run-path-5.3.0" = {
@@ -906,7 +906,7 @@ in {
             sources."pathe-2.0.2"
           ];
         })
-      sources."node-fetch-native-1.6.4"
+      sources."node-fetch-native-1.6.6"
       (sources."npm-run-path-5.3.0"
         // {
           dependencies = [

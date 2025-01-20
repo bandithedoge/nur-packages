@@ -10,7 +10,7 @@
     version = "20241231";
     src = fetchurl {
       url = "https://cinelerra-gg.org/download/images/CinGG-20241231-x86_64.AppImage";
-      sha256 = "sha256-FQxmdhVoNiqCZTniYVy9WlRyOUiyNtBm+0FC8KT/ovo=";
+      sha256 = "sha256-ZuuLB05+As8R7bP1fWLvRsJU8CrI7A7/Wtje9XO2QUI=";
     };
   };
 }

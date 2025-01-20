@@ -18,7 +18,7 @@
     version = "latest";
     src = fetchurl {
       url = "https://tal-software.com/downloads/plugins/Tal-Chorus-LX_64_linux.zip";
-      sha256 = "sha256-hup/Zaspe6O9112FRSLpbB4cEW4HhLNxrkNcsl6Fjsw=";
+      sha256 = "sha256-1pzf7/vznqq/6HG6I7wbY+0qUGIqaQL/foU8NgiBupw=";
     };
   };
   dac = {
@@ -34,7 +34,7 @@
     version = "latest";
     src = fetchurl {
       url = "https://tal-software.com/downloads/plugins/TAL-Drum_64_linux.zip";
-      sha256 = "sha256-pTpt1itUQyTezumaJ1kzUbO/wWesbDKz7qvnVWPHDUE=";
+      sha256 = "sha256-kWbt7Av8eWDygnhELVlkv2cnrX0sFUL+7ZKIJKBq/ZA=";
     };
   };
   dub-x = {
