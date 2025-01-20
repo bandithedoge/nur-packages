@@ -7,8 +7,9 @@ pkgs.stdenv.mkDerivation {
   inherit (sources.chainner-bin) pname version src;
 
   nativeBuildInputs = with pkgs; [
-    unzip
+    copyDesktopItems
     makeWrapper
+    unzip
   ];
 
   buildPhase = ''
@@ -23,6 +24,17 @@ pkgs.stdenv.mkDerivation {
 
     ln -s $out/libexec/resources/app/.vite/renderer/main_window/256x256.png $out/share/icons/hicolor/256x256/apps/chainner.png
   '';
+
+  desktopItems = with pkgs; [(makeDesktopItem {
+    name = "chainner";
+    desktopName = "chaiNNer";
+    comment = "A flowchart-based image processing GUI";
+    genericName = "Image Processing GUI";
+    exec = "chainner %U";
+    icon = "chainner";
+    categories = ["Graphics"];
+    mimeTypes = ["application/json"];
+  })];
 
   meta = with pkgs.lib; {
     description = "A node-based image processing GUI aimed at making chaining image processing tasks easy and customizable.";
