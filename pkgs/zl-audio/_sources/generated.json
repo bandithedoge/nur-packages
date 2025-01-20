@@ -11,13 +11,13 @@
       "fetchSubmodules": true,
       "leaveDotGit": false,
       "name": null,
-      "rev": "fb9095bfd9f8019606f284c6978e85d020e71f3a",
-      "sha256": "sha256-ojcGf70Lc5oYO29pvLeZG2yO1ucc/qG7yezdB8CZw9s=",
+      "rev": "83f4ba116a45dfaf3258e49e1516cf342b5e9f56",
+      "sha256": "sha256-3KMvV8R9VlBRgKOyXAWHO3dmgLw+FvWXOzZd2x9ogZ4=",
       "sparseCheckout": [],
       "type": "git",
       "url": "https://github.com/ZL-Audio/ZLCompressor"
     },
-    "version": "fb9095bfd9f8019606f284c6978e85d020e71f3a"
+    "version": "83f4ba116a45dfaf3258e49e1516cf342b5e9f56"
   },
   "equalizer": {
     "cargoLocks": null,

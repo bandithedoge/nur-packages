@@ -11,13 +11,13 @@
       "fetchSubmodules": true,
       "leaveDotGit": false,
       "name": null,
-      "rev": "9f1abee62fb84631760c2cb8144ce59efbc97a17",
-      "sha256": "sha256-eJOgZIDtCTv9EkGejkzEzlcgP7NL71Zl27bPag2n3dM=",
+      "rev": "389462ac57ec37057c1c86338f8b858c62760b34",
+      "sha256": "sha256-Nokt2ubAvVx0XHalmGxL1hK1ugKXRKKPoLbt7eGTbU4=",
       "sparseCheckout": [],
       "type": "git",
       "url": "https://github.com/baconpaul/airwin2rack"
     },
-    "version": "9f1abee62fb84631760c2cb8144ce59efbc97a17"
+    "version": "389462ac57ec37057c1c86338f8b858c62760b34"
   },
   "clap-juce-extensions": {
     "cargoLocks": null,

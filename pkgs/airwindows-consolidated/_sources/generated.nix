@@ -7,15 +7,15 @@
 }: {
   airwin2rack = {
     pname = "airwin2rack";
-    version = "9f1abee62fb84631760c2cb8144ce59efbc97a17";
+    version = "389462ac57ec37057c1c86338f8b858c62760b34";
     src = fetchgit {
       url = "https://github.com/baconpaul/airwin2rack";
-      rev = "9f1abee62fb84631760c2cb8144ce59efbc97a17";
+      rev = "389462ac57ec37057c1c86338f8b858c62760b34";
       fetchSubmodules = true;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [];
-      sha256 = "sha256-eJOgZIDtCTv9EkGejkzEzlcgP7NL71Zl27bPag2n3dM=";
+      sha256 = "sha256-Nokt2ubAvVx0XHalmGxL1hK1ugKXRKKPoLbt7eGTbU4=";
     };
     date = "2025-01-19";
   };
