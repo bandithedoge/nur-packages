@@ -1,62 +1,62 @@
 {
-    "envtool-bin": {
-        "cargoLocks": null,
-        "date": null,
-        "extract": null,
-        "name": "envtool-bin",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "name": null,
-            "sha256": "sha256-foXXDcAGmzAgnpndZ/pCaExJrl6I2EKxxyaW5oYfRh4=",
-            "type": "url",
-            "url": "https://github.com/klknn/kdr/releases/download/v1.4.2/ubuntu-latest-envtool.zip"
-        },
-        "version": "v1.4.2"
+  "envtool-bin": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "envtool-bin",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-foXXDcAGmzAgnpndZ/pCaExJrl6I2EKxxyaW5oYfRh4=",
+      "type": "url",
+      "url": "https://github.com/klknn/kdr/releases/download/v1.4.2/ubuntu-latest-envtool.zip"
     },
-    "epiano2-bin": {
-        "cargoLocks": null,
-        "date": null,
-        "extract": null,
-        "name": "epiano2-bin",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "name": null,
-            "sha256": "sha256-kJgsu9KTkVk2LD/NN3xgUG5C4YVRSNKPTBNSwbDfZTo=",
-            "type": "url",
-            "url": "https://github.com/klknn/kdr/releases/download/v1.4.2/ubuntu-latest-epiano2.zip"
-        },
-        "version": "v1.4.2"
+    "version": "v1.4.2"
+  },
+  "epiano2-bin": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "epiano2-bin",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-kJgsu9KTkVk2LD/NN3xgUG5C4YVRSNKPTBNSwbDfZTo=",
+      "type": "url",
+      "url": "https://github.com/klknn/kdr/releases/download/v1.4.2/ubuntu-latest-epiano2.zip"
     },
-    "freeverb-bin": {
-        "cargoLocks": null,
-        "date": null,
-        "extract": null,
-        "name": "freeverb-bin",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "name": null,
-            "sha256": "sha256-mJBVg9IW09izeKgMj1rr5LP+KqDowQguArh8IwmMw1Q=",
-            "type": "url",
-            "url": "https://github.com/klknn/kdr/releases/download/v1.4.2/ubuntu-latest-freeverb.zip"
-        },
-        "version": "v1.4.2"
+    "version": "v1.4.2"
+  },
+  "freeverb-bin": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "freeverb-bin",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-mJBVg9IW09izeKgMj1rr5LP+KqDowQguArh8IwmMw1Q=",
+      "type": "url",
+      "url": "https://github.com/klknn/kdr/releases/download/v1.4.2/ubuntu-latest-freeverb.zip"
     },
-    "synth2-bin": {
-        "cargoLocks": null,
-        "date": null,
-        "extract": null,
-        "name": "synth2-bin",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "name": null,
-            "sha256": "sha256-HDtSoouLmCe++5Ly0UXPuiZoBs1+cqM0A/XW/7CaA/A=",
-            "type": "url",
-            "url": "https://github.com/klknn/kdr/releases/download/v1.4.2/ubuntu-latest-synth2.zip"
-        },
-        "version": "v1.4.2"
-    }
+    "version": "v1.4.2"
+  },
+  "synth2-bin": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "synth2-bin",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-HDtSoouLmCe++5Ly0UXPuiZoBs1+cqM0A/XW/7CaA/A=",
+      "type": "url",
+      "url": "https://github.com/klknn/kdr/releases/download/v1.4.2/ubuntu-latest-synth2.zip"
+    },
+    "version": "v1.4.2"
+  }
 }
