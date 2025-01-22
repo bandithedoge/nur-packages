@@ -41,10 +41,10 @@
     "homepage": null,
     "owner": "nemethf",
     "repo": "eglot-x",
-    "rev": "295c0309dc836966467c95867d1593f1376507b6",
-    "sha256": "1w9nbnfdcdikhn603dkcmqzkfg80vhd71fd50mlsr8sm0h8ygy0v",
+    "rev": "bd98bffd7a4e322ed81cb180cedbf3d0e770e655",
+    "sha256": "14zmxymfmjs55nrsvcfm4bgy0106bflswhvyl6887q3ykzyv5ffd",
     "type": "tarball",
-    "url": "https://github.com/nemethf/eglot-x/archive/295c0309dc836966467c95867d1593f1376507b6.tar.gz",
+    "url": "https://github.com/nemethf/eglot-x/archive/bd98bffd7a4e322ed81cb180cedbf3d0e770e655.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "eglot-yaml": {
