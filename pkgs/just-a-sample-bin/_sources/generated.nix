@@ -10,7 +10,7 @@
     version = "release";
     src = fetchurl {
       url = "https://github.com/BOBONA/Just-a-Sample/releases/download/release/Linux.VST3.zip";
-      sha256 = "sha256-E94eKlubCsIn4TwL4HnU6NJsY7NvrDRBK3LpOGsUgsA=";
+      sha256 = "sha256-wmwhsjwnvpoxNtuX6jg0vXSp6wWffzxNaSj29j5BuwA=";
     };
   };
 }

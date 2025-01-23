@@ -17,7 +17,7 @@
       "leaveDotGit": true,
       "name": null,
       "rev": "0cac244cc89ee69bf33ad60a3953cfde188ee8a6",
-      "sha256": "sha256-bxuwXqQjMoS4NHSc/Mf+XmJZwraLF67PGOlQq9EPZIk=",
+      "sha256": "sha256-VdbKuCrPl8rY9G6xUOSVGvC3TriMDZ/e9png2Jh54SM=",
       "sparseCheckout": [],
       "type": "git",
       "url": "https://github.com/Open-Wine-Components/umu-launcher"

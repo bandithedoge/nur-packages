@@ -1,7 +1,7 @@
 {
   "element": {
     "cargoLocks": null,
-    "date": "2025-01-21",
+    "date": "2025-01-22",
     "extract": null,
     "name": "element",
     "passthru": null,
@@ -11,13 +11,13 @@
       "fetchSubmodules": false,
       "leaveDotGit": true,
       "name": null,
-      "rev": "1203c6630181324d7ff4588fd7f2e0977135a69f",
-      "sha256": "sha256-q98fRwpwlKvnVUMJKrYRiLX+WbX5z3ikz+LRclIviXQ=",
+      "rev": "19d6d96d4ce90c7e8f0fa0b583c640aeb0d1045c",
+      "sha256": "sha256-yIfSH3hmhecgNxfx10yJwWypBa3c+4Va8eNi+/bvQaQ=",
       "sparseCheckout": [],
       "type": "git",
       "url": "https://gitlab.com/kushview/element.git"
     },
-    "version": "1203c6630181324d7ff4588fd7f2e0977135a69f"
+    "version": "19d6d96d4ce90c7e8f0fa0b583c640aeb0d1045c"
   },
   "juce-element": {
     "cargoLocks": null,

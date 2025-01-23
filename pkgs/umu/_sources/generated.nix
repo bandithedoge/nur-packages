@@ -15,7 +15,7 @@
       deepClone = false;
       leaveDotGit = true;
       sparseCheckout = [];
-      sha256 = "sha256-bxuwXqQjMoS4NHSc/Mf+XmJZwraLF67PGOlQq9EPZIk=";
+      sha256 = "sha256-VdbKuCrPl8rY9G6xUOSVGvC3TriMDZ/e9png2Jh54SM=";
     };
     cargoLock."Cargo.lock" = {
       lockFile = ./umu-0cac244cc89ee69bf33ad60a3953cfde188ee8a6/Cargo.lock;
