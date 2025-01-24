@@ -27,6 +27,7 @@
     cardinal = callPackage' ./cardinal;
     chainner-bin = callPackage' ./chainner-bin;
     charlatan = callPackage' ./charlatan;
+    cherry-doom = callPackage' ./cherry-doom;
     cinelerra-gg-bin = callPackage' ./cinelerra-gg-bin;
     clap-info = callPackage' ./clap-info;
     cloudreverb = callPackage' ./cloudreverb;
