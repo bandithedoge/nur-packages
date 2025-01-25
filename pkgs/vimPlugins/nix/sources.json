@@ -950,10 +950,10 @@
     "homepage": "",
     "owner": "echasnovski",
     "repo": "mini.nvim",
-    "rev": "f90b6b820062fc06d6d51ed61a0f9b7f9a13b01b",
-    "sha256": "0hpr9zn22cy9p51sb50szpdsj73zdzs4z62phl913x5330lq1lxc",
+    "rev": "7a75a970d0bae09ef579e41dbb20551bdf596f31",
+    "sha256": "1qxn8vaq38676wblz6s3wa7739gi29hx9ilfrs8zsrbbxkr1fdiz",
     "type": "tarball",
-    "url": "https://github.com/echasnovski/mini.nvim/archive/f90b6b820062fc06d6d51ed61a0f9b7f9a13b01b.tar.gz",
+    "url": "https://github.com/echasnovski/mini.nvim/archive/7a75a970d0bae09ef579e41dbb20551bdf596f31.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "mkdir.nvim": {
@@ -1550,10 +1550,10 @@
     "homepage": "",
     "owner": "nvim-orgmode",
     "repo": "orgmode",
-    "rev": "056c21762df23e4f2263aca0c717a064fd2095ff",
-    "sha256": "074nfbfl8bgdb8q3n9hzi0d77bxgj6b2jch7vi0qggpgjvlh9clq",
+    "rev": "e65a661a7cb77775f2507ed9965c853d7dbace09",
+    "sha256": "0ibs1sbksal4z1xd2n6y8awnh54ya3gwcbwj8bnib0prlg5fa00b",
     "type": "tarball",
-    "url": "https://github.com/nvim-orgmode/orgmode/archive/056c21762df23e4f2263aca0c717a064fd2095ff.tar.gz",
+    "url": "https://github.com/nvim-orgmode/orgmode/archive/e65a661a7cb77775f2507ed9965c853d7dbace09.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "package-info.nvim": {
