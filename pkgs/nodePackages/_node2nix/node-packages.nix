@@ -108,13 +108,13 @@
         sha512 = "8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==";
       };
     };
-    "bumpp-9.10.2" = {
+    "bumpp-9.11.1" = {
       name = "bumpp";
       packageName = "bumpp";
-      version = "9.10.2";
+      version = "9.11.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/bumpp/-/bumpp-9.10.2.tgz";
-        sha512 = "QX1JdswFLLVgrA+I/t+926/jsuJ92BTKKxGvMYC6fg+1lFpCl9RbILQJg0thc5UirIjQ6/jY1Sj+b4tz3evA5g==";
+        url = "https://registry.npmjs.org/bumpp/-/bumpp-9.11.1.tgz";
+        sha512 = "jBHlab9NnRwrpHsockb5E+MBo0os2yS6S7i3cnN8hB6EkTardKQotmd0CFdOc8pubLz2fxj2AD6RGtrySVG6Mw==";
       };
     };
     "c12-2.0.1" = {
@@ -639,6 +639,15 @@
         sha512 = "DZ4yORTwrbTj/7MZYq2w+/ZFdI6OZ/f9SFHR+71gIVUZhOQPHzVCLpvRnPgyaMpfWxxk/4ONva3GQSyNIKRv6A==";
       };
     };
+    "tiny-conventional-commits-parser-0.0.1" = {
+      name = "tiny-conventional-commits-parser";
+      packageName = "tiny-conventional-commits-parser";
+      version = "0.0.1";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/tiny-conventional-commits-parser/-/tiny-conventional-commits-parser-0.0.1.tgz";
+        sha512 = "N5+AZWdBeHNSgTIaxvx0+9mFrnW4H1BbjQ84H7i3TuWSkno8Hju886hLaHZhE/hYEKrfrfl/uHurqpZJHDuYGQ==";
+      };
+    };
     "tinyexec-0.3.2" = {
       name = "tinyexec";
       packageName = "tinyexec";
@@ -853,7 +862,7 @@ in {
       sources."@vscode/emmet-helper-2.11.0"
       sources."acorn-8.14.0"
       sources."argparse-2.0.1"
-      (sources."bumpp-9.10.2"
+      (sources."bumpp-9.11.1"
         // {
           dependencies = [
             sources."jsonc-parser-3.3.1"
@@ -938,6 +947,7 @@ in {
       sources."source-map-js-1.2.1"
       sources."strip-final-newline-3.0.0"
       sources."tar-6.2.1"
+      sources."tiny-conventional-commits-parser-0.0.1"
       sources."tinyexec-0.3.2"
       sources."tinyglobby-0.2.10"
       sources."ufo-1.5.4"
