@@ -7,16 +7,13 @@
 }: {
   winegui = {
     pname = "winegui";
-    version = "c8c5e8678161377c59f1bde97682a9824d7d70a0";
-    src = fetchgit {
-      url = "https://gitlab.melroy.org/melroy/winegui";
-      rev = "c8c5e8678161377c59f1bde97682a9824d7d70a0";
+    version = "v2.4.3";
+    src = fetchFromGitHub {
+      owner = "winegui";
+      repo = "WineGUI";
+      rev = "v2.4.3";
       fetchSubmodules = false;
-      deepClone = false;
-      leaveDotGit = false;
-      sparseCheckout = [];
-      sha256 = "sha256-nh3Edz8c0M4iNabXcKr12eL+/2fggr6dIHJQTFkYl/Y=";
+      sha256 = "sha256-OYAIbLR1MtwoAOeznoDORhBwYESMFfWyqNcQSJ1kcPY=";
     };
-    date = "2025-01-05";
   };
 }

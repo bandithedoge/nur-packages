@@ -1,7 +1,7 @@
 {
   "winegui": {
     "cargoLocks": null,
-    "date": "2025-01-05",
+    "date": null,
     "extract": null,
     "name": "winegui",
     "passthru": null,
@@ -11,12 +11,13 @@
       "fetchSubmodules": false,
       "leaveDotGit": false,
       "name": null,
-      "rev": "c8c5e8678161377c59f1bde97682a9824d7d70a0",
-      "sha256": "sha256-nh3Edz8c0M4iNabXcKr12eL+/2fggr6dIHJQTFkYl/Y=",
+      "owner": "winegui",
+      "repo": "WineGUI",
+      "rev": "v2.4.3",
+      "sha256": "sha256-OYAIbLR1MtwoAOeznoDORhBwYESMFfWyqNcQSJ1kcPY=",
       "sparseCheckout": [],
-      "type": "git",
-      "url": "https://gitlab.melroy.org/melroy/winegui"
+      "type": "github"
     },
-    "version": "c8c5e8678161377c59f1bde97682a9824d7d70a0"
+    "version": "v2.4.3"
   }
 }
