@@ -20,6 +20,11 @@
         system,
         ...
       }: {
+        _module.args.pkgs = import inputs.nixpkgs {
+          inherit system;
+          config.allowUnfree = true;
+        };
+
         legacyPackages = import ./default.nix {inherit pkgs;};
 
         devShells.default = pkgs.mkShell {
