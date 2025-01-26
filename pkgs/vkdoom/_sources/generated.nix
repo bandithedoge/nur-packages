@@ -7,16 +7,16 @@
 }: {
   vkdoom = {
     pname = "vkdoom";
-    version = "4da33170203519948102d6410f02624b10f8f625";
+    version = "a1e229a583ba7e00bb4815e566bf78b6e9961e99";
     src = fetchgit {
       url = "https://github.com/dpjudas/VkDoom";
-      rev = "4da33170203519948102d6410f02624b10f8f625";
+      rev = "a1e229a583ba7e00bb4815e566bf78b6e9961e99";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = true;
       sparseCheckout = [];
-      sha256 = "sha256-G2pvBX+WoOL0sqyOSG/3oN1nccqHhHVi7+ynBVVGfag=";
+      sha256 = "sha256-dbzT4JAUpeRPdm72E5DqZ60D4Tbcva3CPirQaxBpIvY=";
     };
-    date = "2025-01-25";
+    date = "2025-01-26";
   };
 }
