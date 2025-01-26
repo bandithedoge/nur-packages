@@ -77,6 +77,7 @@
     mxtune-bin = callPackage' ./mxtune-bin;
     nimlangserver = callPackage' ./nimlangserver;
     nodePackages = callPackages' ./nodePackages;
+    nugget-doom = callPackage' ./nugget-doom;
     nyan-doom = callPackage' ./nyan-doom;
     octasine = callPackage' ./octasine;
     onagre = callPackage' ./onagre;

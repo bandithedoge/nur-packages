@@ -1,0 +1,23 @@
+{
+    "nugget-doom": {
+        "cargoLocks": null,
+        "date": null,
+        "extract": null,
+        "name": "nugget-doom",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "MrAlaux",
+            "repo": "Nugget-Doom",
+            "rev": "nugget-doom-4.1.0",
+            "sha256": "sha256-zvmFfQOzDX5ghSB0vr8hIATWbzEuH4yIAXKNC6q7y2s=",
+            "sparseCheckout": [],
+            "type": "github"
+        },
+        "version": "nugget-doom-4.1.0"
+    }
+}
