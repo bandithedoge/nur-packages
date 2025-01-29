@@ -29,10 +29,10 @@
     "homepage": "",
     "owner": "hankertrix",
     "repo": "augment-command.yazi",
-    "rev": "c0fd61fea9ce56eaf1647c25dc71eaaf2edde3d7",
-    "sha256": "0wmqbchrapvy6jfx6zi3z9jcvp740fgffsa6j9hryqw6jsilnsvd",
+    "rev": "e337feb471759e4ecd06d934090078ad3bc0b696",
+    "sha256": "01zkdh18iqww4ww3achkyi2kgk2v40q7hpgb0g60j22jn8mrcinn",
     "type": "tarball",
-    "url": "https://github.com/hankertrix/augment-command.yazi/archive/c0fd61fea9ce56eaf1647c25dc71eaaf2edde3d7.tar.gz",
+    "url": "https://github.com/hankertrix/augment-command.yazi/archive/e337feb471759e4ecd06d934090078ad3bc0b696.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "bookmarks.yazi": {
@@ -221,10 +221,10 @@
     "homepage": "",
     "owner": "MasouShizuka",
     "repo": "projects.yazi",
-    "rev": "ba8d00b2202368ac837fffb93e38a427f9e52258",
-    "sha256": "0jvl8kf092f4cw9yh6kjx5kfp6g73dd85139dl7nbal8hppx5vf7",
+    "rev": "f211b81c7aed0acfdbc69ed58a33d2a3251925d8",
+    "sha256": "1sjm9x3i8l7iigl9d9v05v3s0s35bpv94af91hlp67xq4kbnhcbq",
     "type": "tarball",
-    "url": "https://github.com/MasouShizuka/projects.yazi/archive/ba8d00b2202368ac837fffb93e38a427f9e52258.tar.gz",
+    "url": "https://github.com/MasouShizuka/projects.yazi/archive/f211b81c7aed0acfdbc69ed58a33d2a3251925d8.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "reflink.yazi": {
@@ -365,10 +365,10 @@
     "homepage": "",
     "owner": "h-hg",
     "repo": "yamb.yazi",
-    "rev": "108347b0392fc819af04506dd0405fb744dfca68",
-    "sha256": "1sd6sf34vx45r0c15vgjn8pgw89ww5shhaglk34swb50an6ky5gw",
+    "rev": "3f7c51fdccf3345485d54aedfabbca86fc7b0dca",
+    "sha256": "1asmfxmc62vdcp6hmaj81p7fv5q3qzrj8yaqs1gahgma3gxnwazy",
     "type": "tarball",
-    "url": "https://github.com/h-hg/yamb.yazi/archive/108347b0392fc819af04506dd0405fb744dfca68.tar.gz",
+    "url": "https://github.com/h-hg/yamb.yazi/archive/3f7c51fdccf3345485d54aedfabbca86fc7b0dca.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "yatline.yazi": {
