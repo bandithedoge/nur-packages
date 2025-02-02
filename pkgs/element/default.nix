@@ -9,6 +9,7 @@ pkgs.stdenv.mkDerivation rec {
   version = sources.element.date;
 
   nativeBuildInputs = with pkgs; [
+    cmake
     git
     makeWrapper
     meson
@@ -33,13 +34,18 @@ pkgs.stdenv.mkDerivation rec {
     ++ utils.juce.commonBuildInputs;
 
   postPatch = ''
+    ln -s ${sources.clap-helpers.src} subprojects/clap-helpers
+    ln -s ${sources.clap.src} subprojects/clap
     ln -s ${sources.juce-element.src} subprojects/juce
+    ln -s ${sources.lvtk-host.src} subprojects/lvtk-host
     ln -s ${sources.lvtk.src} subprojects/lvtk
   '';
 
   postInstall = ''
     wrapProgram $out/bin/element --prefix LD_LIBRARY_PATH : ${pkgs.lib.makeLibraryPath buildInputs}
   '';
+
+  dontUseCmakeConfigure = true;
 
   meta = with pkgs.lib; {
     description = "A modular AU/LV2/VST/VST3 audio plugin host";
