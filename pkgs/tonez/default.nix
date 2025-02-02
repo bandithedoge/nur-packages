@@ -24,8 +24,12 @@ in
       ++ utils.juce.commonBuildInputs;
 
     buildPhase = ''
+      runHook preBuild
+
       mkdir -p $out/lib/vst3
       cp -r ToneZ_V2.vst3 $out/lib/vst3
+
+      runHook postBuild
     '';
 
     meta = with pkgs.lib; {

@@ -28,10 +28,12 @@
         ++ utils.juce.commonBuildInputs;
 
       buildPhase = ''
-        ls
-        mkdir -p $out/lib/vst3
+        runHook preBuild
 
+        mkdir -p $out/lib/vst3
         cp -r Linux/${name}.vst3 $out/lib/vst3
+
+        runHook postBuild
       '';
 
       meta = with pkgs.lib; {

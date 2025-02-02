@@ -8,12 +8,16 @@ utils.juce.mkJucePackage {
   inherit (sources.firefly-synth) pname version src;
 
   installPhase = ''
+    runHook preInstall
+
     mkdir -p $out/lib/{clap,vst3}
     cd /build/source/dist/Release/linux
     cp -r firefly_synth_1.clap $out/lib/clap
     cp -r firefly_synth_fx_1.clap $out/lib/clap
     cp -r firefly_synth_1.vst3 $out/lib/vst3
     cp -r firefly_synth_fx_1.vst3 $out/lib/vst3
+
+    runHook postInstall
   '';
 
   meta = with pkgs.lib; {

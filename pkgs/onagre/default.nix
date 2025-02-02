@@ -25,10 +25,14 @@ in
     ];
 
     buildPhase = ''
+      runHook preBuild
+
       mkdir -p $out/bin
 
       makeWrapper ${unwrapped}/bin/onagre $out/bin/onagre \
         --prefix LD_LIBRARY_PATH : ${pkgs.lib.makeLibraryPath buildInputs}
+
+      runHook postBuild
     '';
 
     passthru = {inherit unwrapped;};

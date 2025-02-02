@@ -21,10 +21,16 @@ in
     '';
 
     buildPhase = ''
+      runHook preBuild
+
       make all
+
+      runHook postBuild
     '';
 
     installPhase = ''
+      runHook preInstall
+
       mkdir -p $out/lib/{vst,vst3}
 
       cp dist/js80p-dev-linux-${arch}-sse2-fst/js80p.so $out/lib/vst
@@ -33,6 +39,8 @@ in
       mkdir -p $out/lib/vst3/js80p.vst3/Contents/${pkgs.stdenv.system}
       cp dist/js80p-dev-linux-${arch}-sse2-vst3_single_file/js80p.vst3 \
         $out/lib/vst3/js80p.vst3/Contents/${pkgs.stdenv.system}/js80p.so
+
+      runHook postInstall
     '';
 
     SYS_LIB_PATH =

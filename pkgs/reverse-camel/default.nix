@@ -11,11 +11,15 @@ pkgs.stdenv.mkDerivation {
   ];
 
   installPhase = ''
+    runHook preInstall
+
     mkdir -p $out/lib/{lv2,vst,ladspa,dssi}
     cp -r bin/reverse-camel.lv2 $out/lib/lv2
     cp bin/reverse-camel-vst.so $out/lib/vst
     cp bin/reverse-camel-ladspa.so $out/lib/ladspa
     cp bin/reverse-camel-dssi.so $out/lib/dssi
+
+    runHook postInstall
   '';
 
   meta = with pkgs.lib; {

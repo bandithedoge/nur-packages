@@ -22,10 +22,14 @@ pkgs.stdenv.mkDerivation {
   ];
 
   installPhase = ''
+    runHook preInstall
+
     mkdir -p $out/{bin,lib/clap,lib/vst3}
     cp lamb $out/bin
     cp lamb.clap $out/lib/clap
     cp -r lamb.vst3 $out/lib/vst3
+
+    runHook postInstall
   '';
 
   meta = with pkgs.lib; {

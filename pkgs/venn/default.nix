@@ -24,8 +24,12 @@
       ];
 
       buildPhase = ''
+        runHook preBuild
+
         mkdir -p $out/lib/vst3
         cp -r *.vst3 $out/lib/vst3
+
+        runHook postBuild
       '';
 
       meta = with pkgs.lib;

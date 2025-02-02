@@ -17,8 +17,12 @@ pkgs.stdenv.mkDerivation {
   ];
 
   buildPhase = ''
+    runHook preBuild
+
     mkdir -p $out/lib/vamp
     cp ircamcrepe.* $out/lib/vamp
+
+    runHook postBuild
   '';
 
   meta = with pkgs.lib; {

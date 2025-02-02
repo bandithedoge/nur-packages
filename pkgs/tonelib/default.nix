@@ -24,7 +24,11 @@
         '';
 
         buildPhase = ''
+          runHook preBuild
+
           cp -r root/usr $out
+
+          runHook postBuild
         '';
       }
       // attrs);

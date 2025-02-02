@@ -11,9 +11,13 @@ in
     dontUnpack = true;
 
     buildPhase = ''
+      runHook preBuild
+
       mkdir -p $out/bin
       cp $src $out/bin/zlint
       chmod +x $out/bin/zlint
+
+      runHook postBuild
     '';
 
     meta = with pkgs.lib; {

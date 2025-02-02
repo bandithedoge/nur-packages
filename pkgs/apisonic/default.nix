@@ -21,9 +21,13 @@
       buildInputs = utils.juce.commonBuildInputs;
 
       buildPhase = ''
+        runHook preBuild
+
         mkdir -p $out/lib/{vst,vst3}
         cp -r .vst3/${source.pname}.vst3 $out/lib/vst3
         cp .vst/${source.pname}.so $out/lib/vst
+
+        runHook postBuild
       '';
 
       meta = with pkgs.lib;

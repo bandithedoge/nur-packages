@@ -12,9 +12,13 @@ in
     dontUnpack = true;
 
     buildPhase = ''
+      runHook preBuild
+
       mkdir -p $out/bin
       cp $src $out/bin/snyk-ls
       chmod +x $out/bin/snyk-ls
+
+      runHook postBuild
     '';
 
     meta = with pkgs.lib; {

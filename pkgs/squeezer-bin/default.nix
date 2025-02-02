@@ -19,6 +19,8 @@ pkgs.stdenv.mkDerivation rec {
   buildInputs = utils.juce.commonBuildInputs;
 
   buildPhase = ''
+    runHook preBuild
+
     mkdir -p $out/{bin,lib/vst}
 
     cp squeezer-linux64-vst2_${version}/*.so $out/lib/vst
@@ -29,6 +31,8 @@ pkgs.stdenv.mkDerivation rec {
       squeezer-linux64-standalone_${version}/squeezer_stereo_x64 \
       $out/bin
     cp -r squeezer-linux64-standalone_${version}/squeezer $out/bin
+
+    runHook postBuild
   '';
 
   meta = with pkgs.lib; {

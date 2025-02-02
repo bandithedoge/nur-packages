@@ -43,8 +43,12 @@ pkgs.stdenv.mkDerivation {
   '';
 
   installPhase = ''
+    runHook preInstall
+
     mkdir -p $out/bin
     cp "build/HISE Standalone" $out/bin/HISE
+
+    runHook postInstall
   '';
 
   enableParallelBuilding = true;

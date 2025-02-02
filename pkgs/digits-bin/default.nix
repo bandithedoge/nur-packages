@@ -16,9 +16,13 @@ pkgs.stdenv.mkDerivation {
   ];
 
   buildPhase = ''
+    runHook preBuild
+
     mkdir -p $out/{lib/vst,share/digits}
     cp DigitsVST_64.so $out/lib/vst
     cp -r Patches $out/share/digits/presets
+
+    runHook postBuild
   '';
 
   meta = with pkgs.lib; {

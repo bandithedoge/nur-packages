@@ -27,6 +27,8 @@
 
       buildPhase =
         ''
+          runHook preBuild
+
           mkdir -p $out
           cp -r ${product} $out/libexec
 
@@ -37,12 +39,13 @@
           ln -s $out/libexec/${product}.64.so $out/lib/vst3/${product}.vst3/Contents/x86_64-linux/${product}.so
           ln -s $out/libexec/*.pdf $out/lib/vst3/${product}.vst3/Contents/Resources/Documentation/
         ''
-        + pkgs.lib.optionalString clap ''
+        + (pkgs.lib.optionalString clap ''
           mkdir -p $out/lib/clap
           ln -s $out/libexec/${product}.64.so $out/lib/clap/${product}.64.clap
+        '')
+        + ''
+          runHook postBuild
         '';
-
-      inherit postBuild;
 
       passthru = {
         inherit product;

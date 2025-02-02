@@ -13,6 +13,8 @@ pkgs.stdenv.mkDerivation {
   ];
 
   buildPhase = ''
+    runHook preBuild
+
     mkdir -p $out/{bin,libexec,share/icons/hicolor/256x256/apps}
     cp -r * $out/libexec
 
@@ -23,6 +25,8 @@ pkgs.stdenv.mkDerivation {
     rm $out/libexec/portable
 
     ln -s $out/libexec/resources/app/.vite/renderer/main_window/256x256.png $out/share/icons/hicolor/256x256/apps/chainner.png
+
+    runHook postBuild
   '';
 
   desktopItems = with pkgs; [

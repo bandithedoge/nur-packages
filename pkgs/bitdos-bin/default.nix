@@ -23,9 +23,13 @@ pkgs.stdenv.mkDerivation {
   autoPatchelfIgnoreMissingDeps = ["libcurl-nss.so.4"];
 
   buildPhase = ''
+    runHook preBuild
+
     mkdir -p $out/lib/{lv2,vst3}
     cp -r BitDOS.lv2 $out/lib/lv2
     cp -r BitDOS.vst3 $out/lib/vst3
+
+    runHook postBuild
   '';
 
   meta = with pkgs.lib; {

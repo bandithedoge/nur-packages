@@ -19,10 +19,14 @@ pkgs.stdenv.mkDerivation {
     ++ utils.juce.commonBuildInputs;
 
   buildPhase = ''
+    runHook preBuild
+
     mkdir -p $out/lib/{clap,lv2,vst3}
     cp Release/CLAP/peakeater.clap $out/lib/clap
     cp -r Release/LV2/peakeater.lv2 $out/lib/lv2
     cp -r Release/VST3/peakeater.vst3 $out/lib/vst3
+
+    runHook postBuild
   '';
 
   meta = with pkgs.lib; {

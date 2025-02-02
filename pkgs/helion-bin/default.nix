@@ -23,6 +23,8 @@ pkgs.stdenv.mkDerivation {
   ];
 
   buildPhase = ''
+    runHook preBuild
+
     mkdir -p $out/{bin,libexec}
     cp -r * $out/libexec
 
@@ -32,6 +34,8 @@ pkgs.stdenv.mkDerivation {
     patchelf $out/libexec/Helion \
       --add-needed libopenal.so.1 \
       --add-needed libGL.so
+
+    runHook postBuild
   '';
 
   meta = with pkgs.lib; {

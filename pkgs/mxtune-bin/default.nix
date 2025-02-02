@@ -15,8 +15,12 @@ pkgs.stdenv.mkDerivation {
   buildInputs = utils.juce.commonBuildInputs;
 
   buildPhase = ''
+    runHook preBuild
+
     mkdir -p $out/lib/vst
     cp mx_tune.so $out/lib/vst
+
+    runHook postInstall
   '';
 
   meta = with pkgs.lib; {

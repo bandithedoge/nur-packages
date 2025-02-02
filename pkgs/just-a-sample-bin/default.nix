@@ -16,8 +16,12 @@ pkgs.stdenv.mkDerivation {
   buildInputs = utils.juce.commonBuildInputs;
 
   buildPhase = ''
+    runHook preBuild
+
     mkdir -p $out/lib/vst3
     cp -r JustASample.vst3 $out/lib/vst3
+
+    runHook postBuild
   '';
 
   meta = with pkgs.lib; {

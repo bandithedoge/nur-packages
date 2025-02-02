@@ -25,9 +25,13 @@
       ];
 
       buildPhase = ''
+        runHook preBuild
+
         mkdir -p $out/lib/{clap,vst3}
         cp ${source.pname}-x86_64-unknown-linux-gnu.clap $out/lib/clap/${source.pname}.clap
         cp -r ${source.pname}-x86_64-unknown-linux-gnu.vst3 $out/lib/vst3/${source.pname}.vst3
+
+        runHook postBuild
       '';
 
       meta = with pkgs.lib; {

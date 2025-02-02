@@ -25,11 +25,15 @@ utils.juce.mkJucePackage {
   '';
 
   installPhase = ''
+    runHook preInstall
+
     mkdir -p $out/{bin,lib/clap,lib/lv2,lib/vst3}
     cp awcons-products/Airwindows\ Consolidated $out/bin/AirwindowsConsolidated
     cp awcons-products/Airwindows\ Consolidated.clap $out/lib/clap
     cp -r awcons-products/Airwindows\ Consolidated.lv2 $out/lib/lv2
     cp -r awcons-products/Airwindows\ Consolidated.vst3 $out/lib/vst3
+
+    runHook postInstall
   '';
 
   meta = with pkgs.lib; {

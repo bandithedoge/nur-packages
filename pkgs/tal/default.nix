@@ -30,10 +30,14 @@
         ++ extraLibs;
 
       buildPhase = ''
+        runHook preBuild
+
         mkdir -p $out/lib/vst $out/lib/vst3 $out/lib/clap
         cp lib${product}.so $out/lib/vst
         cp -r ${product}.vst3 $out/lib/vst3
         cp ${product}.clap $out/lib/clap
+
+        runHook postBuild
       '';
 
       meta = with pkgs.lib; {

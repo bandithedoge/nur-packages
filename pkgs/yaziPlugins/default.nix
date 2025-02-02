@@ -11,7 +11,11 @@ in
           version = src.rev;
           inherit src;
           buildPhase = ''
+            runHook preBuild
+
             cp -r ${src} $out
+
+            runHook postBuild
           '';
         }))
       (pkgs.lib.filterAttrs (_: v: pkgs.lib.isStorePath v) sources)))

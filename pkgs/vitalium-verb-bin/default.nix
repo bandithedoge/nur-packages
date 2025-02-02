@@ -21,9 +21,13 @@ pkgs.stdenv.mkDerivation {
   ];
 
   buildPhase = ''
+    runHook preBuild
+
     mkdir -p $out/lib/{clap,vst3}
     cp VitaliumVerb.clap $out/lib/clap
     cp -r VitaliumVerb.vst3 $out/lib/vst3
+
+    runHook postBuild
   '';
 
   meta = with pkgs.lib; {

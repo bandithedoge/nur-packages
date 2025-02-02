@@ -21,8 +21,12 @@ pkgs.stdenv.mkDerivation {
   '';
 
   installPhase = ''
+    runHook preInstall
+
     make install -C Molot_Mono_Lite
     make install -C Molot_Stereo_Lite
+
+    runHook postInstall
   '';
 
   meta = with pkgs.lib; {

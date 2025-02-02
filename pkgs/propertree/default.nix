@@ -23,10 +23,14 @@ pkgs.stdenv.mkDerivation {
   ];
 
   buildPhase = ''
+    runHook preBuild
+
     mkdir -p $out/libexec $out/bin
     cp -r $src $out/libexec/propertree
     patchShebangs
     makeWrapper $out/libexec/propertree/ProperTree.py $out/bin/propertree
+
+    runHook postBuild
   '';
 
   meta = with pkgs.lib; {

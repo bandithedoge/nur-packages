@@ -28,8 +28,12 @@ pkgs.gcc12Stdenv.mkDerivation {
   '';
 
   installPhase = ''
+    runHook preInstall
+
     mkdir -p $out/lib
     cp -r /build/source/build/VST3/Release $out/lib/vst3
+
+    runHook postInstall
   '';
 
   cmakeFlags = [

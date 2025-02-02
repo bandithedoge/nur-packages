@@ -48,6 +48,8 @@
           if dontUseJuceInstall
           then null
           else ''
+            runHook preInstall
+
             for f in *_artefacts/Release/Standalone/*; do
               mkdir -p $out/bin
               cp "$f" $out/bin
@@ -69,6 +71,8 @@
               mkdir -p $out/lib/vst3
               cp -r "$f" $out/lib/vst3
             done
+
+            runHook postInstall
           '';
       }
       // (pkgs.lib.removeAttrs args ["nativeBuildInputs" "buildInputs" "cmakeFlags"]));

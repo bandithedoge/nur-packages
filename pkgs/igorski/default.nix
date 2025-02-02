@@ -66,7 +66,11 @@
       '';
 
       installPhase = ''
+        runHook preInstall
+
         cp -r /build/source $out
+
+        runHook postInstall
       '';
 
       cmakeFlags = [

@@ -18,8 +18,12 @@ pkgs.stdenv.mkDerivation {
   ];
 
   buildPhase = ''
+    runHook preBuild
+
     mkdir -p $out/lib/vamp
     cp *.so *.cat $out/lib/vamp
+
+    runHook postBuild
   '';
 
   meta = with pkgs.lib; {

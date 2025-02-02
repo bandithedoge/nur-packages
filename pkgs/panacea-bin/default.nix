@@ -23,10 +23,14 @@ in
       ++ utils.juce.commonBuildInputs;
 
     buildPhase = ''
+      runHook preBuild
+
       mkdir -p $out/lib/vst/Panacea
 
       cp Panacea.so Panacea.csd $out/lib/vst/Panacea
       cp -r img $out/lib/vst/Panacea
+
+      runHook postBuild
     '';
 
     meta = with pkgs.lib; {

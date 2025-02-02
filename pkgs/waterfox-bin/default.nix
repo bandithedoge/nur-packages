@@ -37,6 +37,8 @@ pkgs.stdenv.mkDerivation {
       }
       // config.firefox.policies or {};
   in ''
+    runHook preBuild
+
     mkdir -p $out/{bin,lib/waterfox}
     cp -r * $out/lib/waterfox
 
@@ -49,6 +51,8 @@ pkgs.stdenv.mkDerivation {
       mkdir -p "$out/share/icons/hicolor/$(echo $i)x$(echo $i)/apps"
       ln -s $out/lib/waterfox/browser/chrome/icons/default/default$i.png "$out/share/icons/hicolor/$(echo $i)x$(echo $i)/apps/waterfox.png"
     done
+
+    runHook postBuild
   '';
 
   desktopItems = [

@@ -18,10 +18,14 @@
       ];
 
       buildPhase = ''
+        runHook preBuild
+
         mkdir -p $out/lib
         cp -r Linux-64b-LV2 $out/lib/lv2
         cp -r Linux-64b-VST3 $out/lib/vst3
         cp -r Linux-64b-VST2 $out/lib/vst
+
+        runHook postBuild
       '';
 
       meta = with pkgs.lib; {

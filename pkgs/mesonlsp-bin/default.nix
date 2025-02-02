@@ -3,6 +3,7 @@
   sources,
   ...
 }:
+# TODO: this can now be a native build
 pkgs.stdenv.mkDerivation {
   inherit (sources.mesonlsp-bin) pname version src;
 
@@ -11,8 +12,12 @@ pkgs.stdenv.mkDerivation {
   ];
 
   buildPhase = ''
+    runHook preBuild
+
     mkdir -p $out/bin
     cp mesonlsp $out/bin
+
+    runHook postBuild
   '';
 
   sourceRoot = ".";

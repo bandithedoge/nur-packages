@@ -12,8 +12,12 @@ pkgs.stdenv.mkDerivation {
   sourceRoot = ".";
 
   buildPhase = ''
+    runHook preBuild
+
     mkdir -p $out/share/fonts/truetype/NerdFonts
     cp *.ttf $out/share/fonts/truetype/NerdFonts
+
+    runHook postBuild
   '';
 
   meta = with pkgs.lib; {

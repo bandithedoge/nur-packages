@@ -30,6 +30,8 @@ in
       ++ utils.juce.commonBuildInputs;
 
     installPhase = ''
+      runHook preInstall
+
       mkdir -p $out/{bin,lib/vamp}
       cp -r Partiels $out/libexec
 
@@ -40,6 +42,8 @@ in
 
       mkdir -p $out/share/icons/hicolor/512x512/apps
       ln -s $out/libexec/icon.png $out/share/icons/hicolor/512x512/apps/partiels.png
+
+      runHook postInstall
     '';
 
     cmakeFlags = [

@@ -20,6 +20,8 @@ pkgs.stdenv.mkDerivation {
   ];
 
   buildPhase = ''
+    runHook preBuild
+
     mkdir -p $out/{libexec,lib/vst3,lib/clap}
     cp Charlatan3.so $out/libexec
     cp -r presets $out/libexec
@@ -27,6 +29,8 @@ pkgs.stdenv.mkDerivation {
     ln -s $out/libexec/Charlatan3.so $out/lib/clap/Charlatan3.clap
     mkdir -p $out/lib/vst3/Charlatan3.vst3/Contents/x86_64-linux
     ln -s $out/libexec/Charlatan3.so $out/lib/vst3/Charlatan3.vst3/Contents/x86_64-linux/Charlatan3.so
+
+    runHook postBuild
   '';
 
   meta = with pkgs.lib; {

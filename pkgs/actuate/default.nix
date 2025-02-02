@@ -21,9 +21,13 @@ pkgs.rustPlatform.buildRustPackage {
   '';
 
   installPhase = ''
+    runHook preInstall
+
     mkdir -p $out/lib/{clap,vst3}
     cp target/bundled/Actuate.clap $out/lib/clap
     cp -r target/bundled/Actuate.vst3 $out/lib/vst3
+
+    runHook postInstall
   '';
 
   doCheck = false;

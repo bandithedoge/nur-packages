@@ -25,8 +25,12 @@ pkgs.stdenv.mkDerivation {
     ++ utils.juce.commonBuildInputs;
 
   buildPhase = ''
+    runHook preBuild
+
     mkdir -p $out/lib/vst3
     cp -r Guitarix.vst3 $out/lib/vst3
+
+    runHook postBuild
   '';
 
   meta = with pkgs.lib; {

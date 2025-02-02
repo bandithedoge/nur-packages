@@ -27,9 +27,13 @@ pkgs.stdenv.mkDerivation {
     ++ utils.juce.commonBuildInputs;
 
   buildPhase = ''
+    runHook preBuild
+
     mkdir -p $out/lib/{lv2,vst3}
     cp -r Microbiome.lv2 $out/lib/lv2
     cp -r Microbiome.vst3 $out/lib/vst3
+
+    runHook postBuild
   '';
 
   meta = with pkgs.lib; {
