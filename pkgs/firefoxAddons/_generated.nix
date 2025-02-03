@@ -1383,10 +1383,10 @@
   };
   "sidebery" = buildFirefoxXpiAddon {
     pname = "sidebery";
-    version = "5.2.0";
+    version = "5.3.1";
     addonId = "{3c078156-979c-498b-8990-85f7987dd929}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4246774/sidebery-5.2.0.xpi";
-    sha256 = "a5dd94227daafeec200dc2052fae6daa74d1ba261c267b71c03faa4cc4a6fa14";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4424290/sidebery-5.3.1.xpi";
+    sha256 = "f050c116bd141423c23485bc751283a82cb2e06268ae6ca707109ca8f6f15e76";
     meta = with lib; {
       homepage = "https://github.com/mbnuqw/sidebery";
       description = "Vertical tabs tree and bookmarks in sidebar with advanced containers configuration, grouping and many other features.";
@@ -1403,6 +1403,7 @@
         "menus.overrideContext"
         "search"
         "theme"
+        "identity"
       ];
       platforms = platforms.all;
     };

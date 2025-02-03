@@ -329,10 +329,10 @@
     "homepage": "",
     "owner": "kirasok",
     "repo": "torrent-preview.yazi",
-    "rev": "c9e67df81cb62759bd84a2fad5a0d9b6713bd595",
-    "sha256": "1hf4y5p31s9j0pd92y0aqm97i2a5v2cfl7fhx0ajihkjkdli198q",
+    "rev": "169cafcb6f1b0aeef647c7598845e1e09651c3a8",
+    "sha256": "1126s2bvh274wxy534qdz1a65sk3vlzw1xl8y46izvmrh1dfb8mm",
     "type": "tarball",
-    "url": "https://github.com/kirasok/torrent-preview.yazi/archive/c9e67df81cb62759bd84a2fad5a0d9b6713bd595.tar.gz",
+    "url": "https://github.com/kirasok/torrent-preview.yazi/archive/169cafcb6f1b0aeef647c7598845e1e09651c3a8.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "video-ffmpeg.yazi": {
