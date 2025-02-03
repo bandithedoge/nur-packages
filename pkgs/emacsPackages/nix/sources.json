@@ -29,10 +29,10 @@
     "homepage": "",
     "owner": "emacs-languagetool",
     "repo": "eglot-ltex",
-    "rev": "261b67961f14693266334c0bfee9f748676ddbb0",
-    "sha256": "110zaj3nlv9q5dfrcx6vwrdqaiwj04829rkww41384p4079ffpr6",
+    "rev": "4bc35d72e18f66c15bb628829aa27e0d00a96785",
+    "sha256": "0hcx777lpcxrvnp11fllijpikj40vm708lzmw8w8slrrmqarpwi7",
     "type": "tarball",
-    "url": "https://github.com/emacs-languagetool/eglot-ltex/archive/261b67961f14693266334c0bfee9f748676ddbb0.tar.gz",
+    "url": "https://github.com/emacs-languagetool/eglot-ltex/archive/4bc35d72e18f66c15bb628829aa27e0d00a96785.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "eglot-x": {
@@ -65,10 +65,10 @@
     "homepage": "",
     "owner": "lastquestion",
     "repo": "explain-pause-mode",
-    "rev": "2356c8c3639cbeeb9751744dbe737267849b4b51",
-    "sha256": "0frnfwqal9mrnrz6q4v7vcai26ahaw81894arff1yjw372pfgv7v",
+    "rev": "ac3eb69f36f345506aad05a6d9bc3ef80d26914b",
+    "sha256": "10q6p2chxh4vqlammna5vkv6cdd4ml6wlxxwv2gmskvb9yfdhl78",
     "type": "tarball",
-    "url": "https://github.com/lastquestion/explain-pause-mode/archive/2356c8c3639cbeeb9751744dbe737267849b4b51.tar.gz",
+    "url": "https://github.com/lastquestion/explain-pause-mode/archive/ac3eb69f36f345506aad05a6d9bc3ef80d26914b.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "indent-bars": {
@@ -77,10 +77,10 @@
     "homepage": "",
     "owner": "jdtsmith",
     "repo": "indent-bars",
-    "rev": "ea4c055f8e0d2c536ebf63717366076820c59c5e",
-    "sha256": "0vplj28mddpzvdhpm1p3fkgaz4j896badrgxaxwinl7v8mlppwzg",
+    "rev": "2722d503af53a38aba02b1ad00b244862a4f690f",
+    "sha256": "162w6ff1qdnj01wq9hm8ffh7bvn1vs8bbq1spnnxd1ihv7lrv9jn",
     "type": "tarball",
-    "url": "https://github.com/jdtsmith/indent-bars/archive/ea4c055f8e0d2c536ebf63717366076820c59c5e.tar.gz",
+    "url": "https://github.com/jdtsmith/indent-bars/archive/2722d503af53a38aba02b1ad00b244862a4f690f.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "on": {

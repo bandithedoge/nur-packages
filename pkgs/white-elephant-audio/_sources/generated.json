@@ -8,11 +8,11 @@
     "pinned": false,
     "src": {
       "name": null,
-      "sha256": "sha256-khoC2AufiGYxjuYLUuQNw2KUfltuiQtuNZGSA8AQxrk=",
+      "sha256": "sha256-Kb+ms7oPwGZTeQczD4HThLAgERdcvySWezf1fwVO6eY=",
       "type": "url",
-      "url": "https://github.com/jd-13/wea-releases/releases/download/carve-v2.6.0/Carve.v2.6.0.zip"
+      "url": "https://github.com/jd-13/wea-releases/releases/download/carve-v2.6.1/Carve.v2.6.1.zip"
     },
-    "version": "2.6.0"
+    "version": "2.6.1"
   },
   "monstr-bin": {
     "cargoLocks": null,

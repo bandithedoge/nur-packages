@@ -378,13 +378,13 @@
         sha512 = "FlDryZAahJmEF3VR3w1KogSEdWX3WhA5GPakFx4J81kEAiHyLMpdLLElS8n8dfNadMgAne/MywcvmogzscVt4g==";
       };
     };
-    "package-manager-detector-0.2.8" = {
+    "package-manager-detector-0.2.9" = {
       name = "package-manager-detector";
       packageName = "package-manager-detector";
-      version = "0.2.8";
+      version = "0.2.9";
       src = fetchurl {
-        url = "https://registry.npmjs.org/package-manager-detector/-/package-manager-detector-0.2.8.tgz";
-        sha512 = "ts9KSdroZisdvKMWVAVCXiKqnqNfXz4+IbrBG8/BWx/TR5le+jfenvoBuIZ6UWM9nz47W7AbD9qYfAwfWMIwzA==";
+        url = "https://registry.npmjs.org/package-manager-detector/-/package-manager-detector-0.2.9.tgz";
+        sha512 = "+vYvA/Y31l8Zk8dwxHhL3JfTuHPm6tlxM2A3GeQyl7ovYnSp1+mzAxClxaOr0qO1TtPxbQxetI7v5XqKLJZk7Q==";
       };
     };
     "pathe-1.1.2" = {
@@ -767,7 +767,7 @@ in {
           ];
         })
       sources."ohash-1.1.4"
-      sources."package-manager-detector-0.2.8"
+      sources."package-manager-detector-0.2.9"
       sources."pathe-1.1.2"
       sources."perfect-debounce-1.0.0"
       sources."picomatch-4.0.2"

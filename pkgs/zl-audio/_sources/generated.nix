@@ -7,17 +7,17 @@
 }: {
   compressor = {
     pname = "compressor";
-    version = "72983f4abe09c3356f3974cad9770cfea1ac9a81";
+    version = "0b6af652846fb8c99b7faa79ad84cd803687f86d";
     src = fetchgit {
       url = "https://github.com/ZL-Audio/ZLCompressor";
-      rev = "72983f4abe09c3356f3974cad9770cfea1ac9a81";
+      rev = "0b6af652846fb8c99b7faa79ad84cd803687f86d";
       fetchSubmodules = true;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [];
-      sha256 = "sha256-4eFOMftNM7XMQZ3feE6Qtw0v+CiESiF3Dmu7Ygq0P20=";
+      sha256 = "sha256-dm7c1DEeDe2RlXF/hQ+esqw7PUHC6RZ+pBRPh7yHEhg=";
     };
-    date = "2025-01-29";
+    date = "2025-02-01";
   };
   equalizer = {
     pname = "equalizer";

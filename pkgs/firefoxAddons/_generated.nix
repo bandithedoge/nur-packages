@@ -854,10 +854,10 @@
   };
   "privacy-badger" = buildFirefoxXpiAddon {
     pname = "privacy-badger";
-    version = "2025.1.17";
+    version = "2025.1.29";
     addonId = "jid1-MnnxcxisBPnSXQ@jetpack";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4421735/privacy_badger17-2025.1.17.xpi";
-    sha256 = "a2b8a857305438e87db61f5b219599b947fe84b20c4a5f949b05c21aa5fdfb49";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4427769/privacy_badger17-2025.1.29.xpi";
+    sha256 = "90fa36acb983b2bb5420d5edc13c6e494c645eba9f7b910e901eaa2dc6d2d860";
     meta = with lib; {
       homepage = "https://privacybadger.org/";
       description = "Automatically learns to block invisible trackers.";
@@ -1449,10 +1449,10 @@
   };
   "sponsorblock" = buildFirefoxXpiAddon {
     pname = "sponsorblock";
-    version = "5.11.2";
+    version = "5.11.5";
     addonId = "sponsorBlocker@ajay.app";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4422523/sponsorblock-5.11.2.xpi";
-    sha256 = "64a9a105f56b694842d1400fd35301dbdcde13c4fa3ae9a9332f90db0e470d14";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4424639/sponsorblock-5.11.5.xpi";
+    sha256 = "4cb3a7061dbeb9869477fb2f991d39ccaf650941f83abe1e0c65511e971cb555";
     meta = with lib; {
       homepage = "https://sponsor.ajay.app";
       description = "Easily skip YouTube video sponsors. When you visit a YouTube video, the extension will check the database for reported sponsors and automatically skip known sponsors. You can also report sponsors in videos. Other browsers: https://sponsor.ajay.app";

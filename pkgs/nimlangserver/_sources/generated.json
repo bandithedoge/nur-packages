@@ -41,7 +41,7 @@
   },
   "chronos": {
     "cargoLocks": null,
-    "date": "2025-01-13",
+    "date": "2025-01-30",
     "extract": null,
     "name": "chronos",
     "passthru": null,
@@ -51,13 +51,13 @@
       "fetchSubmodules": false,
       "leaveDotGit": false,
       "name": null,
-      "rev": "7c5cbf04a6bb2258654f16cb1d51b4304986cfd1",
-      "sha256": "sha256-nS/RqAqAI2m5o4R7ju72Vk6O2bujzXI6ExWU271aWXg=",
+      "rev": "36d8ee5617fbd9747726688fce72fcd215628937",
+      "sha256": "sha256-rofPTFJ/u1xRaiPGy4Tg8QDigXZoIhssbLsTh9S9NE4=",
       "sparseCheckout": [],
       "type": "git",
       "url": "https://github.com/status-im/nim-chronos"
     },
-    "version": "7c5cbf04a6bb2258654f16cb1d51b4304986cfd1"
+    "version": "36d8ee5617fbd9747726688fce72fcd215628937"
   },
   "faststreams": {
     "cargoLocks": null,
