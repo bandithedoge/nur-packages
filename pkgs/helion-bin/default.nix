@@ -16,10 +16,21 @@ pkgs.stdenv.mkDerivation {
   buildInputs = with pkgs; [
     glib
     libGL
+    libdecor
+    libdrm
+    libgbm
     libsndfile
+    libxkbcommon
     openal
     stdenv.cc.cc.lib
+    wayland
     xorg.libX11
+    xorg.libXScrnSaver
+    xorg.libXcursor
+    xorg.libXi
+    xorg.libXinerama
+    xorg.libXrandr
+    xorg.libXxf86vm
   ];
 
   buildPhase = ''
