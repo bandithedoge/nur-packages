@@ -7,10 +7,10 @@
 }: {
   waterfox-bin = {
     pname = "waterfox-bin";
-    version = "6.5.3";
+    version = "6.5.4";
     src = fetchurl {
-      url = "https://cdn1.waterfox.net/waterfox/releases/6.5.3/Linux_x86_64/waterfox-6.5.3.tar.bz2";
-      sha256 = "sha256-Io7rHKwhmwaiu436PSrQ6Tr8nu5Ra9YtJ6dr4v10CWk=";
+      url = "https://cdn1.waterfox.net/waterfox/releases/6.5.4/Linux_x86_64/waterfox-6.5.4.tar.bz2";
+      sha256 = "sha256-1zoUMVGZqI2RtCttf43W1CeWLYoQ0jxnF6x0n0IpLQ0=";
     };
   };
 }
