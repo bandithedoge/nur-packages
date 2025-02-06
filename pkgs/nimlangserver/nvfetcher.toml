@@ -65,5 +65,5 @@ fetch.git = "https://github.com/status-im/nim-zlib"
 git.fetchSubmodules = true
 
 [nimlangserver]
-src.git = "https://github.com/nim-lang/langserver"
-fetch.git = "https://github.com/nim-lang/langserver"
+src.github = "nim-lang/langserver"
+fetch.github = "nim-lang/langserver"
