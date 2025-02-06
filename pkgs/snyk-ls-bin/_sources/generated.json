@@ -1,77 +1,77 @@
 {
-    "snyk-ls-bin-aarch64-darwin": {
-        "cargoLocks": null,
-        "date": null,
-        "extract": null,
-        "name": "snyk-ls-bin-aarch64-darwin",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "name": null,
-            "sha256": "sha256-WQo1UyO2kM1+U1xeN3F5UQlam3HBsKwztMV8oo59Uso=",
-            "type": "url",
-            "url": "https://static.snyk.io/snyk-ls/16/snyk-ls_20241112.105448_darwin_arm64"
-        },
-        "version": "20241112.105448"
+  "snyk-ls-bin-aarch64-darwin": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "snyk-ls-bin-aarch64-darwin",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-WQo1UyO2kM1+U1xeN3F5UQlam3HBsKwztMV8oo59Uso=",
+      "type": "url",
+      "url": "https://static.snyk.io/snyk-ls/16/snyk-ls_20241112.105448_darwin_arm64"
     },
-    "snyk-ls-bin-aarch64-linux": {
-        "cargoLocks": null,
-        "date": null,
-        "extract": null,
-        "name": "snyk-ls-bin-aarch64-linux",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "name": null,
-            "sha256": "sha256-sXDVL/KyUIOf4bfyfPZqIv5ntCX42AYjPh2NtVTiJrw=",
-            "type": "url",
-            "url": "https://static.snyk.io/snyk-ls/16/snyk-ls_20241112.105448_linux_arm64"
-        },
-        "version": "20241112.105448"
+    "version": "20241112.105448"
+  },
+  "snyk-ls-bin-aarch64-linux": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "snyk-ls-bin-aarch64-linux",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-sXDVL/KyUIOf4bfyfPZqIv5ntCX42AYjPh2NtVTiJrw=",
+      "type": "url",
+      "url": "https://static.snyk.io/snyk-ls/16/snyk-ls_20241112.105448_linux_arm64"
     },
-    "snyk-ls-bin-i686-linux": {
-        "cargoLocks": null,
-        "date": null,
-        "extract": null,
-        "name": "snyk-ls-bin-i686-linux",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "name": null,
-            "sha256": "sha256-OJFYkIBtOj8PbC+1fEm7xaZ9qNFER2ofTJF0WL+fRx8=",
-            "type": "url",
-            "url": "https://static.snyk.io/snyk-ls/16/snyk-ls_20241112.105448_linux_386"
-        },
-        "version": "20241112.105448"
+    "version": "20241112.105448"
+  },
+  "snyk-ls-bin-i686-linux": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "snyk-ls-bin-i686-linux",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-OJFYkIBtOj8PbC+1fEm7xaZ9qNFER2ofTJF0WL+fRx8=",
+      "type": "url",
+      "url": "https://static.snyk.io/snyk-ls/16/snyk-ls_20241112.105448_linux_386"
     },
-    "snyk-ls-bin-x86_64-darwin": {
-        "cargoLocks": null,
-        "date": null,
-        "extract": null,
-        "name": "snyk-ls-bin-x86_64-darwin",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "name": null,
-            "sha256": "sha256-878peGIlwKTgRF850NeLI1spdIvv7nmkP0MNe9TRnb0=",
-            "type": "url",
-            "url": "https://static.snyk.io/snyk-ls/16/snyk-ls_20241112.105448_darwin_amd64"
-        },
-        "version": "20241112.105448"
+    "version": "20241112.105448"
+  },
+  "snyk-ls-bin-x86_64-darwin": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "snyk-ls-bin-x86_64-darwin",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-878peGIlwKTgRF850NeLI1spdIvv7nmkP0MNe9TRnb0=",
+      "type": "url",
+      "url": "https://static.snyk.io/snyk-ls/16/snyk-ls_20241112.105448_darwin_amd64"
     },
-    "snyk-ls-bin-x86_64-linux": {
-        "cargoLocks": null,
-        "date": null,
-        "extract": null,
-        "name": "snyk-ls-bin-x86_64-linux",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "name": null,
-            "sha256": "sha256-9onD6FX9xchGLKMAhp2jWepXntPtnpJ0ByOXfRFOcQg=",
-            "type": "url",
-            "url": "https://static.snyk.io/snyk-ls/16/snyk-ls_20241112.105448_linux_amd64"
-        },
-        "version": "20241112.105448"
-    }
+    "version": "20241112.105448"
+  },
+  "snyk-ls-bin-x86_64-linux": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "snyk-ls-bin-x86_64-linux",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-9onD6FX9xchGLKMAhp2jWepXntPtnpJ0ByOXfRFOcQg=",
+      "type": "url",
+      "url": "https://static.snyk.io/snyk-ls/16/snyk-ls_20241112.105448_linux_amd64"
+    },
+    "version": "20241112.105448"
+  }
 }
