@@ -66,7 +66,7 @@
     version = "latest";
     src = fetchurl {
       url = "https://tal-software.com/downloads/plugins/TAL-J-8_64_linux.zip";
-      sha256 = "sha256-dH9qDmDhFsf8GGt/c8A1+OYp9XEGgzRR6if5CmFJkqw=";
+      sha256 = "sha256-L6idx2wmBAK6AG2NFt+H/+6yx9M67120mgneI/1nnn4=";
     };
   };
   mod = {
