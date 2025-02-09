@@ -7,13 +7,13 @@
 }: {
   nugget-doom = {
     pname = "nugget-doom";
-    version = "nugget-doom-4.1.0";
+    version = "nugget-doom-4.2.0";
     src = fetchFromGitHub {
       owner = "MrAlaux";
       repo = "Nugget-Doom";
-      rev = "nugget-doom-4.1.0";
+      rev = "nugget-doom-4.2.0";
       fetchSubmodules = false;
-      sha256 = "sha256-zvmFfQOzDX5ghSB0vr8hIATWbzEuH4yIAXKNC6q7y2s=";
+      sha256 = "sha256-Ros31NPs0GKbAt2cI18Ue4uKPUh1e2vMjL7Wa0+YaHQ=";
     };
   };
 }

@@ -293,10 +293,10 @@
     "homepage": null,
     "owner": "Rolv-Apneseth",
     "repo": "starship.yazi",
-    "rev": "af8bf6f82165b83272b6501ce7445cf2c61fbf51",
-    "sha256": "0850h00mh68wyhqxhnb85gmwb0lf6n20n7jpxf0dzyl9k9jj9crg",
+    "rev": "d1cd0a38aa6a2c2e86e62a466f43e415f781031e",
+    "sha256": "0gcvyh3zbbs9x1gcyswm7ba8zb4mz5bf7knh92q8khcx9g52q8ay",
     "type": "tarball",
-    "url": "https://github.com/Rolv-Apneseth/starship.yazi/archive/af8bf6f82165b83272b6501ce7445cf2c61fbf51.tar.gz",
+    "url": "https://github.com/Rolv-Apneseth/starship.yazi/archive/d1cd0a38aa6a2c2e86e62a466f43e415f781031e.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "sudo.yazi": {
@@ -305,10 +305,10 @@
     "homepage": null,
     "owner": "TD-Sky",
     "repo": "sudo.yazi",
-    "rev": "f4030083a8a4d1de66f88a8add27ec47b43b01c6",
-    "sha256": "1fccmdbygwf16rwv6fwl0b2jm0msw2w02rv3k3y682fhpj2479r0",
+    "rev": "af70636fbcf30ef17f77c5ffcfcbf1342c554be1",
+    "sha256": "11lmvwbb4njgl4fpbj9x1x1ysjapz6ywc2vvwr4v6vkb2q1c3x12",
     "type": "tarball",
-    "url": "https://github.com/TD-Sky/sudo.yazi/archive/f4030083a8a4d1de66f88a8add27ec47b43b01c6.tar.gz",
+    "url": "https://github.com/TD-Sky/sudo.yazi/archive/af70636fbcf30ef17f77c5ffcfcbf1342c554be1.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "system-clipboard.yazi": {

@@ -7,13 +7,13 @@
 }: {
   giada = {
     pname = "giada";
-    version = "1.1.0";
+    version = "1.1.1";
     src = fetchFromGitHub {
       owner = "monocasual";
       repo = "giada";
-      rev = "1.1.0";
+      rev = "1.1.1";
       fetchSubmodules = true;
-      sha256 = "sha256-2Hi7uZcpVEnknN/uSOPcTgFagNqBiSm/CaGzudl7HRg=";
+      sha256 = "sha256-t24S8tmx9VFcpEwe5EzoMQ7xhX8dj92Mq43gaWc+C50=";
     };
   };
 }
