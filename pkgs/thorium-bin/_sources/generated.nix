@@ -7,10 +7,10 @@
 }: {
   thorium-bin = {
     pname = "thorium-bin";
-    version = "128.0.6613.189";
+    version = "130.0.6723.174";
     src = fetchurl {
-      url = "https://github.com/Alex313031/thorium/releases/download/M128.0.6613.189/Thorium_Browser_128.0.6613.189_AVX2.AppImage";
-      sha256 = "sha256-RBPSGgwF6A4KXgLdn/YIrdFpZG2+KwMJ8MkTjSPpkhU=";
+      url = "https://github.com/Alex313031/thorium/releases/download/M130.0.6723.174/Thorium_Browser_130.0.6723.174_AVX2.AppImage";
+      sha256 = "sha256-Ej7OIdAjYRmaDlv56ANU5pscuwcBEBee6VPZA3FdxsQ=";
     };
   };
 }
