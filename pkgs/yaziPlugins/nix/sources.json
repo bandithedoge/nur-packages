@@ -173,10 +173,10 @@
     "homepage": null,
     "owner": "AnirudhG07",
     "repo": "nbpreview.yazi",
-    "rev": "1d8574553b0feb3952f47d61da9ed8bcbc516515",
-    "sha256": "19dz69zr5z31cy0rxflmmjxf5rn75njjhfnjj6k1s3a613217f11",
+    "rev": "f8879b382f441e881fc10bd18a523fd910737067",
+    "sha256": "0fv77dh9w1wada7qz5gi5m216aw5mr8w8fccpn8p8y1g4lnyyxw8",
     "type": "tarball",
-    "url": "https://github.com/AnirudhG07/nbpreview.yazi/archive/1d8574553b0feb3952f47d61da9ed8bcbc516515.tar.gz",
+    "url": "https://github.com/AnirudhG07/nbpreview.yazi/archive/f8879b382f441e881fc10bd18a523fd910737067.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "omp.yazi": {
@@ -257,10 +257,10 @@
     "homepage": null,
     "owner": "AnirudhG07",
     "repo": "rich-preview.yazi",
-    "rev": "6752254b3e1c6f947977776bc1a515395ec73eb9",
-    "sha256": "1prpgy0kxclzk71vxxvj1231fqjmkbx79f3h68hrv1h3hy0g80jg",
+    "rev": "2559e5fa7c1651dbe7c5615ef6f3b5291347d81a",
+    "sha256": "140s8qas32c0zb8j9s8pq6pdzg5syrfk2sh7f49p7vzm1c0a0vbm",
     "type": "tarball",
-    "url": "https://github.com/AnirudhG07/rich-preview.yazi/archive/6752254b3e1c6f947977776bc1a515395ec73eb9.tar.gz",
+    "url": "https://github.com/AnirudhG07/rich-preview.yazi/archive/2559e5fa7c1651dbe7c5615ef6f3b5291347d81a.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "rsync.yazi": {

@@ -13,11 +13,11 @@
       "name": null,
       "owner": "greyboxaudio",
       "repo": "SG-323",
-      "rev": "0.6.3",
-      "sha256": "sha256-PYZo8wPAvzWmqw14wa/wV6XpRW3saJgkPWc7Vh3sOTU=",
+      "rev": "0.7.0",
+      "sha256": "sha256-ES83bTH8NiLdXWclDbRbRvzL3oXHQBvmMga2zzXuYpo=",
       "sparseCheckout": [],
       "type": "github"
     },
-    "version": "0.6.3"
+    "version": "0.7.0"
   }
 }
