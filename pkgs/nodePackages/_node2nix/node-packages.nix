@@ -117,13 +117,13 @@
         sha512 = "jBHlab9NnRwrpHsockb5E+MBo0os2yS6S7i3cnN8hB6EkTardKQotmd0CFdOc8pubLz2fxj2AD6RGtrySVG6Mw==";
       };
     };
-    "c12-2.0.1" = {
+    "c12-2.0.2" = {
       name = "c12";
       packageName = "c12";
-      version = "2.0.1";
+      version = "2.0.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/c12/-/c12-2.0.1.tgz";
-        sha512 = "Z4JgsKXHG37C6PYUtIxCfLJZvo6FyhHJoClwwb9ftUkLpPSkuYqn6Tr+vnaN8hymm0kIbcg6Ey3kv/Q71k5w/A==";
+        url = "https://registry.npmjs.org/c12/-/c12-2.0.2.tgz";
+        sha512 = "NkvlL5CHZt9kPswJYDCUYtTaMt7JOfcpsnNncfj7sWsc13x6Wz+GiTpBtqZOojFlzyTHui8+OAfR6praV6PYaQ==";
       };
     };
     "cac-6.7.14" = {
@@ -387,22 +387,13 @@
         sha512 = "+vYvA/Y31l8Zk8dwxHhL3JfTuHPm6tlxM2A3GeQyl7ovYnSp1+mzAxClxaOr0qO1TtPxbQxetI7v5XqKLJZk7Q==";
       };
     };
-    "pathe-1.1.2" = {
+    "pathe-2.0.3" = {
       name = "pathe";
       packageName = "pathe";
-      version = "1.1.2";
+      version = "2.0.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/pathe/-/pathe-1.1.2.tgz";
-        sha512 = "whLdWMYL2TwI08hn8/ZqAbrVemu0LNaNNJZX73O6qaIdCTfXutsLhMkjdENX0qhsQ9uIimo4/aQOmXkoon2nDQ==";
-      };
-    };
-    "pathe-2.0.2" = {
-      name = "pathe";
-      packageName = "pathe";
-      version = "2.0.2";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/pathe/-/pathe-2.0.2.tgz";
-        sha512 = "15Ztpk+nov8DR524R4BF7uEuzESgzUEAV4Ah7CUMNGXdE5ELuvxElxGXndBl32vMSsWa1jpNf22Z+Er3sKwq+w==";
+        url = "https://registry.npmjs.org/pathe/-/pathe-2.0.3.tgz";
+        sha512 = "WUjGcAqP1gQacoQe+OBJsFA7Ld4DyXuUIjZ5cc75cLHvJ7dtNsTugphxIADwspS+AraAUePCKrSVtPLFj/F88w==";
       };
     };
     "perfect-debounce-1.0.0" = {
@@ -644,10 +635,10 @@ in {
   "@tailwindcss/language-server" = nodeEnv.buildNodePackage {
     name = "_at_tailwindcss_slash_language-server";
     packageName = "@tailwindcss/language-server";
-    version = "0.14.3";
+    version = "0.14.4";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@tailwindcss/language-server/-/language-server-0.14.3.tgz";
-      sha512 = "YUmP6Bba7GrrAfhh1AV4KKoQq6XWwSwzTMFw1HlQDXBYCneQoN0FaZoctrDnwIHXrLS94wsJCx6PbtitS1RCjA==";
+      url = "https://registry.npmjs.org/@tailwindcss/language-server/-/language-server-0.14.4.tgz";
+      sha512 = "k68y2UvC5HlbE9P87mAbLB4R0AdK8rz3YrIRRsXJRPv2XVUJD7xRmQprjFm3qwwLOZchJ6cE4yLljd0T5B05GQ==";
     };
     buildInputs = globalBuildInputs;
     meta = {
@@ -715,7 +706,7 @@ in {
             sources."jsonc-parser-3.3.1"
           ];
         })
-      sources."c12-2.0.1"
+      sources."c12-2.0.2"
       sources."cac-6.7.14"
       sources."chokidar-4.0.3"
       sources."chownr-2.0.0"
@@ -734,12 +725,7 @@ in {
             sources."minipass-3.3.6"
           ];
         })
-      (sources."giget-1.2.4"
-        // {
-          dependencies = [
-            sources."pathe-2.0.2"
-          ];
-        })
+      sources."giget-1.2.4"
       sources."jiti-2.4.2"
       sources."js-yaml-4.1.0"
       sources."jsonc-parser-2.3.1"
@@ -753,30 +739,15 @@ in {
           ];
         })
       sources."mkdirp-1.0.4"
-      (sources."mlly-1.7.4"
-        // {
-          dependencies = [
-            sources."pathe-2.0.2"
-          ];
-        })
+      sources."mlly-1.7.4"
       sources."node-fetch-native-1.6.6"
-      (sources."nypm-0.5.2"
-        // {
-          dependencies = [
-            sources."pathe-2.0.2"
-          ];
-        })
+      sources."nypm-0.5.2"
       sources."ohash-1.1.4"
       sources."package-manager-detector-0.2.9"
-      sources."pathe-1.1.2"
+      sources."pathe-2.0.3"
       sources."perfect-debounce-1.0.0"
       sources."picomatch-4.0.2"
-      (sources."pkg-types-1.3.1"
-        // {
-          dependencies = [
-            sources."pathe-2.0.2"
-          ];
-        })
+      sources."pkg-types-1.3.1"
       sources."prompts-2.4.2"
       sources."rc9-2.1.2"
       sources."readdirp-4.1.1"

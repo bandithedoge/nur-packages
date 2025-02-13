@@ -7,10 +7,10 @@
 }: {
   sheepshaver-bin = {
     pname = "sheepshaver-bin";
-    version = "2025-01-11";
+    version = "2025-02-11";
     src = fetchurl {
-      url = "https://github.com/Korkman/macemu-appimage-builder/releases/download/2025-01-11/SheepShaver-x86_64.AppImage";
-      sha256 = "sha256-rKGIpgOQ6F9W5Cu2jxs+09CQnmP0SzNh3ZuDZ9uv64I=";
+      url = "https://github.com/Korkman/macemu-appimage-builder/releases/download/2025-02-11/SheepShaver-x86_64.AppImage";
+      sha256 = "sha256-EF37LKOKLuApbLj5PEhin/6f7kPUEGlKVZJ66137MEk=";
     };
   };
 }

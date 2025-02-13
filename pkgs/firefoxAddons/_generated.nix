@@ -493,10 +493,10 @@
   };
   "indie-wiki-buddy" = buildFirefoxXpiAddon {
     pname = "indie-wiki-buddy";
-    version = "3.12.0";
+    version = "3.13.0";
     addonId = "{cb31ec5d-c49a-4e5a-b240-16c767444f62}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4405306/indie_wiki_buddy-3.12.0.xpi";
-    sha256 = "dabb4b32fba2150277a564b774b01054b09fd2c9dbfe93f76bb357c5f38cca24";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4429191/indie_wiki_buddy-3.13.0.xpi";
+    sha256 = "ecd574782b7a74fc82c0ec9c4c263b8e038c88eb8540054e249a29f14c56211c";
     meta = with lib; {
       homepage = "https://getindie.wiki/";
       description = "Helping you discover quality, independent wikis!\n\nWhen visiting a Fandom wiki, Indie Wiki Buddy redirects or alerts you of independent alternatives. It also filters search engine results. BreezeWiki is also supported, to reduce clutter on Fandom.";
@@ -1310,10 +1310,10 @@
   };
   "reddit-enhancement-suite" = buildFirefoxXpiAddon {
     pname = "reddit-enhancement-suite";
-    version = "5.24.7";
+    version = "5.24.8";
     addonId = "jid1-xUfzOsOFlzSOXg@jetpack";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4357190/reddit_enhancement_suite-5.24.7.xpi";
-    sha256 = "f5b4325eba0e6d5be36bf07a5324bdca97a2e44824df83005193a73ca5d7f260";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4424459/reddit_enhancement_suite-5.24.8.xpi";
+    sha256 = "158405c50704a2cd2bc57c268a95b41dacba509b70d71d6ea280b04215bb8773";
     meta = with lib; {
       homepage = "https://redditenhancementsuite.com/";
       description = "Reddit Enhancement Suite (RES) is a suite of tools to enhance your Reddit browsing experience.";
@@ -1383,10 +1383,10 @@
   };
   "sidebery" = buildFirefoxXpiAddon {
     pname = "sidebery";
-    version = "5.3.1";
+    version = "5.3.2";
     addonId = "{3c078156-979c-498b-8990-85f7987dd929}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4424290/sidebery-5.3.1.xpi";
-    sha256 = "f050c116bd141423c23485bc751283a82cb2e06268ae6ca707109ca8f6f15e76";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4430159/sidebery-5.3.2.xpi";
+    sha256 = "aaaa5243797269bfff952f0820f12546f7e14c22ef0cc518b0d528153aff9e9c";
     meta = with lib; {
       homepage = "https://github.com/mbnuqw/sidebery";
       description = "Vertical tabs tree and bookmarks in sidebar with advanced containers configuration, grouping and many other features.";
