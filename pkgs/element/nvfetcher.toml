@@ -1,6 +1,6 @@
 [element]
-src.git = "https://gitlab.com/kushview/element.git"
-fetch.git = "https://gitlab.com/kushview/element.git"
+src.github = "kushview/element"
+fetch.github = "kushview/element"
 git.leaveDotGit = true
 
 [juce-element]
@@ -17,7 +17,7 @@ src.manual = "1.2.3"
 fetch.git = "https://github.com/free-audio/clap.git"
 
 [clap-helpers]
-src.git = "https://github.com/mfisher31/clap-helpers"
+src.manual = "78d878cb27d82d204c9483676d6a1f98235e8e77"
 fetch.git = "https://github.com/mfisher31/clap-helpers"
 src.branch = "meson-and-host-ext"
 

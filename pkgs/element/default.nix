@@ -5,8 +5,7 @@
   ...
 }:
 pkgs.stdenv.mkDerivation rec {
-  inherit (sources.element) pname src;
-  version = sources.element.date;
+  inherit (sources.element) pname version src;
 
   nativeBuildInputs = with pkgs; [
     cmake
