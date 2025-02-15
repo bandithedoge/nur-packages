@@ -105,17 +105,17 @@
   };
   nimcrypto = {
     pname = "nimcrypto";
-    version = "eeb497855445f6f3c6315435be4c406afc1729ff";
+    version = "69eec0375dd146aede41f920c702c531bfe89c6b";
     src = fetchgit {
       url = "https://github.com/cheatfate/nimcrypto";
-      rev = "eeb497855445f6f3c6315435be4c406afc1729ff";
+      rev = "69eec0375dd146aede41f920c702c531bfe89c6b";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [];
-      sha256 = "sha256-sjxjMjViuOn+LcwjDkK1wqAFWxMid2yjVp4g/SEzYJ0=";
+      sha256 = "sha256-Z6oaGzRiai/hLdudDb/VP6euoiEKG6T4sivucfmdFyM=";
     };
-    date = "2025-02-12";
+    date = "2025-02-15";
   };
   nimlangserver = {
     pname = "nimlangserver";
@@ -169,17 +169,17 @@
   };
   stew = {
     pname = "stew";
-    version = "687d1b4ab1a91e6cc9c92e4fd4d98bec7874c259";
+    version = "d7a6868ba84165e7fdde427af9a1fc3f5f5cc151";
     src = fetchgit {
       url = "https://github.com/status-im/nim-stew";
-      rev = "687d1b4ab1a91e6cc9c92e4fd4d98bec7874c259";
+      rev = "d7a6868ba84165e7fdde427af9a1fc3f5f5cc151";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [];
-      sha256 = "sha256-pvQxt6vtk8bfARu0YVzRvDbnJzktLOfoaNdlvnhvun0=";
+      sha256 = "sha256-mDCvRVR2ILtKZ9ejEBMFrD3yoqilG8ly0NEwJCCT8uk=";
     };
-    date = "2025-01-22";
+    date = "2025-02-15";
   };
   unicodedb = {
     pname = "unicodedb";

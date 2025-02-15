@@ -7,13 +7,13 @@
 }: {
   kmonad = {
     pname = "kmonad";
-    version = "3cbc7bef590b3415a309d9b0ffb867b4b10a21d0";
+    version = "3801a782e3a01e01097ee98908cf31533fefc52b";
     src = fetchFromGitHub {
       owner = "kmonad";
       repo = "kmonad";
-      rev = "3cbc7bef590b3415a309d9b0ffb867b4b10a21d0";
+      rev = "3801a782e3a01e01097ee98908cf31533fefc52b";
       fetchSubmodules = false;
-      sha256 = "sha256-H3RIFMpsI3rbTcmf2WcJQXLqVbhC1CHfgxUN1VoMN1A=";
+      sha256 = "sha256-hd8pl109hwtfjRHA1EMzfvNfblTaELL+ZZCEE+LKMYw=";
     };
     date = "2025-02-13";
   };

@@ -141,7 +141,7 @@
   },
   "nimcrypto": {
     "cargoLocks": null,
-    "date": "2025-02-12",
+    "date": "2025-02-15",
     "extract": null,
     "name": "nimcrypto",
     "passthru": null,
@@ -151,13 +151,13 @@
       "fetchSubmodules": false,
       "leaveDotGit": false,
       "name": null,
-      "rev": "eeb497855445f6f3c6315435be4c406afc1729ff",
-      "sha256": "sha256-sjxjMjViuOn+LcwjDkK1wqAFWxMid2yjVp4g/SEzYJ0=",
+      "rev": "69eec0375dd146aede41f920c702c531bfe89c6b",
+      "sha256": "sha256-Z6oaGzRiai/hLdudDb/VP6euoiEKG6T4sivucfmdFyM=",
       "sparseCheckout": [],
       "type": "git",
       "url": "https://github.com/cheatfate/nimcrypto"
     },
-    "version": "eeb497855445f6f3c6315435be4c406afc1729ff"
+    "version": "69eec0375dd146aede41f920c702c531bfe89c6b"
   },
   "nimlangserver": {
     "cargoLocks": null,
@@ -243,7 +243,7 @@
   },
   "stew": {
     "cargoLocks": null,
-    "date": "2025-01-22",
+    "date": "2025-02-15",
     "extract": null,
     "name": "stew",
     "passthru": null,
@@ -253,13 +253,13 @@
       "fetchSubmodules": false,
       "leaveDotGit": false,
       "name": null,
-      "rev": "687d1b4ab1a91e6cc9c92e4fd4d98bec7874c259",
-      "sha256": "sha256-pvQxt6vtk8bfARu0YVzRvDbnJzktLOfoaNdlvnhvun0=",
+      "rev": "d7a6868ba84165e7fdde427af9a1fc3f5f5cc151",
+      "sha256": "sha256-mDCvRVR2ILtKZ9ejEBMFrD3yoqilG8ly0NEwJCCT8uk=",
       "sparseCheckout": [],
       "type": "git",
       "url": "https://github.com/status-im/nim-stew"
     },
-    "version": "687d1b4ab1a91e6cc9c92e4fd4d98bec7874c259"
+    "version": "d7a6868ba84165e7fdde427af9a1fc3f5f5cc151"
   },
   "unicodedb": {
     "cargoLocks": null,

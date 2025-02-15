@@ -29,10 +29,10 @@
     "homepage": "",
     "owner": "hankertrix",
     "repo": "augment-command.yazi",
-    "rev": "7c20850de190afcc1b73dfbe0a2b481fbc65d5ad",
-    "sha256": "0kiy1clpi3dy3i3vm7i41xpyhh8sw2knqpnhnhm4dmlpqkjgsmk9",
+    "rev": "3d66991052b8bb9cca36f18a1b04ae49cfa244fa",
+    "sha256": "1n6rmy9rsmq6hjnqqxfdv0rzzb5188hnxdvyrsk13nyamjm5i2l5",
     "type": "tarball",
-    "url": "https://github.com/hankertrix/augment-command.yazi/archive/7c20850de190afcc1b73dfbe0a2b481fbc65d5ad.tar.gz",
+    "url": "https://github.com/hankertrix/augment-command.yazi/archive/3d66991052b8bb9cca36f18a1b04ae49cfa244fa.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "bookmarks.yazi": {
@@ -185,10 +185,10 @@
     "homepage": "",
     "owner": "saumyajyoti",
     "repo": "omp.yazi",
-    "rev": "2ef59344d24e5fc85fc36ff9799930503fc2fb65",
-    "sha256": "16wdpa4havl6i7hdx5k0iw24q10971qci2x7v7l1lvag8z7zildn",
+    "rev": "4c44873cd5ed15b838811286d5e8090bfe75dcf7",
+    "sha256": "0r3i0a96a0dkipdf0dbbc1cmxwwckcv793d29l0asgr8z9g8pwl6",
     "type": "tarball",
-    "url": "https://github.com/saumyajyoti/omp.yazi/archive/2ef59344d24e5fc85fc36ff9799930503fc2fb65.tar.gz",
+    "url": "https://github.com/saumyajyoti/omp.yazi/archive/4c44873cd5ed15b838811286d5e8090bfe75dcf7.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "open-with-cmd.yazi": {

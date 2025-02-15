@@ -27,22 +27,22 @@
         sha512 = "Ed61U6XJc3CVRfkERJWDz4dJwKe7iLmmJsbOGu9wSloNSFttHV0I8g6UAgb7qnK5ly5bGLPd4oXZlxCdANBOWQ==";
       };
     };
-    "@babel/parser-7.26.8" = {
+    "@babel/parser-7.26.9" = {
       name = "_at_babel_slash_parser";
       packageName = "@babel/parser";
-      version = "7.26.8";
+      version = "7.26.9";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/parser/-/parser-7.26.8.tgz";
-        sha512 = "TZIQ25pkSoaKEYYaHbbxkfL36GNsQ6iFiBbeuzAkLnXayKR1yP1zFe+NxuZWWsUyvt8icPU9CCq0sgWGXR1GEw==";
+        url = "https://registry.npmjs.org/@babel/parser/-/parser-7.26.9.tgz";
+        sha512 = "81NWa1njQblgZbQHxWHpxxCzNsa3ZwvFqpUg7P+NNUU6f3UU2jBEg4OlF/J6rl8+PQGh1q6/zWScd001YwcA5A==";
       };
     };
-    "@babel/types-7.26.8" = {
+    "@babel/types-7.26.9" = {
       name = "_at_babel_slash_types";
       packageName = "@babel/types";
-      version = "7.26.8";
+      version = "7.26.9";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/types/-/types-7.26.8.tgz";
-        sha512 = "eUuWapzEGWFEpHFxgEaBG8e3n6S8L3MSu0oda755rOfabWPnh0Our1AozNFVUxGFIhbKgd1ksprsoDGMinTOTA==";
+        url = "https://registry.npmjs.org/@babel/types/-/types-7.26.9.tgz";
+        sha512 = "Y3IR1cRnOxOCDvMmNiym7XpXQ93iGDDPHx+Zj+NM+rg0fBaShfQLkg+hKPaZCEvg5N/LeCo4+Rj/i3FuJsIQaw==";
       };
     };
     "@emmetio/abbreviation-2.3.3" = {
@@ -441,13 +441,13 @@
         sha512 = "btXCnMmRIBINM2LDZoEmOogIZU7Qe7zn4BpomSKZ/ykbLObuBdvG+mFq11DL6fjH1DRwHhrlgtYWG96bJiC7Cg==";
       };
     };
-    "readdirp-4.1.1" = {
+    "readdirp-4.1.2" = {
       name = "readdirp";
       packageName = "readdirp";
-      version = "4.1.1";
+      version = "4.1.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/readdirp/-/readdirp-4.1.1.tgz";
-        sha512 = "h80JrZu/MHUZCyHu5ciuoI0+WxsCxzxJTILn6Fs8rxSnFPh+UVHYfeIxK1nVGugMqkfC4vJcBOYbkfkwYK0+gw==";
+        url = "https://registry.npmjs.org/readdirp/-/readdirp-4.1.2.tgz";
+        sha512 = "GDhwkLfywWL2s6vEjyhri+eXmfH6j1L7JE27WhqLeYzoh/A3DBaYGEj2H/HFZCn/kMfim73FXxEJTw06WtxQwg==";
       };
     };
     "semver-7.7.1" = {
@@ -692,8 +692,8 @@ in {
     dependencies = [
       sources."@babel/helper-string-parser-7.25.9"
       sources."@babel/helper-validator-identifier-7.25.9"
-      sources."@babel/parser-7.26.8"
-      sources."@babel/types-7.26.8"
+      sources."@babel/parser-7.26.9"
+      sources."@babel/types-7.26.9"
       sources."@emmetio/abbreviation-2.3.3"
       sources."@emmetio/css-abbreviation-2.1.8"
       sources."@emmetio/scanner-1.0.4"
@@ -750,7 +750,7 @@ in {
       sources."pkg-types-1.3.1"
       sources."prompts-2.4.2"
       sources."rc9-2.1.2"
-      sources."readdirp-4.1.1"
+      sources."readdirp-4.1.2"
       sources."semver-7.7.1"
       sources."sisteransi-1.0.5"
       sources."source-map-js-1.2.1"
