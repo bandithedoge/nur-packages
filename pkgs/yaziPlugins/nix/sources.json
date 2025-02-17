@@ -29,10 +29,10 @@
     "homepage": "",
     "owner": "hankertrix",
     "repo": "augment-command.yazi",
-    "rev": "fec33ffb14a95b38fb364971aea1c00f0393e40a",
-    "sha256": "115jsdanf3ng8iqd8j7q1ff9d3yp7y0pxfkkw9x4w9nydnf0cwpb",
+    "rev": "797677e5b026fda1a46098b4b0dd5968eed8ff8d",
+    "sha256": "08562fjmra448m37gcdfscr5ss7phjkqj64fxwwsjdwf8qs0waw4",
     "type": "tarball",
-    "url": "https://github.com/hankertrix/augment-command.yazi/archive/fec33ffb14a95b38fb364971aea1c00f0393e40a.tar.gz",
+    "url": "https://github.com/hankertrix/augment-command.yazi/archive/797677e5b026fda1a46098b4b0dd5968eed8ff8d.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "bookmarks.yazi": {
@@ -41,10 +41,10 @@
     "homepage": null,
     "owner": "dedukun",
     "repo": "bookmarks.yazi",
-    "rev": "202e450b0088d3dde3c4a680f30cf9684acea1cc",
-    "sha256": "0l853yf05qxg7adhba42mn9iac38pixpmnnmzdfwb9f9m48wvyvh",
+    "rev": "420a384f51da9bc018530068679d2e826f9ce14b",
+    "sha256": "07b9pn67a4jn0p39a196rn0b3c12xqbgprjgin8237d7ss2m05j8",
     "type": "tarball",
-    "url": "https://github.com/dedukun/bookmarks.yazi/archive/202e450b0088d3dde3c4a680f30cf9684acea1cc.tar.gz",
+    "url": "https://github.com/dedukun/bookmarks.yazi/archive/420a384f51da9bc018530068679d2e826f9ce14b.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "bypass.yazi": {
@@ -53,10 +53,10 @@
     "homepage": "",
     "owner": "Rolv-Apneseth",
     "repo": "bypass.yazi",
-    "rev": "6c5414f532ede57a74687c53fee3409a38746c04",
-    "sha256": "1r5wzh15fr8vdpxhcgqpn7imkyx1ldazgl41rcl5si30si9klccg",
+    "rev": "ecb1f7f6fd305ff4ffff548fa955595af6b26e60",
+    "sha256": "195cbq2a8xghmblnl87bcd456rn5s934a0mm2qybnmkbz5fphyjx",
     "type": "tarball",
-    "url": "https://github.com/Rolv-Apneseth/bypass.yazi/archive/6c5414f532ede57a74687c53fee3409a38746c04.tar.gz",
+    "url": "https://github.com/Rolv-Apneseth/bypass.yazi/archive/ecb1f7f6fd305ff4ffff548fa955595af6b26e60.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "compress.yazi": {
@@ -245,10 +245,10 @@
     "homepage": null,
     "owner": "dedukun",
     "repo": "relative-motions.yazi",
-    "rev": "0d9c8cfae8d1f74227808150a0666bcbb1114d0e",
-    "sha256": "1v4hl0rixp9kf3yqywws4kamqwraxxm3r5qazr2zs9120hzsnqy1",
+    "rev": "a4e64658098ae54b91c78c2aa3a7996270abca88",
+    "sha256": "0ykfspds6rnp0w146svy18si63ysfs7dv3c3hpz8qssrzpf5rjwq",
     "type": "tarball",
-    "url": "https://github.com/dedukun/relative-motions.yazi/archive/0d9c8cfae8d1f74227808150a0666bcbb1114d0e.tar.gz",
+    "url": "https://github.com/dedukun/relative-motions.yazi/archive/a4e64658098ae54b91c78c2aa3a7996270abca88.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "rich-preview.yazi": {
