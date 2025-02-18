@@ -89,6 +89,7 @@
     protrekkr = callPackage' ./protrekkr;
     pythonPackages = callPackages' ./pythonPackages;
     reverse-camel = callPackage' ./reverse-camel;
+    ripplerx = callPackage' ./ripplerx;
     rnnoise-plugin = callPackage' ./rnnoise-plugin;
     roomreverb = callPackage' ./roomreverb;
     satty = callPackage' ./satty;

@@ -1,0 +1,23 @@
+{
+    "ripplerx": {
+        "cargoLocks": null,
+        "date": null,
+        "extract": null,
+        "name": "ripplerx",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": true,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "tiagolr",
+            "repo": "ripplerx",
+            "rev": "v1.3.5",
+            "sha256": "sha256-94S5EhnlgzxSIZXBJYyoqAmF1ijHoyUOP6CYNHxL5Ak=",
+            "sparseCheckout": [],
+            "type": "github"
+        },
+        "version": "v1.3.5"
+    }
+}

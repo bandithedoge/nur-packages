@@ -1,0 +1,4 @@
+[ripplerx]
+src.github = "tiagolr/ripplerx"
+fetch.github = "tiagolr/ripplerx"
+git.fetchSubmodules = true
