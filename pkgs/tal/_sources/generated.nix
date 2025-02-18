@@ -42,7 +42,7 @@
     version = "latest";
     src = fetchurl {
       url = "https://tal-software.com/downloads/plugins/TAL-Dub-X_64_linux.zip";
-      sha256 = "sha256-I2awc0tB2Xs529lhs/G6ibqs+i1FNUVFAoRB+wL9gok=";
+      sha256 = "sha256-VqCVgU+T65jK66kAdkDlJcCmIs/D7X48H9jN6hhdvSQ=";
     };
   };
   filter-2 = {

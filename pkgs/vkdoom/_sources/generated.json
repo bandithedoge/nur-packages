@@ -1,7 +1,7 @@
 {
   "vkdoom": {
     "cargoLocks": null,
-    "date": "2025-02-17",
+    "date": "2025-02-18",
     "extract": null,
     "name": "vkdoom",
     "passthru": null,
@@ -11,12 +11,12 @@
       "fetchSubmodules": false,
       "leaveDotGit": true,
       "name": null,
-      "rev": "81062ecebe927bd3f3c63b1f61e9b4a39e28440b",
-      "sha256": "sha256-DR2jhyjvd7ipxmri8PM8girv+usyrrDQOPE1IcjqQXw=",
+      "rev": "77f19ba6f5909560dafa1f73fc72ab39ceb64a78",
+      "sha256": "sha256-dwd6NnQCUIDMPuo9ESC+n8Few6YszICA8QrpJmAwaA8=",
       "sparseCheckout": [],
       "type": "git",
       "url": "https://github.com/dpjudas/VkDoom"
     },
-    "version": "81062ecebe927bd3f3c63b1f61e9b4a39e28440b"
+    "version": "77f19ba6f5909560dafa1f73fc72ab39ceb64a78"
   }
 }
