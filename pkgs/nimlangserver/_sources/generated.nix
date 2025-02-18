@@ -130,13 +130,13 @@
   };
   regex = {
     pname = "regex";
-    version = "v0.26.1";
+    version = "v0.26.2";
     src = fetchFromGitHub {
       owner = "nitely";
       repo = "nim-regex";
-      rev = "v0.26.1";
+      rev = "v0.26.2";
       fetchSubmodules = false;
-      sha256 = "sha256-+z18HPG1HYhfLiFyOCUeYJaHwk/8AXlnh9LQDfNBN6o=";
+      sha256 = "sha256-wU1c+G0SIzIYGqlb1+2vWiSuT1ZS618cMec1P5gZ7Yo=";
     };
   };
   results = {
@@ -194,17 +194,17 @@
   };
   websock = {
     pname = "websock";
-    version = "ebe308a79a7b440a11dfbe74f352be86a3883508";
+    version = "d5cd89062cd2d168ef35193c7d29d2102921d97e";
     src = fetchgit {
       url = "https://github.com/status-im/nim-websock";
-      rev = "ebe308a79a7b440a11dfbe74f352be86a3883508";
+      rev = "d5cd89062cd2d168ef35193c7d29d2102921d97e";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [];
-      sha256 = "sha256-jUWaxH8uhLufJbXS2Zp1eKBsZVJWA6+V6y3+BUGH83c=";
+      sha256 = "sha256-/HRPFK3eq+S63KME2M75nZw41jgZjJPPrpVjivmgQ7A=";
     };
-    date = "2024-11-28";
+    date = "2025-02-17";
   };
   zevv-with = {
     pname = "zevv-with";

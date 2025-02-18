@@ -504,13 +504,13 @@
         sha512 = "KQQR9yN7R5+OSwaK0XQoj22pwHoTlgYqmUscPYoknOoWCWfj/5/ABTMRi69FrKU5ffPVh5QcFikpWJI/P1ocHA==";
       };
     };
-    "tinyglobby-0.2.10" = {
+    "tinyglobby-0.2.11" = {
       name = "tinyglobby";
       packageName = "tinyglobby";
-      version = "0.2.10";
+      version = "0.2.11";
       src = fetchurl {
-        url = "https://registry.npmjs.org/tinyglobby/-/tinyglobby-0.2.10.tgz";
-        sha512 = "Zc+8eJlFMvgatPZTl6A9L/yht8QqdmUNtURHaKZLmKBE12hNPSrqNkUp2cs3M/UKmNVVAMFQYSjYIVHDjW5zew==";
+        url = "https://registry.npmjs.org/tinyglobby/-/tinyglobby-0.2.11.tgz";
+        sha512 = "32TmKeeKUahv0Go8WmQgiEp9Y21NuxjwjqiRC1nrUB51YacfSwuB44xgXD+HdIppmMRgjQNPdrHyA6vIybYZ+g==";
       };
     };
     "typescript-4.9.5" = {
@@ -635,10 +635,10 @@ in {
   "@tailwindcss/language-server" = nodeEnv.buildNodePackage {
     name = "_at_tailwindcss_slash_language-server";
     packageName = "@tailwindcss/language-server";
-    version = "0.14.4";
+    version = "0.14.5";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@tailwindcss/language-server/-/language-server-0.14.4.tgz";
-      sha512 = "k68y2UvC5HlbE9P87mAbLB4R0AdK8rz3YrIRRsXJRPv2XVUJD7xRmQprjFm3qwwLOZchJ6cE4yLljd0T5B05GQ==";
+      url = "https://registry.npmjs.org/@tailwindcss/language-server/-/language-server-0.14.5.tgz";
+      sha512 = "fRRciuwqalVub2ZBpC1zS5KM7tUmNnRtNAG6fzfBntJDfEBihTemxz8OQgwEJyK4cDa5VzdJFASWW1+ExxpvzQ==";
     };
     buildInputs = globalBuildInputs;
     meta = {
@@ -757,7 +757,7 @@ in {
       sources."tar-6.2.1"
       sources."tiny-conventional-commits-parser-0.0.1"
       sources."tinyexec-0.3.2"
-      sources."tinyglobby-0.2.10"
+      sources."tinyglobby-0.2.11"
       sources."ufo-1.5.4"
       sources."vscode-jsonrpc-8.2.0"
       sources."vscode-languageserver-9.0.1"
