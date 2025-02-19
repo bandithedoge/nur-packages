@@ -7,13 +7,13 @@
 }: {
   ripplerx = {
     pname = "ripplerx";
-    version = "v1.3.5";
+    version = "v1.3.7";
     src = fetchFromGitHub {
       owner = "tiagolr";
       repo = "ripplerx";
-      rev = "v1.3.5";
+      rev = "v1.3.7";
       fetchSubmodules = true;
-      sha256 = "sha256-94S5EhnlgzxSIZXBJYyoqAmF1ijHoyUOP6CYNHxL5Ak=";
+      sha256 = "sha256-nV9uegFkCJ8OmB2ZFkEo2hCwssY4y0lLcdz0Kd0eqsw=";
     };
   };
 }

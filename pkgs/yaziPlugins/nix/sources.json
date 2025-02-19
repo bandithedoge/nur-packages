@@ -221,10 +221,10 @@
     "homepage": "",
     "owner": "MasouShizuka",
     "repo": "projects.yazi",
-    "rev": "ac57d0ac341da74975e22fa34b5d673b9c737984",
-    "sha256": "18abvwzyml4ccimdf7gbs00b6p670dfbpmjh00jffrnkr0gp44dr",
+    "rev": "4a69a7f7e68a2edce3cc1a90dc748331bb5e7bde",
+    "sha256": "0pxrngw6hyvlqpw45msrylmbhgw5r145p9cq8bn8nns4zcnf16nk",
     "type": "tarball",
-    "url": "https://github.com/MasouShizuka/projects.yazi/archive/ac57d0ac341da74975e22fa34b5d673b9c737984.tar.gz",
+    "url": "https://github.com/MasouShizuka/projects.yazi/archive/4a69a7f7e68a2edce3cc1a90dc748331bb5e7bde.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "reflink.yazi": {
