@@ -7,13 +7,13 @@
 }: {
   hvcc = {
     pname = "hvcc";
-    version = "v0.13.2";
+    version = "v0.13.3";
     src = fetchFromGitHub {
       owner = "Wasted-Audio";
       repo = "hvcc";
-      rev = "v0.13.2";
+      rev = "v0.13.3";
       fetchSubmodules = false;
-      sha256 = "sha256-sea3pBdRJTFhrg/4OYXEtXKzIrMid2IRTOVdqBX5q74=";
+      sha256 = "sha256-V+KQum1PFzAlu79vID7xZgVW6q0M1UAMSeF0f3oSnXg=";
     };
   };
   wstd2daisy = {

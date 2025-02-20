@@ -504,13 +504,13 @@
         sha512 = "KQQR9yN7R5+OSwaK0XQoj22pwHoTlgYqmUscPYoknOoWCWfj/5/ABTMRi69FrKU5ffPVh5QcFikpWJI/P1ocHA==";
       };
     };
-    "tinyglobby-0.2.11" = {
+    "tinyglobby-0.2.12" = {
       name = "tinyglobby";
       packageName = "tinyglobby";
-      version = "0.2.11";
+      version = "0.2.12";
       src = fetchurl {
-        url = "https://registry.npmjs.org/tinyglobby/-/tinyglobby-0.2.11.tgz";
-        sha512 = "32TmKeeKUahv0Go8WmQgiEp9Y21NuxjwjqiRC1nrUB51YacfSwuB44xgXD+HdIppmMRgjQNPdrHyA6vIybYZ+g==";
+        url = "https://registry.npmjs.org/tinyglobby/-/tinyglobby-0.2.12.tgz";
+        sha512 = "qkf4trmKSIiMTs/E63cxH+ojC2unam7rJ0WrauAzpT3ECNTxGRMlaXxVbfxMUC/w0LaYk6jQ4y/nGR9uBO3tww==";
       };
     };
     "typescript-4.9.5" = {
@@ -757,7 +757,7 @@ in {
       sources."tar-6.2.1"
       sources."tiny-conventional-commits-parser-0.0.1"
       sources."tinyexec-0.3.2"
-      sources."tinyglobby-0.2.11"
+      sources."tinyglobby-0.2.12"
       sources."ufo-1.5.4"
       sources."vscode-jsonrpc-8.2.0"
       sources."vscode-languageserver-9.0.1"

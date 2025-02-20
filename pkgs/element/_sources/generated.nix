@@ -61,17 +61,17 @@
   };
   lvtk = {
     pname = "lvtk";
-    version = "c2abd213602ff3ebcb513755b5f4d23f0b7492ab";
+    version = "6e5f8d72513f76cc8b11f26a7aeb6a77dbe52923";
     src = fetchgit {
       url = "https://github.com/lvtk/lvtk.git";
-      rev = "c2abd213602ff3ebcb513755b5f4d23f0b7492ab";
+      rev = "6e5f8d72513f76cc8b11f26a7aeb6a77dbe52923";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [];
-      sha256 = "sha256-QgrXSADOqYewvA97FYwJ33+7l8EMMMa4HEWm4fyoYvc=";
+      sha256 = "sha256-IXgnOPsOnUSlQXbhbdNk+Qpv9yHb9tWrppAocXsBCi0=";
     };
-    date = "2025-02-03";
+    date = "2025-02-19";
   };
   lvtk-host = {
     pname = "lvtk-host";
