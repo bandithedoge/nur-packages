@@ -360,13 +360,13 @@
         sha512 = "8Mc2HhqPdlIfedsuZoc3yioPuzp6b+L5jRCRY1QzuWZh2EGJVQrGppC6V6cF0bLdbW0+O2YpqCA25aF/1lvipQ==";
       };
     };
-    "nypm-0.5.2" = {
+    "nypm-0.5.4" = {
       name = "nypm";
       packageName = "nypm";
-      version = "0.5.2";
+      version = "0.5.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/nypm/-/nypm-0.5.2.tgz";
-        sha512 = "AHzvnyUJYSrrphPhRWWZNcoZfArGNp3Vrc4pm/ZurO74tYNTgAPrEyBQEKy+qioqmWlPXwvMZCG2wOaHlPG0Pw==";
+        url = "https://registry.npmjs.org/nypm/-/nypm-0.5.4.tgz";
+        sha512 = "X0SNNrZiGU8/e/zAB7sCTtdxWTMSIO73q+xuKgglm2Yvzwlo8UoC5FNySQFCvl84uPaeADkqHUZUkWy4aH4xOA==";
       };
     };
     "ohash-1.1.4" = {
@@ -741,7 +741,7 @@ in {
       sources."mkdirp-1.0.4"
       sources."mlly-1.7.4"
       sources."node-fetch-native-1.6.6"
-      sources."nypm-0.5.2"
+      sources."nypm-0.5.4"
       sources."ohash-1.1.4"
       sources."package-manager-detector-0.2.9"
       sources."pathe-2.0.3"
