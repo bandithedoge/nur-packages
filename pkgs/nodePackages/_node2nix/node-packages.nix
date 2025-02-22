@@ -117,13 +117,13 @@
         sha512 = "jBHlab9NnRwrpHsockb5E+MBo0os2yS6S7i3cnN8hB6EkTardKQotmd0CFdOc8pubLz2fxj2AD6RGtrySVG6Mw==";
       };
     };
-    "c12-2.0.2" = {
+    "c12-2.0.4" = {
       name = "c12";
       packageName = "c12";
-      version = "2.0.2";
+      version = "2.0.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/c12/-/c12-2.0.2.tgz";
-        sha512 = "NkvlL5CHZt9kPswJYDCUYtTaMt7JOfcpsnNncfj7sWsc13x6Wz+GiTpBtqZOojFlzyTHui8+OAfR6praV6PYaQ==";
+        url = "https://registry.npmjs.org/c12/-/c12-2.0.4.tgz";
+        sha512 = "3DbbhnFt0fKJHxU4tEUPmD1ahWE4PWPMomqfYsTJdrhpmEnRKJi3qSC4rO5U6E6zN1+pjBY7+z8fUmNRMaVKLw==";
       };
     };
     "cac-6.7.14" = {
@@ -243,13 +243,13 @@
         sha512 = "V/JgOLFCS+R6Vcq0slCuaeWEdNC3ouDlJMNIsacH2VtALiu9mV4LPrHc5cDl8k5aw6J8jwgWWpiTo5RYhmIzvg==";
       };
     };
-    "giget-1.2.4" = {
+    "giget-1.2.5" = {
       name = "giget";
       packageName = "giget";
-      version = "1.2.4";
+      version = "1.2.5";
       src = fetchurl {
-        url = "https://registry.npmjs.org/giget/-/giget-1.2.4.tgz";
-        sha512 = "Wv+daGyispVoA31TrWAVR+aAdP7roubTPEM/8JzRnqXhLbdJH0T9eQyXVFF8fjk3WKTsctII6QcyxILYgNp2DA==";
+        url = "https://registry.npmjs.org/giget/-/giget-1.2.5.tgz";
+        sha512 = "r1ekGw/Bgpi3HLV3h1MRBIlSAdHoIMklpaQ3OQLFcRw9PwAj2rqigvIbg+dBUI51OxVI2jsEtDywDBjSiuf7Ug==";
       };
     };
     "jiti-2.4.2" = {
@@ -369,13 +369,13 @@
         sha512 = "X0SNNrZiGU8/e/zAB7sCTtdxWTMSIO73q+xuKgglm2Yvzwlo8UoC5FNySQFCvl84uPaeADkqHUZUkWy4aH4xOA==";
       };
     };
-    "ohash-1.1.4" = {
+    "ohash-2.0.4" = {
       name = "ohash";
       packageName = "ohash";
-      version = "1.1.4";
+      version = "2.0.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/ohash/-/ohash-1.1.4.tgz";
-        sha512 = "FlDryZAahJmEF3VR3w1KogSEdWX3WhA5GPakFx4J81kEAiHyLMpdLLElS8n8dfNadMgAne/MywcvmogzscVt4g==";
+        url = "https://registry.npmjs.org/ohash/-/ohash-2.0.4.tgz";
+        sha512 = "ac+SFwzhdHb0hp48/dbR7Jta39qfbuj7t3hApd9uyHS8bisHTfVzSEvjOVgV0L3zG7VR2/7JjkSGimP75D+hOQ==";
       };
     };
     "package-manager-detector-0.2.9" = {
@@ -706,7 +706,7 @@ in {
             sources."jsonc-parser-3.3.1"
           ];
         })
-      sources."c12-2.0.2"
+      sources."c12-2.0.4"
       sources."cac-6.7.14"
       sources."chokidar-4.0.3"
       sources."chownr-2.0.0"
@@ -725,7 +725,7 @@ in {
             sources."minipass-3.3.6"
           ];
         })
-      sources."giget-1.2.4"
+      sources."giget-1.2.5"
       sources."jiti-2.4.2"
       sources."js-yaml-4.1.0"
       sources."jsonc-parser-2.3.1"
@@ -742,7 +742,7 @@ in {
       sources."mlly-1.7.4"
       sources."node-fetch-native-1.6.6"
       sources."nypm-0.5.4"
-      sources."ohash-1.1.4"
+      sources."ohash-2.0.4"
       sources."package-manager-detector-0.2.9"
       sources."pathe-2.0.3"
       sources."perfect-debounce-1.0.0"

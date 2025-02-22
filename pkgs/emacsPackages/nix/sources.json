@@ -29,10 +29,10 @@
     "homepage": "",
     "owner": "emacs-languagetool",
     "repo": "eglot-ltex",
-    "rev": "df0c77b63a5557e5a0c669ed68593642d545e1ab",
-    "sha256": "1gbndbc90asj0plpsz30vf1hqhxv3m3skai2blm8rz9dax3dxpfx",
+    "rev": "843fe75cede79f854df5639b0051c658603522f6",
+    "sha256": "1272psh83h2v76wbriyp8m877inj00wrwy70chc6634f374rdkrm",
     "type": "tarball",
-    "url": "https://github.com/emacs-languagetool/eglot-ltex/archive/df0c77b63a5557e5a0c669ed68593642d545e1ab.tar.gz",
+    "url": "https://github.com/emacs-languagetool/eglot-ltex/archive/843fe75cede79f854df5639b0051c658603522f6.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "eglot-x": {
