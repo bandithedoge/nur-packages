@@ -37,6 +37,7 @@
 
           mkdir -p $out
           cp -r ${product} $out/libexec
+          mkdir -p "$out/libexec/Presets/${product}/MIDI Programs"
 
           # adapted from https://git.sr.ht/~raphi/elf-replace-symbol/tree/master/item/libfprint2-tod1-broadcom/default.nix
           substitute ${./wrapper.c} wrapper.c \
@@ -50,6 +51,7 @@
 
           mkdir -p $out/lib/vst
           ln -s $out/libexec/${product}.64.so $out/lib/vst/${product}.64.so
+
           mkdir -p $out/lib/vst3/${product}.vst3/Contents/{x86_64-linux,Resources/Documentation}
           ln -s $out/libexec/${product}.64.so $out/lib/vst3/${product}.vst3/Contents/x86_64-linux/${product}.so
           ln -s $out/libexec/*.pdf $out/lib/vst3/${product}.vst3/Contents/Resources/Documentation/
