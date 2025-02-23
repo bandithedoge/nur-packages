@@ -8,10 +8,10 @@
     "pinned": false,
     "src": {
       "name": null,
-      "sha256": "sha256-LBUIgqN6W2hqYC678887eXvkTBNiTdEsScwll2Ck5G4=",
+      "sha256": "sha256-C2YYX3ky8lxvoUiJ5I88EW6a3IaVsNe+AMMWxhKe6k0=",
       "type": "url",
-      "url": "https://github.com/Helion-Engine/Helion/releases/download/0.9.6.0/Helion-0.9.6.0-linux-x64.zip"
+      "url": "https://github.com/Helion-Engine/Helion/releases/download/0.9.6.1/Helion-0.9.6.1-linux-x64.zip"
     },
-    "version": "0.9.6.0"
+    "version": "0.9.6.1"
   }
 }
