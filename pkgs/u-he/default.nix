@@ -8,7 +8,13 @@
     meta ? {},
     extraLibs ? [],
     postBuild ? null,
-  }:
+  }: let
+    patchelf-raphi = pkgs.stdenv.mkDerivation {
+      inherit (sources.patchelf-raphi) pname version src;
+      nativeBuildInputs = with pkgs; [autoreconfHook];
+      meta.mainProgram = "patchelf";
+    };
+  in
     pkgs.stdenv.mkDerivation {
       inherit (sources.${product}) pname version src;
 
@@ -32,9 +38,18 @@
           mkdir -p $out
           cp -r ${product} $out/libexec
 
+          # adapted from https://git.sr.ht/~raphi/elf-replace-symbol/tree/master/item/libfprint2-tod1-broadcom/default.nix
+          substitute ${./wrapper.c} wrapper.c \
+            --subst-var-by store_path $out
+          cc -fPIC -shared -O3 wrapper.c -o $out/libexec/snprintf_wrapper.so
+
+          ${pkgs.lib.getExe patchelf-raphi} \
+            --replace-symbol snprintf snprintf_wrapper \
+            --add-needed snprintf_wrapper.so \
+            $out/libexec/${product}.64.so
+
           mkdir -p $out/lib/vst
           ln -s $out/libexec/${product}.64.so $out/lib/vst/${product}.64.so
-
           mkdir -p $out/lib/vst3/${product}.vst3/Contents/{x86_64-linux,Resources/Documentation}
           ln -s $out/libexec/${product}.64.so $out/lib/vst3/${product}.vst3/Contents/x86_64-linux/${product}.so
           ln -s $out/libexec/*.pdf $out/lib/vst3/${product}.vst3/Contents/Resources/Documentation/
@@ -46,6 +61,8 @@
         + ''
           runHook postBuild
         '';
+
+      inherit postBuild;
 
       passthru = {
         inherit product;

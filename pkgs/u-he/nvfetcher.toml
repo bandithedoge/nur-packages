@@ -1,3 +1,7 @@
+[patchelf-raphi]
+src.git = "https://git.sr.ht/~raphi/patchelf"
+fetch.git = "https://git.sr.ht/~raphi/patchelf"
+
 [ACE]
 src.webpage = "https://uhe-dl.b-cdn.net/releases/"
 src.regex = "ACE_(\\d+_\\d+)"
