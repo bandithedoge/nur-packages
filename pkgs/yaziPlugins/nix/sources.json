@@ -293,10 +293,10 @@
     "homepage": null,
     "owner": "Rolv-Apneseth",
     "repo": "starship.yazi",
-    "rev": "f6939fbdbc3fdfcdc2a80251841e429e0cd5cf3c",
-    "sha256": "1v2qni3x6mcg1w8ymg8b0p5fvr28i85yk9gicc5mifnvihb2q175",
+    "rev": "6c639b474aabb17f5fecce18a4c97bf90b016512",
+    "sha256": "0l1vhh63xs2cam4bd2dw1i2gjg83zccv3cic1h85x743437d84kf",
     "type": "tarball",
-    "url": "https://github.com/Rolv-Apneseth/starship.yazi/archive/f6939fbdbc3fdfcdc2a80251841e429e0cd5cf3c.tar.gz",
+    "url": "https://github.com/Rolv-Apneseth/starship.yazi/archive/6c639b474aabb17f5fecce18a4c97bf90b016512.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "sudo.yazi": {
@@ -329,10 +329,10 @@
     "homepage": "",
     "owner": "kirasok",
     "repo": "torrent-preview.yazi",
-    "rev": "169cafcb6f1b0aeef647c7598845e1e09651c3a8",
-    "sha256": "1126s2bvh274wxy534qdz1a65sk3vlzw1xl8y46izvmrh1dfb8mm",
+    "rev": "4ca5996a8264457cbefff8e430acfca4900a0453",
+    "sha256": "18xzhn94rppbn0c6bj7nrh0nn6ddx6c810sy0lrhrsxrsrs8x9xx",
     "type": "tarball",
-    "url": "https://github.com/kirasok/torrent-preview.yazi/archive/169cafcb6f1b0aeef647c7598845e1e09651c3a8.tar.gz",
+    "url": "https://github.com/kirasok/torrent-preview.yazi/archive/4ca5996a8264457cbefff8e430acfca4900a0453.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "video-ffmpeg.yazi": {
