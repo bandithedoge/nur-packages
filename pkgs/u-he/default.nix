@@ -41,7 +41,9 @@
 
           mkdir -p $out/libexec
           cp -r ${product} $out/libexec/${product}
-          mkdir -p "$out/libexec/${product}/Presets/${product}/MIDI Programs"
+          for p in $out/libexec/${product}/Presets/*; do
+            mkdir -p "$p/MIDI Programs"
+          done
 
           # adapted from https://git.sr.ht/~raphi/elf-replace-symbol/tree/master/item/libfprint2-tod1-broadcom/default.nix
           substitute ${./wrapper.c} wrapper.c \
