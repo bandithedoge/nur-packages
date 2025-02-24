@@ -17,6 +17,9 @@ static const unsigned long src_data_len = strlen(src_data);
 static const char src_presets[] = "%s/.%s/%s/Presets";
 static const unsigned long src_presets_len = strlen(src_presets);
 
+static const char src_nks_presets[] = "%s/.%s/%s/NKS Presets";
+static const unsigned long src_nks_presets_len = strlen(src_nks_presets);
+
 static const char src_tunefiles[] = "%s/.%s/%s/Tunefiles";
 static const unsigned long src_tunefiles_len = strlen(src_tunefiles);
 
@@ -58,19 +61,22 @@ int snprintf_wrapper(char *restrict buffer, size_t bufsz, const char *restrict f
 
     int result = 0;
 
-    if ( // ~/.uhe/$plugin/Data: gui assets
+    if ( // ~/.u-he/$plugin/Data: gui assets
         !memcmp(src_data, format, src_data_len)
-        // ~/.uhe/$plugin/Presets: factory presets
+        // ~/.u-he/$plugin/Presets: factory presets
         // user presets are stored in ~/.uhe/$plugin/UserPresets, no need to rewrite that
         || !memcmp(src_presets, format, src_presets_len)
-        // ~/.uhe/$plugin/Tunefiles: synth microtuning presets
+        // ~/.u-he/$plugin/NKS\ Presets: Native Instruments NKS presets
+        // only used in Zebra2
+        || !memcmp(src_nks_presets, format, src_nks_presets_len)
+        // ~/.u-he/$plugin/Tunefiles: synth microtuning presets
         // TODO: figure out how to separate factory and user tunings
         || !memcmp(src_tunefiles, format, src_tunefiles_len)
-        // ~/.uhe/$plugin/Modules: some synth components?
+        // ~/.u-he/$plugin/Modules: some synth components?
         || !memcmp(src_modules, format, src_modules_len)
-        // ~/.uhe/$plugin/Wavetables: only used in Hive
+        // ~/.u-he/$plugin/Wavetables: only used in Hive
         || !memcmp(src_wavetables, format, src_wavetables_len)
-        // ~/.uhe/$plugin: user guide and dialog binaries
+        // ~/.u-he/$plugin: user guide and dialog binaries
         // these are in the root dir so we're comparing the whole string rather than just the prefix
         || !strcmp(src_root, format)) {
         result = rewrite(buffer, bufsz, format, args);

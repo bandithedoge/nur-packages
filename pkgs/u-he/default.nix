@@ -206,6 +206,8 @@ in {
       tar -xf 02\ The\ Dark\ Zebra/*.tar.xz
       cp -r ZebraHZ*/ZebraHZ/* $out/libexec/Zebra2/
 
+      mkdir -p $out/libexec/Zebra2/Presets/{ZRev,ZebraHZ}/MIDI\ Programs
+
       ${pkgs.lib.getExe patchelf-raphi} \
         --replace-symbol snprintf snprintf_wrapper \
         --add-needed snprintf_wrapper.so \
@@ -215,6 +217,10 @@ in {
       mkdir -p $out/lib/vst3/ZebraHZ.vst3/Contents/{x86_64-linux,Resources/Documentation}
       ln -s $out/libexec/Zebra2/ZebraHZ.64.so $out/lib/vst3/ZebraHZ.vst3/Contents/x86_64-linux/ZebraHZ.so
       ln -s $out/libexec/Zebra2/*.pdf $out/lib/vst3/ZebraHZ.vst3/Contents/Resources/Documentation/
+
+      for soundset in 03\ Zebra\ Legacy\ Soundsets/*.uhe-soundset; do
+        unzip -o "$soundset" -d $out/libexec/Zebra2
+      done
     '';
   };
 }
