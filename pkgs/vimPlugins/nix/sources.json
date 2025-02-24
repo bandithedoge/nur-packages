@@ -665,10 +665,10 @@
     "homepage": "",
     "owner": "ray-x",
     "repo": "go.nvim",
-    "rev": "54f6af7cc223c6c8d3b66d837390621fbb486061",
-    "sha256": "066dr4fvssniyqx5mbi0v37lk2i44jmf4sx2rlc6lmd3n1zlvjcs",
+    "rev": "80c3c3159dd35cd79ebfdb04839c170f631b47d1",
+    "sha256": "0y1kcwc0ns4fnygs1amy775gqmqvmygg9nbgky20mvgmnp6y1khh",
     "type": "tarball",
-    "url": "https://github.com/ray-x/go.nvim/archive/54f6af7cc223c6c8d3b66d837390621fbb486061.tar.gz",
+    "url": "https://github.com/ray-x/go.nvim/archive/80c3c3159dd35cd79ebfdb04839c170f631b47d1.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "guess-indent.nvim": {
@@ -1010,10 +1010,10 @@
     "homepage": "",
     "owner": "folke",
     "repo": "neoconf.nvim",
-    "rev": "37e192a41886c48c8c45bb1b0afd45c6044f2822",
-    "sha256": "0pfjnmc50nb89vrc9zgd2sj5xsmy3x8qllr7pgklyzrn4q9yddw5",
+    "rev": "a1b6400f00d79dbd008fef5efe765a94f71885fe",
+    "sha256": "085kqi4cvhvm2m1n6y1ik9p1lsj0vd7z6h43hkwbg8aa80bb2893",
     "type": "tarball",
-    "url": "https://github.com/folke/neoconf.nvim/archive/37e192a41886c48c8c45bb1b0afd45c6044f2822.tar.gz",
+    "url": "https://github.com/folke/neoconf.nvim/archive/a1b6400f00d79dbd008fef5efe765a94f71885fe.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "neodev.nvim": {
