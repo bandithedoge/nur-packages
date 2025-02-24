@@ -126,10 +126,11 @@
     zrythm = callPackage' ./zrythm;
   };
 in
+  pkgs.lib.recursiveUpdate
   packages
-  // pkgs.lib.mapAttrsRecursive
-  (old: new:
-    pkgs.lib.warn
-    "${concat old} has been renamed to ${concat new}"
-    (pkgs.lib.attrByPath new null packages))
-  (import ./_renamed.nix)
+  (pkgs.lib.mapAttrsRecursive
+    (old: new:
+      pkgs.lib.warn
+      "${concat old} has been renamed to ${concat new}"
+      (pkgs.lib.attrByPath new null packages))
+    (import ./_renamed.nix))
