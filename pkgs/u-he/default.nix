@@ -3,24 +3,28 @@
   sources,
   ...
 }: let
+  patchelf-raphi = pkgs.stdenv.mkDerivation {
+    inherit (sources.patchelf-raphi) pname version src;
+    nativeBuildInputs = with pkgs; [autoreconfHook];
+    meta.mainProgram = "patchelf";
+  };
   mkUhe = product: {
     clap ? true,
     meta ? {},
     extraLibs ? [],
+    nativeBuildInputs ? [],
+    preBuild ? null,
     postBuild ? null,
   }: let
-    patchelf-raphi = pkgs.stdenv.mkDerivation {
-      inherit (sources.patchelf-raphi) pname version src;
-      nativeBuildInputs = with pkgs; [autoreconfHook];
-      meta.mainProgram = "patchelf";
-    };
   in
     pkgs.stdenv.mkDerivation {
       inherit (sources.${product}) pname version src;
 
-      nativeBuildInputs = with pkgs; [
-        autoPatchelfHook
-      ];
+      nativeBuildInputs = with pkgs;
+        [
+          autoPatchelfHook
+        ]
+        ++ nativeBuildInputs;
 
       buildInputs = with pkgs;
         [
@@ -64,7 +68,7 @@
           runHook postBuild
         '';
 
-      inherit postBuild;
+      inherit preBuild postBuild;
 
       passthru = {
         inherit product;
@@ -129,6 +133,7 @@ in {
   };
 
   podolski = mkUhe "Podolski" {
+    clap = false;
     meta = {
       homepage = "https://u-he.com/products/podolski/";
       description = "Nice and easy";
@@ -144,6 +149,7 @@ in {
   };
 
   protoverb = mkUhe "Protoverb" {
+    clap = false;
     meta = {
       homepage = "https://u-he.com/products/protoverb/";
       description = "Experimental research reverb";
@@ -188,11 +194,25 @@ in {
     };
   };
 
-  zebra2 = mkUhe "Zebra2" {
-    clap = false;
-    meta = {
-      homepage = "https://u-he.com/products/zebra-legacy/";
-      description = "The workhorse synth";
-    };
+  zebra-legacy = mkUhe "Zebra2" {
+    nativeBuildInputs = with pkgs; [unzip];
+    preBuild = ''
+      tar -xf 01\ Zebra2/*.xz
+      cp -r Zebra2*/Zebra2 .
+    '';
+    postBuild = ''
+      tar -xf 02\ The\ Dark\ Zebra/*.tar.xz
+      cp -r ZebraHZ*/ZebraHZ/* $out/libexec/Zebra2/
+
+      ${pkgs.lib.getExe patchelf-raphi} \
+        --replace-symbol snprintf snprintf_wrapper \
+        --add-needed snprintf_wrapper.so \
+        $out/libexec/Zebra2/ZebraHZ.64.so
+
+      ln -s $out/libexec/Zebra2/ZebraHZ.64.so $out/lib/vst/ZebraHZ.so
+      mkdir -p $out/lib/vst3/ZebraHZ.vst3/Contents/{x86_64-linux,Resources/Documentation}
+      ln -s $out/libexec/Zebra2/ZebraHZ.64.so $out/lib/vst3/ZebraHZ.vst3/Contents/x86_64-linux/ZebraHZ.so
+      ln -s $out/libexec/Zebra2/*.pdf $out/lib/vst3/ZebraHZ.vst3/Contents/Resources/Documentation/
+    '';
   };
 }

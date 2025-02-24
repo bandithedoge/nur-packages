@@ -77,7 +77,11 @@ src.webpage = "https://uhe-dl.b-cdn.net/releases/"
 src.regex = "Uhbik_(\\d+_\\d+)"
 fetch.tarball = "https://uhe-dl.b-cdn.net/releases/Uhbik_$ver_Linux.tar.xz"
 
+# [Zebra2]
+# src.webpage = "https://uhe-dl.b-cdn.net/releases/"
+# src.regex = "Zebra2_(\\d+_\\d+)"
+# fetch.tarball = "https://uhe-dl.b-cdn.net/releases/Zebra2_$ver_Linux.tar.xz"
 [Zebra2]
 src.webpage = "https://uhe-dl.b-cdn.net/releases/"
-src.regex = "Zebra2_(\\d+_\\d+)"
-fetch.tarball = "https://uhe-dl.b-cdn.net/releases/Zebra2_$ver_Linux.tar.xz"
+src.regex = "Zebra_Legacy_(\\d+_\\d+)"
+fetch.tarball = "https://uhe-dl.b-cdn.net/releases/Zebra_Legacy_$ver_Linux.zip"
