@@ -5,7 +5,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-static const char store_path[] = "@store_path@/libexec/";
+static const char store_path[] = "@store_path@/";
 static const unsigned long store_path_len = strlen(store_path);
 
 static const char src_root[] = "%s/.%s/%s/";
