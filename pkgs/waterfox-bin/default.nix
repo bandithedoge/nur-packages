@@ -10,6 +10,7 @@ pkgs.stdenv.mkDerivation {
   nativeBuildInputs = with pkgs; [
     autoPatchelfHook
     copyDesktopItems
+    patchelfUnstable
   ];
 
   buildInputs = with pkgs; [
@@ -29,6 +30,8 @@ pkgs.stdenv.mkDerivation {
   appendRunpaths = with pkgs; [
     (lib.getLib pipewire)
   ];
+
+  patchelfFlags = ["--no-clobber-old-sections"];
 
   buildPhase = let
     policies =
