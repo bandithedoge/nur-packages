@@ -18,7 +18,7 @@
     version = "latest";
     src = fetchurl {
       url = "https://tal-software.com/downloads/plugins/Tal-Chorus-LX_64_linux.zip";
-      sha256 = "sha256-n/KHRwbD/VS3ZFCYdVb0X26GUUMJZMz4bUjPaGxROQQ=";
+      sha256 = "sha256-OAon7ouqykSnGme1GupD5sQ85bc0dBDosRR8OzSe/XE=";
     };
   };
   dac = {

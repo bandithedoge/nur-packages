@@ -29,10 +29,10 @@
     "homepage": "",
     "owner": "emacs-languagetool",
     "repo": "eglot-ltex",
-    "rev": "6a5d655b9493cfad184ff26d18fa00ad1f6d0b29",
-    "sha256": "1k51ffsqdk0ghzsg9dqpvp258mhkfbqkdc071r466ldpgzm84h3g",
+    "rev": "b5c994b0f25f7a5d0f9d38644964a033201a32cf",
+    "sha256": "1f75wp5iprwnvbg2d6nah3rqfvjnmqfi9cw5vmz59839hvyjxyh2",
     "type": "tarball",
-    "url": "https://github.com/emacs-languagetool/eglot-ltex/archive/6a5d655b9493cfad184ff26d18fa00ad1f6d0b29.tar.gz",
+    "url": "https://github.com/emacs-languagetool/eglot-ltex/archive/b5c994b0f25f7a5d0f9d38644964a033201a32cf.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "eglot-x": {
@@ -77,10 +77,10 @@
     "homepage": "",
     "owner": "jdtsmith",
     "repo": "indent-bars",
-    "rev": "d70199b7b014ec5f75808f404266c04e2ae36c1e",
-    "sha256": "1f2kq780wkqyd926al5pvg30640dclzxnxs6ggxfnplzfkym6sv0",
+    "rev": "fa293f98abe353599353c94177fe0bb77cdbd0b8",
+    "sha256": "1v1a90z9lmgrq0wf8fs7mrikw3scl6j6vhhmfhgr918cx43iy4l2",
     "type": "tarball",
-    "url": "https://github.com/jdtsmith/indent-bars/archive/d70199b7b014ec5f75808f404266c04e2ae36c1e.tar.gz",
+    "url": "https://github.com/jdtsmith/indent-bars/archive/fa293f98abe353599353c94177fe0bb77cdbd0b8.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "on": {

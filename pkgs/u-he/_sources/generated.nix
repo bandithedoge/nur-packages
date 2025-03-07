@@ -71,10 +71,10 @@
   };
   Presswerk = {
     pname = "Presswerk";
-    version = "115_12092";
+    version = "116_16960";
     src = fetchTarball {
-      url = "https://uhe-dl.b-cdn.net/releases/Presswerk_115_12092_Linux.tar.xz";
-      sha256 = "sha256-A2WV0gG8Bbo2L8ByTPDAnwNm8yw2jAgHZmIvEIyD7/E=";
+      url = "https://uhe-dl.b-cdn.net/releases/Presswerk_116_16960_Linux.tar.xz";
+      sha256 = "sha256-I7H8APPA8o2ptWYSJSVjQhGWgDl0LIJBB4zNUq1XPlE=";
     };
   };
   Protoverb = {

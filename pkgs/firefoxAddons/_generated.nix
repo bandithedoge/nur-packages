@@ -406,7 +406,7 @@
     sha256 = "68bb06929b08d9c3aff55fdff411b4dc2f57e1752af358b018ab5003fbfeef69";
     meta = with lib; {
       homepage = "https://github.com/EnixCoda/Gitako";
-      description = "Gitako is a file tree extension for GitHub, available on Firefox, Chrome, and Edge.\n\nVideo intro: <a href=\"https://prod.outgoing.prod.webservices.mozgcp.net/v1/1c1a0c23e84b9c3e43af4c047563692e835dfa55acf38822fa3ca2bd4cb9ad0e/https%3A//youtu.be/r4Ein-s2pN0\" rel=\"nofollow\">https://youtu.be/r4Ein-s2pN0</a>\nHomepage: <a href=\"https://prod.outgoing.prod.webservices.mozgcp.net/v1/414db85f00575463826dd366beac0a912bf5a9dc43e679f39ddb998d218d376c/https%3A//github.com/EnixCoda/Gitako\" rel=\"nofollow\">https://github.com/EnixCoda/Gitako</a>";
+      description = "Gitako is a file tree extension for GitHub, available on Firefox, Chrome, and Edge.\n\nVideo intro: https://youtu.be/r4Ein-s2pN0\nHomepage: https://github.com/EnixCoda/Gitako";
       license = licenses.mit;
       mozPermissions = [
         "storage"
@@ -765,10 +765,10 @@
   };
   "material-icons-for-github" = buildFirefoxXpiAddon {
     pname = "material-icons-for-github";
-    version = "1.8.33";
+    version = "1.10.0";
     addonId = "{eac6e624-97fa-4f28-9d24-c06c9b8aa713}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4415340/material_icons_for_github-1.8.33.xpi";
-    sha256 = "dd3a9d55351ee7747a2ef8ac3b0d972560416ba4c3c9b88b722a2285d8f20a08";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4449189/material_icons_for_github-1.10.0.xpi";
+    sha256 = "4cb132ee05bf315dc08247b5e9ed2834b0fd1ac343f3d444817a7152c8996dec";
     meta = with lib; {
       homepage = "https://github.com/Claudiohbsantos/github-material-icons-extension";
       description = "Replace the file/folder icons on github file browsers with icons representing the file's type and which tool it is used by.";
@@ -1333,10 +1333,10 @@
   };
   "refined-github" = buildFirefoxXpiAddon {
     pname = "refined-github";
-    version = "25.2.17";
+    version = "25.2.26";
     addonId = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4438510/refined_github-25.2.17.xpi";
-    sha256 = "4e14a52b3c80f8d78a09e75aa3f522352d9c05d4e02a7704cbfe6bdb46304065";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4444298/refined_github-25.2.26.xpi";
+    sha256 = "447c9191fdd0d62eb47b696a7932f3eed69b1d4f9db547910cda61b3b604b2d2";
     meta = with lib; {
       homepage = "https://github.com/refined-github/refined-github";
       description = "Simplifies the GitHub interface and adds many useful features.";
@@ -1355,10 +1355,10 @@
   };
   "search_by_image" = buildFirefoxXpiAddon {
     pname = "search_by_image";
-    version = "8.1.0";
+    version = "8.1.1";
     addonId = "{2e5ff8c8-32fe-46d0-9fc8-6b8986621f3c}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4416342/search_by_image-8.1.0.xpi";
-    sha256 = "2271d630bceebc92ec0a51a22195b0eed325d78b984dea678dd5640a22c5a9b4";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4440660/search_by_image-8.1.1.xpi";
+    sha256 = "b90348e1f4bcced27e47719a142aba48cc58e252d621fa755cf3d706d960d648";
     meta = with lib; {
       homepage = "https://github.com/dessant/search-by-image#readme";
       description = "A powerful reverse image search tool, with support for various search engines, such as Google, Bing, Yandex, Baidu and TinEye.";
@@ -1383,10 +1383,10 @@
   };
   "sidebery" = buildFirefoxXpiAddon {
     pname = "sidebery";
-    version = "5.3.2";
+    version = "5.3.3";
     addonId = "{3c078156-979c-498b-8990-85f7987dd929}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4430159/sidebery-5.3.2.xpi";
-    sha256 = "aaaa5243797269bfff952f0820f12546f7e14c22ef0cc518b0d528153aff9e9c";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4442132/sidebery-5.3.3.xpi";
+    sha256 = "a4f9a8305f93b7d6b95f27943ecd1b3d422773fae5b802beac3af4a3e3a7476b";
     meta = with lib; {
       homepage = "https://github.com/mbnuqw/sidebery";
       description = "Vertical tabs tree and bookmarks in sidebar with advanced containers configuration, grouping and many other features.";
@@ -1525,10 +1525,10 @@
   };
   "stylus" = buildFirefoxXpiAddon {
     pname = "stylus";
-    version = "2.3.12";
+    version = "2.3.13";
     addonId = "{7a7a4a92-a2a0-41d1-9fd7-1e92480d612d}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4433683/styl_us-2.3.12.xpi";
-    sha256 = "ad4b90a561164318e2ed79ac812d8c07ee683eff39677ff88d618fb5801874e3";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4439124/styl_us-2.3.13.xpi";
+    sha256 = "e4ea2c09079db3d178b1d5f76e687534d2e35888f36bc2742767e6a63f161320";
     meta = with lib; {
       homepage = "https://add0n.com/stylus.html";
       description = "Redesign your favorite websites with Stylus, an actively developed and community driven userstyles manager. Easily install custom themes from popular online repositories, or create, edit, and manage your own personalized CSS stylesheets.";

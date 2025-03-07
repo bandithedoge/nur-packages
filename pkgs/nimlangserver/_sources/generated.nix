@@ -21,17 +21,17 @@
   };
   chronicles = {
     pname = "chronicles";
-    version = "81a4a7a360c78be9c80c8f735c76b6d4a1517304";
+    version = "a8fb38a10bcb548df78e9a70bd77b26bb50abd12";
     src = fetchgit {
       url = "https://github.com/status-im/nim-chronicles";
-      rev = "81a4a7a360c78be9c80c8f735c76b6d4a1517304";
+      rev = "a8fb38a10bcb548df78e9a70bd77b26bb50abd12";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [];
-      sha256 = "sha256-H1nyYsIe8DMhINo9EDjuCEYl2LTWwEuLxrggXHdQ79c=";
+      sha256 = "sha256-LjERsNJYwflH8dmaAFeRqcOsg0QrtuBwCdarUVUszhE=";
     };
-    date = "2024-10-15";
+    date = "2025-03-02";
   };
   chronos = {
     pname = "chronos";
@@ -77,17 +77,17 @@
   };
   json-rpc = {
     pname = "json-rpc";
-    version = "c0ac848733e42e672081f429fb146451894f7711";
+    version = "0c4a4a9002f0648e3e8f0ef6e8125630f09e2be3";
     src = fetchgit {
       url = "https://github.com/status-im/nim-json-rpc";
-      rev = "c0ac848733e42e672081f429fb146451894f7711";
+      rev = "0c4a4a9002f0648e3e8f0ef6e8125630f09e2be3";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [];
-      sha256 = "sha256-8oxOBPdvNIYSGwg7AiYwppBfiBCxgWYJD7oR7tsvz84=";
+      sha256 = "sha256-sJF7qS9FrfUSI7jOJvIBNiguxvf4QHj4R1u4UHK38bU=";
     };
-    date = "2025-01-13";
+    date = "2025-03-06";
   };
   json_serialization = {
     pname = "json_serialization";

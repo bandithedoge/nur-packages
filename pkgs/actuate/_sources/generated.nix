@@ -7,27 +7,26 @@
 }: {
   actuate = {
     pname = "actuate";
-    version = "v1.3.7";
+    version = "v1.3.8";
     src = fetchFromGitHub {
       owner = "ardura";
       repo = "Actuate";
-      rev = "v1.3.7";
+      rev = "v1.3.8";
       fetchSubmodules = false;
-      sha256 = "sha256-1vs7cigq5wJLo3ZOKJeVTLVOwWMdY6ilfbcJXzFgkU4=";
+      sha256 = "sha256-dYZlIUjJcW4lZgoOpJXU/NLluqXUc+giMZ87u7S/Xv4=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./actuate-v1.3.7/Cargo.lock;
+      lockFile = ./actuate-v1.3.8/Cargo.lock;
       outputHashes = {
-        "nih_plug_xtask-0.1.0" = "sha256-n1qe6Mv7lgee9g6TX5a6cMhBn3prLm6FavqB84SILVM=";
+        "nih_plug_xtask-0.1.0" = "sha256-9S2uyt4CAjSfI6i/7s2lQHFYKod3f1GU3bj2J2Ut4lE=";
         "assert_no_alloc-1.1.2" = "sha256-kCwtn0uONDTlDqfCpYtjB3spYM89qWjkzUOdcGjtY3c=";
-        "baseview-0.1.0" = "sha256-HFk3Q9hwdgeWJta2I0y/nBXM7Qftp7vtYSCV4eB4NJA=";
+        "baseview-0.1.0" = "sha256-89+5/TF9U7N4ODF1OOls1hnJHT0pkN2t9UakUaSitwY=";
         "vst3-com-0.1.0" = "sha256-tKWEmJR9aRpfsiuVr0K8XXYafVs+CzqCcP+Ea9qvZ7Y=";
-        "nih_plug-0.0.0" = "sha256-8WBsOXz4pqWdoiKYde6PV0WySVCM4AzwJEttbReBaZ0=";
+        "nih_plug-0.0.0" = "sha256-kZbahZyzm0NketIeqqTlpq+fSoEO2FaEG0a4Mrxw3Z8=";
         "clap-sys-0.3.0" = "sha256-svq9DMqzKVZCU07FiOIsdCt78BJctwlPobSlNZGeBxQ=";
-        "ecolor-0.28.0" = "sha256-d0H5YZodXWQzNtGPS4Rv6Y4HHUna7Oifg0yK/E8cId8=";
-        "egui-baseview-0.2.0" = "sha256-F8ADmQK+1XvdB2/JKr3CYKFm9+5Zsr4z50gleek3/wY=";
+        "egui-baseview-0.2.0" = "sha256-vPAeVqxoWR0o0MthsAMzxyfoIGMSEVDPTSZBJrHfJpQ=";
+        "egui_file-0.22.0" = "sha256-LV92wbZhYKxKEmP5S8XG8cID9cwP0P4kXdhoLbQzsM8=";
         "reflink-0.1.3" = "sha256-1o5d/mepjbDLuoZ2/49Bi6sFgVX4WdCuhGJkk8ulhcI=";
-        "egui_file-0.18.0" = "sha256-DbB+7lxhgRnhmHqxB24+UKwwMe2CAA+e635rQtjk85c=";
       };
     };
   };

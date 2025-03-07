@@ -90,13 +90,13 @@
         sha512 = "QLxjQR3imPZPQltfbWRnHU6JecWTF1QSWhx3GAKQpslx7y3Dp6sIIXhKjiUJ/BR9FX8PVthjr9PD6pNwOJfAzw==";
       };
     };
-    "acorn-8.14.0" = {
+    "acorn-8.14.1" = {
       name = "acorn";
       packageName = "acorn";
-      version = "8.14.0";
+      version = "8.14.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/acorn/-/acorn-8.14.0.tgz";
-        sha512 = "cl669nCJTZBsL97OF4kUQm5g5hC2uihk0NxY3WENAC0TYdILVkAyHymAntgxGkl7K+t0cXIrH5siy5S4XkFycA==";
+        url = "https://registry.npmjs.org/acorn/-/acorn-8.14.1.tgz";
+        sha512 = "OvQ/2pUDKmgfCg++xsTX1wGxfTaszcHVcTctW4UJB4hibJx2HXxxO5UmVgyjMa+ZDsiaf5wWLXYpRWMmBI0QHg==";
       };
     };
     "argparse-2.0.1" = {
@@ -369,22 +369,22 @@
         sha512 = "X0SNNrZiGU8/e/zAB7sCTtdxWTMSIO73q+xuKgglm2Yvzwlo8UoC5FNySQFCvl84uPaeADkqHUZUkWy4aH4xOA==";
       };
     };
-    "ohash-2.0.4" = {
+    "ohash-2.0.11" = {
       name = "ohash";
       packageName = "ohash";
-      version = "2.0.4";
+      version = "2.0.11";
       src = fetchurl {
-        url = "https://registry.npmjs.org/ohash/-/ohash-2.0.4.tgz";
-        sha512 = "ac+SFwzhdHb0hp48/dbR7Jta39qfbuj7t3hApd9uyHS8bisHTfVzSEvjOVgV0L3zG7VR2/7JjkSGimP75D+hOQ==";
+        url = "https://registry.npmjs.org/ohash/-/ohash-2.0.11.tgz";
+        sha512 = "RdR9FQrFwNBNXAr4GixM8YaRZRJ5PUWbKYbE5eOsrwAjJW0q2REGcf79oYPsLyskQCZG1PLN+S/K1V00joZAoQ==";
       };
     };
-    "package-manager-detector-0.2.9" = {
+    "package-manager-detector-0.2.11" = {
       name = "package-manager-detector";
       packageName = "package-manager-detector";
-      version = "0.2.9";
+      version = "0.2.11";
       src = fetchurl {
-        url = "https://registry.npmjs.org/package-manager-detector/-/package-manager-detector-0.2.9.tgz";
-        sha512 = "+vYvA/Y31l8Zk8dwxHhL3JfTuHPm6tlxM2A3GeQyl7ovYnSp1+mzAxClxaOr0qO1TtPxbQxetI7v5XqKLJZk7Q==";
+        url = "https://registry.npmjs.org/package-manager-detector/-/package-manager-detector-0.2.11.tgz";
+        sha512 = "BEnLolu+yuz22S56CU1SUKq3XC3PkwD5wv4ikR4MfGvnRVcmzXR9DwSlW2fEamyTPyXHomBJRzgapeuBvRNzJQ==";
       };
     };
     "pathe-2.0.3" = {
@@ -430,6 +430,15 @@
       src = fetchurl {
         url = "https://registry.npmjs.org/prompts/-/prompts-2.4.2.tgz";
         sha512 = "NxNv/kLguCA7p3jE8oL2aEBsrJWgAakBpgmgK6lpPWV+WuOmY6r2/zbAVnP+T8bQlA0nzHXSJSJW0Hq7ylaD2Q==";
+      };
+    };
+    "quansync-0.2.8" = {
+      name = "quansync";
+      packageName = "quansync";
+      version = "0.2.8";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/quansync/-/quansync-0.2.8.tgz";
+        sha512 = "4+saucphJMazjt7iOM27mbFCk+D9dd/zmgMDCzRZ8MEoBfYp7lAvoN38et/phRQF6wOPMy/OROBGgoWeSKyluA==";
       };
     };
     "rc9-2.1.2" = {
@@ -635,10 +644,10 @@ in {
   "@tailwindcss/language-server" = nodeEnv.buildNodePackage {
     name = "_at_tailwindcss_slash_language-server";
     packageName = "@tailwindcss/language-server";
-    version = "0.14.6";
+    version = "0.14.8";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@tailwindcss/language-server/-/language-server-0.14.6.tgz";
-      sha512 = "m6Zs4QXSW0ShdPX08OZdxIR6krhsRqUluFqLgYc1wIVUA5DIsp80gGRGlFnOWphPoc/wy3seO0Et0wS+vRB/jA==";
+      url = "https://registry.npmjs.org/@tailwindcss/language-server/-/language-server-0.14.8.tgz";
+      sha512 = "+4G6qu3DhcimXQLZAboh8vRZzvQtcQzOLaP0iEAQkfH3pu8tBFlg0XXvjSBu8CUMwJJg8aJSN0y83/0FJNUhcA==";
     };
     buildInputs = globalBuildInputs;
     meta = {
@@ -698,7 +707,7 @@ in {
       sources."@emmetio/css-abbreviation-2.1.8"
       sources."@emmetio/scanner-1.0.4"
       sources."@vscode/emmet-helper-2.11.0"
-      sources."acorn-8.14.0"
+      sources."acorn-8.14.1"
       sources."argparse-2.0.1"
       (sources."bumpp-9.11.1"
         // {
@@ -742,13 +751,14 @@ in {
       sources."mlly-1.7.4"
       sources."node-fetch-native-1.6.6"
       sources."nypm-0.5.4"
-      sources."ohash-2.0.4"
-      sources."package-manager-detector-0.2.9"
+      sources."ohash-2.0.11"
+      sources."package-manager-detector-0.2.11"
       sources."pathe-2.0.3"
       sources."perfect-debounce-1.0.0"
       sources."picomatch-4.0.2"
       sources."pkg-types-1.3.1"
       sources."prompts-2.4.2"
+      sources."quansync-0.2.8"
       sources."rc9-2.1.2"
       sources."readdirp-4.1.2"
       sources."semver-7.7.1"

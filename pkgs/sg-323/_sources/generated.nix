@@ -7,13 +7,13 @@
 }: {
   sg-323 = {
     pname = "sg-323";
-    version = "0.7.0";
+    version = "1.0.0";
     src = fetchFromGitHub {
       owner = "greyboxaudio";
       repo = "SG-323";
-      rev = "0.7.0";
+      rev = "1.0.0";
       fetchSubmodules = true;
-      sha256 = "sha256-ES83bTH8NiLdXWclDbRbRvzL3oXHQBvmMga2zzXuYpo=";
+      sha256 = "sha256-qA+H6Kf9UA1VlUC3aOn3DJb6rJYCfPN+UXDfvMGqkm0=";
     };
   };
 }

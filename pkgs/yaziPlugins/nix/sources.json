@@ -5,10 +5,10 @@
     "homepage": "",
     "owner": "Sonico98",
     "repo": "allmytoes.yazi",
-    "rev": "a9870513d935680c2d59da7d59b3f91660e2729d",
-    "sha256": "113ls0iijiwqn7c4j67hmfbvm8z5kdh3z4f3yy13jqx5kh3xcpk5",
+    "rev": "1e43bfd0143c396f60ef7d35e4d6b3aab7bf6439",
+    "sha256": "1xvv718l2mnnn9rfc7ciscffkra97clnzsj3d6blg9zldvjg0iwd",
     "type": "tarball",
-    "url": "https://github.com/Sonico98/allmytoes.yazi/archive/a9870513d935680c2d59da7d59b3f91660e2729d.tar.gz",
+    "url": "https://github.com/Sonico98/allmytoes.yazi/archive/1e43bfd0143c396f60ef7d35e4d6b3aab7bf6439.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "archivemount.yazi": {
@@ -29,10 +29,10 @@
     "homepage": "",
     "owner": "hankertrix",
     "repo": "augment-command.yazi",
-    "rev": "af31941aa5c86a7843923f6f7b48597740dbcac4",
-    "sha256": "1cxdf1fgd6n7frsk72jg5qg6adj51pa66c4c16lk4nc1lvls0a3v",
+    "rev": "e676d3c1c347dfd42dec0014b38dfe3a68ae201c",
+    "sha256": "1fpwain3a10n8wini18l1qjdgnxjr4y9jg7cniwzfz2qabpmh2la",
     "type": "tarball",
-    "url": "https://github.com/hankertrix/augment-command.yazi/archive/af31941aa5c86a7843923f6f7b48597740dbcac4.tar.gz",
+    "url": "https://github.com/hankertrix/augment-command.yazi/archive/e676d3c1c347dfd42dec0014b38dfe3a68ae201c.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "bookmarks.yazi": {
@@ -41,10 +41,10 @@
     "homepage": null,
     "owner": "dedukun",
     "repo": "bookmarks.yazi",
-    "rev": "fe0b1de939fa49068ac6b35da8d6680799931f1c",
-    "sha256": "10mnypa83lg7jq1hwv5qyb188p2i1m16av7j6ykg44fa47gvp5g5",
+    "rev": "95b2c586f4a40da8b6a079ec9256058ad0292e47",
+    "sha256": "14mrx855rpdgp58jg2lxbc34z3pskpwx2xgi0bmd9yicmx6irn3h",
     "type": "tarball",
-    "url": "https://github.com/dedukun/bookmarks.yazi/archive/fe0b1de939fa49068ac6b35da8d6680799931f1c.tar.gz",
+    "url": "https://github.com/dedukun/bookmarks.yazi/archive/95b2c586f4a40da8b6a079ec9256058ad0292e47.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "bypass.yazi": {
@@ -77,10 +77,10 @@
     "homepage": null,
     "owner": "Sonico98",
     "repo": "exifaudio.yazi",
-    "rev": "d7946141c87a23dcc6fb3b2730a287faf3154593",
-    "sha256": "0gn5isxmx7g0429x1nxp4ryaaxxn3mzk5mfvn9pjwmlgdqy72w4x",
+    "rev": "7ff714155f538b6460fdc8e911a9240674ad9b89",
+    "sha256": "1wmr6brkgns5zdf29jml3x0zfwl6302h3lldrhm5snfqb8m005d9",
     "type": "tarball",
-    "url": "https://github.com/Sonico98/exifaudio.yazi/archive/d7946141c87a23dcc6fb3b2730a287faf3154593.tar.gz",
+    "url": "https://github.com/Sonico98/exifaudio.yazi/archive/7ff714155f538b6460fdc8e911a9240674ad9b89.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "eza-preview.yazi": {
@@ -221,10 +221,10 @@
     "homepage": "",
     "owner": "MasouShizuka",
     "repo": "projects.yazi",
-    "rev": "4a69a7f7e68a2edce3cc1a90dc748331bb5e7bde",
-    "sha256": "0pxrngw6hyvlqpw45msrylmbhgw5r145p9cq8bn8nns4zcnf16nk",
+    "rev": "4f11eccf835556600a37730b383ee12f00d4fc59",
+    "sha256": "0kgqs0iliq5w0zdkahbxcb6az1gqi3yy4cr7b5ziicqdgm1aawaw",
     "type": "tarball",
-    "url": "https://github.com/MasouShizuka/projects.yazi/archive/4a69a7f7e68a2edce3cc1a90dc748331bb5e7bde.tar.gz",
+    "url": "https://github.com/MasouShizuka/projects.yazi/archive/4f11eccf835556600a37730b383ee12f00d4fc59.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "reflink.yazi": {
@@ -245,10 +245,10 @@
     "homepage": null,
     "owner": "dedukun",
     "repo": "relative-motions.yazi",
-    "rev": "a1466a90a256a8c1e0754a9a1a02c192a8b82c19",
-    "sha256": "1ijdzb2bfnxc85d2sda9sbbhsjq81njmx9pjlpw2xxs9gz087524",
+    "rev": "810306563e1928855f5cf61f83801544e3eb3788",
+    "sha256": "0hj44flrq4kg926rn8dcw48r30k6xszrmk3isq1kzwsqvazbp15h",
     "type": "tarball",
-    "url": "https://github.com/dedukun/relative-motions.yazi/archive/a1466a90a256a8c1e0754a9a1a02c192a8b82c19.tar.gz",
+    "url": "https://github.com/dedukun/relative-motions.yazi/archive/810306563e1928855f5cf61f83801544e3eb3788.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "rich-preview.yazi": {
@@ -365,10 +365,10 @@
     "homepage": "",
     "owner": "h-hg",
     "repo": "yamb.yazi",
-    "rev": "3f7c51fdccf3345485d54aedfabbca86fc7b0dca",
-    "sha256": "1asmfxmc62vdcp6hmaj81p7fv5q3qzrj8yaqs1gahgma3gxnwazy",
+    "rev": "22af0033be18eead7b04c2768767d38ccfbaa05b",
+    "sha256": "0c0d8nxwllhlxvm0qv52gm2aqmc2qj4iypn60qz0nhn7zvrmkk1l",
     "type": "tarball",
-    "url": "https://github.com/h-hg/yamb.yazi/archive/3f7c51fdccf3345485d54aedfabbca86fc7b0dca.tar.gz",
+    "url": "https://github.com/h-hg/yamb.yazi/archive/22af0033be18eead7b04c2768767d38ccfbaa05b.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "yatline.yazi": {
@@ -377,10 +377,10 @@
     "homepage": "",
     "owner": "imsi32",
     "repo": "yatline.yazi",
-    "rev": "93282055cfb4d74a9bc8e47cf2035ded9b3c5b00",
-    "sha256": "103c3by4j4axpmb3q5zccqpfm1ylbnx97jcavgcbyy889c7isfnm",
+    "rev": "6b0fc1ef5eca034460b4c69cb87c424103227a2e",
+    "sha256": "02cgbmj1wg0303b2lsyajknj7hif3cjrd1wrn2iyp2x6if9j4996",
     "type": "tarball",
-    "url": "https://github.com/imsi32/yatline.yazi/archive/93282055cfb4d74a9bc8e47cf2035ded9b3c5b00.tar.gz",
+    "url": "https://github.com/imsi32/yatline.yazi/archive/6b0fc1ef5eca034460b4c69cb87c424103227a2e.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   }
 }
