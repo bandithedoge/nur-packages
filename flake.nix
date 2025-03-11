@@ -29,9 +29,19 @@
 
         devShells.default = pkgs.mkShell {
           packages = with pkgs;
-          with inputs; [
+          with inputs; let
+            nix-build-uncached = pkgs.nix-build-uncached.overrideAttrs (_: {
+              src = fetchFromGitHub {
+                owner = "bandithedoge";
+                repo = "nix-build-uncached";
+                rev = "249cad9443dba06299bbe8fe35239f5403e8197f";
+                hash = "sha256-XgtrBo1ab2dlrhS0zf3Cu1frNs+IKVnifbp4KQ5xN+4=";
+              };
+            });
+          in [
             mozilla-addons-to-nix.packages.${system}.default
             niv
+            nix-build-uncached
             node2nix
             nvfetcher.packages.${system}.default
           ];
