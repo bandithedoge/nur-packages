@@ -9,7 +9,7 @@ pkgs.stdenv.mkDerivation {
   buildInputs = with pkgs; [
     libGL
     liblo
-    projectm
+    libprojectm
     xorg.libX11
   ];
 
