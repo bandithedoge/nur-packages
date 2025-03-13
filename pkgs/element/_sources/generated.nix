@@ -3,15 +3,13 @@
 {
   clap = {
     pname = "clap";
-    version = "1.2.3";
-    src = fetchgit {
-      url = "https://github.com/free-audio/clap.git";
-      rev = "1.2.3";
+    version = "1.2.6";
+    src = fetchFromGitHub {
+      owner = "free-audio";
+      repo = "clap";
+      rev = "1.2.6";
       fetchSubmodules = false;
-      deepClone = false;
-      leaveDotGit = false;
-      sparseCheckout = [ ];
-      sha256 = "sha256-c8mG6X++13yO+Ggdlw9YOtDes1XaT00C16evv7swsoU=";
+      sha256 = "sha256-QyIuuiwFg5DP2Ao/LOKYiBXxKHQ0FbFhssIIUnEQz+c=";
     };
   };
   clap-helpers = {
