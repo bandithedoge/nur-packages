@@ -1,6 +1,6 @@
 [element]
-src.github = "kushview/element"
-fetch.github = "kushview/element"
+src.git = "https://github.com/kushview/element"
+fetch.git = "https://github.com/kushview/element"
 git.leaveDotGit = true
 
 [juce-element]
@@ -13,11 +13,11 @@ src.git = "https://github.com/lvtk/lvtk.git"
 fetch.git = "https://github.com/lvtk/lvtk.git"
 
 [clap]
-src.manual = "1.2.3"
-fetch.git = "https://github.com/free-audio/clap.git"
+src.github = "free-audio/clap"
+fetch.github = "free-audio/clap"
 
 [clap-helpers]
-src.manual = "78d878cb27d82d204c9483676d6a1f98235e8e77"
+src.git = "https://github.com/mfisher31/clap-helpers"
 fetch.git = "https://github.com/mfisher31/clap-helpers"
 src.branch = "meson-and-host-ext"
 
