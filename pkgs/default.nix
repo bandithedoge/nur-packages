@@ -21,6 +21,7 @@
     audible-planets-bin = callPackage' ./audible-planets-bin;
     basiliskii-bin = callPackage' ./basiliskii-bin;
     bitdos-bin = callPackage' ./bitdos-bin;
+    blender-radeon-prorender = callPackage' ./blender-radeon-prorender;
     blepfx = callPackages' ./blepfx;
     blocks = callPackage' ./blocks;
     cantata = callPackage' ./cantata;
