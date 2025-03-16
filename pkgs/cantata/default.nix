@@ -17,6 +17,8 @@ pkgs.stdenv.mkDerivation {
     avahi
     cdparanoia
     ffmpeg
+    libcdio
+    libcdio-paranoia
     libmtp
     libmusicbrainz5
     mpg123
