@@ -30,6 +30,7 @@
         devShells.default = pkgs.mkShell {
           packages = with pkgs;
           with inputs; let
+            # https://github.com/Mic92/nix-build-uncached/pull/72
             nix-build-uncached = pkgs.nix-build-uncached.overrideAttrs (_: {
               src = fetchFromGitHub {
                 owner = "bandithedoge";
@@ -51,8 +52,10 @@
           projectRootFile = "flake.nix";
           programs = {
             alejandra.enable = true;
+            clang-format.enable = true;
             prettier.enable = true;
             ruff-format.enable = true;
+            shfmt.enable = true;
             taplo.enable = true;
           };
         };

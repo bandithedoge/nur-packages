@@ -14,7 +14,7 @@ pkgs.stdenv.mkDerivation {
 
   buildInputs = with pkgs; [
     mpv
-    taglib
+    taglib_1
   ];
 
   postPatch = ''
