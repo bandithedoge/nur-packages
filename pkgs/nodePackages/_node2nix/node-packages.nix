@@ -27,22 +27,22 @@
         sha512 = "Ed61U6XJc3CVRfkERJWDz4dJwKe7iLmmJsbOGu9wSloNSFttHV0I8g6UAgb7qnK5ly5bGLPd4oXZlxCdANBOWQ==";
       };
     };
-    "@babel/parser-7.26.9" = {
+    "@babel/parser-7.26.10" = {
       name = "_at_babel_slash_parser";
       packageName = "@babel/parser";
-      version = "7.26.9";
+      version = "7.26.10";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/parser/-/parser-7.26.9.tgz";
-        sha512 = "81NWa1njQblgZbQHxWHpxxCzNsa3ZwvFqpUg7P+NNUU6f3UU2jBEg4OlF/J6rl8+PQGh1q6/zWScd001YwcA5A==";
+        url = "https://registry.npmjs.org/@babel/parser/-/parser-7.26.10.tgz";
+        sha512 = "6aQR2zGE/QFi8JpDLjUZEPYOs7+mhKXm86VaKFiLP35JQwQb6bwUE+XbvkH0EptsYhbNBSUGaUBLKqxH1xSgsA==";
       };
     };
-    "@babel/types-7.26.9" = {
+    "@babel/types-7.26.10" = {
       name = "_at_babel_slash_types";
       packageName = "@babel/types";
-      version = "7.26.9";
+      version = "7.26.10";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/types/-/types-7.26.9.tgz";
-        sha512 = "Y3IR1cRnOxOCDvMmNiym7XpXQ93iGDDPHx+Zj+NM+rg0fBaShfQLkg+hKPaZCEvg5N/LeCo4+Rj/i3FuJsIQaw==";
+        url = "https://registry.npmjs.org/@babel/types/-/types-7.26.10.tgz";
+        sha512 = "emqcG3vHrpxUKTrxcblR36dcrcoRDvKmnL/dCL6ZsHaShW80qxCAcNhzQZrpeM765VzEos+xOi4s+r4IXzTwdQ==";
       };
     };
     "@emmetio/abbreviation-2.3.3" = {
@@ -171,13 +171,13 @@
         sha512 = "RMtmw0iFkeR4YV+fUOSucriAQNb9g8zFR52MWCtl+cCZOFRNL6zeB395vPzFhEjjn4fMxXudmELnl/KF/WrK6w==";
       };
     };
-    "consola-3.4.0" = {
+    "consola-3.4.1" = {
       name = "consola";
       packageName = "consola";
-      version = "3.4.0";
+      version = "3.4.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/consola/-/consola-3.4.0.tgz";
-        sha512 = "EiPU8G6dQG0GFHNR8ljnZFki/8a+cQwEQ+7wpxdChl02Q8HXlwEZWD5lqAF8vC2sEC3Tehr8hy7vErz88LHyUA==";
+        url = "https://registry.npmjs.org/consola/-/consola-3.4.1.tgz";
+        sha512 = "zaUUWockhqxFf4bSXS+kTJwxWvAyMuKtShx0BWcGrMEUqbETcBCT91iQs9pECNx7yz8VH4VeWW/1KAbhE8kiww==";
       };
     };
     "defu-6.1.4" = {
@@ -644,10 +644,10 @@ in {
   "@tailwindcss/language-server" = nodeEnv.buildNodePackage {
     name = "_at_tailwindcss_slash_language-server";
     packageName = "@tailwindcss/language-server";
-    version = "0.14.8";
+    version = "0.14.9";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@tailwindcss/language-server/-/language-server-0.14.8.tgz";
-      sha512 = "+4G6qu3DhcimXQLZAboh8vRZzvQtcQzOLaP0iEAQkfH3pu8tBFlg0XXvjSBu8CUMwJJg8aJSN0y83/0FJNUhcA==";
+      url = "https://registry.npmjs.org/@tailwindcss/language-server/-/language-server-0.14.9.tgz";
+      sha512 = "t9tXYWWkLdfd3PrOZD+xF+B2a1tE5GI6VJu5dVw6wI5mSR3gmUPXEx4QF1vd7Ox7/tP+5a3faGhrp0BjCawPtw==";
     };
     buildInputs = globalBuildInputs;
     meta = {
@@ -701,8 +701,8 @@ in {
     dependencies = [
       sources."@babel/helper-string-parser-7.25.9"
       sources."@babel/helper-validator-identifier-7.25.9"
-      sources."@babel/parser-7.26.9"
-      sources."@babel/types-7.26.9"
+      sources."@babel/parser-7.26.10"
+      sources."@babel/types-7.26.10"
       sources."@emmetio/abbreviation-2.3.3"
       sources."@emmetio/css-abbreviation-2.1.8"
       sources."@emmetio/scanner-1.0.4"
@@ -721,7 +721,7 @@ in {
       sources."chownr-2.0.0"
       sources."citty-0.1.6"
       sources."confbox-0.1.8"
-      sources."consola-3.4.0"
+      sources."consola-3.4.1"
       sources."defu-6.1.4"
       sources."destr-2.0.3"
       sources."dotenv-16.4.7"

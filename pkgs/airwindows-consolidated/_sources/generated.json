@@ -1,7 +1,7 @@
 {
   "airwin2rack": {
     "cargoLocks": null,
-    "date": "2025-03-02",
+    "date": "2025-03-16",
     "extract": null,
     "name": "airwin2rack",
     "passthru": null,
@@ -11,17 +11,17 @@
       "fetchSubmodules": true,
       "leaveDotGit": false,
       "name": null,
-      "rev": "99532a6ea2ab918afc5ce5ce8b278eb19955ed58",
-      "sha256": "sha256-Az99JICcKPwT555IyeQssJeWnyR3BeFeTkw9i8QMApc=",
+      "rev": "f2703a84db008925c2264413a68413ff27137c08",
+      "sha256": "sha256-8IGMPjgO3kqnM1geDDTkuMiIijqq3F9rbZelp7rgqlk=",
       "sparseCheckout": [],
       "type": "git",
       "url": "https://github.com/baconpaul/airwin2rack"
     },
-    "version": "99532a6ea2ab918afc5ce5ce8b278eb19955ed58"
+    "version": "f2703a84db008925c2264413a68413ff27137c08"
   },
   "clap-juce-extensions": {
     "cargoLocks": null,
-    "date": "2025-02-10",
+    "date": "2025-03-17",
     "extract": null,
     "name": "clap-juce-extensions",
     "passthru": null,
@@ -31,13 +31,13 @@
       "fetchSubmodules": true,
       "leaveDotGit": false,
       "name": null,
-      "rev": "fd7fe32ad200cc468c11a669380a71209a981c0d",
-      "sha256": "sha256-bTokBY3VsSjVbdETJARtXyztObjKU+rcP7J1JIvBf0o=",
+      "rev": "ea834dfd366ab2103b98e92eaacb581c69fc2e0b",
+      "sha256": "sha256-hbelV7Bo1bKLjanoSHdOPedgNxvI7j2cHXM1bFaywmI=",
       "sparseCheckout": [],
       "type": "git",
       "url": "https://github.com/free-audio/clap-juce-extensions"
     },
-    "version": "fd7fe32ad200cc468c11a669380a71209a981c0d"
+    "version": "ea834dfd366ab2103b98e92eaacb581c69fc2e0b"
   },
   "juce-7_0_12": {
     "cargoLocks": null,

@@ -7,31 +7,31 @@
 }: {
   airwin2rack = {
     pname = "airwin2rack";
-    version = "99532a6ea2ab918afc5ce5ce8b278eb19955ed58";
+    version = "f2703a84db008925c2264413a68413ff27137c08";
     src = fetchgit {
       url = "https://github.com/baconpaul/airwin2rack";
-      rev = "99532a6ea2ab918afc5ce5ce8b278eb19955ed58";
+      rev = "f2703a84db008925c2264413a68413ff27137c08";
       fetchSubmodules = true;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [];
-      sha256 = "sha256-Az99JICcKPwT555IyeQssJeWnyR3BeFeTkw9i8QMApc=";
+      sha256 = "sha256-8IGMPjgO3kqnM1geDDTkuMiIijqq3F9rbZelp7rgqlk=";
     };
-    date = "2025-03-02";
+    date = "2025-03-16";
   };
   clap-juce-extensions = {
     pname = "clap-juce-extensions";
-    version = "fd7fe32ad200cc468c11a669380a71209a981c0d";
+    version = "ea834dfd366ab2103b98e92eaacb581c69fc2e0b";
     src = fetchgit {
       url = "https://github.com/free-audio/clap-juce-extensions";
-      rev = "fd7fe32ad200cc468c11a669380a71209a981c0d";
+      rev = "ea834dfd366ab2103b98e92eaacb581c69fc2e0b";
       fetchSubmodules = true;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [];
-      sha256 = "sha256-bTokBY3VsSjVbdETJARtXyztObjKU+rcP7J1JIvBf0o=";
+      sha256 = "sha256-hbelV7Bo1bKLjanoSHdOPedgNxvI7j2cHXM1bFaywmI=";
     };
-    date = "2025-02-10";
+    date = "2025-03-17";
   };
   juce-7_0_12 = {
     pname = "juce-7_0_12";

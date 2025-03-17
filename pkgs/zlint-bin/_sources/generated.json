@@ -8,11 +8,11 @@
     "pinned": false,
     "src": {
       "name": null,
-      "sha256": "sha256-hAPeTIjLIsWBiIZrrNUeBw4aDZckbG0TWtAtjc2AYow=",
+      "sha256": "sha256-FbUsqXmpHvQYLZ1I+3tbV9Vj9n4bzoDJRQ+FbazaxJU=",
       "type": "url",
-      "url": "https://github.com/DonIsaac/zlint/releases/download/v0.6.4/zlint-macos-aarch64"
+      "url": "https://github.com/DonIsaac/zlint/releases/download/v0.7.2/zlint-macos-aarch64"
     },
-    "version": "v0.6.4"
+    "version": "v0.7.2"
   },
   "zlint-bin-aarch64-linux": {
     "cargoLocks": null,
@@ -23,11 +23,11 @@
     "pinned": false,
     "src": {
       "name": null,
-      "sha256": "sha256-UpEZTcSELFlMWKrjzFSNGkbbdd0i8k9R1WI95dE7cTg=",
+      "sha256": "sha256-MNTLaKVuNjgeLIx3L21vGOupFPfThynSYqQlDLiRrug=",
       "type": "url",
-      "url": "https://github.com/DonIsaac/zlint/releases/download/v0.6.4/zlint-linux-aarch64"
+      "url": "https://github.com/DonIsaac/zlint/releases/download/v0.7.2/zlint-linux-aarch64"
     },
-    "version": "v0.6.4"
+    "version": "v0.7.2"
   },
   "zlint-bin-x86_64-darwin": {
     "cargoLocks": null,
@@ -38,11 +38,11 @@
     "pinned": false,
     "src": {
       "name": null,
-      "sha256": "sha256-yuZt63i20SSQ6HFxC7gDCbb/2+m/jgxYSOGUdOUef5I=",
+      "sha256": "sha256-7jERLz9HGdLmHWEa+kPJIRyWsnb5psRpEPaaL07yI/M=",
       "type": "url",
-      "url": "https://github.com/DonIsaac/zlint/releases/download/v0.6.4/zlint-macos-x86_64"
+      "url": "https://github.com/DonIsaac/zlint/releases/download/v0.7.2/zlint-macos-x86_64"
     },
-    "version": "v0.6.4"
+    "version": "v0.7.2"
   },
   "zlint-bin-x86_64-linux": {
     "cargoLocks": null,
@@ -53,10 +53,10 @@
     "pinned": false,
     "src": {
       "name": null,
-      "sha256": "sha256-MN+JfdiXtpTCHuiASdxVyrSAx3TFdifmeTAyeB2YU2s=",
+      "sha256": "sha256-J6nhhoKBSevVVv/qr5JYS2y3po8Nt5UM5yidIho7j44=",
       "type": "url",
-      "url": "https://github.com/DonIsaac/zlint/releases/download/v0.6.4/zlint-linux-x86_64"
+      "url": "https://github.com/DonIsaac/zlint/releases/download/v0.7.2/zlint-linux-x86_64"
     },
-    "version": "v0.6.4"
+    "version": "v0.7.2"
   }
 }

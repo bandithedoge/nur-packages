@@ -1,17 +1,17 @@
 {
-    "blender-radeon-prorender": {
-        "cargoLocks": null,
-        "date": null,
-        "extract": null,
-        "name": "blender-radeon-prorender",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "name": null,
-            "sha256": "sha256-Tya4xRvSQEsyG0+VXJaDAbvW/444Y57iMiWO/R78S58=",
-            "type": "url",
-            "url": "https://github.com/GPUOpen-LibrariesAndSDKs/RadeonProRenderBlenderAddon/releases/download/v3.6.11/RadeonProRenderForBlender_3.6.11_Ubuntu24-325eb7f-linux.zip"
-        },
-        "version": "v3.6.11/RadeonProRenderForBlender_3.6.11_Ubuntu24-325eb7f"
-    }
+  "blender-radeon-prorender": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "blender-radeon-prorender",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-Tya4xRvSQEsyG0+VXJaDAbvW/444Y57iMiWO/R78S58=",
+      "type": "url",
+      "url": "https://github.com/GPUOpen-LibrariesAndSDKs/RadeonProRenderBlenderAddon/releases/download/v3.6.11/RadeonProRenderForBlender_3.6.11_Ubuntu24-325eb7f-linux.zip"
+    },
+    "version": "v3.6.11/RadeonProRenderForBlender_3.6.11_Ubuntu24-325eb7f"
+  }
 }

@@ -297,10 +297,10 @@
   };
   "csgofloat" = buildFirefoxXpiAddon {
     pname = "csgofloat";
-    version = "3.3.1";
+    version = "5.3.0";
     addonId = "{194d0dc6-7ada-41c6-88b8-95d7636fe43c}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4259722/csgofloat-3.3.1.xpi";
-    sha256 = "24a903e27d9e137e8eb87ec83f8df0f26ed8c902c50c775d6c1b219dab9c1011";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4441910/csgofloat-5.3.0.xpi";
+    sha256 = "63cad284426e1b23085d3386700e5043edcf05c017343da5e87ef0ef29972625";
     meta = with lib; {
       homepage = "https://csgofloat.com";
       description = "Shows the float value, paint seed, and screenshots of Counter-Strike (CS:GO &amp; CS2) items on the Steam Market or Inventories";
@@ -308,12 +308,17 @@
       mozPermissions = [
         "storage"
         "scripting"
+        "alarms"
+        "declarativeNetRequestWithHostAccess"
         "*://*.steamcommunity.com/market/listings/730/*"
         "*://*.steamcommunity.com/id/*/tradehistory*"
         "*://*.steamcommunity.com/profiles/*/tradehistory*"
         "*://*.steamcommunity.com/id/*/inventory*"
         "*://*.steamcommunity.com/profiles/*/inventory*"
         "*://*.steamcommunity.com/tradeoffer/*"
+        "*://*.steamcommunity.com/*/tradeoffers/*"
+        "*://*.steamcommunity.com/id/*"
+        "*://*.steamcommunity.com/profiles/*"
         "*://*.csfloat.com/*"
       ];
       platforms = platforms.all;
@@ -854,10 +859,10 @@
   };
   "privacy-badger" = buildFirefoxXpiAddon {
     pname = "privacy-badger";
-    version = "2025.1.29";
+    version = "2025.3.3";
     addonId = "jid1-MnnxcxisBPnSXQ@jetpack";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4427769/privacy_badger17-2025.1.29.xpi";
-    sha256 = "90fa36acb983b2bb5420d5edc13c6e494c645eba9f7b910e901eaa2dc6d2d860";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4447530/privacy_badger17-2025.3.3.xpi";
+    sha256 = "7acf878b3cd4a3b5ca7c98cbe3e31630bc6a048156db03bf2021795cce68ba97";
     meta = with lib; {
       homepage = "https://privacybadger.org/";
       description = "Automatically learns to block invisible trackers.";
@@ -1450,10 +1455,10 @@
   };
   "sponsorblock" = buildFirefoxXpiAddon {
     pname = "sponsorblock";
-    version = "5.11.5";
+    version = "5.11.8";
     addonId = "sponsorBlocker@ajay.app";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4424639/sponsorblock-5.11.5.xpi";
-    sha256 = "4cb3a7061dbeb9869477fb2f991d39ccaf650941f83abe1e0c65511e971cb555";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4451103/sponsorblock-5.11.8.xpi";
+    sha256 = "0706b77d29ce0517c046f55427510b3718f2efef36bb7c7953387089629f7ac0";
     meta = with lib; {
       homepage = "https://sponsor.ajay.app";
       description = "Easily skip YouTube video sponsors. When you visit a YouTube video, the extension will check the database for reported sponsors and automatically skip known sponsors. You can also report sponsors in videos. Other browsers: https://sponsor.ajay.app";

@@ -13,11 +13,11 @@
       "name": null,
       "owner": "tiagolr",
       "repo": "ripplerx",
-      "rev": "v1.4.2",
-      "sha256": "sha256-nfVW4SpUrUnRKVnaB56TXa1Z1LOIIsDPgrBOUSRfMzk=",
+      "rev": "v1.4.3",
+      "sha256": "sha256-frbTQc7KfrihUSq5Hx/pU73FnJfVBy4J9Ob1nbzj3s0=",
       "sparseCheckout": [],
       "type": "github"
     },
-    "version": "v1.4.2"
+    "version": "v1.4.3"
   }
 }
