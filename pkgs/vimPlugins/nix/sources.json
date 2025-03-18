@@ -1550,10 +1550,10 @@
     "homepage": "",
     "owner": "nvim-orgmode",
     "repo": "orgmode",
-    "rev": "abf8890a9b0612c51d738268c759c4331bc2109c",
-    "sha256": "0j4f2y47s5ymii1w0r9gk39z4vks5fc9cy0rvj1vzml4vf4wijsi",
+    "rev": "5d7c03af47b41604e75ff701ac1c36d30f653482",
+    "sha256": "140axp9m72ng3pzhhbnnvvdb55gq4bk1vqahpvp8i6caiy75z2f7",
     "type": "tarball",
-    "url": "https://github.com/nvim-orgmode/orgmode/archive/abf8890a9b0612c51d738268c759c4331bc2109c.tar.gz",
+    "url": "https://github.com/nvim-orgmode/orgmode/archive/5d7c03af47b41604e75ff701ac1c36d30f653482.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "package-info.nvim": {
@@ -1667,10 +1667,10 @@
     "homepage": "",
     "owner": "winston0410",
     "repo": "range-highlight.nvim",
-    "rev": "46f69cf180092fb415a9d8f025ab02bf82d058e0",
-    "sha256": "18sra90qrv7ivmw7wxnp5ci3g0y0n98kqixg8yvwwc33dp5kgnjl",
+    "rev": "4618eb7420bf8403c8039d8d2d263421d3531170",
+    "sha256": "09c2rcwky9p5v44fxf6p8lqzzf4nsa618vgqmaalwi6sc8y2r9yy",
     "type": "tarball",
-    "url": "https://github.com/winston0410/range-highlight.nvim/archive/46f69cf180092fb415a9d8f025ab02bf82d058e0.tar.gz",
+    "url": "https://github.com/winston0410/range-highlight.nvim/archive/4618eb7420bf8403c8039d8d2d263421d3531170.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "rasi.vim": {
