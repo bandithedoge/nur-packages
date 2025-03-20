@@ -6,6 +6,7 @@
 }:
 pkgs.stdenv.mkDerivation {
   inherit (sources.maim-bin) pname version src;
+  sourceRoot = ".";
 
   nativeBuildInputs = with pkgs; [
     autoPatchelfHook
@@ -17,8 +18,9 @@ pkgs.stdenv.mkDerivation {
   buildPhase = ''
     runHook preBuild
 
-    mkdir -p $out/lib/vst3
-    cp -r Maim.vst3 $out/lib/vst3
+    mkdir -p $out/{bin,lib/vst3}
+    cp Standalone/Maim $out/bin
+    cp -r VST3/Maim.vst3 $out/lib/vst3
 
     runHook postBuild
   '';
