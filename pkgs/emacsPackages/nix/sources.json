@@ -17,10 +17,10 @@
     "homepage": "",
     "owner": "fargiolas",
     "repo": "eglot-inactive-regions",
-    "rev": "13cef75886a18d656ad79bf042ba3ffcd4aa37ad",
-    "sha256": "09l07wjn044g7l5rn3fgyjq7k1620j6c3i6jywx746im8i0q2mpx",
+    "rev": "7a274c128788cb3b1b5033d82aa1c1b196d7a277",
+    "sha256": "1m14j99s1snilla90cnjpzzq1m2npmh15gd31v20c9b4idl9v37x",
     "type": "tarball",
-    "url": "https://github.com/fargiolas/eglot-inactive-regions/archive/13cef75886a18d656ad79bf042ba3ffcd4aa37ad.tar.gz",
+    "url": "https://github.com/fargiolas/eglot-inactive-regions/archive/7a274c128788cb3b1b5033d82aa1c1b196d7a277.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "eglot-ltex": {

@@ -173,12 +173,12 @@
       "name": null,
       "owner": "nim-lang",
       "repo": "langserver",
-      "rev": "v1.8.1",
-      "sha256": "sha256-j5YnTGPtt0WhRvNfpgO9tjAqZJA5Kt1FE1Mjqn0/DNY=",
+      "rev": "v1.10.0",
+      "sha256": "sha256-KApIzGknWDb7UJkzii9rGOING4G8D31zUoWvMH4iw4A=",
       "sparseCheckout": [],
       "type": "github"
     },
-    "version": "v1.8.1"
+    "version": "v1.10.0"
   },
   "regex": {
     "cargoLocks": null,

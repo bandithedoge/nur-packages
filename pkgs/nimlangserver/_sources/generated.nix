@@ -119,13 +119,13 @@
   };
   nimlangserver = {
     pname = "nimlangserver";
-    version = "v1.8.1";
+    version = "v1.10.0";
     src = fetchFromGitHub {
       owner = "nim-lang";
       repo = "langserver";
-      rev = "v1.8.1";
+      rev = "v1.10.0";
       fetchSubmodules = false;
-      sha256 = "sha256-j5YnTGPtt0WhRvNfpgO9tjAqZJA5Kt1FE1Mjqn0/DNY=";
+      sha256 = "sha256-KApIzGknWDb7UJkzii9rGOING4G8D31zUoWvMH4iw4A=";
     };
   };
   regex = {

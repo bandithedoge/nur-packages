@@ -432,13 +432,13 @@
         sha512 = "NxNv/kLguCA7p3jE8oL2aEBsrJWgAakBpgmgK6lpPWV+WuOmY6r2/zbAVnP+T8bQlA0nzHXSJSJW0Hq7ylaD2Q==";
       };
     };
-    "quansync-0.2.8" = {
+    "quansync-0.2.10" = {
       name = "quansync";
       packageName = "quansync";
-      version = "0.2.8";
+      version = "0.2.10";
       src = fetchurl {
-        url = "https://registry.npmjs.org/quansync/-/quansync-0.2.8.tgz";
-        sha512 = "4+saucphJMazjt7iOM27mbFCk+D9dd/zmgMDCzRZ8MEoBfYp7lAvoN38et/phRQF6wOPMy/OROBGgoWeSKyluA==";
+        url = "https://registry.npmjs.org/quansync/-/quansync-0.2.10.tgz";
+        sha512 = "t41VRkMYbkHyCYmOvx/6URnN80H7k4X0lLdBMGsz+maAwrJQYB1djpV6vHrQIBE0WBSGqhtEHrK9U3DWWH8v7A==";
       };
     };
     "rc9-2.1.2" = {
@@ -758,7 +758,7 @@ in {
       sources."picomatch-4.0.2"
       sources."pkg-types-1.3.1"
       sources."prompts-2.4.2"
-      sources."quansync-0.2.8"
+      sources."quansync-0.2.10"
       sources."rc9-2.1.2"
       sources."readdirp-4.1.2"
       sources."semver-7.7.1"
