@@ -29,10 +29,10 @@
     "homepage": "",
     "owner": "hankertrix",
     "repo": "augment-command.yazi",
-    "rev": "e4b222563e2d4953f13bfca345e179d56ade5274",
-    "sha256": "1b90cg9cddj4mm35yskgib7h7m67s9d2c44hyfr3zi8xdqsm4yl9",
+    "rev": "926b1d12f72e4be97fef0228ae228b5c2c2a354f",
+    "sha256": "0l7sahwbsk38xcaykanhw6k91mwjka0inn3f86pav995za6h8zgk",
     "type": "tarball",
-    "url": "https://github.com/hankertrix/augment-command.yazi/archive/e4b222563e2d4953f13bfca345e179d56ade5274.tar.gz",
+    "url": "https://github.com/hankertrix/augment-command.yazi/archive/926b1d12f72e4be97fef0228ae228b5c2c2a354f.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "bookmarks.yazi": {
