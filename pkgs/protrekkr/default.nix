@@ -14,6 +14,7 @@ pkgs.stdenv.mkDerivation {
 
   buildInputs = with pkgs; [
     SDL
+    alsa-lib
     jack1
   ];
 
