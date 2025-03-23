@@ -74,6 +74,7 @@
     modstems = callPackage' ./modstems;
     molot-lite = callPackage' ./molot-lite;
     monique = callPackage' ./monique;
+    morewaita = callPackage' ./morewaita;
     musique = callPackage' ./musique;
     mxtune-bin = callPackage' ./mxtune-bin;
     nimlangserver = callPackage' ./nimlangserver;
