@@ -329,10 +329,10 @@
     "homepage": "",
     "owner": "ms-jpq",
     "repo": "coq_nvim",
-    "rev": "e48a17c63029ef9ac72af80a7a3a56577acffb00",
-    "sha256": "1g1alqkxf1nh794hwx560mfif9g6i9x3pipc948hnwx2rlcywyx1",
+    "rev": "d83bc18d044cfcd65e91dc49740a353546bc143b",
+    "sha256": "0nc2qcwh0xz4lwp4q1h7633qpb3v2gpr1kklwsa12w3x6lp3jk8j",
     "type": "tarball",
-    "url": "https://github.com/ms-jpq/coq_nvim/archive/e48a17c63029ef9ac72af80a7a3a56577acffb00.tar.gz",
+    "url": "https://github.com/ms-jpq/coq_nvim/archive/d83bc18d044cfcd65e91dc49740a353546bc143b.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "crates.nvim": {
@@ -773,10 +773,10 @@
     "homepage": "",
     "owner": "smjonas",
     "repo": "inc-rename.nvim",
-    "rev": "f9b9e5b9a75074810f40881b7e254b5bbeaf122e",
-    "sha256": "0ply4qyly1hsiv75y71i3scnav5z8gxjsh34nspmpk0lcldrhxpd",
+    "rev": "87ebe7bee0b83d3b6e4f1494c74abed21b318175",
+    "sha256": "1cra8zz7a1c0w1d7bwvznqlrmjgzc3nap7762qz5mghi3z1yfgak",
     "type": "tarball",
-    "url": "https://github.com/smjonas/inc-rename.nvim/archive/f9b9e5b9a75074810f40881b7e254b5bbeaf122e.tar.gz",
+    "url": "https://github.com/smjonas/inc-rename.nvim/archive/87ebe7bee0b83d3b6e4f1494c74abed21b318175.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "incline.nvim": {
@@ -1010,10 +1010,10 @@
     "homepage": "",
     "owner": "folke",
     "repo": "neoconf.nvim",
-    "rev": "367600076c04a8f6b8060f61de57299c8ff0a9c3",
-    "sha256": "08c0wchdmr0cg2ix42v7n2kcr6qyn9546x089rp7n83y2ml6p3zv",
+    "rev": "221bf6a23b457b5bb74174d8ad40b7a5262d4e6a",
+    "sha256": "1ssayz6d1zmmw2r28m899cmkhgnw28cf5wdaj1w98kpissjw5d62",
     "type": "tarball",
-    "url": "https://github.com/folke/neoconf.nvim/archive/367600076c04a8f6b8060f61de57299c8ff0a9c3.tar.gz",
+    "url": "https://github.com/folke/neoconf.nvim/archive/221bf6a23b457b5bb74174d8ad40b7a5262d4e6a.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "neodev.nvim": {
