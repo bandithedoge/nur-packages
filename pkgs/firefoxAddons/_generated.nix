@@ -1360,10 +1360,10 @@
   };
   "search_by_image" = buildFirefoxXpiAddon {
     pname = "search_by_image";
-    version = "8.1.1";
+    version = "8.1.2";
     addonId = "{2e5ff8c8-32fe-46d0-9fc8-6b8986621f3c}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4440660/search_by_image-8.1.1.xpi";
-    sha256 = "b90348e1f4bcced27e47719a142aba48cc58e252d621fa755cf3d706d960d648";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4456583/search_by_image-8.1.2.xpi";
+    sha256 = "eb9a77fbe69eb9483dff8e43a377d75733e11c60c6279e9b4012e355054e2daa";
     meta = with lib; {
       homepage = "https://github.com/dessant/search-by-image#readme";
       description = "A powerful reverse image search tool, with support for various search engines, such as Google, Bing, Yandex, Baidu and TinEye.";
@@ -1475,10 +1475,10 @@
   };
   "steam-database" = buildFirefoxXpiAddon {
     pname = "steam-database";
-    version = "4.13";
+    version = "4.14";
     addonId = "firefox-extension@steamdb.info";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4427679/steam_database-4.13.xpi";
-    sha256 = "b57368ba644d93f485ad53c3982e3999b6e2cb3bf9470f03ff50678842b2d0bb";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4452961/steam_database-4.14.xpi";
+    sha256 = "1d0698f3d215218c2c0783d72e381e4041ba6f482014f3c166f4a25dc03cfd10";
     meta = with lib; {
       homepage = "https://steamdb.info/";
       description = "Adds SteamDB links and new features on the Steam store and community. View lowest game prices and stats.";
@@ -1530,10 +1530,10 @@
   };
   "stylus" = buildFirefoxXpiAddon {
     pname = "stylus";
-    version = "2.3.13";
+    version = "2.3.14";
     addonId = "{7a7a4a92-a2a0-41d1-9fd7-1e92480d612d}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4439124/styl_us-2.3.13.xpi";
-    sha256 = "e4ea2c09079db3d178b1d5f76e687534d2e35888f36bc2742767e6a63f161320";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4451438/styl_us-2.3.14.xpi";
+    sha256 = "02861b4256d7001a091ce1fbeaaf5ddcf670c3df9db55be3af2bd703a11315d8";
     meta = with lib; {
       homepage = "https://add0n.com/stylus.html";
       description = "Redesign your favorite websites with Stylus, an actively developed and community driven userstyles manager. Easily install custom themes from popular online repositories, or create, edit, and manage your own personalized CSS stylesheets.";
@@ -1560,7 +1560,7 @@
     url = "https://addons.mozilla.org/firefox/downloads/file/3829515/tabcenter_reborn-2.3.1.xpi";
     sha256 = "d31c693c896045d4326c7e9e0152830820009bd60f62b36043bb322cab713f34";
     meta = with lib; {
-      homepage = "https://framagit.org/ariasuni/tabcenter-reborn";
+      homepage = "https://codeberg.org/ariasuni";
       description = "Simple and powerful vertical tab bar";
       license = licenses.mpl20;
       mozPermissions = [
@@ -1584,10 +1584,10 @@
   };
   "tree-style-tab" = buildFirefoxXpiAddon {
     pname = "tree-style-tab";
-    version = "4.1.3";
+    version = "4.1.4";
     addonId = "treestyletab@piro.sakura.ne.jp";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4420652/tree_style_tab-4.1.3.xpi";
-    sha256 = "73e3cde7399ba81c21a0cb08858a92b26e5d8dfe12d84dd4dc83493bba75f804";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4453677/tree_style_tab-4.1.4.xpi";
+    sha256 = "ae3f8284abbed6ac78375efe00ff083c6d45ee72d69415192d55d472f64bb940";
     meta = with lib; {
       homepage = "http://piro.sakura.ne.jp/xul/_treestyletab.html.en";
       description = "Show tabs like a tree.";
@@ -1647,10 +1647,10 @@
   };
   "ublock-origin" = buildFirefoxXpiAddon {
     pname = "ublock-origin";
-    version = "1.63.0";
+    version = "1.63.2";
     addonId = "uBlock0@raymondhill.net";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4456610/ublock_origin-1.63.0.xpi";
-    sha256 = "8a208284b53565957c878a93b717b46ea0d079cb097214062b76bb96dc18a0f4";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4458450/ublock_origin-1.63.2.xpi";
+    sha256 = "d93176cef4dc042e41ba500aa2a90e5d57b5be77449cbd522111585e3a0cd158";
     meta = with lib; {
       homepage = "https://github.com/gorhill/uBlock#ublock-origin";
       description = "Finally, an efficient wide-spectrum content blocker. Easy on CPU and memory.";
