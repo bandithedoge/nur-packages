@@ -3,9 +3,8 @@
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
     flake-parts.url = "github:hercules-ci/flake-parts";
     treefmt-nix.url = "github:numtide/treefmt-nix";
-    flake-compat.url = "github:edolstra/flake-compat";
+    flake-utils.url = "github:numtide/flake-utils";
 
-    nvfetcher.url = "github:berberman/nvfetcher";
     mozilla-addons-to-nix.url = "sourcehut:~rycee/mozilla-addons-to-nix";
   };
   outputs = inputs @ {flake-parts, ...}:
@@ -25,26 +24,30 @@
           config.allowUnfree = true;
         };
 
-        legacyPackages = import ./default.nix {inherit pkgs;};
+        legacyPackages = let
+          packages = import ./default.nix {inherit pkgs;};
+          all = pkgs.lib.recurseIntoAttrs (inputs.flake-utils.lib.flattenTree packages);
+          buildable = pkgs.lib.filterAttrs (_: p: !(p.meta.broken or false)) all;
+          cacheable = pkgs.lib.filterAttrs (_: p:
+            (p.meta.license.free or true)
+            && !(p.preferLocalBuild or false)
+            && !(pkgs.lib.any (prov: !prov.isSource) (p.meta.sourceProvenance or [])))
+          buildable;
+        in
+          packages
+          // {
+            _BUILDABLE = buildable;
+            _CACHEABLE = cacheable;
+          };
 
         devShells.default = pkgs.mkShell {
           packages = with pkgs;
-          with inputs; let
-            # https://github.com/Mic92/nix-build-uncached/pull/72
-            nix-build-uncached = pkgs.nix-build-uncached.overrideAttrs (_: {
-              src = fetchFromGitHub {
-                owner = "bandithedoge";
-                repo = "nix-build-uncached";
-                rev = "249cad9443dba06299bbe8fe35239f5403e8197f";
-                hash = "sha256-XgtrBo1ab2dlrhS0zf3Cu1frNs+IKVnifbp4KQ5xN+4=";
-              };
-            });
-          in [
+          with inputs; [
             mozilla-addons-to-nix.packages.${system}.default
             niv
-            nix-build-uncached
             node2nix
-            nvfetcher.packages.${system}.default
+            nvfetcher
+            nix-fast-build
           ];
         };
 

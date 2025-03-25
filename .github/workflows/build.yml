@@ -26,19 +26,14 @@ jobs:
         uses: DeterminateSystems/nix-installer-action@main
         with:
           source-url: https://install.lix.systems/lix/lix-installer-x86_64-linux
+          extra-conf: |
+            extra-substituters = https://bandithedoge.cachix.org
+            extra-trusted-public-keys = bandithedoge.cachix.org-1:ZtcHw1anyEa4t6H8m3o/ctYFrwYFPAwoENSvofamE6g=
 
       - name: Show nixpkgs version
         run: |
           nix --version
           nix-instantiate --eval -E '(import <nixpkgs> {}).lib.version'
-
-      - name: Setup cachix
-        uses: cachix/cachix-action@v16
-        with:
-          name: bandithedoge
-          signingKey: ${{ secrets.CACHIX_SIGNING_KEY }}
-          authToken: ${{ secrets.CACHIX_AUTH_TOKEN }}
-          extraPullNames: berberman
 
       - name: Update sources
         env:
@@ -63,7 +58,11 @@ jobs:
             -I "$PWD"
 
       - name: Build nix packages
-        run: nix develop -c nix-build-uncached -build-flags '--show-trace' ci.nix -A cacheOutputs
+        run: |
+          nix develop -c nix-fast-build -f .#legacyPackages.x86_64-linux._CACHEABLE --skip-cached --cachix-cache bandithedoge
+          nix develop -c nix-fast-build -f .#legacyPackages.x86_64-linux._BUILDABLE --skip-cached
+        env:
+          CACHIX_AUTH_TOKEN: ${{ secrets.CACHIX_AUTH_TOKEN }}
 
       - name: Trigger NUR update
         run: curl -XPOST "https://nur-update.nix-community.org/update?repo=bandithedoge"
