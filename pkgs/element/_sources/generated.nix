@@ -18,31 +18,31 @@
   };
   clap-helpers = {
     pname = "clap-helpers";
-    version = "f0d528c5599705989fc7f8085f37ae67ee4d4129";
+    version = "9293c3012b025c9badcc37a13d5074d260154b14";
     src = fetchgit {
       url = "https://github.com/mfisher31/clap-helpers";
-      rev = "f0d528c5599705989fc7f8085f37ae67ee4d4129";
+      rev = "9293c3012b025c9badcc37a13d5074d260154b14";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [];
-      sha256 = "sha256-CWP1fP7fLjqb/RgiO+Bur9qm4rRDJMd757Qtjo2yubc=";
+      sha256 = "sha256-TsY84NepZVBSf48jWR01YQymepPKI6CprSHK74DGc70=";
     };
-    date = "2025-03-07";
+    date = "2025-03-24";
   };
   element = {
     pname = "element";
-    version = "5e06f8cf03f8de99251cdd4a560ab86528a1051d";
+    version = "4d3d97114680a3312f1eddcf39b68e0ddcbdf845";
     src = fetchgit {
       url = "https://github.com/kushview/element";
-      rev = "5e06f8cf03f8de99251cdd4a560ab86528a1051d";
+      rev = "4d3d97114680a3312f1eddcf39b68e0ddcbdf845";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = true;
       sparseCheckout = [];
-      sha256 = "sha256-WEsE9dWGXqOImRvNPew0fY4BPlQ1psv1KD//6QrSovM=";
+      sha256 = "sha256-HbOph2HHEdjiVwkpImbceqcK3kbw7ZBjEbIYEzq1jPQ=";
     };
-    date = "2025-03-17";
+    date = "2025-03-24";
   };
   juce-element = {
     pname = "juce-element";

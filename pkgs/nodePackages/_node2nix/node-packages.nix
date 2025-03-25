@@ -27,22 +27,22 @@
         sha512 = "Ed61U6XJc3CVRfkERJWDz4dJwKe7iLmmJsbOGu9wSloNSFttHV0I8g6UAgb7qnK5ly5bGLPd4oXZlxCdANBOWQ==";
       };
     };
-    "@babel/parser-7.26.10" = {
+    "@babel/parser-7.27.0" = {
       name = "_at_babel_slash_parser";
       packageName = "@babel/parser";
-      version = "7.26.10";
+      version = "7.27.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/parser/-/parser-7.26.10.tgz";
-        sha512 = "6aQR2zGE/QFi8JpDLjUZEPYOs7+mhKXm86VaKFiLP35JQwQb6bwUE+XbvkH0EptsYhbNBSUGaUBLKqxH1xSgsA==";
+        url = "https://registry.npmjs.org/@babel/parser/-/parser-7.27.0.tgz";
+        sha512 = "iaepho73/2Pz7w2eMS0Q5f83+0RKI7i4xmiYeBmDzfRVbQtTOG7Ts0S4HzJVsTMGI9keU8rNfuZr8DKfSt7Yyg==";
       };
     };
-    "@babel/types-7.26.10" = {
+    "@babel/types-7.27.0" = {
       name = "_at_babel_slash_types";
       packageName = "@babel/types";
-      version = "7.26.10";
+      version = "7.27.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/types/-/types-7.26.10.tgz";
-        sha512 = "emqcG3vHrpxUKTrxcblR36dcrcoRDvKmnL/dCL6ZsHaShW80qxCAcNhzQZrpeM765VzEos+xOi4s+r4IXzTwdQ==";
+        url = "https://registry.npmjs.org/@babel/types/-/types-7.27.0.tgz";
+        sha512 = "H45s8fVLYjbhFH62dIJ3WtmJ6RSPt/3DRO0ZcT2SUiYiQyz3BLVb9ADEnLl91m74aQPS3AzzeajZHYOalWe3bg==";
       };
     };
     "@emmetio/abbreviation-2.3.3" = {
@@ -701,8 +701,8 @@ in {
     dependencies = [
       sources."@babel/helper-string-parser-7.25.9"
       sources."@babel/helper-validator-identifier-7.25.9"
-      sources."@babel/parser-7.26.10"
-      sources."@babel/types-7.26.10"
+      sources."@babel/parser-7.27.0"
+      sources."@babel/types-7.27.0"
       sources."@emmetio/abbreviation-2.3.3"
       sources."@emmetio/css-abbreviation-2.1.8"
       sources."@emmetio/scanner-1.0.4"

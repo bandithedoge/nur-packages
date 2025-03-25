@@ -22,7 +22,7 @@
   },
   "clap-helpers": {
     "cargoLocks": null,
-    "date": "2025-03-07",
+    "date": "2025-03-24",
     "extract": null,
     "name": "clap-helpers",
     "passthru": null,
@@ -32,17 +32,17 @@
       "fetchSubmodules": false,
       "leaveDotGit": false,
       "name": null,
-      "rev": "f0d528c5599705989fc7f8085f37ae67ee4d4129",
-      "sha256": "sha256-CWP1fP7fLjqb/RgiO+Bur9qm4rRDJMd757Qtjo2yubc=",
+      "rev": "9293c3012b025c9badcc37a13d5074d260154b14",
+      "sha256": "sha256-TsY84NepZVBSf48jWR01YQymepPKI6CprSHK74DGc70=",
       "sparseCheckout": [],
       "type": "git",
       "url": "https://github.com/mfisher31/clap-helpers"
     },
-    "version": "f0d528c5599705989fc7f8085f37ae67ee4d4129"
+    "version": "9293c3012b025c9badcc37a13d5074d260154b14"
   },
   "element": {
     "cargoLocks": null,
-    "date": "2025-03-17",
+    "date": "2025-03-24",
     "extract": null,
     "name": "element",
     "passthru": null,
@@ -52,13 +52,13 @@
       "fetchSubmodules": false,
       "leaveDotGit": true,
       "name": null,
-      "rev": "5e06f8cf03f8de99251cdd4a560ab86528a1051d",
-      "sha256": "sha256-WEsE9dWGXqOImRvNPew0fY4BPlQ1psv1KD//6QrSovM=",
+      "rev": "4d3d97114680a3312f1eddcf39b68e0ddcbdf845",
+      "sha256": "sha256-HbOph2HHEdjiVwkpImbceqcK3kbw7ZBjEbIYEzq1jPQ=",
       "sparseCheckout": [],
       "type": "git",
       "url": "https://github.com/kushview/element"
     },
-    "version": "5e06f8cf03f8de99251cdd4a560ab86528a1051d"
+    "version": "4d3d97114680a3312f1eddcf39b68e0ddcbdf845"
   },
   "juce-element": {
     "cargoLocks": null,
