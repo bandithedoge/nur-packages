@@ -19,7 +19,7 @@ fetch.github = "free-audio/clap"
 [clap-helpers]
 src.git = "https://github.com/mfisher31/clap-helpers"
 fetch.git = "https://github.com/mfisher31/clap-helpers"
-src.branch = "meson-and-host-ext"
+src.branch = "meson"
 
 [lvtk-host]
 src.git = "https://github.com/lvtk/lvtk-host.git"
