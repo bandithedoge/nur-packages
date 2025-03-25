@@ -59,8 +59,8 @@ jobs:
 
       - name: Build nix packages
         run: |
-          nix develop -c nix-fast-build -f .#legacyPackages.x86_64-linux._CACHEABLE --skip-cached --cachix-cache bandithedoge
-          nix develop -c nix-fast-build -f .#legacyPackages.x86_64-linux._BUILDABLE --skip-cached
+          nix develop -c nix-fast-build -f .#legacyPackages.x86_64-linux._CACHEABLE --no-nom --skip-cached --cachix-cache bandithedoge
+          nix develop -c nix-fast-build -f .#legacyPackages.x86_64-linux._BUILDABLE --no-nom --skip-cached
         env:
           CACHIX_AUTH_TOKEN: ${{ secrets.CACHIX_AUTH_TOKEN }}
 
