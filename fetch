@@ -2,7 +2,9 @@
 
 fetch() {
     test -f keyfile.toml && keyfile="-k keyfile.toml"
-    nvfetcher $keyfile -c "$1/nvfetcher.toml" -o "$1"/_sources -t || exit 1
+    if $2; then commit="--commit-changes"; fi
+    # shellcheck disable=2086
+    nvfetcher $keyfile -c "$1/nvfetcher.toml" -o "$1"/_sources -t --commit-changes || exit 1
 }
 
 fetch_vim() {
@@ -19,7 +21,7 @@ fetch_emacs() {
 }
 
 fetch_node() {
-    cd pkgs/nodePackages/_node2nix || exit 
+    cd pkgs/nodePackages/_node2nix || exit
     node2nix -i node-packages.json || exit 1
     cd ../../..
 }
@@ -42,10 +44,11 @@ fetch_yazi() {
     cd ../..
 }
 
-if [ "$#" -eq 0 ]; then
+if [ "$#" -eq 0 ] || [ "$1" = "--commit" ]; then
     pkgs=$(find . -name nvfetcher.toml)
     for pkg in ${pkgs}; do
-        fetch "$(dirname "$pkg")"
+        # shellcheck disable=2046
+        fetch "$(dirname "$pkg")" $([ "$1" = "--commit" ])
     done
     fetch_vim
     fetch_emacs
