@@ -35,6 +35,9 @@ jobs:
           nix --version
           nix-instantiate --eval -E '(import <nixpkgs> {}).lib.version'
 
+      - name: Setup Git user
+        uses: fregante/setup-git-user@v2.0.2
+
       - name: Update sources
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
