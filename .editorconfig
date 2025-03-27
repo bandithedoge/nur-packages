@@ -4,3 +4,6 @@ tab_width = 2
 end_of_line = lf
 trim_trailing_whitespace = false
 insert_final_newline = true
+
+[*.sh]
+tab_width = 2

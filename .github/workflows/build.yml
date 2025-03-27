@@ -42,7 +42,7 @@ jobs:
           nix flake update
           echo -e '[keys]\ngithub = "${{ secrets.GITHUB_TOKEN }}"' > keyfile.toml
           chmod +x fetch
-          nix develop -c ./fetch --commit
+          nix develop -c ./fetch.sh --commit
           rm keyfile.toml
           git add -A
 
