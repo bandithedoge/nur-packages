@@ -26,9 +26,14 @@ jobs:
         uses: DeterminateSystems/nix-installer-action@main
         with:
           source-url: https://install.lix.systems/lix/lix-installer-x86_64-linux
-          extra-conf: |
-            extra-substituters = https://bandithedoge.cachix.org
-            extra-trusted-public-keys = bandithedoge.cachix.org-1:ZtcHw1anyEa4t6H8m3o/ctYFrwYFPAwoENSvofamE6g=
+
+      - name: Setup binary cache
+        uses: cachix/install-nix-action@v25
+        with:
+          name: bandithedoge
+          authToken: "${{ secrets.CACHIX_AUTH_TOKEN }}"
+          skipPush: true
+          useDaemon: false
 
       - name: Show nixpkgs version
         run: |
