@@ -1,62 +1,62 @@
 {
-  "zlint-bin-aarch64-darwin": {
-    "cargoLocks": null,
-    "date": null,
-    "extract": null,
-    "name": "zlint-bin-aarch64-darwin",
-    "passthru": null,
-    "pinned": false,
-    "src": {
-      "name": null,
-      "sha256": "sha256-FbUsqXmpHvQYLZ1I+3tbV9Vj9n4bzoDJRQ+FbazaxJU=",
-      "type": "url",
-      "url": "https://github.com/DonIsaac/zlint/releases/download/v0.7.2/zlint-macos-aarch64"
+    "zlint-bin-aarch64-darwin": {
+        "cargoLocks": null,
+        "date": null,
+        "extract": null,
+        "name": "zlint-bin-aarch64-darwin",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-iefdA/3Sn/kf4I0n+za8Ad6vGrvx/d1D7erZmoGfyc8=",
+            "type": "url",
+            "url": "https://github.com/DonIsaac/zlint/releases/download/v0.7.3/zlint-macos-aarch64"
+        },
+        "version": "v0.7.3"
     },
-    "version": "v0.7.2"
-  },
-  "zlint-bin-aarch64-linux": {
-    "cargoLocks": null,
-    "date": null,
-    "extract": null,
-    "name": "zlint-bin-aarch64-linux",
-    "passthru": null,
-    "pinned": false,
-    "src": {
-      "name": null,
-      "sha256": "sha256-MNTLaKVuNjgeLIx3L21vGOupFPfThynSYqQlDLiRrug=",
-      "type": "url",
-      "url": "https://github.com/DonIsaac/zlint/releases/download/v0.7.2/zlint-linux-aarch64"
+    "zlint-bin-aarch64-linux": {
+        "cargoLocks": null,
+        "date": null,
+        "extract": null,
+        "name": "zlint-bin-aarch64-linux",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-G17LGObH3SWCT67bhpGghIdSSK6lUaK1Wxa4psst5Vw=",
+            "type": "url",
+            "url": "https://github.com/DonIsaac/zlint/releases/download/v0.7.3/zlint-linux-aarch64"
+        },
+        "version": "v0.7.3"
     },
-    "version": "v0.7.2"
-  },
-  "zlint-bin-x86_64-darwin": {
-    "cargoLocks": null,
-    "date": null,
-    "extract": null,
-    "name": "zlint-bin-x86_64-darwin",
-    "passthru": null,
-    "pinned": false,
-    "src": {
-      "name": null,
-      "sha256": "sha256-7jERLz9HGdLmHWEa+kPJIRyWsnb5psRpEPaaL07yI/M=",
-      "type": "url",
-      "url": "https://github.com/DonIsaac/zlint/releases/download/v0.7.2/zlint-macos-x86_64"
+    "zlint-bin-x86_64-darwin": {
+        "cargoLocks": null,
+        "date": null,
+        "extract": null,
+        "name": "zlint-bin-x86_64-darwin",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-8Z+9T7pRSe9F5oyg/UAlpIlv4HQRbUCSrxxP0tEYrnY=",
+            "type": "url",
+            "url": "https://github.com/DonIsaac/zlint/releases/download/v0.7.3/zlint-macos-x86_64"
+        },
+        "version": "v0.7.3"
     },
-    "version": "v0.7.2"
-  },
-  "zlint-bin-x86_64-linux": {
-    "cargoLocks": null,
-    "date": null,
-    "extract": null,
-    "name": "zlint-bin-x86_64-linux",
-    "passthru": null,
-    "pinned": false,
-    "src": {
-      "name": null,
-      "sha256": "sha256-J6nhhoKBSevVVv/qr5JYS2y3po8Nt5UM5yidIho7j44=",
-      "type": "url",
-      "url": "https://github.com/DonIsaac/zlint/releases/download/v0.7.2/zlint-linux-x86_64"
-    },
-    "version": "v0.7.2"
-  }
+    "zlint-bin-x86_64-linux": {
+        "cargoLocks": null,
+        "date": null,
+        "extract": null,
+        "name": "zlint-bin-x86_64-linux",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-TsVC9PP2T18It2OPp6yLhOxa1OO4RpjX0B+UTEtZ0Cg=",
+            "type": "url",
+            "url": "https://github.com/DonIsaac/zlint/releases/download/v0.7.3/zlint-linux-x86_64"
+        },
+        "version": "v0.7.3"
+    }
 }
