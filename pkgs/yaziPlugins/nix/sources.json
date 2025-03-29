@@ -209,10 +209,10 @@
     "homepage": "",
     "owner": "ndtoan96",
     "repo": "ouch.yazi",
-    "rev": "c438bd57acf993ecc5950747a6ba566bd3673d6f",
-    "sha256": "1nl3xgd52si4imjl5zplgisikrs8z04y0hb9y52ll5wjr3paz7c5",
+    "rev": "558188d2479d73cafb7ad8fb1bee12b2b59fb607",
+    "sha256": "0lm21ls9lpp2bjfd1ba662fhwaananlci83k0pc1bg3w4812wzzd",
     "type": "tarball",
-    "url": "https://github.com/ndtoan96/ouch.yazi/archive/c438bd57acf993ecc5950747a6ba566bd3673d6f.tar.gz",
+    "url": "https://github.com/ndtoan96/ouch.yazi/archive/558188d2479d73cafb7ad8fb1bee12b2b59fb607.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "projects.yazi": {
