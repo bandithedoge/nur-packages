@@ -644,10 +644,10 @@ in {
   "@tailwindcss/language-server" = nodeEnv.buildNodePackage {
     name = "_at_tailwindcss_slash_language-server";
     packageName = "@tailwindcss/language-server";
-    version = "0.14.11";
+    version = "0.14.12";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@tailwindcss/language-server/-/language-server-0.14.11.tgz";
-      sha512 = "+XmN57O7/t6Oh4mBhzuTN5XILvr9LCVa84m5u1sK6EnKB+O8w/hkyVM/KyWlH5SyOUuaIUY/hu7uq6hRUgQpyg==";
+      url = "https://registry.npmjs.org/@tailwindcss/language-server/-/language-server-0.14.12.tgz";
+      sha512 = "le+Ej9Cr+SJY9+Ste1jaxraVg51sVI3MTTehug8dr0OXCeUZ7vLwR9yDZJsXSdymnZrhcFlvGvOqcV7DnsrBuw==";
     };
     buildInputs = globalBuildInputs;
     meta = {
