@@ -1,63 +1,63 @@
 {
-    "airwin2rack": {
-        "cargoLocks": null,
-        "date": "2025-03-30",
-        "extract": null,
-        "name": "airwin2rack",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "deepClone": false,
-            "fetchSubmodules": true,
-            "leaveDotGit": false,
-            "name": null,
-            "rev": "afc797245b5d931bc713d6bccf435984353fac6b",
-            "sha256": "sha256-AN8nvvAqkHptaKc4NKbs2CxDmieryX8yEJYhuE1K000=",
-            "sparseCheckout": [],
-            "type": "git",
-            "url": "https://github.com/baconpaul/airwin2rack"
-        },
-        "version": "afc797245b5d931bc713d6bccf435984353fac6b"
+  "airwin2rack": {
+    "cargoLocks": null,
+    "date": "2025-03-30",
+    "extract": null,
+    "name": "airwin2rack",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "deepClone": false,
+      "fetchSubmodules": true,
+      "leaveDotGit": false,
+      "name": null,
+      "rev": "afc797245b5d931bc713d6bccf435984353fac6b",
+      "sha256": "sha256-AN8nvvAqkHptaKc4NKbs2CxDmieryX8yEJYhuE1K000=",
+      "sparseCheckout": [],
+      "type": "git",
+      "url": "https://github.com/baconpaul/airwin2rack"
     },
-    "clap-juce-extensions": {
-        "cargoLocks": null,
-        "date": "2025-03-17",
-        "extract": null,
-        "name": "clap-juce-extensions",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "deepClone": false,
-            "fetchSubmodules": true,
-            "leaveDotGit": false,
-            "name": null,
-            "rev": "ea834dfd366ab2103b98e92eaacb581c69fc2e0b",
-            "sha256": "sha256-hbelV7Bo1bKLjanoSHdOPedgNxvI7j2cHXM1bFaywmI=",
-            "sparseCheckout": [],
-            "type": "git",
-            "url": "https://github.com/free-audio/clap-juce-extensions"
-        },
-        "version": "ea834dfd366ab2103b98e92eaacb581c69fc2e0b"
+    "version": "afc797245b5d931bc713d6bccf435984353fac6b"
+  },
+  "clap-juce-extensions": {
+    "cargoLocks": null,
+    "date": "2025-03-17",
+    "extract": null,
+    "name": "clap-juce-extensions",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "deepClone": false,
+      "fetchSubmodules": true,
+      "leaveDotGit": false,
+      "name": null,
+      "rev": "ea834dfd366ab2103b98e92eaacb581c69fc2e0b",
+      "sha256": "sha256-hbelV7Bo1bKLjanoSHdOPedgNxvI7j2cHXM1bFaywmI=",
+      "sparseCheckout": [],
+      "type": "git",
+      "url": "https://github.com/free-audio/clap-juce-extensions"
     },
-    "juce-7_0_12": {
-        "cargoLocks": null,
-        "date": null,
-        "extract": null,
-        "name": "juce-7_0_12",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "deepClone": false,
-            "fetchSubmodules": false,
-            "leaveDotGit": false,
-            "name": null,
-            "owner": "juce-framework",
-            "repo": "JUCE",
-            "rev": "7.0.12",
-            "sha256": "sha256-/awe6D824ZjF17xjkt0wY7dcDuS/s8KKAv1UKHxF0FM=",
-            "sparseCheckout": [],
-            "type": "github"
-        },
-        "version": "7.0.12"
-    }
+    "version": "ea834dfd366ab2103b98e92eaacb581c69fc2e0b"
+  },
+  "juce-7_0_12": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "juce-7_0_12",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "deepClone": false,
+      "fetchSubmodules": false,
+      "leaveDotGit": false,
+      "name": null,
+      "owner": "juce-framework",
+      "repo": "JUCE",
+      "rev": "7.0.12",
+      "sha256": "sha256-/awe6D824ZjF17xjkt0wY7dcDuS/s8KKAv1UKHxF0FM=",
+      "sparseCheckout": [],
+      "type": "github"
+    },
+    "version": "7.0.12"
+  }
 }
