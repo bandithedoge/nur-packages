@@ -137,10 +137,10 @@
     "homepage": null,
     "owner": "Lil-Dank",
     "repo": "lazygit.yazi",
-    "rev": "9f924e34cde61d5965d6d620698b0b15436c8e08",
-    "sha256": "1akmj7gn4azl4xk3q8bg3x090idmrsca0wi0p347vn28hz647kwy",
+    "rev": "7a08a0988c2b7481d3f267f3bdc58080e6047e7d",
+    "sha256": "0brp31ccjj94lpza81xmq9k9bkvnq99aas5gy4rpcl4sjj14z4iq",
     "type": "tarball",
-    "url": "https://github.com/Lil-Dank/lazygit.yazi/archive/9f924e34cde61d5965d6d620698b0b15436c8e08.tar.gz",
+    "url": "https://github.com/Lil-Dank/lazygit.yazi/archive/7a08a0988c2b7481d3f267f3bdc58080e6047e7d.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "mediainfo.yazi": {

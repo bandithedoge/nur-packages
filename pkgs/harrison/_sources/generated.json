@@ -1,32 +1,32 @@
 {
-    "harrison-32c": {
-        "cargoLocks": null,
-        "date": null,
-        "extract": null,
-        "name": "harrison-32c",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "name": null,
-            "sha256": "sha256-CelnaeTNo5mkmiFNjxbsN0c+pcbjLSq4Tw3bb5toIHU=",
-            "type": "url",
-            "url": "https://rsrc.harrisonconsoles.com/ava/release/32C/3-5-22/Harrison_32C-linux-amd64.tar.gz"
-        },
-        "version": "3-5-22"
+  "harrison-32c": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "harrison-32c",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-CelnaeTNo5mkmiFNjxbsN0c+pcbjLSq4Tw3bb5toIHU=",
+      "type": "url",
+      "url": "https://rsrc.harrisonconsoles.com/ava/release/32C/3-5-22/Harrison_32C-linux-amd64.tar.gz"
     },
-    "harrison-ava": {
-        "cargoLocks": null,
-        "date": null,
-        "extract": null,
-        "name": "harrison-ava",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "name": null,
-            "sha256": "sha256-oENxkmDdV0xX1hXkJbh0EhwBpp4+CYuqtZo2j6SY2bo=",
-            "type": "url",
-            "url": "https://rsrc.harrisonconsoles.com/ava/release/AVA/10-27-22/Harrison_AVA-linux-amd64.tar.gz"
-        },
-        "version": "10-27-22"
-    }
+    "version": "3-5-22"
+  },
+  "harrison-ava": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "harrison-ava",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-oENxkmDdV0xX1hXkJbh0EhwBpp4+CYuqtZo2j6SY2bo=",
+      "type": "url",
+      "url": "https://rsrc.harrisonconsoles.com/ava/release/AVA/10-27-22/Harrison_AVA-linux-amd64.tar.gz"
+    },
+    "version": "10-27-22"
+  }
 }
