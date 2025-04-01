@@ -1,17 +1,17 @@
 {
-  "cinelerra-gg": {
-    "cargoLocks": null,
-    "date": null,
-    "extract": null,
-    "name": "cinelerra-gg",
-    "passthru": null,
-    "pinned": false,
-    "src": {
-      "name": null,
-      "sha256": "sha256-cfKxEkkr6p9H+j17kWbEwVY+BHyg648I+YBVojkaPnI=",
-      "type": "url",
-      "url": "https://cinelerra-gg.org/download/images/CinGG-20250228-x86_64.AppImage"
-    },
-    "version": "20250228"
-  }
+    "cinelerra-gg": {
+        "cargoLocks": null,
+        "date": null,
+        "extract": null,
+        "name": "cinelerra-gg",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-+drBJmvcEPIridcxy8n49jfQNa2PQwLveVmDee6i4wc=",
+            "type": "url",
+            "url": "https://cinelerra-gg.org/download/images/CinGG-20250331-x86_64.AppImage"
+        },
+        "version": "20250331"
+    }
 }
