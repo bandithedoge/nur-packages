@@ -185,10 +185,10 @@
     "homepage": "",
     "owner": "saumyajyoti",
     "repo": "omp.yazi",
-    "rev": "4c44873cd5ed15b838811286d5e8090bfe75dcf7",
-    "sha256": "0r3i0a96a0dkipdf0dbbc1cmxwwckcv793d29l0asgr8z9g8pwl6",
+    "rev": "25024ce64c4d540a86db460826ec1e5d502acde3",
+    "sha256": "0vv95za70l5la1xhnk4086hp1w2f2shr81wk89mx1g3y802cbas2",
     "type": "tarball",
-    "url": "https://github.com/saumyajyoti/omp.yazi/archive/4c44873cd5ed15b838811286d5e8090bfe75dcf7.tar.gz",
+    "url": "https://github.com/saumyajyoti/omp.yazi/archive/25024ce64c4d540a86db460826ec1e5d502acde3.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "open-with-cmd.yazi": {
