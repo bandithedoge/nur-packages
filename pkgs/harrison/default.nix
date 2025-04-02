@@ -33,6 +33,5 @@
     };
 in {
   _32c = mkHarrison sources.harrison-32c;
-
   ava = mkHarrison sources.harrison-ava;
 }

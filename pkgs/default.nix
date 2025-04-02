@@ -8,7 +8,7 @@
   callPackage' = pkg:
     pkgs.callPackage pkg (callPackageArgs pkg);
 
-  callPackages' = pkg: pkgs.callPackages pkg (callPackageArgs pkg);
+  callPackages' = pkg: pkgs.lib.recurseIntoAttrs (pkgs.callPackages pkg (callPackageArgs pkg));
 
   concat = pkgs.lib.concatStringsSep ".";
 

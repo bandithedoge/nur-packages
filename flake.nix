@@ -25,8 +25,8 @@
         };
 
         legacyPackages = let
-          packages = import ./default.nix {inherit pkgs;};
-          all = pkgs.lib.recurseIntoAttrs (inputs.flake-utils.lib.flattenTree packages);
+          packages = import ./pkgs/default.nix {inherit pkgs;};
+          all = inputs.flake-utils.lib.flattenTree (pkgs.lib.recurseIntoAttrs packages);
           buildable = pkgs.lib.filterAttrs (_: p: !(p.meta.broken or false)) all;
           cacheable = pkgs.lib.filterAttrs (_: p:
             (p.meta.license.free or true)
