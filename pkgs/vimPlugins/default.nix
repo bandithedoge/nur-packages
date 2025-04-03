@@ -15,6 +15,7 @@ in
         pname = sanitizedName;
         version = src.rev;
         inherit src;
+        doCheck = false;
       }))
     (pkgs.lib.filterAttrs (_: v: pkgs.lib.isStorePath v) sources)))
   .extend (import ./_overrides.nix {inherit pkgs;})

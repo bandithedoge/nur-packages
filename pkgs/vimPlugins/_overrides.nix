@@ -8,10 +8,6 @@
     '';
   });
 
-  telescope-frecency-nvim = prev.telescope-frecency-nvim.overrideAttrs (_: {
-    buildInputs = [final.sqlite-lua];
-  });
-
   nvim-treesitter = prev.nvim-treesitter.overrideAttrs (old: {
     passthru.withPlugins = grammarFn:
       final.nvim-treesitter.overrideAttrs (_: {
@@ -27,32 +23,4 @@
   lua-dev-nvim = pkgs.lib.warn "lua-dev.nvim has been renamed to neodev.nvim" final.neodev-nvim;
 
   null-ls-nvim = pkgs.lib.warn "null-ls.nvim has been discontinued, consider switching to none-ls.nvim" prev.null-ls-nvim;
-
-  playground = prev.playground.overrideAttrs (_: {
-    nativeCheckInputs = [final.nvim-treesitter];
-  });
-
-  faust-nvim = prev.faust-nvim.overrideAttrs (_: {
-    nativeCheckInputs = [final.fzf-lua];
-  });
-
-  fzf-lua = prev.fzf-lua.overrideAttrs (_: {
-    doCheck = false;
-  });
-
-  hover-nvim = prev.hover-nvim.overrideAttrs (_: {
-    doCheck = false;
-  });
-
-  telescope-zf-native-nvim = prev.telescope-zf-native-nvim.overrideAttrs (_: {
-    dependencies = [final.telescope-nvim];
-  });
-
-  telescope-nvim = prev.telescope-nvim.overrideAttrs (_: {
-    dependencies = [final.plenary-nvim];
-  });
-
-  plenary-nvim = prev.plenary-nvim.overrideAttrs (_: {
-    nativeCheckInputs = [pkgs.vimPlugins.rocks-nvim];
-  });
 }
