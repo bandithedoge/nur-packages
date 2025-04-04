@@ -3,8 +3,8 @@
 fetch() {
   test -f keyfile.toml && keyfile="-k keyfile.toml"
   if [ "$2" = true ]; then
-      commit="--commit-changes";
-      echo commiting
+    commit="--commit-changes"
+    echo commiting
   fi
   # shellcheck disable=2086
   nvfetcher $keyfile -c "$1/nvfetcher.toml" -o "$1"/_sources -t $commit || exit 1

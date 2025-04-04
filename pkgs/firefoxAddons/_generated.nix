@@ -498,10 +498,10 @@
   };
   "indie-wiki-buddy" = buildFirefoxXpiAddon {
     pname = "indie-wiki-buddy";
-    version = "3.13.1";
+    version = "3.13.3";
     addonId = "{cb31ec5d-c49a-4e5a-b240-16c767444f62}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4435453/indie_wiki_buddy-3.13.1.xpi";
-    sha256 = "71dbed6b090604ea299c9661312c1ad5bc208c3ea3012b7890e38fb08994d703";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4467103/indie_wiki_buddy-3.13.3.xpi";
+    sha256 = "7087557cafe95cfc7f73c8d914fe5373deacd3a154222029191d018d94b02503";
     meta = with lib; {
       homepage = "https://getindie.wiki/";
       description = "Helping you discover quality, independent wikis!\n\nWhen visiting a Fandom wiki, Indie Wiki Buddy redirects or alerts you of independent alternatives. It also filters search engine results. BreezeWiki is also supported, to reduce clutter on Fandom.";
@@ -770,10 +770,10 @@
   };
   "material-icons-for-github" = buildFirefoxXpiAddon {
     pname = "material-icons-for-github";
-    version = "1.10.0";
+    version = "1.10.2";
     addonId = "{eac6e624-97fa-4f28-9d24-c06c9b8aa713}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4449189/material_icons_for_github-1.10.0.xpi";
-    sha256 = "4cb132ee05bf315dc08247b5e9ed2834b0fd1ac343f3d444817a7152c8996dec";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4467552/material_icons_for_github-1.10.2.xpi";
+    sha256 = "cf1b140c833acb2758f3bee22f3de5853a7e8c66b97293bb95ba03c61098a8ae";
     meta = with lib; {
       homepage = "https://github.com/Claudiohbsantos/github-material-icons-extension";
       description = "Replace the file/folder icons on github file browsers with icons representing the file's type and which tool it is used by.";
@@ -859,10 +859,10 @@
   };
   "privacy-badger" = buildFirefoxXpiAddon {
     pname = "privacy-badger";
-    version = "2025.3.3";
+    version = "2025.3.27";
     addonId = "jid1-MnnxcxisBPnSXQ@jetpack";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4447530/privacy_badger17-2025.3.3.xpi";
-    sha256 = "7acf878b3cd4a3b5ca7c98cbe3e31630bc6a048156db03bf2021795cce68ba97";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4463652/privacy_badger17-2025.3.27.xpi";
+    sha256 = "45976baab7476792dcad07f4386be618fd49b27eeb000c5e6b4b6f3611bf865e";
     meta = with lib; {
       homepage = "https://privacybadger.org/";
       description = "Automatically learns to block invisible trackers.";
@@ -870,12 +870,12 @@
       mozPermissions = [
         "<all_urls>"
         "alarms"
+        "privacy"
+        "storage"
         "tabs"
         "webNavigation"
         "webRequest"
         "webRequestBlocking"
-        "storage"
-        "privacy"
         "https://*.facebook.com/*"
         "http://*.facebook.com/*"
         "https://*.messenger.com/*"
@@ -1455,10 +1455,10 @@
   };
   "sponsorblock" = buildFirefoxXpiAddon {
     pname = "sponsorblock";
-    version = "5.11.8";
+    version = "5.11.10";
     addonId = "sponsorBlocker@ajay.app";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4451103/sponsorblock-5.11.8.xpi";
-    sha256 = "0706b77d29ce0517c046f55427510b3718f2efef36bb7c7953387089629f7ac0";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4465727/sponsorblock-5.11.10.xpi";
+    sha256 = "07e8f50f01a7be1d7b35233a26f599d1471a5b601acd8dfa07dc023c86cac83d";
     meta = with lib; {
       homepage = "https://sponsor.ajay.app";
       description = "Easily skip YouTube video sponsors. When you visit a YouTube video, the extension will check the database for reported sponsors and automatically skip known sponsors. You can also report sponsors in videos. Other browsers: https://sponsor.ajay.app";
@@ -1555,10 +1555,10 @@
   };
   "tabcenter-reborn" = buildFirefoxXpiAddon {
     pname = "tabcenter-reborn";
-    version = "3.0.0";
+    version = "3.0.1";
     addonId = "tabcenter-reborn@ariasuni";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4464943/tabcenter_reborn-3.0.0.xpi";
-    sha256 = "b665215a998d3381a13e15edd3f649c312e049f693beeb2be2039a515f8ee273";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4466811/tabcenter_reborn-3.0.1.xpi";
+    sha256 = "a95d7c312a8a47647e93f34d43933ba065649b64083016fb3ab70600e015d812";
     meta = with lib; {
       homepage = "https://codeberg.org/ariasuni";
       description = "Simple and powerful vertical tab bar";

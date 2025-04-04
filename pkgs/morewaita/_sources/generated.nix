@@ -7,16 +7,16 @@
 }: {
   morewaita = {
     pname = "morewaita";
-    version = "7d9ecc457b753053097d0d656f32f7264cc621ba";
+    version = "bf36c8b841f018c7b15a1838fa8f558d8f6aede9";
     src = fetchgit {
       url = "https://github.com/somepaulo/MoreWaita";
-      rev = "7d9ecc457b753053097d0d656f32f7264cc621ba";
+      rev = "bf36c8b841f018c7b15a1838fa8f558d8f6aede9";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [];
-      sha256 = "sha256-teVPgHSnDh+S5azyu7muEs0S9lCzxamGmwMcNqgsFQs=";
+      sha256 = "sha256-HuTlAZFooxXq3gBaHN8oj63fvgxEmQui6c0Tyr/+XJw=";
     };
-    date = "2025-03-29";
+    date = "2025-04-03";
   };
 }

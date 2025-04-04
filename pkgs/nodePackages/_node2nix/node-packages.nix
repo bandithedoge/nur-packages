@@ -189,13 +189,13 @@
         sha512 = "mEQCMmwJu317oSz8CwdIOdwf3xMif1ttiM8LTufzc3g6kR+9Pe236twL8j3IYT1F7GfRgGcW6MWxzZjLIkuHIg==";
       };
     };
-    "destr-2.0.3" = {
+    "destr-2.0.5" = {
       name = "destr";
       packageName = "destr";
-      version = "2.0.3";
+      version = "2.0.5";
       src = fetchurl {
-        url = "https://registry.npmjs.org/destr/-/destr-2.0.3.tgz";
-        sha512 = "2N3BOUU4gYMpTP24s5rF5iP7BDr7uNTCs4ozw3kf/eKfvWSIu93GEBi5m427YoyJoeOzQ5smuu4nNAPGb8idSQ==";
+        url = "https://registry.npmjs.org/destr/-/destr-2.0.5.tgz";
+        sha512 = "ugFTXCtDZunbzasqBxrK93Ik/DRYsO6S/fedkWEMKqt04xZ4csmnmwGDBAb07QWNaGMAmnTIemsYZCksjATwsA==";
       };
     };
     "dotenv-16.4.7" = {
@@ -644,10 +644,10 @@ in {
   "@tailwindcss/language-server" = nodeEnv.buildNodePackage {
     name = "_at_tailwindcss_slash_language-server";
     packageName = "@tailwindcss/language-server";
-    version = "0.14.12";
+    version = "0.14.13";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@tailwindcss/language-server/-/language-server-0.14.12.tgz";
-      sha512 = "le+Ej9Cr+SJY9+Ste1jaxraVg51sVI3MTTehug8dr0OXCeUZ7vLwR9yDZJsXSdymnZrhcFlvGvOqcV7DnsrBuw==";
+      url = "https://registry.npmjs.org/@tailwindcss/language-server/-/language-server-0.14.13.tgz";
+      sha512 = "oLBJMAW63CCqChyT9DtgHe/R6r4kcCJgbqj/cHGTzfGCRIs0Kx52X26+XHSMlQ7sazLkZ+4+P8b2+3EXt0TGfA==";
     };
     buildInputs = globalBuildInputs;
     meta = {
@@ -723,7 +723,7 @@ in {
       sources."confbox-0.1.8"
       sources."consola-3.4.2"
       sources."defu-6.1.4"
-      sources."destr-2.0.3"
+      sources."destr-2.0.5"
       sources."dotenv-16.4.7"
       sources."emmet-2.4.11"
       sources."escalade-3.2.0"
