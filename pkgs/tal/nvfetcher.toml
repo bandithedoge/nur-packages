@@ -4,7 +4,7 @@ fetch.force = true
 src.manual = "latest"
 
 [chorus-lx]
-fetch.url = "https://tal-software.com/downloads/plugins/Tal-Chorus-LX_64_linux.zip"
+fetch.url = "https://tal-software.com/downloads/plugins/TAL-Chorus-LX_64_linux.zip"
 fetch.force = true
 src.manual = "latest"
 
