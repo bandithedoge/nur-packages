@@ -74,6 +74,7 @@ in {
     source = sources.drum;
     description = "TAL-Drum is a powerful audio plug-in that combines the nostalgic charm of vintage drum machines with modern usability. This intuitive tool lets you effortlessly create captivating beats with its meticulously sampled collection of iconic drum machine sounds.";
     homepage = "https://tal-software.com/products/tal-drum";
+    extraLibs = with pkgs; [curl];
   };
 
   dub-x = mkTal {
@@ -81,6 +82,7 @@ in {
     source = sources.dub-x;
     description = "TAL-Dub-X is a remake of our popular original freeware TAL-Dub plug-in with a lot of additional features";
     homepage = "https://tal-software.com/products/tal-dub-x";
+    extraLibs = with pkgs; [curl];
   };
 
   filter-2 = mkTal {
@@ -95,6 +97,7 @@ in {
     source = sources.g-verb;
     description = "TAL-G-Verb is a musical effect capable to build high quality artificial reverb sounds";
     homepage = "https://tal-software.com/products/tal-g-verb";
+    extraLibs = with pkgs; [curl];
   };
 
   j-8 = mkTal {
