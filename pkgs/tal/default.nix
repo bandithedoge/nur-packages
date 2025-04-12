@@ -127,6 +127,7 @@ in {
     source = sources.pha;
     description = "TAL-Pha is an instrument plug-in that emulates the sound of the analog 80's synthesizer Alpha Juno II (MKS-50 is the rack version)";
     homepage = "https://tal-software.com/products/tal-pha";
+    extraLibs = with pkgs; [curl];
   };
 
   reverb-4 = mkTal {
