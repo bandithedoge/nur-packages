@@ -17,10 +17,10 @@
     "homepage": null,
     "owner": "AnirudhG07",
     "repo": "archivemount.yazi",
-    "rev": "6908a87e54b31e2062884eda1de3aa5b82a45fdc",
-    "sha256": "027wnc2h8ff3c756ivqvgf6bhajmi6sa96y2zd0xpvf80ahl8p9k",
+    "rev": "e05c7446ea51edc9f7971fc5d3ad95891214a2a5",
+    "sha256": "0903n4rnjrs8h5dr7prapy9m49ghzp8x9c7mx9pa6xzj638s9983",
     "type": "tarball",
-    "url": "https://github.com/AnirudhG07/archivemount.yazi/archive/6908a87e54b31e2062884eda1de3aa5b82a45fdc.tar.gz",
+    "url": "https://github.com/AnirudhG07/archivemount.yazi/archive/e05c7446ea51edc9f7971fc5d3ad95891214a2a5.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "augment-command.yazi": {
@@ -29,10 +29,10 @@
     "homepage": "",
     "owner": "hankertrix",
     "repo": "augment-command.yazi",
-    "rev": "269e3cf9ca26e3a76d26c0d4f4e769eacf10fcc6",
-    "sha256": "1ilg30s3nj9sw4k3ja934g2qwa59pdh5vs8mamjw14hb18gpdj50",
+    "rev": "adebde061a891c01e6a25b349ade3cdb7e492e29",
+    "sha256": "0gc2424n47glfd3a31yqn55g0f677svsj2pjx9rsnjrc784vn7gz",
     "type": "tarball",
-    "url": "https://github.com/hankertrix/augment-command.yazi/archive/269e3cf9ca26e3a76d26c0d4f4e769eacf10fcc6.tar.gz",
+    "url": "https://github.com/hankertrix/augment-command.yazi/archive/adebde061a891c01e6a25b349ade3cdb7e492e29.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "bookmarks.yazi": {
@@ -53,10 +53,10 @@
     "homepage": "",
     "owner": "Rolv-Apneseth",
     "repo": "bypass.yazi",
-    "rev": "ecb1f7f6fd305ff4ffff548fa955595af6b26e60",
-    "sha256": "195cbq2a8xghmblnl87bcd456rn5s934a0mm2qybnmkbz5fphyjx",
+    "rev": "2ab6d84e8165985dd4d63ef0098e3a30feb3a41a",
+    "sha256": "0jx4zjvfhd958a8wrs32znwsk77gl0844zlddazwldz6y5983f78",
     "type": "tarball",
-    "url": "https://github.com/Rolv-Apneseth/bypass.yazi/archive/ecb1f7f6fd305ff4ffff548fa955595af6b26e60.tar.gz",
+    "url": "https://github.com/Rolv-Apneseth/bypass.yazi/archive/2ab6d84e8165985dd4d63ef0098e3a30feb3a41a.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "compress.yazi": {
@@ -209,10 +209,10 @@
     "homepage": "",
     "owner": "ndtoan96",
     "repo": "ouch.yazi",
-    "rev": "558188d2479d73cafb7ad8fb1bee12b2b59fb607",
-    "sha256": "0lm21ls9lpp2bjfd1ba662fhwaananlci83k0pc1bg3w4812wzzd",
+    "rev": "2496cd9ac2d1fb52597b22ae84f3af06c826a86d",
+    "sha256": "169w527cq18i3x9hswgsbx4lrlgqycv1dqhlg2faz7pdp93mzhrs",
     "type": "tarball",
-    "url": "https://github.com/ndtoan96/ouch.yazi/archive/558188d2479d73cafb7ad8fb1bee12b2b59fb607.tar.gz",
+    "url": "https://github.com/ndtoan96/ouch.yazi/archive/2496cd9ac2d1fb52597b22ae84f3af06c826a86d.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "projects.yazi": {
@@ -245,10 +245,10 @@
     "homepage": null,
     "owner": "dedukun",
     "repo": "relative-motions.yazi",
-    "rev": "810306563e1928855f5cf61f83801544e3eb3788",
-    "sha256": "0hj44flrq4kg926rn8dcw48r30k6xszrmk3isq1kzwsqvazbp15h",
+    "rev": "61ae7950daeea3e1d960aa777b7a07cde4539b29",
+    "sha256": "130rwa133zdkv7f04g73kww80f9cj55qpm5ah0qimb5nprgpk41g",
     "type": "tarball",
-    "url": "https://github.com/dedukun/relative-motions.yazi/archive/810306563e1928855f5cf61f83801544e3eb3788.tar.gz",
+    "url": "https://github.com/dedukun/relative-motions.yazi/archive/61ae7950daeea3e1d960aa777b7a07cde4539b29.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "rich-preview.yazi": {
@@ -293,10 +293,10 @@
     "homepage": null,
     "owner": "Rolv-Apneseth",
     "repo": "starship.yazi",
-    "rev": "6c639b474aabb17f5fecce18a4c97bf90b016512",
-    "sha256": "0l1vhh63xs2cam4bd2dw1i2gjg83zccv3cic1h85x743437d84kf",
+    "rev": "c0707544f1d526f704dab2da15f379ec90d613c2",
+    "sha256": "06s9dv3h0cc5w6k26npzjybvafnz9c35vgskbp2r6whx6zvgxj0z",
     "type": "tarball",
-    "url": "https://github.com/Rolv-Apneseth/starship.yazi/archive/6c639b474aabb17f5fecce18a4c97bf90b016512.tar.gz",
+    "url": "https://github.com/Rolv-Apneseth/starship.yazi/archive/c0707544f1d526f704dab2da15f379ec90d613c2.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "sudo.yazi": {
@@ -353,10 +353,10 @@
     "homepage": "https://fpira.com",
     "owner": "pirafrank",
     "repo": "what-size.yazi",
-    "rev": "a0d03d40668a5bd82c96c03bad5a4642017ea7f2",
-    "sha256": "0rl39fp2lf2d3p6nmhdnghb6s3x1wix3fnflmj8nhx5544svjb27",
+    "rev": "f1c6b691363e602d0ddbee29384017d08b608f64",
+    "sha256": "0n3j4qxx61jgz93kwzx11yfybqasqjl8mmj2cbawzmrpdam62nik",
     "type": "tarball",
-    "url": "https://github.com/pirafrank/what-size.yazi/archive/a0d03d40668a5bd82c96c03bad5a4642017ea7f2.tar.gz",
+    "url": "https://github.com/pirafrank/what-size.yazi/archive/f1c6b691363e602d0ddbee29384017d08b608f64.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "yamb.yazi": {
@@ -377,10 +377,10 @@
     "homepage": "",
     "owner": "imsi32",
     "repo": "yatline.yazi",
-    "rev": "6b0fc1ef5eca034460b4c69cb87c424103227a2e",
-    "sha256": "02cgbmj1wg0303b2lsyajknj7hif3cjrd1wrn2iyp2x6if9j4996",
+    "rev": "90e0284b22f922e7e024c403e7e596359e3aa2a0",
+    "sha256": "1ylvs8clr37rzsrp2aikgkaw43bspzl0q9sh6bwzfz553jzxrlgp",
     "type": "tarball",
-    "url": "https://github.com/imsi32/yatline.yazi/archive/6b0fc1ef5eca034460b4c69cb87c424103227a2e.tar.gz",
+    "url": "https://github.com/imsi32/yatline.yazi/archive/90e0284b22f922e7e024c403e7e596359e3aa2a0.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   }
 }

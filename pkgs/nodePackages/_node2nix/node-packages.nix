@@ -198,13 +198,13 @@
         sha512 = "ugFTXCtDZunbzasqBxrK93Ik/DRYsO6S/fedkWEMKqt04xZ4csmnmwGDBAb07QWNaGMAmnTIemsYZCksjATwsA==";
       };
     };
-    "dotenv-16.4.7" = {
+    "dotenv-16.5.0" = {
       name = "dotenv";
       packageName = "dotenv";
-      version = "16.4.7";
+      version = "16.5.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/dotenv/-/dotenv-16.4.7.tgz";
-        sha512 = "47qPchRCykZC03FhkYAhrvwU4xDBFIj1QPqaarj6mdM/hgUzfPHcpkHJOn3mJAufFeeAxAzeGsr5X0M4k6fLZQ==";
+        url = "https://registry.npmjs.org/dotenv/-/dotenv-16.5.0.tgz";
+        sha512 = "m/C+AwOAr9/W1UOIZUo232ejMNnJAJtYQjUbHoNTBNTJSvqzzDh7vnrei3o3r3m9blf6ZoDkvcw0VmozNRFJxg==";
       };
     };
     "emmet-2.4.11" = {
@@ -531,13 +531,13 @@
         sha512 = "1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==";
       };
     };
-    "ufo-1.5.4" = {
+    "ufo-1.6.1" = {
       name = "ufo";
       packageName = "ufo";
-      version = "1.5.4";
+      version = "1.6.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/ufo/-/ufo-1.5.4.tgz";
-        sha512 = "UsUk3byDzKd04EyoZ7U4DOlxQaD14JUKQl6/P7wiX4FNvUfm3XL246n9W5AmqwW5RSFJ27NAuM0iLscAOYUiGQ==";
+        url = "https://registry.npmjs.org/ufo/-/ufo-1.6.1.tgz";
+        sha512 = "9a4/uxlTWJ4+a5i0ooc1rU7C7YOw3wT+UGqdeNNHWnOF9qcMBgLRS+4IYUqbczewFx4mLEig6gawh7X6mFlEkA==";
       };
     };
     "vscode-jsonrpc-6.0.0" = {
@@ -644,10 +644,10 @@ in {
   "@tailwindcss/language-server" = nodeEnv.buildNodePackage {
     name = "_at_tailwindcss_slash_language-server";
     packageName = "@tailwindcss/language-server";
-    version = "0.14.13";
+    version = "0.14.15";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@tailwindcss/language-server/-/language-server-0.14.13.tgz";
-      sha512 = "oLBJMAW63CCqChyT9DtgHe/R6r4kcCJgbqj/cHGTzfGCRIs0Kx52X26+XHSMlQ7sazLkZ+4+P8b2+3EXt0TGfA==";
+      url = "https://registry.npmjs.org/@tailwindcss/language-server/-/language-server-0.14.15.tgz";
+      sha512 = "DMQRQz6v6qGE1ZSKO/8KuzjbTG1ZviA3hJnBMHEOk+83OMYVpQyQJZ/dsUAF2mPrxYQWbtTwJJw2AxBTHlTZzg==";
     };
     buildInputs = globalBuildInputs;
     meta = {
@@ -724,7 +724,7 @@ in {
       sources."consola-3.4.2"
       sources."defu-6.1.4"
       sources."destr-2.0.5"
-      sources."dotenv-16.4.7"
+      sources."dotenv-16.5.0"
       sources."emmet-2.4.11"
       sources."escalade-3.2.0"
       sources."fdir-6.4.3"
@@ -768,7 +768,7 @@ in {
       sources."tiny-conventional-commits-parser-0.0.1"
       sources."tinyexec-0.3.2"
       sources."tinyglobby-0.2.12"
-      sources."ufo-1.5.4"
+      sources."ufo-1.6.1"
       sources."vscode-jsonrpc-8.2.0"
       sources."vscode-languageserver-9.0.1"
       sources."vscode-languageserver-protocol-3.17.5"

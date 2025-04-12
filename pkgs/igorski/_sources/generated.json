@@ -97,12 +97,12 @@
       "name": null,
       "owner": "juce-framework",
       "repo": "JUCE",
-      "rev": "8.0.6",
-      "sha256": "sha256-uwZVBrvb5O9LEh00y93UeEu4u4rd+tLRCdQdxsMpXNg=",
+      "rev": "8.0.7",
+      "sha256": "sha256-nl4pUSkUKqpMoehzq0MS5pjHpYDkrFpUsY8BwpQObCM=",
       "sparseCheckout": [],
       "type": "github"
     },
-    "version": "8.0.6"
+    "version": "8.0.7"
   },
   "rechoir": {
     "cargoLocks": null,

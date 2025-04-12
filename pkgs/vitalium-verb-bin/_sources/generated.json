@@ -8,10 +8,10 @@
     "pinned": false,
     "src": {
       "name": null,
-      "sha256": "sha256-Us6jFq7oLbPjFw5Z8Vx9ijjK/QcdeIAyEIWH6ObhT40=",
+      "sha256": "sha256-qSZSG/XYYa7BGZwzYRYuJFikuj44ky4hX8Do5GJHT+k=",
       "type": "url",
-      "url": "https://github.com/BillyDM/vitalium-verb/releases/download/v1.2.0/vitaliumverb-1.2.0-ubuntu-20.04.zip"
+      "url": "https://github.com/BillyDM/vitalium-verb/releases/download/v1.2.1/vitaliumverb-1.2.1-ubuntu-20.04.zip"
     },
-    "version": "1.2.0"
+    "version": "1.2.1"
   }
 }
