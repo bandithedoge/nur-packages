@@ -64,6 +64,8 @@ jobs:
             --option extra-substituters "https://bandithedoge.cachix.org" \
             --option extra-trusted-public-keys "bandithedoge.cachix.org-1:ZtcHw1anyEa4t6H8m3o/ctYFrwYFPAwoENSvofamE6g=" \
             --cachix-cache bandithedoge \
+            --result-file result-cacheable.xml \
+            --result-format junit
         env:
           CACHIX_AUTH_TOKEN: ${{ secrets.CACHIX_AUTH_TOKEN }}
 
@@ -74,7 +76,15 @@ jobs:
             --no-nom \
             --skip-cached \
             --option extra-substituters "https://bandithedoge.cachix.org" \
-            --option extra-trusted-public-keys "bandithedoge.cachix.org-1:ZtcHw1anyEa4t6H8m3o/ctYFrwYFPAwoENSvofamE6g="
+            --option extra-trusted-public-keys "bandithedoge.cachix.org-1:ZtcHw1anyEa4t6H8m3o/ctYFrwYFPAwoENSvofamE6g=" \
+            --result-file result-buildable.xml \
+            --result-format junit
+
+      - name: Build summary
+        uses: test-summary/action@v2
+        if: always()
+        with:
+          paths: "result-*.xml"
 
       - name: Trigger NUR update
         run: curl -XPOST "https://nur-update.nix-community.org/update?repo=bandithedoge"
