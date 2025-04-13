@@ -101,10 +101,10 @@
     "homepage": "",
     "owner": "ourongxing",
     "repo": "fast-enter.yazi",
-    "rev": "1c4caebf1f04af5300a224c0a75822464ca774c2",
-    "sha256": "0738cqf0llkv77fdznf7lj14n0ih7gxqsqiigzwjxp8h5nq0m858",
+    "rev": "738356fdb82c07787b5a7d78e5487d2852dd2a8a",
+    "sha256": "13qlhp5apk19xmhsi36rh0wad0gaqn2lfv04p7hcqh2k7kz0660m",
     "type": "tarball",
-    "url": "https://github.com/ourongxing/fast-enter.yazi/archive/1c4caebf1f04af5300a224c0a75822464ca774c2.tar.gz",
+    "url": "https://github.com/ourongxing/fast-enter.yazi/archive/738356fdb82c07787b5a7d78e5487d2852dd2a8a.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "glow.yazi": {
