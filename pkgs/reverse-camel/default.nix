@@ -22,6 +22,8 @@ pkgs.stdenv.mkDerivation {
     runHook postInstall
   '';
 
+  enableParallelBuilding = true;
+
   meta = with pkgs.lib; {
     description = "Cross-platform Camel Crusher Clone VST plug-in based on black-box analysis";
     homepage = "https://github.com/soerenbnoergaard/reverse-camel";

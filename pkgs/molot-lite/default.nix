@@ -29,6 +29,8 @@ pkgs.stdenv.mkDerivation {
     runHook postInstall
   '';
 
+  enableParallelBuilding = true;
+
   meta = with pkgs.lib; {
     description = "A cut-down version of Molot, a compressor with a lot of color and character";
     homepage = "https://github.com/magnetophon/molot-lite";

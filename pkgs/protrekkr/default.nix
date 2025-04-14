@@ -45,9 +45,7 @@ pkgs.stdenv.mkDerivation {
 
   makefile = "makefile.linux";
 
-  NIX_CFLAGS_COMPILE = [
-    "-Wno-format-security"
-  ];
+  enableParallelBuilding = true;
 
   desktopItems = [
     (pkgs.makeDesktopItem {
@@ -56,6 +54,10 @@ pkgs.stdenv.mkDerivation {
       desktopName = "ProTrekkr";
       categories = ["AudioVideo"];
     })
+  ];
+
+  NIX_CFLAGS_COMPILE = [
+    "-Wno-format-security"
   ];
 
   meta = with pkgs.lib; {
