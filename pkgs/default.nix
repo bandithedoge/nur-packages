@@ -84,6 +84,7 @@
     nyan-doom = callPackage' ./nyan-doom;
     octasine = callPackage' ./octasine;
     onagre = callPackage' ./onagre;
+    oneknob-series = callPackage' ./oneknob-series;
     panacea-bin = callPackage' ./panacea-bin;
     partiels = callPackage' ./partiels;
     peakeater-bin = callPackage' ./peakeater-bin;

@@ -1,0 +1,4 @@
+[oneknob-series]
+src.git = "https://github.com/DISTRHO/OneKnob-Series"
+fetch.git = "https://github.com/DISTRHO/OneKnob-Series"
+git.fetchSubmodules = true
