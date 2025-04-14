@@ -8,9 +8,10 @@ pkgs.stdenv.mkDerivation {
 
   nativeBuildInputs = with pkgs; [
     cmake
+    ninja
     pkg-config
-    qt6.wrapQtAppsHook
     qt6.qttools
+    qt6.wrapQtAppsHook
   ];
 
   buildInputs = with pkgs; [

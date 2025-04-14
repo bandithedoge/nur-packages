@@ -20,6 +20,7 @@ in
       copyDesktopItems
       git
       makeWrapper
+      ninja
       pkg-config
     ];
 

@@ -9,6 +9,7 @@ pkgs.gcc12Stdenv.mkDerivation {
 
   nativeBuildInputs = with pkgs; [
     cmake
+    ninja
     pkg-config
   ];
 

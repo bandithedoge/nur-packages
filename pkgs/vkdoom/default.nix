@@ -11,6 +11,7 @@ pkgs.stdenv.mkDerivation {
     cmake
     git
     makeWrapper
+    ninja
   ];
 
   buildInputs = with pkgs; [

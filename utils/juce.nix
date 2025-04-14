@@ -30,6 +30,7 @@
           [
             cmake
             makeWrapper
+            ninja
             pkg-config
           ]
           ++ nativeBuildInputs;
