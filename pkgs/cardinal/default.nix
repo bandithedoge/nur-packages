@@ -56,6 +56,8 @@ pkgs.stdenv.mkDerivation {
     })
   ];
 
+  enableParallelBuilding = true;
+
   makeFlags = [
     "PREFIX=$(out)"
     "SYSDEPS=true"
