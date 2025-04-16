@@ -1360,10 +1360,10 @@
   };
   "search_by_image" = buildFirefoxXpiAddon {
     pname = "search_by_image";
-    version = "8.1.2";
+    version = "8.2.0";
     addonId = "{2e5ff8c8-32fe-46d0-9fc8-6b8986621f3c}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4456583/search_by_image-8.1.2.xpi";
-    sha256 = "eb9a77fbe69eb9483dff8e43a377d75733e11c60c6279e9b4012e355054e2daa";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4473439/search_by_image-8.2.0.xpi";
+    sha256 = "3119e33fb154659e4386e8be77bc66cfa76e54abb4a3ea58c6a975eaf4fabda0";
     meta = with lib; {
       homepage = "https://github.com/dessant/search-by-image#readme";
       description = "A powerful reverse image search tool, with support for various search engines, such as Google, Bing, Yandex, Baidu and TinEye.";
