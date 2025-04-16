@@ -19,9 +19,8 @@ pkgs.stdenv.mkDerivation {
   buildPhase = ''
     runHook preBuild
 
-    mkdir -p $out/bin $out/lib $out/share/applications
+    mkdir -p $out/bin $out/share/applications
     cp SGDBoop $out/bin
-    cp libiup.so $out/lib
     cp com.steamgriddb.SGDBoop.desktop $out/share/applications
 
     runHook postBuild
