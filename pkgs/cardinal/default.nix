@@ -10,7 +10,6 @@ pkgs.stdenv.mkDerivation {
   nativeBuildInputs = with pkgs; [
     cmake
     copyDesktopItems
-    ninja
     pkg-config
     python3
   ];
