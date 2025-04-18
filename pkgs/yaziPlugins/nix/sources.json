@@ -161,10 +161,10 @@
     "homepage": null,
     "owner": "Reledia",
     "repo": "miller.yazi",
-    "rev": "40e02654725a9902b689114537626207cbf23436",
-    "sha256": "0xknhaz1g8zss40bf32ph0bb6yx6mk4s1qdxwyqb9nirybz5jxhr",
+    "rev": "0a3d1316e38132ae9a6b91fbd69bab295cbbf2fe",
+    "sha256": "1vbz8xcwbx75liz9cp8lh8a05kdqa987s92829hr4xvfbvnp36m5",
     "type": "tarball",
-    "url": "https://github.com/Reledia/miller.yazi/archive/40e02654725a9902b689114537626207cbf23436.tar.gz",
+    "url": "https://github.com/Reledia/miller.yazi/archive/0a3d1316e38132ae9a6b91fbd69bab295cbbf2fe.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "nbpreview.yazi": {
