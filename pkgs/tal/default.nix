@@ -149,6 +149,7 @@ in {
     source = sources.u-no-lx;
     description = "TAL-U-NO-LX is a synthesizer plug-in that faithfully recreates the iconic sound of the analog Juno 60 synth. Each oscillator, filter, and envelope has been painstakingly modeled to capture the essence of the original hardware, delivering an unparalleled level of authenticity.";
     homepage = "https://tal-software.com/products/tal-u-no-lx";
+    extraLibs = with pkgs; [curl];
   };
 
   vocoder = mkTal {
