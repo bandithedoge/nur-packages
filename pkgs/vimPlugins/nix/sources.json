@@ -65,10 +65,10 @@
     "homepage": "https://www.schemastore.org/",
     "owner": "b0o",
     "repo": "SchemaStore.nvim",
-    "rev": "992285058ce208825eb1b9ac82fa6be7d76ffcc1",
-    "sha256": "07n4wmai2bf4nxq05mra9qmqi35bfbm30vpl6n03d2f6kjmc6vj1",
+    "rev": "e623e30df4053cacc67fb7eb04e1bd0fadba52b4",
+    "sha256": "0ragdcqr872v689sn8przq0yi4a1birrsma7f64a9g38chkiadx8",
     "type": "tarball",
-    "url": "https://github.com/b0o/SchemaStore.nvim/archive/992285058ce208825eb1b9ac82fa6be7d76ffcc1.tar.gz",
+    "url": "https://github.com/b0o/SchemaStore.nvim/archive/e623e30df4053cacc67fb7eb04e1bd0fadba52b4.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "aniseed": {
@@ -605,10 +605,10 @@
     "homepage": null,
     "owner": "ibhagwan",
     "repo": "fzf-lua",
-    "rev": "307147097e49ca8592fe857f6b3e12a01fda8e69",
-    "sha256": "1gfgvid3bv97zvzrmsw5f00kjgl5sfpwr3xdq61i1gw6657rpz72",
+    "rev": "34de8546d932497d90b24081045b8238b9818c76",
+    "sha256": "1rddq8mrrg2hgnpm9ngziiizqafjlm8pb4iwj6iv34jk6ls5sbmr",
     "type": "tarball",
-    "url": "https://github.com/ibhagwan/fzf-lua/archive/307147097e49ca8592fe857f6b3e12a01fda8e69.tar.gz",
+    "url": "https://github.com/ibhagwan/fzf-lua/archive/34de8546d932497d90b24081045b8238b9818c76.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "galaxyline.nvim": {
@@ -1010,10 +1010,10 @@
     "homepage": "",
     "owner": "folke",
     "repo": "neoconf.nvim",
-    "rev": "ffbaf342f363aee33ed82575ee320306d72dac63",
-    "sha256": "0iz310f4k5igx3jm7ggvvr25jll6an8gm966skz84f67a8fipwa9",
+    "rev": "4625534ac67c1a6f1c1731d019a12ca121c4d3c1",
+    "sha256": "17hsd0k22xy11m40pp2b1sa66zaa6834cr7jyhl7yskr33f0x2kn",
     "type": "tarball",
-    "url": "https://github.com/folke/neoconf.nvim/archive/ffbaf342f363aee33ed82575ee320306d72dac63.tar.gz",
+    "url": "https://github.com/folke/neoconf.nvim/archive/4625534ac67c1a6f1c1731d019a12ca121c4d3c1.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "neodev.nvim": {

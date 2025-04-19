@@ -225,13 +225,13 @@
         sha512 = "WUj2qlxaQtO4g6Pq5c29GTcWGDyd8itL8zTlipgECz3JesAiiOKotd8JU6otB3PACgG6xkJUyVhboMS+bje/jA==";
       };
     };
-    "fdir-6.4.3" = {
+    "fdir-6.4.4" = {
       name = "fdir";
       packageName = "fdir";
-      version = "6.4.3";
+      version = "6.4.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/fdir/-/fdir-6.4.3.tgz";
-        sha512 = "PMXmW2y1hDDfTSRc9gaXIuCCRpuoz3Kaz8cUelp3smouvfT632ozg2vrT6lJsHKKOF59YLbOGfAWGUcKEfRMQw==";
+        url = "https://registry.npmjs.org/fdir/-/fdir-6.4.4.tgz";
+        sha512 = "1NZP+GK4GfuAv3PqKvxQRDMjdSRZjnkq7KfhlNrCNNlZ0ygQFpebfrnfnq/W7fpUnAv9aGWmY1zKx7FYL3gwhg==";
       };
     };
     "fs-minipass-2.1.0" = {
@@ -727,7 +727,7 @@ in {
       sources."dotenv-16.5.0"
       sources."emmet-2.4.11"
       sources."escalade-3.2.0"
-      sources."fdir-6.4.3"
+      sources."fdir-6.4.4"
       (sources."fs-minipass-2.1.0"
         // {
           dependencies = [
