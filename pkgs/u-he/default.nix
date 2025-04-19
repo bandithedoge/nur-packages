@@ -143,7 +143,6 @@ in {
   };
 
   presswerk = mkUhe "Presswerk" {
-    clap = false;
     meta = {
       homepage = "https://u-he.com/products/presswerk/";
       description = "Compression with musical soul";
@@ -159,7 +158,6 @@ in {
   };
 
   repro = mkUhe "Repro-1" {
-    clap = false;
     meta = {
       homepage = "https://u-he.com/products/repro/";
       description = "Two classics, recreated";
