@@ -5,7 +5,7 @@
         "extract": null,
         "name": "crunchrr",
         "passthru": null,
-        "pinned": false,
+        "pinned": true,
         "src": {
             "name": null,
             "sha256": "sha256-ATS/ST1vzuT+f82YiQPjCj5KMNVl1QxccpUBHx7QLCs=",
@@ -20,7 +20,7 @@
         "extract": null,
         "name": "destruqtor",
         "passthru": null,
-        "pinned": false,
+        "pinned": true,
         "src": {
             "name": null,
             "sha256": "sha256-toje9FekSxjoPD0PH8PoNyPym76Dw/P+E2Q8xTMYiJs=",
@@ -35,7 +35,7 @@
         "extract": null,
         "name": "filtrr",
         "passthru": null,
-        "pinned": false,
+        "pinned": true,
         "src": {
             "name": null,
             "sha256": "sha256-1H2Rz9XyaBa+LOHVyjrsTxMbo9ayLOccwBZIjOlb8cw=",
@@ -50,7 +50,7 @@
         "extract": null,
         "name": "prisma",
         "passthru": null,
-        "pinned": false,
+        "pinned": true,
         "src": {
             "name": null,
             "sha256": "sha256-XIBGAGiDHGIScS4H3tBNqtakVMNB/3QEJrEjZDHuGpM=",
