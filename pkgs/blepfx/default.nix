@@ -28,8 +28,8 @@
         runHook preBuild
 
         mkdir -p $out/lib/{clap,vst3}
-        cp ${source.pname}-x86_64-unknown-linux-gnu.clap $out/lib/clap/${source.pname}.clap
-        cp -r ${source.pname}-x86_64-unknown-linux-gnu.vst3 $out/lib/vst3/${source.pname}.vst3
+        cp ${source.pname}.clap $out/lib/clap/${source.pname}.clap
+        cp -r ${source.pname}.vst3 $out/lib/vst3/${source.pname}.vst3
 
         runHook postBuild
       '';
@@ -52,5 +52,17 @@ in {
     source = sources.destruqtor;
     description = "destruqtor is a companding distortion/saturation/exciter plugin. Unlike traditional distortion, destruqtor applies expanding compression before the waveshaper and an opposite compression after the effect, which preserves and emphasises transients and adds more warmth to your sounds without sacrificing dynamic range";
     homepage = "https://fx.amee.ee/plugin/destruqtor/";
+  };
+
+  filtrr = mkBlep {
+    source = sources.filtrr;
+    description = "filtrr is not just a filter! filtrr is a nonlinear ladder filter that is capable of producing a large variety of sounds";
+    homepage = "https://fx.amee.ee/plugin/filtrr/";
+  };
+
+  prisma = mkBlep {
+    source = sources.prisma;
+    description = "prisma is an FFT based 3-in-1 plugin. It's a pitch shifter that works even on polyphonic audio sources, a formant shifter, and a pitch quantizer (useful for achieving that iconic color bass sound)";
+    homepage = "https://fx.amee.ee/plugin/prisma/";
   };
 }
