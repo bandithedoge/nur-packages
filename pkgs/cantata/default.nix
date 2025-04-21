@@ -4,7 +4,8 @@
   ...
 }:
 pkgs.stdenv.mkDerivation {
-  inherit (sources.cantata) pname version src;
+  inherit (sources.cantata) pname src;
+  version = sources.cantata.date;
 
   nativeBuildInputs = with pkgs; [
     cmake
