@@ -13,11 +13,11 @@
       "name": null,
       "owner": "monocasual",
       "repo": "giada",
-      "rev": "1.1.1",
-      "sha256": "sha256-t24S8tmx9VFcpEwe5EzoMQ7xhX8dj92Mq43gaWc+C50=",
+      "rev": "1.2.0",
+      "sha256": "sha256-EKDqdv4/xsdT0X42n4HdH1fUYpJ79MfHaNpoO2c5VG8=",
       "sparseCheckout": [],
       "type": "github"
     },
-    "version": "1.1.1"
+    "version": "1.2.0"
   }
 }

@@ -20,13 +20,13 @@
   };
   ysfx = {
     pname = "ysfx";
-    version = "v0.0.35";
+    version = "v0.0.36";
     src = fetchFromGitHub {
       owner = "JoepVanlier";
       repo = "ysfx";
-      rev = "v0.0.35";
+      rev = "v0.0.36";
       fetchSubmodules = true;
-      sha256 = "sha256-uZK97BEV+hXdLcIWaY0Ap0mlPWjrBt5HmoeVcv2hWoU=";
+      sha256 = "sha256-5OlizR1TtUJgnwh9wEzWdXkqEIPc5ULSfPennx214SU=";
     };
   };
 }

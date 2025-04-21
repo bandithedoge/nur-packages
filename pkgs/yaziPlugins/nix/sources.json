@@ -293,10 +293,10 @@
     "homepage": null,
     "owner": "Rolv-Apneseth",
     "repo": "starship.yazi",
-    "rev": "c0707544f1d526f704dab2da15f379ec90d613c2",
-    "sha256": "06s9dv3h0cc5w6k26npzjybvafnz9c35vgskbp2r6whx6zvgxj0z",
+    "rev": "6fde3b2d9dc9a12c14588eb85cf4964e619842e6",
+    "sha256": "0dll24507lwbqpbnvci4ca8hhjnjr431grn5s0rrv5q82y19s97q",
     "type": "tarball",
-    "url": "https://github.com/Rolv-Apneseth/starship.yazi/archive/c0707544f1d526f704dab2da15f379ec90d613c2.tar.gz",
+    "url": "https://github.com/Rolv-Apneseth/starship.yazi/archive/6fde3b2d9dc9a12c14588eb85cf4964e619842e6.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "sudo.yazi": {
