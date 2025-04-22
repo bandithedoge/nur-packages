@@ -65,6 +65,7 @@
     kiwmi = callPackage' ./kiwmi;
     klknn = callPackages' ./klknn;
     lamb-bin = callPackage' ./lamb-bin;
+    lazyusf = callPackage' ./lazyusf;
     luaPackages = callPackages' ./luaPackages;
     luakit = callPackage' ./luakit;
     lv2vst = callPackage' ./lv2vst;
