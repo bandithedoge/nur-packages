@@ -77,17 +77,17 @@
   };
   json-rpc = {
     pname = "json-rpc";
-    version = "0c4a4a9002f0648e3e8f0ef6e8125630f09e2be3";
+    version = "cbe8edf69d743a787b76b1cd25bfc4eae89927f7";
     src = fetchgit {
       url = "https://github.com/status-im/nim-json-rpc";
-      rev = "0c4a4a9002f0648e3e8f0ef6e8125630f09e2be3";
+      rev = "cbe8edf69d743a787b76b1cd25bfc4eae89927f7";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [];
-      sha256 = "sha256-sJF7qS9FrfUSI7jOJvIBNiguxvf4QHj4R1u4UHK38bU=";
+      sha256 = "sha256-tWhyXhXcpJTS5qhxdg4fmnjxLSstQlS5Xcmh59SwbM8=";
     };
-    date = "2025-03-06";
+    date = "2025-04-22";
   };
   json_serialization = {
     pname = "json_serialization";
