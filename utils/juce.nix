@@ -16,36 +16,33 @@
     xorg.libXrandr
   ];
 
-  mkJucePackage = args @ {
-    nativeBuildInputs ? [],
-    buildInputs ? [],
-    cmakeFlags ? [],
-    dontUseJuceInstall ? false,
-    ...
-  }: let
-    stdenv = pkgs.stdenvAdapters.useMoldLinker pkgs.stdenv;
-  in
-    stdenv.mkDerivation ({
-        nativeBuildInputs = with pkgs;
-          [
-            cmake
-            makeWrapper
-            ninja
-            pkg-config
-          ]
-          ++ nativeBuildInputs;
+  mkJucePackage = pkgs.lib.extendMkDerivation {
+    constructDrv = (pkgs.stdenvAdapters.useMoldLinker pkgs.stdenv).mkDerivation;
+    extendDrvArgs = finalAttrs: {dontUseJuceInstall ? false, ...} @ args: {
+      nativeBuildInputs = with pkgs;
+        [
+          cmake
+          ninja
+          pkg-config
+          autoPatchelfHook
+        ]
+        ++ (args.nativeBuildInputs or []);
 
-        buildInputs = commonBuildInputs ++ buildInputs;
+      buildInputs = commonBuildInputs ++ (args.buildInputs or []);
 
-        cmakeFlags = ["-DCOPY_PLUGIN_AFTER_BUILD=FALSE"] ++ cmakeFlags;
+      cmakeFlags = ["-DCOPY_PLUGIN_AFTER_BUILD=FALSE"] ++ (args.cmakeFlags or []);
 
-        postPatch = ''
+      postPatch =
+        ''
           for f in $(find -name CMakeLists.txt); do
             substituteInPlace "$f" --replace-quiet "COPY_PLUGIN_AFTER_BUILD TRUE" "COPY_PLUGIN_AFTER_BUILD FALSE"
           done
-        '';
+        ''
+        + (args.postPatch or "");
 
-        installPhase =
+      installPhase =
+        args.installPhase or
+        (
           if dontUseJuceInstall
           then null
           else ''
@@ -54,8 +51,6 @@
             for f in *_artefacts/Release/Standalone/*; do
               mkdir -p $out/bin
               cp "$f" $out/bin
-              # https://github.com/juce-framework/JUCE/issues/619
-              wrapProgram $out/bin/$(basename $f) --prefix LD_LIBRARY_PATH : ${pkgs.lib.makeLibraryPath (commonBuildInputs ++ buildInputs)}
             done
 
             for f in *_artefacts/Release/CLAP/*; do
@@ -74,7 +69,10 @@
             done
 
             runHook postInstall
-          '';
-      }
-      // (pkgs.lib.removeAttrs args ["nativeBuildInputs" "buildInputs" "cmakeFlags"]));
+          ''
+        );
+
+      runtimeDependencies = commonBuildInputs;
+    };
+  };
 }
