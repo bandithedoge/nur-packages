@@ -90,6 +90,7 @@
     partiels = callPackage' ./partiels;
     peakeater-bin = callPackage' ./peakeater-bin;
     powertab = callPackage' ./powertab;
+    projucer = callPackage' ./projucer;
     propertree = callPackage' ./propertree;
     protrekkr = callPackage' ./protrekkr;
     pythonPackages = callPackages' ./pythonPackages;
