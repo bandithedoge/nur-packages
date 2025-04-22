@@ -13,8 +13,6 @@
 
       postPatch = ''
         ln -s ${sources.juce.src} JUCE
-        substituteInPlace CMakeLists.txt \
-          --replace-fail "COPY_PLUGIN_AFTER_BUILD TRUE" "COPY_PLUGIN_AFTER_BUILD FALSE"
       '';
 
       meta = with pkgs.lib;
