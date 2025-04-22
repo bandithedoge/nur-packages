@@ -173,10 +173,10 @@
     "homepage": null,
     "owner": "AnirudhG07",
     "repo": "nbpreview.yazi",
-    "rev": "f8879b382f441e881fc10bd18a523fd910737067",
-    "sha256": "0fv77dh9w1wada7qz5gi5m216aw5mr8w8fccpn8p8y1g4lnyyxw8",
+    "rev": "bc573d5005cb088b93e793e6484f73d1ed9dafa8",
+    "sha256": "1zr2g6skpj84p2nifran6i4nm0h7frb12a70wffv1cjy3l70xn8y",
     "type": "tarball",
-    "url": "https://github.com/AnirudhG07/nbpreview.yazi/archive/f8879b382f441e881fc10bd18a523fd910737067.tar.gz",
+    "url": "https://github.com/AnirudhG07/nbpreview.yazi/archive/bc573d5005cb088b93e793e6484f73d1ed9dafa8.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "omp.yazi": {
@@ -257,10 +257,10 @@
     "homepage": null,
     "owner": "AnirudhG07",
     "repo": "rich-preview.yazi",
-    "rev": "2559e5fa7c1651dbe7c5615ef6f3b5291347d81a",
-    "sha256": "140s8qas32c0zb8j9s8pq6pdzg5syrfk2sh7f49p7vzm1c0a0vbm",
+    "rev": "fdcf37320e35f7c12e8087900eebffcdafaee8cb",
+    "sha256": "1hmbf36k8mjsq1jasc26byqyyq0isjwnhn998k2306g04x663vqw",
     "type": "tarball",
-    "url": "https://github.com/AnirudhG07/rich-preview.yazi/archive/2559e5fa7c1651dbe7c5615ef6f3b5291347d81a.tar.gz",
+    "url": "https://github.com/AnirudhG07/rich-preview.yazi/archive/fdcf37320e35f7c12e8087900eebffcdafaee8cb.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "rsync.yazi": {
@@ -377,10 +377,10 @@
     "homepage": "",
     "owner": "imsi32",
     "repo": "yatline.yazi",
-    "rev": "90e0284b22f922e7e024c403e7e596359e3aa2a0",
-    "sha256": "1ylvs8clr37rzsrp2aikgkaw43bspzl0q9sh6bwzfz553jzxrlgp",
+    "rev": "2ecf715d33866e5f8a63af25f6a242821746ddb7",
+    "sha256": "1mfac6qvwphcqv0h188173f31ffhqgkdni1ca5ssg07509s2p0lp",
     "type": "tarball",
-    "url": "https://github.com/imsi32/yatline.yazi/archive/90e0284b22f922e7e024c403e7e596359e3aa2a0.tar.gz",
+    "url": "https://github.com/imsi32/yatline.yazi/archive/2ecf715d33866e5f8a63af25f6a242821746ddb7.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   }
 }
