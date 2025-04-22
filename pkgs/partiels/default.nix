@@ -12,39 +12,27 @@
     cp -r vamp-plugin-sdk $out
   '';
 in
-  pkgs.stdenv.mkDerivation rec {
+  utils.juce.mkJucePackage {
     inherit (sources.partiels) pname version src;
 
     nativeBuildInputs = with pkgs; [
-      cmake
       copyDesktopItems
       git
-      makeWrapper
-      ninja
-      pkg-config
     ];
 
-    buildInputs = with pkgs;
-      [
-        libjack2
-      ]
-      ++ utils.juce.commonBuildInputs;
+    buildInputs = with pkgs; [
+      libjack2
+    ];
 
-    installPhase = ''
-      runHook preInstall
-
+    postInstall = ''
       mkdir -p $out/{bin,lib/vamp}
       cp -r Partiels $out/libexec
 
-      makeWrapper $out/libexec/Partiels $out/bin/Partiels \
-        --prefix LD_LIBRARY_PATH : ${pkgs.lib.makeLibraryPath buildInputs}
-
+      ln -s $out/libexec/Partiels $out/bin/Partiels
       ln -s $out/libexec/PlugIns/* $out/lib/vamp
 
       mkdir -p $out/share/icons/hicolor/512x512/apps
       ln -s $out/libexec/icon.png $out/share/icons/hicolor/512x512/apps/partiels.png
-
-      runHook postInstall
     '';
 
     cmakeFlags = [
