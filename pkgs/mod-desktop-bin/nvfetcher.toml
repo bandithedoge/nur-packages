@@ -1,0 +1,3 @@
+[mod-desktop-bin]
+src.github = "mod-audio/mod-desktop"
+fetch.url = "https://github.com/mod-audio/mod-desktop/releases/download/$ver/mod-desktop-$ver-linux-x86_64.tar.xz"

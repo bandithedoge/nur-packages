@@ -73,6 +73,7 @@
     mesonlsp-bin = callPackage' ./mesonlsp-bin;
     microbiome-bin = callPackage' ./microbiome-bin;
     misstrhortion = callPackage' ./misstrhortion;
+    mod-desktop-bin = callPackage' ./mod-desktop-bin;
     modstems = callPackage' ./modstems;
     molot-lite = callPackage' ./molot-lite;
     monique = callPackage' ./monique;
