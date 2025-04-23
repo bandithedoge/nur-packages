@@ -1,0 +1,44 @@
+{
+    "perfetto": {
+        "cargoLocks": null,
+        "date": null,
+        "extract": null,
+        "name": "perfetto",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "google",
+            "repo": "perfetto",
+            "rev": "v48.1",
+            "sha256": "sha256-3ce5bomy3BdsF+Fd0epekRESftbESZgAzYmGx7iC4Vk=",
+            "sparseCheckout": [],
+            "type": "github"
+        },
+        "version": "v48.1"
+    },
+    "resonarium": {
+        "cargoLocks": null,
+        "date": null,
+        "extract": null,
+        "name": "resonarium",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": true,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "gabrielsoule",
+            "repo": "resonarium",
+            "rev": "v0.0.10",
+            "sha256": "sha256-m0U0qwZktBMSMVVogb3LvxLAPOxz0q0qchw6rH1Wbbc=",
+            "sparseCheckout": [],
+            "type": "github"
+        },
+        "version": "v0.0.10"
+    }
+}

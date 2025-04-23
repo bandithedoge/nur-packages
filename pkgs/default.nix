@@ -94,6 +94,7 @@
     propertree = callPackage' ./propertree;
     protrekkr = callPackage' ./protrekkr;
     pythonPackages = callPackages' ./pythonPackages;
+    resonarium = callPackage' ./resonarium;
     reverse-camel = callPackage' ./reverse-camel;
     ripplerx = callPackage' ./ripplerx;
     rnnoise-plugin = callPackage' ./rnnoise-plugin;
