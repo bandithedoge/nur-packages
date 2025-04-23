@@ -93,6 +93,7 @@
     powertab = callPackage' ./powertab;
     projucer = callPackage' ./projucer;
     propertree = callPackage' ./propertree;
+    proton-cachyos-bin = callPackage' ./proton-cachyos-bin;
     protrekkr = callPackage' ./protrekkr;
     pythonPackages = callPackages' ./pythonPackages;
     resonarium = callPackage' ./resonarium;
