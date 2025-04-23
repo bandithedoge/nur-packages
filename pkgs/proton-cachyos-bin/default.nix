@@ -25,7 +25,7 @@ pkgs.stdenvNoCC.mkDerivation {
     description = "A compatibility tool for Steam Play based on Wine and additional components, experimental branch with extra CachyOS flavour";
     homepage = "https://github.com/CachyOS/proton-cachyos";
     license = licenses.bsd3;
-    platforms = ["x86-64_linux"];
+    platforms = ["x86_64-linux"];
     sourceProvenance = [sourceTypes.binaryNativeCode];
   };
 }
