@@ -95,6 +95,7 @@
     propertree = callPackage' ./propertree;
     proton-cachyos-bin = callPackage' ./proton-cachyos-bin;
     protrekkr = callPackage' ./protrekkr;
+    psydoom-bin = callPackage' ./psydoom-bin;
     pythonPackages = callPackages' ./pythonPackages;
     resonarium = callPackage' ./resonarium;
     reverse-camel = callPackage' ./reverse-camel;
