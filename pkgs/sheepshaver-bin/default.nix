@@ -16,6 +16,5 @@ pkgs.appimageTools.wrapType2 {
     homepage = "https://sheepshaver.cebix.net/";
     license = licenses.gpl2;
     platforms = ["x86_64-linux"];
-    sourceProvenance = [sourceTypes.binaryNativeCode];
   };
 }
