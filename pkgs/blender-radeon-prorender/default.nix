@@ -20,9 +20,13 @@ pkgs.stdenv.mkDerivation {
   ];
 
   buildPhase = ''
+    runHook preBuild
+
     path=$out/share/blender/${pkgs.lib.versions.majorMinor blender.version}/scripts/addons/rprblender
     mkdir -p $path
     cp -r * $path
+
+    runHook postBuild
   '';
 
   meta = with pkgs.lib; {

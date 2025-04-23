@@ -94,8 +94,12 @@
       buildInputs = commonBuildInputs;
 
       installPhase = ''
+        runHook preInstall
+
         mkdir -p $out/lib/vst3
         cp -r VST3/Release/${source.pname}.vst3 $out/lib/vst3
+
+        runHook postInstall
       '';
 
       cmakeFlags = [

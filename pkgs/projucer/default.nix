@@ -13,8 +13,12 @@ utils.juce.mkJucePackage {
   ];
 
   installPhase = ''
+    runHook preInstall
+
     mkdir -p $out/bin
     cp extras/Projucer/Projucer_artefacts/Release/Projucer $out/bin
+
+    runHook postInstall
   '';
 
   cmakeFlags = [

@@ -20,8 +20,12 @@
       ];
 
       buildPhase = ''
+        runHook preBuild
+
         mkdir -p $out/lib
         cp -r vst $out/lib
+
+        runHook postBuild
       '';
 
       meta = with pkgs.lib; {
