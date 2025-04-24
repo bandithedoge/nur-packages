@@ -7,16 +7,16 @@
 }: {
   onagre = {
     pname = "onagre";
-    version = "5574d26f2ce09eb611a6c807cd28d9f58b72e4ed";
+    version = "c68c716b086afa3cc8ca02a9a03334493ecb5cb1";
     src = fetchurl {
-      url = "https://github.com/onagre-launcher/onagre/archive/5574d26f2ce09eb611a6c807cd28d9f58b72e4ed.tar.gz";
-      sha256 = "sha256-zvcWj0nbrnc5FDvCHq6SowOlv5QjNnRqPxiAUBDYsBk=";
+      url = "https://github.com/onagre-launcher/onagre/archive/c68c716b086afa3cc8ca02a9a03334493ecb5cb1.tar.gz";
+      sha256 = "sha256-I6o+GVothedWTxsS7exiIxXBwFIlh3A2S14YJf01bQ4=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./onagre-5574d26f2ce09eb611a6c807cd28d9f58b72e4ed/Cargo.lock;
+      lockFile = ./onagre-c68c716b086afa3cc8ca02a9a03334493ecb5cb1/Cargo.lock;
       outputHashes = {
       };
     };
-    date = "2024-12-25";
+    date = "2025-04-24";
   };
 }

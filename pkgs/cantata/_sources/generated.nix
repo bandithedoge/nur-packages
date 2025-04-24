@@ -7,16 +7,16 @@
 }: {
   cantata = {
     pname = "cantata";
-    version = "a67db17032eb15c8be233e3da01f6fb25fa8b98c";
+    version = "c8d035f4ecc738eef27ee3999dde101140fa4049";
     src = fetchgit {
       url = "https://github.com/nullobsi/cantata";
-      rev = "a67db17032eb15c8be233e3da01f6fb25fa8b98c";
+      rev = "c8d035f4ecc738eef27ee3999dde101140fa4049";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [];
-      sha256 = "sha256-WOYoMVqJmlAw8uvrMAI/zpyelZhxP7ShTSBu+v7MuV8=";
+      sha256 = "sha256-tEmpGbwwFLjZW7XC8bGIovQB0xgPQL60rWiBKz7KFKc=";
     };
-    date = "2025-04-15";
+    date = "2025-04-24";
   };
 }

@@ -20,7 +20,7 @@ utils.juce.mkJucePackage {
     "-DCPM_perfetto_SOURCE=${sources.perfetto.src}"
   ];
 
-  meta = with pkgs.lib;{
+  meta = with pkgs.lib; {
     description = "An expressive, semi-modular, and comprehensive physical modeling/waveguide synthesizer";
     homepage = "https://github.com/gabrielsoule/resonarium";
     license = licenses.gpl3Only;

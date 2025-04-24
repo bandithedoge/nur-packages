@@ -219,16 +219,16 @@
   };
   zlib = {
     pname = "zlib";
-    version = "3f7998095264d262a8d99e2be89045e6d9301537";
+    version = "daa8723fd32299d4ca621c837430c29a5a11e19a";
     src = fetchgit {
       url = "https://github.com/status-im/nim-zlib";
-      rev = "3f7998095264d262a8d99e2be89045e6d9301537";
+      rev = "daa8723fd32299d4ca621c837430c29a5a11e19a";
       fetchSubmodules = true;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [];
-      sha256 = "sha256-KMvDlm/xmPMSDeJOcDbUp5ZWlNv3qLYO9r50JrxSmRQ=";
+      sha256 = "sha256-M4p1cOOKbW1H/4wxwqjlgACSY4+GBUf0ctkidk5bxmQ=";
     };
-    date = "2025-01-13";
+    date = "2025-04-24";
   };
 }
