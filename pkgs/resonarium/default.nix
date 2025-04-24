@@ -25,5 +25,6 @@ utils.juce.mkJucePackage {
     homepage = "https://github.com/gabrielsoule/resonarium";
     license = licenses.gpl3Only;
     platforms = platforms.linux;
+    broken = true; # build hangs when linking
   };
 }
