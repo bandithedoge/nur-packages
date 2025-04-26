@@ -1,0 +1,17 @@
+{
+    "k-whooms": {
+        "cargoLocks": null,
+        "date": null,
+        "extract": null,
+        "name": "k-whooms",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-8tESW1GCgJgsQlkiX+P4qXRbizST8RUaqHvHx8FwgSQ=",
+            "type": "url",
+            "url": "https://www.hansen-audio.org/download/K-Whooms-2025.03-Linux.tar.gz"
+        },
+        "version": "2025.03"
+    }
+}

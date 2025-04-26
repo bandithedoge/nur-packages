@@ -61,6 +61,7 @@
     ircam-vamp-plugins-bin = callPackage' ./ircam-vamp-plugins-bin;
     js80p = callPackage' ./js80p;
     just-a-sample-bin = callPackage' ./just-a-sample-bin;
+    k-whooms = callPackage' ./k-whooms;
     keepmenu = callPackage' ./keepmenu;
     kiwmi = callPackage' ./kiwmi;
     klknn = callPackages' ./klknn;
