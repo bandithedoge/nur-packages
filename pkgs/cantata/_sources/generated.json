@@ -11,12 +11,12 @@
       "fetchSubmodules": false,
       "leaveDotGit": false,
       "name": null,
-      "rev": "c8d035f4ecc738eef27ee3999dde101140fa4049",
-      "sha256": "sha256-tEmpGbwwFLjZW7XC8bGIovQB0xgPQL60rWiBKz7KFKc=",
+      "rev": "8306905b613b6a9dacbac008dd822f09e4fd0b46",
+      "sha256": "sha256-KXOb7SpTF1vAyDBFrSlYAAYICfugxwqVRZVz7Ed8gLI=",
       "sparseCheckout": [],
       "type": "git",
       "url": "https://github.com/nullobsi/cantata"
     },
-    "version": "c8d035f4ecc738eef27ee3999dde101140fa4049"
+    "version": "8306905b613b6a9dacbac008dd822f09e4fd0b46"
   }
 }
