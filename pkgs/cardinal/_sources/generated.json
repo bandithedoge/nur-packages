@@ -1,7 +1,7 @@
 {
   "cardinal": {
     "cargoLocks": null,
-    "date": "2025-04-23",
+    "date": "2025-04-27",
     "extract": null,
     "name": "cardinal",
     "passthru": null,
@@ -13,11 +13,11 @@
       "name": null,
       "owner": "DISTRHO",
       "repo": "Cardinal",
-      "rev": "850e76ec10d565712df3b63a91e78985e6dff845",
-      "sha256": "sha256-01b6EwOWYwRYgbq1eyF9xrEByRQBO/OksBVs5ndeux4=",
+      "rev": "52fa1604f0118ea1c769f694ecf2421b8dae9360",
+      "sha256": "sha256-iJQQCTeJpwN9LRwMkNi+sKiQ8brQmlY22jvsR0O8kPQ=",
       "sparseCheckout": [],
       "type": "github"
     },
-    "version": "850e76ec10d565712df3b63a91e78985e6dff845"
+    "version": "52fa1604f0118ea1c769f694ecf2421b8dae9360"
   }
 }
