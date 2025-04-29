@@ -5,10 +5,10 @@
     "homepage": null,
     "owner": "jdtsmith",
     "repo": "eglot-booster",
-    "rev": "e6daa6bcaf4aceee29c8a5a949b43eb1b89900ed",
-    "sha256": "1fz9c0glxpx9wzkwc5w3lgbr82cj7xdlg9n4cm6pwxg489fdmdrw",
+    "rev": "1260d2f7dd18619b42359aa3e1ba6871aa52fd26",
+    "sha256": "0b8pknnkyzqmi7b8ms27dzcbcx87cn2m8m160v18mv6b61c0mq5m",
     "type": "tarball",
-    "url": "https://github.com/jdtsmith/eglot-booster/archive/e6daa6bcaf4aceee29c8a5a949b43eb1b89900ed.tar.gz",
+    "url": "https://github.com/jdtsmith/eglot-booster/archive/1260d2f7dd18619b42359aa3e1ba6871aa52fd26.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "eglot-inactive-regions": {
