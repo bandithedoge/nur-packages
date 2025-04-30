@@ -1,7 +1,7 @@
 {
   "kmonad": {
     "cargoLocks": null,
-    "date": "2025-04-22",
+    "date": "2025-04-29",
     "extract": null,
     "name": "kmonad",
     "passthru": null,
@@ -13,12 +13,12 @@
       "name": null,
       "owner": "kmonad",
       "repo": "kmonad",
-      "rev": "34f6e2b53edba6ce160e1084e667d2f456c49239",
-      "sha256": "sha256-W1ZQeUR4ekYwhL5mqGrG+/r7Zk67xReM5CGoNuaXEhA=",
+      "rev": "4c0314638a604b8c61cf9bdc0f40e1ebc2c6fa8c",
+      "sha256": "sha256-PwQ/1yPHAisngQN/4J9TzPjvpuLOK9yq81LCHF3XK3Y=",
       "sparseCheckout": [],
       "type": "github"
     },
-    "version": "34f6e2b53edba6ce160e1084e667d2f456c49239"
+    "version": "4c0314638a604b8c61cf9bdc0f40e1ebc2c6fa8c"
   },
   "taffybar": {
     "cargoLocks": null,
