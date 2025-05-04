@@ -37,7 +37,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          nix flake update
+          nix flake update --commit-lock-file
           echo -e '[keys]\ngithub = "${{ secrets.GITHUB_TOKEN }}"' > keyfile.toml
           chmod +x fetch.sh
           nix develop -c ./fetch.sh --commit
