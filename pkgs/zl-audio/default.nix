@@ -93,7 +93,6 @@ in {
 
   inflator = mkZl {
     pname = "ZLInflator";
-    prettyName = "ZL Inflator";
     source = sources.inflator;
     meta = {
       description = "distortion/saturation plugin";
