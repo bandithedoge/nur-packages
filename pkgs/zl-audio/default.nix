@@ -6,17 +6,21 @@
 }: let
   mkZl = {
     pname,
-    prettyName,
     source,
     version ? source.version,
     meta,
+    extraCmakeFlags ? [],
     cflags ? [],
   }:
     utils.juce.mkJucePackage {
       inherit pname version;
       inherit (source) src;
 
-      cmakeFlags = ["-DBUILD_SHARED_LIBS=OFF"];
+      cmakeFlags =
+        [
+          "-DZL_JUCE_COPY_PLUGIN=FALSE"
+        ]
+        ++ extraCmakeFlags;
 
       NIX_CFLAGS_COMPILE = cflags;
 
@@ -30,29 +34,28 @@
 in {
   equalizer = mkZl {
     pname = "ZLEqualizer";
-    prettyName = "ZL Equalizer";
     source = sources.equalizer;
     meta = {
       description = "equalizer plugin";
       homepage = "https://zl-audio.github.io/plugins/zlequalizer/";
       license = pkgs.lib.licenses.agpl3Only;
     };
+    extraCmakeFlags = ["-DKFR_ENABLE_DFT=ON"];
   };
 
   compressor = mkZl {
     pname = "ZLCompressor";
-    prettyName = "ZL Compressor";
     source = sources.compressor;
     version = sources.compressor.date;
     meta = {
       description = "compressor plugin";
       homepage = "https://github.com/ZL-Audio/ZLCompressor";
     };
+    extraCmakeFlags = ["-DKFR_ENABLE_DFT=ON"];
   };
 
   splitter = mkZl {
     pname = "ZLSplitter";
-    prettyName = "ZL Splitter";
     source = sources.splitter;
     meta = {
       description = "splitter plugin";
@@ -63,7 +66,6 @@ in {
 
   warm = mkZl {
     pname = "ZLWarm";
-    prettyName = "ZL Warm";
     source = sources.warm;
     meta = {
       description = "distortion/saturation plugin";
@@ -73,7 +75,6 @@ in {
 
   lmakeup = mkZl {
     pname = "ZLLMakeup";
-    prettyName = "ZL Loudness Makeup";
     source = sources.lmakeup;
     meta = {
       description = "loudness make-up plugin";
@@ -83,7 +84,6 @@ in {
 
   lmatch = mkZl {
     pname = "ZLLMatch";
-    prettyName = "ZL Loudness Match";
     source = sources.lmatch;
     meta = {
       description = "loudness matching plugin";
