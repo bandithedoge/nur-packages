@@ -48,12 +48,7 @@ jobs:
         run: nix fmt
 
       - name: Check evaluation
-        run: |
-          nix-env -f . -qa \* --meta --xml \
-            --option allow-import-from-derivation true \
-            --drv-path --show-trace \
-            -I nixpkgs="$(nix-instantiate --find-file nixpkgs)" \
-            -I "$PWD"
+        run: nix eval .#_BUILDABLE --show-trace > /dev/null
 
       - name: Build cacheable packages
         run: |
