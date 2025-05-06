@@ -76,6 +76,7 @@ in {
   lmakeup = mkZl {
     pname = "ZLLMakeup";
     source = sources.lmakeup;
+    version = pkgs.lib.removePrefix "v" sources.lmakeup.version;
     meta = {
       description = "loudness make-up plugin";
       homepage = "https://github.com/ZL-Audio/ZLLMakeup";
@@ -85,6 +86,7 @@ in {
   lmatch = mkZl {
     pname = "ZLLMatch";
     source = sources.lmatch;
+    version = pkgs.lib.removePrefix "v" sources.lmatch.version;
     meta = {
       description = "loudness matching plugin";
       homepage = "https://github.com/ZL-Audio/ZLLMatch";

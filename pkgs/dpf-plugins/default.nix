@@ -4,7 +4,8 @@
   ...
 }:
 pkgs.stdenv.mkDerivation {
-  inherit (sources.dpf-plugins) pname src version;
+  inherit (sources.dpf-plugins) pname src;
+  version = pkgs.lib.removePrefix "v" sources.dpf-plugins.version;
 
   buildInputs = with pkgs; [
     libGL

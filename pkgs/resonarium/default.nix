@@ -5,7 +5,8 @@
   ...
 }:
 utils.juce.mkJucePackage {
-  inherit (sources.resonarium) pname version src;
+  inherit (sources.resonarium) pname src;
+  version = pkgs.lib.removePrefix "v" sources.resonarium.version;
 
   nativeBuildInputs = with pkgs; [
     python3

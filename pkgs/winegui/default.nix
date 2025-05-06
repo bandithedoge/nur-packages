@@ -4,7 +4,8 @@
   ...
 }:
 pkgs.stdenv.mkDerivation {
-  inherit (sources.winegui) pname version src;
+  inherit (sources.winegui) pname src;
+  version = pkgs.lib.removePrefix "v" sources.winegui.version;
 
   nativeBuildInputs = with pkgs; [
     cmake

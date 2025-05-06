@@ -8,6 +8,7 @@
     nativeBuildInputs = with pkgs; [autoreconfHook];
     meta.mainProgram = "patchelf";
   };
+
   mkUhe = product: {
     clap ? true,
     meta ? {},
@@ -15,8 +16,7 @@
     nativeBuildInputs ? [],
     preBuild ? null,
     postBuild ? null,
-  }: let
-  in
+  }:
     pkgs.stdenv.mkDerivation {
       inherit (sources.${product}) pname version src;
 

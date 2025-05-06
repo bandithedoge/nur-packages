@@ -5,7 +5,8 @@
   ...
 }:
 pkgs.stdenv.mkDerivation {
-  inherit (sources.guitarix-vst-bin) pname version src;
+  inherit (sources.guitarix-vst-bin) pname src;
+  version = pkgs.lib.removePrefix "v" sources.guitarix-vst-bin.version;
   sourceRoot = ".";
 
   nativeBuildInputs = with pkgs; [

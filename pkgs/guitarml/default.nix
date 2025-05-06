@@ -23,6 +23,7 @@
 in {
   proteus = mkGuitarMl {
     source = sources.proteus;
+    version = pkgs.lib.removePrefix "v" sources.proteus.version;
     meta = {
       homepage = "https://github.com/GuitarML/Proteus";
       description = "Guitar amp and pedal capture plugin using neural networks";
@@ -31,6 +32,7 @@ in {
 
   prince = mkGuitarMl {
     source = sources.prince;
+    version = pkgs.lib.removePrefix "v" sources.prince.version;
     meta = {
       homepage = "https://github.com/GuitarML/PrincePedal";
       description = "Prince of Tone style guitar plugin made with neural networks";

@@ -4,7 +4,8 @@
   ...
 }:
 pkgs.stdenv.mkDerivation {
-  inherit (sources.lamb-bin) pname version src;
+  inherit (sources.lamb-bin) pname src;
+  version = pkgs.lib.removePrefix "v" sources.lamb-bin.version;
   sourceRoot = ".";
 
   nativeBuildInputs = with pkgs; [

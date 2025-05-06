@@ -4,7 +4,8 @@
   ...
 }:
 pkgs.stdenv.mkDerivation {
-  inherit (sources.geonkick) pname version src;
+  inherit (sources.geonkick) pname src;
+  version = pkgs.lib.removePrefix "v" sources.geonkick.version;
 
   nativeBuildInputs = with pkgs; [
     cmake

@@ -7,7 +7,9 @@
 in
   pkgs.stdenv.mkDerivation {
     pname = "zlint-bin";
-    inherit (source) version src;
+    version = pkgs.lib.removePrefix "v" source.version;
+    inherit (source) src;
+
     dontUnpack = true;
 
     buildPhase = ''

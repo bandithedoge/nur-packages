@@ -5,7 +5,8 @@
   ...
 }:
 utils.juce.mkJucePackage {
-  inherit (sources.ysfx) pname version src;
+  inherit (sources.ysfx) pname src;
+  version = pkgs.lib.removePrefix "v" sources.ysfx.version;
 
   cmakeFlags = [
     "-DFETCHCONTENT_SOURCE_DIR_JUCE=${sources.juce.src}"

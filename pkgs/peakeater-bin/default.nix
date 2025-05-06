@@ -5,7 +5,8 @@
   ...
 }:
 pkgs.stdenv.mkDerivation {
-  inherit (sources.peakeater-bin) pname version src;
+  inherit (sources.peakeater-bin) pname src;
+  version = pkgs.lib.removePrefix "v" sources.peakeater-bin.version;
 
   nativeBuildInputs = with pkgs; [
     autoPatchelfHook

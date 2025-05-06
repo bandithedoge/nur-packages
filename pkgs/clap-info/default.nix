@@ -4,7 +4,8 @@
   ...
 }:
 pkgs.stdenv.mkDerivation {
-  inherit (sources.clap-info) pname version src;
+  inherit (sources.clap-info) pname src;
+  version = pkgs.lib.removePrefix "v" sources.clap-info.version;
 
   nativeBuildInputs = with pkgs; [
     cmake

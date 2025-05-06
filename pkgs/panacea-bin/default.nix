@@ -9,7 +9,8 @@
   });
 in
   pkgs.stdenv.mkDerivation {
-    inherit (sources.panacea-bin) pname version src;
+    inherit (sources.panacea-bin) pname src;
+    version = pkgs.lib.removePrefix "v" sources.panacea-bin.version;
 
     nativeBuildInputs = with pkgs; [
       autoPatchelfHook

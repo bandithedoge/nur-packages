@@ -4,7 +4,8 @@
   ...
 }:
 pkgs.rustPlatform.buildRustPackage {
-  inherit (sources.octasine) pname version src;
+  inherit (sources.octasine) pname src;
+  version = pkgs.lib.removePrefix "v" sources.octasine.version;
   cargoLock = sources.octasine.cargoLock."Cargo.lock";
 
   nativeBuildInputs = with pkgs; [

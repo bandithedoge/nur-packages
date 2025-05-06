@@ -4,7 +4,8 @@
   ...
 }:
 pkgs.stdenv.mkDerivation {
-  inherit (sources.nugget-doom) pname version src;
+  inherit (sources.nugget-doom) pname src;
+  version = pkgs.lib.removePrefix "nugget-doom-" sources.nugget-doom.version;
 
   nativeBuildInputs = with pkgs; [
     cmake

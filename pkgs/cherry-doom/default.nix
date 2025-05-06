@@ -4,7 +4,8 @@
   ...
 }:
 pkgs.stdenv.mkDerivation {
-  inherit (sources.cherry-doom) pname version src;
+  inherit (sources.cherry-doom) pname src;
+  version = pkgs.lib.removePrefix "cherry-doom-" sources.cherry-doom.version;
 
   nativeBuildInputs = with pkgs; [
     cmake

@@ -5,7 +5,8 @@
   ...
 }:
 pkgs.stdenv.mkDerivation {
-  inherit (sources.mxtune-bin) pname version src;
+  inherit (sources.mxtune-bin) pname src;
+  version = pkgs.lib.removePrefix "v" sources.mxtune-bin.version;
 
   nativeBuildInputs = with pkgs; [
     autoPatchelfHook

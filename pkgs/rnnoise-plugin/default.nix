@@ -5,7 +5,8 @@
   ...
 }:
 utils.juce.mkJucePackage {
-  inherit (sources.rnnoise-plugin) pname version src;
+  inherit (sources.rnnoise-plugin) pname src;
+  version = pkgs.lib.removePrefix "v" sources.rnnoise-plugin.version;
 
   cmakeFlags = ["-DBUILD_FOR_RELEASE=ON"];
 

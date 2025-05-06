@@ -14,7 +14,8 @@
   source = sourceMap.${pkgs.stdenv.system} or sourceMap.x86_64-linux;
 in
   pkgs.appimageTools.wrapType2 {
-    inherit (source) pname version src;
+    pname = "psydoom";
+    inherit (source) version src;
 
     meta = with pkgs.lib; {
       description = "A backport of PSX Doom to PC";

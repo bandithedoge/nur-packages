@@ -9,7 +9,8 @@
     homepage,
   }:
     pkgs.stdenv.mkDerivation {
-      inherit (source) pname version src;
+      inherit (source) pname src;
+      version = pkgs.lib.removePrefix "version-" source.version;
 
       sourceRoot = ".";
 

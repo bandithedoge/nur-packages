@@ -20,7 +20,8 @@
   };
 in
   pythonPkgs.buildPythonPackage {
-    inherit (sources.hvcc) pname version src;
+    inherit (sources.hvcc) pname src;
+    version = pkgs.lib.removePrefix "v" sources.hvcc.version;
 
     pyproject = true;
 

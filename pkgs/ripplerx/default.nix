@@ -5,7 +5,8 @@
   ...
 }:
 utils.juce.mkJucePackage {
-  inherit (sources.ripplerx) pname version src;
+  inherit (sources.ripplerx) pname src;
+  version = pkgs.lib.removePrefix "v" sources.ripplerx.version;
 
   meta = with pkgs.lib; {
     description = "A physically modeled synth";

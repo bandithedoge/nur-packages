@@ -10,7 +10,8 @@
     sourceRoot ? "linux",
   }:
     pkgs.stdenv.mkDerivation {
-      inherit (source) pname version src;
+      inherit (source) pname src;
+      version = pkgs.lib.removePrefix "v" source.version;
       inherit sourceRoot;
 
       nativeBuildInputs = with pkgs; [

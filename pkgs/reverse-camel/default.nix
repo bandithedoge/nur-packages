@@ -4,7 +4,8 @@
   ...
 }:
 pkgs.stdenv.mkDerivation {
-  inherit (sources.reverse-camel) pname version src;
+  inherit (sources.reverse-camel) pname src;
+  version = pkgs.lib.removePrefix "v" sources.reverse-camel.version;
 
   nativeBuildInputs = with pkgs; [
     pkg-config

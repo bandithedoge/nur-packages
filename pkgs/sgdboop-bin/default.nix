@@ -4,7 +4,8 @@
   ...
 }:
 pkgs.stdenv.mkDerivation {
-  inherit (sources.sgdboop-bin) pname version src;
+  inherit (sources.sgdboop-bin) pname src;
+  version = pkgs.lib.removePrefix "v" sources.sgdboop-bin.version;
   sourceRoot = ".";
 
   nativeBuildInputs = with pkgs; [

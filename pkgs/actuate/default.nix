@@ -4,7 +4,8 @@
   ...
 }:
 pkgs.rustPlatform.buildRustPackage {
-  inherit (sources.actuate) pname version src;
+  inherit (sources.actuate) pname src;
+  version = pkgs.lib.removePrefix "v" sources.actuate.version;
   cargoLock = sources.actuate.cargoLock."Cargo.lock";
 
   nativeBuildInputs = with pkgs; [

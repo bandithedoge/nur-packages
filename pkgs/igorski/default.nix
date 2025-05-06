@@ -9,7 +9,8 @@
     meta,
   }:
     utils.juce.mkJucePackage {
-      inherit (source) pname version src;
+      inherit (source) pname src;
+      version = pkgs.lib.removePrefix "v" source.version;
 
       postPatch = ''
         ln -s ${sources.juce.src} JUCE

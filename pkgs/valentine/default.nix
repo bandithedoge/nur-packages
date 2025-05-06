@@ -5,7 +5,8 @@
   ...
 }:
 utils.juce.mkJucePackage {
-  inherit (sources.valentine) pname version src;
+  inherit (sources.valentine) pname src;
+  version = pkgs.lib.removePrefix "v" sources.valentine.version;
 
   cmakeFlags = ["-DFETCHCONTENT_SOURCE_DIR_CATCH2=${sources.catch2.src}"];
 

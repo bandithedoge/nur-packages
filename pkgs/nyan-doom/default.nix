@@ -4,7 +4,8 @@
   ...
 }:
 pkgs.stdenv.mkDerivation rec {
-  inherit (sources.nyan-doom) pname version src;
+  inherit (sources.nyan-doom) pname src;
+  version = pkgs.lib.removePrefix "v" sources.nyan-doom.version;
   sourceRoot = "${src.name}/prboom2";
 
   nativeBuildInputs = with pkgs; [

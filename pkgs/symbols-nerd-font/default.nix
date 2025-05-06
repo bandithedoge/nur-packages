@@ -4,8 +4,9 @@
   ...
 }:
 pkgs.stdenv.mkDerivation {
-  inherit (sources.symbols-nerd-font) version src;
   pname = "symbols-nerd-font";
+  version = pkgs.lib.removePrefix "v" sources.symbols-nerd-font.version;
+  inherit (sources.symbols-nerd-font) src;
 
   nativeBuildInputs = with pkgs; [unzip];
 

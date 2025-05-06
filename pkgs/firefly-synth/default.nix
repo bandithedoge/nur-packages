@@ -5,7 +5,8 @@
   ...
 }:
 utils.juce.mkJucePackage {
-  inherit (sources.firefly-synth) pname version src;
+  inherit (sources.firefly-synth) pname src;
+  version = pkgs.lib.removePrefix "v" sources.firefly-synth.version;
 
   installPhase = ''
     runHook preInstall

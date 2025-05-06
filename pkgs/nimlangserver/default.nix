@@ -4,7 +4,8 @@
   ...
 }:
 pkgs.buildNimPackage {
-  inherit (sources.nimlangserver) pname version src;
+  inherit (sources.nimlangserver) pname src;
+  version = pkgs.lib.removePrefix "v" sources.nimlangserver.version;
 
   buildInputs = with sources; [
     bearssl.src

@@ -5,7 +5,10 @@
   ...
 }:
 pkgs.stdenv.mkDerivation {
-  inherit (sources.blender-radeon-prorender) pname version src;
+  inherit (sources.blender-radeon-prorender) pname src;
+  version =
+    pkgs.lib.removePrefix "v"
+    (builtins.elemAt (pkgs.lib.splitString "/" sources.blender-radeon-prorender.version) 0);
 
   nativeBuildInputs = with pkgs; [
     autoPatchelfHook

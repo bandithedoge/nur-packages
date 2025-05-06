@@ -7,7 +7,8 @@
   arch = pkgs.stdenv.targetPlatform.uname.processor;
 in
   pkgs.stdenv.mkDerivation rec {
-    inherit (sources.js80p) pname version src;
+    inherit (sources.js80p) pname src;
+    version = pkgs.lib.removePrefix "v" sources.js80p.version;
 
     buildInputs = with pkgs; [
       cairo

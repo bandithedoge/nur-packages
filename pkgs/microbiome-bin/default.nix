@@ -6,7 +6,7 @@
 }:
 pkgs.stdenv.mkDerivation {
   pname = "microbiome-bin";
-  version = sources.microbiome-bin-lv2.version;
+  version = pkgs.lib.removePrefix "v" sources.microbiome-bin-lv2.version;
   srcs = [
     sources.microbiome-bin-lv2.src
     sources.microbiome-bin-vst3.src

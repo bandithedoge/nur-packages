@@ -5,7 +5,8 @@
 }:
 # TODO: this can now be a native build
 pkgs.stdenv.mkDerivation {
-  inherit (sources.mesonlsp-bin) pname version src;
+  inherit (sources.mesonlsp-bin) pname src;
+  version = pkgs.lib.removePrefix "v" sources.mesonlsp-bin.version;
 
   nativeBuildInputs = with pkgs; [
     unzip
