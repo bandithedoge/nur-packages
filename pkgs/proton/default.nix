@@ -45,6 +45,15 @@ in {
     };
   };
 
+  ge = mkProton rec {
+    source = sources.proton-ge;
+    version = pkgs.lib.removePrefix "GE-Proton" source.version;
+    meta = {
+      description = "Compatibility tool for Steam Play based on Wine and additional components";
+      homepage = "https://github.com/GloriousEggroll/proton-ge-custom";
+    };
+  };
+
   sarek = mkProton rec {
     source = sources.proton-sarek;
     version = pkgs.lib.removePrefix "Proton-Sarek" source.version;

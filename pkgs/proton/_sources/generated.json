@@ -14,6 +14,21 @@
         },
         "version": "cachyos-9.0-20250426-slr"
     },
+    "proton-ge": {
+        "cargoLocks": null,
+        "date": null,
+        "extract": null,
+        "name": "proton-ge",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-u9MQi6jc8XPdKmDvTrG40H4Ps8mhBhtbkxDFNVwVGTc=",
+            "type": "url",
+            "url": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton9-27/GE-Proton9-27.tar.gz"
+        },
+        "version": "GE-Proton9-27"
+    },
     "proton-sarek": {
         "cargoLocks": null,
         "date": null,

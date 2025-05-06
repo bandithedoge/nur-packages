@@ -9,6 +9,14 @@
       sha256 = "sha256-9M4TmnCLiFIlcYy+wsv5s9Nbler1Qa/Cy9RYzLZ9fQM=";
     };
   };
+  proton-ge = {
+    pname = "proton-ge";
+    version = "GE-Proton9-27";
+    src = fetchurl {
+      url = "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton9-27/GE-Proton9-27.tar.gz";
+      sha256 = "sha256-u9MQi6jc8XPdKmDvTrG40H4Ps8mhBhtbkxDFNVwVGTc=";
+    };
+  };
   proton-sarek = {
     pname = "proton-sarek";
     version = "Proton-Sarek9-27";

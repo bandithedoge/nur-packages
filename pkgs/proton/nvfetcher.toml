@@ -9,3 +9,7 @@ fetch.url = "https://github.com/pythonlover02/Proton-Sarek/releases/download/$ve
 [proton-sarek-async]
 src.github = "pythonlover02/Proton-Sarek"
 fetch.url = "https://github.com/pythonlover02/Proton-Sarek/releases/download/$ver/$ver-async.tar.gz"
+
+[proton-ge]
+src.github = "GloriousEggroll/proton-ge-custom"
+fetch.url = "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/$ver/$ver.tar.gz"
