@@ -22,4 +22,11 @@ pkgs.rustPlatform.buildRustPackage {
     mkdir -p $out/share/icons/hicolor/scalable/apps
     cp assets/satty.svg $out/share/icons/hicolor/scalable/apps
   '';
+
+  meta = with pkgs; {
+    description = "Modern Screenshot Annotation. A tool inspired by Swappy and Flameshot";
+    homepage = "https://github.com/gabm/satty";
+    license = licenses.mpl20;
+    platforms = platforms.linux;
+  };
 }
