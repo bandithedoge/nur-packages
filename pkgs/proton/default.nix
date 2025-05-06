@@ -44,4 +44,22 @@ in {
       homepage = "https://github.com/CachyOS/proton-cachyos";
     };
   };
+
+  sarek = mkProton rec {
+    source = sources.proton-sarek;
+    version = pkgs.lib.removePrefix "Proton-Sarek" source.version;
+    meta = {
+      description = "Steam Play compatibility tool based on Wine and additional components, with a focus on older PCs";
+      homepage = "https://github.com/pythonlover02/Proton-Sarek";
+    };
+  };
+
+  sarek-async = mkProton rec {
+    source = sources.proton-sarek-async;
+    version = pkgs.lib.removePrefix "Proton-Sarek" source.version;
+    meta = {
+      description = "Steam Play compatibility tool based on Wine and additional components, with a focus on older PCs (with DXVK async)";
+      homepage = "https://github.com/pythonlover02/Proton-Sarek";
+    };
+  };
 }
