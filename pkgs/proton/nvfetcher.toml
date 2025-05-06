@@ -1,3 +1,3 @@
-[proton-cachyos-bin]
+[proton-cachyos]
 src.github = "CachyOS/proton-cachyos"
 fetch.url = "https://github.com/CachyOS/proton-cachyos/releases/download/$ver/proton-$ver-x86_64_v3.tar.xz"
