@@ -770,10 +770,10 @@
   };
   "material-icons-for-github" = buildFirefoxXpiAddon {
     pname = "material-icons-for-github";
-    version = "1.10.2";
+    version = "1.10.3";
     addonId = "{eac6e624-97fa-4f28-9d24-c06c9b8aa713}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4467552/material_icons_for_github-1.10.2.xpi";
-    sha256 = "cf1b140c833acb2758f3bee22f3de5853a7e8c66b97293bb95ba03c61098a8ae";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4485826/material_icons_for_github-1.10.3.xpi";
+    sha256 = "38316c95a30b652b730638cf9379bf4be51c191a9eb80ae95c4f0c1a7dc43400";
     meta = with lib; {
       homepage = "https://github.com/Claudiohbsantos/github-material-icons-extension";
       description = "Replace the file/folder icons on github file browsers with icons representing the file's type and which tool it is used by.";
@@ -1455,10 +1455,10 @@
   };
   "sponsorblock" = buildFirefoxXpiAddon {
     pname = "sponsorblock";
-    version = "5.11.10";
+    version = "5.12.1";
     addonId = "sponsorBlocker@ajay.app";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4465727/sponsorblock-5.11.10.xpi";
-    sha256 = "07e8f50f01a7be1d7b35233a26f599d1471a5b601acd8dfa07dc023c86cac83d";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4480833/sponsorblock-5.12.1.xpi";
+    sha256 = "1ba2e6f90f64281397c131f8cd195faa01832600bee19ec3b93dce9366cfa96e";
     meta = with lib; {
       homepage = "https://sponsor.ajay.app";
       description = "Easily skip YouTube video sponsors. When you visit a YouTube video, the extension will check the database for reported sponsors and automatically skip known sponsors. You can also report sponsors in videos. Other browsers: https://sponsor.ajay.app";

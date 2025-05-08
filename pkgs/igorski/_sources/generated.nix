@@ -73,13 +73,13 @@
   };
   regrader = {
     pname = "regrader";
-    version = "v1.0.5";
+    version = "1.0.5";
     src = fetchFromGitHub {
       owner = "igorski";
       repo = "regrader";
-      rev = "v1.0.5";
+      rev = "1.0.5";
       fetchSubmodules = false;
-      sha256 = "sha256-Rb3J+PiAAxYivvml1ngOrxwKIIZhXxlN8/04fTvjh/c=";
+      sha256 = "sha256-tu1xfsnlc+55BdheF9y1N8OyeCrugGu+bHNg6tFK8Ys=";
     };
   };
   transformant = {

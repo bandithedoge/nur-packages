@@ -18,15 +18,15 @@
     cargoLock."Cargo.lock" = {
       lockFile = ./actuate-v1.3.9/Cargo.lock;
       outputHashes = {
-        "nih_plug_xtask-0.1.0" = "sha256-9S2uyt4CAjSfI6i/7s2lQHFYKod3f1GU3bj2J2Ut4lE=";
-        "assert_no_alloc-1.1.2" = "sha256-kCwtn0uONDTlDqfCpYtjB3spYM89qWjkzUOdcGjtY3c=";
-        "baseview-0.1.0" = "sha256-89+5/TF9U7N4ODF1OOls1hnJHT0pkN2t9UakUaSitwY=";
-        "vst3-com-0.1.0" = "sha256-tKWEmJR9aRpfsiuVr0K8XXYafVs+CzqCcP+Ea9qvZ7Y=";
+        "reflink-0.1.3" = "sha256-1o5d/mepjbDLuoZ2/49Bi6sFgVX4WdCuhGJkk8ulhcI=";
         "nih_plug-0.0.0" = "sha256-kZbahZyzm0NketIeqqTlpq+fSoEO2FaEG0a4Mrxw3Z8=";
-        "clap-sys-0.3.0" = "sha256-svq9DMqzKVZCU07FiOIsdCt78BJctwlPobSlNZGeBxQ=";
+        "vst3-com-0.1.0" = "sha256-tKWEmJR9aRpfsiuVr0K8XXYafVs+CzqCcP+Ea9qvZ7Y=";
+        "assert_no_alloc-1.1.2" = "sha256-kCwtn0uONDTlDqfCpYtjB3spYM89qWjkzUOdcGjtY3c=";
+        "nih_plug_xtask-0.1.0" = "sha256-9S2uyt4CAjSfI6i/7s2lQHFYKod3f1GU3bj2J2Ut4lE=";
         "egui-baseview-0.2.0" = "sha256-vPAeVqxoWR0o0MthsAMzxyfoIGMSEVDPTSZBJrHfJpQ=";
         "egui_file-0.22.0" = "sha256-LV92wbZhYKxKEmP5S8XG8cID9cwP0P4kXdhoLbQzsM8=";
-        "reflink-0.1.3" = "sha256-1o5d/mepjbDLuoZ2/49Bi6sFgVX4WdCuhGJkk8ulhcI=";
+        "baseview-0.1.0" = "sha256-89+5/TF9U7N4ODF1OOls1hnJHT0pkN2t9UakUaSitwY=";
+        "clap-sys-0.3.0" = "sha256-svq9DMqzKVZCU07FiOIsdCt78BJctwlPobSlNZGeBxQ=";
       };
     };
   };

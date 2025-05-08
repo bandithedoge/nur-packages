@@ -15,10 +15,10 @@
     cargoLock."Cargo.lock" = {
       lockFile = ./octasine-v0.9.1/Cargo.lock;
       outputHashes = {
-        "nih_plug_xtask-0.1.0" = "sha256-9MXkZESUK/NbZqEpDI/myqhFu+sX72hSBz9685/SACM=";
         "iced_baseview-0.0.3" = "sha256-BXGYNoRLZBE2DyJ/113u31ORxR2RrJ0A9fdKrhp3RiI=";
-        "baseview-0.1.0" = "sha256-QAkOTdA5krZPOUs7ExTVGfqK+sxG2A4H87GZgDl2LpU=";
         "reflink-0.1.3" = "sha256-1o5d/mepjbDLuoZ2/49Bi6sFgVX4WdCuhGJkk8ulhcI=";
+        "nih_plug_xtask-0.1.0" = "sha256-9MXkZESUK/NbZqEpDI/myqhFu+sX72hSBz9685/SACM=";
+        "baseview-0.1.0" = "sha256-QAkOTdA5krZPOUs7ExTVGfqK+sxG2A4H87GZgDl2LpU=";
       };
     };
   };

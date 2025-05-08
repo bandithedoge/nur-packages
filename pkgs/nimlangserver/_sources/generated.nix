@@ -105,27 +105,27 @@
   };
   nimcrypto = {
     pname = "nimcrypto";
-    version = "69eec0375dd146aede41f920c702c531bfe89c6b";
+    version = "19c41d6be4c00b4a2c8000583bd30cf8ceb5f4b1";
     src = fetchgit {
       url = "https://github.com/cheatfate/nimcrypto";
-      rev = "69eec0375dd146aede41f920c702c531bfe89c6b";
+      rev = "19c41d6be4c00b4a2c8000583bd30cf8ceb5f4b1";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [];
-      sha256 = "sha256-Z6oaGzRiai/hLdudDb/VP6euoiEKG6T4sivucfmdFyM=";
+      sha256 = "sha256-CloiQdCdr+PsC89BVtmhWRk1HeX7/kE2Y0p6hage4v8=";
     };
-    date = "2025-02-15";
+    date = "2025-05-07";
   };
   nimlangserver = {
     pname = "nimlangserver";
-    version = "v1.10.2";
+    version = "v1.12.0";
     src = fetchFromGitHub {
       owner = "nim-lang";
       repo = "langserver";
-      rev = "v1.10.2";
+      rev = "v1.12.0";
       fetchSubmodules = false;
-      sha256 = "sha256-CbdlDcEkX/pPXEbIsSM6S9INeBCwgjx7NxonjUJAHrk=";
+      sha256 = "sha256-yf3oiKwsJoQxRPhbEBMJN+TR7j58t6ggjq51DJ3ypGQ=";
     };
   };
   regex = {
