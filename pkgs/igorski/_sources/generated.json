@@ -118,12 +118,12 @@
       "name": null,
       "owner": "igorski",
       "repo": "rechoir",
-      "rev": "v1.0.0",
-      "sha256": "sha256-IVmNdesF16QgviarcCftKt9/v77X+WtTWs1a48z2fe4=",
+      "rev": "1.0.0",
+      "sha256": "sha256-khVKTGlhPuuBb51A/njcnGKNVMixDPUUsRIoMKGmyY0=",
       "sparseCheckout": [],
       "type": "github"
     },
-    "version": "v1.0.0"
+    "version": "1.0.0"
   },
   "regrader": {
     "cargoLocks": null,

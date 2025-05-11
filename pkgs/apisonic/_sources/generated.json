@@ -23,11 +23,11 @@
     "pinned": false,
     "src": {
       "name": null,
-      "sha256": "sha256-4vbaytC0n80WkiiCxmkEwCEEEb5jsIwAgu4KhxeRyx0=",
+      "sha256": "sha256-/PXKoRTfixMYx9T9wO3cqBpuMTP7j+pIoyHmgcSuCnU=",
       "type": "url",
-      "url": "https://github.com/apisonic/SP-two/releases/download/v2.2.2/speedrum2-v2.2.2.zip"
+      "url": "https://github.com/apisonic/SP-two/releases/download/v2.3.0/speedrum2-v2.3.0.zip"
     },
-    "version": "v2.2.2"
+    "version": "v2.3.0"
   },
   "SpeedrumLite": {
     "cargoLocks": null,

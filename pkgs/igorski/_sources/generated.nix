@@ -62,13 +62,13 @@
   };
   rechoir = {
     pname = "rechoir";
-    version = "v1.0.0";
+    version = "1.0.0";
     src = fetchFromGitHub {
       owner = "igorski";
       repo = "rechoir";
-      rev = "v1.0.0";
+      rev = "1.0.0";
       fetchSubmodules = false;
-      sha256 = "sha256-IVmNdesF16QgviarcCftKt9/v77X+WtTWs1a48z2fe4=";
+      sha256 = "sha256-khVKTGlhPuuBb51A/njcnGKNVMixDPUUsRIoMKGmyY0=";
     };
   };
   regrader = {

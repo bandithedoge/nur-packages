@@ -53,7 +53,7 @@
       "leaveDotGit": true,
       "name": null,
       "rev": "ba28a071b71ec04fb15f0c8139ce80d716e42617",
-      "sha256": "sha256-vUpWHZ7ChnJo/OzkdE5lHdaftvvHz28Vuh2KGaeOYds=",
+      "sha256": "sha256-YW+N7hdoAyAc5r4rnisM1OkrQEzGVZkgw2T19eeTZrM=",
       "sparseCheckout": [],
       "type": "git",
       "url": "https://github.com/kushview/element"

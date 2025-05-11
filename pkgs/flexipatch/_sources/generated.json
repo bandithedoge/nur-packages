@@ -22,7 +22,7 @@
   },
   "dwm-flexipatch": {
     "cargoLocks": null,
-    "date": "2025-03-02",
+    "date": "2025-05-09",
     "extract": null,
     "name": "dwm-flexipatch",
     "passthru": null,
@@ -34,12 +34,12 @@
       "name": null,
       "owner": "bakkeby",
       "repo": "dwm-flexipatch",
-      "rev": "fd6db404648bdef2db53d2fa83893190160d6c56",
-      "sha256": "sha256-2BtrBVs7UA7DLbXDhAZ9TUphMufV52EhHr/xSgvRdLw=",
+      "rev": "4b6e4020f9d678e16816c89db0f043d3601d6442",
+      "sha256": "sha256-H0c47i4upcBworZbASxDMyQ4IQ2UZvhW7GYJqhEPYS4=",
       "sparseCheckout": [],
       "type": "github"
     },
-    "version": "fd6db404648bdef2db53d2fa83893190160d6c56"
+    "version": "4b6e4020f9d678e16816c89db0f043d3601d6442"
   },
   "slock-flexipatch": {
     "cargoLocks": null,
@@ -64,7 +64,7 @@
   },
   "st-flexipatch": {
     "cargoLocks": null,
-    "date": "2025-04-22",
+    "date": "2025-05-06",
     "extract": null,
     "name": "st-flexipatch",
     "passthru": null,
@@ -76,11 +76,11 @@
       "name": null,
       "owner": "bakkeby",
       "repo": "st-flexipatch",
-      "rev": "cb91e175baf446c1da7a7b5caffb29cbe190587c",
-      "sha256": "sha256-H+ewe1QHV26Kt4PjsCWL7bzLZcEzwdlAJJwSEWiB0hU=",
+      "rev": "f8e451e26c5fdafa6f60cda1e249fc20e7dd450c",
+      "sha256": "sha256-Vfr81YbCK9wD5rEixCHK6uhoa52r8dkoF59IpXoLH+k=",
       "sparseCheckout": [],
       "type": "github"
     },
-    "version": "cb91e175baf446c1da7a7b5caffb29cbe190587c"
+    "version": "f8e451e26c5fdafa6f60cda1e249fc20e7dd450c"
   }
 }

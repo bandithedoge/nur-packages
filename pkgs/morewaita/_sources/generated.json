@@ -1,7 +1,7 @@
 {
   "morewaita": {
     "cargoLocks": null,
-    "date": "2025-04-21",
+    "date": "2025-05-10",
     "extract": null,
     "name": "morewaita",
     "passthru": null,
@@ -11,12 +11,12 @@
       "fetchSubmodules": false,
       "leaveDotGit": false,
       "name": null,
-      "rev": "7f8c75e5fb9e14645351bb9f461cf944046fa207",
-      "sha256": "sha256-mwTQMtd68ezP7MnO6qAGSELZOuizn3bxIzBAhd1R+fw=",
+      "rev": "081bf325c0eb7f71a98b625e1b385001f8b34512",
+      "sha256": "sha256-nadLgVDqQJChG0Ftw/rYBjFisDVzTkZzxx//mkKefGA=",
       "sparseCheckout": [],
       "type": "git",
       "url": "https://github.com/somepaulo/MoreWaita"
     },
-    "version": "7f8c75e5fb9e14645351bb9f461cf944046fa207"
+    "version": "081bf325c0eb7f71a98b625e1b385001f8b34512"
   }
 }
