@@ -459,13 +459,13 @@
         sha512 = "GDhwkLfywWL2s6vEjyhri+eXmfH6j1L7JE27WhqLeYzoh/A3DBaYGEj2H/HFZCn/kMfim73FXxEJTw06WtxQwg==";
       };
     };
-    "semver-7.7.1" = {
+    "semver-7.7.2" = {
       name = "semver";
       packageName = "semver";
-      version = "7.7.1";
+      version = "7.7.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/semver/-/semver-7.7.1.tgz";
-        sha512 = "hlq8tAfn0m/61p4BVRcPzIGr6LKiMwo4VM6dGi6pt4qcRkmNzTcWq6eCEjEh+qXjkMDvPlOFFSGwQjoEa6gyMA==";
+        url = "https://registry.npmjs.org/semver/-/semver-7.7.2.tgz";
+        sha512 = "RF0Fw+rO5AMf9MAyaRXI4AV0Ulj5lMHqVxxdSgiVbixSCXoEmmX/jk0CuJw4+3SqroYO9VoUh+HcuJivvtJemA==";
       };
     };
     "sisteransi-1.0.5" = {
@@ -761,7 +761,7 @@ in {
       sources."quansync-0.2.10"
       sources."rc9-2.1.2"
       sources."readdirp-4.1.2"
-      sources."semver-7.7.1"
+      sources."semver-7.7.2"
       sources."sisteransi-1.0.5"
       sources."source-map-js-1.2.1"
       sources."tar-6.2.1"

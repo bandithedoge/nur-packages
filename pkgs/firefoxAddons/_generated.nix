@@ -297,10 +297,10 @@
   };
   "csgofloat" = buildFirefoxXpiAddon {
     pname = "csgofloat";
-    version = "5.3.0";
+    version = "5.5.0";
     addonId = "{194d0dc6-7ada-41c6-88b8-95d7636fe43c}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4441910/csgofloat-5.3.0.xpi";
-    sha256 = "63cad284426e1b23085d3386700e5043edcf05c017343da5e87ef0ef29972625";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4487391/csgofloat-5.5.0.xpi";
+    sha256 = "07d14cbc49d9e41c33f9bd6544f670ab9bd3189b75e860e238d02ca2892b02cd";
     meta = with lib; {
       homepage = "https://csgofloat.com";
       description = "Shows the float value, paint seed, and screenshots of Counter-Strike (CS:GO &amp; CS2) items on the Steam Market or Inventories";
