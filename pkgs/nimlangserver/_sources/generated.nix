@@ -7,17 +7,17 @@
 }: {
   bearssl = {
     pname = "bearssl";
-    version = "c7683c5a6221605bbab31b53d01feb3a3161bb8b";
+    version = "34d712933a4e0f91f5e66bc848594a581504a215";
     src = fetchgit {
       url = "https://github.com/status-im/nim-bearssl";
-      rev = "c7683c5a6221605bbab31b53d01feb3a3161bb8b";
+      rev = "34d712933a4e0f91f5e66bc848594a581504a215";
       fetchSubmodules = true;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [];
-      sha256 = "sha256-pWhbLdHpKI/rXM8QJ64J6MUdjgEwVSnVvOXeyNoRx+c=";
+      sha256 = "sha256-mzHGd1Zbb/UIDjGWVVzsGNoSE1vJjwOKY02ik+7AEg0=";
     };
-    date = "2025-01-13";
+    date = "2025-05-14";
   };
   chronicles = {
     pname = "chronicles";
@@ -169,17 +169,17 @@
   };
   stew = {
     pname = "stew";
-    version = "0db179256cf98eb9ce9ee7b9bc939f219e621f77";
+    version = "58abb4891f97c6cdc07335e868414e0c7b736c68";
     src = fetchgit {
       url = "https://github.com/status-im/nim-stew";
-      rev = "0db179256cf98eb9ce9ee7b9bc939f219e621f77";
+      rev = "58abb4891f97c6cdc07335e868414e0c7b736c68";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [];
-      sha256 = "sha256-kWK+q0eg5SIFXDQn6nBgEqGsMw9pm1voWaY/efmILJo=";
+      sha256 = "sha256-k10WhBWG/gr2Z/yWC96zGe9Rg321dlbHkZK9LVUd4rY=";
     };
-    date = "2025-05-12";
+    date = "2025-05-13";
   };
   unicodedb = {
     pname = "unicodedb";
