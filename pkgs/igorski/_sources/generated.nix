@@ -7,13 +7,13 @@
 }: {
   darvaza = {
     pname = "darvaza";
-    version = "v1.0.3";
+    version = "1.0.3";
     src = fetchFromGitHub {
       owner = "igorski";
       repo = "darvaza";
-      rev = "v1.0.3";
+      rev = "1.0.3";
       fetchSubmodules = false;
-      sha256 = "sha256-ArpMB8jwsYUEsER4YJmuJkpv7gZgiLzpI2n+Bzp7kqM=";
+      sha256 = "sha256-NvPpTEBNGhz6fcbfJndRSWVcEbnTZafFxkFAGUMNy+Q=";
     };
   };
   delirion = {
@@ -29,13 +29,13 @@
   };
   fogpad = {
     pname = "fogpad";
-    version = "v1.0.3";
+    version = "1.0.3";
     src = fetchFromGitHub {
       owner = "igorski";
       repo = "fogpad";
-      rev = "v1.0.3";
+      rev = "1.0.3";
       fetchSubmodules = false;
-      sha256 = "sha256-7eVKdsLWCmQaEVCPMLwqiySe1dnXcDvBqaq0Ip15dO0=";
+      sha256 = "sha256-viZldEegL8Jc1OKYo4fbmo/bc+mBMDCI8LfTVw5v2gs=";
     };
   };
   homecorrupter = {

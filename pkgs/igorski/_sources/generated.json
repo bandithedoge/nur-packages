@@ -13,12 +13,12 @@
       "name": null,
       "owner": "igorski",
       "repo": "darvaza",
-      "rev": "v1.0.3",
-      "sha256": "sha256-ArpMB8jwsYUEsER4YJmuJkpv7gZgiLzpI2n+Bzp7kqM=",
+      "rev": "1.0.3",
+      "sha256": "sha256-NvPpTEBNGhz6fcbfJndRSWVcEbnTZafFxkFAGUMNy+Q=",
       "sparseCheckout": [],
       "type": "github"
     },
-    "version": "v1.0.3"
+    "version": "1.0.3"
   },
   "delirion": {
     "cargoLocks": null,
@@ -55,12 +55,12 @@
       "name": null,
       "owner": "igorski",
       "repo": "fogpad",
-      "rev": "v1.0.3",
-      "sha256": "sha256-7eVKdsLWCmQaEVCPMLwqiySe1dnXcDvBqaq0Ip15dO0=",
+      "rev": "1.0.3",
+      "sha256": "sha256-viZldEegL8Jc1OKYo4fbmo/bc+mBMDCI8LfTVw5v2gs=",
       "sparseCheckout": [],
       "type": "github"
     },
-    "version": "v1.0.3"
+    "version": "1.0.3"
   },
   "homecorrupter": {
     "cargoLocks": null,

@@ -155,17 +155,17 @@
   };
   serialization = {
     pname = "serialization";
-    version = "548d0adc9797a10b2db7f788b804330306293088";
+    version = "c87b6da82365e99499f0ab81ed6f633be23b0f2c";
     src = fetchgit {
       url = "https://github.com/status-im/nim-serialization";
-      rev = "548d0adc9797a10b2db7f788b804330306293088";
+      rev = "c87b6da82365e99499f0ab81ed6f633be23b0f2c";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [];
-      sha256 = "sha256-k3w071SmcRl76SBbGhMF3CZU7k6QD/a2Rxljm640CIc=";
+      sha256 = "sha256-M2YJbsInpvjYK5FEH67/pVVcFl+69X72cm7wXFkfyiE=";
     };
-    date = "2025-01-13";
+    date = "2025-05-15";
   };
   stew = {
     pname = "stew";
