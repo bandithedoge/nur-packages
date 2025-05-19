@@ -43,11 +43,11 @@
         devShells.default = pkgs.mkShell {
           packages = with pkgs;
           with inputs; [
+            lixPackageSets.latest.nix-fast-build
             mozilla-addons-to-nix.packages.${system}.default
             niv
             node2nix
             nvfetcher
-            nix-fast-build
           ];
         };
 

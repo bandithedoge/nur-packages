@@ -22,13 +22,18 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install Nix
-        uses: DeterminateSystems/nix-installer-action@main
+      - name: Install Lix
+        uses: canidae-solutions/lix-quick-install-action@v3
+        with:
+          lix_conf: |
+            keep-env-derivations = true
+            keep-outputs = true
 
-      - name: Show nixpkgs version
-        run: |
-          nix --version
-          nix-instantiate --eval -E '(import <nixpkgs> {}).lib.version'
+      - name: Cache Nix store
+        uses: nix-community/cache-nix-action@v6
+        with:
+          primary-key: nix-${{ runner.os }}
+          gc-max-store-size: 5G
 
       - name: Setup Git user
         uses: fregante/setup-git-user@v2.0.2
