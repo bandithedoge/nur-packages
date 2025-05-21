@@ -65,7 +65,8 @@ jobs:
             --option extra-trusted-public-keys "bandithedoge.cachix.org-1:ZtcHw1anyEa4t6H8m3o/ctYFrwYFPAwoENSvofamE6g=" \
             --cachix-cache bandithedoge \
             --result-file result-cacheable.xml \
-            --result-format junit
+            --result-format junit \
+            --eval-workers 3
         env:
           CACHIX_AUTH_TOKEN: ${{ secrets.CACHIX_AUTH_TOKEN }}
 
@@ -78,7 +79,8 @@ jobs:
             --option extra-substituters "https://bandithedoge.cachix.org" \
             --option extra-trusted-public-keys "bandithedoge.cachix.org-1:ZtcHw1anyEa4t6H8m3o/ctYFrwYFPAwoENSvofamE6g=" \
             --result-file result-buildable.xml \
-            --result-format junit
+            --result-format junit \
+            --eval-workers 3
 
       - name: Build summary
         uses: test-summary/action@v2
