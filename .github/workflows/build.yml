@@ -28,6 +28,7 @@ jobs:
           extra_nix_config: |
             keep-env-derivations = true
             keep-outputs = true
+            max-jobs = auto
 
       - name: Cache Nix store
         uses: nix-community/cache-nix-action@v6
@@ -65,8 +66,7 @@ jobs:
             --option extra-trusted-public-keys "bandithedoge.cachix.org-1:ZtcHw1anyEa4t6H8m3o/ctYFrwYFPAwoENSvofamE6g=" \
             --cachix-cache bandithedoge \
             --result-file result-cacheable.xml \
-            --result-format junit \
-            --eval-workers 3
+            --result-format junit
         env:
           CACHIX_AUTH_TOKEN: ${{ secrets.CACHIX_AUTH_TOKEN }}
 
@@ -79,8 +79,7 @@ jobs:
             --option extra-substituters "https://bandithedoge.cachix.org" \
             --option extra-trusted-public-keys "bandithedoge.cachix.org-1:ZtcHw1anyEa4t6H8m3o/ctYFrwYFPAwoENSvofamE6g=" \
             --result-file result-buildable.xml \
-            --result-format junit \
-            --eval-workers 3
+            --result-format junit
 
       - name: Build summary
         uses: test-summary/action@v2
