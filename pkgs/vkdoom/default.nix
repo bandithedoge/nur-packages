@@ -7,9 +7,6 @@ pkgs.stdenv.mkDerivation {
   inherit (sources.vkdoom) pname src;
   version = sources.vkdoom.date;
 
-  # starves github actions runner
-  preferLocalBuild = true;
-
   nativeBuildInputs = with pkgs; [
     cmake
     git
