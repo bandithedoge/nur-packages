@@ -40,13 +40,13 @@
   };
   homecorrupter = {
     pname = "homecorrupter";
-    version = "v1.1.3";
+    version = "1.1.3";
     src = fetchFromGitHub {
       owner = "igorski";
       repo = "homecorrupter";
-      rev = "v1.1.3";
+      rev = "1.1.3";
       fetchSubmodules = false;
-      sha256 = "sha256-eGHyCQ0u3Xxr0x2KDGYtJYqVkrzhM7AGH4V/Gf8nYQg=";
+      sha256 = "sha256-jFD0orWRELJE5CKAxqNF8KKtS9kMnAzrqZTPX8FoRUQ=";
     };
   };
   juce = {
@@ -84,13 +84,13 @@
   };
   transformant = {
     pname = "transformant";
-    version = "v1.0.4";
+    version = "1.0.4";
     src = fetchFromGitHub {
       owner = "igorski";
       repo = "transformant";
-      rev = "v1.0.4";
+      rev = "1.0.4";
       fetchSubmodules = false;
-      sha256 = "sha256-W8quhA+W7pdT6DLGkI92Y+R270jzXM6yr5lizWJwydI=";
+      sha256 = "sha256-GSZ98Q2tjpbVzkyxasX1lQiTfqZ7eOiAJCNFbpLvsCo=";
     };
   };
   vst3sdk = {

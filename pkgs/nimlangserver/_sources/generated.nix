@@ -7,17 +7,17 @@
 }: {
   bearssl = {
     pname = "bearssl";
-    version = "34d712933a4e0f91f5e66bc848594a581504a215";
+    version = "11e798b62b8e6beabe958e048e9e24c7e0f9ee63";
     src = fetchgit {
       url = "https://github.com/status-im/nim-bearssl";
-      rev = "34d712933a4e0f91f5e66bc848594a581504a215";
+      rev = "11e798b62b8e6beabe958e048e9e24c7e0f9ee63";
       fetchSubmodules = true;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [];
-      sha256 = "sha256-mzHGd1Zbb/UIDjGWVVzsGNoSE1vJjwOKY02ik+7AEg0=";
+      sha256 = "sha256-BHF1cjT4hdEQZAP7jHxL8JIRwN/OMyxx6hVmrmI0o2M=";
     };
-    date = "2025-05-14";
+    date = "2025-05-21";
   };
   chronicles = {
     pname = "chronicles";

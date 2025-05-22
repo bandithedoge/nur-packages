@@ -1,7 +1,7 @@
 {
   "compressor": {
     "cargoLocks": null,
-    "date": "2025-05-15",
+    "date": "2025-05-21",
     "extract": null,
     "name": "compressor",
     "passthru": null,
@@ -11,13 +11,13 @@
       "fetchSubmodules": true,
       "leaveDotGit": false,
       "name": null,
-      "rev": "e7d04e28909ce74911ffc45ae080d979af619e35",
-      "sha256": "sha256-BBW4VCjM4d6lkVoS9gbGIxVlQcrEPYoBEoVkVrZ8Rns=",
+      "rev": "bff9748daa1f0937a5d3a76543dfa2d577116bd8",
+      "sha256": "sha256-uKXSZvFsD2/wikImihw34BdfvfpaxXnwHfLAFn4NJDY=",
       "sparseCheckout": [],
       "type": "git",
       "url": "https://github.com/ZL-Audio/ZLCompressor"
     },
-    "version": "e7d04e28909ce74911ffc45ae080d979af619e35"
+    "version": "bff9748daa1f0937a5d3a76543dfa2d577116bd8"
   },
   "equalizer": {
     "cargoLocks": null,

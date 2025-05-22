@@ -7,34 +7,34 @@
 }: {
   proton-cachyos = {
     pname = "proton-cachyos";
-    version = "cachyos-10.0-20250515-slr";
+    version = "cachyos-10.0-20250520-slr";
     src = fetchurl {
-      url = "https://github.com/CachyOS/proton-cachyos/releases/download/cachyos-10.0-20250515-slr/proton-cachyos-10.0-20250515-slr-x86_64_v3.tar.xz";
-      sha256 = "sha256-nrgAjxN5x0CcQaO9vKRiFoesmbV1W0sU360PUGCbXFM=";
+      url = "https://github.com/CachyOS/proton-cachyos/releases/download/cachyos-10.0-20250520-slr/proton-cachyos-10.0-20250520-slr-x86_64_v3.tar.xz";
+      sha256 = "sha256-sJEkKU39moLTbk/7EdsRXk1VTRXz7jLtj55u/pBqy+g=";
     };
   };
   proton-ge = {
     pname = "proton-ge";
-    version = "GE-Proton10-1";
+    version = "GE-Proton10-3";
     src = fetchurl {
-      url = "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton10-1/GE-Proton10-1.tar.gz";
-      sha256 = "sha256-9/dvkOkPg3/5Nfdiue3SEzYyCiRqnXPawp7jAh14uRQ=";
+      url = "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton10-3/GE-Proton10-3.tar.gz";
+      sha256 = "sha256-TiOcy8pbZfNuQQDMs7m9Q1CPv+k+VPZXsFMpAEHFrJs=";
     };
   };
   proton-sarek = {
     pname = "proton-sarek";
-    version = "Proton-Sarek9-27";
+    version = "Proton-Sarek10-3-r1";
     src = fetchurl {
-      url = "https://github.com/pythonlover02/Proton-Sarek/releases/download/Proton-Sarek9-27/Proton-Sarek9-27.tar.gz";
-      sha256 = "sha256-iRdc+5IeLuVmb3AY0z6Lken8MnN2gJSlcv1hjZKXS2Y=";
+      url = "https://github.com/pythonlover02/Proton-Sarek/releases/download/Proton-Sarek10-3-r1/Proton-Sarek10-3-r1.tar.gz";
+      sha256 = "sha256-38jZLJqThmhE9l45unls7vUmCI6lvHj0J4002Ycz8F8=";
     };
   };
   proton-sarek-async = {
     pname = "proton-sarek-async";
-    version = "Proton-Sarek9-27";
+    version = "Proton-Sarek10-3-r1";
     src = fetchurl {
-      url = "https://github.com/pythonlover02/Proton-Sarek/releases/download/Proton-Sarek9-27/Proton-Sarek9-27-async.tar.gz";
-      sha256 = "sha256-XfXns9Nl5b9xYmeFikyiI1sKzANXEgX+d3hUDGAn+3k=";
+      url = "https://github.com/pythonlover02/Proton-Sarek/releases/download/Proton-Sarek10-3-r1/Proton-Sarek10-3-r1-async.tar.gz";
+      sha256 = "sha256-5mWQ6i46HtDH6FEzzGh9SjFGiZJ254cNnybQf0VwTwk=";
     };
   };
 }

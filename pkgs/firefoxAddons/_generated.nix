@@ -770,10 +770,10 @@
   };
   "material-icons-for-github" = buildFirefoxXpiAddon {
     pname = "material-icons-for-github";
-    version = "1.10.3";
+    version = "1.10.4";
     addonId = "{eac6e624-97fa-4f28-9d24-c06c9b8aa713}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4485826/material_icons_for_github-1.10.3.xpi";
-    sha256 = "38316c95a30b652b730638cf9379bf4be51c191a9eb80ae95c4f0c1a7dc43400";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4494848/material_icons_for_github-1.10.4.xpi";
+    sha256 = "ebd249872fd551197772f413bb5761782da74501560774581186d80ad890326c";
     meta = with lib; {
       homepage = "https://github.com/Claudiohbsantos/github-material-icons-extension";
       description = "Replace the file/folder icons on github file browsers with icons representing the file's type and which tool it is used by.";
@@ -859,10 +859,10 @@
   };
   "privacy-badger" = buildFirefoxXpiAddon {
     pname = "privacy-badger";
-    version = "2025.3.27";
+    version = "2025.5.14";
     addonId = "jid1-MnnxcxisBPnSXQ@jetpack";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4463652/privacy_badger17-2025.3.27.xpi";
-    sha256 = "45976baab7476792dcad07f4386be618fd49b27eeb000c5e6b4b6f3611bf865e";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4493398/privacy_badger17-2025.5.14.xpi";
+    sha256 = "c3b6c0bf249b6b2661dc29f414d3abe1c0d637b4e059a49f42a01cc73f319aea";
     meta = with lib; {
       homepage = "https://privacybadger.org/";
       description = "Automatically learns to block invisible trackers.";
@@ -1338,10 +1338,10 @@
   };
   "refined-github" = buildFirefoxXpiAddon {
     pname = "refined-github";
-    version = "25.4.8";
+    version = "25.5.18";
     addonId = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4470107/refined_github-25.4.8.xpi";
-    sha256 = "4e07f83622497c5ea1e2fb39f94d910233cdf467a562df4b37dc39adea6fba47";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4495758/refined_github-25.5.18.xpi";
+    sha256 = "36c23ff732d3cf221f2764c81883311dae5e23ed2ad352a68d52887d594dab91";
     meta = with lib; {
       homepage = "https://github.com/refined-github/refined-github";
       description = "Simplifies the GitHub interface and adds many useful features.";
@@ -1360,10 +1360,10 @@
   };
   "search_by_image" = buildFirefoxXpiAddon {
     pname = "search_by_image";
-    version = "8.2.0";
+    version = "8.2.1";
     addonId = "{2e5ff8c8-32fe-46d0-9fc8-6b8986621f3c}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4473439/search_by_image-8.2.0.xpi";
-    sha256 = "3119e33fb154659e4386e8be77bc66cfa76e54abb4a3ea58c6a975eaf4fabda0";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4492596/search_by_image-8.2.1.xpi";
+    sha256 = "b85dec6d91e5ae9d6e7bd86156956f4443d57b3d217878cdcfe6fe3926017736";
     meta = with lib; {
       homepage = "https://github.com/dessant/search-by-image#readme";
       description = "A powerful reverse image search tool, with support for various search engines, such as Google, Bing, Yandex, Baidu and TinEye.";
@@ -1583,10 +1583,10 @@
   };
   "tree-style-tab" = buildFirefoxXpiAddon {
     pname = "tree-style-tab";
-    version = "4.1.6";
+    version = "4.1.7";
     addonId = "treestyletab@piro.sakura.ne.jp";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4488104/tree_style_tab-4.1.6.xpi";
-    sha256 = "5f41c2ea3cf2b6306c33ef0799b2b8f0352286d74df680aca8b509aa9dbd72c4";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4493818/tree_style_tab-4.1.7.xpi";
+    sha256 = "4977a5889ef12337c184e84a1abed243ae6544149491d1cd7749adf46c28d7a1";
     meta = with lib; {
       homepage = "http://piro.sakura.ne.jp/xul/_treestyletab.html.en";
       description = "Show tabs like a tree.";
@@ -1646,10 +1646,10 @@
   };
   "ublock-origin" = buildFirefoxXpiAddon {
     pname = "ublock-origin";
-    version = "1.63.2";
+    version = "1.64.0";
     addonId = "uBlock0@raymondhill.net";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4458450/ublock_origin-1.63.2.xpi";
-    sha256 = "d93176cef4dc042e41ba500aa2a90e5d57b5be77449cbd522111585e3a0cd158";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4492375/ublock_origin-1.64.0.xpi";
+    sha256 = "b9e1c868bd1ac1defcabf2e01776d1a90effba34b07fe6a21350d45f022e0e9f";
     meta = with lib; {
       homepage = "https://github.com/gorhill/uBlock#ublock-origin";
       description = "Finally, an efficient wide-spectrum content blocker. Easy on CPU and memory.";
