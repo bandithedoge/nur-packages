@@ -701,10 +701,10 @@
     "homepage": "",
     "owner": "rebelot",
     "repo": "heirline.nvim",
-    "rev": "74529ce6a47f3f8dc7546c221c187a2dd025ffee",
-    "sha256": "03a50xfr1685l8sfyni0llyc1y721w5jzz7imx4nxk1bp0ygs6ar",
+    "rev": "fae936abb5e0345b85c3a03ecf38525b0828b992",
+    "sha256": "1xhfakhncwcknwlhw8nrbc1rw4i9s909n6lx5rmy68yn89wilylh",
     "type": "tarball",
-    "url": "https://github.com/rebelot/heirline.nvim/archive/74529ce6a47f3f8dc7546c221c187a2dd025ffee.tar.gz",
+    "url": "https://github.com/rebelot/heirline.nvim/archive/fae936abb5e0345b85c3a03ecf38525b0828b992.tar.gz",
     "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
   },
   "hibiscus.nvim": {
