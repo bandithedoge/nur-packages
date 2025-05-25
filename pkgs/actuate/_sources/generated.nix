@@ -7,26 +7,27 @@
 }: {
   actuate = {
     pname = "actuate";
-    version = "v1.3.9";
+    version = "v1.3.91";
     src = fetchFromGitHub {
       owner = "ardura";
       repo = "Actuate";
-      rev = "v1.3.9";
+      rev = "v1.3.91";
       fetchSubmodules = false;
-      sha256 = "sha256-VfXVRmQ52UD7xtHhNwNeqQUnqkiMKq63KVas4dT273I=";
+      sha256 = "sha256-yYUNgbDMYRv9G07ezMZ38qRnBF5HJIM5ZrvZn8ulcfE=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./actuate-v1.3.9/Cargo.lock;
+      lockFile = ./actuate-v1.3.91/Cargo.lock;
       outputHashes = {
+        "egui-baseview-0.5.0" = "sha256-T0rfvFedUWh/6VUQyoEkNQhCeuzDeAVrEh47Udlmvj0=";
         "reflink-0.1.3" = "sha256-1o5d/mepjbDLuoZ2/49Bi6sFgVX4WdCuhGJkk8ulhcI=";
-        "nih_plug-0.0.0" = "sha256-kZbahZyzm0NketIeqqTlpq+fSoEO2FaEG0a4Mrxw3Z8=";
+        "nih_plug-0.0.0" = "sha256-3Ck9UGEGk+2svrAxicIX449W4wdEpxtCzbKtT3bOTjw=";
+        "anymap3-1.0.1" = "sha256-aIbI8NAV4IW7EpBzBsTrhMgZV+lgy5GSYwSTOyHMQzw=";
         "vst3-com-0.1.0" = "sha256-tKWEmJR9aRpfsiuVr0K8XXYafVs+CzqCcP+Ea9qvZ7Y=";
         "assert_no_alloc-1.1.2" = "sha256-kCwtn0uONDTlDqfCpYtjB3spYM89qWjkzUOdcGjtY3c=";
-        "nih_plug_xtask-0.1.0" = "sha256-9S2uyt4CAjSfI6i/7s2lQHFYKod3f1GU3bj2J2Ut4lE=";
-        "egui-baseview-0.2.0" = "sha256-vPAeVqxoWR0o0MthsAMzxyfoIGMSEVDPTSZBJrHfJpQ=";
-        "egui_file-0.22.0" = "sha256-LV92wbZhYKxKEmP5S8XG8cID9cwP0P4kXdhoLbQzsM8=";
-        "baseview-0.1.0" = "sha256-89+5/TF9U7N4ODF1OOls1hnJHT0pkN2t9UakUaSitwY=";
-        "clap-sys-0.3.0" = "sha256-svq9DMqzKVZCU07FiOIsdCt78BJctwlPobSlNZGeBxQ=";
+        "clap-sys-0.5.0" = "sha256-Ha/UJlMFCVKxx1axrdRQR+T/G0xK3828xFKdfBIehKM=";
+        "nih_plug_xtask-0.1.0" = "sha256-ENrS/FPCKfIjWrN2ci8yC4upSoiMEXkdywSZ/pznW2I=";
+        "egui_file-0.22.0" = "sha256-ZQ3XICa0+t1ALYG41/8tkAncaZ3JEaijQcqQIISFgAw=";
+        "baseview-0.1.0" = "sha256-vFTzEh/PrrKEN5S/GnCBdJ+Im3wOZM4PY1nQebuVx14=";
       };
     };
   };
