@@ -1,0 +1,498 @@
+{
+  "pins": {
+    "alacritty.xplr": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "sayanarijit",
+        "repo": "alacritty.xplr"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "96d291c15a5731bbd6550ec0b90d3e529041ca36",
+      "url": "https://github.com/sayanarijit/alacritty.xplr/archive/96d291c15a5731bbd6550ec0b90d3e529041ca36.tar.gz",
+      "hash": "09jk5a2zia0v436k6i2xwygbrfq62sg9yj1nkhxs5g80x0qb72y7"
+    },
+    "command-mode.xplr": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "sayanarijit",
+        "repo": "command-mode.xplr"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "43d073bb7f3d5b701a3f254084b91a0911df41d2",
+      "url": "https://github.com/sayanarijit/command-mode.xplr/archive/43d073bb7f3d5b701a3f254084b91a0911df41d2.tar.gz",
+      "hash": "09dpkbs5mckgrzyi7lxxlsmmjy2m51vv8jvphnhl3460cgq35pql"
+    },
+    "context-switch.xplr": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "igorepst",
+        "repo": "context-switch.xplr"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "85ac284b33144540741f48a5a42d3366d00acae9",
+      "url": "https://github.com/igorepst/context-switch.xplr/archive/85ac284b33144540741f48a5a42d3366d00acae9.tar.gz",
+      "hash": "025bwm5b8sfgscyg1ch464adc9ky28yi4scmlk2nx401hdj6y9dg"
+    },
+    "dragon.xplr": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "sayanarijit",
+        "repo": "dragon.xplr"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "5fbddcb33f7d75a5abd12d27223ac55589863335",
+      "url": "https://github.com/sayanarijit/dragon.xplr/archive/5fbddcb33f7d75a5abd12d27223ac55589863335.tar.gz",
+      "hash": "0c77dr5513r50idhlgyfslwqyhi3vkak8x4r9kicbvqak6xz55hl"
+    },
+    "dua-cli.xplr": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "sayanarijit",
+        "repo": "dua-cli.xplr"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "66ccf983fab7f67d6b00adc0365a2b26550e7f81",
+      "url": "https://github.com/sayanarijit/dua-cli.xplr/archive/66ccf983fab7f67d6b00adc0365a2b26550e7f81.tar.gz",
+      "hash": "0zzjbkz94frdav9ni6lypmksan1cki2jz114pbgqvf865xlmff2w"
+    },
+    "dual-pane.xplr": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "sayanarijit",
+        "repo": "dual-pane.xplr"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "2c4106c1cc882ac3f832b77a3c72fdce83e17d72",
+      "url": "https://github.com/sayanarijit/dual-pane.xplr/archive/2c4106c1cc882ac3f832b77a3c72fdce83e17d72.tar.gz",
+      "hash": "0rj1qhqicqc5sbl8254zn76199wravcsk6m9lh2p5mmk6jj3vgpx"
+    },
+    "dysh-style.xplr": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "dy-sh",
+        "repo": "dysh-style.xplr"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "12dab25f9410e1c67f09f60c0af030ea5210ea0d",
+      "url": "https://github.com/dy-sh/dysh-style.xplr/archive/12dab25f9410e1c67f09f60c0af030ea5210ea0d.tar.gz",
+      "hash": "16f9jy0pyfrn1zxv643r69amx9mn5q2kj78b2n25m47sp92pvs1m"
+    },
+    "extra-icons.xplr": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "dtomvan",
+        "repo": "extra-icons.xplr"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "1f27b9a74c23b869fe64d12f3d8c2a1207ff8eb7",
+      "url": "https://github.com/dtomvan/extra-icons.xplr/archive/1f27b9a74c23b869fe64d12f3d8c2a1207ff8eb7.tar.gz",
+      "hash": "0archpg0ml0b6rz0jqwaznrv951faizcr752fi3sfjh2mpvwl47p"
+    },
+    "find.xplr": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "sayanarijit",
+        "repo": "find.xplr"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "5355d213a7063347f219975e71ddca4bdf8085c9",
+      "url": "https://github.com/sayanarijit/find.xplr/archive/5355d213a7063347f219975e71ddca4bdf8085c9.tar.gz",
+      "hash": "0bvcjnfx1nqpzr5jrpl8f4x5wrh20j1jcdlfgszlg063x8523pqw"
+    },
+    "fzf.xplr": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "sayanarijit",
+        "repo": "fzf.xplr"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "c8991f92946a7c8177d7f82ed939d845746ebaf5",
+      "url": "https://github.com/sayanarijit/fzf.xplr/archive/c8991f92946a7c8177d7f82ed939d845746ebaf5.tar.gz",
+      "hash": "1hkqy08j3a6rkkn6dxc9qs474dxbcpqpdikz7c2gdpg9mrmyv6bn"
+    },
+    "get-rid-of-index.xplr": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "dy-sh",
+        "repo": "get-rid-of-index.xplr"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "1a2fce5ad675a616c7c7b7d460de6712e529e81c",
+      "url": "https://github.com/dy-sh/get-rid-of-index.xplr/archive/1a2fce5ad675a616c7c7b7d460de6712e529e81c.tar.gz",
+      "hash": "0vv1in5kimxkq1999pg5g1qy11ni1sy80n5x48axk1x77ahajxcg"
+    },
+    "icons.xplr": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "prncss-xyz",
+        "repo": "icons.xplr"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "6133ea79c41629591c72fa4c51132f7a3cb30782",
+      "url": "https://github.com/prncss-xyz/icons.xplr/archive/6133ea79c41629591c72fa4c51132f7a3cb30782.tar.gz",
+      "hash": "13df0pl7c2ywn9g3r7xzjpm35sj5dl1iwjx47xmlhrsbnnl8g926"
+    },
+    "map.xplr": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "sayanarijit",
+        "repo": "map.xplr"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "ed774d21195246060ae2d9cae83f82c698e9d8e7",
+      "url": "https://github.com/sayanarijit/map.xplr/archive/ed774d21195246060ae2d9cae83f82c698e9d8e7.tar.gz",
+      "hash": "0a5jm6yfszasvq5sn7f1sap7sdqrs5jclq4rj6zhf0d992bn9v34"
+    },
+    "material-landscape.xplr": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "sayanarijit",
+        "repo": "material-landscape.xplr"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "5aed67b4f3d196709d221080067c9feb9a2cf638",
+      "url": "https://github.com/sayanarijit/material-landscape.xplr/archive/5aed67b4f3d196709d221080067c9feb9a2cf638.tar.gz",
+      "hash": "1bqp9a1ziv1q0m0m00ha8m8nqgxnqjj7pd03mrpbklw65cw4xgr8"
+    },
+    "material-landscape2.xplr": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "sayanarijit",
+        "repo": "material-landscape2.xplr"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "4b32ba6e01918033f821862fca15b0a894f20fe5",
+      "url": "https://github.com/sayanarijit/material-landscape2.xplr/archive/4b32ba6e01918033f821862fca15b0a894f20fe5.tar.gz",
+      "hash": "1h6753qz21kqslm1anrqmw0d79h5c7pzpn5j2jcfbgv46xqynbhl"
+    },
+    "nuke.xplr": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "Junker",
+        "repo": "nuke.xplr"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "f83a7ed58a7212771b15fbf1fdfb0a07b23c81e9",
+      "url": "https://github.com/Junker/nuke.xplr/archive/f83a7ed58a7212771b15fbf1fdfb0a07b23c81e9.tar.gz",
+      "hash": "0zgyy3knpw3irrfyyc641pgnv2p99gx0rdb56c0zcd4qsixspz4k"
+    },
+    "nvim-ctrl.xplr": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "sayanarijit",
+        "repo": "nvim-ctrl.xplr"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "bbf5e732f228a3086ae7f877d1f27f1c954a8d2f",
+      "url": "https://github.com/sayanarijit/nvim-ctrl.xplr/archive/bbf5e732f228a3086ae7f877d1f27f1c954a8d2f.tar.gz",
+      "hash": "0yammi3a1n1l96rxzwy75m5l1xdpdai7216biz03l5y4lifw9svw"
+    },
+    "offline-docs.xplr": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "sayanarijit",
+        "repo": "offline-docs.xplr"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "cba060b5a009696fe1b2ccbdd73d7ba2e2d7b51d",
+      "url": "https://github.com/sayanarijit/offline-docs.xplr/archive/cba060b5a009696fe1b2ccbdd73d7ba2e2d7b51d.tar.gz",
+      "hash": "0yciag726rsnn1hp2k3j130xzbmczid3cps86ky96gp78sf6wags"
+    },
+    "one-table-column.xplr": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "duganchen",
+        "repo": "one-table-column.xplr"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "795e43efe54e25dc4dd4809ab26cdfd00737dbf9",
+      "url": "https://github.com/duganchen/one-table-column.xplr/archive/795e43efe54e25dc4dd4809ab26cdfd00737dbf9.tar.gz",
+      "hash": "0lph9rx84mnlsmhwz9m9yd21banb7j1yglsw1xbdjy0m5cd80kqi"
+    },
+    "ouch.xplr": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "dtomvan",
+        "repo": "ouch.xplr"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "375edf19ff3e0286bd7a101b9e4dd24fa5abaeb8",
+      "url": "https://github.com/dtomvan/ouch.xplr/archive/375edf19ff3e0286bd7a101b9e4dd24fa5abaeb8.tar.gz",
+      "hash": "1fvwhn6ycqsscbb5cs8jq7f85df3jdfpm3bda7z548hq68mm0qb0"
+    },
+    "paste-rs.xplr": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "dtomvan",
+        "repo": "paste-rs.xplr"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "5101f57dae47d7c7002d69c61dc4774ac76c06be",
+      "url": "https://github.com/dtomvan/paste-rs.xplr/archive/5101f57dae47d7c7002d69c61dc4774ac76c06be.tar.gz",
+      "hash": "02a8dr2aq91ywcfkciscnydayhy85yv7jjcgvq63v4dip7cpyxyz"
+    },
+    "preview-tabbed.xplr": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "sayanarijit",
+        "repo": "preview-tabbed.xplr"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "1d350e792a21828b3b58e0a0106c36abbe2d6ba3",
+      "url": "https://github.com/sayanarijit/preview-tabbed.xplr/archive/1d350e792a21828b3b58e0a0106c36abbe2d6ba3.tar.gz",
+      "hash": "0h82siwwx4d8jf542ilihbjbbpnhb9xrshkmbybv47fx3kv0qs9s"
+    },
+    "qrcp.xplr": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "sayanarijit",
+        "repo": "qrcp.xplr"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "d8cf4f9b57ae10b59c213eb46c5ff5aed793b3ac",
+      "url": "https://github.com/sayanarijit/qrcp.xplr/archive/d8cf4f9b57ae10b59c213eb46c5ff5aed793b3ac.tar.gz",
+      "hash": "0rxidswqlqaxa9wb62ym7ds9p3mca782gfd9cmkryhyzsb4w6465"
+    },
+    "regex-search.xplr": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "sayanarijit",
+        "repo": "regex-search.xplr"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "a0273d384deb8c774104dd0f636927cd35b45f30",
+      "url": "https://github.com/sayanarijit/regex-search.xplr/archive/a0273d384deb8c774104dd0f636927cd35b45f30.tar.gz",
+      "hash": "13m4hmnnbcx5kbhr8yjczqz9wsiwpnn19al6k0kfdqzdlsmvs18z"
+    },
+    "registers.xplr": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "sayanarijit",
+        "repo": "registers.xplr"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "5dd91429fe482163a718dc98cd8fb6570fc1c205",
+      "url": "https://github.com/sayanarijit/registers.xplr/archive/5dd91429fe482163a718dc98cd8fb6570fc1c205.tar.gz",
+      "hash": "0a0v9c5ywk9gy75grsndm8kaxnh62v15r8qv8zy151hdqq89wa35"
+    },
+    "scp.xplr": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "sayanarijit",
+        "repo": "scp.xplr"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "578bfd6bd379b113ce63bb0f73658eef2594c817",
+      "url": "https://github.com/sayanarijit/scp.xplr/archive/578bfd6bd379b113ce63bb0f73658eef2594c817.tar.gz",
+      "hash": "0xl9jq6kgvfh9kdpghc75i6cpc6wn3vic17pljba6w7v0ljvbxhk"
+    },
+    "style.xplr": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "emsquid",
+        "repo": "style.xplr"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "e1fbd803e8a1dc4a6a1460816b485fb06412e6b8",
+      "url": "https://github.com/emsquid/style.xplr/archive/e1fbd803e8a1dc4a6a1460816b485fb06412e6b8.tar.gz",
+      "hash": "0q1f2bg6apxdd8076qzdbw46ff586pbcb0da4lab1dga1p23xzbq"
+    },
+    "term.xplr": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "dtomvan",
+        "repo": "term.xplr"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "870736bb2ca4635de06b8986e761baaf705eb2a7",
+      "url": "https://github.com/dtomvan/term.xplr/archive/870736bb2ca4635de06b8986e761baaf705eb2a7.tar.gz",
+      "hash": "1gwraizlz11ddp4s1bsg2xwnf1pys4wlai63nhnxx2hvl8gb4x3f"
+    },
+    "trash-cli.xplr": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "sayanarijit",
+        "repo": "trash-cli.xplr"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "2c5c8c64ec88c038e2075db3b1c123655dc446fa",
+      "url": "https://github.com/sayanarijit/trash-cli.xplr/archive/2c5c8c64ec88c038e2075db3b1c123655dc446fa.tar.gz",
+      "hash": "1d833335p1avsrh5x91wkygy3wcyydzkr84vxh5m0kakbrwadgk1"
+    },
+    "tree-view.xplr": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "sayanarijit",
+        "repo": "tree-view.xplr"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "eeba82a862ca296db253d7319caf730ce1f034c2",
+      "url": "https://github.com/sayanarijit/tree-view.xplr/archive/eeba82a862ca296db253d7319caf730ce1f034c2.tar.gz",
+      "hash": "11chpxvqw967wq579bj8l62l8gs37ybylmxf75z735xrk2x87lmz"
+    },
+    "tri-pane.xplr": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "sayanarijit",
+        "repo": "tri-pane.xplr"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "d90c65eb2bdd182f09db2db8969a99666f90c78b",
+      "url": "https://github.com/sayanarijit/tri-pane.xplr/archive/d90c65eb2bdd182f09db2db8969a99666f90c78b.tar.gz",
+      "hash": "15zp7m3x6li46m79a6y6q4a4978snm3lhgh40zljlrhq6mcp7smd"
+    },
+    "type-to-nav.xplr": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "sayanarijit",
+        "repo": "type-to-nav.xplr"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "de817bd19c56b7cbb1c39c05e4412b7f188b548c",
+      "url": "https://github.com/sayanarijit/type-to-nav.xplr/archive/de817bd19c56b7cbb1c39c05e4412b7f188b548c.tar.gz",
+      "hash": "1bn6fl95269v8rs2ibzqab7fmgsj0ridn9sc2zvya98b91ghc4h4"
+    },
+    "web-devicons.xplr": {
+      "type": "Git",
+      "repository": {
+        "type": "Git",
+        "url": "https://gitlab.com/hartan/web-devicons.xplr"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "9183a0cc146a29e4f25749463d293be920c6691e",
+      "url": null,
+      "hash": "1940czlzswyq66vw3hivm47ismccp51qbcf602bnjfbdprc9nf5b"
+    },
+    "wl-clipboard.xplr": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "sayanarijit",
+        "repo": "wl-clipboard.xplr"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "a3ffc87460c5c7f560bffea689487ae14b36d9c3",
+      "url": "https://github.com/sayanarijit/wl-clipboard.xplr/archive/a3ffc87460c5c7f560bffea689487ae14b36d9c3.tar.gz",
+      "hash": "0jvj1f6ssqnv80lk39z9ivj1cz3lj4xkqqihlfbiixick7jy32i3"
+    },
+    "xclip.xplr": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "sayanarijit",
+        "repo": "xclip.xplr"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "ddbcce2a255537ce8e3680575bbe964b49d05979",
+      "url": "https://github.com/sayanarijit/xclip.xplr/archive/ddbcce2a255537ce8e3680575bbe964b49d05979.tar.gz",
+      "hash": "1di6zqvc8f94a7khck2y9c59ajpx4vsyyfcb3a9zmggsc7ki6rpm"
+    },
+    "xpm.xplr": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "dtomvan",
+        "repo": "xpm.xplr"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "a567f3f73ef0b9bad2c60f6b2b379d70fcf5c5c0",
+      "url": "https://github.com/dtomvan/xpm.xplr/archive/a567f3f73ef0b9bad2c60f6b2b379d70fcf5c5c0.tar.gz",
+      "hash": "16zbf9xkxjxax5x59i3ichrfm9w75d24k7mpc3k8pvcz6c3m339g"
+    },
+    "zentable.xplr": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "sayanarijit",
+        "repo": "zentable.xplr"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "6e247bc75fc97a0b80290ae4ce4301241e298c4f",
+      "url": "https://github.com/sayanarijit/zentable.xplr/archive/6e247bc75fc97a0b80290ae4ce4301241e298c4f.tar.gz",
+      "hash": "02l5mcn77da01vpj6x2ycr95f9iv18vww1k2434ky1iphw2rm2ca"
+    },
+    "zoxide.xplr": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "sayanarijit",
+        "repo": "zoxide.xplr"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "e50fd35db5c05e750a74c8f54761922464c1ad5f",
+      "url": "https://github.com/sayanarijit/zoxide.xplr/archive/e50fd35db5c05e750a74c8f54761922464c1ad5f.tar.gz",
+      "hash": "0xj6awk8iqx86svq7hpbslaw02wlsksixjcdbhrzgasmgykaw8v6"
+    }
+  },
+  "version": 5
+}

@@ -1,5 +1,5 @@
 {pkgs, ...}: let
-  sources = import ./nix/_sources.nix {inherit pkgs;};
+  sources = import ./npins;
 in
   (pkgs.lib.makeExtensible (_:
     pkgs.lib.attrsets.mapAttrs'
@@ -13,7 +13,7 @@ in
       sanitizedName
       (pkgs.vimUtils.buildVimPlugin {
         pname = sanitizedName;
-        version = src.rev;
+        version = src.revision;
         inherit src;
         doCheck = false;
       }))

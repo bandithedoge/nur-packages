@@ -1,5 +1,5 @@
 {pkgs, ...}: let
-  sources = import ./nix/_sources.nix {inherit pkgs;};
+  sources = import ./npins;
 in
   (pkgs.lib.makeExtensible (_:
     pkgs.lib.attrsets.mapAttrs'
@@ -18,11 +18,11 @@ in
         # https://github.com/nmattia/niv/issues/111
         version = "0";
         inherit src;
-        commit = src.rev;
+        commit = src.revision;
 
         recipe = pkgs.writeText "recipe" ''
           (${sanitizedName}
-            :repo "${src.owner}/${src.repo}"
+            :repo "${src.repository.owner}/${src.repository.repo}"
             :fetcher github)
         '';
       }))

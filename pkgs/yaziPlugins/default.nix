@@ -1,5 +1,5 @@
 {pkgs, ...}: let
-  sources = import ./nix/_sources.nix {inherit pkgs;};
+  sources = import ./npins;
 in
   (pkgs.lib.makeExtensible
     (_:
@@ -8,7 +8,7 @@ in
         (pkgs.lib.removeSuffix ".yazi" name)
         (pkgs.stdenv.mkDerivation {
           pname = name;
-          version = src.rev;
+          version = src.revision;
           inherit src;
           buildPhase = ''
             runHook preBuild

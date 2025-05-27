@@ -1,0 +1,148 @@
+{
+  "pins": {
+    "eglot-booster": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "jdtsmith",
+        "repo": "eglot-booster"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "1260d2f7dd18619b42359aa3e1ba6871aa52fd26",
+      "url": "https://github.com/jdtsmith/eglot-booster/archive/1260d2f7dd18619b42359aa3e1ba6871aa52fd26.tar.gz",
+      "hash": "0b8pknnkyzqmi7b8ms27dzcbcx87cn2m8m160v18mv6b61c0mq5m"
+    },
+    "eglot-inactive-regions": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "fargiolas",
+        "repo": "eglot-inactive-regions"
+      },
+      "branch": "master",
+      "submodules": false,
+      "revision": "3d973b45afbf3afa835abaf3d99c993b5426a596",
+      "url": "https://github.com/fargiolas/eglot-inactive-regions/archive/3d973b45afbf3afa835abaf3d99c993b5426a596.tar.gz",
+      "hash": "0h55hmnm08cgbnaskr2hpvhffcl78175kccjdfi697im4yjcirrz"
+    },
+    "eglot-ltex": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "emacs-languagetool",
+        "repo": "eglot-ltex"
+      },
+      "branch": "master",
+      "submodules": false,
+      "revision": "1dc03ebcd7249d06ea64429322eb33a687738fb1",
+      "url": "https://github.com/emacs-languagetool/eglot-ltex/archive/1dc03ebcd7249d06ea64429322eb33a687738fb1.tar.gz",
+      "hash": "17c335h1dpdg2di8j4cayvx5024fafwawl1isvhc0f6q7nj40qv7"
+    },
+    "eglot-x": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "nemethf",
+        "repo": "eglot-x"
+      },
+      "branch": "master",
+      "submodules": false,
+      "revision": "ca565df30d8e207c00471a3723d7bd5803497a95",
+      "url": "https://github.com/nemethf/eglot-x/archive/ca565df30d8e207c00471a3723d7bd5803497a95.tar.gz",
+      "hash": "15yw4wdw9b5hxq608wx5zaqlip4c3axiwcpa25bf9yh6rqdq3554"
+    },
+    "eglot-yaml": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "yveszoundi",
+        "repo": "eglot-yaml"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "df7fb0056fc124b215648e2e947b1441864ab444",
+      "url": "https://github.com/yveszoundi/eglot-yaml/archive/df7fb0056fc124b215648e2e947b1441864ab444.tar.gz",
+      "hash": "1fs4b436nq6i1bn0b0hm4zhlslhvpw7gqlg9m0h8rbm594yq7hkn"
+    },
+    "explain-pause-mode": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "lastquestion",
+        "repo": "explain-pause-mode"
+      },
+      "branch": "master",
+      "submodules": false,
+      "revision": "ac3eb69f36f345506aad05a6d9bc3ef80d26914b",
+      "url": "https://github.com/lastquestion/explain-pause-mode/archive/ac3eb69f36f345506aad05a6d9bc3ef80d26914b.tar.gz",
+      "hash": "10q6p2chxh4vqlammna5vkv6cdd4ml6wlxxwv2gmskvb9yfdhl78"
+    },
+    "indent-bars": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "jdtsmith",
+        "repo": "indent-bars"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "30b47adfaa3fc947ef1f2b93e943641a0a2985d3",
+      "url": "https://github.com/jdtsmith/indent-bars/archive/30b47adfaa3fc947ef1f2b93e943641a0a2985d3.tar.gz",
+      "hash": "1wh5gpw0rs8npyf3gvmy4033y5k4x9kszv5dwvkldx6dk3bbaxnv"
+    },
+    "on": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "ajgrf",
+        "repo": "on.el"
+      },
+      "branch": "master",
+      "submodules": false,
+      "revision": "3cf623e1a4331e259ef92e49154ed0551f300436",
+      "url": "https://github.com/ajgrf/on.el/archive/3cf623e1a4331e259ef92e49154ed0551f300436.tar.gz",
+      "hash": "161ivhq7plx15s65dskzfdy28wmiwwjysmjsyli8bgrhjh59bm42"
+    },
+    "once": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "emacs-magus",
+        "repo": "once"
+      },
+      "branch": "master",
+      "submodules": false,
+      "revision": "a6f950c29c846a50018bc63695f24f611c1a58be",
+      "url": "https://github.com/emacs-magus/once/archive/a6f950c29c846a50018bc63695f24f611c1a58be.tar.gz",
+      "hash": "1k1bnki9139fdgmvyn36hm7zbmhhlsxqr23hwldid32inpw66fll"
+    },
+    "org-bars": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "tonyaldon",
+        "repo": "org-bars"
+      },
+      "branch": "master",
+      "submodules": false,
+      "revision": "59ff8976ce789c0c594fd4756cbeb5354b6178d2",
+      "url": "https://github.com/tonyaldon/org-bars/archive/59ff8976ce789c0c594fd4756cbeb5354b6178d2.tar.gz",
+      "hash": "1lh36b86s0jmqvp363cw9z8zpx6qqn9hpni95q34qi9a41f36rwf"
+    },
+    "smartparens": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "Fuco1",
+        "repo": "smartparens"
+      },
+      "branch": "master",
+      "submodules": false,
+      "revision": "603325ab3d1186fb10da5c2a7ec1afb88018d792",
+      "url": "https://github.com/Fuco1/smartparens/archive/603325ab3d1186fb10da5c2a7ec1afb88018d792.tar.gz",
+      "hash": "1d242visiid2fcshja4vw6ri94bla3wssc1hz993g3zdjzzcz78f"
+    }
+  },
+  "version": 5
+}
