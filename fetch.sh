@@ -11,16 +11,11 @@ fetch() {
 }
 
 fetch_vim() {
-  cd pkgs/vimPlugins || exit
-  niv update
-  chmod +x update_list.py && ./update_list.py
-  cd ../..
+  npins -d pkgs/vimPlugins/npins update || exit 1
 }
 
 fetch_emacs() {
-  cd pkgs/emacsPackages || exit
-  niv update
-  cd ../..
+  npins update || exit 1
 }
 
 fetch_node() {
@@ -34,17 +29,11 @@ fetch_firefox() {
 }
 
 fetch_xplr() {
-  cd pkgs/xplrPlugins || exit
-  niv update || exit 1
-  chmod +x update_list.py && ./update_list.py
-  cd ../..
+  npins -d pkgs/xplrPlugins/npins update || exit 1
 }
 
 fetch_yazi() {
-  cd pkgs/yaziPlugins || exit
-  niv update || exit 1
-  chmod +x update_list.py && ./update_list.py
-  cd ../..
+  npins -d pkgs/yaziPlugins/npins update || exit 1
 }
 
 if [ "$#" -eq 0 ] || [ "$1" = "--commit" ]; then
