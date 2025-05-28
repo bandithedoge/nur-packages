@@ -373,9 +373,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "25f31372ab6f504d4fd7cfee836ad459caed8e68",
-      "url": "https://github.com/Saecki/crates.nvim/archive/25f31372ab6f504d4fd7cfee836ad459caed8e68.tar.gz",
-      "hash": "0vxgvnm5z9zpriplqq2q17c4v7ccmpc9f5wl02wpslfvwrfc6h2h"
+      "revision": "483f27c03467ea621e72b9ba8141f8b87fc1085e",
+      "url": "https://github.com/Saecki/crates.nvim/archive/483f27c03467ea621e72b9ba8141f8b87fc1085e.tar.gz",
+      "hash": "0jmwx8k8hrkyrh1bcpf9swzd235fl6lnwkrd71rhx47rxzqg7gxn"
     },
     "cybu.nvim": {
       "type": "Git",
@@ -581,9 +581,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "d5bb1dc3db78d7ab65dd8c5a6f32a38e383b9cb1",
-      "url": "https://github.com/akinsho/flutter-tools.nvim/archive/d5bb1dc3db78d7ab65dd8c5a6f32a38e383b9cb1.tar.gz",
-      "hash": "046fk727prhav2aha62ak50qvc3mmv8sc438hkhhd1ql3ilb7jrr"
+      "revision": "d1022db80dab2a565563993843e8c60b20a3df39",
+      "url": "https://github.com/akinsho/flutter-tools.nvim/archive/d1022db80dab2a565563993843e8c60b20a3df39.tar.gz",
+      "hash": "16dmlag0sakzsiamms30nwq7vxrr8mwq777cgc9z3liikd81kx7h"
     },
     "fm-nvim": {
       "type": "Git",
@@ -659,9 +659,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "701d9dd9298ef9b991b7302e79b609badff74ed8",
-      "url": "https://github.com/ibhagwan/fzf-lua/archive/701d9dd9298ef9b991b7302e79b609badff74ed8.tar.gz",
-      "hash": "1db04zfn8qm9yl8nmkg59igcc9zfasi7bk8yrkw8m15djjz8z20m"
+      "revision": "758173f499d15410ecb50c5519a41b27c33e645d",
+      "url": "https://github.com/ibhagwan/fzf-lua/archive/758173f499d15410ecb50c5519a41b27c33e645d.tar.gz",
+      "hash": "13ccnij8sgwqa3azlfv50y7cqki03dl60k7w6nvmid486gpq1lwl"
     },
     "galaxyline.nvim": {
       "type": "Git",
