@@ -15,7 +15,7 @@ fetch_vim() {
 }
 
 fetch_emacs() {
-  npins update || exit 1
+  npins -d pkgs/emacsPackages/npins update || exit 1
 }
 
 fetch_node() {
