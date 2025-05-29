@@ -35,9 +35,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "15a75d896c1627e72dd4cf5a68d9db96a16c5eac",
-      "url": "https://github.com/hankertrix/augment-command.yazi/archive/15a75d896c1627e72dd4cf5a68d9db96a16c5eac.tar.gz",
-      "hash": "0idmffyfsqb8dz5ylhb7zq5jmrbpcmwvqplnn4bn2fnwd8smr0f2"
+      "revision": "ac4a65161231208256f15b92b1f4bf7fb0581faf",
+      "url": "https://github.com/hankertrix/augment-command.yazi/archive/ac4a65161231208256f15b92b1f4bf7fb0581faf.tar.gz",
+      "hash": "0166jrl2swjbbrmabm29rgph8f5y9vwcy8q5ivqj6wwm6kcv86wy"
     },
     "bookmarks.yazi": {
       "type": "Git",
@@ -243,9 +243,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "df44165610faa66f623a3e2085e05085cba23d66",
-      "url": "https://github.com/MasouShizuka/projects.yazi/archive/df44165610faa66f623a3e2085e05085cba23d66.tar.gz",
-      "hash": "1cwwq6j14h8lq96xnkg8cy7c46h4cya8q0jqgww613pfjk9pllsx"
+      "revision": "96af237d2255d5dab5493c020f55561f63c28777",
+      "url": "https://github.com/MasouShizuka/projects.yazi/archive/96af237d2255d5dab5493c020f55561f63c28777.tar.gz",
+      "hash": "1rz93k70cij2r0i6dlar04zhvzca2mqpvxsyagi4ygjplzlwgi9p"
     },
     "reflink.yazi": {
       "type": "Git",
