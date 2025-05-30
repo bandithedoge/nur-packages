@@ -1,0 +1,7 @@
+[beets-describe]
+src.github = "adamjakab/BeetsPluginDescribe"
+fetch.github = "adamjakab/BeetsPluginDescribe"
+
+[beets-yearfixer]
+src.github = "adamjakab/BeetsPluginYearFixer"
+fetch.github = "adamjakab/BeetsPluginYearFixer"

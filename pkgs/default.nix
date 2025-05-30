@@ -5,8 +5,7 @@
     utils = callPackage' ../utils;
   };
 
-  callPackage' = pkg:
-    pkgs.callPackage pkg (callPackageArgs pkg);
+  callPackage' = pkg: pkgs.callPackage pkg (callPackageArgs pkg);
 
   callPackages' = pkg: pkgs.lib.recurseIntoAttrs (pkgs.callPackages pkg (callPackageArgs pkg));
 
@@ -20,6 +19,7 @@
     arboreal = callPackages' ./arboreal;
     audible-planets-bin = callPackage' ./audible-planets-bin;
     basiliskii-bin = callPackage' ./basiliskii-bin;
+    beetsPackages = callPackages' ./beetsPackages;
     bitdos-bin = callPackage' ./bitdos-bin;
     blender-radeon-prorender = callPackage' ./blender-radeon-prorender;
     blepfx = callPackages' ./blepfx;
@@ -138,11 +138,11 @@
     zrythm = callPackage' ./zrythm;
   };
 in
-  pkgs.lib.recursiveUpdate
-  packages
-  (pkgs.lib.mapAttrsRecursive
-    (old: new:
-      pkgs.lib.warn
-      "${concat old} has been renamed to ${concat new}"
-      (pkgs.lib.attrByPath new null packages))
-    (import ./_renamed.nix))
+  pkgs.lib.recursiveUpdate packages (
+    pkgs.lib.mapAttrsRecursive (
+      old: new:
+        pkgs.lib.warn "${concat old} has been renamed to ${concat new}" (
+          pkgs.lib.attrByPath new null packages
+        )
+    ) (import ./_renamed.nix)
+  )
