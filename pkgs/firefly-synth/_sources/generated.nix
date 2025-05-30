@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   firefly-synth = {
     pname = "firefly-synth";
     version = "v1.9.9";

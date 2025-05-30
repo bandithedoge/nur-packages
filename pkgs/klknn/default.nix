@@ -2,8 +2,10 @@
   pkgs,
   sources,
   ...
-}: let
-  mkKlknn = source:
+}:
+let
+  mkKlknn =
+    source:
     pkgs.stdenv.mkDerivation {
       inherit (source) pname src;
       version = pkgs.lib.removePrefix "v" source.version;
@@ -32,11 +34,12 @@
       meta = with pkgs.lib; {
         homepage = "https://github.com/klknn/kdr";
         license = licenses.boost;
-        platforms = ["x86_64-linux"];
-        sourceProvenance = [sourceTypes.binaryNativeCode];
+        platforms = [ "x86_64-linux" ];
+        sourceProvenance = [ sourceTypes.binaryNativeCode ];
       };
     };
-in {
+in
+{
   envtool-bin = mkKlknn sources.envtool-bin;
   epiano2-bin = mkKlknn sources.epiano2-bin;
   freeverb-bin = mkKlknn sources.freeverb-bin;

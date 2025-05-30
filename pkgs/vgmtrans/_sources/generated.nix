@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   vgmtrans = {
     pname = "vgmtrans";
     version = "69da9a776a537f0a79717586399da193d4161107";
@@ -14,7 +15,7 @@
       fetchSubmodules = true;
       deepClone = false;
       leaveDotGit = false;
-      sparseCheckout = [];
+      sparseCheckout = [ ];
       sha256 = "sha256-2CzZ/T6uzMs2mULsaTDcjHd3nwspGWrK6NGfkPaWX7A=";
     };
     date = "2025-05-27";

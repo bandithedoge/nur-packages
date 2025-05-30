@@ -37,7 +37,7 @@ pkgs.stdenv.mkDerivation {
     description = "A lookahead compressor/limiter that's soft as a lamb";
     homepage = "https://github.com/magnetophon/lamb-rs";
     license = licenses.agpl3Only;
-    platforms = ["x86_64-linux"];
-    sourceProvenance = [sourceTypes.binaryNativeCode];
+    platforms = [ "x86_64-linux" ];
+    sourceProvenance = [ sourceTypes.binaryNativeCode ];
   };
 }

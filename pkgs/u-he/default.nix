@@ -2,31 +2,36 @@
   pkgs,
   sources,
   ...
-}: let
+}:
+let
   patchelf-raphi = pkgs.stdenv.mkDerivation {
     inherit (sources.patchelf-raphi) pname version src;
-    nativeBuildInputs = with pkgs; [autoreconfHook];
+    nativeBuildInputs = with pkgs; [ autoreconfHook ];
     meta.mainProgram = "patchelf";
   };
 
-  mkUhe = product: {
-    clap ? true,
-    meta ? {},
-    extraLibs ? [],
-    nativeBuildInputs ? [],
-    preBuild ? null,
-    postBuild ? null,
-  }:
+  mkUhe =
+    product:
+    {
+      clap ? true,
+      meta ? { },
+      extraLibs ? [ ],
+      nativeBuildInputs ? [ ],
+      preBuild ? null,
+      postBuild ? null,
+    }:
     pkgs.stdenv.mkDerivation {
       inherit (sources.${product}) pname version src;
 
-      nativeBuildInputs = with pkgs;
+      nativeBuildInputs =
+        with pkgs;
         [
           autoPatchelfHook
         ]
         ++ nativeBuildInputs;
 
-      buildInputs = with pkgs;
+      buildInputs =
+        with pkgs;
         [
           glib
           gtk3
@@ -76,15 +81,17 @@
         inherit product;
       };
 
-      meta = with pkgs.lib;
+      meta =
+        with pkgs.lib;
         {
           license = licenses.unfree;
-          platforms = ["x86_64-linux"];
-          sourceProvenance = [sourceTypes.binaryNativeCode];
+          platforms = [ "x86_64-linux" ];
+          sourceProvenance = [ sourceTypes.binaryNativeCode ];
         }
         // meta;
     };
-in {
+in
+{
   ace = mkUhe "ACE" {
     meta = {
       homepage = "https://u-he.com/products/ace/";
@@ -195,7 +202,7 @@ in {
   };
 
   zebra-legacy = mkUhe "Zebra2" {
-    nativeBuildInputs = with pkgs; [unzip];
+    nativeBuildInputs = with pkgs; [ unzip ];
     preBuild = ''
       tar -xf 01\ Zebra2/*.xz
       cp -r Zebra2*/Zebra2 .

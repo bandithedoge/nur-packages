@@ -53,7 +53,7 @@ pkgs.stdenv.mkDerivation {
     description = "A modern fast paced Doom FPS engine";
     homepage = "https://github.com/Helion-Engine/Helion";
     license = licenses.gpl3Only;
-    platforms = ["x86_64-linux"];
-    sourceProvenance = [sourceTypes.binaryNativeCode];
+    platforms = [ "x86_64-linux" ];
+    sourceProvenance = [ sourceTypes.binaryNativeCode ];
   };
 }

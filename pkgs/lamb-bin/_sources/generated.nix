@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   lamb-bin = {
     pname = "lamb-bin";
     version = "v2.1.0";

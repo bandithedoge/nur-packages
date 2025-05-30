@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   k-whooms = {
     pname = "k-whooms";
     version = "2025.03";

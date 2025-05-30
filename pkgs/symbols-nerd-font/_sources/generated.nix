@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   symbols-nerd-font = {
     pname = "symbols-nerd-font";
     version = "v3.4.0";

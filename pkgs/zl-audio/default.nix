@@ -3,35 +3,37 @@
   sources,
   utils,
   ...
-}: let
-  mkZl = {
-    pname,
-    source,
-    version ? source.version,
-    meta,
-    extraCmakeFlags ? [],
-    cflags ? [],
-  }:
+}:
+let
+  mkZl =
+    {
+      pname,
+      source,
+      version ? source.version,
+      meta,
+      extraCmakeFlags ? [ ],
+      cflags ? [ ],
+    }:
     utils.juce.mkJucePackage {
       inherit pname version;
       inherit (source) src;
 
-      cmakeFlags =
-        [
-          "-DZL_JUCE_COPY_PLUGIN=FALSE"
-        ]
-        ++ extraCmakeFlags;
+      cmakeFlags = [
+        "-DZL_JUCE_COPY_PLUGIN=FALSE"
+      ] ++ extraCmakeFlags;
 
       NIX_CFLAGS_COMPILE = cflags;
 
-      meta = with pkgs.lib;
+      meta =
+        with pkgs.lib;
         {
           license = licenses.gpl3Only;
           platforms = platforms.linux;
         }
         // meta;
     };
-in {
+in
+{
   equalizer = mkZl {
     pname = "ZLEqualizer";
     source = sources.equalizer;
@@ -40,7 +42,7 @@ in {
       homepage = "https://zl-audio.github.io/plugins/zlequalizer/";
       license = pkgs.lib.licenses.agpl3Only;
     };
-    extraCmakeFlags = ["-DKFR_ENABLE_DFT=ON"];
+    extraCmakeFlags = [ "-DKFR_ENABLE_DFT=ON" ];
   };
 
   compressor = mkZl {
@@ -51,7 +53,7 @@ in {
       description = "compressor plugin";
       homepage = "https://github.com/ZL-Audio/ZLCompressor";
     };
-    extraCmakeFlags = ["-DKFR_ENABLE_DFT=ON"];
+    extraCmakeFlags = [ "-DKFR_ENABLE_DFT=ON" ];
   };
 
   splitter = mkZl {
@@ -61,7 +63,7 @@ in {
       description = "splitter plugin";
       homepage = "https://zl-audio.github.io/plugins/zlsplitter/";
     };
-    cflags = ["-Wno-changes-meaning"];
+    cflags = [ "-Wno-changes-meaning" ];
   };
 
   warm = mkZl {

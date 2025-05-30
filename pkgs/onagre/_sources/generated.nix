@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   onagre = {
     pname = "onagre";
     version = "c68c716b086afa3cc8ca02a9a03334493ecb5cb1";
@@ -15,6 +16,7 @@
     cargoLock."Cargo.lock" = {
       lockFile = ./onagre-c68c716b086afa3cc8ca02a9a03334493ecb5cb1/Cargo.lock;
       outputHashes = {
+
       };
     };
     date = "2025-04-24";

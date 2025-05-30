@@ -14,7 +14,9 @@ utils.juce.mkJucePackage {
   ];
 
   cargoRoot = "Ext/Resvg4JUCE/Ext/resvg";
-  cargoDeps = pkgs.rustPlatform.importCargoLock sources.schrammel-ojd.cargoLock."Ext/Resvg4JUCE/Ext/resvg/Cargo.lock";
+  cargoDeps =
+    pkgs.rustPlatform.importCargoLock
+      sources.schrammel-ojd.cargoLock."Ext/Resvg4JUCE/Ext/resvg/Cargo.lock";
 
   meta = with pkgs.lib; {
     description = "Audio plugin model of a modern classic guitar overdrive Pedal";

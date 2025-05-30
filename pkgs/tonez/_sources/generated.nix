@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   tonez = {
     pname = "tonez";
     version = "2.0.0";

@@ -30,7 +30,7 @@ pkgs.stdenv.mkDerivation {
     description = "A package containing Vamp plug-ins developed at Ircam";
     homepage = "https://github.com/Ircam-Partiels/ircam-vamp-plugins";
     license = licenses.unfree;
-    platforms = ["x86_64-linux"];
-    sourceProvenance = [sourceTypes.binaryNativeCode];
+    platforms = [ "x86_64-linux" ];
+    sourceProvenance = [ sourceTypes.binaryNativeCode ];
   };
 }

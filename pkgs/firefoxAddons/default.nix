@@ -2,25 +2,27 @@
   pkgs,
   sources,
   ...
-}: let
+}:
+let
   # copied from https://github.com/nix-community/nur-combined/blob/master/repos/rycee/pkgs/firefox-addons/default.nix
-  buildFirefoxXpiAddon = pkgs.lib.makeOverridable ({
-    stdenv ? pkgs.stdenv,
-    fetchurl ? pkgs.fetchurl,
-    pname,
-    version,
-    addonId,
-    url,
-    sha256,
-    meta,
-    ...
-  }:
+  buildFirefoxXpiAddon = pkgs.lib.makeOverridable (
+    {
+      stdenv ? pkgs.stdenv,
+      fetchurl ? pkgs.fetchurl,
+      pname,
+      version,
+      addonId,
+      url,
+      sha256,
+      meta,
+      ...
+    }:
     stdenv.mkDerivation {
       name = "${pname}-${version}";
 
       inherit meta;
 
-      src = fetchurl {inherit url sha256;};
+      src = fetchurl { inherit url sha256; };
 
       preferLocalBuild = true;
       allowSubstitutes = true;
@@ -30,9 +32,10 @@
         mkdir -p "$dst"
         install -v -m644 "$src" "$dst/${addonId}.xpi"
       '';
-    });
+    }
+  );
 in
-  import ./_generated.nix {
-    inherit buildFirefoxXpiAddon;
-    inherit (pkgs) fetchurl lib stdenv;
-  }
+import ./_generated.nix {
+  inherit buildFirefoxXpiAddon;
+  inherit (pkgs) fetchurl lib stdenv;
+}

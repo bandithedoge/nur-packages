@@ -9,7 +9,7 @@ pkgs.stdenv.mkDerivation {
 
   enableParallelBuilding = true;
 
-  makeFlags = ["PREFIX=$(out)"];
+  makeFlags = [ "PREFIX=$(out)" ];
 
   meta = with pkgs.lib; {
     description = "experimental LV2 to VST2.x wrapper";

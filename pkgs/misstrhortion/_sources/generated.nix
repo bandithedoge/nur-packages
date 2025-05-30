@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   misstrhortion = {
     pname = "misstrhortion";
     version = "85fdcf6e994e018778b0d55aa987bd94c9e09f9d";
@@ -14,7 +15,7 @@
       fetchSubmodules = true;
       deepClone = false;
       leaveDotGit = false;
-      sparseCheckout = [];
+      sparseCheckout = [ ];
       sha256 = "sha256-iUo3zduI6TCqY8ju8Xs+Y0z7V26aXIfUYziakoDOeSg=";
     };
     date = "2025-04-02";

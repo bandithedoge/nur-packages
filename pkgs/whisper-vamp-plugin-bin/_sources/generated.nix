@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   whisper-vamp-plugin-bin = {
     pname = "whisper-vamp-plugin-bin";
     version = "3.0.0";

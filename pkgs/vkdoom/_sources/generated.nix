@@ -4,18 +4,19 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   vkdoom = {
     pname = "vkdoom";
-    version = "83441734da61cff298ec5e0c11cf799c7bac1aac";
+    version = "2086f8ffa68ba618ee5fadbe81228f14e11d2ae0";
     src = fetchgit {
       url = "https://github.com/dpjudas/VkDoom";
-      rev = "83441734da61cff298ec5e0c11cf799c7bac1aac";
+      rev = "2086f8ffa68ba618ee5fadbe81228f14e11d2ae0";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = true;
-      sparseCheckout = [];
-      sha256 = "sha256-UnZ6er3ifckQ+oPIHMGDag0HrMZlIpsBkKYdOBKXhJY=";
+      sparseCheckout = [ ];
+      sha256 = "sha256-JY6iJT3Z9L+S7a5eAKcdBEWnqjdJRMs0qAmJlbe6peg=";
     };
     date = "2025-05-30";
   };

@@ -1,1 +1,1 @@
-{pkgs, ...}: final: prev: {}
+{ pkgs, ... }: final: prev: { }

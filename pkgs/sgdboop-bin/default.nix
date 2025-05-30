@@ -31,7 +31,7 @@ pkgs.stdenv.mkDerivation {
     description = "A program used for applying custom artwork to Steam, using SteamGridDB";
     homepage = "https://www.steamgriddb.com/boop";
     license = licenses.cc-by-nc-sa-40;
-    platforms = ["x86_64-linux"];
-    sourceProvenance = [sourceTypes.binaryNativeCode];
+    platforms = [ "x86_64-linux" ];
+    sourceProvenance = [ sourceTypes.binaryNativeCode ];
   };
 }

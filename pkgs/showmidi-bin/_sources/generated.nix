@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   showmidi-bin = {
     pname = "showmidi-bin";
     version = "1.0.1";

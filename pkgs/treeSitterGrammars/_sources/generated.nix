@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   tree-sitter-hypr = {
     pname = "tree-sitter-hypr";
     version = "d0441fd4b883ecc0e70140723a1cf5907992639a";

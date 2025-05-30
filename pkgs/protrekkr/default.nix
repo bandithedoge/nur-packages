@@ -52,7 +52,7 @@ pkgs.stdenv.mkDerivation {
       name = "protrekkr";
       exec = "protrekkr %u";
       desktopName = "ProTrekkr";
-      categories = ["AudioVideo"];
+      categories = [ "AudioVideo" ];
     })
   ];
 

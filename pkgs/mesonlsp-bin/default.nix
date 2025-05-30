@@ -27,7 +27,7 @@ pkgs.stdenv.mkDerivation {
     description = "An unofficial, unendorsed language server for meson written in C++.";
     homepage = "https://github.com/JCWasmx86/mesonlsp";
     license = licenses.gpl3;
-    platforms = ["x86_64-linux"];
-    sourceProvenance = [sourceTypes.binaryNativeCode];
+    platforms = [ "x86_64-linux" ];
+    sourceProvenance = [ sourceTypes.binaryNativeCode ];
   };
 }

@@ -26,7 +26,7 @@ pkgs.stdenv.mkDerivation {
     for bin in vkdoom vktool; do
       mv $out/bin/$bin $out/share/games/doom/$bin
       makeWrapper $out/share/games/doom/$bin $out/bin/$bin \
-        --set LD_LIBRARY_PATH ${with pkgs; lib.makeLibraryPath [vulkan-loader]}
+        --set LD_LIBRARY_PATH ${with pkgs; lib.makeLibraryPath [ vulkan-loader ]}
     done
   '';
 
@@ -35,7 +35,7 @@ pkgs.stdenv.mkDerivation {
     "-DDYN_OPENAL=OFF"
   ];
 
-  NIX_CFLAGS_COMPILE = ["-Wno-error=format-security"];
+  NIX_CFLAGS_COMPILE = [ "-Wno-error=format-security" ];
 
   meta = with pkgs.lib; {
     description = "ZDoom based source port with a primary focus on Vulkan and modern computers";

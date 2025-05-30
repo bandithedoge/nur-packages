@@ -2,14 +2,16 @@
   pkgs,
   sources,
   ...
-}: let
-  mkTal = {
-    product,
-    source,
-    description,
-    homepage,
-    extraLibs ? [],
-  }:
+}:
+let
+  mkTal =
+    {
+      product,
+      source,
+      description,
+      homepage,
+      extraLibs ? [ ],
+    }:
     pkgs.stdenv.mkDerivation {
       pname = product;
       inherit (source) version src;
@@ -19,7 +21,8 @@
         unzip
       ];
 
-      buildInputs = with pkgs;
+      buildInputs =
+        with pkgs;
         [
           alsa-lib
           fontconfig
@@ -43,11 +46,12 @@
       meta = with pkgs.lib; {
         inherit description homepage;
         license = licenses.unfree;
-        platforms = ["x86_64-linux"];
-        sourceProvenance = [sourceTypes.binaryNativeCode];
+        platforms = [ "x86_64-linux" ];
+        sourceProvenance = [ sourceTypes.binaryNativeCode ];
       };
     };
-in {
+in
+{
   bassline-101 = mkTal {
     product = "TAL-BassLine-101";
     source = sources.bassline-101;
@@ -74,7 +78,7 @@ in {
     source = sources.drum;
     description = "TAL-Drum is a powerful audio plug-in that combines the nostalgic charm of vintage drum machines with modern usability. This intuitive tool lets you effortlessly create captivating beats with its meticulously sampled collection of iconic drum machine sounds.";
     homepage = "https://tal-software.com/products/tal-drum";
-    extraLibs = with pkgs; [curl];
+    extraLibs = with pkgs; [ curl ];
   };
 
   dub-x = mkTal {
@@ -82,7 +86,7 @@ in {
     source = sources.dub-x;
     description = "TAL-Dub-X is a remake of our popular original freeware TAL-Dub plug-in with a lot of additional features";
     homepage = "https://tal-software.com/products/tal-dub-x";
-    extraLibs = with pkgs; [curl];
+    extraLibs = with pkgs; [ curl ];
   };
 
   filter-2 = mkTal {
@@ -97,7 +101,7 @@ in {
     source = sources.g-verb;
     description = "TAL-G-Verb is a musical effect capable to build high quality artificial reverb sounds";
     homepage = "https://tal-software.com/products/tal-g-verb";
-    extraLibs = with pkgs; [curl];
+    extraLibs = with pkgs; [ curl ];
   };
 
   j-8 = mkTal {
@@ -105,7 +109,7 @@ in {
     source = sources.j-8;
     description = "TAL-J-8 is a synthesizer plug-in that meticulously emulates the legendary Jupiter 8 and is calibrated after our hardware device, delivering the most authentic and faithful reproduction of its iconic sound";
     homepage = "https://tal-software.com/products/tal-j-8";
-    extraLibs = with pkgs; [curl];
+    extraLibs = with pkgs; [ curl ];
   };
 
   mod = mkTal {
@@ -127,7 +131,7 @@ in {
     source = sources.pha;
     description = "TAL-Pha is an instrument plug-in that emulates the sound of the analog 80's synthesizer Alpha Juno II (MKS-50 is the rack version)";
     homepage = "https://tal-software.com/products/tal-pha";
-    extraLibs = with pkgs; [curl];
+    extraLibs = with pkgs; [ curl ];
   };
 
   reverb-4 = mkTal {
@@ -149,7 +153,7 @@ in {
     source = sources.u-no-lx;
     description = "TAL-U-NO-LX is a synthesizer plug-in that faithfully recreates the iconic sound of the analog Juno 60 synth. Each oscillator, filter, and envelope has been painstakingly modeled to capture the essence of the original hardware, delivering an unparalleled level of authenticity.";
     homepage = "https://tal-software.com/products/tal-u-no-lx";
-    extraLibs = with pkgs; [curl];
+    extraLibs = with pkgs; [ curl ];
   };
 
   vocoder = mkTal {

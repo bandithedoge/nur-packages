@@ -7,7 +7,11 @@ pkgs.stdenv.mkDerivation {
   inherit (sources.dwm-flexipatch) src pname;
   version = sources.dwm-flexipatch.date;
 
-  buildInputs = with pkgs; [xorg.libX11 xorg.libXinerama xorg.libXft];
+  buildInputs = with pkgs; [
+    xorg.libX11
+    xorg.libXinerama
+    xorg.libXft
+  ];
 
   prePatch = ''
     sed -i "s@/usr/local@$out@" config.mk

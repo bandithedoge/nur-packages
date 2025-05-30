@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   oneknob-series = {
     pname = "oneknob-series";
     version = "b2008564b4aa1a57e817d5fbc84166545221283e";
@@ -14,7 +15,7 @@
       fetchSubmodules = true;
       deepClone = false;
       leaveDotGit = false;
-      sparseCheckout = [];
+      sparseCheckout = [ ];
       sha256 = "sha256-giODaJ3cWGbcV57wq/zEE8kyBfgxCJk6IW9eHrE/wqk=";
     };
     date = "2024-03-07";

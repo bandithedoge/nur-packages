@@ -42,9 +42,12 @@ mkDerivation {
     unix
     unliftio
   ];
-  executableHaskellDepends = [base];
-  testHaskellDepends = [base hspec];
-  testToolDepends = [hspec-discover];
+  executableHaskellDepends = [ base ];
+  testHaskellDepends = [
+    base
+    hspec
+  ];
+  testToolDepends = [ hspec-discover ];
   description = "Advanced keyboard remapping utility";
   license = lib.licenses.mit;
   mainProgram = "kmonad";

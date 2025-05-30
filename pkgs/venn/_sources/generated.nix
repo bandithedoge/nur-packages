@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   dimmer = {
     pname = "dimmer";
     version = "1.0.2_20Sep2024";

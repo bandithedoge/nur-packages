@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   fennel-language-server = {
     pname = "fennel-language-server";
     version = "59005549ca1191bf2aa364391e6bf2371889b4f8";
@@ -15,6 +16,7 @@
     cargoLock."Cargo.lock" = {
       lockFile = ./fennel-language-server-59005549ca1191bf2aa364391e6bf2371889b4f8/Cargo.lock;
       outputHashes = {
+
       };
     };
     date = "2023-06-29";

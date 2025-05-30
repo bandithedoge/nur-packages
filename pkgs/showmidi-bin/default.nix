@@ -11,7 +11,8 @@ pkgs.stdenv.mkDerivation {
     autoPatchelfHook
   ];
 
-  buildInputs = with pkgs;
+  buildInputs =
+    with pkgs;
     [
       stdenv.cc.cc.lib
     ]
@@ -33,7 +34,7 @@ pkgs.stdenv.mkDerivation {
     description = "Multi-platform GUI application to effortlessly visualize MIDI activity";
     homepage = "https://github.com/gbevin/ShowMIDI";
     license = licenses.gpl3Only;
-    platforms = ["x86_64-linux"];
-    sourceProvenance = [sourceTypes.binaryNativeCode];
+    platforms = [ "x86_64-linux" ];
+    sourceProvenance = [ sourceTypes.binaryNativeCode ];
   };
 }

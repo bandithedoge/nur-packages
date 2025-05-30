@@ -6,7 +6,10 @@
 pkgs.stdenv.mkDerivation {
   inherit (sources.whisper-vamp-plugin-bin) pname version src;
 
-  outputs = ["out" "lib"];
+  outputs = [
+    "out"
+    "lib"
+  ];
 
   preferLocalBuild = true;
 
@@ -34,7 +37,7 @@ pkgs.stdenv.mkDerivation {
     description = "The Whisper Vamp plugin is an implementation of the Whisper speech recognition model developed by OpenAI as a Vamp plugin";
     homepage = "https://github.com/Ircam-Partiels/whisper-vamp-plugin";
     license = licenses.mit;
-    platforms = ["x86_64-linux"];
-    sourceProvenance = [sourceTypes.binaryNativeCode];
+    platforms = [ "x86_64-linux" ];
+    sourceProvenance = [ sourceTypes.binaryNativeCode ];
   };
 }

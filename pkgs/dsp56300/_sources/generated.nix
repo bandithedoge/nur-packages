@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   dsp56300 = {
     pname = "dsp56300";
     version = "1.4.4";

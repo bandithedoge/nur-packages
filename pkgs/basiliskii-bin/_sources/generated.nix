@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   basiliskii-bin = {
     pname = "basiliskii-bin";
     version = "2025-05-11";

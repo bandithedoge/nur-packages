@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   molot-lite = {
     pname = "molot-lite";
     version = "1.1.0";

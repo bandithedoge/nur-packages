@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   perfetto = {
     pname = "perfetto";
     version = "v48.1";

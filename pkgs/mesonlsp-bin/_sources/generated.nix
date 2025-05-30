@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   mesonlsp-bin = {
     pname = "mesonlsp-bin";
     version = "v4.3.7";

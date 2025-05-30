@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   microbiome-bin-lv2 = {
     pname = "microbiome-bin-lv2";
     version = "v1.0.0";

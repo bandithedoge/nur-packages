@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   roomreverb = {
     pname = "roomreverb";
     version = "v1.3.0";

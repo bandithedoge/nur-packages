@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   psydoom-bin-aarch64 = {
     pname = "psydoom-bin-aarch64";
     version = "1.1.1";

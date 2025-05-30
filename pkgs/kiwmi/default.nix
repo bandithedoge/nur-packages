@@ -27,7 +27,7 @@ pkgs.stdenv.mkDerivation rec {
   mesonBuildType = "release";
   mesonAutoFeatures = "auto";
 
-  mesonFlags = ["-Dkiwmi-version=${version}"];
+  mesonFlags = [ "-Dkiwmi-version=${version}" ];
 
   meta = with pkgs.lib; {
     description = "A fully programmable Wayland Compositor";

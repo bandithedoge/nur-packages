@@ -20,7 +20,13 @@ pkgs.stdenv.mkDerivation {
 
     makeWrapper ${with pkgs; lib.getExe electron} $out/bin/chainner \
       --add-flags $out/libexec/resources/app \
-      --set LD_LIBRARY_PATH ${with pkgs; lib.makeLibraryPath [libGL glib]}
+      --set LD_LIBRARY_PATH ${
+        with pkgs;
+        lib.makeLibraryPath [
+          libGL
+          glib
+        ]
+      }
 
     rm $out/libexec/portable
 
@@ -37,8 +43,8 @@ pkgs.stdenv.mkDerivation {
       genericName = "Image Processing GUI";
       exec = "chainner %U";
       icon = "chainner";
-      categories = ["Graphics"];
-      mimeTypes = ["application/json"];
+      categories = [ "Graphics" ];
+      mimeTypes = [ "application/json" ];
     })
   ];
 
@@ -46,7 +52,7 @@ pkgs.stdenv.mkDerivation {
     description = "A node-based image processing GUI aimed at making chaining image processing tasks easy and customizable.";
     homepage = "https://chainner.app/";
     license = licenses.gpl3Only;
-    platforms = ["x86_64-linux"];
-    sourceProvenance = [sourceTypes.binaryBytecode];
+    platforms = [ "x86_64-linux" ];
+    sourceProvenance = [ sourceTypes.binaryBytecode ];
   };
 }

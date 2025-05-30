@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   dmenu-flexipatch = {
     pname = "dmenu-flexipatch";
     version = "5948fe898e95ec521c9666d9dafb487da597c3a9";

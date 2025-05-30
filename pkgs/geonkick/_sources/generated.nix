@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   geonkick = {
     pname = "geonkick";
     version = "v3.5.2";

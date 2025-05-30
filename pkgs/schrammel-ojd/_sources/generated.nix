@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   schrammel-ojd = {
     pname = "schrammel-ojd";
     version = "31de608759f3f03cadf8537f5330168977bae232";
@@ -14,12 +15,13 @@
       fetchSubmodules = true;
       deepClone = false;
       leaveDotGit = false;
-      sparseCheckout = [];
+      sparseCheckout = [ ];
       sha256 = "sha256-lhPV/BmluHdRgJu/f9+qDfgbbqewIUIaAaYUTNp/m7c=";
     };
     cargoLock."Ext/Resvg4JUCE/Ext/resvg/Cargo.lock" = {
       lockFile = ./schrammel-ojd-31de608759f3f03cadf8537f5330168977bae232/Ext/Resvg4JUCE/Ext/resvg/Cargo.lock;
       outputHashes = {
+
       };
     };
     date = "2022-09-12";

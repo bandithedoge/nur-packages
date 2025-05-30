@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   reverse-camel = {
     pname = "reverse-camel";
     version = "v0.0.4";

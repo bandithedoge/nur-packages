@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   juce = {
     pname = "juce";
     version = "8.0.7";

@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   mod-desktop-bin = {
     pname = "mod-desktop-bin";
     version = "0.0.12";

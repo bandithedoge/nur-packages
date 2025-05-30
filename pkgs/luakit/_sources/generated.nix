@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   luakit = {
     pname = "luakit";
     version = "636637cdbe734c615dbbf2fd9c5533295d0a79c1";

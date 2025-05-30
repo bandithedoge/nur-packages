@@ -5,7 +5,7 @@
 }:
 pkgs.stdenv.mkDerivation {
   inherit (sources.digits-bin) pname src;
-  version = builtins.replaceStrings ["_"] ["."] sources.digits-bin.version;
+  version = builtins.replaceStrings [ "_" ] [ "." ] sources.digits-bin.version;
 
   nativeBuildInputs = with pkgs; [
     autoPatchelfHook
@@ -29,7 +29,7 @@ pkgs.stdenv.mkDerivation {
     description = "An advanced phase distortion synthesizer";
     homepage = "http://www.extentofthejam.com/";
     license = licenses.gpl3;
-    platforms = ["x86_64-linux"];
-    sourceProvenance = [sourceTypes.binaryNativeCode];
+    platforms = [ "x86_64-linux" ];
+    sourceProvenance = [ sourceTypes.binaryNativeCode ];
   };
 }

@@ -3,16 +3,19 @@
   sources,
   utils,
   ...
-}: let
-  mkArboreal = {
-    source,
-    meta,
-    cmakeFlags ? [],
-  }:
-    pkgs.makeOverridable ({
-      noLicenseCheck ? false,
-      productionBuild ? true,
+}:
+let
+  mkArboreal =
+    {
+      source,
+      meta,
+      cmakeFlags ? [ ],
     }:
+    pkgs.makeOverridable (
+      {
+        noLicenseCheck ? false,
+        productionBuild ? true,
+      }:
       utils.juce.mkJucePackage {
         inherit (source) pname version src;
 
@@ -21,14 +24,17 @@
           ++ (pkgs.lib.optional noLicenseCheck "-DNO_LICENSE_CHECK=1")
           ++ pkgs.lib.optional productionBuild "-DPRODUCTION_BUILD=1";
 
-        meta = with pkgs.lib;
+        meta =
+          with pkgs.lib;
           {
             license = licenses.gpl3Only;
             platforms = platforms.linux;
           }
           // meta;
-      }) {};
-in {
+      }
+    ) { };
+in
+{
   str-x = mkArboreal {
     source = sources.str-x;
     meta = {

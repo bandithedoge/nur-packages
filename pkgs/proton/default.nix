@@ -2,12 +2,14 @@
   pkgs,
   sources,
   ...
-}: let
-  mkProton = {
-    source,
-    meta,
-    version ? source.version,
-  }:
+}:
+let
+  mkProton =
+    {
+      source,
+      meta,
+      version ? source.version,
+    }:
     pkgs.stdenvNoCC.mkDerivation {
       inherit (source) pname src;
       inherit version;
@@ -27,15 +29,17 @@
         runHook postBuild
       '';
 
-      meta = with pkgs.lib;
+      meta =
+        with pkgs.lib;
         {
           license = licenses.bsd3;
-          platforms = ["x86_64-linux"];
-          sourceProvenance = [sourceTypes.binaryNativeCode];
+          platforms = [ "x86_64-linux" ];
+          sourceProvenance = [ sourceTypes.binaryNativeCode ];
         }
         // meta;
     };
-in {
+in
+{
   cachyos = mkProton rec {
     source = sources.proton-cachyos;
     version = pkgs.lib.removePrefix "cachyos-" source.version;

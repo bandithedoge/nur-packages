@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   sg-323 = {
     pname = "sg-323";
     version = "1.0.1";

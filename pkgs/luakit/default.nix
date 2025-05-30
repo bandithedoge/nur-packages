@@ -12,7 +12,8 @@ pkgs.stdenv.mkDerivation {
     wrapGAppsHook
   ];
 
-  buildInputs = with pkgs;
+  buildInputs =
+    with pkgs;
     [
       glib-networking
       gtk3
@@ -38,15 +39,17 @@ pkgs.stdenv.mkDerivation {
     "XDGPREFIX=${placeholder "out"}/etc/xdg"
   ];
 
-  preFixup = let
-    luaKitPath = "$out/share/luakit/lib/?/init.lua;$out/share/luakit/lib/?.lua";
-  in ''
-    gappsWrapperArgs+=(
-      --prefix XDG_CONFIG_DIRS : "$out/etc/xdg"
-      --prefix LUA_PATH ';' "${luaKitPath};$LUA_PATH"
-      --prefix LUA_CPATH ';' "$LUA_CPATH"
-    )
-  '';
+  preFixup =
+    let
+      luaKitPath = "$out/share/luakit/lib/?/init.lua;$out/share/luakit/lib/?.lua";
+    in
+    ''
+      gappsWrapperArgs+=(
+        --prefix XDG_CONFIG_DIRS : "$out/etc/xdg"
+        --prefix LUA_PATH ';' "${luaKitPath};$LUA_PATH"
+        --prefix LUA_CPATH ';' "$LUA_CPATH"
+      )
+    '';
 
   preBuild = ''
     export LUA_PATH="$LUA_PATH;./?.lua;./?/init.lua"

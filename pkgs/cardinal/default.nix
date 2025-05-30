@@ -45,13 +45,19 @@ pkgs.stdenv.mkDerivation {
       name = "cardinal";
       exec = "Cardinal";
       desktopName = "Cardinal";
-      categories = ["AudioVideo" "Audio"];
+      categories = [
+        "AudioVideo"
+        "Audio"
+      ];
     })
     (pkgs.makeDesktopItem {
       name = "cardinal-native";
       exec = "CardinalNative";
       desktopName = "Cardinal (Native)";
-      categories = ["AudioVideo" "Audio"];
+      categories = [
+        "AudioVideo"
+        "Audio"
+      ];
     })
   ];
 
@@ -62,7 +68,7 @@ pkgs.stdenv.mkDerivation {
     "SYSDEPS=true"
   ];
 
-  hardeningDisable = ["format"];
+  hardeningDisable = [ "format" ];
 
   meta = with pkgs.lib; {
     description = "Virtual modular synthesizer plugin";

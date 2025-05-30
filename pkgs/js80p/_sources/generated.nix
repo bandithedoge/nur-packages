@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   js80p = {
     pname = "js80p";
     version = "v3.4.1";

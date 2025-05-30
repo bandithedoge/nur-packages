@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   distrho-ports = {
     pname = "distrho-ports";
     version = "43330739392197cd1b3b0df23b194879ddf68f23";

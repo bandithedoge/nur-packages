@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   chainner-bin = {
     pname = "chainner-bin";
     version = "0.24.1";

@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   vitalium-verb-bin = {
     pname = "vitalium-verb-bin";
     version = "1.2.1";

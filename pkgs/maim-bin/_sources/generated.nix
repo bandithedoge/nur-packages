@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   maim-bin = {
     pname = "maim-bin";
     version = "1.1.1";

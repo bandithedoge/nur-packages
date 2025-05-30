@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   proton-cachyos = {
     pname = "proton-cachyos";
     version = "cachyos-10.0-20250520-slr";

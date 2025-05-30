@@ -3,7 +3,8 @@
   sources,
   pythonPkgs ? pkgs.python3Packages,
   ...
-}: let
+}:
+let
   wstd2daisy = pythonPkgs.buildPythonPackage {
     inherit (sources.wstd2daisy) pname src;
     version = sources.wstd2daisy.date;
@@ -19,25 +20,25 @@
     ];
   };
 in
-  pythonPkgs.buildPythonPackage {
-    inherit (sources.hvcc) pname src;
-    version = pkgs.lib.removePrefix "v" sources.hvcc.version;
+pythonPkgs.buildPythonPackage {
+  inherit (sources.hvcc) pname src;
+  version = pkgs.lib.removePrefix "v" sources.hvcc.version;
 
-    pyproject = true;
+  pyproject = true;
 
-    dependencies = with pythonPkgs; [
-      importlib-resources
-      poetry-core
-      pydantic
-      wstd2daisy
-    ];
+  dependencies = with pythonPkgs; [
+    importlib-resources
+    poetry-core
+    pydantic
+    wstd2daisy
+  ];
 
-    doCheck = false;
+  doCheck = false;
 
-    meta = with pkgs.lib; {
-      description = "The heavy hvcc compiler for Pure Data patches. Updated to python3 and additional generators ";
-      homepage = "https://wasted-audio.github.io/hvcc/";
-      license = licenses.gpl3;
-      platform = platforms.unix;
-    };
-  }
+  meta = with pkgs.lib; {
+    description = "The heavy hvcc compiler for Pure Data patches. Updated to python3 and additional generators ";
+    homepage = "https://wasted-audio.github.io/hvcc/";
+    license = licenses.gpl3;
+    platform = platforms.unix;
+  };
+}

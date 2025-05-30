@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   bling = {
     pname = "bling";
     version = "bcfb671248cf9ff636b7fd7d7120d8ed9deaa395";
@@ -14,7 +15,7 @@
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sparseCheckout = [];
+      sparseCheckout = [ ];
       sha256 = "sha256-rhhUsXQ3awjFiEHEG0axilSCWS6pR+w74K/pIfEUc5w=";
     };
     date = "2024-12-17";
@@ -28,7 +29,7 @@
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sparseCheckout = [];
+      sparseCheckout = [ ];
       sha256 = "sha256-S+W6QTqv4kdyR86GCyDLnkml10dO4ZVNXEd3/7vDFGE=";
     };
     date = "2015-04-22";
@@ -42,7 +43,7 @@
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sparseCheckout = [];
+      sparseCheckout = [ ];
       sha256 = "sha256-AeKYKaPYADWkufB9OicPNTrcm1mQfkuMI+7WKidppNw=";
     };
     date = "2024-10-04";

@@ -61,9 +61,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "85b5e9624a9eaa14c70b17b873209a2054f4062a",
-      "url": "https://github.com/Rolv-Apneseth/bypass.yazi/archive/85b5e9624a9eaa14c70b17b873209a2054f4062a.tar.gz",
-      "hash": "187hrhs0ggcar15s9fbyrib188c20lrjn68ayrman4xfpmfybxnr"
+      "revision": "381fb89a21a58605c555c109f190309b2d116d30",
+      "url": "https://github.com/Rolv-Apneseth/bypass.yazi/archive/381fb89a21a58605c555c109f190309b2d116d30.tar.gz",
+      "hash": "1vayiap6i6vsym41lg0xhrbv74wc8miz0lrlzanp7qxwa4x351yk"
     },
     "compress.yazi": {
       "type": "Git",
@@ -74,9 +74,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "17b87ae1a96b615d7df08550797453cc65d1fd3e",
-      "url": "https://github.com/KKV9/compress.yazi/archive/17b87ae1a96b615d7df08550797453cc65d1fd3e.tar.gz",
-      "hash": "03xk9w56l7dwnri1bwgk8nqr74khaj9hzimrik6p3h2dvnc0160d"
+      "revision": "84129fc2aba3258e0d69d6c4b4d69fdc18458974",
+      "url": "https://github.com/KKV9/compress.yazi/archive/84129fc2aba3258e0d69d6c4b4d69fdc18458974.tar.gz",
+      "hash": "0qszvgbv51jasnb4ms5hj8knff2k13g9clwgc9gz1yfpqr29032d"
     },
     "exifaudio.yazi": {
       "type": "Git",
@@ -321,9 +321,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "6fde3b2d9dc9a12c14588eb85cf4964e619842e6",
-      "url": "https://github.com/Rolv-Apneseth/starship.yazi/archive/6fde3b2d9dc9a12c14588eb85cf4964e619842e6.tar.gz",
-      "hash": "0dll24507lwbqpbnvci4ca8hhjnjr431grn5s0rrv5q82y19s97q"
+      "revision": "428d43ac0846cb1885493a1f01c049a883b70155",
+      "url": "https://github.com/Rolv-Apneseth/starship.yazi/archive/428d43ac0846cb1885493a1f01c049a883b70155.tar.gz",
+      "hash": "0vsw1ai5msxk9p8dwshwnqxg07g5xxpxszdv5blqf94j5lqf8h32"
     },
     "sudo.yazi": {
       "type": "Git",

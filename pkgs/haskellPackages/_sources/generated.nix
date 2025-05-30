@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   kmonad = {
     pname = "kmonad";
     version = "e716fb08a734e68eac3dd6ace784d4d8dd1c017a";

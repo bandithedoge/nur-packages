@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   bearssl = {
     pname = "bearssl";
     version = "11e798b62b8e6beabe958e048e9e24c7e0f9ee63";
@@ -14,7 +15,7 @@
       fetchSubmodules = true;
       deepClone = false;
       leaveDotGit = false;
-      sparseCheckout = [];
+      sparseCheckout = [ ];
       sha256 = "sha256-BHF1cjT4hdEQZAP7jHxL8JIRwN/OMyxx6hVmrmI0o2M=";
     };
     date = "2025-05-21";
@@ -28,7 +29,7 @@
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sparseCheckout = [];
+      sparseCheckout = [ ];
       sha256 = "sha256-GQ7Lc/Yk0o1Y+znF+Ei2sMGXYDRwhcWyfoDio3ISTqI=";
     };
     date = "2025-05-26";
@@ -42,7 +43,7 @@
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sparseCheckout = [];
+      sparseCheckout = [ ];
       sha256 = "sha256-6V2hOXXr6JFI08Q0YDHwUWbsZWm3E825IcoPZVOptQ4=";
     };
     date = "2025-03-21";
@@ -56,7 +57,7 @@
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sparseCheckout = [];
+      sparseCheckout = [ ];
       sha256 = "sha256-bVsVH6NiAL1af9rGFTTyJL3h0t0pYR+pEULOxdD1FHU=";
     };
     date = "2025-04-25";
@@ -70,7 +71,7 @@
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sparseCheckout = [];
+      sparseCheckout = [ ];
       sha256 = "sha256-Coab9jUKiI/ik/KKLupZv/33rJzxeJ6L1HtIq9DJzpI=";
     };
     date = "2025-01-13";
@@ -84,7 +85,7 @@
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sparseCheckout = [];
+      sparseCheckout = [ ];
       sha256 = "sha256-tWhyXhXcpJTS5qhxdg4fmnjxLSstQlS5Xcmh59SwbM8=";
     };
     date = "2025-04-22";
@@ -98,7 +99,7 @@
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sparseCheckout = [];
+      sparseCheckout = [ ];
       sha256 = "sha256-UkU0MpfzQuS21Up12A12RjEyBFBNvvb6d2/3u/jtgT0=";
     };
     date = "2025-01-13";
@@ -112,7 +113,7 @@
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sparseCheckout = [];
+      sparseCheckout = [ ];
       sha256 = "sha256-CloiQdCdr+PsC89BVtmhWRk1HeX7/kE2Y0p6hage4v8=";
     };
     date = "2025-05-07";
@@ -148,7 +149,7 @@
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sparseCheckout = [];
+      sparseCheckout = [ ];
       sha256 = "sha256-KbNqt0FMuzDF4X+XM6JEaZJBypLDnvVPpnBpE7Sq6sA=";
     };
     date = "2024-12-07";
@@ -162,7 +163,7 @@
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sparseCheckout = [];
+      sparseCheckout = [ ];
       sha256 = "sha256-M2YJbsInpvjYK5FEH67/pVVcFl+69X72cm7wXFkfyiE=";
     };
     date = "2025-05-15";
@@ -176,7 +177,7 @@
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sparseCheckout = [];
+      sparseCheckout = [ ];
       sha256 = "sha256-k10WhBWG/gr2Z/yWC96zGe9Rg321dlbHkZK9LVUd4rY=";
     };
     date = "2025-05-13";
@@ -201,7 +202,7 @@
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sparseCheckout = [];
+      sparseCheckout = [ ];
       sha256 = "sha256-/HRPFK3eq+S63KME2M75nZw41jgZjJPPrpVjivmgQ7A=";
     };
     date = "2025-02-17";
@@ -226,7 +227,7 @@
       fetchSubmodules = true;
       deepClone = false;
       leaveDotGit = false;
-      sparseCheckout = [];
+      sparseCheckout = [ ];
       sha256 = "sha256-M4p1cOOKbW1H/4wxwqjlgACSY4+GBUf0ctkidk5bxmQ=";
     };
     date = "2025-04-24";

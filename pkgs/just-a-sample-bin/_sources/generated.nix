@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   just-a-sample-bin = {
     pname = "just-a-sample-bin";
     version = "release";

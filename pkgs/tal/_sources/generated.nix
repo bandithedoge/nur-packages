@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   bassline-101 = {
     pname = "bassline-101";
     version = "latest";

@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   keepmenu = {
     pname = "keepmenu";
     version = "cc35779b3cbc14588ce25fa9b768b1a97f0eae3b";

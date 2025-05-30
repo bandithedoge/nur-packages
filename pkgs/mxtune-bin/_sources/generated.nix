@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   mxtune-bin = {
     pname = "mxtune-bin";
     version = "v1.2.0";

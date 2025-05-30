@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   ripplerx = {
     pname = "ripplerx";
     version = "v1.4.3";

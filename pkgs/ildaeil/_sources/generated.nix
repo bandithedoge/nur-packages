@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   ildaeil = {
     pname = "ildaeil";
     version = "c66bcccb678ce5eec7447674f3e69d9e777af5f8";

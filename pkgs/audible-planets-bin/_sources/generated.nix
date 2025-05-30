@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   audible-planets-lv2 = {
     pname = "audible-planets-lv2";
     version = "1.2.2";

@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   winegui = {
     pname = "winegui";
     version = "v2.4.3";

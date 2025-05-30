@@ -35,7 +35,7 @@ pkgs.stdenv.mkDerivation rec {
     export TERMINFO=$out/share/terminfo
   '';
 
-  installFlags = ["PREFIX=$(out)"];
+  installFlags = [ "PREFIX=$(out)" ];
 
   meta = with pkgs.lib; {
     description = "An st build with preprocessor directives to decide which patches to include during build time";

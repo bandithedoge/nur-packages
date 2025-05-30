@@ -2,13 +2,16 @@
   pkgs,
   sources,
   ...
-}: let
-  buildGrammar = language:
+}:
+let
+  buildGrammar =
+    language:
     pkgs.tree-sitter.buildGrammar {
       inherit language;
       inherit (sources."tree-sitter-${language}") src;
       version = sources."tree-sitter-${language}".date;
     };
-in {
+in
+{
   tree-sitter-hypr = buildGrammar "hypr";
 }

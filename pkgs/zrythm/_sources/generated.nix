@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   carla-git = {
     pname = "carla-git";
     version = "17000e7fe99459b25a50094a8b00bdfa12f2bfbc";
@@ -14,7 +15,7 @@
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sparseCheckout = [];
+      sparseCheckout = [ ];
       sha256 = "sha256-eCXAGZX/nT51CJipajATdssY2DIvA6rA+WR/krvQNK4=";
     };
     date = "2024-11-24";
@@ -28,7 +29,7 @@
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sparseCheckout = [];
+      sparseCheckout = [ ];
       sha256 = "sha256-Xb8pCUEa6Vf0WX49Oo5+rqGyEMqWqnhWXG7s9j5nPPg=";
     };
     date = "2024-11-21";

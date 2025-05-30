@@ -4,18 +4,19 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   compressor = {
     pname = "compressor";
-    version = "544bb66c3eea87c913aad4da08b475f9d787943f";
+    version = "cfe686bdf26f3e6f33df319189ae2de2a0a05064";
     src = fetchgit {
       url = "https://github.com/ZL-Audio/ZLCompressor";
-      rev = "544bb66c3eea87c913aad4da08b475f9d787943f";
+      rev = "cfe686bdf26f3e6f33df319189ae2de2a0a05064";
       fetchSubmodules = true;
       deepClone = false;
       leaveDotGit = false;
-      sparseCheckout = [];
-      sha256 = "sha256-M644AuzGNKYVCTrk4c4+SHI5yeWTj5UEcqHfDE+OpIo=";
+      sparseCheckout = [ ];
+      sha256 = "sha256-F+2URmWs9O3CRtIC16c/vI11VhOdW8yJgFUHjliW3eI=";
     };
     date = "2025-05-30";
   };

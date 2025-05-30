@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   crunchrr = {
     pname = "crunchrr";
     version = "release-91";

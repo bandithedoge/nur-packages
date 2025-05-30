@@ -14,7 +14,8 @@ pkgs.stdenv.mkDerivation {
     unzip
   ];
 
-  buildInputs = with pkgs;
+  buildInputs =
+    with pkgs;
     [
       fftwFloat
       glibmm
@@ -38,7 +39,7 @@ pkgs.stdenv.mkDerivation {
     description = "guitarix vst3 wrapper for linux";
     homepage = "https://github.com/brummer10/guitarix.vst";
     license = licenses.gpl3Plus;
-    platforms = ["x86_64-linux"];
-    sourceProvenance = [sourceTypes.binaryNativeCode];
+    platforms = [ "x86_64-linux" ];
+    sourceProvenance = [ sourceTypes.binaryNativeCode ];
   };
 }

@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   Speedrum = {
     pname = "Speedrum";
     version = "v1.5.3";

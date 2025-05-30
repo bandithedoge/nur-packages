@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   snyk-ls-bin-aarch64-darwin = {
     pname = "snyk-ls-bin-aarch64-darwin";
     version = "20241112.105448";

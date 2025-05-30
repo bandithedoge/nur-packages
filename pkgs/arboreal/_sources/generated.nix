@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   clap-juce-extensions = {
     pname = "clap-juce-extensions";
     version = "8d0754f5d6ca1e95bc207b7743c04ebd7dc17e88";
@@ -14,7 +15,7 @@
       fetchSubmodules = true;
       deepClone = false;
       leaveDotGit = false;
-      sparseCheckout = [];
+      sparseCheckout = [ ];
       sha256 = "sha256-gb0uK3pkTgINUC4IhmEC/nEKvuBxyFJZyPV59hpzXcg=";
     };
   };
@@ -27,7 +28,7 @@
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sparseCheckout = [];
+      sparseCheckout = [ ];
       sha256 = "sha256-oKKBptJ5jSJ5jThaBTpvFhgMzuSwWC7ZGGVJPuP+o7M=";
     };
   };
@@ -51,7 +52,7 @@
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sparseCheckout = [];
+      sparseCheckout = [ ];
       sha256 = "sha256-6NjpHkVxWFrriY55Btq//tR1YOYAdm0Bsp5ue3RWXlE=";
     };
   };

@@ -1,7 +1,8 @@
-{pkgs, ...}: let
+{ pkgs, ... }:
+let
   callPackageArgs = pkg: {
     inherit pkgs callPackage';
-    sources = pkgs.callPackage (pkg + "/_sources/generated.nix") {};
+    sources = pkgs.callPackage (pkg + "/_sources/generated.nix") { };
     utils = callPackage' ../utils;
   };
 
@@ -138,11 +139,11 @@
     zrythm = callPackage' ./zrythm;
   };
 in
-  pkgs.lib.recursiveUpdate packages (
-    pkgs.lib.mapAttrsRecursive (
-      old: new:
-        pkgs.lib.warn "${concat old} has been renamed to ${concat new}" (
-          pkgs.lib.attrByPath new null packages
-        )
-    ) (import ./_renamed.nix)
-  )
+pkgs.lib.recursiveUpdate packages (
+  pkgs.lib.mapAttrsRecursive (
+    old: new:
+    pkgs.lib.warn "${concat old} has been renamed to ${concat new}" (
+      pkgs.lib.attrByPath new null packages
+    )
+  ) (import ./_renamed.nix)
+)

@@ -3,12 +3,14 @@
   sources,
   utils,
   ...
-}: let
-  mkApisonic = {
-    source,
-    meta,
-    sourceRoot ? "linux",
-  }:
+}:
+let
+  mkApisonic =
+    {
+      source,
+      meta,
+      sourceRoot ? "linux",
+    }:
     pkgs.stdenv.mkDerivation {
       inherit (source) pname src;
       version = pkgs.lib.removePrefix "v" source.version;
@@ -31,15 +33,17 @@
         runHook postBuild
       '';
 
-      meta = with pkgs.lib;
+      meta =
+        with pkgs.lib;
         {
           license = licenses.unfree;
-          platforms = ["x86_64-linux"];
-          sourceProvenance = [sourceTypes.binaryNativeCode];
+          platforms = [ "x86_64-linux" ];
+          sourceProvenance = [ sourceTypes.binaryNativeCode ];
         }
         // meta;
     };
-in {
+in
+{
   speedrum = mkApisonic {
     source = sources.Speedrum2;
     meta = {

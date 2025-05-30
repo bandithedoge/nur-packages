@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   sgdboop-bin = {
     pname = "sgdboop-bin";
     version = "v1.3.1";

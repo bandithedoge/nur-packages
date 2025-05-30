@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   charlatan = {
     pname = "charlatan";
     version = "3.3.0";

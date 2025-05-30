@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   rnnoise-plugin = {
     pname = "rnnoise-plugin";
     version = "v1.10";

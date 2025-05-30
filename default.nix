@@ -1,2 +1,4 @@
-{pkgs ? import <nixpkgs> {}}:
-import ./pkgs {inherit pkgs;}
+{
+  pkgs ? import <nixpkgs> { },
+}:
+import ./pkgs { inherit pkgs; }

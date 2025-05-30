@@ -3,7 +3,8 @@
   fetchurl,
   lib,
   stdenv,
-}: {
+}:
+{
   "augmented-steam" = buildFirefoxXpiAddon {
     pname = "augmented-steam";
     version = "4.2.1";
@@ -334,7 +335,11 @@
       homepage = "https://github.com/aaronraimist/DontFuckWithPaste";
       description = "This add-on stops websites from blocking copy and paste for password fields and other input fields.";
       license = licenses.mit;
-      mozPermissions = ["storage" "tabs" "<all_urls>"];
+      mozPermissions = [
+        "storage"
+        "tabs"
+        "<all_urls>"
+      ];
       platforms = platforms.all;
     };
   };
@@ -435,7 +440,10 @@
       homepage = "https://github.com/noam3127/github-code-folding";
       description = "Enable code folding when viewing files in GitHub.";
       license = licenses.mpl20;
-      mozPermissions = ["tabs" "*://github.com/*"];
+      mozPermissions = [
+        "tabs"
+        "*://github.com/*"
+      ];
       platforms = platforms.all;
     };
   };
@@ -764,7 +772,10 @@
       homepage = "https://github.com/musically-ut/lovely-forks";
       description = "Show notable forks of Github projects.";
       license = licenses.mpl20;
-      mozPermissions = ["storage" "*://github.com/*"];
+      mozPermissions = [
+        "storage"
+        "*://github.com/*"
+      ];
       platforms = platforms.all;
     };
   };
@@ -1455,10 +1466,10 @@
   };
   "sponsorblock" = buildFirefoxXpiAddon {
     pname = "sponsorblock";
-    version = "5.12.3";
+    version = "5.12.4";
     addonId = "sponsorBlocker@ajay.app";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4499756/sponsorblock-5.12.3.xpi";
-    sha256 = "24d33d252ac33d263e54247e7e6898cb3277991dbb54fe9329589bdedeb7fe80";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4501802/sponsorblock-5.12.4.xpi";
+    sha256 = "789c63e5cfc74aa11661459de7ab87c0143cca5a0944aab700a6044497bf40eb";
     meta = with lib; {
       homepage = "https://sponsor.ajay.app";
       description = "Easily skip YouTube video sponsors. When you visit a YouTube video, the extension will check the database for reported sponsors and automatically skip known sponsors. You can also report sponsors in videos. Other browsers: https://sponsor.ajay.app";
@@ -1583,10 +1594,10 @@
   };
   "tree-style-tab" = buildFirefoxXpiAddon {
     pname = "tree-style-tab";
-    version = "4.1.7";
+    version = "4.1.11";
     addonId = "treestyletab@piro.sakura.ne.jp";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4493818/tree_style_tab-4.1.7.xpi";
-    sha256 = "4977a5889ef12337c184e84a1abed243ae6544149491d1cd7749adf46c28d7a1";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4502732/tree_style_tab-4.1.11.xpi";
+    sha256 = "e9314a7673bc239be5b3a6fbe4883adf77df69b5c801b89541af50b8f0037ef5";
     meta = with lib; {
       homepage = "http://piro.sakura.ne.jp/xul/_treestyletab.html.en";
       description = "Show tabs like a tree.";

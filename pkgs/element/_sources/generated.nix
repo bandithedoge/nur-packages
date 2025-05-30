@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   clap = {
     pname = "clap";
     version = "1.2.6";
@@ -25,7 +26,7 @@
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sparseCheckout = [];
+      sparseCheckout = [ ];
       sha256 = "sha256-4Sf/HIYIEasFOLvCAJnnWt05Vh29yf0C9YrHi7pRVYc=";
     };
     date = "2025-03-25";
@@ -39,7 +40,7 @@
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = true;
-      sparseCheckout = [];
+      sparseCheckout = [ ];
       sha256 = "sha256-2C099EBtJkbcvv66ko/yoiVWn99U6Zeoq6FNSuRvOZA=";
     };
     date = "2025-05-26";
@@ -53,7 +54,7 @@
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sparseCheckout = [];
+      sparseCheckout = [ ];
       sha256 = "sha256-vdtU5CvKjCtqqbGyMrkdavHkNCb91IERnzySoJXXbwE=";
     };
     date = "2024-06-13";
@@ -67,7 +68,7 @@
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sparseCheckout = [];
+      sparseCheckout = [ ];
       sha256 = "sha256-IXgnOPsOnUSlQXbhbdNk+Qpv9yHb9tWrppAocXsBCi0=";
     };
     date = "2025-02-19";
@@ -81,7 +82,7 @@
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sparseCheckout = [];
+      sparseCheckout = [ ];
       sha256 = "sha256-lIP/yyMohNyJB+LEZcG0dW/8KNFq7S85GWkmye+oaiM=";
     };
     date = "2025-02-01";

@@ -18,7 +18,8 @@ pkgs.stdenv.mkDerivation rec {
     python3
   ];
 
-  buildInputs = with pkgs;
+  buildInputs =
+    with pkgs;
     [
       boost
       cairo

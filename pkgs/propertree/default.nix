@@ -8,7 +8,7 @@ pkgs.stdenv.mkDerivation {
   version = sources.propertree.date;
 
   buildInputs = with pkgs; [
-    (pkgs.python3.withPackages (ps: with ps; [tkinter]))
+    (pkgs.python3.withPackages (ps: with ps; [ tkinter ]))
     copyDesktopItems
     makeWrapper
   ];
@@ -18,7 +18,7 @@ pkgs.stdenv.mkDerivation {
       name = "propertree";
       exec = "propertree";
       desktopName = "ProperTree";
-      categories = ["Utility"];
+      categories = [ "Utility" ];
     })
   ];
 

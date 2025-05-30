@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   nyan-doom = {
     pname = "nyan-doom";
     version = "v1.2.6";

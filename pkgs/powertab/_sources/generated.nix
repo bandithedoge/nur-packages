@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   powertab = {
     pname = "powertab";
     version = "2.0.21";

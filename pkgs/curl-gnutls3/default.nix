@@ -1,4 +1,4 @@
-{pkgs, ...}:
+{ pkgs, ... }:
 pkgs.stdenv.mkDerivation {
   pname = "curl";
   version = "8.4.0";
@@ -9,7 +9,7 @@ pkgs.stdenv.mkDerivation {
     hash = "sha256-2sAnQKWk67MNR2pFQGDN1mQ6re+A9we3oPkM6bZAmYw=";
   };
 
-  patches = [./03_keep_symbols_compat.patch];
+  patches = [ ./03_keep_symbols_compat.patch ];
 
   nativeBuildInputs = with pkgs; [
     pkg-config
@@ -23,13 +23,15 @@ pkgs.stdenv.mkDerivation {
     zlib
   ];
 
-  postInstall = let
-    inherit (pkgs.stdenv.hostPlatform.extensions) sharedLibrary;
-  in ''
-    ln $out/lib/libcurl${sharedLibrary} $out/lib/libcurl-gnutls${sharedLibrary}
-    ln $out/lib/libcurl${sharedLibrary} $out/lib/libcurl-gnutls${sharedLibrary}.4
-    ln $out/lib/libcurl${sharedLibrary} $out/lib/libcurl-gnutls${sharedLibrary}.4.4.0
-  '';
+  postInstall =
+    let
+      inherit (pkgs.stdenv.hostPlatform.extensions) sharedLibrary;
+    in
+    ''
+      ln $out/lib/libcurl${sharedLibrary} $out/lib/libcurl-gnutls${sharedLibrary}
+      ln $out/lib/libcurl${sharedLibrary} $out/lib/libcurl-gnutls${sharedLibrary}.4
+      ln $out/lib/libcurl${sharedLibrary} $out/lib/libcurl-gnutls${sharedLibrary}.4.4.0
+    '';
 
   enableParallelBuilding = true;
 

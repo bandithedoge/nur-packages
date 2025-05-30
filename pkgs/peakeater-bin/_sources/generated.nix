@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   peakeater-bin = {
     pname = "peakeater-bin";
     version = "v0.8.2";

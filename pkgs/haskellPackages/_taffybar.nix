@@ -145,7 +145,7 @@ mkDerivation {
     xml-helpers
     xmonad
   ];
-  libraryPkgconfigDepends = [gtk3];
+  libraryPkgconfigDepends = [ gtk3 ];
   executableHaskellDepends = [
     base
     data-default
@@ -153,7 +153,7 @@ mkDerivation {
     hslogger
     optparse-applicative
   ];
-  executablePkgconfigDepends = [gtk3];
+  executablePkgconfigDepends = [ gtk3 ];
   homepage = "http://github.com/taffybar/taffybar";
   description = "A desktop bar similar to xmobar, but with more GUI";
   license = lib.licenses.bsd3;

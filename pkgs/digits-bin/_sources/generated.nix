@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   digits-bin = {
     pname = "digits-bin";
     version = "2_1";

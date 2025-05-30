@@ -29,7 +29,7 @@ pkgs.stdenv.mkDerivation {
     description = "Audio plugin for custom MP3 distortion and digital glitches";
     homepage = "https://github.com/ArdenButterfield/Maim";
     license = licenses.gpl3Only;
-    platforms = ["x86_64-linux"];
-    sourceProvenance = [sourceTypes.binaryNativeCode];
+    platforms = [ "x86_64-linux" ];
+    sourceProvenance = [ sourceTypes.binaryNativeCode ];
   };
 }

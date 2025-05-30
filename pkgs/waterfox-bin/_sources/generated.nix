@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   waterfox-bin = {
     pname = "waterfox-bin";
     version = "6.5.6";

@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   cherry-doom = {
     pname = "cherry-doom";
     version = "cherry-doom-2.0.0";

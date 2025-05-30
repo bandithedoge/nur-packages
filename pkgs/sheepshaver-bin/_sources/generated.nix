@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   sheepshaver-bin = {
     pname = "sheepshaver-bin";
     version = "2025-05-11";

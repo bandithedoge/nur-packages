@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   bitdos-bin = {
     pname = "bitdos-bin";
     version = "1.2";

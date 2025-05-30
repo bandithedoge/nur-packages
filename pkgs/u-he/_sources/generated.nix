@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   ACE = {
     pname = "ACE";
     version = "143_16518";
@@ -142,7 +143,7 @@
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sparseCheckout = [];
+      sparseCheckout = [ ];
       sha256 = "sha256-fJXkByP2QXo/3tpP1mPCYKmGolwlWLxubGV6xdytmCg=";
     };
     date = "2022-08-30";

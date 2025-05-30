@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   thorium-bin = {
     pname = "thorium-bin";
     version = "130.0.6723.174";

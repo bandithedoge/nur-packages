@@ -3,14 +3,16 @@
   sources,
   utils,
   ...
-}: let
-  mkWea = {
-    name,
-    source,
-    description,
-    homepage,
-    license ? pkgs.lib.licenses.gpl3,
-  }:
+}:
+let
+  mkWea =
+    {
+      name,
+      source,
+      description,
+      homepage,
+      license ? pkgs.lib.licenses.gpl3,
+    }:
     pkgs.stdenv.mkDerivation rec {
       inherit (source) pname version src;
 
@@ -21,7 +23,8 @@
         unzip
       ];
 
-      buildInputs = with pkgs;
+      buildInputs =
+        with pkgs;
         [
           stdenv.cc.cc.lib
         ]
@@ -38,11 +41,12 @@
 
       meta = with pkgs.lib; {
         inherit description homepage license;
-        platforms = ["x86_64-linux"];
-        sourceProvenance = [sourceTypes.binaryNativeCode];
+        platforms = [ "x86_64-linux" ];
+        sourceProvenance = [ sourceTypes.binaryNativeCode ];
       };
     };
-in {
+in
+{
   songbird-bin = mkWea {
     name = "Songbird";
     source = sources.songbird-bin;

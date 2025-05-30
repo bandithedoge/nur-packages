@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   carve-bin = {
     pname = "carve-bin";
     version = "2.6.1";

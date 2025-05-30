@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   zlint-bin-aarch64-darwin = {
     pname = "zlint-bin-aarch64-darwin";
     version = "v0.7.6";

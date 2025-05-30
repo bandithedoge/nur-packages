@@ -29,7 +29,7 @@ pkgs.stdenv.mkDerivation {
     description = "The Crepe plugin is an implementation of the CREPE monophonic pitch tracker, based on a deep convolutional neural network operating directly on the time-domain waveform input, as a Vamp plugin";
     homepage = "https://github.com/Ircam-Partiels/crepe-vamp-plugin";
     license = licenses.mit;
-    platforms = ["x86_64-linux"];
-    sourceProvenance = [sourceTypes.binaryNativeCode];
+    platforms = [ "x86_64-linux" ];
+    sourceProvenance = [ sourceTypes.binaryNativeCode ];
   };
 }

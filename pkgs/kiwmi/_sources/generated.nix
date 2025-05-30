@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   kiwmi = {
     pname = "kiwmi";
     version = "7faf4a3f8b307cc04a9d5047cb04f76d849ff13a";

@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   blender-radeon-prorender = {
     pname = "blender-radeon-prorender";
     version = "v3.6.11/RadeonProRenderForBlender_3.6.11_Ubuntu24-325eb7f";

@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   airwin2rack = {
     pname = "airwin2rack";
     version = "fc5cab2cfa653512f19ed5c00de331f150e5d309";
@@ -14,7 +15,7 @@
       fetchSubmodules = true;
       deepClone = false;
       leaveDotGit = false;
-      sparseCheckout = [];
+      sparseCheckout = [ ];
       sha256 = "sha256-sRZKToUThFVfned+Sjc5gImPrYrOchp0wOjVdRZYd2o=";
     };
     date = "2025-05-25";
@@ -28,7 +29,7 @@
       fetchSubmodules = true;
       deepClone = false;
       leaveDotGit = false;
-      sparseCheckout = [];
+      sparseCheckout = [ ];
       sha256 = "sha256-hbelV7Bo1bKLjanoSHdOPedgNxvI7j2cHXM1bFaywmI=";
     };
     date = "2025-03-17";

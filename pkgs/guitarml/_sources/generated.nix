@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   chameleon = {
     pname = "chameleon";
     version = "bf0b03b4ebead33c84432e3beabe199ff0fa847e";
@@ -14,7 +15,7 @@
       fetchSubmodules = true;
       deepClone = false;
       leaveDotGit = false;
-      sparseCheckout = [];
+      sparseCheckout = [ ];
       sha256 = "sha256-Y8oQ3ONHeQn0v7CXR6Jln5yb+CvVR4lXQlJeOm5jsuY=";
     };
     date = "2023-01-05";
@@ -50,7 +51,7 @@
       fetchSubmodules = true;
       deepClone = false;
       leaveDotGit = false;
-      sparseCheckout = [];
+      sparseCheckout = [ ];
       sha256 = "sha256-1pS3gSpvncEJqvB96PKbxlfV/Besdvd5pKs7VVfG1pE=";
     };
     date = "2023-04-11";
@@ -64,7 +65,7 @@
       fetchSubmodules = true;
       deepClone = false;
       leaveDotGit = false;
-      sparseCheckout = [];
+      sparseCheckout = [ ];
       sha256 = "sha256-ZqkHF07FHlTvViJCdd/t2ge9JwpTiG/PYt2gMFJzKD8=";
     };
     date = "2022-10-12";
@@ -78,7 +79,7 @@
       fetchSubmodules = true;
       deepClone = false;
       leaveDotGit = false;
-      sparseCheckout = [];
+      sparseCheckout = [ ];
       sha256 = "sha256-ItxkbMtF2xOUb/mYL/K5s9S9GTrHlsCsAl/P0EDM3xs=";
     };
     date = "2023-01-05";

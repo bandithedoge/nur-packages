@@ -2,7 +2,8 @@
   pkgs,
   callPackage',
   ...
-}: rec {
+}:
+rec {
   commonBuildInputs = with pkgs; [
     (callPackage' ../pkgs/curl-gnutls3)
     alsa-lib
@@ -18,61 +19,68 @@
 
   mkJucePackage = pkgs.lib.extendMkDerivation {
     constructDrv = (pkgs.stdenvAdapters.useMoldLinker pkgs.stdenv).mkDerivation;
-    extendDrvArgs = finalAttrs: {dontUseJuceInstall ? false, ...} @ args: {
-      nativeBuildInputs = with pkgs;
-        [
-          cmake
-          ninja
-          pkg-config
-          autoPatchelfHook
-        ]
-        ++ (args.nativeBuildInputs or []);
+    extendDrvArgs =
+      finalAttrs:
+      {
+        dontUseJuceInstall ? false,
+        ...
+      }@args:
+      {
+        nativeBuildInputs =
+          with pkgs;
+          [
+            cmake
+            ninja
+            pkg-config
+            autoPatchelfHook
+          ]
+          ++ (args.nativeBuildInputs or [ ]);
 
-      buildInputs = commonBuildInputs ++ (args.buildInputs or []);
+        buildInputs = commonBuildInputs ++ (args.buildInputs or [ ]);
 
-      cmakeFlags = ["-DCOPY_PLUGIN_AFTER_BUILD=FALSE"] ++ (args.cmakeFlags or []);
+        cmakeFlags = [ "-DCOPY_PLUGIN_AFTER_BUILD=FALSE" ] ++ (args.cmakeFlags or [ ]);
 
-      postPatch =
-        ''
-          for f in $(find -name CMakeLists.txt); do
-            substituteInPlace "$f" --replace-quiet "COPY_PLUGIN_AFTER_BUILD TRUE" "COPY_PLUGIN_AFTER_BUILD FALSE"
-          done
-        ''
-        + (args.postPatch or "");
-
-      installPhase =
-        args.installPhase or
-        (
-          if dontUseJuceInstall
-          then null
-          else ''
-            runHook preInstall
-
-            for f in *_artefacts/Release/Standalone/*; do
-              mkdir -p $out/bin
-              cp "$f" $out/bin
-            done
-
-            for f in *_artefacts/Release/CLAP/*; do
-              mkdir -p $out/lib/clap
-              cp "$f" $out/lib/clap
-            done
-
-            for f in *_artefacts/Release/LV2/*; do
-              mkdir -p $out/lib/lv2
-              cp -r "$f" $out/lib/lv2
-            done
-
-            for f in *_artefacts/Release/VST3/*; do
-              mkdir -p $out/lib/vst3
-              cp -r "$f" $out/lib/vst3
-            done
-
-            runHook postInstall
+        postPatch =
           ''
-        );
+            for f in $(find -name CMakeLists.txt); do
+              substituteInPlace "$f" --replace-quiet "COPY_PLUGIN_AFTER_BUILD TRUE" "COPY_PLUGIN_AFTER_BUILD FALSE"
+            done
+          ''
+          + (args.postPatch or "");
 
-      runtimeDependencies = commonBuildInputs;
-    };
+        installPhase =
+          args.installPhase or (
+            if dontUseJuceInstall then
+              null
+            else
+              ''
+                runHook preInstall
+
+                for f in *_artefacts/Release/Standalone/*; do
+                  mkdir -p $out/bin
+                  cp "$f" $out/bin
+                done
+
+                for f in *_artefacts/Release/CLAP/*; do
+                  mkdir -p $out/lib/clap
+                  cp "$f" $out/lib/clap
+                done
+
+                for f in *_artefacts/Release/LV2/*; do
+                  mkdir -p $out/lib/lv2
+                  cp -r "$f" $out/lib/lv2
+                done
+
+                for f in *_artefacts/Release/VST3/*; do
+                  mkdir -p $out/lib/vst3
+                  cp -r "$f" $out/lib/vst3
+                done
+
+                runHook postInstall
+              ''
+          );
+
+        runtimeDependencies = commonBuildInputs;
+      };
   };
 }

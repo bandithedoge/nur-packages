@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   envtool-bin = {
     pname = "envtool-bin";
     version = "v1.4.2";

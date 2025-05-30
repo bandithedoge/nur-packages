@@ -8,7 +8,7 @@ pkgs.stdenv.mkDerivation {
   version = pkgs.lib.removePrefix "v" sources.symbols-nerd-font.version;
   inherit (sources.symbols-nerd-font) src;
 
-  nativeBuildInputs = with pkgs; [unzip];
+  nativeBuildInputs = with pkgs; [ unzip ];
 
   sourceRoot = ".";
 

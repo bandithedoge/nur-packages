@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   py-slvs = {
     pname = "py-slvs";
     version = "1.0.6";

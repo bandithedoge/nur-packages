@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   monique = {
     pname = "monique";
     version = "df7d3395bce862847d40237350d0161a463dcc0d";
@@ -14,8 +15,8 @@
       fetchSubmodules = true;
       deepClone = false;
       leaveDotGit = true;
-      sparseCheckout = [];
-      sha256 = "sha256-9xkpgdhiHdH6GfpNbpLJJN5AM04Pxf1qXsSty8eLonI=";
+      sparseCheckout = [ ];
+      sha256 = "sha256-YLvnexF21B4O+TRAEjK+NEoMHdzi/u8NrJyq7oQJ/fg=";
     };
     date = "2024-07-30";
   };

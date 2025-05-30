@@ -24,7 +24,7 @@ pkgs.stdenv.mkDerivation {
 
   enableParallelBuilding = true;
 
-  makeFlags = ["PREFIX=$(out)"];
+  makeFlags = [ "PREFIX=$(out)" ];
 
   meta = with pkgs.lib; {
     description = "mini-plugin host as plugin";

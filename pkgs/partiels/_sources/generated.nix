@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   partiels = {
     pname = "partiels";
     version = "2.0.10";
@@ -25,7 +26,7 @@
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sparseCheckout = [];
+      sparseCheckout = [ ];
       sha256 = "sha256-CCcjHIykhaplN12GZUp9Q0EAEy5YL6ih/C+qpQmlcIM=";
     };
   };

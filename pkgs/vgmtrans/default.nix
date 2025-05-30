@@ -23,13 +23,14 @@ pkgs.stdenv.mkDerivation {
       mkdir -p $out/lib
     ''
     + (
-      if pkgs.stdenv.isAarch64
-      then ''
-        cp $src/lib/bass/aarch64/*.so $out/lib/
-      ''
-      else ''
-        cp $src/lib/bass/*.so $out/lib/
-      ''
+      if pkgs.stdenv.isAarch64 then
+        ''
+          cp $src/lib/bass/aarch64/*.so $out/lib/
+        ''
+      else
+        ''
+          cp $src/lib/bass/*.so $out/lib/
+        ''
     );
 
   meta = with pkgs.lib; {

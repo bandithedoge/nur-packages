@@ -39,7 +39,7 @@ pkgs.stdenv.mkDerivation rec {
     description = "Flexible general-purpose audio compressor with a touch of citrus";
     homepage = "https://github.com/mzuther/Squeezer";
     license = licenses.gpl3Only;
-    platforms = ["x86_64-linux"];
-    sourceProvenance = [sourceTypes.binaryNativeCode];
+    platforms = [ "x86_64-linux" ];
+    sourceProvenance = [ sourceTypes.binaryNativeCode ];
   };
 }

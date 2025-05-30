@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   cinelerra-gg = {
     pname = "cinelerra-gg";
     version = "20250430";

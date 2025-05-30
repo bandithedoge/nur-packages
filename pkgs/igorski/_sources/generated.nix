@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   darvaza = {
     pname = "darvaza";
     version = "1.0.3";

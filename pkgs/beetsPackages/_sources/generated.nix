@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   beets-describe = {
     pname = "beets-describe";
     version = "v0.0.5";

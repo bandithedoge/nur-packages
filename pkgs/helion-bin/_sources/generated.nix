@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   helion-bin = {
     pname = "helion-bin";
     version = "0.9.6.1";

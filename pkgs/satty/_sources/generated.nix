@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   satty = {
     pname = "satty";
     version = "v0.19.0";
@@ -15,6 +16,7 @@
     cargoLock."Cargo.lock" = {
       lockFile = ./satty-v0.19.0/Cargo.lock;
       outputHashes = {
+
       };
     };
   };

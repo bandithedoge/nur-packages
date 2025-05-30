@@ -4,16 +4,17 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   gate-12 = {
     pname = "gate-12";
-    version = "v1.1.2";
+    version = "v1.1.3";
     src = fetchFromGitHub {
       owner = "tiagolr";
       repo = "gate12";
-      rev = "v1.1.2";
+      rev = "v1.1.3";
       fetchSubmodules = true;
-      sha256 = "sha256-MYpAm0ZQWzUeiYYvrkF1BFio6e0CCv9p+M6Qx1Awsb8=";
+      sha256 = "sha256-UmHVwMOhYBEftX+cK++UiT2sKKTjnycEB96moEqRfCQ=";
     };
   };
 }

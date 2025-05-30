@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   cantata = {
     pname = "cantata";
     version = "8306905b613b6a9dacbac008dd822f09e4fd0b46";
@@ -14,7 +15,7 @@
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sparseCheckout = [];
+      sparseCheckout = [ ];
       sha256 = "sha256-KXOb7SpTF1vAyDBFrSlYAAYICfugxwqVRZVz7Ed8gLI=";
     };
     date = "2025-04-24";

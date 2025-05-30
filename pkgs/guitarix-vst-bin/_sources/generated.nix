@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   guitarix-vst-bin = {
     pname = "guitarix-vst-bin";
     version = "v0.5";

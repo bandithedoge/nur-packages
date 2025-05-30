@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   cloudreverb = {
     pname = "cloudreverb";
     version = "ceb5e1df9f07ee0b2f9c525dd21b998c3952c62e";
@@ -14,7 +15,7 @@
       fetchSubmodules = true;
       deepClone = false;
       leaveDotGit = false;
-      sparseCheckout = [];
+      sparseCheckout = [ ];
       sha256 = "sha256-zXjOSLT1MXjq8fgZ+EcV0uE/UNac8IYTVlFMnX5rqP4=";
     };
     date = "2025-01-12";

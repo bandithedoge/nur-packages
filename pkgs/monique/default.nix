@@ -19,7 +19,10 @@ utils.juce.mkJucePackage {
   meta = with pkgs.lib; {
     description = "Monique monosynth";
     homepage = "https://github.com/surge-synthesizer/monique-monosynth";
-    license = with licenses; [gpl3Only mit];
+    license = with licenses; [
+      gpl3Only
+      mit
+    ];
     platforms = platforms.linux;
   };
 }

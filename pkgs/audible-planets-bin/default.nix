@@ -18,7 +18,8 @@ pkgs.stdenv.mkDerivation {
     unzip
   ];
 
-  buildInputs = with pkgs;
+  buildInputs =
+    with pkgs;
     [
       stdenv.cc.cc.lib
     ]
@@ -38,7 +39,7 @@ pkgs.stdenv.mkDerivation {
     description = "An expressive, quasi-Ptolemaic semi-modular synthesizer";
     homepage = "https://github.com/gregrecco67/AudiblePlanets";
     license = licenses.gpl3Only;
-    platforms = ["x86_64-linux"];
-    sourceProvenance = [sourceTypes.binaryNativeCode];
+    platforms = [ "x86_64-linux" ];
+    sourceProvenance = [ sourceTypes.binaryNativeCode ];
   };
 }

@@ -42,7 +42,7 @@ pkgs.stdenv.mkDerivation {
     description = "Get K-Whooms and squeeze the fattest sounds out of it with just a few turns of the controls";
     homepage = "https://www.hansen-audio.org/";
     license = licenses.unfree;
-    platforms = ["x86_64-linux"];
-    sourceProvenance = [sourceTypes.binaryNativeCode];
+    platforms = [ "x86_64-linux" ];
+    sourceProvenance = [ sourceTypes.binaryNativeCode ];
   };
 }

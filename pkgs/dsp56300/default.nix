@@ -2,7 +2,13 @@
   pkgs,
   sources,
   utils,
-  variants ? ["osirus" "ostirus" "vavra" "xenia" "nodalred2x"],
+  variants ? [
+    "osirus"
+    "ostirus"
+    "vavra"
+    "xenia"
+    "nodalred2x"
+  ],
   buildFx ? true,
   ...
 }:
@@ -13,13 +19,10 @@ utils.juce.mkJucePackage {
     substituteAll CMakeLists.txt --replace-fail "/usr/local" "${placeholder "out"}"
   '';
 
-  cmakeFlags = let
-    enable = name: cond: "gearmulator_${pkgs.lib.toUpper name}=${
-      if cond
-      then "on"
-      else "off"
-    }";
-  in
+  cmakeFlags =
+    let
+      enable = name: cond: "gearmulator_${pkgs.lib.toUpper name}=${if cond then "on" else "off"}";
+    in
     (map (v: enable "SYNTH_${v}" true) variants)
     ++ [
       (enable "BUILD_FX_PLUGIN" buildFx)

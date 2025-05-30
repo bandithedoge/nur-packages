@@ -2,12 +2,14 @@
   pkgs,
   sources,
   ...
-}: let
-  mkVenn = {
-    source,
-    meta,
-    sourceRoot ? null,
-  }:
+}:
+let
+  mkVenn =
+    {
+      source,
+      meta,
+      sourceRoot ? null,
+    }:
     pkgs.stdenv.mkDerivation {
       inherit (source) pname version src;
       inherit sourceRoot;
@@ -32,15 +34,17 @@
         runHook postBuild
       '';
 
-      meta = with pkgs.lib;
+      meta =
+        with pkgs.lib;
         {
           license = licenses.unfree;
-          platforms = ["x86_64-linux"];
-          sourceProvenance = [sourceTypes.binaryNativeCode];
+          platforms = [ "x86_64-linux" ];
+          sourceProvenance = [ sourceTypes.binaryNativeCode ];
         }
         // meta;
     };
-in {
+in
+{
   free-suite = mkVenn {
     source = sources.free-suite;
     sourceRoot = ".";

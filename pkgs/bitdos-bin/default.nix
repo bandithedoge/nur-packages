@@ -14,13 +14,14 @@ pkgs.stdenv.mkDerivation {
     autoPatchelfHook
   ];
 
-  buildInputs = with pkgs;
+  buildInputs =
+    with pkgs;
     [
       stdenv.cc.cc.lib
     ]
     ++ utils.juce.commonBuildInputs;
 
-  autoPatchelfIgnoreMissingDeps = ["libcurl-nss.so.4"];
+  autoPatchelfIgnoreMissingDeps = [ "libcurl-nss.so.4" ];
 
   buildPhase = ''
     runHook preBuild
@@ -36,7 +37,7 @@ pkgs.stdenv.mkDerivation {
     description = "A bit-inverting industrial distortion plugin with VST3/LV2 ";
     homepage = "https://github.com/astriiddev/BitDOS-VST";
     license = licenses.agpl3Only;
-    platforms = ["x86_64-linux"];
-    sourceProvenance = [sourceTypes.binaryNativeCode];
+    platforms = [ "x86_64-linux" ];
+    sourceProvenance = [ sourceTypes.binaryNativeCode ];
   };
 }

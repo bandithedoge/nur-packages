@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   octasine = {
     pname = "octasine";
     version = "v0.9.1";

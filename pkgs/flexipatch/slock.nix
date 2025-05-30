@@ -14,13 +14,13 @@ pkgs.stdenv.mkDerivation {
     xorg.libXrandr
   ];
 
-  installFlags = ["PREFIX=$(out)"];
+  installFlags = [ "PREFIX=$(out)" ];
 
   postPatch = "sed -i '/chmod u+s/d' Makefile";
 
   enableParallelBuilding = true;
 
-  makeFlags = ["CC:=$(CC)"];
+  makeFlags = [ "CC:=$(CC)" ];
 
   meta = with pkgs.lib; {
     description = "An slock build with preprocessor directives to decide which patches to include during build time";

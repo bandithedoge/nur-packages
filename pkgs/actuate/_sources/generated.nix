@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   actuate = {
     pname = "actuate";
     version = "v1.3.91";

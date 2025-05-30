@@ -29,6 +29,6 @@ pkgs.stdenv.mkDerivation {
     homepage = "https://bobona.github.io/just-a-sample/";
     license = licenses.mit;
     platforms = platforms.linux;
-    sourceProvenance = [sourceTypes.binaryNativeCode];
+    sourceProvenance = [ sourceTypes.binaryNativeCode ];
   };
 }

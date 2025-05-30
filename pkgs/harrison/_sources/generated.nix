@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   harrison-32c = {
     pname = "harrison-32c";
     version = "3-5-22";

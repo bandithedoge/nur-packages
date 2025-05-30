@@ -2,12 +2,13 @@
   pkgs,
   sources,
   ...
-}: {
+}:
+{
   lua-dbus_proxy = pkgs.luaPackages.buildLuarocksPackage rec {
     inherit (sources.lua-dbus_proxy) src pname;
     version = sources.lua-dbus_proxy.date;
 
-    propagatedBuildInputs = with pkgs.luaPackages; [lgi];
+    propagatedBuildInputs = with pkgs.luaPackages; [ lgi ];
     knownRockspec = src + "/rockspec/dbus_proxy-devel-1.rockspec";
 
     meta = with pkgs.lib; {
@@ -21,7 +22,7 @@
     inherit (sources.lua-dbus) src pname;
     version = sources.lua-dbus.date;
 
-    propagatedBuildInputs = with pkgs.luaPackages; [ldbus];
+    propagatedBuildInputs = with pkgs.luaPackages; [ ldbus ];
     knownRockspec = src + "/${pname}-scm-0.rockspec";
 
     meta = with pkgs.lib; {

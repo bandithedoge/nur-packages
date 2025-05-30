@@ -3,11 +3,13 @@
   sources,
   utils,
   ...
-}: let
-  mkJuce = {
-    source,
-    meta,
-  }:
+}:
+let
+  mkJuce =
+    {
+      source,
+      meta,
+    }:
     utils.juce.mkJucePackage {
       inherit (source) pname src;
       version = pkgs.lib.removePrefix "v" source.version;
@@ -16,7 +18,8 @@
         ln -s ${sources.juce.src} JUCE
       '';
 
-      meta = with pkgs.lib;
+      meta =
+        with pkgs.lib;
         {
           license = licenses.gpl3Only;
           platforms = platforms.linux;
@@ -24,65 +27,68 @@
         // meta;
     };
 
-  mkVst3 = {
-    source,
-    meta,
-  }: let
-    commonBuildInputs = with pkgs; [
-      libxkbcommon
-      xcb-util-cursor
-      xorg.xcbutil
-      xorg.xcbutilkeysyms
-      xorg.libX11
-      freetype
-      glib
-      cairo
-      pango
-    ];
-
-    vst3sdk = pkgs.stdenv.mkDerivation {
-      inherit (sources.vst3sdk) pname version src;
-
-      nativeBuildInputs = with pkgs; [
-        cmake
-        ninja
-        pkg-config
+  mkVst3 =
+    {
+      source,
+      meta,
+    }:
+    let
+      commonBuildInputs = with pkgs; [
+        libxkbcommon
+        xcb-util-cursor
+        xorg.xcbutil
+        xorg.xcbutilkeysyms
+        xorg.libX11
+        freetype
+        glib
+        cairo
+        pango
       ];
 
-      buildInputs = with pkgs;
-        [
-          sqlite
-        ]
-        ++ commonBuildInputs;
+      vst3sdk = pkgs.stdenv.mkDerivation {
+        inherit (sources.vst3sdk) pname version src;
 
-      postPatch = ''
-        substituteInPlace cmake/modules/SMTG_VstGuiSupport.cmake \
-          --replace-fail "set(VSTGUI_STANDALONE ON)" ""
+        nativeBuildInputs = with pkgs; [
+          cmake
+          ninja
+          pkg-config
+        ];
 
-        substituteInPlace vstgui4/vstgui/lib/finally.h \
-          --replace-fail "other.invoke (false)" "other.invoke = false"
+        buildInputs =
+          with pkgs;
+          [
+            sqlite
+          ]
+          ++ commonBuildInputs;
 
-        patchShebangs vstgui4/vstgui/uidescription/editing/createuidescdata.sh
-      '';
+        postPatch = ''
+          substituteInPlace cmake/modules/SMTG_VstGuiSupport.cmake \
+            --replace-fail "set(VSTGUI_STANDALONE ON)" ""
 
-      installPhase = ''
-        runHook preInstall
+          substituteInPlace vstgui4/vstgui/lib/finally.h \
+            --replace-fail "other.invoke (false)" "other.invoke = false"
 
-        cp -r /build/source $out
+          patchShebangs vstgui4/vstgui/uidescription/editing/createuidescdata.sh
+        '';
 
-        runHook postInstall
-      '';
+        installPhase = ''
+          runHook preInstall
 
-      cmakeFlags = [
-        "-DSMTG_ENABLE_VST3_HOSTING_EXAMPLES=OFF"
-        "-DSMTG_ENABLE_VST3_PLUGIN_EXAMPLES=OFF"
-        "-DSMTG_RUN_VST_VALIDATOR=OFF"
-        "-DVSTGUI_STANDALONE=OFF"
-        "-DVSTGUI_TOOLS=OFF"
-        "-DVST_SDK=ON"
-      ];
-    };
-  in
+          cp -r /build/source $out
+
+          runHook postInstall
+        '';
+
+        cmakeFlags = [
+          "-DSMTG_ENABLE_VST3_HOSTING_EXAMPLES=OFF"
+          "-DSMTG_ENABLE_VST3_PLUGIN_EXAMPLES=OFF"
+          "-DSMTG_RUN_VST_VALIDATOR=OFF"
+          "-DVSTGUI_STANDALONE=OFF"
+          "-DVSTGUI_TOOLS=OFF"
+          "-DVST_SDK=ON"
+        ];
+      };
+    in
     pkgs.stdenv.mkDerivation {
       inherit (source) pname version src;
 
@@ -114,14 +120,16 @@
         "-lpangocairo-1.0"
       ];
 
-      meta = with pkgs.lib;
+      meta =
+        with pkgs.lib;
         {
           license = licenses.mit;
           platforms = platforms.linux;
         }
         // meta;
     };
-in {
+in
+{
   delirion = mkJuce {
     source = sources.delirion;
     meta = {

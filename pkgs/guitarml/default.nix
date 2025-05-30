@@ -3,24 +3,28 @@
   sources,
   utils,
   ...
-}: let
-  mkGuitarMl = {
-    source,
-    meta,
-    version ? source.version,
-  }:
+}:
+let
+  mkGuitarMl =
+    {
+      source,
+      meta,
+      version ? source.version,
+    }:
     utils.juce.mkJucePackage {
       inherit (source) pname src;
       inherit version;
 
-      meta = with pkgs.lib;
+      meta =
+        with pkgs.lib;
         {
           license = licenses.gpl3Only;
           platforms = platforms.linux;
         }
         // meta;
     };
-in {
+in
+{
   proteus = mkGuitarMl {
     source = sources.proteus;
     version = pkgs.lib.removePrefix "v" sources.proteus.version;

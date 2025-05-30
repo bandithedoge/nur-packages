@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   crepe-vamp-plugin-bin = {
     pname = "crepe-vamp-plugin-bin";
     version = "3.0.0";

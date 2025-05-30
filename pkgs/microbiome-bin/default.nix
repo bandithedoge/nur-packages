@@ -20,7 +20,8 @@ pkgs.stdenv.mkDerivation {
     unzip
   ];
 
-  buildInputs = with pkgs;
+  buildInputs =
+    with pkgs;
     [
       stdenv.cc.cc.lib
     ]
@@ -40,7 +41,7 @@ pkgs.stdenv.mkDerivation {
     description = "A delay-based audio effects plugin";
     homepage = "https://github.com/dsmaugy/microbiome";
     license = licenses.gpl3;
-    platforms = ["x86_64-linux"];
-    sourceProvenance = [sourceTypes.binaryNativeCode];
+    platforms = [ "x86_64-linux" ];
+    sourceProvenance = [ sourceTypes.binaryNativeCode ];
   };
 }

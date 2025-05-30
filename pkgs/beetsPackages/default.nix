@@ -2,7 +2,8 @@
   pkgs,
   sources,
   ...
-}: {
+}:
+{
   describe = pkgs.python3Packages.buildPythonApplication {
     inherit (sources.beets-describe) pname version src;
 

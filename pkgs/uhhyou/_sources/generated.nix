@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   uhhyou = {
     pname = "uhhyou";
     version = "UhhyouPlugins0.65.0";

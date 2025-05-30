@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   ircam-vamp-plugins-bin = {
     pname = "ircam-vamp-plugins-bin";
     version = "2.1.0";

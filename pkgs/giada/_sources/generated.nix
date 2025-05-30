@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   giada = {
     pname = "giada";
     version = "1.2.0";

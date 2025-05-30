@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   cardinal = {
     pname = "cardinal";
     version = "7587c28d12bfcec29bdd8791a21d801768a2ffae";

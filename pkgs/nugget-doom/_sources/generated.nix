@@ -4,7 +4,8 @@
   fetchurl,
   fetchFromGitHub,
   dockerTools,
-}: {
+}:
+{
   nugget-doom = {
     pname = "nugget-doom";
     version = "nugget-doom-4.3.0";

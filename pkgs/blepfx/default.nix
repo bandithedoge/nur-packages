@@ -2,12 +2,14 @@
   pkgs,
   sources,
   ...
-}: let
-  mkBlep = {
-    source,
-    description,
-    homepage,
-  }:
+}:
+let
+  mkBlep =
+    {
+      source,
+      description,
+      homepage,
+    }:
     pkgs.stdenv.mkDerivation {
       inherit (source) pname src;
       version = pkgs.lib.removePrefix "version-" source.version;
@@ -38,11 +40,12 @@
       meta = with pkgs.lib; {
         inherit description homepage;
         license = licenses.unfree;
-        platforms = ["x86_64-linux"];
-        sourceProvenance = [sourceTypes.binaryNativeCode];
+        platforms = [ "x86_64-linux" ];
+        sourceProvenance = [ sourceTypes.binaryNativeCode ];
       };
     };
-in {
+in
+{
   crunchrr = mkBlep {
     source = sources.crunchrr;
     description = "crunchrr is a really simple to use effect that adds digital artifacts to your sounds. It works by modulating a small fractional delay line at an audio rate at high frequency, resulting in a bit crush/sample divide/erosion kind of effect";

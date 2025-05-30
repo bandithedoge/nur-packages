@@ -46,6 +46,6 @@ pkgs.stdenv.mkDerivation {
     description = "An open source, minimalistic and hardcore music production tool. Designed for DJs, live performers and electronic musicians.";
     homepage = "https://www.giadamusic.com/";
     license = licenses.gpl3;
-    platforms = ["x86_64-linux"];
+    platforms = [ "x86_64-linux" ];
   };
 }
