@@ -22,9 +22,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "e05c7446ea51edc9f7971fc5d3ad95891214a2a5",
-      "url": "https://github.com/AnirudhG07/archivemount.yazi/archive/e05c7446ea51edc9f7971fc5d3ad95891214a2a5.tar.gz",
-      "hash": "0903n4rnjrs8h5dr7prapy9m49ghzp8x9c7mx9pa6xzj638s9983"
+      "revision": "5a84e91b4eec065f9575a7eb4d6a4c5df694b99a",
+      "url": "https://github.com/AnirudhG07/archivemount.yazi/archive/5a84e91b4eec065f9575a7eb4d6a4c5df694b99a.tar.gz",
+      "hash": "00rxas3pg0s3hi5jiinsindnyhv1mrjg8xwq2gd7j5nz37nyh3b0"
     },
     "augment-command.yazi": {
       "type": "Git",
@@ -74,9 +74,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "60b24af23d1050f1700953a367dd4a2990ee51aa",
-      "url": "https://github.com/KKV9/compress.yazi/archive/60b24af23d1050f1700953a367dd4a2990ee51aa.tar.gz",
-      "hash": "0cdb8m38n3i356lmq6i7jldx446w98m1bz59650w5s9dgzf53zk1"
+      "revision": "17b87ae1a96b615d7df08550797453cc65d1fd3e",
+      "url": "https://github.com/KKV9/compress.yazi/archive/17b87ae1a96b615d7df08550797453cc65d1fd3e.tar.gz",
+      "hash": "03xk9w56l7dwnri1bwgk8nqr74khaj9hzimrik6p3h2dvnc0160d"
     },
     "exifaudio.yazi": {
       "type": "Git",
@@ -191,9 +191,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "bc573d5005cb088b93e793e6484f73d1ed9dafa8",
-      "url": "https://github.com/AnirudhG07/nbpreview.yazi/archive/bc573d5005cb088b93e793e6484f73d1ed9dafa8.tar.gz",
-      "hash": "1zr2g6skpj84p2nifran6i4nm0h7frb12a70wffv1cjy3l70xn8y"
+      "revision": "85ed9554523e728cfb4a205787402ae7060f7a8f",
+      "url": "https://github.com/AnirudhG07/nbpreview.yazi/archive/85ed9554523e728cfb4a205787402ae7060f7a8f.tar.gz",
+      "hash": "02kp0gqp9b9pbspccz06c0823s3lnc18mhmksxzdvknlm80nagn8"
     },
     "omp.yazi": {
       "type": "Git",
@@ -282,9 +282,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "fdcf37320e35f7c12e8087900eebffcdafaee8cb",
-      "url": "https://github.com/AnirudhG07/rich-preview.yazi/archive/fdcf37320e35f7c12e8087900eebffcdafaee8cb.tar.gz",
-      "hash": "1hmbf36k8mjsq1jasc26byqyyq0isjwnhn998k2306g04x663vqw"
+      "revision": "de28f504f21ee78b9e4799f116df2aa177384229",
+      "url": "https://github.com/AnirudhG07/rich-preview.yazi/archive/de28f504f21ee78b9e4799f116df2aa177384229.tar.gz",
+      "hash": "1jqryn9xv3r780fx4jrj21ys1725z5iwq77zpww46aq204q5m7m4"
     },
     "rsync.yazi": {
       "type": "Git",

@@ -87,9 +87,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "30b47adfaa3fc947ef1f2b93e943641a0a2985d3",
-      "url": "https://github.com/jdtsmith/indent-bars/archive/30b47adfaa3fc947ef1f2b93e943641a0a2985d3.tar.gz",
-      "hash": "1wh5gpw0rs8npyf3gvmy4033y5k4x9kszv5dwvkldx6dk3bbaxnv"
+      "revision": "5249bf88cbf1299c9cca8af214984c7a719ccd14",
+      "url": "https://github.com/jdtsmith/indent-bars/archive/5249bf88cbf1299c9cca8af214984c7a719ccd14.tar.gz",
+      "hash": "1amhaxxb20ism9a0sd0wkjv3z76ayrp4641vigzy2w19ga9c2wkl"
     },
     "on": {
       "type": "Git",
