@@ -74,9 +74,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "59d6bfa8c109675065f68a81664c17557cc19a9c",
-      "url": "https://github.com/b0o/SchemaStore.nvim/archive/59d6bfa8c109675065f68a81664c17557cc19a9c.tar.gz",
-      "hash": "0mcc342jh3phl4yq4yk8v3rncy5bxvj09adip63759xr13b5nzx5"
+      "revision": "6c52c57432280c54596feb0c0958e1a6cb546f4d",
+      "url": "https://github.com/b0o/SchemaStore.nvim/archive/6c52c57432280c54596feb0c0958e1a6cb546f4d.tar.gz",
+      "hash": "091ik8jwz99s623avggwjd8kq7a9mmq3fz75f85i1z6g1zxng2qc"
     },
     "aniseed": {
       "type": "Git",
@@ -1035,9 +1035,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "de0a88d925c8e69fdbb498141207ee43504e5cd1",
-      "url": "https://github.com/echasnovski/mini.nvim/archive/de0a88d925c8e69fdbb498141207ee43504e5cd1.tar.gz",
-      "hash": "1mfg0bfg8qqzhi837c0y4n860jsndbri6n5y6pa7wa7ll9map2jv"
+      "revision": "c39f7f506939f065d0d1af237e2ea3f252edd3d4",
+      "url": "https://github.com/echasnovski/mini.nvim/archive/c39f7f506939f065d0d1af237e2ea3f252edd3d4.tar.gz",
+      "hash": "060lanqf7jcm5vni1fl603b1lr251qgz1m7r939fcvyw3mjxz4sd"
     },
     "mkdir.nvim": {
       "type": "Git",

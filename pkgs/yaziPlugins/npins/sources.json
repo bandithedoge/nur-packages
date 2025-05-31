@@ -22,9 +22,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "5a84e91b4eec065f9575a7eb4d6a4c5df694b99a",
-      "url": "https://github.com/AnirudhG07/archivemount.yazi/archive/5a84e91b4eec065f9575a7eb4d6a4c5df694b99a.tar.gz",
-      "hash": "00rxas3pg0s3hi5jiinsindnyhv1mrjg8xwq2gd7j5nz37nyh3b0"
+      "revision": "a1796085ccdde3614a6c15cb837b79bfb53de43f",
+      "url": "https://github.com/AnirudhG07/archivemount.yazi/archive/a1796085ccdde3614a6c15cb837b79bfb53de43f.tar.gz",
+      "hash": "1va7qjlkgz7a9l29svlhc95zg7nzxibksaa466aqlxygn0mb4hdx"
     },
     "augment-command.yazi": {
       "type": "Git",
@@ -191,9 +191,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "85ed9554523e728cfb4a205787402ae7060f7a8f",
-      "url": "https://github.com/AnirudhG07/nbpreview.yazi/archive/85ed9554523e728cfb4a205787402ae7060f7a8f.tar.gz",
-      "hash": "02kp0gqp9b9pbspccz06c0823s3lnc18mhmksxzdvknlm80nagn8"
+      "revision": "7fb073fd29a98807bc6032327b475ec9b0b5479f",
+      "url": "https://github.com/AnirudhG07/nbpreview.yazi/archive/7fb073fd29a98807bc6032327b475ec9b0b5479f.tar.gz",
+      "hash": "0aj8207db5v1c6gys288kb2lnpmpzqzc6r4x6v1fd6rwfrgfq3vf"
     },
     "omp.yazi": {
       "type": "Git",
@@ -282,9 +282,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "de28f504f21ee78b9e4799f116df2aa177384229",
-      "url": "https://github.com/AnirudhG07/rich-preview.yazi/archive/de28f504f21ee78b9e4799f116df2aa177384229.tar.gz",
-      "hash": "1jqryn9xv3r780fx4jrj21ys1725z5iwq77zpww46aq204q5m7m4"
+      "revision": "843c3faf0a99f5ce31d02372c868d8dae92ca29d",
+      "url": "https://github.com/AnirudhG07/rich-preview.yazi/archive/843c3faf0a99f5ce31d02372c868d8dae92ca29d.tar.gz",
+      "hash": "19j6zyqr2h5r8mg3j9cjdmrx7gng9cflyrnx152plqrxg9n4xsbi"
     },
     "rsync.yazi": {
       "type": "Git",
@@ -412,9 +412,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "dd7ae559e63c10809eb178c4b5fa89a3c439b240",
-      "url": "https://github.com/imsi32/yatline.yazi/archive/dd7ae559e63c10809eb178c4b5fa89a3c439b240.tar.gz",
-      "hash": "17808a7yaxfdsv3fzx4n34kgcvgs8j8faf019hrwvxzp5m8rr7ms"
+      "revision": "4872af0da53023358154c8233ab698581de5b2b2",
+      "url": "https://github.com/imsi32/yatline.yazi/archive/4872af0da53023358154c8233ab698581de5b2b2.tar.gz",
+      "hash": "1zlrj7xb1bmr23dlbmcnmkcsrcwvgzc3v9xww4zlswi5f10krsgf"
     }
   },
   "version": 5
