@@ -1,6 +1,7 @@
 {
   pkgs,
   sources,
+  callPackage',
   ...
 }:
 {
@@ -12,9 +13,9 @@
     ];
 
     dependencies = with pkgs.python3Packages; [
+      (callPackage' ../pythonPackages/termtables)
       numpy
       pandas
-      terminaltables
       termplotlib
     ];
 
