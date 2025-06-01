@@ -13,19 +13,6 @@
       "url": "https://github.com/jdtsmith/eglot-booster/archive/1260d2f7dd18619b42359aa3e1ba6871aa52fd26.tar.gz",
       "hash": "0b8pknnkyzqmi7b8ms27dzcbcx87cn2m8m160v18mv6b61c0mq5m"
     },
-    "eglot-inactive-regions": {
-      "type": "Git",
-      "repository": {
-        "type": "GitHub",
-        "owner": "fargiolas",
-        "repo": "eglot-inactive-regions"
-      },
-      "branch": "master",
-      "submodules": false,
-      "revision": "3d973b45afbf3afa835abaf3d99c993b5426a596",
-      "url": "https://github.com/fargiolas/eglot-inactive-regions/archive/3d973b45afbf3afa835abaf3d99c993b5426a596.tar.gz",
-      "hash": "0h55hmnm08cgbnaskr2hpvhffcl78175kccjdfi697im4yjcirrz"
-    },
     "eglot-ltex": {
       "type": "Git",
       "repository": {
@@ -78,32 +65,6 @@
       "url": "https://github.com/lastquestion/explain-pause-mode/archive/ac3eb69f36f345506aad05a6d9bc3ef80d26914b.tar.gz",
       "hash": "10q6p2chxh4vqlammna5vkv6cdd4ml6wlxxwv2gmskvb9yfdhl78"
     },
-    "indent-bars": {
-      "type": "Git",
-      "repository": {
-        "type": "GitHub",
-        "owner": "jdtsmith",
-        "repo": "indent-bars"
-      },
-      "branch": "main",
-      "submodules": false,
-      "revision": "5249bf88cbf1299c9cca8af214984c7a719ccd14",
-      "url": "https://github.com/jdtsmith/indent-bars/archive/5249bf88cbf1299c9cca8af214984c7a719ccd14.tar.gz",
-      "hash": "1amhaxxb20ism9a0sd0wkjv3z76ayrp4641vigzy2w19ga9c2wkl"
-    },
-    "on": {
-      "type": "Git",
-      "repository": {
-        "type": "GitHub",
-        "owner": "ajgrf",
-        "repo": "on.el"
-      },
-      "branch": "master",
-      "submodules": false,
-      "revision": "3cf623e1a4331e259ef92e49154ed0551f300436",
-      "url": "https://github.com/ajgrf/on.el/archive/3cf623e1a4331e259ef92e49154ed0551f300436.tar.gz",
-      "hash": "161ivhq7plx15s65dskzfdy28wmiwwjysmjsyli8bgrhjh59bm42"
-    },
     "once": {
       "type": "Git",
       "repository": {
@@ -129,19 +90,6 @@
       "revision": "59ff8976ce789c0c594fd4756cbeb5354b6178d2",
       "url": "https://github.com/tonyaldon/org-bars/archive/59ff8976ce789c0c594fd4756cbeb5354b6178d2.tar.gz",
       "hash": "1lh36b86s0jmqvp363cw9z8zpx6qqn9hpni95q34qi9a41f36rwf"
-    },
-    "smartparens": {
-      "type": "Git",
-      "repository": {
-        "type": "GitHub",
-        "owner": "Fuco1",
-        "repo": "smartparens"
-      },
-      "branch": "master",
-      "submodules": false,
-      "revision": "603325ab3d1186fb10da5c2a7ec1afb88018d792",
-      "url": "https://github.com/Fuco1/smartparens/archive/603325ab3d1186fb10da5c2a7ec1afb88018d792.tar.gz",
-      "hash": "1d242visiid2fcshja4vw6ri94bla3wssc1hz993g3zdjzzcz78f"
     }
   },
   "version": 5

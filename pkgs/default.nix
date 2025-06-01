@@ -15,7 +15,6 @@ let
   packages = {
     actuate = callPackage' ./actuate;
     aida-x = callPackage' ./aida-x;
-    airwindows-consolidated = callPackage' ./airwindows-consolidated;
     apisonic = callPackages' ./apisonic;
     arboreal = callPackages' ./arboreal;
     audible-planets-bin = callPackage' ./audible-planets-bin;
@@ -25,7 +24,6 @@ let
     blender-radeon-prorender = callPackage' ./blender-radeon-prorender;
     blepfx = callPackages' ./blepfx;
     blocks = callPackage' ./blocks;
-    cantata = callPackage' ./cantata;
     cardinal = callPackage' ./cardinal;
     chainner-bin = callPackage' ./chainner-bin;
     charlatan = callPackage' ./charlatan;
@@ -70,10 +68,8 @@ let
     lamb-bin = callPackage' ./lamb-bin;
     lazyusf = callPackage' ./lazyusf;
     luaPackages = callPackages' ./luaPackages;
-    luakit = callPackage' ./luakit;
     lv2vst = callPackage' ./lv2vst;
     maim-bin = callPackage' ./maim-bin;
-    mesonlsp-bin = callPackage' ./mesonlsp-bin;
     microbiome-bin = callPackage' ./microbiome-bin;
     misstrhortion = callPackage' ./misstrhortion;
     mod-desktop-bin = callPackage' ./mod-desktop-bin;
@@ -83,7 +79,6 @@ let
     morewaita = callPackage' ./morewaita;
     musique = callPackage' ./musique;
     mxtune-bin = callPackage' ./mxtune-bin;
-    nimlangserver = callPackage' ./nimlangserver;
     nodePackages = callPackages' ./nodePackages;
     nugget-doom = callPackage' ./nugget-doom;
     nyan-doom = callPackage' ./nyan-doom;
@@ -93,7 +88,6 @@ let
     panacea-bin = callPackage' ./panacea-bin;
     partiels = callPackage' ./partiels;
     peakeater-bin = callPackage' ./peakeater-bin;
-    powertab = callPackage' ./powertab;
     projucer = callPackage' ./projucer;
     propertree = callPackage' ./propertree;
     proton = callPackages' ./proton;
@@ -105,7 +99,6 @@ let
     ripplerx = callPackage' ./ripplerx;
     rnnoise-plugin = callPackage' ./rnnoise-plugin;
     roomreverb = callPackage' ./roomreverb;
-    satty = callPackage' ./satty;
     schrammel-ojd = callPackage' ./schrammel-ojd;
     sg-323 = callPackage' ./sg-323;
     sgdboop-bin = callPackage' ./sgdboop-bin;
@@ -113,12 +106,10 @@ let
     showmidi-bin = callPackage' ./showmidi-bin;
     snyk-ls-bin = callPackage' ./snyk-ls-bin;
     squeezer-bin = callPackage' ./squeezer-bin;
-    symbols-nerd-font = callPackage' ./symbols-nerd-font;
     tal = callPackages' ./tal;
     thorium-bin = callPackage' ./thorium-bin;
     tonelib = callPackages' ./tonelib;
     tonez = callPackage' ./tonez;
-    treeSitterGrammars = callPackages' ./treeSitterGrammars;
     u-he = callPackages' ./u-he;
     uhhyou = callPackage' ./uhhyou;
     valentine = callPackage' ./valentine;
@@ -136,14 +127,23 @@ let
     ysfx = callPackage' ./ysfx;
     zl-audio = callPackages' ./zl-audio;
     zlint-bin = callPackage' ./zlint-bin;
-    zrythm = callPackage' ./zrythm;
   };
 in
-pkgs.lib.recursiveUpdate packages (
-  pkgs.lib.mapAttrsRecursive (
-    old: new:
-    pkgs.lib.warn "${concat old} has been renamed to ${concat new}" (
-      pkgs.lib.attrByPath new null packages
-    )
-  ) (import ./_renamed.nix)
-)
+pkgs.lib.recursiveUpdate
+  (pkgs.lib.recursiveUpdate packages (
+    pkgs.lib.mapAttrsRecursive (
+      old: new:
+      pkgs.lib.warn "${concat old} has been renamed to ${concat new}" (
+        pkgs.lib.attrByPath new null packages
+      )
+    ) (import ./_renamed.nix)
+  ))
+  (
+    pkgs.lib.mapAttrsRecursive (
+      old: new:
+      pkgs.lib.warn "${concat old} has been upstreamed to nixpkgs as ${concat new}" pkgs.lib.attrByPath
+        new
+        null
+        pkgs
+    ) (import ./_upstreamed.nix)
+  )
