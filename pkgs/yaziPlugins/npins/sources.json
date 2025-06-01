@@ -74,9 +74,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "cd22585adda953530b24109c4cf34e0e34a80cdc",
-      "url": "https://github.com/KKV9/compress.yazi/archive/cd22585adda953530b24109c4cf34e0e34a80cdc.tar.gz",
-      "hash": "1q0jzfy4ljx9w4wdmz23r0dhv97wvr70zr4hwyfq8s57y0ip7ls7"
+      "revision": "2ab7a42af742d50639e4231ee0354983698ec871",
+      "url": "https://github.com/KKV9/compress.yazi/archive/2ab7a42af742d50639e4231ee0354983698ec871.tar.gz",
+      "hash": "0x8bmvmyb4yaxxf8b5xjll34jy06842c3g1jsrq9j1ap3fhf99l2"
     },
     "exifaudio.yazi": {
       "type": "Git",
@@ -204,9 +204,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "25024ce64c4d540a86db460826ec1e5d502acde3",
-      "url": "https://github.com/saumyajyoti/omp.yazi/archive/25024ce64c4d540a86db460826ec1e5d502acde3.tar.gz",
-      "hash": "0vv95za70l5la1xhnk4086hp1w2f2shr81wk89mx1g3y802cbas2"
+      "revision": "41f7e89b7f631d6186d1f085360fb6557924d685",
+      "url": "https://github.com/saumyajyoti/omp.yazi/archive/41f7e89b7f631d6186d1f085360fb6557924d685.tar.gz",
+      "hash": "0276a3x4j1i0sw17z6xh9wlbazqp5isjkxxjhgb4l1rb996jvwij"
     },
     "open-with-cmd.yazi": {
       "type": "Git",
