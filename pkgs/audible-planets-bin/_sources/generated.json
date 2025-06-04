@@ -1,32 +1,32 @@
 {
-  "audible-planets-lv2": {
-    "cargoLocks": null,
-    "date": null,
-    "extract": null,
-    "name": "audible-planets-lv2",
-    "passthru": null,
-    "pinned": false,
-    "src": {
-      "name": null,
-      "sha256": "sha256-H3hVyC7qeipLDF/+iL5YMdKd0MFxS0nzJatYExFlJgk=",
-      "type": "url",
-      "url": "https://github.com/gregrecco67/AudiblePlanets/releases/download/v1.2.3/Audible.Planets-1.2.3-Linux.lv2.zip"
+    "audible-planets-lv2": {
+        "cargoLocks": null,
+        "date": null,
+        "extract": null,
+        "name": "audible-planets-lv2",
+        "passthru": null,
+        "pinned": true,
+        "src": {
+            "name": null,
+            "sha256": "sha256-v69WFDZ1R3Dtw668ImNCOc4ETu8uQYyElKhq6O9dqhg=",
+            "type": "url",
+            "url": "https://github.com/gregrecco67/AudiblePlanets/releases/download/v1.2.2/Audible.Planets-1.2.2-Linux.lv2.zip"
+        },
+        "version": "1.2.2"
     },
-    "version": "1.2.3"
-  },
-  "audible-planets-vst3": {
-    "cargoLocks": null,
-    "date": null,
-    "extract": null,
-    "name": "audible-planets-vst3",
-    "passthru": null,
-    "pinned": false,
-    "src": {
-      "name": null,
-      "sha256": "sha256-2NzyG7czvKRPyT64gA5FhqxP4xQCuquJqgK1b7ow8Tc=",
-      "type": "url",
-      "url": "https://github.com/gregrecco67/AudiblePlanets/releases/download/v1.2.3/Audible.Planets-1.2.3-Linux.vst3.zip"
-    },
-    "version": "1.2.3"
-  }
+    "audible-planets-vst3": {
+        "cargoLocks": null,
+        "date": null,
+        "extract": null,
+        "name": "audible-planets-vst3",
+        "passthru": null,
+        "pinned": true,
+        "src": {
+            "name": null,
+            "sha256": "sha256-S/wevCMOLzKSrCgNu2hpwqupfx1zTdvRCUwlsXKVATk=",
+            "type": "url",
+            "url": "https://github.com/gregrecco67/AudiblePlanets/releases/download/v1.2.2/Audible.Planets-1.2.2-Linux.vst3.zip"
+        },
+        "version": "1.2.2"
+    }
 }
