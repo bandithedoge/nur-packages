@@ -112,6 +112,5 @@ pkgs.stdenv.mkDerivation {
     license = licenses.mpl20;
     platforms = [ "x86_64-linux" ];
     sourceProvenance = [ sourceTypes.binaryNativeCode ];
-    broken = true;
   };
 }
