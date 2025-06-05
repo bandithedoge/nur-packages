@@ -2,8 +2,8 @@
   airwindows-consolidated = [ "airwin2rack" ];
   cantata = [ "cantata" ];
   emacsPackages =
-    map
-      (name: [
+    builtins.mapAttrs
+      (_: name: [
         "emacsPackages"
         name
       ])
