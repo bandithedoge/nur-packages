@@ -21,9 +21,9 @@ utils.juce.mkJucePackage {
     runHook postInstall
   '';
 
-  cmakeFlags = [
-    "-DJUCE_BUILD_EXTRAS=ON"
-  ];
+  cmakeFlags = [ "-DJUCE_BUILD_EXTRAS=ON" ];
+
+  ninjaFlags = [ "Projucer" ];
 
   meta = with pkgs.lib; {
     homepage = "https://juce.com/";
