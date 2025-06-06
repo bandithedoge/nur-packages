@@ -8,13 +8,13 @@
 {
   partiels = {
     pname = "partiels";
-    version = "2.0.10";
+    version = "2.0.11";
     src = fetchFromGitHub {
       owner = "Ircam-Partiels";
       repo = "Partiels";
-      rev = "2.0.10";
+      rev = "2.0.11";
       fetchSubmodules = true;
-      sha256 = "sha256-VxJgsJ7eNIN6JkV6ss5lQkVzwCPw6xZAarB0OmRhNHw=";
+      sha256 = "sha256-lssWfkW6Dz/7hLNc3MMTy0VXLTaKCTaaFPpcsF6jcPk=";
     };
   };
   vamp-plugin-sdk = {

@@ -870,13 +870,13 @@
   };
   "privacy-badger" = buildFirefoxXpiAddon {
     pname = "privacy-badger";
-    version = "2025.5.14";
+    version = "2025.5.30";
     addonId = "jid1-MnnxcxisBPnSXQ@jetpack";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4493398/privacy_badger17-2025.5.14.xpi";
-    sha256 = "c3b6c0bf249b6b2661dc29f414d3abe1c0d637b4e059a49f42a01cc73f319aea";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4504218/privacy_badger17-2025.5.30.xpi";
+    sha256 = "d8cc7a2c1f5afa53b32f56be33167acafe45561ad7acc50c4aadb5ce35fe2389";
     meta = with lib; {
       homepage = "https://privacybadger.org/";
-      description = "Automatically learns to block invisible trackers.";
+      description = "Automatically learns to block hidden trackers. Made by the leading digital rights nonprofit EFF to stop companies from spying on you.";
       license = licenses.gpl3;
       mozPermissions = [
         "<all_urls>"
@@ -1371,10 +1371,10 @@
   };
   "search_by_image" = buildFirefoxXpiAddon {
     pname = "search_by_image";
-    version = "8.2.1";
+    version = "8.2.3";
     addonId = "{2e5ff8c8-32fe-46d0-9fc8-6b8986621f3c}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4492596/search_by_image-8.2.1.xpi";
-    sha256 = "b85dec6d91e5ae9d6e7bd86156956f4443d57b3d217878cdcfe6fe3926017736";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4501793/search_by_image-8.2.3.xpi";
+    sha256 = "226277b7081dc3b867804d3208136a8e8d488e62203943dc1eb6a6a86b213013";
     meta = with lib; {
       homepage = "https://github.com/dessant/search-by-image#readme";
       description = "A powerful reverse image search tool, with support for various search engines, such as Google, Bing, Yandex, Baidu and TinEye.";
@@ -1594,10 +1594,10 @@
   };
   "tree-style-tab" = buildFirefoxXpiAddon {
     pname = "tree-style-tab";
-    version = "4.1.11";
+    version = "4.2.0";
     addonId = "treestyletab@piro.sakura.ne.jp";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4502732/tree_style_tab-4.1.11.xpi";
-    sha256 = "e9314a7673bc239be5b3a6fbe4883adf77df69b5c801b89541af50b8f0037ef5";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4505103/tree_style_tab-4.2.0.xpi";
+    sha256 = "f1d51638eeb1531f0a222c26b2fb96ae2d3565a60bf990b3cd084ff2258c5917";
     meta = with lib; {
       homepage = "http://piro.sakura.ne.jp/xul/_treestyletab.html.en";
       description = "Show tabs like a tree.";
@@ -1611,6 +1611,7 @@
         "search"
         "sessions"
         "storage"
+        "tabGroups"
         "tabs"
         "theme"
       ];

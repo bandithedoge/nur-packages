@@ -13,11 +13,11 @@
       "name": null,
       "owner": "tiagolr",
       "repo": "gate12",
-      "rev": "v1.1.3",
-      "sha256": "sha256-UmHVwMOhYBEftX+cK++UiT2sKKTjnycEB96moEqRfCQ=",
+      "rev": "v1.1.6",
+      "sha256": "sha256-Jw9OsQFg82XanzaurVpfPWksMu/kx9B7Gk2ACiXFduA=",
       "sparseCheckout": [],
       "type": "github"
     },
-    "version": "v1.1.3"
+    "version": "v1.1.6"
   }
 }

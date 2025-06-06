@@ -30,22 +30,22 @@ let
         sha512 = "D2hP9eA+Sqx1kBZgzxZh0y1trbuU+JoDkiEwqhQ36nodYqJwyEIhPSdMNd7lOm/4io72luTPWH20Yda0xOuUow==";
       };
     };
-    "@babel/parser-7.27.4" = {
+    "@babel/parser-7.27.5" = {
       name = "_at_babel_slash_parser";
       packageName = "@babel/parser";
-      version = "7.27.4";
+      version = "7.27.5";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/parser/-/parser-7.27.4.tgz";
-        sha512 = "BRmLHGwpUqLFR2jzx9orBuX/ABDkj2jLKOXrHDTN2aOKL+jFDDKaRNo9nyYsIl9h/UE/7lMKdDjKQQyxKKDZ7g==";
+        url = "https://registry.npmjs.org/@babel/parser/-/parser-7.27.5.tgz";
+        sha512 = "OsQd175SxWkGlzbny8J3K8TnnDD0N3lrIUtB92xwyRpzaenGZhxDvxN/JgU00U3CDZNj9tPuDJ5H0WS4Nt3vKg==";
       };
     };
-    "@babel/types-7.27.3" = {
+    "@babel/types-7.27.6" = {
       name = "_at_babel_slash_types";
       packageName = "@babel/types";
-      version = "7.27.3";
+      version = "7.27.6";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/types/-/types-7.27.3.tgz";
-        sha512 = "Y1GkI4ktrtvmawoSq+4FCVHNryea6uR+qUQy0AGxLSsjCX0nVmkYQMBLHDkXZuo5hGx7eYdnIaslsdBFm7zbUw==";
+        url = "https://registry.npmjs.org/@babel/types/-/types-7.27.6.tgz";
+        sha512 = "ETyHEk2VHHvl9b9jZP5IHPavHYk57EhanlRRuae9XCpb/j5bDCbPPMOBfCWhnl/7EDJz0jEMCi/RhccCE8r1+Q==";
       };
     };
     "@emmetio/abbreviation-2.3.3" = {
@@ -648,10 +648,10 @@ in
   "@tailwindcss/language-server" = nodeEnv.buildNodePackage {
     name = "_at_tailwindcss_slash_language-server";
     packageName = "@tailwindcss/language-server";
-    version = "0.14.20";
+    version = "0.14.21";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@tailwindcss/language-server/-/language-server-0.14.20.tgz";
-      sha512 = "KtpWz2nE4Ov7XzFLM5iL89n5+njscCVupf/VYdFGhMtHLyCmfeso91Hxti9ChJq5XQyeu+GRSh5qAniKlP0Jfw==";
+      url = "https://registry.npmjs.org/@tailwindcss/language-server/-/language-server-0.14.21.tgz";
+      sha512 = "RGUVZR8XYraYURBqH6u+2y1eHCUDhDyv6ignRAIu/ToWYI5ZUPMxMigH6VIRYyKfFM6gnfkQefNJzQDLrJMlTQ==";
     };
     buildInputs = globalBuildInputs;
     meta = {
@@ -705,8 +705,8 @@ in
     dependencies = [
       sources."@babel/helper-string-parser-7.27.1"
       sources."@babel/helper-validator-identifier-7.27.1"
-      sources."@babel/parser-7.27.4"
-      sources."@babel/types-7.27.3"
+      sources."@babel/parser-7.27.5"
+      sources."@babel/types-7.27.6"
       sources."@emmetio/abbreviation-2.3.3"
       sources."@emmetio/css-abbreviation-2.1.8"
       sources."@emmetio/scanner-1.0.4"

@@ -8,13 +8,13 @@
 {
   gate-12 = {
     pname = "gate-12";
-    version = "v1.1.3";
+    version = "v1.1.6";
     src = fetchFromGitHub {
       owner = "tiagolr";
       repo = "gate12";
-      rev = "v1.1.3";
+      rev = "v1.1.6";
       fetchSubmodules = true;
-      sha256 = "sha256-UmHVwMOhYBEftX+cK++UiT2sKKTjnycEB96moEqRfCQ=";
+      sha256 = "sha256-Jw9OsQFg82XanzaurVpfPWksMu/kx9B7Gk2ACiXFduA=";
     };
   };
 }
