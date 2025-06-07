@@ -360,9 +360,9 @@
       },
       "branch": "coq",
       "submodules": false,
-      "revision": "09ce78ef988eacad5393ed73908613554b1ea30c",
-      "url": "https://github.com/ms-jpq/coq_nvim/archive/09ce78ef988eacad5393ed73908613554b1ea30c.tar.gz",
-      "hash": "1zbpvd90h2jmim9kbp1g9zvacb7qvfkdpi1m6rnqvmii2g5sqvw1"
+      "revision": "c58e4dd929aa9284975b42e154264d6082b4e77f",
+      "url": "https://github.com/ms-jpq/coq_nvim/archive/c58e4dd929aa9284975b42e154264d6082b4e77f.tar.gz",
+      "hash": "1jkm8w12hpb5jsmvkfajccw6x08y53004fivabg3af6hgbgyhf8k"
     },
     "crates.nvim": {
       "type": "Git",
@@ -1035,9 +1035,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "29586b1271403f927814affdc5441d335a0e8ea9",
-      "url": "https://github.com/echasnovski/mini.nvim/archive/29586b1271403f927814affdc5441d335a0e8ea9.tar.gz",
-      "hash": "163jdpcp7gps521738b3dsysdywy1pi68c0kjis43i9xmv00vahg"
+      "revision": "35e1767f4cd7dde51256eabae7349a5283a43cba",
+      "url": "https://github.com/echasnovski/mini.nvim/archive/35e1767f4cd7dde51256eabae7349a5283a43cba.tar.gz",
+      "hash": "0lxv4rygr1zbq0zikfz3q1rqvjy406xdxp0a5q8l3i76pfm2992k"
     },
     "mkdir.nvim": {
       "type": "Git",

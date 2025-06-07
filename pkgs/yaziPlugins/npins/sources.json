@@ -22,9 +22,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "a1796085ccdde3614a6c15cb837b79bfb53de43f",
-      "url": "https://github.com/AnirudhG07/archivemount.yazi/archive/a1796085ccdde3614a6c15cb837b79bfb53de43f.tar.gz",
-      "hash": "1va7qjlkgz7a9l29svlhc95zg7nzxibksaa466aqlxygn0mb4hdx"
+      "revision": "3d353c4d57198ae91a93c5f9d1c7345a5bcb7f84",
+      "url": "https://github.com/AnirudhG07/archivemount.yazi/archive/3d353c4d57198ae91a93c5f9d1c7345a5bcb7f84.tar.gz",
+      "hash": "19p2z5hk25jiscrblbbqagby4l4r6x6zwmwnd3s0ah7n0jgifc9k"
     },
     "augment-command.yazi": {
       "type": "Git",
@@ -35,9 +35,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "9b15ea44b8934543b97e08d61e2ffa2d3c66ff29",
-      "url": "https://github.com/hankertrix/augment-command.yazi/archive/9b15ea44b8934543b97e08d61e2ffa2d3c66ff29.tar.gz",
-      "hash": "11g4j7jb1c1ipqd0awairp9np5wgzdkc984hpjz9cxhl5x328k6x"
+      "revision": "a03a23713aecaa25c58e830eead34461f1d66853",
+      "url": "https://github.com/hankertrix/augment-command.yazi/archive/a03a23713aecaa25c58e830eead34461f1d66853.tar.gz",
+      "hash": "0l50iaqhzx54xsmfywwlcx61hifaffkvfajmghk3xb9p9m1ph9v7"
     },
     "bookmarks.yazi": {
       "type": "Git",
@@ -295,9 +295,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "ed7b7f9de971ecd8376d7ccb7a6d0d6f979c1dcb",
-      "url": "https://github.com/GianniBYoung/rsync.yazi/archive/ed7b7f9de971ecd8376d7ccb7a6d0d6f979c1dcb.tar.gz",
-      "hash": "0rn3yv1axgv57cjx3v45yri02q6izb4972j4m33wil326c6n8264"
+      "revision": "782481e58316f4b422f5c259f07c63b940555246",
+      "url": "https://github.com/GianniBYoung/rsync.yazi/archive/782481e58316f4b422f5c259f07c63b940555246.tar.gz",
+      "hash": "1ly311r6vbqbcsk8899zliy1pi9q680xbr7vda3g0zz7blkdmfv6"
     },
     "simple-status.yazi": {
       "type": "Git",
