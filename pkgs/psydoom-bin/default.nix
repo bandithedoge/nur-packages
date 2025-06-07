@@ -21,7 +21,7 @@ pkgs.appimageTools.wrapType2 {
   meta = with pkgs.lib; {
     description = "A backport of PSX Doom to PC";
     homepage = "https://github.com/BodbDearg/PsyDoom";
-    license = licenses.gpl3Only;
+    license = licenses.gpl3Plus;
     platforms = builtins.attrNames sourceMap;
   };
 }

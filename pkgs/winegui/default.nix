@@ -20,7 +20,7 @@ pkgs.stdenv.mkDerivation {
   meta = with pkgs.lib; {
     description = "A user-friendly WINE manager";
     homepage = "https://gitlab.melroy.org/melroy/winegui";
-    license = licenses.agpl3Only;
+    license = licenses.agpl3Plus;
     platforms = platforms.linux;
   };
 }

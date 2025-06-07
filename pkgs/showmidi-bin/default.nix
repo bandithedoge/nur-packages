@@ -33,7 +33,7 @@ pkgs.stdenv.mkDerivation {
   meta = with pkgs.lib; {
     description = "Multi-platform GUI application to effortlessly visualize MIDI activity";
     homepage = "https://github.com/gbevin/ShowMIDI";
-    license = licenses.gpl3Only;
+    license = licenses.gpl3Plus;
     platforms = [ "x86_64-linux" ];
     sourceProvenance = [ sourceTypes.binaryNativeCode ];
   };

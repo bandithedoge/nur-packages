@@ -38,7 +38,7 @@ pkgs.stdenv.mkDerivation {
   meta = with pkgs.lib; {
     description = "An expressive, quasi-Ptolemaic semi-modular synthesizer";
     homepage = "https://github.com/gregrecco67/AudiblePlanets";
-    license = licenses.gpl3Only;
+    license = licenses.gpl3Plus;
     platforms = [ "x86_64-linux" ];
     sourceProvenance = [ sourceTypes.binaryNativeCode ];
   };

@@ -21,7 +21,7 @@ utils.juce.mkJucePackage {
   meta = with pkgs.lib; {
     description = "Audio plugin model of a modern classic guitar overdrive Pedal";
     homepage = "https://schrammel.io/";
-    license = licenses.gpl3Only;
+    license = licenses.gpl3Plus;
     platforms = platforms.linux;
   };
 }

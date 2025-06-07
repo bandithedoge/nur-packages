@@ -24,7 +24,7 @@ utils.juce.mkJucePackage {
   meta = with pkgs.lib; {
     description = "Semi-modular synthesizer and FX plugin for Windows, Linux and Mac, VST3 and CLAP";
     homepage = "https://firefly-synth.com/";
-    license = licenses.gpl3Only;
+    license = licenses.gpl3Plus;
     platforms = platforms.linux;
   };
 }

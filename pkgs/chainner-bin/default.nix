@@ -51,7 +51,7 @@ pkgs.stdenv.mkDerivation {
   meta = with pkgs.lib; {
     description = "A node-based image processing GUI aimed at making chaining image processing tasks easy and customizable.";
     homepage = "https://chainner.app/";
-    license = licenses.gpl3Only;
+    license = licenses.gpl3Plus;
     platforms = [ "x86_64-linux" ];
     sourceProvenance = [ sourceTypes.binaryBytecode ];
   };

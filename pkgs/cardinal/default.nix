@@ -73,7 +73,7 @@ pkgs.stdenv.mkDerivation {
   meta = with pkgs.lib; {
     description = "Virtual modular synthesizer plugin";
     homepage = "https://github.com/DISTRHO/Cardinal";
-    license = licenses.gpl3;
+    license = licenses.gpl3Plus;
     platforms = platforms.linux;
   };
 }

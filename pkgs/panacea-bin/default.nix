@@ -39,7 +39,7 @@ pkgs.stdenv.mkDerivation {
   meta = with pkgs.lib; {
     description = "Panacea is an autopan audio effect plugin with the possibility of humanization";
     homepage = "https://github.com/consint/Panacea";
-    license = licenses.gpl3;
+    license = licenses.gpl3Plus;
     platforms = [ "x86_64-linux" ];
     sourceProvenance = [ sourceTypes.binaryNativeCode ];
   };

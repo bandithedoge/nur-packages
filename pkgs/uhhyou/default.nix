@@ -44,7 +44,7 @@ pkgs.gcc12Stdenv.mkDerivation {
   meta = with pkgs.lib; {
     description = "Uhhyou Plugins VST 3 repository";
     homepage = "https://ryukau.github.io/VSTPlugins/";
-    license = licenses.gpl3;
+    license = licenses.gpl3Plus;
     platforms = platforms.linux;
   };
 }

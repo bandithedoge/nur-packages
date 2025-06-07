@@ -27,7 +27,7 @@ pkgs.stdenv.mkDerivation {
   meta = with pkgs.lib; {
     description = "Pitch correction plugin for VST";
     homepage = "https://github.com/liuanlin-mx/MXTune";
-    license = licenses.gpl3Only;
+    license = licenses.gpl3Plus;
     platforms = [ "x86_64-linux" ];
     sourceProvenance = [ sourceTypes.binaryNativeCode ];
   };

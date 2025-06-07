@@ -34,7 +34,7 @@ pkgs.stdenv.mkDerivation {
   meta = with pkgs.lib; {
     description = "PeakEater is a free open-source cross-platform VST3/AU/LV2/CLAP wave shaper plugin";
     homepage = "https://github.com/vvvar/PeakEater";
-    license = licenses.gpl3;
+    license = licenses.gpl3Plus;
     platforms = [ "x86_64-linux" ];
     sourceProvenance = [ sourceTypes.binaryNativeCode ];
   };

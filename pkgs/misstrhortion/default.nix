@@ -21,7 +21,7 @@ pkgs.stdenv.mkDerivation {
   meta = with pkgs.lib; {
     description = "DPF port of Misstortion";
     homepage = "https://github.com/bandithedoge/misstrhortion";
-    license = licenses.gpl3;
+    license = licenses.gpl3Plus;
     platforms = platforms.linux;
   };
 }

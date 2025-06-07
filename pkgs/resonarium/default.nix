@@ -24,7 +24,7 @@ utils.juce.mkJucePackage {
   meta = with pkgs.lib; {
     description = "An expressive, semi-modular, and comprehensive physical modeling/waveguide synthesizer";
     homepage = "https://github.com/gabrielsoule/resonarium";
-    license = licenses.gpl3Only;
+    license = licenses.gpl3Plus;
     platforms = platforms.linux;
     broken = true; # build hangs when linking
   };

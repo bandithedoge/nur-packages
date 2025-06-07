@@ -70,7 +70,7 @@ pkgs.stdenv.mkDerivation rec {
   meta = with pkgs.lib; {
     description = "A MIDI driven, performance oriented, versatile, free and open source synthesizer VST plugin";
     homepage = "https://attilammagyar.github.io/js80p/index.html#home";
-    license = licenses.gpl3;
+    license = licenses.gpl3Plus;
     platforms = platforms.linux;
   };
 }

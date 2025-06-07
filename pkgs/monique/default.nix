@@ -20,7 +20,7 @@ utils.juce.mkJucePackage {
     description = "Monique monosynth";
     homepage = "https://github.com/surge-synthesizer/monique-monosynth";
     license = with licenses; [
-      gpl3Only
+      gpl3Plus
       mit
     ];
     platforms = platforms.linux;

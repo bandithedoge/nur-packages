@@ -34,7 +34,7 @@ utils.juce.mkJucePackage {
   meta = with pkgs.lib; {
     description = "Emulation of classic VA synths of the late 90s/2000s that are based on Motorola 56300 family DSPs (${pkgs.lib.concatStringsSep ", " variants})";
     homepage = "https://dsp56300.wordpress.com/";
-    license = licenses.gpl3Only;
+    license = licenses.gpl3Plus;
     platforms = platforms.linux;
   };
 }

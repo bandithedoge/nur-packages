@@ -18,7 +18,7 @@ let
       meta =
         with pkgs.lib;
         {
-          license = licenses.gpl3Only;
+          license = licenses.gpl3Plus;
           platforms = platforms.linux;
         }
         // meta;

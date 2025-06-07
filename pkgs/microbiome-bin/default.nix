@@ -40,7 +40,7 @@ pkgs.stdenv.mkDerivation {
   meta = with pkgs.lib; {
     description = "A delay-based audio effects plugin";
     homepage = "https://github.com/dsmaugy/microbiome";
-    license = licenses.gpl3;
+    license = licenses.gpl3Plus;
     platforms = [ "x86_64-linux" ];
     sourceProvenance = [ sourceTypes.binaryNativeCode ];
   };

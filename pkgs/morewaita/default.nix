@@ -28,7 +28,7 @@ pkgs.stdenvNoCC.mkDerivation {
   meta = with pkgs.lib; {
     description = "An expanded Adwaita-styled companion icon theme with extra icons for popular apps to complement Gnome Shell's original icons";
     homepage = "https://github.com/somepaulo/MoreWaita";
-    license = licenses.gpl3Only;
+    license = licenses.gpl3Plus;
     platforms = platforms.linux;
   };
 }

@@ -32,8 +32,8 @@ pkgs.stdenv.mkDerivation {
 
   meta = with pkgs.lib; {
     description = "MOD Audio for the desktop";
-    homepage = "https://mod.audio";
-    license = licenses.agpl3Only;
+    homepage = "https://mod.audio/desktop/";
+    license = licenses.agpl3Plus;
     platforms = [ "x86_64-linux" ];
     sourceProvenance = [ sourceTypes.binaryNativeCode ];
   };

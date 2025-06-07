@@ -21,7 +21,7 @@ pkgs.python3Packages.buildPythonApplication {
   meta = with pkgs.lib; {
     description = "Dmenu/Rofi frontend for Keepass databases";
     homepage = "https://github.com/firecat53/keepmenu";
-    license = licenses.gpl3;
+    license = licenses.gpl3Plus;
     platforms = platforms.linux;
     broken = true;
   };

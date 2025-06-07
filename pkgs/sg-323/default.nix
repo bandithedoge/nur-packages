@@ -10,7 +10,7 @@ utils.juce.mkJucePackage {
   meta = with pkgs.lib; {
     description = "Ursa Major Stargate 323 reverb emulation";
     homepage = "https://github.com/greyboxaudio/SG-323";
-    license = licenses.gpl3Only;
+    license = licenses.gpl3Plus;
     platforms = platforms.linux;
   };
 }

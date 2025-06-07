@@ -25,7 +25,7 @@ utils.juce.mkJucePackage {
   meta = with pkgs.lib; {
     description = "Noise suppression plugin based on Xiph's RNNoise";
     homepage = "https://github.com/werman/noise-suppression-for-voice";
-    license = licenses.gpl3Only;
+    license = licenses.gpl3Plus;
     platforms = platforms.linux;
   };
 }

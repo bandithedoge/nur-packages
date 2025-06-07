@@ -34,7 +34,7 @@ pkgs.stdenv.mkDerivation {
   meta = with pkgs.lib; {
     description = "A cut-down version of Molot, a compressor with a lot of color and character";
     homepage = "https://github.com/magnetophon/molot-lite";
-    license = licenses.gpl3Only;
+    license = licenses.gpl3Plus;
     platforms = platforms.linux;
   };
 }

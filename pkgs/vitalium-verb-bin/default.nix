@@ -33,7 +33,7 @@ pkgs.stdenv.mkDerivation {
   meta = with pkgs.lib; {
     description = "A Rust port of the reverb module from the Vital/Vitalium synthesizer";
     homepage = "https://github.com/BillyDM/vitalium-verb";
-    license = licenses.gpl3Only;
+    license = licenses.gpl3Plus;
     platforms = [ "x86_64-linux" ];
     sourceProvenance = [ sourceTypes.binaryNativeCode ];
   };

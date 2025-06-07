@@ -24,6 +24,6 @@ pythonPkgs.buildPythonPackage {
   meta = with pkgs.lib; {
     description = "Python binding of SOLVESPACE geometry constraint solver";
     homepage = "https://github.com/realthunder/slvs_py";
-    license = licenses.gpl3;
+    license = licenses.gpl3Plus;
   };
 }

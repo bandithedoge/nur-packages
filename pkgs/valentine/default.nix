@@ -13,7 +13,7 @@ utils.juce.mkJucePackage {
   meta = with pkgs.lib; {
     description = "An open source compressor meant to pump and breathe";
     homepage = "https://github.com/tote-bag-labs/valentine";
-    license = licenses.gpl3Only;
+    license = licenses.gpl3Plus;
     platforms = platforms.linux;
   };
 }

@@ -36,7 +36,7 @@ pkgs.stdenv.mkDerivation {
   meta = with pkgs.lib; {
     description = "A bit-inverting industrial distortion plugin with VST3/LV2 ";
     homepage = "https://github.com/astriiddev/BitDOS-VST";
-    license = licenses.agpl3Only;
+    license = licenses.agpl3Plus;
     platforms = [ "x86_64-linux" ];
     sourceProvenance = [ sourceTypes.binaryNativeCode ];
   };

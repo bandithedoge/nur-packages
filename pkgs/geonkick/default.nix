@@ -29,7 +29,7 @@ pkgs.stdenv.mkDerivation {
   meta = with pkgs.lib; {
     description = "A free software percussive synthesizer";
     homepage = "https://geonkick.org/index.html";
-    license = licenses.gpl3;
+    license = licenses.gpl3Plus;
     platforms = platforms.linux;
   };
 }

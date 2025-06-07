@@ -55,7 +55,7 @@ utils.juce.mkJucePackage {
   meta = with pkgs.lib; {
     description = "Partiels is an audio analysis application that allow you to explore the content and characteristics of sounds";
     homepage = "https://github.com/Ircam-Partiels/Partiels";
-    license = licenses.gpl3Only;
+    license = licenses.gpl3Plus;
     platforms = platforms.linux;
   };
 }

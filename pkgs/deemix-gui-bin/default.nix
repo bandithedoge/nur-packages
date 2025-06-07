@@ -9,7 +9,7 @@ pkgs.appimageTools.wrapType2 {
   meta = with pkgs.lib; {
     description = "An electron app that wraps deemix-webui and lets you use the deemix-js library";
     homepage = "https://gitlab.com/RemixDev/deemix-gui";
-    license = licenses.gpl3;
+    license = licenses.gpl3Plus;
     platforms = [ "x86_64-linux" ];
   };
 }

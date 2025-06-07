@@ -25,7 +25,7 @@ pkgs.stdenv.mkDerivation {
     description = "A finely crafted music player";
     homepage = "https://flavio.tordini.org/musique";
     platforms = platforms.linux;
-    license = licenses.gpl3;
+    license = licenses.gpl3Plus;
     broken = true; # taglib version mismatch or something
   };
 }

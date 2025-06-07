@@ -11,7 +11,7 @@ utils.juce.mkJucePackage {
   meta = with pkgs.lib; {
     description = "Juno 60 emulation synthesizer";
     homepage = "https://github.com/jpcima/Hera";
-    license = licenses.gpl3Only;
+    license = licenses.gpl3Plus;
     platforms = platforms.linux;
   };
 }
