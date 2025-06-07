@@ -41,6 +41,7 @@ let
     element = callPackage' ./element;
     emacsPackages = callPackages' ./emacsPackages;
     fennel-language-server = callPackage' ./fennel-language-server;
+    filtr = callPackage' ./filtr;
     firefly-synth = callPackage' ./firefly-synth;
     firefoxAddons = callPackages' ./firefoxAddons;
     flexipatch = callPackages' ./flexipatch;

@@ -1,0 +1,4 @@
+[filtr]
+src.github = "tiagolr/filtr"
+fetch.github = "tiagolr/filtr"
+git.fetchSubmodules = true
