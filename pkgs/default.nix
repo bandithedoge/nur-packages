@@ -105,6 +105,7 @@ let
     sgdboop-bin = callPackage' ./sgdboop-bin;
     sheepshaver-bin = callPackage' ./sheepshaver-bin;
     showmidi-bin = callPackage' ./showmidi-bin;
+    sinuslabs = callPackages' ./sinuslabs;
     snyk-ls-bin = callPackage' ./snyk-ls-bin;
     squeezer-bin = callPackage' ./squeezer-bin;
     tal = callPackages' ./tal;
