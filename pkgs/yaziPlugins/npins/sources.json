@@ -9,9 +9,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "1e43bfd0143c396f60ef7d35e4d6b3aab7bf6439",
-      "url": "https://github.com/Sonico98/allmytoes.yazi/archive/1e43bfd0143c396f60ef7d35e4d6b3aab7bf6439.tar.gz",
-      "hash": "1xvv718l2mnnn9rfc7ciscffkra97clnzsj3d6blg9zldvjg0iwd"
+      "revision": "dd7895d833dc062785506b171305d7f6940ada65",
+      "url": "https://github.com/Sonico98/allmytoes.yazi/archive/dd7895d833dc062785506b171305d7f6940ada65.tar.gz",
+      "hash": "0j9c89hzfx8cp3qk5kn5n8sa7agdhrlmg883i3wp1a7lmzw72mjg"
     },
     "archivemount.yazi": {
       "type": "Git",
