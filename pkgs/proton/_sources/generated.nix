@@ -24,18 +24,18 @@
   };
   proton-sarek = {
     pname = "proton-sarek";
-    version = "Proton-Sarek10-3-r1";
+    version = "Proton-Sarek10-4";
     src = fetchurl {
-      url = "https://github.com/pythonlover02/Proton-Sarek/releases/download/Proton-Sarek10-3-r1/Proton-Sarek10-3-r1.tar.gz";
-      sha256 = "sha256-38jZLJqThmhE9l45unls7vUmCI6lvHj0J4002Ycz8F8=";
+      url = "https://github.com/pythonlover02/Proton-Sarek/releases/download/Proton-Sarek10-4/Proton-Sarek10-4.tar.gz";
+      sha256 = "sha256-NAx7V2cyP/SV0XNyVdBga3PJAKEX8zOZxtiZCDyzHN4=";
     };
   };
   proton-sarek-async = {
     pname = "proton-sarek-async";
-    version = "Proton-Sarek10-3-r1";
+    version = "Proton-Sarek10-4";
     src = fetchurl {
-      url = "https://github.com/pythonlover02/Proton-Sarek/releases/download/Proton-Sarek10-3-r1/Proton-Sarek10-3-r1-async.tar.gz";
-      sha256 = "sha256-5mWQ6i46HtDH6FEzzGh9SjFGiZJ254cNnybQf0VwTwk=";
+      url = "https://github.com/pythonlover02/Proton-Sarek/releases/download/Proton-Sarek10-4/Proton-Sarek10-4-async.tar.gz";
+      sha256 = "sha256-uDI/6/WijrKxVJ0xEIgYfiOfH694SpcnMOuOTEEKhgE=";
     };
   };
 }

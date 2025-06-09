@@ -87,9 +87,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "7ff714155f538b6460fdc8e911a9240674ad9b89",
-      "url": "https://github.com/Sonico98/exifaudio.yazi/archive/7ff714155f538b6460fdc8e911a9240674ad9b89.tar.gz",
-      "hash": "1wmr6brkgns5zdf29jml3x0zfwl6302h3lldrhm5snfqb8m005d9"
+      "revision": "e766cd273246612fe71fc18d2126619a41273c32",
+      "url": "https://github.com/Sonico98/exifaudio.yazi/archive/e766cd273246612fe71fc18d2126619a41273c32.tar.gz",
+      "hash": "0350527bkr0i7q77mr75d2cpsfc5gc5m6956bcdclp99briswy3a"
     },
     "eza-preview.yazi": {
       "type": "Git",
