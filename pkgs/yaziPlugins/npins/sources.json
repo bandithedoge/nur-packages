@@ -295,9 +295,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "782481e58316f4b422f5c259f07c63b940555246",
-      "url": "https://github.com/GianniBYoung/rsync.yazi/archive/782481e58316f4b422f5c259f07c63b940555246.tar.gz",
-      "hash": "1ly311r6vbqbcsk8899zliy1pi9q680xbr7vda3g0zz7blkdmfv6"
+      "revision": "55631aaaa7654b86469a07bbedf62a5561caa2c9",
+      "url": "https://github.com/GianniBYoung/rsync.yazi/archive/55631aaaa7654b86469a07bbedf62a5561caa2c9.tar.gz",
+      "hash": "01f7b1fbbjs52l2qckbp05dhpmv6bhd2140bc9wwb82v0rhaskp1"
     },
     "simple-status.yazi": {
       "type": "Git",
