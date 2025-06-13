@@ -34,11 +34,11 @@
       "name": null,
       "owner": "gabrielsoule",
       "repo": "resonarium",
-      "rev": "v0.0.10",
-      "sha256": "sha256-m0U0qwZktBMSMVVogb3LvxLAPOxz0q0qchw6rH1Wbbc=",
+      "rev": "v0.0.11",
+      "sha256": "sha256-/ezkq1er/OteoLrqXe60/QmC5BOqoRcoGvtr93wBioE=",
       "sparseCheckout": [],
       "type": "github"
     },
-    "version": "v0.0.10"
+    "version": "v0.0.11"
   }
 }

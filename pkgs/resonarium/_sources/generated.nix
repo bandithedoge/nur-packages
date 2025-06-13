@@ -19,13 +19,13 @@
   };
   resonarium = {
     pname = "resonarium";
-    version = "v0.0.10";
+    version = "v0.0.11";
     src = fetchFromGitHub {
       owner = "gabrielsoule";
       repo = "resonarium";
-      rev = "v0.0.10";
+      rev = "v0.0.11";
       fetchSubmodules = true;
-      sha256 = "sha256-m0U0qwZktBMSMVVogb3LvxLAPOxz0q0qchw6rH1Wbbc=";
+      sha256 = "sha256-/ezkq1er/OteoLrqXe60/QmC5BOqoRcoGvtr93wBioE=";
     };
   };
 }
