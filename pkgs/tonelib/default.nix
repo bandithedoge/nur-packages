@@ -94,7 +94,7 @@ in
           ++ (with pkgs; [
             gtk3
             stdenv.cc.cc.lib
-            webkitgtk
+            webkitgtk_4_0
           ]);
       });
 }
