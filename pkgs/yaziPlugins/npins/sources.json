@@ -126,9 +126,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "2da96e3ffd9cd9d4dd53e0b2636f83ff69fe9af0",
-      "url": "https://github.com/Reledia/glow.yazi/archive/2da96e3ffd9cd9d4dd53e0b2636f83ff69fe9af0.tar.gz",
-      "hash": "1ja5xskfy9xinbr37k5a5dpbz1cm3cdmk1vxjyknja9zhn9xqjp2"
+      "revision": "bd3eaa58c065eaf216a8d22d64c62d8e0e9277e9",
+      "url": "https://github.com/Reledia/glow.yazi/archive/bd3eaa58c065eaf216a8d22d64c62d8e0e9277e9.tar.gz",
+      "hash": "139vrns3jwaymqi2sf0fpmkn2vsw261z3195cvi4lk6bvyxbydcv"
     },
     "hexyl.yazi": {
       "type": "Git",
@@ -243,9 +243,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "7037dd5eee184ccb7725bdc9f7ea6faa188420d5",
-      "url": "https://github.com/MasouShizuka/projects.yazi/archive/7037dd5eee184ccb7725bdc9f7ea6faa188420d5.tar.gz",
-      "hash": "0rv4kq8r7lz3wakjkqqjpqkqy6n3c47kf8wamd9h4gif41x0rk9d"
+      "revision": "696214ca6265ffbfe5ce43b2671de7b3cc81c938",
+      "url": "https://github.com/MasouShizuka/projects.yazi/archive/696214ca6265ffbfe5ce43b2671de7b3cc81c938.tar.gz",
+      "hash": "1ddsqyii5mvhw6svn79mi3zmavkr5nwwycxv54biyxb3c0a80ix4"
     },
     "reflink.yazi": {
       "type": "Git",
