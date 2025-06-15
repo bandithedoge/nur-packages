@@ -31,6 +31,11 @@ pkgs.stdenv.mkDerivation {
     xorg.libXinerama
     xorg.libXrandr
     xorg.libXxf86vm
+    openssl
+  ];
+
+  runtimeDependencies = with pkgs; [
+    icu
   ];
 
   buildPhase = ''
@@ -40,11 +45,12 @@ pkgs.stdenv.mkDerivation {
     cp -r * $out/libexec
 
     makeWrapper $out/libexec/Helion $out/bin/Helion \
-      --set DOTNET_ROOT ${pkgs.dotnetCorePackages.dotnet_8.runtime}/share/dotnet
+      --set DOTNET_ROOT ${pkgs.dotnetCorePackages.dotnet_9.runtime}/share/dotnet
 
     patchelf $out/libexec/Helion \
       --add-needed libopenal.so.1 \
-      --add-needed libGL.so
+      --add-needed libGL.so \
+      --add-needed libssl.so
 
     runHook postBuild
   '';
