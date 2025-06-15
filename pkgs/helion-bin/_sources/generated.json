@@ -1,17 +1,17 @@
 {
-    "helion-bin": {
-        "cargoLocks": null,
-        "date": null,
-        "extract": null,
-        "name": "helion-bin",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "name": null,
-            "sha256": "sha256-51FsZAlBLJkMLmaFLOCpUhY1RAxsPlBGfx+EaCjCtrQ=",
-            "type": "url",
-            "url": "https://github.com/Helion-Engine/Helion/releases/download/0.9.7.0/Helion-0.9.7.0-linux-x64_AOT.zip"
-        },
-        "version": "0.9.7.0"
-    }
+  "helion-bin": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "helion-bin",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-51FsZAlBLJkMLmaFLOCpUhY1RAxsPlBGfx+EaCjCtrQ=",
+      "type": "url",
+      "url": "https://github.com/Helion-Engine/Helion/releases/download/0.9.7.0/Helion-0.9.7.0-linux-x64_AOT.zip"
+    },
+    "version": "0.9.7.0"
+  }
 }
