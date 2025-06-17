@@ -26,5 +26,6 @@
     "tree-sitter-grammars"
     "tree-sitter-hyprland"
   ];
+  zlint-bin = [ "zlint-zig" ];
   zrythm = [ "zrythm" ];
 }

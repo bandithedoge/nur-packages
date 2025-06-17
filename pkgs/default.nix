@@ -128,7 +128,6 @@ let
     yaziPlugins = callPackages' ./yaziPlugins;
     ysfx = callPackage' ./ysfx;
     zl-audio = callPackages' ./zl-audio;
-    zlint-bin = callPackage' ./zlint-bin;
   };
 in
 pkgs.lib.recursiveUpdate
