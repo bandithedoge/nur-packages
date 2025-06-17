@@ -13,11 +13,11 @@
       "name": null,
       "owner": "andrikpowell",
       "repo": "nyan-doom",
-      "rev": "v1.3.0",
-      "sha256": "sha256-FAcU55/RpHnr3wbAb40OhbC/w2pztBtdwqNxYG3qiGw=",
+      "rev": "v1.3.1",
+      "sha256": "sha256-jkNqqqx+NlW8md1q9L/MQ4lWGmZnE1VsTHogCaZ1ReA=",
       "sparseCheckout": [],
       "type": "github"
     },
-    "version": "v1.3.0"
+    "version": "v1.3.1"
   }
 }
