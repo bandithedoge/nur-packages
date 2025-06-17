@@ -944,9 +944,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "d50e40b3bf9324128e71b0b7e589765ce89466d2",
-      "url": "https://github.com/ray-x/lsp_signature.nvim/archive/d50e40b3bf9324128e71b0b7e589765ce89466d2.tar.gz",
-      "hash": "0kw5631k18xjzxv0rlbcxv9vy9ai125bda32cr05yijcl86rf7ld"
+      "revision": "2923666d092300e6d03c8d895991d0bef43f1613",
+      "url": "https://github.com/ray-x/lsp_signature.nvim/archive/2923666d092300e6d03c8d895991d0bef43f1613.tar.gz",
+      "hash": "111y70zhbymh1jblx5kkrg7zmsw4qnl2p9w8bjvcl833ysk7y3py"
     },
     "lspkind.nvim": {
       "type": "Git",
@@ -1581,9 +1581,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "aa087788d7d14ad1fe012cf562ddc1b8c4f29ace",
-      "url": "https://github.com/kyazdani42/nvim-tree.lua/archive/aa087788d7d14ad1fe012cf562ddc1b8c4f29ace.tar.gz",
-      "hash": "0b4yd0pch9kmhdpaxmv8prxr5vnwpsvdsis1vrx0mm1izdhl4qcd"
+      "revision": "d54a1875a91e1a705795ea26074795210b92ce7f",
+      "url": "https://github.com/kyazdani42/nvim-tree.lua/archive/d54a1875a91e1a705795ea26074795210b92ce7f.tar.gz",
+      "hash": "0pwdkbyk2q1w9wl3fd1j7fgc55n2bl4pvci67vzp99pgbcd1srhk"
     },
     "nvim-treesitter": {
       "type": "Git",
