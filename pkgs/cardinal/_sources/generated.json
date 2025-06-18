@@ -13,11 +13,11 @@
       "name": null,
       "owner": "DISTRHO",
       "repo": "Cardinal",
-      "rev": "03eee39a6ae79de2aa11525f83166d33063a59d2",
-      "sha256": "sha256-LHCJufRy1WI+q4bE6brWVP33Tw+vA9TPB1wXy4P/T7w=",
+      "rev": "5a0b783fbef7e55265e8f8e2d4f75067ae63a565",
+      "sha256": "sha256-gQEwXdSjQS/hLanS7MphqYxMGReuc8ilYTISACWXBuI=",
       "sparseCheckout": [],
       "type": "github"
     },
-    "version": "03eee39a6ae79de2aa11525f83166d33063a59d2"
+    "version": "5a0b783fbef7e55265e8f8e2d4f75067ae63a565"
   }
 }
