@@ -1,4 +1,8 @@
 {
+  chainner-bin = [
+    "chainner-bin"
+    "stable"
+  ];
   destruqtor = [
     "blepfx"
     "destruqtor"

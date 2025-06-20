@@ -1,4 +1,8 @@
-[chainner-bin]
+[chainner-bin-stable]
 src.github = "chaiNNer-org/chaiNNer"
 fetch.url = "https://github.com/chaiNNer-org/chaiNNer/releases/download/v$ver/chaiNNer-linux-x64-$ver.zip"
 src.prefix = "v"
+
+[chainner-bin-nightly]
+src.github = "chaiNNer-org/chaiNNer-nightly"
+fetch.url = "https://github.com/chaiNNer-org/chaiNNer-nightly/releases/download/2025-05-30/chaiNNer-ubuntu-latest-nightly.$ver.zip"
