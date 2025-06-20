@@ -685,9 +685,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "88205953bd748322b49b26e1dfb0389932520dc9",
-      "url": "https://github.com/lewis6991/gitsigns.nvim/archive/88205953bd748322b49b26e1dfb0389932520dc9.tar.gz",
-      "hash": "072pm4pbr0zk070cbj405ynvhl6as57bgiw9bjzn2gsr3xfrgmjp"
+      "revision": "1b0350ab707713b2bc6c236151f1a324175347b1",
+      "url": "https://github.com/lewis6991/gitsigns.nvim/archive/1b0350ab707713b2bc6c236151f1a324175347b1.tar.gz",
+      "hash": "1489nvmpsm4mqrmbf34i1zppkvrrwv79fvkfw51vlwmj94z8ywmi"
     },
     "glance.nvim": {
       "type": "Git",
@@ -1035,9 +1035,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "3f5d06a6f710966cb93baaadc4897eeb6d6210e5",
-      "url": "https://github.com/echasnovski/mini.nvim/archive/3f5d06a6f710966cb93baaadc4897eeb6d6210e5.tar.gz",
-      "hash": "1pizh780sw61fxg94jssnv9ghy1zxkvvdh29jq93yjc4a4x2q7xx"
+      "revision": "f4d3cb78c7c969fa61aa93cd1c1d1bfe792616c1",
+      "url": "https://github.com/echasnovski/mini.nvim/archive/f4d3cb78c7c969fa61aa93cd1c1d1bfe792616c1.tar.gz",
+      "hash": "0q318ap04qr47qk7dhck4x3ggr55kw9hb7h4k646xl0b3dg08pqv"
     },
     "mkdir.nvim": {
       "type": "Git",
@@ -1438,9 +1438,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "314b35335cc84bc2a085c84c69da955ba22da163",
-      "url": "https://github.com/neovim/nvim-lspconfig/archive/314b35335cc84bc2a085c84c69da955ba22da163.tar.gz",
-      "hash": "0yw73w6sjm907gfi7i6j1b0wpmsvvg2bv03vmn9y25kbhqxlcbyg"
+      "revision": "0112e1f77983141e1453bd37d124302f1c876c46",
+      "url": "https://github.com/neovim/nvim-lspconfig/archive/0112e1f77983141e1453bd37d124302f1c876c46.tar.gz",
+      "hash": "0jxlqfn7szb7fnlch1r7170bal772awj2chd63qg600vkyvkdl5j"
     },
     "nvim-luaref": {
       "type": "Git",
@@ -1827,9 +1827,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "24078ab22d5ba8503dd8c21690db9adc3c22d28b",
-      "url": "https://github.com/winston0410/range-highlight.nvim/archive/24078ab22d5ba8503dd8c21690db9adc3c22d28b.tar.gz",
-      "hash": "1f4y0hpic77bqsfxxaslqdcvv734kqpwnvgbh2rd9y2wgi44ala4"
+      "revision": "f54aec737f138e52c187a8bea77b41347fd86f12",
+      "url": "https://github.com/winston0410/range-highlight.nvim/archive/f54aec737f138e52c187a8bea77b41347fd86f12.tar.gz",
+      "hash": "0pva6pc6crnvf6iz7rg0qgfp6gjrj33pn2z92q6abfq19mw9mmyb"
     },
     "rasi.vim": {
       "type": "Git",
