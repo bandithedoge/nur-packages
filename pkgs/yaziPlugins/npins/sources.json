@@ -87,9 +87,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "e766cd273246612fe71fc18d2126619a41273c32",
-      "url": "https://github.com/Sonico98/exifaudio.yazi/archive/e766cd273246612fe71fc18d2126619a41273c32.tar.gz",
-      "hash": "0350527bkr0i7q77mr75d2cpsfc5gc5m6956bcdclp99briswy3a"
+      "revision": "4506f9d5032e714c0689be09d566dd877b9d464e",
+      "url": "https://github.com/Sonico98/exifaudio.yazi/archive/4506f9d5032e714c0689be09d566dd877b9d464e.tar.gz",
+      "hash": "1yp703r1lmrnzydm4vkndxiw1gsw9w92qgphhzn4v6av39calq25"
     },
     "eza-preview.yazi": {
       "type": "Git",
@@ -243,9 +243,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "82febd5b45feff3a7a1b65c23f5a8c7f7118a898",
-      "url": "https://github.com/MasouShizuka/projects.yazi/archive/82febd5b45feff3a7a1b65c23f5a8c7f7118a898.tar.gz",
-      "hash": "093yv0q76wwpqjwf7l1iycca5lp83hhvzaaxh65hvjwdg1m8xnbr"
+      "revision": "a5e33db284ab580de7b549e472bba13a5ba7c7b9",
+      "url": "https://github.com/MasouShizuka/projects.yazi/archive/a5e33db284ab580de7b549e472bba13a5ba7c7b9.tar.gz",
+      "hash": "1srd6i7ns74dhzhxnhsrfc4cwsb97293wq1lss0jg0y6bhxgal71"
     },
     "reflink.yazi": {
       "type": "Git",
@@ -386,9 +386,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "0a4904cf4f8f14d36fe72976d9b6b7597cd303ee",
-      "url": "https://github.com/pirafrank/what-size.yazi/archive/0a4904cf4f8f14d36fe72976d9b6b7597cd303ee.tar.gz",
-      "hash": "1zgipyqz2i0dhqwnan28g3nxic9gha2qfxcrjb7rimdkbfjd36ny"
+      "revision": "d8966568f2a80394bf1f9a1ace6708ddd4cc8154",
+      "url": "https://github.com/pirafrank/what-size.yazi/archive/d8966568f2a80394bf1f9a1ace6708ddd4cc8154.tar.gz",
+      "hash": "1hrmix9swh8f222s68zsh2n4pvi7pc6a70cf1jqfgzmb6mzn4q5k"
     },
     "yamb.yazi": {
       "type": "Git",
