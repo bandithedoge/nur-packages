@@ -1,6 +1,7 @@
 {
   airwindows-consolidated = [ "airwin2rack" ];
   cantata = [ "cantata" ];
+  distrho-ports = [ "distrho-ports" ];
   emacsPackages =
     builtins.mapAttrs
       (_: name: [
@@ -16,6 +17,7 @@
   luakit = [ "luakit" ];
   mesonlsp-bin = [ "mesonlsp" ];
   nimlangserver = [ "nimlangserver" ];
+  nugget-doom = [ "nugget-doom" ];
   powertab = [ "powertab-editor" ];
   satty = [ "satty" ];
   symbols-nerd-font = [
