@@ -1,3 +1,4 @@
+# TODO: figure out plugin scanning with carla
 {
   pkgs,
   sources,

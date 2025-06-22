@@ -14,6 +14,7 @@
         on = "on";
         smartparens = "smartparens";
       };
+  geonkick = [ "geonkick" ];
   luakit = [ "luakit" ];
   mesonlsp-bin = [ "mesonlsp" ];
   nimlangserver = [ "nimlangserver" ];

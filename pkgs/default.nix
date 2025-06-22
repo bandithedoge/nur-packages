@@ -35,7 +35,6 @@ let
     curl-gnutls3 = callPackage' ./curl-gnutls3;
     deemix-gui-bin = callPackage' ./deemix-gui-bin;
     digits-bin = callPackage' ./digits-bin;
-    distrho-ports = callPackage' ./distrho-ports;
     dpf-plugins = callPackage' ./dpf-plugins;
     dsp56300 = callPackage' ./dsp56300;
     element = callPackage' ./element;
@@ -81,7 +80,6 @@ let
     musique = callPackage' ./musique;
     mxtune-bin = callPackage' ./mxtune-bin;
     nodePackages = callPackages' ./nodePackages;
-    nugget-doom = callPackage' ./nugget-doom;
     nyan-doom = callPackage' ./nyan-doom;
     octasine = callPackage' ./octasine;
     onagre = callPackage' ./onagre;
