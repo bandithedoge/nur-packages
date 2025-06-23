@@ -45,7 +45,6 @@ let
     firefoxAddons = callPackages' ./firefoxAddons;
     flexipatch = callPackages' ./flexipatch;
     gate-12 = callPackage' ./gate-12;
-    geonkick = callPackage' ./geonkick;
     giada = callPackage' ./giada;
     gnomedistort2 = callPackage' ./gnomedistort2;
     guitarix-vst-bin = callPackage' ./guitarix-vst-bin;
