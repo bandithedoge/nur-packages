@@ -22,8 +22,9 @@
     inherit (sources.lua-dbus) src pname;
     version = sources.lua-dbus.date;
 
-    propagatedBuildInputs = with pkgs.luaPackages; [ ldbus ];
     knownRockspec = src + "/${pname}-scm-0.rockspec";
+
+    propagatedBuildInputs = with pkgs.luaPackages; [ ldbus ];
 
     meta = with pkgs.lib; {
       description = "convenient dbus api in lua";
@@ -37,14 +38,31 @@
     inherit (sources.bling) src pname;
     version = sources.bling.date;
 
-    preConfigure = "mv ${pname}-dev-2.rockspec ${pname}-dev-1.rockspec";
-
     knownRockspec = "${pname}-dev-1.rockspec";
+
+    preConfigure = "mv ${pname}-dev-2.rockspec ${pname}-dev-1.rockspec";
 
     meta = with pkgs.lib; {
       description = "Utilities for the awesome window manager";
       homepage = "https://blingcorp.github.io/bling/";
       license = licenses.mit;
+    };
+  };
+
+  astal-lua = pkgs.luaPackages.buildLuarocksPackage rec {
+    inherit (sources.astal-lua) pname src;
+    version = sources.astal-lua.date;
+
+    knownRockspec = src + "/astal-dev-1.rockspec";
+
+    propagatedBuildInputs = with pkgs.luaPackages; [
+      lgi
+    ];
+
+    meta = with pkgs.lib; {
+      description = "Lua bindings for libastal";
+      homepage = "https://github.com/tokyob0t/astal-lua";
+      license = licenses.lgpl21Plus;
     };
   };
 }

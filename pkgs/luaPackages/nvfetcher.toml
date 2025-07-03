@@ -9,3 +9,7 @@ fetch.git = "https://github.com/dodo/lua-dbus"
 [bling]
 src.git = "https://github.com/blingcorp/bling"
 fetch.git = "https://github.com/blingcorp/bling"
+
+[astal-lua]
+src.git = "https://github.com/tokyob0t/astal-lua"
+fetch.git = "https://github.com/tokyob0t/astal-lua"
