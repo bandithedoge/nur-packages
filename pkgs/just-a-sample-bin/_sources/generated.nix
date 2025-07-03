@@ -8,10 +8,10 @@
 {
   just-a-sample-bin = {
     pname = "just-a-sample-bin";
-    version = "release";
+    version = "v1.02";
     src = fetchurl {
-      url = "https://github.com/BOBONA/Just-a-Sample/releases/download/release/Linux.VST3.zip";
-      sha256 = "sha256-wmwhsjwnvpoxNtuX6jg0vXSp6wWffzxNaSj29j5BuwA=";
+      url = "https://github.com/BOBONA/Just-a-Sample/releases/download/v1.02/Linux.VST3.zip";
+      sha256 = "sha256-LQ6pFRZ4JfuwREgHaLKfXzq/deIkMdWnfry78wEDdnk=";
     };
   };
 }

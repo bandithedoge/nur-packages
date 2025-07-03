@@ -8,13 +8,13 @@
 {
   nyan-doom = {
     pname = "nyan-doom";
-    version = "v1.3.1";
+    version = "v1.3.3";
     src = fetchFromGitHub {
       owner = "andrikpowell";
       repo = "nyan-doom";
-      rev = "v1.3.1";
+      rev = "v1.3.3";
       fetchSubmodules = false;
-      sha256 = "sha256-jkNqqqx+NlW8md1q9L/MQ4lWGmZnE1VsTHogCaZ1ReA=";
+      sha256 = "sha256-lW0DvrPLMlBjF3Tc9omqor8253+v47Qb+Jw8wpTU6hI=";
     };
   };
 }

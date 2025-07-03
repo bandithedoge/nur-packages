@@ -8,10 +8,10 @@
     "pinned": false,
     "src": {
       "name": null,
-      "sha256": "sha256-Yx6JCdi2WzWwTAodvgqOxSQ1Oqy3DkIqJhhyA/gGtus=",
+      "sha256": "sha256-O0+R7NFFL3q7hSupyIBNI3xBVMmRvAL+TgbLaCwlKm8=",
       "type": "url",
-      "url": "https://cdn1.waterfox.net/waterfox/releases/6.5.9/Linux_x86_64/waterfox-6.5.9.tar.bz2"
+      "url": "https://cdn1.waterfox.net/waterfox/releases/6.5.10/Linux_x86_64/waterfox-6.5.10.tar.bz2"
     },
-    "version": "6.5.9"
+    "version": "6.5.10"
   }
 }

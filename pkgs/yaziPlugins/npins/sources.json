@@ -35,9 +35,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "a03a23713aecaa25c58e830eead34461f1d66853",
-      "url": "https://github.com/hankertrix/augment-command.yazi/archive/a03a23713aecaa25c58e830eead34461f1d66853.tar.gz",
-      "hash": "0l50iaqhzx54xsmfywwlcx61hifaffkvfajmghk3xb9p9m1ph9v7"
+      "revision": "d939163d23551ea486183c0eab251bf5dccc4166",
+      "url": "https://github.com/hankertrix/augment-command.yazi/archive/d939163d23551ea486183c0eab251bf5dccc4166.tar.gz",
+      "hash": "07sw60xwkd5lx9wa2linnr8arlvi3ak7dv5nqz9n7a0x4gwc4qi5"
     },
     "bookmarks.yazi": {
       "type": "Git",
@@ -269,9 +269,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "2e3b6172e6226e0db96aea12d09dea2d2e443fea",
-      "url": "https://github.com/dedukun/relative-motions.yazi/archive/2e3b6172e6226e0db96aea12d09dea2d2e443fea.tar.gz",
-      "hash": "1c6cx2qxq17klmqd1523mwara370s6z784rhyjnxja414zmb8ixz"
+      "revision": "9d26460e781a254f59e2b8d460829796534f8fce",
+      "url": "https://github.com/dedukun/relative-motions.yazi/archive/9d26460e781a254f59e2b8d460829796534f8fce.tar.gz",
+      "hash": "1bqkpgbjg8y0c2c26rblmbn0g0kgnwkjf9mra434a39sdk1992n6"
     },
     "rich-preview.yazi": {
       "type": "Git",
@@ -360,9 +360,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "4ca5996a8264457cbefff8e430acfca4900a0453",
-      "url": "https://github.com/kirasok/torrent-preview.yazi/archive/4ca5996a8264457cbefff8e430acfca4900a0453.tar.gz",
-      "hash": "18xzhn94rppbn0c6bj7nrh0nn6ddx6c810sy0lrhrsxrsrs8x9xx"
+      "revision": "f46528243c458de3ffce38c44607d5a0cde67559",
+      "url": "https://github.com/kirasok/torrent-preview.yazi/archive/f46528243c458de3ffce38c44607d5a0cde67559.tar.gz",
+      "hash": "0njniirsr8zsh4xqk6sj24q0whrzlzj2b2gxw9d5kic728sny4jn"
     },
     "video-ffmpeg.yazi": {
       "type": "Git",
