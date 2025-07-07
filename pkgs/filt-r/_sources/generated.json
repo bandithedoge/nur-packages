@@ -1,23 +1,23 @@
 {
-    "filt-r": {
-        "cargoLocks": null,
-        "date": null,
-        "extract": null,
-        "name": "filt-r",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "deepClone": false,
-            "fetchSubmodules": true,
-            "leaveDotGit": false,
-            "name": null,
-            "owner": "tiagolr",
-            "repo": "filtr",
-            "rev": "v1.0.9",
-            "sha256": "sha256-QLqdq6I7gUeItnjsZETVuBSsbdtwXCQkfOgQO6Yu1nE=",
-            "sparseCheckout": [],
-            "type": "github"
-        },
-        "version": "v1.0.9"
-    }
+  "filt-r": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "filt-r",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "deepClone": false,
+      "fetchSubmodules": true,
+      "leaveDotGit": false,
+      "name": null,
+      "owner": "tiagolr",
+      "repo": "filtr",
+      "rev": "v1.0.9",
+      "sha256": "sha256-QLqdq6I7gUeItnjsZETVuBSsbdtwXCQkfOgQO6Yu1nE=",
+      "sparseCheckout": [],
+      "type": "github"
+    },
+    "version": "v1.0.9"
+  }
 }

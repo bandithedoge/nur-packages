@@ -9,7 +9,7 @@
     inherit (sources.beets-describe) pname version src;
 
     pyproject = true;
-    build-system = [pkgs.python3Packages.setuptools];
+    build-system = [ pkgs.python3Packages.setuptools ];
 
     nativeBuildInputs = with pkgs; [
       beets
@@ -42,7 +42,7 @@
     inherit (sources.beets-yearfixer) pname version src;
 
     pyproject = true;
-    build-system = [pkgs.python3Packages.setuptools];
+    build-system = [ pkgs.python3Packages.setuptools ];
 
     nativeBuildInputs = with pkgs; [
       beets
