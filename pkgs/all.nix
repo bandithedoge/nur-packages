@@ -38,7 +38,7 @@ in
   element = callPackage' ./element;
   emacsPackages = callPackages' ./emacsPackages;
   fennel-language-server = callPackage' ./fennel-language-server;
-  filtr = callPackage' ./filtr;
+  filt-r = callPackage' ./filt-r;
   firefly-synth = callPackage' ./firefly-synth;
   firefoxAddons = callPackages' ./firefoxAddons;
   flexipatch = callPackages' ./flexipatch;

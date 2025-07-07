@@ -11,6 +11,7 @@
     "emacsPackages"
     "eglot-inactive-regions"
   ];
+  filtr = [ "filt-r" ];
   lamb = [ "lamb-bin" ];
   osirus = [ "dsp56300" ];
   proton-cachyos-bin = [

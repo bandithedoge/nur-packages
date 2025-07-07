@@ -5,8 +5,8 @@
   ...
 }:
 utils.juce.mkJucePackage {
-  inherit (sources.filtr) pname src;
-  version = pkgs.lib.removePrefix "v" sources.filtr.version;
+  inherit (sources.filt-r) pname src;
+  version = pkgs.lib.removePrefix "v" sources.filt-r.version;
 
   meta = with pkgs.lib; {
     description = "Envelope based filter modulator";
