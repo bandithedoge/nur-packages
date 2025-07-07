@@ -106,6 +106,7 @@ in
   squeezer-bin = callPackage' ./squeezer-bin;
   tal = callPackages' ./tal;
   thorium-bin = callPackage' ./thorium-bin;
+  time-12 = callPackage' ./time-12;
   tonelib = callPackages' ./tonelib;
   tonez = callPackage' ./tonez;
   u-he = callPackages' ./u-he;
