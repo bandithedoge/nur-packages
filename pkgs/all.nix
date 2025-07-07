@@ -90,6 +90,7 @@ in
   protrekkr = callPackage' ./protrekkr;
   psydoom-bin = callPackage' ./psydoom-bin;
   pythonPackages = callPackages' ./pythonPackages;
+  reev-r = callPackage' ./reev-r;
   resonarium = callPackage' ./resonarium;
   reverse-camel = callPackage' ./reverse-camel;
   ripplerx = callPackage' ./ripplerx;
