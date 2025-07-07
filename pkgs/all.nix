@@ -111,6 +111,7 @@ in
   tonez = callPackage' ./tonez;
   u-he = callPackages' ./u-he;
   uhhyou = callPackage' ./uhhyou;
+  unplugred = callPackage' ./unplugred;
   valentine = callPackage' ./valentine;
   venn = callPackages' ./venn;
   vgmtrans = callPackage' ./vgmtrans;
