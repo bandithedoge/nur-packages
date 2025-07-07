@@ -8,6 +8,9 @@
   describe = pkgs.python3Packages.buildPythonApplication {
     inherit (sources.beets-describe) pname version src;
 
+    pyproject = true;
+    build-system = [pkgs.python3Packages.setuptools];
+
     nativeBuildInputs = with pkgs; [
       beets
     ];
@@ -37,6 +40,9 @@
 
   yearfixer = pkgs.python3Packages.buildPythonApplication {
     inherit (sources.beets-yearfixer) pname version src;
+
+    pyproject = true;
+    build-system = [pkgs.python3Packages.setuptools];
 
     nativeBuildInputs = with pkgs; [
       beets
