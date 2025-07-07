@@ -74,9 +74,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "1ec3867f463dfe4ca37001348953d810c716d4d9",
-      "url": "https://github.com/b0o/SchemaStore.nvim/archive/1ec3867f463dfe4ca37001348953d810c716d4d9.tar.gz",
-      "hash": "0cnwz6dr0bgq7kiv0p6j81c14h7x9r2spa3y1a3vjnx51qm4jw54"
+      "revision": "f4f08359ba81ef1f5e56480fd11687a5a946d19b",
+      "url": "https://github.com/b0o/SchemaStore.nvim/archive/f4f08359ba81ef1f5e56480fd11687a5a946d19b.tar.gz",
+      "hash": "03mxgh0vkjpg6af2zcjjyys1i4ql60557cd1vzlmkhciwcf48vv6"
     },
     "aniseed": {
       "type": "Git",
