@@ -7,7 +7,7 @@
 utils.juce.mkJucePackage {
   inherit (sources.terrain) pname version src;
 
-  NIX_CFLAGS_COMPILE = ["-Wno-error"];
+  NIX_CFLAGS_COMPILE = [ "-Wno-error" ];
 
   meta = with pkgs.lib; {
     description = "Open Source Wave Terrain Synth";

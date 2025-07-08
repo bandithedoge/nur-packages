@@ -1944,9 +1944,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "3f7a198b1200d70d5787334fd1efc90eb2f3937b",
-      "url": "https://github.com/sQVe/sort.nvim/archive/3f7a198b1200d70d5787334fd1efc90eb2f3937b.tar.gz",
-      "hash": "05nd3rxsjrmk1pw24icbiswdgavwk8rvy7z7k9llxk4bjhr9nh3f"
+      "revision": "9137fe87073cd1d3ddda8ed1627e138549264671",
+      "url": "https://github.com/sQVe/sort.nvim/archive/9137fe87073cd1d3ddda8ed1627e138549264671.tar.gz",
+      "hash": "1zl3wafz5zpnrf5rpq6c858gwk1hafg0lawkig0cvrcgj78q3sjn"
     },
     "specs.nvim": {
       "type": "Git",
