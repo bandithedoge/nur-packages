@@ -321,9 +321,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "6a0f3f788971b155cbc7cec47f6f11aebbc148c9",
-      "url": "https://github.com/Rolv-Apneseth/starship.yazi/archive/6a0f3f788971b155cbc7cec47f6f11aebbc148c9.tar.gz",
-      "hash": "1pqbn786sl31ajcaixiwgrb37yj6vdn2491pzgy0pf20h9iv8ldb"
+      "revision": "a63550b2f91f0553cc545fd8081a03810bc41bc0",
+      "url": "https://github.com/Rolv-Apneseth/starship.yazi/archive/a63550b2f91f0553cc545fd8081a03810bc41bc0.tar.gz",
+      "hash": "1j4x1ffdppkm46w8a1zc4sc77cg71hliblwnlh6ba3cnz3lr31rx"
     },
     "sudo.yazi": {
       "type": "Git",
