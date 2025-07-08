@@ -34,5 +34,6 @@ pkgs.stdenv.mkDerivation {
     homepage = "https://github.com/publicsamples/Quetzalcoatl";
     license = licenses.gpl3Plus;
     platforms = [ "x86_64-linux" ];
+    sourceProvenance = [ sourceTypes.binaryNativeCode ];
   };
 }
