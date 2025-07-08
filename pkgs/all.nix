@@ -43,7 +43,6 @@ in
   firefoxAddons = callPackages' ./firefoxAddons;
   flexipatch = callPackages' ./flexipatch;
   gate-12 = callPackage' ./gate-12;
-  giada = callPackage' ./giada;
   gnomedistort2 = callPackage' ./gnomedistort2;
   guitarix-vst-bin = callPackage' ./guitarix-vst-bin;
   guitarml = callPackages' ./guitarml;
