@@ -14,7 +14,7 @@ pkgs.lib.recursiveUpdate
   (
     pkgs.lib.mapAttrsRecursive (
       old: new:
-      pkgs.lib.warn "${concat old} has been upstreamed to nixpkgs as ${concat new}" pkgs.lib.attrByPath
+      pkgs.lib.warn "${concat old} is available in nixpkgs as ${concat new}" pkgs.lib.attrByPath
         new
         null
         pkgs
