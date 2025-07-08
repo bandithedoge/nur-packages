@@ -104,6 +104,7 @@ in
   snyk-ls-bin = callPackage' ./snyk-ls-bin;
   squeezer-bin = callPackage' ./squeezer-bin;
   tal = callPackages' ./tal;
+  terrain = callPackage' ./terrain;
   thorium-bin = callPackage' ./thorium-bin;
   time-12 = callPackage' ./time-12;
   tonelib = callPackages' ./tonelib;
