@@ -1,0 +1,17 @@
+{
+    "quetzalcoatl-bin": {
+        "cargoLocks": null,
+        "date": null,
+        "extract": null,
+        "name": "quetzalcoatl-bin",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-+bemByjs493PE4ZM5XoVToW/L5twlwraeddCdZNVAhg=",
+            "type": "url",
+            "url": "https://github.com/publicsamples/Quetzalcoatl/releases/download/0.8.7/Quetzalcoatl-Linux.VST3.tar.xz"
+        },
+        "version": "0.8.7"
+    }
+}

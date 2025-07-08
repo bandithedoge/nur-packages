@@ -1,0 +1,3 @@
+[quetzalcoatl-bin]
+src.github = "publicsamples/Quetzalcoatl"
+fetch.url = "https://github.com/publicsamples/Quetzalcoatl/releases/download/$ver/Quetzalcoatl-Linux.VST3.tar.xz"
