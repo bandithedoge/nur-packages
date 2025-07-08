@@ -23,5 +23,6 @@ pkgs.appimageTools.wrapType2 {
     homepage = "https://github.com/BodbDearg/PsyDoom";
     license = licenses.gpl3Plus;
     platforms = builtins.attrNames sourceMap;
+    sourceProvenance = [ sourceTypes.binaryNativeCode ];
   };
 }
