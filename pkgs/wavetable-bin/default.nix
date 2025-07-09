@@ -30,6 +30,6 @@ pkgs.stdenv.mkDerivation {
     description = "Wavetable synth";
     homepage = "https://socalabs.com/synths/wavetable/";
     license = licenses.bsd3;
-    platforms = ["x86_64-linux"];
+    platforms = [ "x86_64-linux" ];
   };
 }
