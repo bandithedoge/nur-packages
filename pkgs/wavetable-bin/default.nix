@@ -25,4 +25,11 @@ pkgs.stdenv.mkDerivation {
 
     runHook postBuild
   '';
+
+  meta = with pkgs.lib; {
+    description = "Wavetable synth";
+    homepage = "https://socalabs.com/synths/wavetable/";
+    license = licenses.bsd3;
+    platforms = ["x86_64-linux"];
+  };
 }
