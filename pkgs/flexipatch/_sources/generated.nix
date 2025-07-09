@@ -44,14 +44,14 @@
   };
   st-flexipatch = {
     pname = "st-flexipatch";
-    version = "7c28c7868aa4fcedaef9574ba814da1986fc479b";
+    version = "fba8d104172d988f1fd67874c4e4231d7b9fe914";
     src = fetchFromGitHub {
       owner = "bakkeby";
       repo = "st-flexipatch";
-      rev = "7c28c7868aa4fcedaef9574ba814da1986fc479b";
+      rev = "fba8d104172d988f1fd67874c4e4231d7b9fe914";
       fetchSubmodules = false;
-      sha256 = "sha256-CsQ2gT2Q2/oFxirkMkXM4/eDS+xkdqq8w0XutWGwUmc=";
+      sha256 = "sha256-OiRkqzFB/+89NhVaJX7d0YJq10eBSHESYQun+Jfogys=";
     };
-    date = "2025-07-08";
+    date = "2025-07-09";
   };
 }

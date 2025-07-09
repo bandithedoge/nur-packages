@@ -1,5 +1,5 @@
 {
   pkgs ? import <nixpkgs> { inherit overlays; },
-  overlays ? null
+  overlays ? null,
 }:
 import ./pkgs { inherit pkgs; }

@@ -1,17 +1,17 @@
 {
-    "wavetable-bin": {
-        "cargoLocks": null,
-        "date": null,
-        "extract": null,
-        "name": "wavetable-bin",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "name": null,
-            "sha256": "sha256-R6SNzAKqUhagCc6CNUFjXjCvofI2W56WMVpk8Ild8N4=",
-            "type": "url",
-            "url": "https://github.com/FigBug/Wavetable/releases/download/1.0.23/Wavetable_Linux.zip"
-        },
-        "version": "1.0.23"
-    }
+  "wavetable-bin": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "wavetable-bin",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-R6SNzAKqUhagCc6CNUFjXjCvofI2W56WMVpk8Ild8N4=",
+      "type": "url",
+      "url": "https://github.com/FigBug/Wavetable/releases/download/1.0.23/Wavetable_Linux.zip"
+    },
+    "version": "1.0.23"
+  }
 }
