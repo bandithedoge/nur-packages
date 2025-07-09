@@ -18,6 +18,7 @@
     "proton"
     "cachyos"
   ];
+  resonarium = [ "resonarium-bin" ];
   swift-mesonlsp-bin = [ "mesonlsp-bin" ];
   the-usual-suspects = {
     osirus = [ "dsp56300" ];

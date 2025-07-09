@@ -1,8 +1,0 @@
-[resonarium]
-src.github = "gabrielsoule/resonarium"
-fetch.github = "gabrielsoule/resonarium"
-git.fetchSubmodules = true
-
-[perfetto]
-src.manual = "v48.1"
-fetch.github = "google/perfetto"

@@ -91,7 +91,7 @@ in
   pythonPackages = callPackages' ./pythonPackages;
   quetzalcoatl-bin = callPackage' ./quetzalcoatl-bin;
   reev-r = callPackage' ./reev-r;
-  resonarium = callPackage' ./resonarium;
+  resonarium-bin = callPackage' ./resonarium-bin;
   reverse-camel = callPackage' ./reverse-camel;
   ripplerx = callPackage' ./ripplerx;
   rnnoise-plugin = callPackage' ./rnnoise-plugin;
