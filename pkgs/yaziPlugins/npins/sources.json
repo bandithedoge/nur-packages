@@ -48,9 +48,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "fbb7c00b6f887d5c0d78367bd4763ea8dff53459",
-      "url": "https://github.com/dedukun/bookmarks.yazi/archive/fbb7c00b6f887d5c0d78367bd4763ea8dff53459.tar.gz",
-      "hash": "0c553xlnpi00rmwhfgyqpa0q9lsy1lr83g0y4pwji5pvskdxaba7"
+      "revision": "9ef1254d8afe88aba21cd56a186f4485dd532ab8",
+      "url": "https://github.com/dedukun/bookmarks.yazi/archive/9ef1254d8afe88aba21cd56a186f4485dd532ab8.tar.gz",
+      "hash": "01lp2bghnm6qch6q1a2aj782nbh00abhcx56p2kajhls3m24208r"
     },
     "bypass.yazi": {
       "type": "Git",
@@ -269,9 +269,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "9d26460e781a254f59e2b8d460829796534f8fce",
-      "url": "https://github.com/dedukun/relative-motions.yazi/archive/9d26460e781a254f59e2b8d460829796534f8fce.tar.gz",
-      "hash": "1bqkpgbjg8y0c2c26rblmbn0g0kgnwkjf9mra434a39sdk1992n6"
+      "revision": "a603d9ea924dfc0610bcf9d3129e7cba605d4501",
+      "url": "https://github.com/dedukun/relative-motions.yazi/archive/a603d9ea924dfc0610bcf9d3129e7cba605d4501.tar.gz",
+      "hash": "1kk8my0apb4ahp60krqalccp63crggh8jkvi0zdhsf26bkyv2bpn"
     },
     "rich-preview.yazi": {
       "type": "Git",
