@@ -33,16 +33,16 @@
   };
   unplugred = {
     pname = "unplugred";
-    version = "1d10bbfa08acfc97cbc7e679f41dffedb675bc86";
+    version = "edf9aaf46b11e36e30fdb485e3a7e3ef5b25c326";
     src = fetchgit {
       url = "https://github.com/unplugred/vsts";
-      rev = "1d10bbfa08acfc97cbc7e679f41dffedb675bc86";
+      rev = "edf9aaf46b11e36e30fdb485e3a7e3ef5b25c326";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-PL2OjxHJNt6mKrAh0RSrHjm39Ap5kWMgb3AqxHAg3gc=";
+      sha256 = "sha256-D/Z/5xDpRxxO8bTyr+1kWJ5w65MELfHqDPXBLUoaayE=";
     };
-    date = "2025-06-21";
+    date = "2025-07-12";
   };
 }

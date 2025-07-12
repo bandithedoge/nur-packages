@@ -39,13 +39,13 @@ let
         sha512 = "jVZGvOxOuNSsuQuLRTh13nU0AogFlw32w/MT+LV6D3sP5WdbW61E77RnkbaO2dUvmPAYrBDJXGn5gGS6tH4j8g==";
       };
     };
-    "@babel/types-7.28.0" = {
+    "@babel/types-7.28.1" = {
       name = "_at_babel_slash_types";
       packageName = "@babel/types";
-      version = "7.28.0";
+      version = "7.28.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/types/-/types-7.28.0.tgz";
-        sha512 = "jYnje+JyZG5YThjHiF28oT4SIZLnYOcSBb6+SDaFIyzDVSkXQmQQYclJ2R+YxcdmK0AX6x1E5OQNtuh3jHDrUg==";
+        url = "https://registry.npmjs.org/@babel/types/-/types-7.28.1.tgz";
+        sha512 = "x0LvFTekgSX+83TI28Y9wYPUfzrnl2aT5+5QLnO6v7mSJYtEEevuDRN0F0uSHRk1G1IWZC43o00Y0xDDrpBGPQ==";
       };
     };
     "@emmetio/abbreviation-2.3.3" = {
@@ -706,7 +706,7 @@ in
       sources."@babel/helper-string-parser-7.27.1"
       sources."@babel/helper-validator-identifier-7.27.1"
       sources."@babel/parser-7.28.0"
-      sources."@babel/types-7.28.0"
+      sources."@babel/types-7.28.1"
       sources."@emmetio/abbreviation-2.3.3"
       sources."@emmetio/css-abbreviation-2.1.8"
       sources."@emmetio/scanner-1.0.4"
