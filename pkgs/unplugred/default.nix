@@ -21,7 +21,7 @@ utils.juce.mkJucePackage {
   meta = with pkgs.lib; {
     description = "Collection of VST plugins made by unplugred";
     homepage = "https://vst.unplug.red";
-    license = licenses.gpl3; # https://github.com/unplugred/vsts/issues/6
+    license = licenses.agpl3Plus;
     platforms = platforms.linux;
   };
 }
