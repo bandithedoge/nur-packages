@@ -33,17 +33,17 @@
   };
   element = {
     pname = "element";
-    version = "b79b417cc1cb704d5861c2b605387b0b2d01b920";
+    version = "cadf9f5fa8efad24815ce55b8fc9d3ad1e55c980";
     src = fetchgit {
       url = "https://github.com/kushview/element";
-      rev = "b79b417cc1cb704d5861c2b605387b0b2d01b920";
+      rev = "cadf9f5fa8efad24815ce55b8fc9d3ad1e55c980";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = true;
       sparseCheckout = [ ];
-      sha256 = "sha256-7Kgzcj9x13ubaXh7AYY3RkasLoEvsp6vySyiPKmce9g=";
+      sha256 = "sha256-PoSsV4w5MD3enDW1h6bSVc0WTAoklDcDxor3fmkSVQE=";
     };
-    date = "2025-07-11";
+    date = "2025-07-14";
   };
   juce-element = {
     pname = "juce-element";
