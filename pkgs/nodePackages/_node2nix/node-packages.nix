@@ -408,13 +408,13 @@ let
         sha512 = "xCy9V055GLEqoFaHoC1SoLIaLmWctgCUaBaWxDZ7/Zx4CTyX7cJQLJOok/orfjZAh9kEYpjJa4d0KcJmCbctZA==";
       };
     };
-    "picomatch-4.0.2" = {
+    "picomatch-4.0.3" = {
       name = "picomatch";
       packageName = "picomatch";
-      version = "4.0.2";
+      version = "4.0.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/picomatch/-/picomatch-4.0.2.tgz";
-        sha512 = "M7BAV6Rlcy5u+m6oPhAPFgJTzAioX/6B0DxyvDlo9l8+T3nLKbrczg2WLUyzd45L8RqfUMyGPzekbMvX2Ldkwg==";
+        url = "https://registry.npmjs.org/picomatch/-/picomatch-4.0.3.tgz";
+        sha512 = "5gTmgEY/sqK6gFXLIsQNH19lWb4ebPDLA4SdLP7dsWkIXHWlG66oPuVvXSGFPppYZz8ZDZq0dYYrbHfBCVUb1Q==";
       };
     };
     "pkg-types-1.3.1" = {
@@ -765,7 +765,7 @@ in
       sources."package-manager-detector-0.2.11"
       sources."pathe-2.0.3"
       sources."perfect-debounce-1.0.0"
-      sources."picomatch-4.0.2"
+      sources."picomatch-4.0.3"
       sources."pkg-types-1.3.1"
       sources."prompts-2.4.2"
       sources."quansync-0.2.10"
