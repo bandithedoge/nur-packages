@@ -9,9 +9,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "1260d2f7dd18619b42359aa3e1ba6871aa52fd26",
-      "url": "https://github.com/jdtsmith/eglot-booster/archive/1260d2f7dd18619b42359aa3e1ba6871aa52fd26.tar.gz",
-      "hash": "0b8pknnkyzqmi7b8ms27dzcbcx87cn2m8m160v18mv6b61c0mq5m"
+      "revision": "cab7803c4f0adc7fff9da6680f90110674bb7a22",
+      "url": "https://github.com/jdtsmith/eglot-booster/archive/cab7803c4f0adc7fff9da6680f90110674bb7a22.tar.gz",
+      "hash": "11kb8n79p0d9bm3v3c5v0qmn6sqbzhppzxd4f9qrdy3h1anm0h65"
     },
     "eglot-ltex": {
       "type": "Git",
