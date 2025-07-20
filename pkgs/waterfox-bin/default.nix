@@ -37,7 +37,8 @@ pkgs.stdenv.mkDerivation {
     let
       policies = {
         DisableAppUpdate = true;
-      } // config.firefox.policies or { };
+      }
+      // config.firefox.policies or { };
     in
     ''
       runHook preBuild

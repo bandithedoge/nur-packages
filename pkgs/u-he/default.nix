@@ -40,40 +40,39 @@ let
         ]
         ++ extraLibs;
 
-      buildPhase =
-        ''
-          runHook preBuild
+      buildPhase = ''
+        runHook preBuild
 
-          mkdir -p $out/libexec
-          cp -r ${product} $out/libexec/${product}
-          for p in $out/libexec/${product}/Presets/*; do
-            mkdir -p "$p/MIDI Programs"
-          done
+        mkdir -p $out/libexec
+        cp -r ${product} $out/libexec/${product}
+        for p in $out/libexec/${product}/Presets/*; do
+          mkdir -p "$p/MIDI Programs"
+        done
 
-          # adapted from https://git.sr.ht/~raphi/elf-replace-symbol/tree/master/item/libfprint2-tod1-broadcom/default.nix
-          substitute ${./wrapper.c} wrapper.c \
-            --subst-var-by store_path $out/libexec/${product}
-          cc -fPIC -shared -O3 wrapper.c -o $out/libexec/${product}/snprintf_wrapper.so
+        # adapted from https://git.sr.ht/~raphi/elf-replace-symbol/tree/master/item/libfprint2-tod1-broadcom/default.nix
+        substitute ${./wrapper.c} wrapper.c \
+          --subst-var-by store_path $out/libexec/${product}
+        cc -fPIC -shared -O3 wrapper.c -o $out/libexec/${product}/snprintf_wrapper.so
 
-          ${pkgs.lib.getExe patchelf-raphi} \
-            --replace-symbol snprintf snprintf_wrapper \
-            --add-needed snprintf_wrapper.so \
-            $out/libexec/${product}/${product}.64.so
+        ${pkgs.lib.getExe patchelf-raphi} \
+          --replace-symbol snprintf snprintf_wrapper \
+          --add-needed snprintf_wrapper.so \
+          $out/libexec/${product}/${product}.64.so
 
-          mkdir -p $out/lib/vst
-          ln -s $out/libexec/${product}/${product}.64.so $out/lib/vst/${product}.64.so
+        mkdir -p $out/lib/vst
+        ln -s $out/libexec/${product}/${product}.64.so $out/lib/vst/${product}.64.so
 
-          mkdir -p $out/lib/vst3/${product}.vst3/Contents/{x86_64-linux,Resources/Documentation}
-          ln -s $out/libexec/${product}/${product}.64.so $out/lib/vst3/${product}.vst3/Contents/x86_64-linux/${product}.so
-          ln -s $out/libexec/${product}/*.pdf $out/lib/vst3/${product}.vst3/Contents/Resources/Documentation/
-        ''
-        + (pkgs.lib.optionalString clap ''
-          mkdir -p $out/lib/clap
-          ln -s $out/libexec/${product}/${product}.64.so $out/lib/clap/${product}.64.clap
-        '')
-        + ''
-          runHook postBuild
-        '';
+        mkdir -p $out/lib/vst3/${product}.vst3/Contents/{x86_64-linux,Resources/Documentation}
+        ln -s $out/libexec/${product}/${product}.64.so $out/lib/vst3/${product}.vst3/Contents/x86_64-linux/${product}.so
+        ln -s $out/libexec/${product}/*.pdf $out/lib/vst3/${product}.vst3/Contents/Resources/Documentation/
+      ''
+      + (pkgs.lib.optionalString clap ''
+        mkdir -p $out/lib/clap
+        ln -s $out/libexec/${product}/${product}.64.so $out/lib/clap/${product}.64.clap
+      '')
+      + ''
+        runHook postBuild
+      '';
 
       inherit preBuild postBuild;
 

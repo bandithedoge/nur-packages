@@ -34,7 +34,8 @@ let
       meta = {
         platforms = [ "x86_64-linux" ];
         sourceProvenance = [ pkgs.lib.sourceTypes.binaryNativeCode ];
-      } // meta;
+      }
+      // meta;
     };
 in
 {

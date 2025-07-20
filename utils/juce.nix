@@ -40,13 +40,12 @@ rec {
 
         cmakeFlags = [ "-DCOPY_PLUGIN_AFTER_BUILD=FALSE" ] ++ (args.cmakeFlags or [ ]);
 
-        postPatch =
-          ''
-            for f in $(find -name CMakeLists.txt); do
-              substituteInPlace "$f" --replace-quiet "COPY_PLUGIN_AFTER_BUILD TRUE" "COPY_PLUGIN_AFTER_BUILD FALSE"
-            done
-          ''
-          + (args.postPatch or "");
+        postPatch = ''
+          for f in $(find -name CMakeLists.txt); do
+            substituteInPlace "$f" --replace-quiet "COPY_PLUGIN_AFTER_BUILD TRUE" "COPY_PLUGIN_AFTER_BUILD FALSE"
+          done
+        ''
+        + (args.postPatch or "");
 
         installPhase =
           args.installPhase or (

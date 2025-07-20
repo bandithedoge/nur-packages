@@ -20,7 +20,8 @@ let
 
       cmakeFlags = [
         "-DZL_JUCE_COPY_PLUGIN=FALSE"
-      ] ++ extraCmakeFlags;
+      ]
+      ++ extraCmakeFlags;
 
       NIX_CFLAGS_COMPILE = cflags;
 
