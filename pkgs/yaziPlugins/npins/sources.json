@@ -130,6 +130,19 @@
       "url": "https://github.com/Reledia/glow.yazi/archive/bd3eaa58c065eaf216a8d22d64c62d8e0e9277e9.tar.gz",
       "hash": "139vrns3jwaymqi2sf0fpmkn2vsw261z3195cvi4lk6bvyxbydcv"
     },
+    "gvfs.yazi": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "boydaihungst",
+        "repo": "gvfs.yazi"
+      },
+      "branch": "master",
+      "submodules": false,
+      "revision": "e1e0df326b5bbde89aa4f6da6d4449925a0cd6b0",
+      "url": "https://github.com/boydaihungst/gvfs.yazi/archive/e1e0df326b5bbde89aa4f6da6d4449925a0cd6b0.tar.gz",
+      "hash": "0fdd216r1bwh49f36c0kmkl8baicxrmj7haa05q03k9h0n93agn1"
+    },
     "hexyl.yazi": {
       "type": "Git",
       "repository": {
