@@ -12,7 +12,7 @@
     build-system = [ pkgs.python3Packages.setuptools ];
 
     nativeBuildInputs = with pkgs; [
-      beets
+      beetsPackages.beets-minimal
     ];
 
     dependencies = with pkgs.python3Packages; [
@@ -45,7 +45,7 @@
     build-system = [ pkgs.python3Packages.setuptools ];
 
     nativeBuildInputs = with pkgs; [
-      beets
+      beetsPackages.beets-minimal
     ];
 
     dependencies = with pkgs.python3Packages; [
