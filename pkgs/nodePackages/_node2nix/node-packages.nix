@@ -255,13 +255,13 @@ let
         sha512 = "r1ekGw/Bgpi3HLV3h1MRBIlSAdHoIMklpaQ3OQLFcRw9PwAj2rqigvIbg+dBUI51OxVI2jsEtDywDBjSiuf7Ug==";
       };
     };
-    "jiti-2.4.2" = {
+    "jiti-2.5.0" = {
       name = "jiti";
       packageName = "jiti";
-      version = "2.4.2";
+      version = "2.5.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/jiti/-/jiti-2.4.2.tgz";
-        sha512 = "rg9zJN+G4n2nfJl5MW3BMygZX56zKPNVEYYqq7adpmMh4Jn2QNEwhvQlFy6jPVdcod7txZtKHWnyZiA3a0zP7A==";
+        url = "https://registry.npmjs.org/jiti/-/jiti-2.5.0.tgz";
+        sha512 = "NWDAhdnATItTnRhip9VTd8oXDjVcbhetRN6YzckApnXGxpGUooKMAaf0KVvlZG0+KlJMGkeLElVn4M1ReuxKUQ==";
       };
     };
     "js-yaml-4.1.0" = {
@@ -743,7 +743,7 @@ in
         }
       )
       sources."giget-1.2.5"
-      sources."jiti-2.4.2"
+      sources."jiti-2.5.0"
       sources."js-yaml-4.1.0"
       sources."jsonc-parser-2.3.1"
       sources."kleur-3.0.3"

@@ -61,9 +61,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "831a130291eb6dae0dabd2748d0a99401a2eebc4",
-      "url": "https://github.com/L3MON4D3/LuaSnip/archive/831a130291eb6dae0dabd2748d0a99401a2eebc4.tar.gz",
-      "hash": "0pkwgcnhs3j3mnsj963yxs1drnx1i52mjbk85r5bmnw10i8yl3d2"
+      "revision": "3d5bced1b9ae69fa3f9b1942e28af5dbc537f946",
+      "url": "https://github.com/L3MON4D3/LuaSnip/archive/3d5bced1b9ae69fa3f9b1942e28af5dbc537f946.tar.gz",
+      "hash": "0y29pqdbsj90h3kq2h86jzlfbjz1025c075n113c930x0r5jpgf3"
     },
     "SchemaStore.nvim": {
       "type": "Git",
@@ -659,9 +659,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "3b45f14ac0f3f76782c107f13180eb87e96122fc",
-      "url": "https://github.com/ibhagwan/fzf-lua/archive/3b45f14ac0f3f76782c107f13180eb87e96122fc.tar.gz",
-      "hash": "1495qml21gxrp6v1x2j3n1cw2i13v9264ixfj8m642hx9xh52w6i"
+      "revision": "cdfac04b264cd924173e7f63a00b4883e2b98564",
+      "url": "https://github.com/ibhagwan/fzf-lua/archive/cdfac04b264cd924173e7f63a00b4883e2b98564.tar.gz",
+      "hash": "1z3zj1vlrgd04dhjv172m342z4b37ji5b4hzp44js07bsf8d398y"
     },
     "galaxyline.nvim": {
       "type": "Git",
