@@ -11,12 +11,12 @@
       "fetchSubmodules": false,
       "leaveDotGit": true,
       "name": null,
-      "rev": "5e7b9e35c9e36d88f9b5d3b52bb92c4a88a46119",
-      "sha256": "sha256-OB7LHPJ4hq6zbkgAFgDMngahHMjmFIutNcQ+LwSMUrI=",
+      "rev": "c6a35eb1ef8d6541d2dab82887fd895f1470bb92",
+      "sha256": "sha256-6oczVSu+mKPZh8Zyc6ckdgVfL98UyzMl6pmVDMcynO0=",
       "sparseCheckout": [],
       "type": "git",
       "url": "https://github.com/dpjudas/VkDoom"
     },
-    "version": "5e7b9e35c9e36d88f9b5d3b52bb92c4a88a46119"
+    "version": "c6a35eb1ef8d6541d2dab82887fd895f1470bb92"
   }
 }

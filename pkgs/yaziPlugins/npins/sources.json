@@ -35,9 +35,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "edc1bcfa233cda6d199de144be3d5881e9e6f259",
-      "url": "https://github.com/hankertrix/augment-command.yazi/archive/edc1bcfa233cda6d199de144be3d5881e9e6f259.tar.gz",
-      "hash": "0cgz7fmjn05zw5q55cqb7f4652k84b7f4pnxf86ig1phzkvyw83z"
+      "revision": "80d34f2aaa28c93914c0173e419f008637b32bb5",
+      "url": "https://github.com/hankertrix/augment-command.yazi/archive/80d34f2aaa28c93914c0173e419f008637b32bb5.tar.gz",
+      "hash": "13adqz4ap2kisq27s76jdaj35niff5rlc7z03i109jzbwn0zn3sb"
     },
     "bookmarks.yazi": {
       "type": "Git",
