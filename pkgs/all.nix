@@ -102,6 +102,7 @@ in
   sheepshaver-bin = callPackage' ./sheepshaver-bin;
   showmidi-bin = callPackage' ./showmidi-bin;
   sinuslabs = callPackages' ./sinuslabs;
+  snd2acm = callPackage' ./snd2acm;
   snyk-ls-bin = callPackage' ./snyk-ls-bin;
   squeezer-bin = callPackage' ./squeezer-bin;
   tal = callPackages' ./tal;
