@@ -16,5 +16,6 @@ pkgs.appimageTools.wrapType2 {
     homepage = "https://www.cinelerra-gg.org/";
     license = licenses.gpl2;
     platforms = [ "x86_64-linux" ];
+    broken = true; # download server is dead
   };
 }
