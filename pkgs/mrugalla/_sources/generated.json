@@ -1,0 +1,62 @@
+{
+    "hammer-and-meiszel": {
+        "cargoLocks": null,
+        "date": "2025-04-29",
+        "extract": null,
+        "name": "hammer-and-meiszel",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "rev": "c9de84a00c7386f9b6c8e17af8bd7a38fd1e9054",
+            "sha256": "sha256-jVC8g5/iLSjP7CCmKwRNnw2eKIN7UfE7KmpzATzUljQ=",
+            "sparseCheckout": [],
+            "type": "git",
+            "url": "https://github.com/Mrugalla/Hammer-and-Meiszel"
+        },
+        "version": "c9de84a00c7386f9b6c8e17af8bd7a38fd1e9054"
+    },
+    "manta": {
+        "cargoLocks": null,
+        "date": "2024-11-02",
+        "extract": null,
+        "name": "manta",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "rev": "57a76552853dc3d49341497cd61257f9ed6e81d0",
+            "sha256": "sha256-Gclqi3u2W1afOXJdlfLCFLZ5Yfb0jy1cAyy427n0wSw=",
+            "sparseCheckout": [],
+            "type": "git",
+            "url": "https://github.com/Mrugalla/Manta"
+        },
+        "version": "57a76552853dc3d49341497cd61257f9ed6e81d0"
+    },
+    "nel-19": {
+        "cargoLocks": null,
+        "date": "2024-09-08",
+        "extract": null,
+        "name": "nel-19",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "rev": "eb112420eb8547c419ffd1fe5f66672bb600fe47",
+            "sha256": "sha256-+6C54F57BPplWcu8DN8bCzHP9KFeWcUYTA6Y9MP/qwc=",
+            "sparseCheckout": [],
+            "type": "git",
+            "url": "https://github.com/Mrugalla/NEL-19"
+        },
+        "version": "eb112420eb8547c419ffd1fe5f66672bb600fe47"
+    }
+}

@@ -1,0 +1,11 @@
+[hammer-and-meiszel]
+src.git = "https://github.com/Mrugalla/Hammer-and-Meiszel"
+fetch.git = "https://github.com/Mrugalla/Hammer-and-Meiszel"
+
+[manta]
+src.git = "https://github.com/Mrugalla/Manta"
+fetch.git = "https://github.com/Mrugalla/Manta"
+
+[nel-19]
+src.git = "https://github.com/Mrugalla/NEL-19"
+fetch.git = "https://github.com/Mrugalla/NEL-19"

@@ -73,6 +73,7 @@ in
   molot-lite = callPackage' ./molot-lite;
   monique = callPackage' ./monique;
   morewaita = callPackage' ./morewaita;
+  mrugalla = callPackages' ./mrugalla;
   musique = callPackage' ./musique;
   mxtune-bin = callPackage' ./mxtune-bin;
   nodePackages = callPackages' ./nodePackages;
