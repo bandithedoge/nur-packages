@@ -3,9 +3,15 @@
   sources,
   ...
 }:
+let
+  icon = pkgs.fetchurl {
+    url = "https://raw.githubusercontent.com/falkTX/protrekkr/refs/heads/master/defaultlogo.png";
+    hash = "sha256-4IGInSZ4lBtETHi3pLu06m7TGpQiBgiLZM3QftA7ngk=";
+  };
+in
 pkgs.stdenv.mkDerivation {
   inherit (sources.protrekkr) pname src;
-  version = sources.protrekkr.date;
+  version = pkgs.lib.removePrefix "v" sources.protrekkr.version;
 
   nativeBuildInputs = with pkgs; [
     copyDesktopItems
@@ -16,6 +22,7 @@ pkgs.stdenv.mkDerivation {
     SDL
     alsa-lib
     jack1
+    libGL
   ];
 
   installPhase = ''
@@ -25,7 +32,6 @@ pkgs.stdenv.mkDerivation {
 
     mkdir $out/share/protrekkr
     cp -r \
-      release/distrib/history.txt \
       release/distrib/instruments \
       release/distrib/license.txt \
       release/distrib/modules \
@@ -35,8 +41,8 @@ pkgs.stdenv.mkDerivation {
       release/distrib/skins \
       $out/share/protrekkr
 
-    mkdir $out/share/pixmaps
-    cp defaultlogo.png $out/share/pixmaps/protrekkr.png
+    mkdir -p $out/share/pixmaps
+    cp ${icon} $out/share/pixmaps/protrekkr.png
 
     makeWrapper $out/share/protrekkr/ptk_linux $out/bin/protrekkr --chdir $out/share/protrekkr
 
