@@ -25,6 +25,8 @@ pkgs.stdenv.mkDerivation {
     libGL
   ];
 
+  enableParallelBuilding = true;
+
   installPhase = ''
     runHook preInstall
 
@@ -51,8 +53,6 @@ pkgs.stdenv.mkDerivation {
 
   makefile = "makefile.linux";
 
-  enableParallelBuilding = true;
-
   desktopItems = [
     (pkgs.makeDesktopItem {
       name = "protrekkr";
@@ -62,9 +62,7 @@ pkgs.stdenv.mkDerivation {
     })
   ];
 
-  NIX_CFLAGS_COMPILE = [
-    "-Wno-format-security"
-  ];
+  hardeningDisable = [ "format" ];
 
   meta = with pkgs.lib; {
     description = "A fork of ProTrekkr, now with linux JACK Audio support";
