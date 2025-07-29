@@ -1,6 +1,6 @@
 [free-suite]
 src.webpage = "https://www.vennaudio.com/free-suite"
-src.regex = 'Free Suite_Linux_(\d+\.\d+\.\d+_\d{1,2}.+\d{4}_\d+).zip'
+src.regex = 'Free%20Suite_Linux_(\d+\.\d+\.\d+_\d{1,2}.+\d{4}_\d+).zip'
 fetch.url = "https://www.vennaudio.com/downloads/Free%20Suite/Free%20Suite_Linux_$ver.zip"
 url.name = "Free_Suite_Linux_$ver.zip"
 
