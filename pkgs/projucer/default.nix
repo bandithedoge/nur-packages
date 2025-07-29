@@ -4,13 +4,22 @@
   utils,
   ...
 }:
-utils.juce.mkJucePackage {
+utils.juce.mkJucePackage (finalAttrs: {
   pname = "projucer";
   inherit (sources.juce) version src;
 
   buildInputs = with pkgs; [
     ladspa-sdk
   ];
+
+  propagatedBuildInputs =
+    utils.juce.commonBuildInputs
+    ++ (with pkgs; [
+      gtk3
+      pkg-config
+      webkitgtk_4_0
+      writableTmpDirAsHomeHook
+    ]);
 
   installPhase = ''
     runHook preInstall
@@ -25,9 +34,11 @@ utils.juce.mkJucePackage {
 
   ninjaFlags = [ "Projucer" ];
 
+  setupHook = ./setupHook.sh;
+
   meta = with pkgs.lib; {
     homepage = "https://juce.com/";
     license = licenses.agpl3Only;
     platforms = platforms.unix;
   };
-}
+})

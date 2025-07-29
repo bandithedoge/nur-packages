@@ -1,4 +1,5 @@
 {
+  bitdos-bin = [ "bitdos" ];
   chainner-bin = [
     "chainner-bin"
     "stable"
@@ -13,6 +14,7 @@
   ];
   filtr = [ "filt-r" ];
   lamb = [ "lamb-bin" ];
+  microbiome-bin = [ "microbiome" ];
   osirus = [ "dsp56300" ];
   proton-cachyos-bin = [
     "proton"

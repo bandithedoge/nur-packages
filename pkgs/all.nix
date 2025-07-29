@@ -18,7 +18,7 @@ in
   audible-planets-bin = callPackage' ./audible-planets-bin;
   basiliskii-bin = callPackage' ./basiliskii-bin;
   beetsPackages = callPackages' ./beetsPackages;
-  bitdos-bin = callPackage' ./bitdos-bin;
+  bitdos = callPackage' ./bitdos;
   blender-radeon-prorender = callPackage' ./blender-radeon-prorender;
   blepfx = callPackages' ./blepfx;
   blocks = callPackage' ./blocks;
@@ -66,7 +66,7 @@ in
   luaPackages = callPackages' ./luaPackages;
   lv2vst = callPackage' ./lv2vst;
   maim-bin = callPackage' ./maim-bin;
-  microbiome-bin = callPackage' ./microbiome-bin;
+  microbiome = callPackage' ./microbiome;
   misstrhortion = callPackage' ./misstrhortion;
   mod-desktop-bin = callPackage' ./mod-desktop-bin;
   modstems = callPackage' ./modstems;
