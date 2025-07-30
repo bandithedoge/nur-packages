@@ -18,7 +18,7 @@ utils.juce.mkJucePackage (finalAttrs: {
       gtk3
       libjack2
       pkg-config
-      webkitgtk_4_0
+      webkitgtk_4_1
       writableTmpDirAsHomeHook
     ]);
 
