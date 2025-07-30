@@ -18,7 +18,7 @@ pkgs.stdenv.mkDerivation {
     ++ (with pkgs; [
       libjack2
       gtk3
-      webkitgtk_4_0
+      webkitgtk_4_1
     ]);
 
   preBuild =
