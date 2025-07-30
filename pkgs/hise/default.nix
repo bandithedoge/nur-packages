@@ -2,63 +2,26 @@
   pkgs,
   sources,
   utils,
+  callPackage',
   ...
 }:
 pkgs.stdenv.mkDerivation {
   inherit (sources.hise) pname version src;
 
   nativeBuildInputs = with pkgs; [
-    autoPatchelfHook
-    pkg-config
+    (callPackage' ../projucer)
     unzip
   ];
 
-  buildInputs =
-    utils.juce.commonBuildInputs
-    ++ (with pkgs; [
-      libjack2
-      gtk3
-      webkitgtk_4_1
-    ]);
+  jucerFile = "HISE Standalone.jucer";
 
-  preBuild =
-    let
-      projucerLibPath = pkgs.lib.makeLibraryPath (
-        with pkgs;
-        [
-          freetype
-          stdenv.cc.cc.lib
-        ]
-      );
-    in
-    ''
-      unzip tools/SDK/sdk.zip -d tools/SDK
-
-      patchelf \
-        --set-interpreter "$(cat $NIX_CC/nix-support/dynamic-linker)" \
-        --set-rpath "${projucerLibPath}" \
-        tools/projucer/Projucer
-
-      mkdir -p $out
-      cp -r . $out/libexec
-
-      tools/projucer/Projucer --resave "projects/standalone/HISE Standalone.jucer"
-
-      cd projects/standalone/Builds/LinuxMakefile
-    '';
-
-  installPhase = ''
-    runHook preInstall
-
-    mkdir -p $out/bin
-    cp "build/HISE Standalone" $out/bin/HISE
-
-    runHook postInstall
+  postPatch = ''
+    unzip tools/SDK/sdk.zip -d tools/SDK
   '';
 
-  enableParallelBuilding = true;
-
-  makeFlags = "CONFIG=Release";
+  preConfigure = ''
+    cd projects/standalone
+  '';
 
   dontStrip = true;
 
