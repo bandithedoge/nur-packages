@@ -14,6 +14,7 @@ pkgs.stdenv.mkDerivation {
   ];
 
   jucerFile = "HISE Standalone.jucer";
+  dontUseProjucerInstall = true;
 
   postPatch = ''
     unzip tools/SDK/sdk.zip -d tools/SDK
@@ -21,6 +22,15 @@ pkgs.stdenv.mkDerivation {
 
   preConfigure = ''
     cd projects/standalone
+  '';
+
+  installPhase = ''
+    runHook preInstall
+
+    mkdir -p $out/bin
+    cp "build/HISE Standalone" $out/bin/HISE
+
+    runHook postInstall
   '';
 
   dontStrip = true;
