@@ -40,7 +40,7 @@
                 pkgs.lib.recurseIntoAttrs (import ./pkgs/all.nix { inherit pkgs; })
               );
 
-              buildable = pkgs.lib.filterAttrs (_: p: !(p.meta.broken or false)) all;
+              buildable = pkgs.lib.filterAttrs (_: p: !(p.meta.broken or p.meta.insecure or false)) all;
               cacheable = pkgs.lib.filterAttrs (
                 _: p:
                 (p.meta.license.free or true)
@@ -61,7 +61,7 @@
               [
                 lixPackageSets.latest.nix-eval-jobs
                 lixPackageSets.latest.nix-fast-build
-                mozilla-addons-to-nix.packages.${system}.default
+                # mozilla-addons-to-nix.packages.${system}.default
                 node2nix
                 npins
                 nvfetcher
