@@ -86,6 +86,7 @@ in
         license = licenses.unfree;
         platforms = [ "x86_64-linux" ];
         sourceProvenance = [ sourceTypes.binaryNativeCode ];
+        insecure = true; # https://github.com/NixOS/nixpkgs/issues/360897
       };
     }).overrideAttrs
       (old: {
