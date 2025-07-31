@@ -10,7 +10,9 @@ projucerConfigurePhase() {
   Projucer --resave "${jucerFile:-$pname.jucer}"
 
   preBuildHooks+=(projucerPreBuild)
-  installPhase=projucerInstallPhase
+  if [ -z "${dontUseProjucerInstall-}" ]; then
+    installPhase=projucerInstallPhase
+  fi
 
   runHook postConfigure
 }
