@@ -61,7 +61,7 @@
               [
                 lixPackageSets.latest.nix-eval-jobs
                 lixPackageSets.latest.nix-fast-build
-                # mozilla-addons-to-nix.packages.${system}.default
+                mozilla-addons-to-nix.packages.${system}.default
                 node2nix
                 npins
                 nvfetcher
