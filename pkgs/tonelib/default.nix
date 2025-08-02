@@ -86,6 +86,9 @@ in
         license = licenses.unfree;
         platforms = [ "x86_64-linux" ];
         sourceProvenance = [ sourceTypes.binaryNativeCode ];
+        knownVulnerabilities = [
+          "libsoup2 is EOL"
+        ];
         insecure = true; # https://github.com/NixOS/nixpkgs/issues/360897
       };
     }).overrideAttrs
