@@ -39,13 +39,13 @@ let
         sha512 = "jVZGvOxOuNSsuQuLRTh13nU0AogFlw32w/MT+LV6D3sP5WdbW61E77RnkbaO2dUvmPAYrBDJXGn5gGS6tH4j8g==";
       };
     };
-    "@babel/types-7.28.1" = {
+    "@babel/types-7.28.2" = {
       name = "_at_babel_slash_types";
       packageName = "@babel/types";
-      version = "7.28.1";
+      version = "7.28.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/types/-/types-7.28.1.tgz";
-        sha512 = "x0LvFTekgSX+83TI28Y9wYPUfzrnl2aT5+5QLnO6v7mSJYtEEevuDRN0F0uSHRk1G1IWZC43o00Y0xDDrpBGPQ==";
+        url = "https://registry.npmjs.org/@babel/types/-/types-7.28.2.tgz";
+        sha512 = "ruv7Ae4J5dUYULmeXw1gmb7rYRz57OWCPM57pHojnLq/3Z1CK2lNSLTCVjxVk1F/TZHwOZZrOWi0ur95BbLxNQ==";
       };
     };
     "@emmetio/abbreviation-2.3.3" = {
@@ -64,6 +64,15 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/@emmetio/css-abbreviation/-/css-abbreviation-2.1.8.tgz";
         sha512 = "s9yjhJ6saOO/uk1V74eifykk2CBYi01STTK3WlXWGOepyKa23ymJ053+DNQjpFcy1ingpaO7AxCcwLvHFY9tuw==";
+      };
+    };
+    "@emmetio/html-matcher-1.3.0" = {
+      name = "_at_emmetio_slash_html-matcher";
+      packageName = "@emmetio/html-matcher";
+      version = "1.3.0";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/@emmetio/html-matcher/-/html-matcher-1.3.0.tgz";
+        sha512 = "NTbsvppE5eVyBMuyGfVu2CRrLvo7J4YHb6t9sBFLyY03WYhXET37qA4zOYUjBWFCRHO7pS1B9khERtY0f5JXPQ==";
       };
     };
     "@emmetio/scanner-1.0.4" = {
@@ -201,6 +210,42 @@ let
         sha512 = "ugFTXCtDZunbzasqBxrK93Ik/DRYsO6S/fedkWEMKqt04xZ4csmnmwGDBAb07QWNaGMAmnTIemsYZCksjATwsA==";
       };
     };
+    "dom-serializer-2.0.0" = {
+      name = "dom-serializer";
+      packageName = "dom-serializer";
+      version = "2.0.0";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/dom-serializer/-/dom-serializer-2.0.0.tgz";
+        sha512 = "wIkAryiqt/nV5EQKqQpo3SToSOV9J0DnbJqwK7Wv/Trc92zIAYZ4FlMu+JPFW1DfGFt81ZTCGgDEabffXeLyJg==";
+      };
+    };
+    "domelementtype-2.3.0" = {
+      name = "domelementtype";
+      packageName = "domelementtype";
+      version = "2.3.0";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/domelementtype/-/domelementtype-2.3.0.tgz";
+        sha512 = "OLETBj6w0OsagBwdXnPdN0cnMfF9opN69co+7ZrbfPGrdpPVNBUj02spi6B1N7wChLQiPn4CSH/zJvXw56gmHw==";
+      };
+    };
+    "domhandler-5.0.3" = {
+      name = "domhandler";
+      packageName = "domhandler";
+      version = "5.0.3";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/domhandler/-/domhandler-5.0.3.tgz";
+        sha512 = "cgwlv/1iFQiFnU96XXgROh8xTeetsnJiDsTc7TYCLFd9+/WNkIqPTxiM/8pSd8VIrhXGTf1Ny1q1hquVqDJB5w==";
+      };
+    };
+    "domutils-3.2.2" = {
+      name = "domutils";
+      packageName = "domutils";
+      version = "3.2.2";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/domutils/-/domutils-3.2.2.tgz";
+        sha512 = "6kZKyUajlDuqlHKVX1w7gyslj9MPIXzIFiz/rGu35uC1wMi+kMhQwGhl4lt9unC9Vb9INnY9Z3/ZA3+FhASLaw==";
+      };
+    };
     "dotenv-16.6.1" = {
       name = "dotenv";
       packageName = "dotenv";
@@ -217,6 +262,24 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/emmet/-/emmet-2.4.11.tgz";
         sha512 = "23QPJB3moh/U9sT4rQzGgeyyGIrcM+GH5uVYg2C6wZIxAIJq7Ng3QLT79tl8FUwDXhyq9SusfknOrofAKqvgyQ==";
+      };
+    };
+    "entities-4.5.0" = {
+      name = "entities";
+      packageName = "entities";
+      version = "4.5.0";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/entities/-/entities-4.5.0.tgz";
+        sha512 = "V0hjH4dGPh9Ao5p0MoRY6BVqtwCjhz6vI5LT8AJ55H+4g9/4vbHx1I54fS0XuclLhDHArPQCiMjDxjaL8fPxhw==";
+      };
+    };
+    "entities-6.0.1" = {
+      name = "entities";
+      packageName = "entities";
+      version = "6.0.1";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/entities/-/entities-6.0.1.tgz";
+        sha512 = "aN97NXWF6AWBTahfVOIrB/NShkzi5H7F9r1s9mD3cDj4Ko5f2qhhVoYMibXF7GlLveb/D2ioWay8lxI97Ven3g==";
       };
     };
     "escalade-3.2.0" = {
@@ -255,13 +318,22 @@ let
         sha512 = "r1ekGw/Bgpi3HLV3h1MRBIlSAdHoIMklpaQ3OQLFcRw9PwAj2rqigvIbg+dBUI51OxVI2jsEtDywDBjSiuf7Ug==";
       };
     };
-    "jiti-2.5.0" = {
+    "htmlparser2-10.0.0" = {
+      name = "htmlparser2";
+      packageName = "htmlparser2";
+      version = "10.0.0";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/htmlparser2/-/htmlparser2-10.0.0.tgz";
+        sha512 = "TwAZM+zE5Tq3lrEHvOlvwgj1XLWQCtaaibSN11Q+gGBAS7Y1uZSWwXXRe4iF6OXnaq1riyQAPFOBtYc77Mxq0g==";
+      };
+    };
+    "jiti-2.5.1" = {
       name = "jiti";
       packageName = "jiti";
-      version = "2.5.0";
+      version = "2.5.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/jiti/-/jiti-2.5.0.tgz";
-        sha512 = "NWDAhdnATItTnRhip9VTd8oXDjVcbhetRN6YzckApnXGxpGUooKMAaf0KVvlZG0+KlJMGkeLElVn4M1ReuxKUQ==";
+        url = "https://registry.npmjs.org/jiti/-/jiti-2.5.1.tgz";
+        sha512 = "twQoecYPiVA5K/h6SxtORw/Bs3ar+mLUtoPSc7iMXzQzK8d7eJ/R09wmTwAjiamETn1cXYPGfNnu7DMoHgu12w==";
       };
     };
     "js-yaml-4.1.0" = {
@@ -354,13 +426,13 @@ let
         sha512 = "qmdSIPC4bDJXgZTCR7XosJiNKySV7O215tsPtDN9iEO/7q/76b/ijtgRu/+epFXSJhijtTCCGp3DWS549P3xKw==";
       };
     };
-    "node-fetch-native-1.6.6" = {
+    "node-fetch-native-1.6.7" = {
       name = "node-fetch-native";
       packageName = "node-fetch-native";
-      version = "1.6.6";
+      version = "1.6.7";
       src = fetchurl {
-        url = "https://registry.npmjs.org/node-fetch-native/-/node-fetch-native-1.6.6.tgz";
-        sha512 = "8Mc2HhqPdlIfedsuZoc3yioPuzp6b+L5jRCRY1QzuWZh2EGJVQrGppC6V6cF0bLdbW0+O2YpqCA25aF/1lvipQ==";
+        url = "https://registry.npmjs.org/node-fetch-native/-/node-fetch-native-1.6.7.tgz";
+        sha512 = "g9yhqoedzIUm0nTnTqAQvueMPVOuIY16bqgAJJC8XOOubYFNwz6IER9qs0Gq2Xd0+CecCKFjtdDTMA4u4xG06Q==";
       };
     };
     "nypm-0.5.4" = {
@@ -648,10 +720,10 @@ in
   "@tailwindcss/language-server" = nodeEnv.buildNodePackage {
     name = "_at_tailwindcss_slash_language-server";
     packageName = "@tailwindcss/language-server";
-    version = "0.14.25";
+    version = "0.14.26";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@tailwindcss/language-server/-/language-server-0.14.25.tgz";
-      sha512 = "d+J8wfRfjncYJrwTtEAkv8GnuKzvmN9D8HiKsCbt0QxhOEr8vb/WNIFE1AiHZo2gx7svX5daJrc6691nidj8JQ==";
+      url = "https://registry.npmjs.org/@tailwindcss/language-server/-/language-server-0.14.26.tgz";
+      sha512 = "kFTsuu0bJCIPp4zEPmlEAmSRCwBEgCa6Un8ijWM7TE7R0Ltx17xhikamHjqquQdhPl3tiV2+FyHht9uHbEXraA==";
     };
     buildInputs = globalBuildInputs;
     meta = {
@@ -697,18 +769,19 @@ in
   "@olrtg/emmet-language-server" = nodeEnv.buildNodePackage {
     name = "_at_olrtg_slash_emmet-language-server";
     packageName = "@olrtg/emmet-language-server";
-    version = "2.6.1";
+    version = "2.7.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@olrtg/emmet-language-server/-/emmet-language-server-2.6.1.tgz";
-      sha512 = "Ie5uRQLJakzDxncCnzmghypOaLxcgbfU8vP30qbNrukg+b2bBp05w0acBDm9Bz/JPgCzbVtcbKnci+gxIUjYQA==";
+      url = "https://registry.npmjs.org/@olrtg/emmet-language-server/-/emmet-language-server-2.7.0.tgz";
+      sha512 = "RUvpQn+Jlr5jL+CldgdvQemAVDmVyYQ+4fleygXxL2DnNed/ELdf2R913AtQCuT8AdgRj8S8Kzg4A+ZnYuRa5w==";
     };
     dependencies = [
       sources."@babel/helper-string-parser-7.27.1"
       sources."@babel/helper-validator-identifier-7.27.1"
       sources."@babel/parser-7.28.0"
-      sources."@babel/types-7.28.1"
+      sources."@babel/types-7.28.2"
       sources."@emmetio/abbreviation-2.3.3"
       sources."@emmetio/css-abbreviation-2.1.8"
+      sources."@emmetio/html-matcher-1.3.0"
       sources."@emmetio/scanner-1.0.4"
       sources."@vscode/emmet-helper-2.11.0"
       sources."acorn-8.15.0"
@@ -730,8 +803,20 @@ in
       sources."consola-3.4.2"
       sources."defu-6.1.4"
       sources."destr-2.0.5"
+      (
+        sources."dom-serializer-2.0.0"
+        // {
+          dependencies = [
+            sources."entities-4.5.0"
+          ];
+        }
+      )
+      sources."domelementtype-2.3.0"
+      sources."domhandler-5.0.3"
+      sources."domutils-3.2.2"
       sources."dotenv-16.6.1"
       sources."emmet-2.4.11"
+      sources."entities-6.0.1"
       sources."escalade-3.2.0"
       sources."fdir-6.4.6"
       (
@@ -743,7 +828,8 @@ in
         }
       )
       sources."giget-1.2.5"
-      sources."jiti-2.5.0"
+      sources."htmlparser2-10.0.0"
+      sources."jiti-2.5.1"
       sources."js-yaml-4.1.0"
       sources."jsonc-parser-2.3.1"
       sources."kleur-3.0.3"
@@ -759,7 +845,7 @@ in
       )
       sources."mkdirp-1.0.4"
       sources."mlly-1.7.4"
-      sources."node-fetch-native-1.6.6"
+      sources."node-fetch-native-1.6.7"
       sources."nypm-0.5.4"
       sources."ohash-2.0.11"
       sources."package-manager-detector-0.2.11"

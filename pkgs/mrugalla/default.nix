@@ -21,10 +21,12 @@ let
 
       inherit jucerFile;
 
-      meta = (with pkgs.lib; {
-        license = licenses.gpl3Plus;
-        platforms = platforms.linux;
-      }) // meta;
+      meta =
+        (with pkgs.lib; {
+          license = licenses.gpl3Plus;
+          platforms = platforms.linux;
+        })
+        // meta;
     };
 in
 {

@@ -8,10 +8,10 @@
 {
   waterfox-bin = {
     pname = "waterfox-bin";
-    version = "6.5.10";
+    version = "6.5.11";
     src = fetchurl {
-      url = "https://cdn1.waterfox.net/waterfox/releases/6.5.10/Linux_x86_64/waterfox-6.5.10.tar.bz2";
-      sha256 = "sha256-O0+R7NFFL3q7hSupyIBNI3xBVMmRvAL+TgbLaCwlKm8=";
+      url = "https://cdn1.waterfox.net/waterfox/releases/6.5.11/Linux_x86_64/waterfox-6.5.11.tar.bz2";
+      sha256 = "sha256-46jBevpxYNZ/fmyu3RBpgF87XPTofo4/wPtzZXGDi8U=";
     };
   };
 }

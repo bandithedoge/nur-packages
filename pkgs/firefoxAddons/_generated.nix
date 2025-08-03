@@ -255,20 +255,18 @@
   };
   "betterviewer" = buildFirefoxXpiAddon {
     pname = "betterviewer";
-    version = "1.0.5";
+    version = "2.0.2";
     addonId = "ademking@betterviewer";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4002455/betterviewer-1.0.5.xpi";
-    sha256 = "01b90d2afc4dc5de93dbb2eff2cc1cbd8eac181ddefb9d9506ff36788db901a7";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4548184/betterviewer-2.0.2.xpi";
+    sha256 = "692e983dbbdeba2655f7a0cc446fea56ad3aafa831d626b58b414df87ceb1b97";
     meta = with lib; {
       homepage = "https://github.com/Ademking/BetterViewer";
       description = "BetterViewer was designed as a replacement for the image viewing mode built into Firefox and Chrome-based web browsers. With BetterViewer you can use various keyboard shortcuts to quickly pan, zoom images, edit and a lot more!";
       license = licenses.mit;
       mozPermissions = [
-        "webRequest"
-        "webRequestBlocking"
-        "activeTab"
         "storage"
-        "*://*/*"
+        "contextMenus"
+        "<all_urls>"
       ];
       platforms = platforms.all;
     };
@@ -1466,10 +1464,10 @@
   };
   "sponsorblock" = buildFirefoxXpiAddon {
     pname = "sponsorblock";
-    version = "5.13.3";
+    version = "5.14";
     addonId = "sponsorBlocker@ajay.app";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4535341/sponsorblock-5.13.3.xpi";
-    sha256 = "700f687e4ad76ef40c28d89450cbd9237887fd18c8e81ff4ea3fe2326e9962c4";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4541835/sponsorblock-5.14.xpi";
+    sha256 = "5732b0ab168a9f1065b94051b68118aad293b114c338cfa86cb1797187352429";
     meta = with lib; {
       homepage = "https://sponsor.ajay.app";
       description = "Easily skip YouTube video sponsors. When you visit a YouTube video, the extension will check the database for reported sponsors and automatically skip known sponsors. You can also report sponsors in videos. Other browsers: https://sponsor.ajay.app";
@@ -1621,10 +1619,10 @@
   };
   "tridactyl" = buildFirefoxXpiAddon {
     pname = "tridactyl";
-    version = "1.24.2";
+    version = "1.24.3";
     addonId = "tridactyl.vim@cmcaine.co.uk";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4405615/tridactyl_vim-1.24.2.xpi";
-    sha256 = "807925f26aab56ab19a28e663ade73743a033e3b77aa09edd3f77bf92e5fb36e";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4542228/tridactyl_vim-1.24.3.xpi";
+    sha256 = "31ab603e16d5f6e227c92291f9d78d86de44b334a0d729da2746533b2f5bdf67";
     meta = with lib; {
       homepage = "https://tridactyl.xyz";
       description = "Vim, but in your browser. Replace Firefox's control mechanism with one modelled on Vim.\n\nThis addon is very usable, but is in an early stage of development. We intend to implement the majority of Vimperator's features.";

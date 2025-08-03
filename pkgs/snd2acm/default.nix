@@ -1,4 +1,5 @@
-{pkgs, sources, ...}: pkgs.stdenv.mkDerivation {
+{ pkgs, sources, ... }:
+pkgs.stdenv.mkDerivation {
   inherit (sources.snd2acm) pname src;
   version = pkgs.lib.removePrefix "v" sources.snd2acm.version;
 
