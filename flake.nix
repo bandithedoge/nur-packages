@@ -40,7 +40,7 @@
                 pkgs.lib.recurseIntoAttrs (import ./pkgs/all.nix { inherit pkgs; })
               );
 
-              buildable = pkgs.lib.filterAttrs (_: p: !(p.meta.broken or p.meta.insecure or false)) all;
+              buildable = pkgs.lib.filterAttrs (_: p: !(p.meta.broken || p.meta.insecure)) all;
               cacheable = pkgs.lib.filterAttrs (
                 _: p:
                 (p.meta.license.free or true)
