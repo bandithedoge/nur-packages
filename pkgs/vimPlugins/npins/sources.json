@@ -74,9 +74,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "b7e9af87f062bcaee219f9d91bc157169bb20486",
-      "url": "https://github.com/b0o/SchemaStore.nvim/archive/b7e9af87f062bcaee219f9d91bc157169bb20486.tar.gz",
-      "hash": "0q0cv1fv17q24sx6hlymnrznr0nyk5vjza05fyz3xz9xd3prmyrz"
+      "revision": "9ecd375f7c261f622bd811ecebcddd59bf5e9de2",
+      "url": "https://github.com/b0o/SchemaStore.nvim/archive/9ecd375f7c261f622bd811ecebcddd59bf5e9de2.tar.gz",
+      "hash": "0x697ggh955m44pzixvvzph5bfxgjjwk194gsk5nywm5sxsffrbp"
     },
     "aniseed": {
       "type": "Git",
@@ -373,9 +373,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "fe66681d97a1eefddb5d7e48bd427b2cb0271881",
-      "url": "https://github.com/Saecki/crates.nvim/archive/fe66681d97a1eefddb5d7e48bd427b2cb0271881.tar.gz",
-      "hash": "0dq2656g329g14ibfcy0a5gn956gkcdniddxlr8isfb66cr6hhhh"
+      "revision": "a49df0f70171adc77704eac70dd2c0d179065933",
+      "url": "https://github.com/Saecki/crates.nvim/archive/a49df0f70171adc77704eac70dd2c0d179065933.tar.gz",
+      "hash": "0g3rzy7nsa8p300sp2jzlxf573g1l5wprxwajqkb29kbdpbh93bg"
     },
     "cybu.nvim": {
       "type": "Git",
@@ -568,9 +568,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "642523e50f3cbc1c747a23621baf06cd908fde50",
-      "url": "https://github.com/stonelasley/flare.nvim/archive/642523e50f3cbc1c747a23621baf06cd908fde50.tar.gz",
-      "hash": "0zgypgfihr41z92lahmg4rl67alvqwcm06shcpv76kyrj15xyvwj"
+      "revision": "28221e6bba27db00eaba2ab6ac62880c4753c3fc",
+      "url": "https://github.com/stonelasley/flare.nvim/archive/28221e6bba27db00eaba2ab6ac62880c4753c3fc.tar.gz",
+      "hash": "1lka6b52kr1hvz1izgk94mdy9c428wwhm3y322s58himm7x064yd"
     },
     "flutter-tools.nvim": {
       "type": "Git",
@@ -659,9 +659,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "4ee42b241e57b77b4f3c61a018f496219f246901",
-      "url": "https://github.com/ibhagwan/fzf-lua/archive/4ee42b241e57b77b4f3c61a018f496219f246901.tar.gz",
-      "hash": "1a4kjbpqn6g86sf4ma98v4li7szwldmnykhiy94ib6vyvn72jqsp"
+      "revision": "32678d1151843ea5ac4568419cd0c5ee2cdf61a9",
+      "url": "https://github.com/ibhagwan/fzf-lua/archive/32678d1151843ea5ac4568419cd0c5ee2cdf61a9.tar.gz",
+      "hash": "0bm57bkmd85vkb7kbx29jq6w3z2s9li9nxhqimjah4sa6rczpd0d"
     },
     "galaxyline.nvim": {
       "type": "Git",
@@ -802,9 +802,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "fdc5b4fc3f5300c87fbde16cab0aeb122ba6324a",
-      "url": "https://github.com/lewis6991/hover.nvim/archive/fdc5b4fc3f5300c87fbde16cab0aeb122ba6324a.tar.gz",
-      "hash": "0a1b9c2w73r0m9lvcnvwxajwhlvnilkvaq96djmv8zja9rwk0xcz"
+      "revision": "ab1bbd78dd8b67cabd9f73ad52b9d35aaaced5bb",
+      "url": "https://github.com/lewis6991/hover.nvim/archive/ab1bbd78dd8b67cabd9f73ad52b9d35aaaced5bb.tar.gz",
+      "hash": "0rwr0zfida5z35zz87yp0crwkkifg6486dr7z56b3p89kxlak8qj"
     },
     "icon-picker.nvim": {
       "type": "Git",
@@ -1100,9 +1100,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "bdd6aeb3c4086f11a32c9578a0258343d1a3b85a",
-      "url": "https://github.com/folke/neoconf.nvim/archive/bdd6aeb3c4086f11a32c9578a0258343d1a3b85a.tar.gz",
-      "hash": "16pri90f65la4gwp7h4mgqqjh2r8w3s4hka783hpxqjhvll7710k"
+      "revision": "6df663e1af8ab49a449ae09ea8b4f6c53b1ec334",
+      "url": "https://github.com/folke/neoconf.nvim/archive/6df663e1af8ab49a449ae09ea8b4f6c53b1ec334.tar.gz",
+      "hash": "1lhqp1k5nvv86nv9y20jr2nqvg2k69y5vnfzbk231gqkisc9l0a2"
     },
     "neodev.nvim": {
       "type": "Git",
@@ -1711,9 +1711,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "4f1b8287dde221153ec9f2acd46e8237d2d0881e",
-      "url": "https://github.com/vuki656/package-info.nvim/archive/4f1b8287dde221153ec9f2acd46e8237d2d0881e.tar.gz",
-      "hash": "1fy4za5fcm7psw398b75ji4wb0rhanibxjxysbn30nfz4dcmrd5y"
+      "revision": "5cb3483ec886ca23e2c57e5d4a63c958d9a98179",
+      "url": "https://github.com/vuki656/package-info.nvim/archive/5cb3483ec886ca23e2c57e5d4a63c958d9a98179.tar.gz",
+      "hash": "1n2m26pblzchvvkr2vcyn9mkvxqlpvcfb7h1dry9b35xl9phcsk8"
     },
     "playground": {
       "type": "Git",

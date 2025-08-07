@@ -12,7 +12,7 @@
       "leaveDotGit": true,
       "name": null,
       "rev": "e129c2d3bd64d16ec6ce6227edeb102ec745b394",
-      "sha256": "sha256-thhy0udCkdvvYk3HV1hkQ3YXIsxAeXzGmnk++Dsnp4o=",
+      "sha256": "sha256-oL0Yp62oF7q9/sJ61mGzFGQpoDIBzm0CERlnIkgcxZo=",
       "sparseCheckout": [],
       "type": "git",
       "url": "https://github.com/dpjudas/VkDoom"
