@@ -769,10 +769,10 @@ in
   "@olrtg/emmet-language-server" = nodeEnv.buildNodePackage {
     name = "_at_olrtg_slash_emmet-language-server";
     packageName = "@olrtg/emmet-language-server";
-    version = "2.7.0";
+    version = "2.8.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@olrtg/emmet-language-server/-/emmet-language-server-2.7.0.tgz";
-      sha512 = "RUvpQn+Jlr5jL+CldgdvQemAVDmVyYQ+4fleygXxL2DnNed/ELdf2R913AtQCuT8AdgRj8S8Kzg4A+ZnYuRa5w==";
+      url = "https://registry.npmjs.org/@olrtg/emmet-language-server/-/emmet-language-server-2.8.0.tgz";
+      sha512 = "mSg1M9hEY8bmmkSWPv81Gk7464vD8Gi6k78HfeRhypdc9KwwBAcO7Ls85RUN3JbbBKWEQbntX7wcyEJF0ZHbHw==";
     };
     dependencies = [
       sources."@babel/helper-string-parser-7.27.1"
