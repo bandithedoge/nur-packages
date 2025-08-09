@@ -47,6 +47,7 @@ in
   guitarml = callPackages' ./guitarml;
   harrison = callPackages' ./harrison;
   haskellPackages = callPackages' ./haskellPackages;
+  six-sines = callPackage' ./six-sines;
   helion-bin = callPackage' ./helion-bin;
   hera = callPackage' ./hera;
   hise = callPackage' ./hise;
