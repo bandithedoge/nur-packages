@@ -23,6 +23,7 @@ in
   blepfx = callPackages' ./blepfx;
   blocks = callPackage' ./blocks;
   cardinal = callPackage' ./cardinal;
+  cchorus = callPackage' ./cchorus;
   chainner-bin = callPackage' ./chainner-bin;
   charlatan = callPackage' ./charlatan;
   cherry-doom = callPackage' ./cherry-doom;
@@ -47,7 +48,6 @@ in
   guitarml = callPackages' ./guitarml;
   harrison = callPackages' ./harrison;
   haskellPackages = callPackages' ./haskellPackages;
-  six-sines = callPackage' ./six-sines;
   helion-bin = callPackage' ./helion-bin;
   hera = callPackage' ./hera;
   hise = callPackage' ./hise;
@@ -103,6 +103,7 @@ in
   sheepshaver-bin = callPackage' ./sheepshaver-bin;
   showmidi-bin = callPackage' ./showmidi-bin;
   sinuslabs = callPackages' ./sinuslabs;
+  six-sines = callPackage' ./six-sines;
   snd2acm = callPackage' ./snd2acm;
   snyk-ls-bin = callPackage' ./snyk-ls-bin;
   squeezer-bin = callPackage' ./squeezer-bin;
