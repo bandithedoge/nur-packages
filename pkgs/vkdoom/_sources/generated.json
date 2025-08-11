@@ -1,22 +1,22 @@
 {
-    "vkdoom": {
-        "cargoLocks": null,
-        "date": "2025-08-08",
-        "extract": null,
-        "name": "vkdoom",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "deepClone": false,
-            "fetchSubmodules": false,
-            "leaveDotGit": true,
-            "name": null,
-            "rev": "badc7c9b09877dae6a65290513601478b9f10ec4",
-            "sha256": "sha256-+4BvadnDrJPUuCfqCpgIhnCkSvv7RoL+XbDokZKn3pM=",
-            "sparseCheckout": [],
-            "type": "git",
-            "url": "https://github.com/dpjudas/VkDoom"
-        },
-        "version": "badc7c9b09877dae6a65290513601478b9f10ec4"
-    }
+  "vkdoom": {
+    "cargoLocks": null,
+    "date": "2025-08-08",
+    "extract": null,
+    "name": "vkdoom",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "deepClone": false,
+      "fetchSubmodules": false,
+      "leaveDotGit": true,
+      "name": null,
+      "rev": "badc7c9b09877dae6a65290513601478b9f10ec4",
+      "sha256": "sha256-+4BvadnDrJPUuCfqCpgIhnCkSvv7RoL+XbDokZKn3pM=",
+      "sparseCheckout": [],
+      "type": "git",
+      "url": "https://github.com/dpjudas/VkDoom"
+    },
+    "version": "badc7c9b09877dae6a65290513601478b9f10ec4"
+  }
 }

@@ -1,44 +1,44 @@
 {
-    "six-sines": {
-        "cargoLocks": null,
-        "date": null,
-        "extract": null,
-        "name": "six-sines",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "deepClone": false,
-            "fetchSubmodules": true,
-            "leaveDotGit": false,
-            "name": null,
-            "owner": "baconpaul",
-            "repo": "six-sines",
-            "rev": "v1.1.0",
-            "sha256": "sha256-IQLGC86FqS3dptPzNpHEYKB59MWFDKsOPGM+FuzGcPo=",
-            "sparseCheckout": [],
-            "type": "github"
-        },
-        "version": "v1.1.0"
+  "six-sines": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "six-sines",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "deepClone": false,
+      "fetchSubmodules": true,
+      "leaveDotGit": false,
+      "name": null,
+      "owner": "baconpaul",
+      "repo": "six-sines",
+      "rev": "v1.1.0",
+      "sha256": "sha256-IQLGC86FqS3dptPzNpHEYKB59MWFDKsOPGM+FuzGcPo=",
+      "sparseCheckout": [],
+      "type": "github"
     },
-    "vst3sdk": {
-        "cargoLocks": null,
-        "date": null,
-        "extract": null,
-        "name": "vst3sdk",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "deepClone": false,
-            "fetchSubmodules": true,
-            "leaveDotGit": false,
-            "name": null,
-            "owner": "steinbergmedia",
-            "repo": "vst3sdk",
-            "rev": "v3.7.6_build_18",
-            "sha256": "sha256-jfh+iP5rqov8q++IyG4FXlYKs4PQtFjCwCP6xou8N0E=",
-            "sparseCheckout": [],
-            "type": "github"
-        },
-        "version": "v3.7.6_build_18"
-    }
+    "version": "v1.1.0"
+  },
+  "vst3sdk": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "vst3sdk",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "deepClone": false,
+      "fetchSubmodules": true,
+      "leaveDotGit": false,
+      "name": null,
+      "owner": "steinbergmedia",
+      "repo": "vst3sdk",
+      "rev": "v3.7.6_build_18",
+      "sha256": "sha256-jfh+iP5rqov8q++IyG4FXlYKs4PQtFjCwCP6xou8N0E=",
+      "sparseCheckout": [],
+      "type": "github"
+    },
+    "version": "v3.7.6_build_18"
+  }
 }

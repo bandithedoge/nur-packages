@@ -1,7 +1,7 @@
 {
   "cloudreverb": {
     "cargoLocks": null,
-    "date": "2025-08-03",
+    "date": "2025-08-08",
     "extract": null,
     "name": "cloudreverb",
     "passthru": null,
@@ -11,12 +11,12 @@
       "fetchSubmodules": true,
       "leaveDotGit": false,
       "name": null,
-      "rev": "ec3a5a617b0e7f601e8ae721963bcde431df7a10",
-      "sha256": "sha256-w415djP3dzq/eFSPE5WX/jRHGZXOD0crZ6YO9G/PLls=",
+      "rev": "560faf9b96dc75f5326e16503d242d756f4f49d3",
+      "sha256": "sha256-f7BPw2nbPqzoLy5JmfPzM6rsBoBgA5BisjDc+8jVkfM=",
       "sparseCheckout": [],
       "type": "git",
       "url": "https://github.com/xunil-cloud/CloudReverb"
     },
-    "version": "ec3a5a617b0e7f601e8ae721963bcde431df7a10"
+    "version": "560faf9b96dc75f5326e16503d242d756f4f49d3"
   }
 }

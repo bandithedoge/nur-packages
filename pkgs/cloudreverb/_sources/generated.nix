@@ -8,16 +8,16 @@
 {
   cloudreverb = {
     pname = "cloudreverb";
-    version = "ec3a5a617b0e7f601e8ae721963bcde431df7a10";
+    version = "560faf9b96dc75f5326e16503d242d756f4f49d3";
     src = fetchgit {
       url = "https://github.com/xunil-cloud/CloudReverb";
-      rev = "ec3a5a617b0e7f601e8ae721963bcde431df7a10";
+      rev = "560faf9b96dc75f5326e16503d242d756f4f49d3";
       fetchSubmodules = true;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-w415djP3dzq/eFSPE5WX/jRHGZXOD0crZ6YO9G/PLls=";
+      sha256 = "sha256-f7BPw2nbPqzoLy5JmfPzM6rsBoBgA5BisjDc+8jVkfM=";
     };
-    date = "2025-08-03";
+    date = "2025-08-08";
   };
 }
