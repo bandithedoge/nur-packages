@@ -12,6 +12,7 @@ pkgs.stdenv.mkDerivation {
     git
     makeWrapper
     ninja
+    pkg-config
   ];
 
   buildInputs = with pkgs; [
@@ -19,7 +20,6 @@ pkgs.stdenv.mkDerivation {
     gtk3
     libvpx
     openal
-    zmusic
   ];
 
   postInstall = ''
@@ -33,6 +33,7 @@ pkgs.stdenv.mkDerivation {
   cmakeFlags = [
     "-DDYN_GTK=OFF"
     "-DDYN_OPENAL=OFF"
+    "-DFORCE_INTERNAL_ZMUSIC=ON"
   ];
 
   NIX_CFLAGS_COMPILE = [ "-Wno-error=format-security" ];
