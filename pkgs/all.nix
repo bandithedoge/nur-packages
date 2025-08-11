@@ -98,6 +98,7 @@ in
   ripplerx = callPackage' ./ripplerx;
   rnnoise-plugin = callPackage' ./rnnoise-plugin;
   roomreverb = callPackage' ./roomreverb;
+  sapphire-plugins = callPackage' ./sapphire-plugins;
   schrammel-ojd = callPackage' ./schrammel-ojd;
   sg-323 = callPackage' ./sg-323;
   sgdboop-bin = callPackage' ./sgdboop-bin;
