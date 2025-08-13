@@ -16,10 +16,10 @@
   };
   proton-ge = {
     pname = "proton-ge";
-    version = "GE-Proton10-11";
+    version = "GE-Proton10-12";
     src = fetchurl {
-      url = "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton10-11/GE-Proton10-11.tar.gz";
-      sha256 = "sha256-gnp0bMhdZ95CVxpW6t0xwOPIlHvG5z3xk7NP9u12Atc=";
+      url = "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton10-12/GE-Proton10-12.tar.gz";
+      sha256 = "sha256-R9/8/zRrNcdWSalaASrU6bY3YIfc60Ose2leBPXtPB4=";
     };
   };
   proton-sarek = {
