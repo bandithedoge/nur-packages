@@ -9,4 +9,20 @@
       sha256 = "sha256-npSHwnqaiPjQMJjK+i0rW+cVeKuMp+LlGS2Zvpk5a+A=";
     };
   };
+  quetzalcoatl-presets = {
+    pname = "quetzalcoatl-presets";
+    version = "0.9.0";
+    src = fetchurl {
+      url = "https://github.com/publicsamples/Quetzalcoatl/releases/download/0.9.0/Quetzalcoatl_Presets_Wavetables.zip";
+      sha256 = "sha256-9JdK/teelilYnUsTYwO3zYWOguVEaPddhSUcbISJNos=";
+    };
+  };
+  quetzalcoatl-samples = {
+    pname = "quetzalcoatl-samples";
+    version = "0.9.0";
+    src = fetchurl {
+      url = "https://github.com/publicsamples/Quetzalcoatl/releases/download/0.9.0/Quetzalcoatl_Samples.zip";
+      sha256 = "sha256-14hfZpZZzG0+iGoGWmm9b0651FofLTdwMYy9+Caepn0=";
+    };
+  };
 }

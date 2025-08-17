@@ -1,3 +1,11 @@
 [quetzalcoatl-bin]
 src.github = "publicsamples/Quetzalcoatl"
 fetch.url = "https://github.com/publicsamples/Quetzalcoatl/releases/download/$ver/Quetzalcoatl.vst3.Linux.tar.xz"
+
+[quetzalcoatl-samples]
+src.github = "publicsamples/Quetzalcoatl"
+fetch.url = "https://github.com/publicsamples/Quetzalcoatl/releases/download/$ver/Quetzalcoatl_Samples.zip"
+
+[quetzalcoatl-presets]
+src.github = "publicsamples/Quetzalcoatl"
+fetch.url = "https://github.com/publicsamples/Quetzalcoatl/releases/download/$ver/Quetzalcoatl_Presets_Wavetables.zip"

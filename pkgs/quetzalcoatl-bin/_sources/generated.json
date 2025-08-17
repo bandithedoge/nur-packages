@@ -13,5 +13,35 @@
             "url": "https://github.com/publicsamples/Quetzalcoatl/releases/download/0.9.0/Quetzalcoatl.vst3.Linux.tar.xz"
         },
         "version": "0.9.0"
+    },
+    "quetzalcoatl-presets": {
+        "cargoLocks": null,
+        "date": null,
+        "extract": null,
+        "name": "quetzalcoatl-presets",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-9JdK/teelilYnUsTYwO3zYWOguVEaPddhSUcbISJNos=",
+            "type": "url",
+            "url": "https://github.com/publicsamples/Quetzalcoatl/releases/download/0.9.0/Quetzalcoatl_Presets_Wavetables.zip"
+        },
+        "version": "0.9.0"
+    },
+    "quetzalcoatl-samples": {
+        "cargoLocks": null,
+        "date": null,
+        "extract": null,
+        "name": "quetzalcoatl-samples",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-14hfZpZZzG0+iGoGWmm9b0651FofLTdwMYy9+Caepn0=",
+            "type": "url",
+            "url": "https://github.com/publicsamples/Quetzalcoatl/releases/download/0.9.0/Quetzalcoatl_Samples.zip"
+        },
+        "version": "0.9.0"
     }
 }
