@@ -30,13 +30,13 @@ let
         sha512 = "D2hP9eA+Sqx1kBZgzxZh0y1trbuU+JoDkiEwqhQ36nodYqJwyEIhPSdMNd7lOm/4io72luTPWH20Yda0xOuUow==";
       };
     };
-    "@babel/parser-7.28.0" = {
+    "@babel/parser-7.28.3" = {
       name = "_at_babel_slash_parser";
       packageName = "@babel/parser";
-      version = "7.28.0";
+      version = "7.28.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/parser/-/parser-7.28.0.tgz";
-        sha512 = "jVZGvOxOuNSsuQuLRTh13nU0AogFlw32w/MT+LV6D3sP5WdbW61E77RnkbaO2dUvmPAYrBDJXGn5gGS6tH4j8g==";
+        url = "https://registry.npmjs.org/@babel/parser/-/parser-7.28.3.tgz";
+        sha512 = "7+Ey1mAgYqFAx2h0RuoxcQT5+MlG3GTV0TQrgr7/ZliKsm/MNDxVVutlWaziMq7wJNAz8MTqz55XLpWvva6StA==";
       };
     };
     "@babel/types-7.28.2" = {
@@ -291,13 +291,13 @@ let
         sha512 = "WUj2qlxaQtO4g6Pq5c29GTcWGDyd8itL8zTlipgECz3JesAiiOKotd8JU6otB3PACgG6xkJUyVhboMS+bje/jA==";
       };
     };
-    "fdir-6.4.6" = {
+    "fdir-6.5.0" = {
       name = "fdir";
       packageName = "fdir";
-      version = "6.4.6";
+      version = "6.5.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/fdir/-/fdir-6.4.6.tgz";
-        sha512 = "hiFoqpyZcfNm1yc4u8oWCf9A2c4D3QjCrks3zmoVKVxpQRzmPNar1hUJcBG2RQHvEVGDN+Jm81ZheVLAQMK6+w==";
+        url = "https://registry.npmjs.org/fdir/-/fdir-6.5.0.tgz";
+        sha512 = "tIbYtZbucOs0BRGqPJkshJUYdL+SDH7dVM8gjy+ERp3WAUjLEFJE+02kanyHtwjWOnwrKYBiwAmM0p4kLJAnXg==";
       };
     };
     "fs-minipass-2.1.0" = {
@@ -507,13 +507,13 @@ let
         sha512 = "NxNv/kLguCA7p3jE8oL2aEBsrJWgAakBpgmgK6lpPWV+WuOmY6r2/zbAVnP+T8bQlA0nzHXSJSJW0Hq7ylaD2Q==";
       };
     };
-    "quansync-0.2.10" = {
+    "quansync-0.2.11" = {
       name = "quansync";
       packageName = "quansync";
-      version = "0.2.10";
+      version = "0.2.11";
       src = fetchurl {
-        url = "https://registry.npmjs.org/quansync/-/quansync-0.2.10.tgz";
-        sha512 = "t41VRkMYbkHyCYmOvx/6URnN80H7k4X0lLdBMGsz+maAwrJQYB1djpV6vHrQIBE0WBSGqhtEHrK9U3DWWH8v7A==";
+        url = "https://registry.npmjs.org/quansync/-/quansync-0.2.11.tgz";
+        sha512 = "AifT7QEbW9Nri4tAwR5M/uzpBuqfZf+zwaEM/QkzEjj7NBuFD2rBuy0K3dE+8wltbezDV7JMA0WfnCPYRSYbXA==";
       };
     };
     "rc9-2.1.2" = {
@@ -777,7 +777,7 @@ in
     dependencies = [
       sources."@babel/helper-string-parser-7.27.1"
       sources."@babel/helper-validator-identifier-7.27.1"
-      sources."@babel/parser-7.28.0"
+      sources."@babel/parser-7.28.3"
       sources."@babel/types-7.28.2"
       sources."@emmetio/abbreviation-2.3.3"
       sources."@emmetio/css-abbreviation-2.1.8"
@@ -818,7 +818,7 @@ in
       sources."emmet-2.4.11"
       sources."entities-6.0.1"
       sources."escalade-3.2.0"
-      sources."fdir-6.4.6"
+      sources."fdir-6.5.0"
       (
         sources."fs-minipass-2.1.0"
         // {
@@ -854,7 +854,7 @@ in
       sources."picomatch-4.0.3"
       sources."pkg-types-1.3.1"
       sources."prompts-2.4.2"
-      sources."quansync-0.2.10"
+      sources."quansync-0.2.11"
       sources."rc9-2.1.2"
       sources."readdirp-4.1.2"
       sources."semver-7.7.2"

@@ -22,9 +22,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "ed832b1f6d676f8ef399483f86565ab30cd30f25",
-      "url": "https://github.com/emacs-languagetool/eglot-ltex/archive/ed832b1f6d676f8ef399483f86565ab30cd30f25.tar.gz",
-      "hash": "1lgph08bxz0mq89awp01d47ina9zbpkwnm81cfr9ld88ww79569v"
+      "revision": "6ad9b3e16eb10ab769cb8fd176c8e8e58189db7e",
+      "url": "https://github.com/emacs-languagetool/eglot-ltex/archive/6ad9b3e16eb10ab769cb8fd176c8e8e58189db7e.tar.gz",
+      "hash": "11v2bc20m9nvsrj9ahcskzr1v49ms8y4s41p95izxlcgnz9sn1fd"
     },
     "eglot-x": {
       "type": "Git",

@@ -74,9 +74,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "9fc8fe0bd82e564f50eb98b95941118e7f681dc8",
-      "url": "https://github.com/KKV9/compress.yazi/archive/9fc8fe0bd82e564f50eb98b95941118e7f681dc8.tar.gz",
-      "hash": "0nx19a290fqjxm23qmalnjqdc78v2w2lpzpajk7brr39ccg3iajl"
+      "revision": "c2646395394f22b6c40bff64dc4c8c922d210570",
+      "url": "https://github.com/KKV9/compress.yazi/archive/c2646395394f22b6c40bff64dc4c8c922d210570.tar.gz",
+      "hash": "0npy04gq2zm9xs2lvvbv252v1g0wdr7awbicdgavg318hq7qq2x8"
     },
     "exifaudio.yazi": {
       "type": "Git",
@@ -139,9 +139,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "0927f5f2a6df2bb137d8892e81d81e1a6b166073",
-      "url": "https://github.com/boydaihungst/gvfs.yazi/archive/0927f5f2a6df2bb137d8892e81d81e1a6b166073.tar.gz",
-      "hash": "0fggx7z0a8m2r01cblgwrpdcr02m3w0sdz4x1y0f2xzhk09lvvid"
+      "revision": "8e97b2a19d41a823e8e91fe1526a4e7389f6d8c6",
+      "url": "https://github.com/boydaihungst/gvfs.yazi/archive/8e97b2a19d41a823e8e91fe1526a4e7389f6d8c6.tar.gz",
+      "hash": "1vma19xqhiy3warrk9dgl5g7rfd6klm7j0ig2b4f9dd3pzwwf5sc"
     },
     "hexyl.yazi": {
       "type": "Git",
@@ -269,9 +269,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "ab7bbf84f0446a7afd7ae0d6fddf3e4bc54e93ca",
-      "url": "https://github.com/Ape/reflink.yazi/archive/ab7bbf84f0446a7afd7ae0d6fddf3e4bc54e93ca.tar.gz",
-      "hash": "005sjjdny4ng0k303r9r9k8qd0gpqlb801hglbl11ky6135rlcb1"
+      "revision": "7ecd36b48038088c8c67fc9c9b5b7eca6adbbfd8",
+      "url": "https://github.com/Ape/reflink.yazi/archive/7ecd36b48038088c8c67fc9c9b5b7eca6adbbfd8.tar.gz",
+      "hash": "03ishkcs2zp7rsc1nhspv5yv54gshjb9xpgl0094hrnsymdp0lgy"
     },
     "relative-motions.yazi": {
       "type": "Git",

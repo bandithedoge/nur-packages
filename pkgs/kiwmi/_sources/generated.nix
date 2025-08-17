@@ -8,13 +8,13 @@
 {
   kiwmi = {
     pname = "kiwmi";
-    version = "7faf4a3f8b307cc04a9d5047cb04f76d849ff13a";
+    version = "392b6c38fd189e304aa97f9c6fc88a5c7113a140";
     src = fetchFromGitHub {
       owner = "buffet";
       repo = "kiwmi";
-      rev = "7faf4a3f8b307cc04a9d5047cb04f76d849ff13a";
+      rev = "392b6c38fd189e304aa97f9c6fc88a5c7113a140";
       fetchSubmodules = false;
-      sha256 = "sha256-hDTIisuv3SbFTUGDbdiLSEQHQangCH9XI7d2vuLpMxM=";
+      sha256 = "sha256-xTvCq8vq1bztfVxd9Kn9KT2Hl5C6toWl/CS8VojkZw0=";
     };
     date = "2022-07-30";
   };
