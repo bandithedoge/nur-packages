@@ -750,9 +750,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "0170141fda5c1ebdfe81ff741e6d02d04e3a51a3",
-      "url": "https://github.com/MrcJkb/haskell-tools.nvim/archive/0170141fda5c1ebdfe81ff741e6d02d04e3a51a3.tar.gz",
-      "hash": "0vc151b183bz168y8y3cniy2ac5vj9wlwjn8525n29rpipy1br6h"
+      "revision": "5fb8eda3c4430cb1d473d3e2138b070bdca1c224",
+      "url": "https://github.com/MrcJkb/haskell-tools.nvim/archive/5fb8eda3c4430cb1d473d3e2138b070bdca1c224.tar.gz",
+      "hash": "123sa84kanmh80bqqqymziyzdr7gwag4m432iabbx9708qmx62c2"
     },
     "heirline.nvim": {
       "type": "Git",
@@ -1438,9 +1438,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "3d66048f40ace2d8b8f0789f4346d4fc0a6de15f",
-      "url": "https://github.com/neovim/nvim-lspconfig/archive/3d66048f40ace2d8b8f0789f4346d4fc0a6de15f.tar.gz",
-      "hash": "0v86vcxmmj1ng5wk12qg17pr64shysz3951lgh80sqdkz0r65k5r"
+      "revision": "34c9ecfdcc19d579f51c072300a71445fbec9da8",
+      "url": "https://github.com/neovim/nvim-lspconfig/archive/34c9ecfdcc19d579f51c072300a71445fbec9da8.tar.gz",
+      "hash": "1fjdg48z5c1c1mdax975a87xg9zs43snz4z79q3pikmfr74xbx16"
     },
     "nvim-luaref": {
       "type": "Git",

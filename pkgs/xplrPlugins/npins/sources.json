@@ -22,8 +22,8 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "6d5bac65edf1f83080eb828a1f9ae7ef0dd8df2c",
-      "url": "https://github.com/sayanarijit/command-mode.xplr/archive/6d5bac65edf1f83080eb828a1f9ae7ef0dd8df2c.tar.gz",
+      "revision": "ec43a91f16b4ce95b71c117204abddaafb77322c",
+      "url": "https://github.com/sayanarijit/command-mode.xplr/archive/ec43a91f16b4ce95b71c117204abddaafb77322c.tar.gz",
       "hash": "09dpkbs5mckgrzyi7lxxlsmmjy2m51vv8jvphnhl3460cgq35pql"
     },
     "context-switch.xplr": {
