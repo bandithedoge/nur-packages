@@ -373,9 +373,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "a49df0f70171adc77704eac70dd2c0d179065933",
-      "url": "https://github.com/Saecki/crates.nvim/archive/a49df0f70171adc77704eac70dd2c0d179065933.tar.gz",
-      "hash": "0g3rzy7nsa8p300sp2jzlxf573g1l5wprxwajqkb29kbdpbh93bg"
+      "revision": "ac9fa498a9edb96dc3056724ff69d5f40b898453",
+      "url": "https://github.com/Saecki/crates.nvim/archive/ac9fa498a9edb96dc3056724ff69d5f40b898453.tar.gz",
+      "hash": "10hc28r9k4syay1pir24mk6kjj96llilqkyz8ch6rjmxyi7r5ycd"
     },
     "cybu.nvim": {
       "type": "Git",
@@ -659,9 +659,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "519f765d7c1782d70652b3187bf466b773b8e86b",
-      "url": "https://github.com/ibhagwan/fzf-lua/archive/519f765d7c1782d70652b3187bf466b773b8e86b.tar.gz",
-      "hash": "14l1n8978g1xxs85irmkyd4f3s9lxrwlcqslcv98z6y2kbpn41mz"
+      "revision": "7d66cd81cf485fb17c22d82021cc166ce332a14c",
+      "url": "https://github.com/ibhagwan/fzf-lua/archive/7d66cd81cf485fb17c22d82021cc166ce332a14c.tar.gz",
+      "hash": "03mq2d3pcxr85zbfdfj8vnxcbsyf6agyxfyxhckkhvnyazzlkkbd"
     },
     "galaxyline.nvim": {
       "type": "Git",
