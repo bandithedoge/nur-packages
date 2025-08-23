@@ -84,6 +84,7 @@ in
   panacea-bin = callPackage' ./panacea-bin;
   partiels = callPackage' ./partiels;
   peakeater-bin = callPackage' ./peakeater-bin;
+  perceptomap = callPackage' ./perceptomap;
   plasma = callPackage' ./plasma;
   projucer = callPackage' ./projucer;
   propertree = callPackage' ./propertree;
