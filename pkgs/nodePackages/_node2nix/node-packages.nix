@@ -417,13 +417,13 @@ let
         sha512 = "vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==";
       };
     };
-    "mlly-1.7.4" = {
+    "mlly-1.8.0" = {
       name = "mlly";
       packageName = "mlly";
-      version = "1.7.4";
+      version = "1.8.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/mlly/-/mlly-1.7.4.tgz";
-        sha512 = "qmdSIPC4bDJXgZTCR7XosJiNKySV7O215tsPtDN9iEO/7q/76b/ijtgRu/+epFXSJhijtTCCGp3DWS549P3xKw==";
+        url = "https://registry.npmjs.org/mlly/-/mlly-1.8.0.tgz";
+        sha512 = "l8D9ODSRWLe2KHJSifWGwBqpTZXIXTeo8mlKjY+E2HAakaTeNpqAyBZ8GSqLzHgw4XmHmC8whvpjJNMbFZN7/g==";
       };
     };
     "node-fetch-native-1.6.7" = {
@@ -844,7 +844,7 @@ in
         }
       )
       sources."mkdirp-1.0.4"
-      sources."mlly-1.7.4"
+      sources."mlly-1.8.0"
       sources."node-fetch-native-1.6.7"
       sources."nypm-0.5.4"
       sources."ohash-2.0.11"
