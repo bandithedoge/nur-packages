@@ -34,11 +34,11 @@
       "name": null,
       "owner": "hqrrr",
       "repo": "PerceptoMap",
-      "rev": "v0.8",
-      "sha256": "sha256-O+tu/QK0fl1KPrhx8xC+LI75wAIvvPdMyWr7dGI2jts=",
+      "rev": "v0.9",
+      "sha256": "sha256-7Ods0ZG2yRjn2Ate4fKbQtZoMrgvA1BhVmokPAmQvPY=",
       "sparseCheckout": [],
       "type": "github"
     },
-    "version": "v0.8"
+    "version": "v0.9"
   }
 }

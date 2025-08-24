@@ -750,9 +750,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "5fb8eda3c4430cb1d473d3e2138b070bdca1c224",
-      "url": "https://github.com/MrcJkb/haskell-tools.nvim/archive/5fb8eda3c4430cb1d473d3e2138b070bdca1c224.tar.gz",
-      "hash": "123sa84kanmh80bqqqymziyzdr7gwag4m432iabbx9708qmx62c2"
+      "revision": "70c28cb9033a94f7cdbfdb34a9d193c907295177",
+      "url": "https://github.com/MrcJkb/haskell-tools.nvim/archive/70c28cb9033a94f7cdbfdb34a9d193c907295177.tar.gz",
+      "hash": "0vpfdlwip7hdhczmvzwhh99w2g5fymj5p391737wqwbzf9ip8fj3"
     },
     "heirline.nvim": {
       "type": "Git",
@@ -1152,9 +1152,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "348cd121d8b872248e9b0e48e3611c54dfad83f0",
-      "url": "https://github.com/benlubas/neorg-interim-ls/archive/348cd121d8b872248e9b0e48e3611c54dfad83f0.tar.gz",
-      "hash": "1vszvmsy27n68ivi6bmk1hifi00dg33mc9iz66nv2gfmwcfwbsfz"
+      "revision": "52bdf8a8cd246a9205756449776aa057bd593d61",
+      "url": "https://github.com/benlubas/neorg-interim-ls/archive/52bdf8a8cd246a9205756449776aa057bd593d61.tar.gz",
+      "hash": "04q9wkvg45lysix3zvc88a10gcbysjrcjn8axx0q8xdq4wh4pyiq"
     },
     "nightfox.nvim": {
       "type": "Git",
