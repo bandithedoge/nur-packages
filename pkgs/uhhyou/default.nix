@@ -3,7 +3,8 @@
   sources,
   ...
 }:
-pkgs.gcc12Stdenv.mkDerivation {
+# https://github.com/steinbergmedia/vstgui/issues/324
+pkgs.gcc13Stdenv.mkDerivation {
   inherit (sources.uhhyou) pname src;
   version = pkgs.lib.removePrefix "UhhyouPlugins" sources.uhhyou.version;
 
