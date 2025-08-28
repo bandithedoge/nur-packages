@@ -8,11 +8,11 @@
     "pinned": false,
     "src": {
       "name": null,
-      "sha256": "sha256-C+yfvYzIbaCpp34IeuQBT8nV7IxlA4enAYr4LiYG+To=",
+      "sha256": "sha256-haJrD1tpyE3uazZ3gcnWLG5hwXxwVEvjV9KjJnhQqo0=",
       "type": "url",
-      "url": "https://github.com/CachyOS/proton-cachyos/releases/download/cachyos-10.0-20250819-slr/proton-cachyos-10.0-20250819-slr-x86_64_v3.tar.xz"
+      "url": "https://github.com/CachyOS/proton-cachyos/releases/download/cachyos-10.0-20250820-slr/proton-cachyos-10.0-20250820-slr-x86_64_v3.tar.xz"
     },
-    "version": "cachyos-10.0-20250819-slr"
+    "version": "cachyos-10.0-20250820-slr"
   },
   "proton-ge": {
     "cargoLocks": null,
@@ -23,11 +23,11 @@
     "pinned": false,
     "src": {
       "name": null,
-      "sha256": "sha256-63LUBNMBlqZ9GzLaaz8erUuxkz/QsicL44mtl8zWWjs=",
+      "sha256": "sha256-C59FOaddYjbnHqTnd9BSjfhl8z8CKG+AWraWAa9dNoM=",
       "type": "url",
-      "url": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton10-13/GE-Proton10-13.tar.gz"
+      "url": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton10-15/GE-Proton10-15.tar.gz"
     },
-    "version": "GE-Proton10-13"
+    "version": "GE-Proton10-15"
   },
   "proton-sarek": {
     "cargoLocks": null,

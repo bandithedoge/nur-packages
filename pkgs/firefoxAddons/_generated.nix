@@ -389,10 +389,10 @@
   };
   "gesturefy" = buildFirefoxXpiAddon {
     pname = "gesturefy";
-    version = "3.2.14";
+    version = "3.2.15";
     addonId = "{506e023c-7f2b-40a3-8066-bc5deb40aebe}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4544389/gesturefy-3.2.14.xpi";
-    sha256 = "19dd0be43865a4fb6db05013a0ca911c5700264810bde993729480bd65ad9dd3";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4561845/gesturefy-3.2.15.xpi";
+    sha256 = "5ecec1c1ff9cb8cf321b26b30653e9abfcd975ba1eec9d919f9c34deec03c727";
     meta = with lib; {
       homepage = "https://github.com/Robbendebiene/Gesturefy";
       description = "Navigate, operate, and browse faster with mouse gestures! A customizable mouse gesture add-on with a variety of different commands.";
@@ -1347,10 +1347,10 @@
   };
   "refined-github" = buildFirefoxXpiAddon {
     pname = "refined-github";
-    version = "25.8.23";
+    version = "25.8.27";
     addonId = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4563040/refined_github-25.8.23.xpi";
-    sha256 = "3dce4c6f1be666406746a5121172731a0e208f9521baa59847ea561f3302fecf";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4566240/refined_github-25.8.27.xpi";
+    sha256 = "ed1908dbe373ef36de76baea6217d807efddee981a2c762146c76f5279d3d309";
     meta = with lib; {
       homepage = "https://github.com/refined-github/refined-github";
       description = "Simplifies the GitHub interface and adds many useful features.";
@@ -1369,10 +1369,10 @@
   };
   "search_by_image" = buildFirefoxXpiAddon {
     pname = "search_by_image";
-    version = "8.2.3";
+    version = "8.2.4";
     addonId = "{2e5ff8c8-32fe-46d0-9fc8-6b8986621f3c}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4501793/search_by_image-8.2.3.xpi";
-    sha256 = "226277b7081dc3b867804d3208136a8e8d488e62203943dc1eb6a6a86b213013";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4560207/search_by_image-8.2.4.xpi";
+    sha256 = "ed935d559f720304ed7851e2aafefbe80e7501216b5ad21b33fe801ecabf8b84";
     meta = with lib; {
       homepage = "https://github.com/dessant/search-by-image#readme";
       description = "A powerful reverse image search tool, with support for various search engines, such as Google, Bing, Yandex, Baidu and TinEye.";
@@ -1484,10 +1484,10 @@
   };
   "steam-database" = buildFirefoxXpiAddon {
     pname = "steam-database";
-    version = "4.23";
+    version = "4.24";
     addonId = "firefox-extension@steamdb.info";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4545836/steam_database-4.23.xpi";
-    sha256 = "e2f42b6d005952c2ec8bc174feaaa7532171e5744dffb294ff544c870d5e21a9";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4560146/steam_database-4.24.xpi";
+    sha256 = "df395ad8d94f63a4d7ce09918b1409a2822593a72adbb516462c64fdea5ed1d4";
     meta = with lib; {
       homepage = "https://steamdb.info/";
       description = "Adds SteamDB links and new features on the Steam store and community. View lowest game prices and stats.";
