@@ -38,11 +38,11 @@
     "pinned": false,
     "src": {
       "name": null,
-      "sha256": "sha256-GI+ro+ASDMmGk7GrVcMDgVF5aGrwdOELsFJK5yruiWw=",
+      "sha256": "sha256-r9vA1wTuY3MkIcKTCpoUZ6SjAH2fvbOuoxBBjN+x6aU=",
       "type": "url",
-      "url": "https://github.com/pythonlover02/Proton-Sarek/releases/download/Proton-Sarek10-12/Proton-Sarek10-12.tar.gz"
+      "url": "https://github.com/pythonlover02/Proton-Sarek/releases/download/Proton-Sarek10-15/Proton-Sarek10-15.tar.gz"
     },
-    "version": "Proton-Sarek10-12"
+    "version": "Proton-Sarek10-15"
   },
   "proton-sarek-async": {
     "cargoLocks": null,
@@ -53,10 +53,10 @@
     "pinned": false,
     "src": {
       "name": null,
-      "sha256": "sha256-OWSg6rwPGIFQiCStnsHXNO4LFllSD1XeHomjZFM6eVI=",
+      "sha256": "sha256-juC3s82KtxCNOLk39dA+yHza9bTOhCVNIo7ZuPYZGX8=",
       "type": "url",
-      "url": "https://github.com/pythonlover02/Proton-Sarek/releases/download/Proton-Sarek10-12/Proton-Sarek10-12-async.tar.gz"
+      "url": "https://github.com/pythonlover02/Proton-Sarek/releases/download/Proton-Sarek10-15/Proton-Sarek10-15-async.tar.gz"
     },
-    "version": "Proton-Sarek10-12"
+    "version": "Proton-Sarek10-15"
   }
 }

@@ -13,11 +13,11 @@
       "name": null,
       "owner": "juce-framework",
       "repo": "JUCE",
-      "rev": "8.0.8",
-      "sha256": "sha256-kp3rMaHWBbEh4UaRMxcLo/DiSJV942OY+LYxh6W7dFc=",
+      "rev": "8.0.9",
+      "sha256": "sha256-RUrKQFRLX68L3ROCUFaODSaRMH6zPpAKbc4/e5yDcZ4=",
       "sparseCheckout": [],
       "type": "github"
     },
-    "version": "8.0.8"
+    "version": "8.0.9"
   }
 }

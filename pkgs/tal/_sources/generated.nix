@@ -59,7 +59,7 @@
     version = "latest";
     src = fetchurl {
       url = "https://tal-software.com/downloads/plugins/TAL-G-Verb_64_linux.zip";
-      sha256 = "sha256-l/NtZqWBjv5FbjIcev2jx9w5pB3LrVGn7mtioBx5OhA=";
+      sha256 = "sha256-78dHs+VkuQIvWSwei/+/SIHULHZk7gNBx13MjUv+Ei8=";
     };
   };
   j-8 = {

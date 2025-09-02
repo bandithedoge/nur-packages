@@ -8,10 +8,10 @@
 {
   helion-bin = {
     pname = "helion-bin";
-    version = "0.9.7.0";
+    version = "0.9.8.0";
     src = fetchurl {
-      url = "https://github.com/Helion-Engine/Helion/releases/download/0.9.7.0/Helion-0.9.7.0-linux-x64_AOT.zip";
-      sha256 = "sha256-51FsZAlBLJkMLmaFLOCpUhY1RAxsPlBGfx+EaCjCtrQ=";
+      url = "https://github.com/Helion-Engine/Helion/releases/download/0.9.8.0/Helion-0.9.8.0-linux-x64_AOT.zip";
+      sha256 = "sha256-ZLVao905sW0oDW/MuucOILonR/V5GslY1rQwt58W620=";
     };
   };
 }
