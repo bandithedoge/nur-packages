@@ -64,6 +64,7 @@ in
       description = "splitter plugin";
       homepage = "https://zl-audio.github.io/plugins/zlsplitter/";
     };
+    extraCmakeFlags = [ "-DKFR_ENABLE_DFT=ON" ];
     cflags = [ "-Wno-changes-meaning" ];
   };
 
