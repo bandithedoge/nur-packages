@@ -419,13 +419,14 @@
     "web-devicons.xplr": {
       "type": "Git",
       "repository": {
-        "type": "Git",
-        "url": "https://gitlab.com/hartan/web-devicons.xplr"
+        "type": "GitLab",
+        "repo_path": "hartan/web-devicons.xplr",
+        "server": "https://gitlab.com/"
       },
       "branch": "main",
       "submodules": false,
       "revision": "9183a0cc146a29e4f25749463d293be920c6691e",
-      "url": null,
+      "url": "https://gitlab.com/api/v4/projects/hartan%2Fweb-devicons.xplr/repository/archive.tar.gz?sha=9183a0cc146a29e4f25749463d293be920c6691e",
       "hash": "1940czlzswyq66vw3hivm47ismccp51qbcf602bnjfbdprc9nf5b"
     },
     "wl-clipboard.xplr": {

@@ -6,6 +6,11 @@
     flake-utils.url = "github:numtide/flake-utils";
 
     mozilla-addons-to-nix.url = "sourcehut:~rycee/mozilla-addons-to-nix";
+
+    cache-nix-action = {
+      url = "github:nix-community/cache-nix-action";
+      flake = false;
+    };
   };
   outputs =
     inputs@{ flake-parts, ... }:
@@ -24,6 +29,7 @@
         {
           pkgs,
           system,
+          self',
           ...
         }:
         {
@@ -52,6 +58,16 @@
             // {
               _BUILDABLE = buildable;
               _CACHEABLE = cacheable;
+
+              inherit
+                (import "${inputs.cache-nix-action}/saveFromGC.nix" {
+                  inherit pkgs inputs;
+                  derivations = (builtins.attrValues (pkgs.lib.filterAttrs (k: v: !(cacheable ? k)) buildable)) ++ [
+                    self'.devShells.default
+                  ];
+                })
+                saveFromGC
+                ;
             };
 
           devShells.default = pkgs.mkShell {

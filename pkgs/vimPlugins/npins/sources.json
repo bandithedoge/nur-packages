@@ -1806,6 +1806,19 @@
       "url": "https://github.com/purescript-contrib/purescript-vim/archive/82348352e6568fcc0385bd7c99a8ead3a479feea.tar.gz",
       "hash": "14729v7rndi3l8fpnbzapgwb4dj7537fik54g6frm1r1724f5cr2"
     },
+    "rainbow-delimiters-nvim": {
+      "type": "Git",
+      "repository": {
+        "type": "GitLab",
+        "repo_path": "HiPhish/rainbow-delimiters.nvim",
+        "server": "https://gitlab.com/"
+      },
+      "branch": "master",
+      "submodules": false,
+      "revision": "97bf4b8ef9298644a29fcd9dd41a0210cf08cac7",
+      "url": "https://gitlab.com/api/v4/projects/HiPhish%2Frainbow-delimiters.nvim/repository/archive.tar.gz?sha=97bf4b8ef9298644a29fcd9dd41a0210cf08cac7",
+      "hash": "045zcmzsxi5hh10a26qr96szg9kvkr7b12n841x7dck4vj9j2dk3"
+    },
     "rainbow-delimiters.nvim": {
       "type": "Git",
       "repository": {
