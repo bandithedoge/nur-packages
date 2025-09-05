@@ -32,15 +32,15 @@
   };
   slock-flexipatch = {
     pname = "slock-flexipatch";
-    version = "263310fe63eed7fc536c100ea42626edce33a946";
+    version = "3fc1818219dc28817a0df53c2f0108b763941e74";
     src = fetchFromGitHub {
       owner = "bakkeby";
       repo = "slock-flexipatch";
-      rev = "263310fe63eed7fc536c100ea42626edce33a946";
+      rev = "3fc1818219dc28817a0df53c2f0108b763941e74";
       fetchSubmodules = false;
-      sha256 = "sha256-e09/nux4XSVTLmlNke4vVxEYFNHq3Y/l4v7kGblzcGM=";
+      sha256 = "sha256-XfHzdFlLGshQpk235jsaVsX+duJ7aaPmqEwHtMi+tDg=";
     };
-    date = "2025-09-03";
+    date = "2025-09-04";
   };
   st-flexipatch = {
     pname = "st-flexipatch";
