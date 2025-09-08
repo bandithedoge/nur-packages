@@ -8,6 +8,11 @@ utils.juce.mkJucePackage {
   inherit (sources.unplugred) pname src;
   version = sources.unplugred.date;
 
+  patches = [
+    # HACK: https://github.com/unplugred/vsts/issues/7
+    ./remove_fmplus.patch
+  ];
+
   preInstall = ''
     cp -r plugins/*/*_artefacts .
     ls
