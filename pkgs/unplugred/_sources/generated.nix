@@ -33,10 +33,10 @@
   };
   unplugred = {
     pname = "unplugred";
-    version = "827e935d56b027cc79a231115b8413e9fa757a6b";
+    version = "25c464ee5cc769bd6568ffa34183336a833dab66";
     src = fetchgit {
       url = "https://github.com/unplugred/vsts";
-      rev = "827e935d56b027cc79a231115b8413e9fa757a6b";
+      rev = "25c464ee5cc769bd6568ffa34183336a833dab66";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;

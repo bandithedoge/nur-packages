@@ -74,9 +74,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "fb58187b76d8e086f08686b872b50f52eac57818",
-      "url": "https://github.com/b0o/SchemaStore.nvim/archive/fb58187b76d8e086f08686b872b50f52eac57818.tar.gz",
-      "hash": "1a2n1bi1d9f9qcr8z9r90qnk27xs4mgspy3yakc0dksps28q7xph"
+      "revision": "05924b7383fa17f13f7a7e7ecc8ce83b3c340ce2",
+      "url": "https://github.com/b0o/SchemaStore.nvim/archive/05924b7383fa17f13f7a7e7ecc8ce83b3c340ce2.tar.gz",
+      "hash": "0nj6lzynrv69i5zh646vincmjy7bvfbrsn81w0azrywnjvyap928"
     },
     "aniseed": {
       "type": "Git",
@@ -750,9 +750,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "e3024912c8e737de14a8371618b45dbd1cf8e835",
-      "url": "https://github.com/MrcJkb/haskell-tools.nvim/archive/e3024912c8e737de14a8371618b45dbd1cf8e835.tar.gz",
-      "hash": "0s95z72ji8f4kalh916gnhwzl70m83r8vinfhgbgbhc9k1h4jf1v"
+      "revision": "b40cd407baf8fdc76ec5ab6a40b2fd50e509badc",
+      "url": "https://github.com/MrcJkb/haskell-tools.nvim/archive/b40cd407baf8fdc76ec5ab6a40b2fd50e509badc.tar.gz",
+      "hash": "14np086m9ncpmfawgc4mcr2y07jqg6lrzzzlq7iabdzd5c07vdwy"
     },
     "heirline.nvim": {
       "type": "Git",
@@ -1100,9 +1100,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "5a91ceb4335330790b81f0b145062c6723a67b7b",
-      "url": "https://github.com/folke/neoconf.nvim/archive/5a91ceb4335330790b81f0b145062c6723a67b7b.tar.gz",
-      "hash": "0xx0dahmxcwnwpjz6mfzc149x6krggz9vnzabifcjzac91ww1zrq"
+      "revision": "6ca846deca783bef188f7b3ff96c45428f3e883f",
+      "url": "https://github.com/folke/neoconf.nvim/archive/6ca846deca783bef188f7b3ff96c45428f3e883f.tar.gz",
+      "hash": "1nzkdgvrrknsxxzy5n0qyj9vyzb27j609f0yys2aaw8n68a6sjxy"
     },
     "neodev.nvim": {
       "type": "Git",
@@ -1295,9 +1295,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "ff1d12c8b47cd28723da593b2cfa2e98391d439a",
-      "url": "https://github.com/code-biscuits/nvim-biscuits/archive/ff1d12c8b47cd28723da593b2cfa2e98391d439a.tar.gz",
-      "hash": "18dvvg32nxrdp1ydbvxrzkdg7q214naq2bphs7y1s9zmjhyj25pm"
+      "revision": "6d9c813fbcceb0caca0d18701cbf0f8b5760102d",
+      "url": "https://github.com/code-biscuits/nvim-biscuits/archive/6d9c813fbcceb0caca0d18701cbf0f8b5760102d.tar.gz",
+      "hash": "016g7jl5j3sxv4zpnxgs7a7qs05bis952z1lxly1c0mwv6ayrf2y"
     },
     "nvim-cmp": {
       "type": "Git",
