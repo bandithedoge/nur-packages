@@ -75,8 +75,8 @@
               with pkgs;
               with inputs;
               [
-                lixPackageSets.latest.nix-eval-jobs
-                lixPackageSets.latest.nix-fast-build
+                lixPackageSets.git.nix-eval-jobs
+                lixPackageSets.git.nix-fast-build
                 mozilla-addons-to-nix.packages.${system}.default
                 node2nix
                 npins
