@@ -1,3 +1,11 @@
+[absorb]
+src.git = "https://github.com/Mrugalla/Absorb"
+fetch.git = "https://github.com/Mrugalla/Absorb"
+
+[allhaas]
+src.git = "https://github.com/Mrugalla/ALLHaas"
+fetch.git = "https://github.com/Mrugalla/ALLHaas"
+
 [hammer-and-meiszel]
 src.git = "https://github.com/Mrugalla/Hammer-and-Meiszel"
 fetch.git = "https://github.com/Mrugalla/Hammer-and-Meiszel"
@@ -9,3 +17,11 @@ fetch.git = "https://github.com/Mrugalla/Manta"
 [nel-19]
 src.git = "https://github.com/Mrugalla/NEL-19"
 fetch.git = "https://github.com/Mrugalla/NEL-19"
+
+[nelorbit]
+src.git = "https://github.com/Mrugalla/NELOrbit"
+fetch.git = "https://github.com/Mrugalla/NELOrbit"
+
+[slew-over]
+src.git = "https://github.com/Mrugalla/Slew-Over"
+fetch.git = "https://github.com/Mrugalla/Slew-Over"

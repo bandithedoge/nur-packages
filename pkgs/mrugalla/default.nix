@@ -30,6 +30,24 @@ let
     };
 in
 {
+  absorb = mkMrugalla {
+    source = sources.absorb;
+    jucerFile = "Project.jucer";
+    meta = {
+      description = "Sidechain plugin that mixes up the texture of the colliding input signals";
+      homepage = "github.com/Mrugalla/Absorb";
+    };
+  };
+
+  allhaas = mkMrugalla {
+    source = sources.allhaas;
+    jucerFile = "ALLHaas.jucer";
+    meta = {
+      description = "Stereo widening tool that uses a lot of allpass filters";
+      homepage = "https://github.com/Mrugalla/ALLHaas";
+    };
+  };
+
   hammer-and-meiszel = mkMrugalla {
     source = sources.hammer-and-meiszel;
     jucerFile = "Projekt.jucer";
@@ -54,6 +72,24 @@ in
     meta = {
       description = "Open-source vibrato plugin with an extensive modulation system";
       homepage = "https://github.com/Mrugalla/NEL-19";
+    };
+  };
+
+  nelorbit = mkMrugalla {
+    source = sources.nelorbit;
+    jucerFile = "NELOrbit.jucer";
+    meta = {
+      description = "VST3 plugin where gravitating planets cause chorus modulation";
+      homepage = "https://github.com/Mrugalla/NELOrbit";
+    };
+  };
+
+  slew-over = mkMrugalla {
+    source = sources.slew-over;
+    jucerFile = "Slew Over.jucer";
+    meta = {
+      description = "Simple slew limiter with oversampling";
+      homepage = "https://github.com/Mrugalla/Slew-Over";
     };
   };
 }
