@@ -7,12 +7,12 @@ let
   callHaskellPackage =
     pkg:
     {
-      compiler ? "ghc902",
+      haskellPackages ? pkgs.haskellPackages,
       tagged ? false,
       attrs ? { },
       cabal2nixAttrs ? { },
     }:
-    (pkgs.haskell.packages.${compiler}.callPackage pkg cabal2nixAttrs).overrideAttrs (
+    (haskellPackages.callPackage pkg cabal2nixAttrs).overrideAttrs (
       oldAttrs:
       (
         let
@@ -28,10 +28,9 @@ let
     );
 in
 {
-  taffybar = callHaskellPackage ./_taffybar.nix rec {
-    compiler = "ghc92";
+  taffybar = callHaskellPackage ./_taffybar.nix {
     cabal2nixAttrs = {
-      gi-gtk-hs = pkgs.haskell.lib.dontHaddock pkgs.haskell.packages.${compiler}.gi-gtk-hs;
+      gi-gtk-hs = pkgs.haskell.lib.dontHaddock pkgs.haskellPackages.gi-gtk-hs;
     };
     attrs = {
       meta.broken = true;
@@ -65,7 +64,7 @@ in
   xmonad-entryhelper = callHaskellPackage ./_xmonad-entryhelper.nix { };
 
   kmonad = callHaskellPackage ./_kmonad.nix {
-    compiler = "ghc92";
+    haskellPackages = pkgs.haskell.packages.ghc96;
     attrs = {
       nativeBuildInputs = with pkgs; [
         removeReferencesTo
