@@ -14,6 +14,7 @@ in
   actuate = callPackage' ./actuate;
   aida-x = callPackage' ./aida-x;
   apisonic = callPackages' ./apisonic;
+  aporetic-nerd-font = callPackage' ./aporetic-nerd-font;
   arboreal = callPackages' ./arboreal;
   audible-planets-bin = callPackage' ./audible-planets-bin;
   basiliskii-bin = callPackage' ./basiliskii-bin;
