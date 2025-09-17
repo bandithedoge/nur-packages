@@ -296,10 +296,10 @@
   };
   "csgofloat" = buildFirefoxXpiAddon {
     pname = "csgofloat";
-    version = "5.7.0";
+    version = "5.8.1";
     addonId = "{194d0dc6-7ada-41c6-88b8-95d7636fe43c}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4542398/csgofloat-5.7.0.xpi";
-    sha256 = "31cc5ef0ab8176414f7c8e0e672501d15a2ef119ff4e090f8031b4b026f29878";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4575548/csgofloat-5.8.1.xpi";
+    sha256 = "6bfcfb61d0a0b026fcf75cc55ccd13904dd421a32bc3f158e4414a9be7b65013";
     meta = with lib; {
       homepage = "https://csgofloat.com";
       description = "Shows the float value, paint seed, and screenshots of Counter-Strike (CS:GO &amp; CS2) items on the Steam Market or Inventories";
@@ -1658,10 +1658,10 @@
   };
   "ublock-origin" = buildFirefoxXpiAddon {
     pname = "ublock-origin";
-    version = "1.65.0";
+    version = "1.66.0";
     addonId = "uBlock0@raymondhill.net";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4531307/ublock_origin-1.65.0.xpi";
-    sha256 = "3e73c96a29a933866065f0756fe032984bf5b254af8dd1afd7a7f7e0668a33cf";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4573289/ublock_origin-1.66.0.xpi";
+    sha256 = "155820bace5bf7c8ba547e27678a4a25251131c54904f02f5bf340996f6fdbdc";
     meta = with lib; {
       homepage = "https://github.com/gorhill/uBlock#ublock-origin";
       description = "Finally, an efficient wide-spectrum content blocker. Easy on CPU and memory.";

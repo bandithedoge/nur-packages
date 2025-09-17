@@ -8,13 +8,13 @@
 {
   juce = {
     pname = "juce";
-    version = "8.0.9";
+    version = "8.0.10";
     src = fetchFromGitHub {
       owner = "juce-framework";
       repo = "JUCE";
-      rev = "8.0.9";
+      rev = "8.0.10";
       fetchSubmodules = false;
-      sha256 = "sha256-RUrKQFRLX68L3ROCUFaODSaRMH6zPpAKbc4/e5yDcZ4=";
+      sha256 = "sha256-YSNVQ337/IAlz3mFNgJisIY5D9wPz6sFboMNwsjcGBo=";
     };
   };
 }

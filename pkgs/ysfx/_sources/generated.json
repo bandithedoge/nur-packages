@@ -33,11 +33,11 @@
       "name": null,
       "owner": "JoepVanlier",
       "repo": "ysfx",
-      "rev": "v0.0.39",
-      "sha256": "sha256-2hc8NjRN8uGCh2JTRbYWtCuL5quiMhNnh4G7wJEfd3E=",
+      "rev": "v0.0.40",
+      "sha256": "sha256-MT1YCmZ4S3+Jx7sB7WneNgriynDpgG0ccZuj5ngKoGM=",
       "sparseCheckout": [],
       "type": "github"
     },
-    "version": "v0.0.39"
+    "version": "v0.0.40"
   }
 }

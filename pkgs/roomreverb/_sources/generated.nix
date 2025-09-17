@@ -8,13 +8,13 @@
 {
   roomreverb = {
     pname = "roomreverb";
-    version = "v1.3.0";
+    version = "v1.4.1";
     src = fetchFromGitHub {
       owner = "cvde";
       repo = "RoomReverb";
-      rev = "v1.3.0";
+      rev = "v1.4.1";
       fetchSubmodules = true;
-      sha256 = "sha256-GAyJLKixXb948XHhrmOoXZ7tZ2swn9sI3CSgB7fe3BU=";
+      sha256 = "sha256-vo0AbbN0CoZXlwcVn1eVT5wVfdzx3ijqstpFWZ6kf+Y=";
     };
   };
 }

@@ -347,9 +347,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "af70636fbcf30ef17f77c5ffcfcbf1342c554be1",
-      "url": "https://github.com/TD-Sky/sudo.yazi/archive/af70636fbcf30ef17f77c5ffcfcbf1342c554be1.tar.gz",
-      "hash": "11lmvwbb4njgl4fpbj9x1x1ysjapz6ywc2vvwr4v6vkb2q1c3x12"
+      "revision": "f35afcbe183c6017038f64b03fd42eef413efa33",
+      "url": "https://github.com/TD-Sky/sudo.yazi/archive/f35afcbe183c6017038f64b03fd42eef413efa33.tar.gz",
+      "hash": "182a5pq30jdhv3r4g5dvjw2fs7ms8ljigzm41m8rrdman8l0f1m6"
     },
     "system-clipboard.yazi": {
       "type": "Git",
