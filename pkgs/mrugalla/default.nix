@@ -81,6 +81,7 @@ in
     meta = {
       description = "VST3 plugin where gravitating planets cause chorus modulation";
       homepage = "https://github.com/Mrugalla/NELOrbit";
+      broken = true;
     };
   };
 
