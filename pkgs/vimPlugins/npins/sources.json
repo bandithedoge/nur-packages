@@ -438,9 +438,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "afc124a0976d56db43cc840e62757193ccab7856",
-      "url": "https://github.com/onsails/diaglist.nvim/archive/afc124a0976d56db43cc840e62757193ccab7856.tar.gz",
-      "hash": "04virm388yi2lrq8bi6331m7q7lj46wrlh8pd8js6q7ylkvz6qfq"
+      "revision": "8aba9fcf62cc60e1d5ce941faedecc399d9a1e8b",
+      "url": "https://github.com/onsails/diaglist.nvim/archive/8aba9fcf62cc60e1d5ce941faedecc399d9a1e8b.tar.gz",
+      "hash": "11vi9r75cz6q7swazmynjqynh06fykgrvn5igh0jinpcm9spk0m4"
     },
     "direnv.vim": {
       "type": "Git",
@@ -659,9 +659,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "f8cf874c7c78deaddb028b80b7116c50cb53e88d",
-      "url": "https://github.com/ibhagwan/fzf-lua/archive/f8cf874c7c78deaddb028b80b7116c50cb53e88d.tar.gz",
-      "hash": "060f7davq71j9hz8c9jl850k8lvgl58y91y3v2632p5jpdlg87bf"
+      "revision": "b947b7669f46449b1919b74a5907a159cf47d818",
+      "url": "https://github.com/ibhagwan/fzf-lua/archive/b947b7669f46449b1919b74a5907a159cf47d818.tar.gz",
+      "hash": "0q0h6dpr222av3riagbpy1xhmpcip1gsjblhxx03qfkvk5xgd0qh"
     },
     "galaxyline.nvim": {
       "type": "Git",

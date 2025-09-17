@@ -8,16 +8,16 @@
 {
   oneknob-series = {
     pname = "oneknob-series";
-    version = "b2008564b4aa1a57e817d5fbc84166545221283e";
+    version = "6733edfe5af0e1c08331beda3a4a02a20cf6c049";
     src = fetchgit {
       url = "https://github.com/DISTRHO/OneKnob-Series";
-      rev = "b2008564b4aa1a57e817d5fbc84166545221283e";
+      rev = "6733edfe5af0e1c08331beda3a4a02a20cf6c049";
       fetchSubmodules = true;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-giODaJ3cWGbcV57wq/zEE8kyBfgxCJk6IW9eHrE/wqk=";
+      sha256 = "sha256-/FcuCnuKPexKLmk8rzMzQ968EPdeZ88hlZVyk2pKr9w=";
     };
-    date = "2024-03-07";
+    date = "2025-09-17";
   };
 }
