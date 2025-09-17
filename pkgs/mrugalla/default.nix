@@ -8,7 +8,7 @@ let
   mkMrugalla =
     {
       source,
-      jucerFile,
+      jucerFile ? "Project.jucer",
       meta ? { },
     }:
     pkgs.stdenv.mkDerivation {
@@ -32,10 +32,18 @@ in
 {
   absorb = mkMrugalla {
     source = sources.absorb;
-    jucerFile = "Project.jucer";
     meta = {
       description = "Sidechain plugin that mixes up the texture of the colliding input signals";
       homepage = "github.com/Mrugalla/Absorb";
+    };
+  };
+
+  adsr = mkMrugalla {
+    source = sources.adsr;
+    meta = {
+      description = "Plugin that transforms MIDI input into an ADSR modulator audio output";
+      homepage = "https://github.com/Mrugalla/ADSR";
+      broken = true;
     };
   };
 
@@ -57,9 +65,18 @@ in
     };
   };
 
+  jif = mkMrugalla {
+    source = sources.jif;
+    jucerFile = "JIF.jucer";
+    meta = {
+      description = "VST3 Plugin, that loops a GIF to the tempo of your beat";
+      homepage = "https://github.com/Mrugalla/JIF";
+      broken = true;
+    };
+  };
+
   manta = mkMrugalla {
     source = sources.manta;
-    jucerFile = "Project.jucer";
     meta = {
       description = "Resonator with extra steps";
       homepage = "https://github.com/Mrugalla/Manta";
@@ -85,12 +102,56 @@ in
     };
   };
 
+  overdrive-reneo = mkMrugalla {
+    source = sources.overdrive-reneo;
+    meta = {
+      description = "mda overdrive tribute project";
+      homepage = "https://github.com/Mrugalla/Overdrive-ReNEO";
+    };
+  };
+
+  perlinnoisemod = mkMrugalla {
+    source = sources.perlinnoisemod;
+    meta = {
+      description = "Plugin that synthesizes perlin noise";
+      homepage = "https://github.com/Mrugalla/PerlinNoiseMod";
+      broken = true;
+    };
+  };
+
+  pitchglitcher = mkMrugalla {
+    source = sources.pitchglitcher;
+    meta = {
+      description = "pitchshifter with a feedback parameter";
+      homepage = "https://github.com/Mrugalla/PitchGlitcher";
+      broken = true;
+    };
+  };
+
   slew-over = mkMrugalla {
     source = sources.slew-over;
     jucerFile = "Slew Over.jucer";
     meta = {
       description = "Simple slew limiter with oversampling";
       homepage = "https://github.com/Mrugalla/Slew-Over";
+    };
+  };
+
+  susquash = mkMrugalla {
+    source = sources.susquash;
+    jucerFile = "susquash.jucer";
+    meta = {
+      description = "plugin that crushes shit massively";
+      homepage = "https://github.com/Mrugalla/susquash";
+    };
+  };
+
+  xen = mkMrugalla {
+    source = sources.xen;
+    jucerFile = "Xen.jucer";
+    meta = {
+      description = "VSTi that transforms input MIDI to polyphonic xenharmonic MPE MIDI";
+      homepage = "https://github.com/Mrugalla/Xen";
     };
   };
 }

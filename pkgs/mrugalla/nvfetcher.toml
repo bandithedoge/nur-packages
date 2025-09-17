@@ -2,6 +2,10 @@
 src.git = "https://github.com/Mrugalla/Absorb"
 fetch.git = "https://github.com/Mrugalla/Absorb"
 
+[adsr]
+src.git = "https://github.com/Mrugalla/ADSR"
+fetch.git = "https://github.com/Mrugalla/ADSR"
+
 [allhaas]
 src.git = "https://github.com/Mrugalla/ALLHaas"
 fetch.git = "https://github.com/Mrugalla/ALLHaas"
@@ -9,6 +13,10 @@ fetch.git = "https://github.com/Mrugalla/ALLHaas"
 [hammer-and-meiszel]
 src.git = "https://github.com/Mrugalla/Hammer-and-Meiszel"
 fetch.git = "https://github.com/Mrugalla/Hammer-and-Meiszel"
+
+[jif]
+src.git = "https://github.com/Mrugalla/JIF"
+fetch.git = "https://github.com/Mrugalla/JIF"
 
 [manta]
 src.git = "https://github.com/Mrugalla/Manta"
@@ -22,6 +30,26 @@ fetch.git = "https://github.com/Mrugalla/NEL-19"
 src.git = "https://github.com/Mrugalla/NELOrbit"
 fetch.git = "https://github.com/Mrugalla/NELOrbit"
 
+[overdrive-reneo]
+src.git = "https://github.com/Mrugalla/Overdrive-ReNEO"
+fetch.git = "https://github.com/Mrugalla/Overdrive-ReNEO"
+
+[perlinnoisemod]
+src.git = "https://github.com/Mrugalla/PerlinNoiseMod"
+fetch.git = "https://github.com/Mrugalla/PerlinNoiseMod"
+
+[pitchglitcher]
+src.git = "https://github.com/Mrugalla/PitchGlitcher"
+fetch.git = "https://github.com/Mrugalla/PitchGlitcher"
+
 [slew-over]
 src.git = "https://github.com/Mrugalla/Slew-Over"
 fetch.git = "https://github.com/Mrugalla/Slew-Over"
+
+[susquash]
+src.git = "https://github.com/Mrugalla/susquash"
+fetch.git = "https://github.com/Mrugalla/susquash"
+
+[xen]
+src.git = "https://github.com/Mrugalla/Xen"
+fetch.git = "https://github.com/Mrugalla/Xen"
