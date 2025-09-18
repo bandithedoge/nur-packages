@@ -659,9 +659,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "fd244f2a6e1e3b1c6fcf0361bc738f362f269ce8",
-      "url": "https://github.com/ibhagwan/fzf-lua/archive/fd244f2a6e1e3b1c6fcf0361bc738f362f269ce8.tar.gz",
-      "hash": "0y2lsaalhzp05glbysxalbwcph0yjrbcwkvzzpv6nqsh6x1fpr1k"
+      "revision": "52b8199b9bf185720389d5ca99350ae26a724a2d",
+      "url": "https://github.com/ibhagwan/fzf-lua/archive/52b8199b9bf185720389d5ca99350ae26a724a2d.tar.gz",
+      "hash": "1934yynhv50a2v9j8v87q3x95r9ha72wb3pll5n0sbhvq6x80pwb"
     },
     "galaxyline.nvim": {
       "type": "Git",
@@ -957,9 +957,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "d79a1c3299ad0ef94e255d045bed9fa26025dab6",
-      "url": "https://github.com/onsails/lspkind.nvim/archive/d79a1c3299ad0ef94e255d045bed9fa26025dab6.tar.gz",
-      "hash": "1wdavqmwadby9lyw415jw79kxynxv4fxg2v376y0rkxf258clarq"
+      "revision": "3ddd1b4edefa425fda5a9f95a4f25578727c0bb3",
+      "url": "https://github.com/onsails/lspkind.nvim/archive/3ddd1b4edefa425fda5a9f95a4f25578727c0bb3.tar.gz",
+      "hash": "0yyf2vac4y424kn1vl7bkf5zazs0hd8v3106gl54ib69vav9hljd"
     },
     "lsplinks.nvim": {
       "type": "Git",
@@ -1035,9 +1035,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "cf515dd765665d51086e418e587a4f7ebc650ba1",
-      "url": "https://github.com/echasnovski/mini.nvim/archive/cf515dd765665d51086e418e587a4f7ebc650ba1.tar.gz",
-      "hash": "1f08cf5gppla2kki4bjk6cfvblq2c79jc48aqz4sj17hkhikhm3k"
+      "revision": "b1dfd15fbf028b76e2d996618d36ae3850f199a2",
+      "url": "https://github.com/echasnovski/mini.nvim/archive/b1dfd15fbf028b76e2d996618d36ae3850f199a2.tar.gz",
+      "hash": "04lgfh5s60inzysvhnzm95arngdkji3ld111yvbhxqj4bypl4y92"
     },
     "mkdir.nvim": {
       "type": "Git",
@@ -1905,9 +1905,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "eb5613d5577d67fcf0e41901fadf6d07d8fac00d",
-      "url": "https://github.com/lewis6991/satellite.nvim/archive/eb5613d5577d67fcf0e41901fadf6d07d8fac00d.tar.gz",
-      "hash": "0471q4qqr34j3w425y9pmwm58fip494q8yx8rwzgljx7n7a10ndw"
+      "revision": "7c2e5a4064abb0066a0bf157e7a137f1bcdeace2",
+      "url": "https://github.com/lewis6991/satellite.nvim/archive/7c2e5a4064abb0066a0bf157e7a137f1bcdeace2.tar.gz",
+      "hash": "1d6qni0ai0vlvbqcqjznc2ax89167hh44pd85x1ljha4nspbxzsy"
     },
     "sidebar.nvim": {
       "type": "Git",
