@@ -16,9 +16,7 @@ jobs:
       cancel-in-progress: true
     steps:
       - name: Free disk space
-        uses: jlumbroso/free-disk-space@v1.3.1
-        with:
-          tool-cache: true
+        uses: wimpysworld/nothing-but-nix@v6
 
       - name: Checkout repository
         uses: actions/checkout@v5
@@ -34,6 +32,7 @@ jobs:
         uses: nix-community/cache-nix-action@v6
         with:
           primary-key: nix-${{ runner.os }}
+          gc-max-store-size: 5G
 
       - name: Setup Git user
         uses: fregante/setup-git-user@v2.0.2
