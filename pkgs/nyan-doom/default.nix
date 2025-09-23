@@ -17,10 +17,10 @@ pkgs.stdenv.mkDerivation rec {
     SDL2
     SDL2_image
     SDL2_mixer
-    dumb
     fluidsynth
     libGLU
     libmad
+    libopenmpt
     libvorbis
     libzip
     portmidi
