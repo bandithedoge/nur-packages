@@ -29,6 +29,6 @@ in
         '';
       }
     )
-  ) (pkgs.lib.filterAttrs (_: v: pkgs.lib.isStorePath v) sources)
+  ) sources
 )).extend
   (import ./_overrides.nix { inherit pkgs; })

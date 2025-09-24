@@ -20,6 +20,6 @@ in
         '';
       }
     )
-  ) (pkgs.lib.filterAttrs (_: v: pkgs.lib.isStorePath v) sources)
+  ) sources
 )).extend
   (pkgs.callPackage ./_overrides.nix { })
