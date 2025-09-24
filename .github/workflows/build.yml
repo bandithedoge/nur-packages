@@ -29,11 +29,11 @@ jobs:
             keep-outputs = true
             accept-flake-config = true
 
-      - name: Cache Nix store
-        uses: nix-community/cache-nix-action@v6
+      - name: Restore cache
+        id: cache-restore
+        uses: nix-community/cache-nix-action/restore@v6
         with:
           primary-key: nix-${{ runner.os }}
-          gc-max-store-size: 5G
           paths: |
             ~/.local/share/nvfetcher
 
@@ -79,6 +79,14 @@ jobs:
             --result-file result-buildable.xml \
             --result-format junit \
             -j 1
+
+      - name: Save cache
+        uses: nix-community/cache-nix-action/save@v6
+        if: always() && steps.cache-restore.outputs.hit-primary-key != 'true'
+        with:
+          primary-key: nix-${{ runner.os }}
+          paths: |
+            ~/.local/share/nvfetcher
 
       - name: Build summary
         uses: test-summary/action@v2
