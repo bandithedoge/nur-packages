@@ -80,6 +80,7 @@
                 mozilla-addons-to-nix.packages.${system}.default
                 node2nix
                 npins
+                nushell
                 nvfetcher
               ];
           };
