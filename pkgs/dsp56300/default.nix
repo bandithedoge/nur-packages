@@ -9,11 +9,17 @@
     "xenia"
     "nodalred2x"
   ],
-  buildFx ? true,
   ...
 }:
 utils.juce.mkJucePackage {
   inherit (sources.dsp56300) pname version src;
+
+  patches = [
+    (pkgs.fetchpatch {
+      url = "https://github.com/dsp56300/gearmulator/commit/504685da15836a5815b2ce5ac4a4e2eb0194338d.patch";
+      hash = "sha256-h/Ww3oRdozEyfAoMb/GwquBZNu6fEJ6/JR2R/2GQjLc=";
+    })
+  ];
 
   postPatch = ''
     substituteAll CMakeLists.txt --replace-fail "/usr/local" "${placeholder "out"}"
@@ -23,11 +29,7 @@ utils.juce.mkJucePackage {
     let
       enable = name: cond: "gearmulator_${pkgs.lib.toUpper name}=${if cond then "on" else "off"}";
     in
-    (map (v: enable "SYNTH_${v}" true) variants)
-    ++ [
-      (enable "BUILD_FX_PLUGIN" buildFx)
-      (enable "BUILD_JUCEPLUGIN_LV2" true)
-    ];
+    (map (v: enable "SYNTH_${v}" true) variants);
 
   dontUseJuceInstall = true;
 
