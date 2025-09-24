@@ -16,9 +16,7 @@ jobs:
       cancel-in-progress: true
     steps:
       - name: Free disk space
-        uses: wimpysworld/nothing-but-nix@main
-        with:
-          hatchet-protocol: rampage
+        uses: jlumbroso/free-disk-space@v1
 
       - name: Checkout repository
         uses: actions/checkout@v5
