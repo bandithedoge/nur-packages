@@ -33,6 +33,8 @@ jobs:
         with:
           primary-key: nix-${{ runner.os }}
           gc-max-store-size: 5G
+          paths: |
+            ~/.local/share/nvfetcher
 
       - name: Setup Git user
         uses: fregante/setup-git-user@v2.0.2
