@@ -97,4 +97,10 @@
           };
         };
     };
+  nixConfig = {
+    extra-substituters = [ "https://bandithedoge.cachix.org" ];
+    extra-trusted-public-keys = [
+      "bandithedoge.cachix.org-1:ZtcHw1anyEa4t6H8m3o/ctYFrwYFPAwoENSvofamE6g="
+    ];
+  };
 }
