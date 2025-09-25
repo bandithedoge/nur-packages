@@ -22,7 +22,7 @@
   },
   "dwm-flexipatch": {
     "cargoLocks": null,
-    "date": "2025-09-02",
+    "date": "2025-09-21",
     "extract": null,
     "name": "dwm-flexipatch",
     "passthru": null,
@@ -34,12 +34,12 @@
       "name": null,
       "owner": "bakkeby",
       "repo": "dwm-flexipatch",
-      "rev": "be17cfee6e4adbc71577e735f06532b693f0cf39",
-      "sha256": "sha256-OTXA7IPF1tL3py7xjfZLPAAmq/FO1raT6dxgm0glhZc=",
+      "rev": "e7ff27cad75a7135bdf6e4fe9daa9e1b7421e411",
+      "sha256": "sha256-oKDtH+w4rNU23uWDPYUi4I9xtqO1/GjExuysE5naePQ=",
       "sparseCheckout": [],
       "type": "github"
     },
-    "version": "be17cfee6e4adbc71577e735f06532b693f0cf39"
+    "version": "e7ff27cad75a7135bdf6e4fe9daa9e1b7421e411"
   },
   "slock-flexipatch": {
     "cargoLocks": null,

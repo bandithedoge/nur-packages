@@ -8,17 +8,17 @@
 {
   astal-lua = {
     pname = "astal-lua";
-    version = "4f4ef639933253996152491262c7132fe6048708";
+    version = "3673ba4ef490c12517ee77b7779b6f79630ae72d";
     src = fetchgit {
       url = "https://github.com/tokyob0t/astal-lua";
-      rev = "4f4ef639933253996152491262c7132fe6048708";
+      rev = "3673ba4ef490c12517ee77b7779b6f79630ae72d";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-e7xaeYWlqM6/mqYYqipkwilcUIQMtb96Vz6pAOLyDiI=";
+      sha256 = "sha256-VGXPzJgxNrhvhSh2iNIf7HyaJijkrJvK6ffQoS/mtTs=";
     };
-    date = "2025-08-13";
+    date = "2025-09-23";
   };
   bling = {
     pname = "bling";
