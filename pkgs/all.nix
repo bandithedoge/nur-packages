@@ -117,6 +117,7 @@ in
   time-12 = callPackage' ./time-12;
   tonelib = callPackages' ./tonelib;
   tonez = callPackage' ./tonez;
+  two-filters = callPackage' ./two-filters;
   u-he = callPackages' ./u-he;
   uhhyou = callPackage' ./uhhyou;
   unplugred = callPackage' ./unplugred;
