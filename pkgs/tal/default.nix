@@ -89,6 +89,14 @@ in
     extraLibs = with pkgs; [ curl ];
   };
 
+  eq = mkTal {
+    product = "TAL-EQ";
+    source = sources.eq;
+    description = "TAL-EQ is a versatile graphical equalizer designed for great sound, a fast workflow, and effortless usability";
+    homepage = "https://tal-software.com/products/tal-eq";
+    extraLibs = with pkgs; [ curl ];
+  };
+
   filter-2 = mkTal {
     product = "TAL-Filter-2";
     source = sources.filter-2;

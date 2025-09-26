@@ -23,6 +23,11 @@ fetch.url = "https://tal-software.com/downloads/plugins/TAL-Dub-X_64_linux.zip"
 fetch.force = true
 src.manual = "latest"
 
+[eq]
+fetch.url = "https://tal-software.com/downloads/plugins/TAL-EQ_64_linux.zip"
+fetch.force = true
+src.manual = "latest"
+
 [filter-2]
 fetch.url = "https://tal-software.com/downloads/plugins/TAL-Filter-2_64_linux.zip"
 fetch.force = true
