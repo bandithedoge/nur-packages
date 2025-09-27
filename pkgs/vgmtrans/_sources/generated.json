@@ -11,12 +11,12 @@
       "fetchSubmodules": true,
       "leaveDotGit": false,
       "name": null,
-      "rev": "a131be0b3800e43be9a9f909d593bde138df5ece",
-      "sha256": "sha256-odLffpkF3cf6WVFwmmUw0JOERzbiMw3McSBKXn0b7uI=",
+      "rev": "093384033dc64b9d64368ac96e2ba4d21604ff6f",
+      "sha256": "sha256-3EAOPqoighi/2vvSm01dtDDAoQSopxcmFPSF34uBdC4=",
       "sparseCheckout": [],
       "type": "git",
       "url": "https://github.com/vgmtrans/vgmtrans"
     },
-    "version": "a131be0b3800e43be9a9f909d593bde138df5ece"
+    "version": "093384033dc64b9d64368ac96e2ba4d21604ff6f"
   }
 }
