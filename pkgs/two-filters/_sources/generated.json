@@ -1,7 +1,7 @@
 {
   "two-filters": {
     "cargoLocks": null,
-    "date": "2025-09-26",
+    "date": "2025-09-28",
     "extract": null,
     "name": "two-filters",
     "passthru": null,
@@ -11,13 +11,13 @@
       "fetchSubmodules": true,
       "leaveDotGit": false,
       "name": null,
-      "rev": "91548ef58e654dbbd41f75d17c5406dc0e94ff4f",
-      "sha256": "sha256-0GxoXAdqpMHQX2q2e3lQtNdTQKDOiILcqLFt1Hyyj0Y=",
+      "rev": "243e3ce5780498540e528c618e03e7c9b5f58df7",
+      "sha256": "sha256-7oEqYHqha1UlV8RP1f4a4CKoNzalW1zVXvFZBXfgz3M=",
       "sparseCheckout": [],
       "type": "git",
       "url": "https://github.com/baconpaul/two-filters"
     },
-    "version": "91548ef58e654dbbd41f75d17c5406dc0e94ff4f"
+    "version": "243e3ce5780498540e528c618e03e7c9b5f58df7"
   },
   "vst3sdk": {
     "cargoLocks": null,
