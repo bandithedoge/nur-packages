@@ -79,6 +79,7 @@ in
   mxtune-bin = callPackage' ./mxtune-bin;
   nodePackages = callPackages' ./nodePackages;
   nyan-doom = callPackage' ./nyan-doom;
+  ob-xf = callPackage' ./ob-xf;
   octasine = callPackage' ./octasine;
   onagre = callPackage' ./onagre;
   oneknob-series = callPackage' ./oneknob-series;

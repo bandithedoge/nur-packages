@@ -1,0 +1,4 @@
+[ob-xf]
+src.git = "https://github.com/surge-synthesizer/OB-Xf"
+fetch.git = "https://github.com/surge-synthesizer/OB-Xf"
+git.fetchSubmodules = true
