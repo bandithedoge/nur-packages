@@ -111,6 +111,7 @@ in
   six-sines = callPackage' ./six-sines;
   snd2acm = callPackage' ./snd2acm;
   snyk-ls-bin = callPackage' ./snyk-ls-bin;
+  spectralsuite = callPackage' ./spectralsuite;
   squeezer-bin = callPackage' ./squeezer-bin;
   tal = callPackages' ./tal;
   terrain = callPackage' ./terrain;
