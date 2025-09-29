@@ -1,23 +1,23 @@
 {
-    "nyan-doom": {
-        "cargoLocks": null,
-        "date": null,
-        "extract": null,
-        "name": "nyan-doom",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "deepClone": false,
-            "fetchSubmodules": false,
-            "leaveDotGit": false,
-            "name": null,
-            "owner": "andrikpowell",
-            "repo": "nyan-doom",
-            "rev": "v1.4.0",
-            "sha256": "sha256-PTnRB6kEFWzdWuJ63a1cdsrHTb/3IT9afQuBLfwmdOQ=",
-            "sparseCheckout": [],
-            "type": "github"
-        },
-        "version": "v1.4.0"
-    }
+  "nyan-doom": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "nyan-doom",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "deepClone": false,
+      "fetchSubmodules": false,
+      "leaveDotGit": false,
+      "name": null,
+      "owner": "andrikpowell",
+      "repo": "nyan-doom",
+      "rev": "v1.4.0",
+      "sha256": "sha256-PTnRB6kEFWzdWuJ63a1cdsrHTb/3IT9afQuBLfwmdOQ=",
+      "sparseCheckout": [],
+      "type": "github"
+    },
+    "version": "v1.4.0"
+  }
 }
