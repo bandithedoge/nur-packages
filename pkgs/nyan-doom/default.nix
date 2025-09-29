@@ -21,6 +21,7 @@ pkgs.stdenv.mkDerivation rec {
     libGLU
     libmad
     libopenmpt
+    libsndfile
     libvorbis
     libzip
     portmidi
