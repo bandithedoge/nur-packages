@@ -19,17 +19,17 @@
   };
   clap-helpers = {
     pname = "clap-helpers";
-    version = "4d8c96fd7da2a7a67a91cf87b008643d6ad2c9ba";
+    version = "7b6be400293c3bfefff095cb00163e225c1a5872";
     src = fetchgit {
       url = "https://github.com/free-audio/clap-helpers.git";
-      rev = "4d8c96fd7da2a7a67a91cf87b008643d6ad2c9ba";
+      rev = "7b6be400293c3bfefff095cb00163e225c1a5872";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-zZ+wF2/DQHIvCb5+w4t85+KKd5MqHk2J8KS72HDH1/4=";
+      sha256 = "sha256-qJkTrJmkN6FgPSRwEYbEGcjULgx6XdxxzlOfR3HWELE=";
     };
-    date = "2025-07-08";
+    date = "2025-09-29";
   };
   element = {
     pname = "element";
