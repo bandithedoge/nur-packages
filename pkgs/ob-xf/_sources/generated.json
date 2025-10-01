@@ -1,7 +1,7 @@
 {
   "ob-xf": {
     "cargoLocks": null,
-    "date": "2025-09-29",
+    "date": "2025-09-30",
     "extract": null,
     "name": "ob-xf",
     "passthru": null,
@@ -11,12 +11,12 @@
       "fetchSubmodules": true,
       "leaveDotGit": false,
       "name": null,
-      "rev": "c783055a7e060c9e5f3b6b9313a921062cbd3918",
-      "sha256": "sha256-XgbHQMK7cRT0J12NhpQivYYn3f/ASHNyD59cHaMLvEA=",
+      "rev": "ed0c3113d77a74f913692040483b78e9a31edd5d",
+      "sha256": "sha256-cdd2g68/YDk88A8SNaqb2s/KRY/d+wyMpujIlBMysss=",
       "sparseCheckout": [],
       "type": "git",
       "url": "https://github.com/surge-synthesizer/OB-Xf"
     },
-    "version": "c783055a7e060c9e5f3b6b9313a921062cbd3918"
+    "version": "ed0c3113d77a74f913692040483b78e9a31edd5d"
   }
 }
