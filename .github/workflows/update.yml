@@ -23,6 +23,14 @@ jobs:
       - name: Setup Git user
         uses: fregante/setup-git-user@v2.0.2
 
+      - name: Install Lix
+        uses: samueldr/lix-gha-installer-action@latest
+        with:
+          extra_nix_config: |
+            keep-env-derivations = true
+            keep-outputs = true
+            accept-flake-config = true
+
       - name: Update sources
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
