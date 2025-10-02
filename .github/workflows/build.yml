@@ -13,6 +13,8 @@ jobs:
 
       - name: Checkout repository
         uses: actions/checkout@v5
+        with:
+          ref: staging
 
       - name: Install Lix
         uses: samueldr/lix-gha-installer-action@latest

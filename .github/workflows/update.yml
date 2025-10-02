@@ -1,8 +1,5 @@
 name: Update sources
 on:
-  push:
-    branches:
-      - staging
   schedule:
     - cron: 15 5 * * *
 
@@ -12,6 +9,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v5
+        with:
+          ref: staging
 
       - name: Cache nvfetcher
         uses: actions/cache@v4
