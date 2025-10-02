@@ -1,5 +1,6 @@
 name: Build packages
 on:
+  workflow_dispatch:
   push:
     branches:
       - staging
