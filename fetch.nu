@@ -52,7 +52,7 @@ def main [
         echo chuj
         (ls **/nvfetcher.toml) | each {|pkg|
             echo $pkg
-            fetch ($pkg.name | path dirname)
+            fetch ($pkg.name | path dirname) --commit=$commit
         }
     } else {
         for $package in $packages {
@@ -63,7 +63,7 @@ def main [
                 "vim" => fetch-vim,
                 "xplr" => fetch-xplr,
                 "yazi" => fetch-yazi,
-                _ => {fetch $package },
+                _ => {fetch $package --commit=$commit },
             }
         }
     }
