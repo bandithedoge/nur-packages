@@ -4,6 +4,11 @@ on:
   push:
     branches:
       - staging
+  workflow_run:
+    workflows:
+      - Update sources
+    types:
+      - completed
 
 jobs:
   build:
