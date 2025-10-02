@@ -99,7 +99,7 @@
     version = "latest";
     src = fetchurl {
       url = "https://tal-software.com/downloads/plugins/TAL-Pha_64_linux.zip";
-      sha256 = "sha256-tgOHS6hzIa5o7B/JvdND5aloqefNOk6JaniZj8pRllo=";
+      sha256 = "sha256-GydreLtwLkuGNbNxjbdHC1uPCY/WczRUKp3gw68iz+c=";
     };
   };
   reverb-4 = {
