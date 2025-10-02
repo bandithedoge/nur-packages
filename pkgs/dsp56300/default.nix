@@ -15,13 +15,6 @@ assert builtins.length variants != 0;
 utils.juce.mkJucePackage {
   inherit (sources.dsp56300) pname version src;
 
-  patches = [
-    (pkgs.fetchpatch {
-      url = "https://github.com/dsp56300/gearmulator/commit/504685da15836a5815b2ce5ac4a4e2eb0194338d.patch";
-      hash = "sha256-h/Ww3oRdozEyfAoMb/GwquBZNu6fEJ6/JR2R/2GQjLc=";
-    })
-  ];
-
   postPatch = ''
     substituteAll CMakeLists.txt --replace-fail "/usr/local" "${placeholder "out"}"
   '';
