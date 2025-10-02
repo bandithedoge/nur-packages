@@ -51,6 +51,8 @@ jobs:
         with:
           primary-key: update-${{ runner.os }}
           paths: ~/.local/share/nvfetcher
+          gc-max-store-size: 9G
+          purge: true
 
       - name: Commit changes
         uses: EndBug/add-and-commit@v9
