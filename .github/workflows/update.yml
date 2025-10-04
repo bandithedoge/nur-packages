@@ -13,13 +13,6 @@ jobs:
         with:
           ref: staging
 
-      - name: Restore cache
-        id: cache-restore
-        uses: nix-community/cache-nix-action/restore@v6
-        with:
-          primary-key: update-${{ runner.os }}
-          paths: ~/.local/share/nvfetcher
-
       - name: Setup Git user
         uses: fregante/setup-git-user@v2.0.2
 
@@ -30,6 +23,13 @@ jobs:
             keep-env-derivations = true
             keep-outputs = true
             accept-flake-config = true
+
+      - name: Restore cache
+        id: cache-restore
+        uses: nix-community/cache-nix-action/restore@v6
+        with:
+          primary-key: update-${{ runner.os }}
+          paths: ~/.local/share/nvfetcher
 
       - name: Update sources
         env:
