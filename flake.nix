@@ -89,11 +89,26 @@
             projectRootFile = "flake.nix";
             programs = {
               clang-format.enable = true;
-              nixfmt.enable = true;
-              prettier.enable = true;
+              nixfmt = {
+                enable = true;
+                excludes = [
+                  "_sources/*"
+                  "npins/*"
+                ];
+              };
+              prettier = {
+                enable = true;
+                excludes = [ "_sources/*" ];
+              };
               ruff-format.enable = true;
               shfmt.enable = true;
-              taplo.enable = true;
+              taplo = {
+                enable = true;
+                excludes = [
+                  "_sources/*"
+                  "npins/*"
+                ];
+              };
             };
           };
         };

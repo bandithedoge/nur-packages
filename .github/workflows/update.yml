@@ -51,7 +51,7 @@ jobs:
         with:
           primary-key: update-${{ runner.os }}
           paths: ~/.local/share/nvfetcher
-          gc-max-store-size: 9G
+          gc-max-store-size: 1G
           purge: true
 
       - name: Commit changes
