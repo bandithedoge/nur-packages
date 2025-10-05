@@ -1,17 +1,17 @@
 {
-    "vitalium-verb-bin": {
-        "cargoLocks": null,
-        "date": null,
-        "extract": null,
-        "name": "vitalium-verb-bin",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "name": null,
-            "sha256": "sha256-S7I1WIvqFa+HVvEfNeBShbSZoyOQxX4h1cvekyvDF5I=",
-            "type": "url",
-            "url": "https://github.com/BillyDM/vitalium-verb/releases/download/v1.3.0/vitaliumverb-1.3.0-ubuntu-22.04.zip"
-        },
-        "version": "1.3.0"
-    }
+  "vitalium-verb-bin": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "vitalium-verb-bin",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-S7I1WIvqFa+HVvEfNeBShbSZoyOQxX4h1cvekyvDF5I=",
+      "type": "url",
+      "url": "https://github.com/BillyDM/vitalium-verb/releases/download/v1.3.0/vitaliumverb-1.3.0-ubuntu-22.04.zip"
+    },
+    "version": "1.3.0"
+  }
 }
