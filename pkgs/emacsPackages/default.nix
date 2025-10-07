@@ -1,6 +1,6 @@
 { pkgs, ... }:
 let
-  sources = import ./npins;
+  sources = import ./npins { };
 in
 (pkgs.lib.makeExtensible (
   _:
