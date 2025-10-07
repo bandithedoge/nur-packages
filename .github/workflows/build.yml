@@ -41,7 +41,7 @@ jobs:
 
       - name: Build cacheable packages
         run: |
-          nix develop -c nix-fast-build \
+          nix develop .#build -c nix-fast-build \
             -f .#legacyPackages.x86_64-linux._CACHEABLE \
             --no-nom \
             --skip-cached \
@@ -54,7 +54,7 @@ jobs:
 
       - name: Build the rest
         run: |
-          nix develop -c nix-fast-build \
+          nix develop .#build -c nix-fast-build \
             -f .#legacyPackages.x86_64-linux._BUILDABLE \
             --no-nom \
             --skip-cached \

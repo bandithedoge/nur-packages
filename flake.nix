@@ -66,24 +66,36 @@
               inherit
                 (import "${inputs.cache-nix-action}/saveFromGC.nix" {
                   inherit pkgs inputs;
-                  derivations = (builtins.attrValues (pkgs.lib.filterAttrs (k: v: !(cacheable ? k)) buildable)) ++ [
-                    self'.devShells.default
-                  ];
+                  derivations = builtins.attrValues (pkgs.lib.filterAttrs (k: v: !(cacheable ? k)) buildable);
                 })
                 saveFromGC
                 ;
             };
 
-          devShells.default = pkgs.mkShell {
-            packages = with pkgs; [
-              (callPackage "${inputs.npins}/npins.nix" { })
-              inputs.mozilla-addons-to-nix.packages.${system}.default
-              lixPackageSets.git.nix-eval-jobs
-              lixPackageSets.git.nix-fast-build
-              node2nix
-              nushell
-              nvfetcher
-            ];
+          devShells = {
+            build = pkgs.mkShell {
+              packages = with pkgs.lixPackageSets.latest; [
+                nix-eval-jobs
+                nix-fast-build
+              ];
+            };
+
+            update = pkgs.mkShell {
+              packages = with pkgs; [
+                (callPackage "${inputs.npins}/npins.nix" { })
+                inputs.mozilla-addons-to-nix.packages.${system}.default
+                node2nix
+                nushell
+                nvfetcher
+              ];
+            };
+
+            default = pkgs.mkShell {
+              inputsFrom = with self'.devShells; [
+                build
+                update
+              ];
+            };
           };
 
           treefmt.config = {
