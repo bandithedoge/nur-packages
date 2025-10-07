@@ -5,6 +5,10 @@
     treefmt-nix.url = "github:numtide/treefmt-nix";
     flake-utils.url = "github:numtide/flake-utils";
 
+    npins = {
+      url = "github:andir/npins";
+      flake = false;
+    };
     mozilla-addons-to-nix.url = "sourcehut:~rycee/mozilla-addons-to-nix";
 
     cache-nix-action = {
@@ -71,18 +75,15 @@
             };
 
           devShells.default = pkgs.mkShell {
-            packages =
-              with pkgs;
-              with inputs;
-              [
-                lixPackageSets.git.nix-eval-jobs
-                lixPackageSets.git.nix-fast-build
-                mozilla-addons-to-nix.packages.${system}.default
-                node2nix
-                npins
-                nushell
-                nvfetcher
-              ];
+            packages = with pkgs; [
+              (callPackage "${inputs.npins}/npins.nix" {})
+              inputs.mozilla-addons-to-nix.packages.${system}.default
+              lixPackageSets.git.nix-eval-jobs
+              lixPackageSets.git.nix-fast-build
+              node2nix
+              nushell
+              nvfetcher
+            ];
           };
 
           treefmt.config = {

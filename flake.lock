@@ -172,6 +172,22 @@
         "type": "github"
       }
     },
+    "npins": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1759837690,
+        "narHash": "sha256-yCaqGejBcWoibCRj2vRrlj5uPI7lyCGS6ivCiGeKNSo=",
+        "owner": "andir",
+        "repo": "npins",
+        "rev": "1c1ebf233c30e14ff34472c609ded8eb988753d8",
+        "type": "github"
+      },
+      "original": {
+        "owner": "andir",
+        "repo": "npins",
+        "type": "github"
+      }
+    },
     "pre-commit-hooks": {
       "inputs": {
         "flake-compat": "flake-compat",
@@ -202,6 +218,7 @@
         "flake-utils": "flake-utils",
         "mozilla-addons-to-nix": "mozilla-addons-to-nix",
         "nixpkgs": "nixpkgs_2",
+        "npins": "npins",
         "treefmt-nix": "treefmt-nix"
       }
     },
