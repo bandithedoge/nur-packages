@@ -76,7 +76,7 @@
 
           devShells.default = pkgs.mkShell {
             packages = with pkgs; [
-              (callPackage "${inputs.npins}/npins.nix" {})
+              (callPackage "${inputs.npins}/npins.nix" { })
               inputs.mozilla-addons-to-nix.packages.${system}.default
               lixPackageSets.git.nix-eval-jobs
               lixPackageSets.git.nix-fast-build

@@ -1,22 +1,22 @@
 {
-    "ob-xf": {
-        "cargoLocks": null,
-        "date": "2025-10-07",
-        "extract": null,
-        "name": "ob-xf",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "deepClone": false,
-            "fetchSubmodules": true,
-            "leaveDotGit": false,
-            "name": null,
-            "rev": "8132cc9c2264b5b8567b019563f5fc892b13ed5b",
-            "sha256": "sha256-MkZaXeweng3Onhb+fdAkxJ0zPTuXf1JCiN2QINKipqM=",
-            "sparseCheckout": [],
-            "type": "git",
-            "url": "https://github.com/surge-synthesizer/OB-Xf"
-        },
-        "version": "8132cc9c2264b5b8567b019563f5fc892b13ed5b"
-    }
+  "ob-xf": {
+    "cargoLocks": null,
+    "date": "2025-10-07",
+    "extract": null,
+    "name": "ob-xf",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "deepClone": false,
+      "fetchSubmodules": true,
+      "leaveDotGit": false,
+      "name": null,
+      "rev": "8132cc9c2264b5b8567b019563f5fc892b13ed5b",
+      "sha256": "sha256-MkZaXeweng3Onhb+fdAkxJ0zPTuXf1JCiN2QINKipqM=",
+      "sparseCheckout": [],
+      "type": "git",
+      "url": "https://github.com/surge-synthesizer/OB-Xf"
+    },
+    "version": "8132cc9c2264b5b8567b019563f5fc892b13ed5b"
+  }
 }
