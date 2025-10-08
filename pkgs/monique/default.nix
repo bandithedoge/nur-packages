@@ -24,5 +24,6 @@ utils.juce.mkJucePackage {
       mit
     ];
     platforms = platforms.linux;
+    broken = true; # hash shenanigans
   };
 }

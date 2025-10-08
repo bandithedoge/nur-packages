@@ -11,7 +11,7 @@
       "submodules": false,
       "revision": "cab7803c4f0adc7fff9da6680f90110674bb7a22",
       "url": "https://github.com/jdtsmith/eglot-booster/archive/cab7803c4f0adc7fff9da6680f90110674bb7a22.tar.gz",
-      "hash": "11kb8n79p0d9bm3v3c5v0qmn6sqbzhppzxd4f9qrdy3h1anm0h65"
+      "hash": "sha256-xUBQrQpw+JZxcqT1fy/8C2tjKwa7sLFHXamBm45Fa4Y="
     },
     "eglot-ltex": {
       "type": "Git",
@@ -24,7 +24,7 @@
       "submodules": false,
       "revision": "6ad9b3e16eb10ab769cb8fd176c8e8e58189db7e",
       "url": "https://github.com/emacs-languagetool/eglot-ltex/archive/6ad9b3e16eb10ab769cb8fd176c8e8e58189db7e.tar.gz",
-      "hash": "11v2bc20m9nvsrj9ahcskzr1v49ms8y4s41p95izxlcgnz9sn1fd"
+      "hash": "sha256-zQWr07eP0f5jSTcQTTzSNZEd8p+aQZVk1tumCgRbYoc="
     },
     "eglot-x": {
       "type": "Git",
@@ -37,7 +37,7 @@
       "submodules": false,
       "revision": "8e872efd3d0b7779bde5b1e1d75c8e646a1f729f",
       "url": "https://github.com/nemethf/eglot-x/archive/8e872efd3d0b7779bde5b1e1d75c8e646a1f729f.tar.gz",
-      "hash": "0s2p22w0b5a3b97x99qybhfgicvkzkcma6lfbi0nda54v25a8skb"
+      "hash": "sha256-a2qkitikqGZBXI4aVdn8c7P4HFwep9RPWkOVBbgQV2g="
     },
     "eglot-yaml": {
       "type": "Git",
@@ -50,7 +50,7 @@
       "submodules": false,
       "revision": "df7fb0056fc124b215648e2e947b1441864ab444",
       "url": "https://github.com/yveszoundi/eglot-yaml/archive/df7fb0056fc124b215648e2e947b1441864ab444.tar.gz",
-      "hash": "1fs4b436nq6i1bn0b0hm4zhlslhvpw7gqlg9m0h8rbm594yq7hkn"
+      "hash": "sha256-dsKDPUmlrowgqOlR/A6/G1JN4ScVggXsCtFgawZZRLs="
     },
     "explain-pause-mode": {
       "type": "Git",
@@ -63,7 +63,7 @@
       "submodules": false,
       "revision": "ac3eb69f36f345506aad05a6d9bc3ef80d26914b",
       "url": "https://github.com/lastquestion/explain-pause-mode/archive/ac3eb69f36f345506aad05a6d9bc3ef80d26914b.tar.gz",
-      "hash": "10q6p2chxh4vqlammna5vkv6cdd4ml6wlxxwv2gmskvb9yfdhl78"
+      "hash": "sha256-6FDYnE9rT12f2Lx3yg2tpDVm9txF2VoVxZvADpm4BoM="
     },
     "once": {
       "type": "Git",
@@ -76,7 +76,7 @@
       "submodules": false,
       "revision": "a6f950c29c846a50018bc63695f24f611c1a58be",
       "url": "https://github.com/emacs-magus/once/archive/a6f950c29c846a50018bc63695f24f611c1a58be.tar.gz",
-      "hash": "1k1bnki9139fdgmvyn36hm7zbmhhlsxqr23hwldid32inpw66fll"
+      "hash": "sha256-lDpj+LVRjBYb5XCIjLumENb1T4VmWL/ray6NkOK0K8w="
     },
     "org-bars": {
       "type": "Git",
@@ -89,8 +89,8 @@
       "submodules": false,
       "revision": "59ff8976ce789c0c594fd4756cbeb5354b6178d2",
       "url": "https://github.com/tonyaldon/org-bars/archive/59ff8976ce789c0c594fd4756cbeb5354b6178d2.tar.gz",
-      "hash": "1lh36b86s0jmqvp363cw9z8zpx6qqn9hpni95q34qi9a41f36rwf"
+      "hash": "sha256-jmczXCAqRUwGLinaC5PF2PT70U+cDTPuxlUCbdAyA9I="
     }
   },
-  "version": 5
+  "version": 6
 }

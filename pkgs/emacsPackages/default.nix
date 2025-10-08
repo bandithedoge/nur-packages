@@ -1,17 +1,18 @@
 { pkgs, ... }:
 let
-  sources = import ./npins;
+  sources = import ./npins { };
 in
 (pkgs.lib.makeExtensible (
   _:
   pkgs.lib.attrsets.mapAttrs' (
-    name: src:
+    name: src':
     let
       sanitizedName = pkgs.lib.pipe name [
         (pkgs.lib.removeSuffix ".el")
         (builtins.replaceStrings [ "." ] [ "-" ])
         pkgs.lib.strings.sanitizeDerivationName
       ];
+      src = src' { inherit pkgs; };
     in
     pkgs.lib.attrsets.nameValuePair sanitizedName (
       pkgs.emacsPackages.melpaBuild {

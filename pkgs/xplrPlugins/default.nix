@@ -1,11 +1,14 @@
 { pkgs, ... }:
 let
-  sources = import ./npins;
+  sources = import ./npins { };
 in
 (pkgs.lib.makeExtensible (
   _:
   pkgs.lib.mapAttrs' (
-    name: src:
+    name: src':
+    let
+      src = src' { inherit pkgs; };
+    in
     pkgs.lib.nameValuePair (pkgs.lib.removeSuffix ".xplr" name) (
       pkgs.stdenv.mkDerivation {
         pname = name;

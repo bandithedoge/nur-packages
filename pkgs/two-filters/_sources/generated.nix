@@ -8,17 +8,17 @@
 {
   two-filters = {
     pname = "two-filters";
-    version = "c6cae0b7703976de26ef641dbfe4e3ab6dfcac19";
+    version = "1436c910d7d5ea90d003e7f427abcaa327a9cc5e";
     src = fetchgit {
       url = "https://github.com/baconpaul/two-filters";
-      rev = "c6cae0b7703976de26ef641dbfe4e3ab6dfcac19";
+      rev = "1436c910d7d5ea90d003e7f427abcaa327a9cc5e";
       fetchSubmodules = true;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-/xs7Z/Ln09ZMVEqyLkLcXuuHaW8DPYkWKggaQ2aibJY=";
+      sha256 = "sha256-scPjspMToRK1aZ4q5v3yGTZT9X3LGC2XdkX7ssqEZoM=";
     };
-    date = "2025-09-29";
+    date = "2025-10-07";
   };
   vst3sdk = {
     pname = "vst3sdk";

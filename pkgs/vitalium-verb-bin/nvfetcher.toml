@@ -1,4 +1,4 @@
 [vitalium-verb-bin]
 src.github = "BillyDM/vitalium-verb"
-fetch.url = "https://github.com/BillyDM/vitalium-verb/releases/download/v$ver/vitaliumverb-$ver-ubuntu-20.04.zip"
+fetch.url = "https://github.com/BillyDM/vitalium-verb/releases/download/v$ver/vitaliumverb-$ver-ubuntu-22.04.zip"
 src.prefix = "v"

@@ -13,13 +13,6 @@ jobs:
         with:
           ref: staging
 
-      - name: Cache nvfetcher
-        uses: actions/cache@v4
-        with:
-          path: |
-            ~/.local/share/nvfetcher
-          key: ${{ runner.os }}-nvfetcher
-
       - name: Setup Git user
         uses: fregante/setup-git-user@v2.0.2
 
@@ -31,6 +24,12 @@ jobs:
             keep-outputs = true
             accept-flake-config = true
 
+      - name: Setup Cachix
+        uses: cachix/cachix-action@v16
+        with:
+          name: bandithedoge
+          authToken: ${{ secrets.CACHIX_AUTH_TOKEN }}
+
       - name: Update sources
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -38,7 +37,7 @@ jobs:
           nix flake update --commit-lock-file
           echo -e '[keys]\ngithub = "${{ secrets.GITHUB_TOKEN }}"' > keyfile.toml
           chmod +x fetch.nu
-          nix develop -c ./fetch.nu --commit
+          nix develop .#update -c ./fetch.nu --commit
           rm keyfile.toml
           git add -A
 

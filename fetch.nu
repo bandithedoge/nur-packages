@@ -49,7 +49,6 @@ def main [
     --commit
 ] {
     if ($packages | is-empty) {
-        echo chuj
         (ls **/nvfetcher.toml) | each {|pkg|
             echo $pkg
             fetch ($pkg.name | path dirname) --commit=$commit

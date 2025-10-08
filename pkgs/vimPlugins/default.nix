@@ -1,12 +1,13 @@
 { pkgs, ... }:
 let
-  sources = import ./npins;
+  sources = import ./npins { };
 in
 (pkgs.lib.makeExtensible (
   _:
   pkgs.lib.attrsets.mapAttrs' (
-    name: src:
+    name: src':
     let
+      src = src' { inherit pkgs; };
       sanitizedName = builtins.replaceStrings [ "." ] [ "-" ] (
         pkgs.lib.strings.sanitizeDerivationName name
       );

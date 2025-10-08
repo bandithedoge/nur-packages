@@ -5,6 +5,10 @@
     treefmt-nix.url = "github:numtide/treefmt-nix";
     flake-utils.url = "github:numtide/flake-utils";
 
+    npins = {
+      url = "github:andir/npins";
+      flake = false;
+    };
     mozilla-addons-to-nix.url = "sourcehut:~rycee/mozilla-addons-to-nix";
 
     cache-nix-action = {
@@ -62,38 +66,62 @@
               inherit
                 (import "${inputs.cache-nix-action}/saveFromGC.nix" {
                   inherit pkgs inputs;
-                  derivations = (builtins.attrValues (pkgs.lib.filterAttrs (k: v: !(cacheable ? k)) buildable)) ++ [
-                    self'.devShells.default
-                  ];
+                  derivations = builtins.attrValues (pkgs.lib.filterAttrs (k: v: !(cacheable ? k)) buildable);
                 })
                 saveFromGC
                 ;
             };
 
-          devShells.default = pkgs.mkShell {
-            packages =
-              with pkgs;
-              with inputs;
-              [
-                lixPackageSets.git.nix-eval-jobs
-                lixPackageSets.git.nix-fast-build
-                mozilla-addons-to-nix.packages.${system}.default
+          devShells = {
+            build = pkgs.mkShell {
+              packages = with pkgs.lixPackageSets.latest; [
+                nix-eval-jobs
+                nix-fast-build
+              ];
+            };
+
+            update = pkgs.mkShell {
+              packages = with pkgs; [
+                (callPackage "${inputs.npins}/npins.nix" { })
+                inputs.mozilla-addons-to-nix.packages.${system}.default
                 node2nix
-                npins
                 nushell
                 nvfetcher
               ];
+            };
+
+            default = pkgs.mkShell {
+              inputsFrom = with self'.devShells; [
+                build
+                update
+              ];
+            };
           };
 
           treefmt.config = {
             projectRootFile = "flake.nix";
             programs = {
               clang-format.enable = true;
-              nixfmt.enable = true;
-              prettier.enable = true;
+              nixfmt = {
+                enable = true;
+                excludes = [
+                  "_sources/*"
+                  "npins/*"
+                ];
+              };
+              prettier = {
+                enable = true;
+                excludes = [ "_sources/*" ];
+              };
               ruff-format.enable = true;
               shfmt.enable = true;
-              taplo.enable = true;
+              taplo = {
+                enable = true;
+                excludes = [
+                  "_sources/*"
+                  "npins/*"
+                ];
+              };
             };
           };
         };

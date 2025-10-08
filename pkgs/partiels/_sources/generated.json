@@ -13,12 +13,12 @@
       "name": null,
       "owner": "Ircam-Partiels",
       "repo": "Partiels",
-      "rev": "2.1.1",
-      "sha256": "sha256-Wgppn3qmfMIBjnTCrCYAw3apMs6PvVXqzGzmqja+/M8=",
+      "rev": "2.2.0",
+      "sha256": "sha256-YJ3x3XdrTfxFvRqwZ/OrrhYEd8P9FeAP4EmPNIPUTo0=",
       "sparseCheckout": [],
       "type": "github"
     },
-    "version": "2.1.1"
+    "version": "2.2.0"
   },
   "vamp-plugin-sdk": {
     "cargoLocks": null,
