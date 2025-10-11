@@ -1,44 +1,44 @@
 {
-  "juce": {
-    "cargoLocks": null,
-    "date": null,
-    "extract": null,
-    "name": "juce",
-    "passthru": null,
-    "pinned": false,
-    "src": {
-      "deepClone": false,
-      "fetchSubmodules": false,
-      "leaveDotGit": false,
-      "name": null,
-      "owner": "juce-framework",
-      "repo": "JUCE",
-      "rev": "8.0.8",
-      "sha256": "sha256-kp3rMaHWBbEh4UaRMxcLo/DiSJV942OY+LYxh6W7dFc=",
-      "sparseCheckout": [],
-      "type": "github"
+    "juce": {
+        "cargoLocks": null,
+        "date": null,
+        "extract": null,
+        "name": "juce",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "juce-framework",
+            "repo": "JUCE",
+            "rev": "8.0.8",
+            "sha256": "sha256-kp3rMaHWBbEh4UaRMxcLo/DiSJV942OY+LYxh6W7dFc=",
+            "sparseCheckout": [],
+            "type": "github"
+        },
+        "version": "8.0.8"
     },
-    "version": "8.0.8"
-  },
-  "perceptomap": {
-    "cargoLocks": null,
-    "date": null,
-    "extract": null,
-    "name": "perceptomap",
-    "passthru": null,
-    "pinned": false,
-    "src": {
-      "deepClone": false,
-      "fetchSubmodules": false,
-      "leaveDotGit": false,
-      "name": null,
-      "owner": "hqrrr",
-      "repo": "PerceptoMap",
-      "rev": "v0.11",
-      "sha256": "sha256-wYpBlr74U0xM3f2aqsVqymSRNqK/0RbAuvg7I+Q/AHo=",
-      "sparseCheckout": [],
-      "type": "github"
-    },
-    "version": "v0.11"
-  }
+    "perceptomap": {
+        "cargoLocks": null,
+        "date": null,
+        "extract": null,
+        "name": "perceptomap",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "hqrrr",
+            "repo": "PerceptoMap",
+            "rev": "v0.12",
+            "sha256": "sha256-ekdh15KiXlkNKck5m0dAZDPfLZj+W0T2ez+FJRXHdXU=",
+            "sparseCheckout": [],
+            "type": "github"
+        },
+        "version": "v0.12"
+    }
 }
