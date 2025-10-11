@@ -6,6 +6,7 @@
 }:
 pythonPkgs.buildPythonPackage {
   inherit (sources.py-slvs) pname version src;
+  patches = [ ./cmake_policy_version_minimum.patch ];
   pyproject = true;
 
   nativeBuildInputs = with pkgs; [

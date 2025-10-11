@@ -38,7 +38,11 @@ rec {
 
         buildInputs = commonBuildInputs ++ (args.buildInputs or [ ]);
 
-        cmakeFlags = [ "-DCOPY_PLUGIN_AFTER_BUILD=FALSE" ] ++ (args.cmakeFlags or [ ]);
+        cmakeFlags = [
+          "-DCOPY_PLUGIN_AFTER_BUILD=FALSE"
+          "-DCMAKE_POLICY_VERSION_MINIMUM=3.5"
+        ]
+        ++ (args.cmakeFlags or [ ]);
 
         postPatch = ''
           for f in $(find -name CMakeLists.txt); do
