@@ -1,62 +1,62 @@
 {
-    "proton-cachyos": {
-        "cargoLocks": null,
-        "date": null,
-        "extract": null,
-        "name": "proton-cachyos",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "name": null,
-            "sha256": "sha256-+XlqepGWyF4kfpxHvU48+6EyRaDsLUOOmWAHgVAC2pk=",
-            "type": "url",
-            "url": "https://github.com/CachyOS/proton-cachyos/releases/download/cachyos-10.0-20251006-slr/proton-cachyos-10.0-20251006-slr-x86_64_v3.tar.xz"
-        },
-        "version": "cachyos-10.0-20251006-slr"
+  "proton-cachyos": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "proton-cachyos",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-+XlqepGWyF4kfpxHvU48+6EyRaDsLUOOmWAHgVAC2pk=",
+      "type": "url",
+      "url": "https://github.com/CachyOS/proton-cachyos/releases/download/cachyos-10.0-20251006-slr/proton-cachyos-10.0-20251006-slr-x86_64_v3.tar.xz"
     },
-    "proton-ge": {
-        "cargoLocks": null,
-        "date": null,
-        "extract": null,
-        "name": "proton-ge",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "name": null,
-            "sha256": "sha256-SgMG0tNfweIubdgPepiC0ZB3N2gjOeIj+DhAhQ5PMUE=",
-            "type": "url",
-            "url": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton10-17/GE-Proton10-17.tar.gz"
-        },
-        "version": "GE-Proton10-17"
+    "version": "cachyos-10.0-20251006-slr"
+  },
+  "proton-ge": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "proton-ge",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-SgMG0tNfweIubdgPepiC0ZB3N2gjOeIj+DhAhQ5PMUE=",
+      "type": "url",
+      "url": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton10-17/GE-Proton10-17.tar.gz"
     },
-    "proton-sarek": {
-        "cargoLocks": null,
-        "date": null,
-        "extract": null,
-        "name": "proton-sarek",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "name": null,
-            "sha256": "sha256-4CsQ08bYdKepWv2nMhDVi9BEmS9mGqMp4sqXxdoLGew=",
-            "type": "url",
-            "url": "https://github.com/pythonlover02/Proton-Sarek/releases/download/Proton-Sarek10-17/Proton-Sarek10-17.tar.gz"
-        },
-        "version": "Proton-Sarek10-17"
+    "version": "GE-Proton10-17"
+  },
+  "proton-sarek": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "proton-sarek",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-4CsQ08bYdKepWv2nMhDVi9BEmS9mGqMp4sqXxdoLGew=",
+      "type": "url",
+      "url": "https://github.com/pythonlover02/Proton-Sarek/releases/download/Proton-Sarek10-17/Proton-Sarek10-17.tar.gz"
     },
-    "proton-sarek-async": {
-        "cargoLocks": null,
-        "date": null,
-        "extract": null,
-        "name": "proton-sarek-async",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "name": null,
-            "sha256": "sha256-mDrhl4kY0lD1TX06A/oJ5QXtbjT+Q+He+QopmYQTaH8=",
-            "type": "url",
-            "url": "https://github.com/pythonlover02/Proton-Sarek/releases/download/Proton-Sarek10-17/Proton-Sarek10-17-async.tar.gz"
-        },
-        "version": "Proton-Sarek10-17"
-    }
+    "version": "Proton-Sarek10-17"
+  },
+  "proton-sarek-async": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "proton-sarek-async",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-mDrhl4kY0lD1TX06A/oJ5QXtbjT+Q+He+QopmYQTaH8=",
+      "type": "url",
+      "url": "https://github.com/pythonlover02/Proton-Sarek/releases/download/Proton-Sarek10-17/Proton-Sarek10-17-async.tar.gz"
+    },
+    "version": "Proton-Sarek10-17"
+  }
 }
