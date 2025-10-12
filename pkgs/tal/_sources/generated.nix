@@ -51,7 +51,7 @@
     version = "latest";
     src = fetchurl {
       url = "https://tal-software.com/downloads/plugins/TAL-EQ_64_linux.zip";
-      sha256 = "sha256-2M2sNf+RPkzmBu+0o3gYYw4/tgc6sa79oX6bcTWQIIA=";
+      sha256 = "sha256-WnyJdefa5rqBnSJyybBMbKz61eIKUQZDI30v4pw935M=";
     };
   };
   filter-2 = {

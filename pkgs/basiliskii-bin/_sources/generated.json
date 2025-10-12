@@ -8,10 +8,10 @@
     "pinned": false,
     "src": {
       "name": null,
-      "sha256": "sha256-+imLGXYqCBcCOk0ouIseEPEsnyRkstNl8Gw/A6SibiI=",
+      "sha256": "sha256-o5L5JzIS+oxAypBy3t7kQtWJX58tAmpx9yRwBnQKXSc=",
       "type": "url",
-      "url": "https://github.com/Korkman/macemu-appimage-builder/releases/download/2025-09-11/BasiliskII-x86_64.AppImage"
+      "url": "https://github.com/Korkman/macemu-appimage-builder/releases/download/2025-10-11/BasiliskII-x86_64.AppImage"
     },
-    "version": "2025-09-11"
+    "version": "2025-10-11"
   }
 }

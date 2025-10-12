@@ -17,6 +17,8 @@ pkgs.stdenv.mkDerivation {
     xorg.libX11
   ];
 
+  cmakeFlags = [ "-DCMAKE_POLICY_VERSION_MINIMUM=3.5" ];
+
   postPatch = ''
     patchShebangs modules/dpf/utils/res2c.py
   '';

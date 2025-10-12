@@ -61,7 +61,7 @@
   },
   "hammer-and-meiszel": {
     "cargoLocks": null,
-    "date": "2025-04-29",
+    "date": "2025-10-10",
     "extract": null,
     "name": "hammer-and-meiszel",
     "passthru": null,
@@ -71,13 +71,13 @@
       "fetchSubmodules": false,
       "leaveDotGit": false,
       "name": null,
-      "rev": "c9de84a00c7386f9b6c8e17af8bd7a38fd1e9054",
-      "sha256": "sha256-jVC8g5/iLSjP7CCmKwRNnw2eKIN7UfE7KmpzATzUljQ=",
+      "rev": "8ab4654287809054a6e28a17c8d6bb4584f9f284",
+      "sha256": "sha256-1tY/vGJnpxs+DVyALIZ6gja4/MhNXkLZLRFSgsaepXk=",
       "sparseCheckout": [],
       "type": "git",
       "url": "https://github.com/Mrugalla/Hammer-and-Meiszel"
     },
-    "version": "c9de84a00c7386f9b6c8e17af8bd7a38fd1e9054"
+    "version": "8ab4654287809054a6e28a17c8d6bb4584f9f284"
   },
   "jif": {
     "cargoLocks": null,

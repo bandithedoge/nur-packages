@@ -23,6 +23,7 @@ pkgs.stdenv.mkDerivation {
     "-DRTMIDI_SDK_ROOT=${pkgs.rtmidi.src}"
     "-DGIT_COMMIT_HASH=${sources.six-sines.version}"
     "-DCOPY_AFTER_BUILD=FALSE"
+    "-DCMAKE_POLICY_VERSION_MINIMUM=3.5"
   ];
 
   hardeningDisable = [ "format" ];
