@@ -105,6 +105,13 @@ in
     };
   };
 
+  bazillecm = mkUhe "BazilleCM" {
+    meta = {
+      homepage = "https://u-he.com/products/bazillecm/";
+      description = "Little modular monster";
+    };
+  };
+
   colourcopy = mkUhe "ColourCopy" {
     meta = {
       homepage = "https://u-he.com/products/colourcopy/";
@@ -192,8 +199,14 @@ in
     };
   };
 
+  tyrelln6 = mkUhe "TyrellN6" {
+    meta = {
+      homepage = "https://u-he.com/products/tyrelln6/";
+      description = "A classic racer";
+    };
+  };
+
   uhbik = mkUhe "Uhbik" {
-    clap = false;
     meta = {
       homepage = "https://u-he.com/products/uhbik/";
       description = "Nine subtle to spectacular effects";
@@ -226,5 +239,12 @@ in
         unzip -o "$soundset" -d $out/libexec/Zebra2
       done
     '';
+  };
+
+  zebracm = mkUhe "ZebraCM" {
+    meta = {
+      homepage = "https://u-he.com/products/zebracm/";
+      description = "Baby zebra";
+    };
   };
 }
