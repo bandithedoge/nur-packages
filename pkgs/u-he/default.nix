@@ -193,7 +193,6 @@ in
   };
 
   uhbik = mkUhe "Uhbik" {
-    clap = false;
     meta = {
       homepage = "https://u-he.com/products/uhbik/";
       description = "Nine subtle to spectacular effects";
