@@ -17,6 +17,14 @@
       sha256 = "sha256-dpvyuENTQrvRR76SZd7Lm21azs3gAbYux58q2LL8K4Y=";
     };
   };
+  BazilleCM = {
+    pname = "BazilleCM";
+    version = "101_12185";
+    src = fetchTarball {
+      url = "https://uhe-dl.b-cdn.net/releases/BazilleCM_101_12185_Linux.tar.xz";
+      sha256 = "sha256-re7+ZfN7L+USFPoLE+lG3jR8smvBfXdE/5zppqReO5I=";
+    };
+  };
   ColourCopy = {
     pname = "ColourCopy";
     version = "102_16742";
@@ -113,6 +121,14 @@
       sha256 = "sha256-OK2HwnKNuvjJSy9siHNpBA21RHH9Srm/SnrcRfIjStQ=";
     };
   };
+  TyrellN6 = {
+    pname = "TyrellN6";
+    version = "300_public_beta_16976";
+    src = fetchTarball {
+      url = "https://uhe-dl.b-cdn.net/releases/TyrellN6_300_public_beta_16976_Linux.tar.xz";
+      sha256 = "sha256-mg+5BJy9whksEx41lLdw8I9GuJ0JrJSjWwffJRdLpsY=";
+    };
+  };
   Uhbik = {
     pname = "Uhbik";
     version = "200_19684";
@@ -127,6 +143,14 @@
     src = fetchTarball {
       url = "https://uhe-dl.b-cdn.net/releases/Zebra_Legacy_294_16765_Linux.zip";
       sha256 = "sha256-etzkLGpw9yRkgC5O0+nw0LC+Sb230Cm69y4rEF9FxCo=";
+    };
+  };
+  ZebraCM = {
+    pname = "ZebraCM";
+    version = "111_12185";
+    src = fetchTarball {
+      url = "https://uhe-dl.b-cdn.net/releases/ZebraCM_111_12185_Linux.tar.xz";
+      sha256 = "sha256-jk9TKleEqjVNtaq/kNt+rw7rTgAOONYJXifYZ1vyq9U=";
     };
   };
   patchelf-raphi = {

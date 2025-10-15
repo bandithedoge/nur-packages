@@ -14,6 +14,12 @@ src.regex = "Bazille_(\\d+_\\d+)"
 fetch.tarball = "https://uhe-dl.b-cdn.net/releases/Bazille_$ver_Linux.tar.xz"
 fetch.force = true
 
+[BazilleCM]
+src.webpage = "https://uhe-dl.b-cdn.net/releases/"
+src.regex = "BazilleCM_(\\d+_\\d+)"
+fetch.tarball = "https://uhe-dl.b-cdn.net/releases/BazilleCM_$ver_Linux.tar.xz"
+fetch.force = true
+
 [ColourCopy]
 src.webpage = "https://uhe-dl.b-cdn.net/releases/"
 src.regex = "ColourCopy_(\\d+_\\d+)"
@@ -86,6 +92,12 @@ src.regex = "Twangstrom_(\\d+_\\d+)"
 fetch.tarball = "https://uhe-dl.b-cdn.net/releases/Twangstrom_$ver_Linux.tar.xz"
 fetch.force = true
 
+[TyrellN6]
+src.webpage = "https://uhe-dl.b-cdn.net/releases/"
+src.regex = "TyrellN6_(\\d+_public_beta_\\d+)"
+fetch.tarball = "https://uhe-dl.b-cdn.net/releases/TyrellN6_$ver_Linux.tar.xz"
+fetch.force = true
+
 [Uhbik]
 src.webpage = "https://uhe-dl.b-cdn.net/releases/"
 src.regex = "Uhbik_(2\\d+_\\d+)"
@@ -96,4 +108,10 @@ fetch.force = true
 src.webpage = "https://uhe-dl.b-cdn.net/releases/"
 src.regex = "Zebra_Legacy_(\\d+_\\d+)"
 fetch.tarball = "https://uhe-dl.b-cdn.net/releases/Zebra_Legacy_$ver_Linux.zip"
+fetch.force = true
+
+[ZebraCM]
+src.webpage = "https://uhe-dl.b-cdn.net/releases/"
+src.regex = "ZebraCM_(\\d+_\\d+)"
+fetch.tarball = "https://uhe-dl.b-cdn.net/releases/ZebraCM_$ver_Linux.tar.xz"
 fetch.force = true

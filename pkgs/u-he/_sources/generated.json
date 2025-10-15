@@ -27,6 +27,20 @@
         },
         "version": "113_16518"
     },
+    "BazilleCM": {
+        "cargoLocks": null,
+        "date": null,
+        "extract": null,
+        "name": "BazilleCM",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "sha256": "sha256-re7+ZfN7L+USFPoLE+lG3jR8smvBfXdE/5zppqReO5I=",
+            "type": "tarball",
+            "url": "https://uhe-dl.b-cdn.net/releases/BazilleCM_101_12185_Linux.tar.xz"
+        },
+        "version": "101_12185"
+    },
     "ColourCopy": {
         "cargoLocks": null,
         "date": null,
@@ -195,6 +209,20 @@
         },
         "version": "102_16742"
     },
+    "TyrellN6": {
+        "cargoLocks": null,
+        "date": null,
+        "extract": null,
+        "name": "TyrellN6",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "sha256": "sha256-mg+5BJy9whksEx41lLdw8I9GuJ0JrJSjWwffJRdLpsY=",
+            "type": "tarball",
+            "url": "https://uhe-dl.b-cdn.net/releases/TyrellN6_300_public_beta_16976_Linux.tar.xz"
+        },
+        "version": "300_public_beta_16976"
+    },
     "Uhbik": {
         "cargoLocks": null,
         "date": null,
@@ -222,6 +250,20 @@
             "url": "https://uhe-dl.b-cdn.net/releases/Zebra_Legacy_294_16765_Linux.zip"
         },
         "version": "294_16765"
+    },
+    "ZebraCM": {
+        "cargoLocks": null,
+        "date": null,
+        "extract": null,
+        "name": "ZebraCM",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "sha256": "sha256-jk9TKleEqjVNtaq/kNt+rw7rTgAOONYJXifYZ1vyq9U=",
+            "type": "tarball",
+            "url": "https://uhe-dl.b-cdn.net/releases/ZebraCM_111_12185_Linux.tar.xz"
+        },
+        "version": "111_12185"
     },
     "patchelf-raphi": {
         "cargoLocks": null,
