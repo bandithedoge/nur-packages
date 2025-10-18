@@ -77,12 +77,11 @@ jobs:
           paths: "result-*.xml"
 
       - name: Merge into master
-        uses: everlytic/branch-merge@1.1.5
-        with:
-          github_token: ${{ github.token }}
-          source_ref: ${{ github.ref }}
-          target_branch: master
-          commit_message_template: "Merge updates"
+        run: |
+          git checkout master
+          git pull
+          git rebase staging
+          git push
 
       - name: Trigger NUR update
         run: curl -XPOST "https://nur-update.nix-community.org/update?repo=bandithedoge"
