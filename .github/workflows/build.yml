@@ -80,8 +80,7 @@ jobs:
 
       - name: Merge into master
         run: |
-          git checkout master
-          git pull
+          git checkout origin/master
           git rebase staging
           git push
 
