@@ -100,7 +100,7 @@ fetch.force = true
 
 [Uhbik]
 src.webpage = "https://uhe-dl.b-cdn.net/releases/"
-src.regex = "Uhbik_(2\\d+_\\d+)"
+src.regex = "Uhbik_(\\d+_\\d+)"
 fetch.tarball = "https://uhe-dl.b-cdn.net/releases/Uhbik_$ver_Linux.tar.xz"
 fetch.force = true
 
