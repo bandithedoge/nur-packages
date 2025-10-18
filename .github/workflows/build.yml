@@ -37,7 +37,9 @@ jobs:
           primary-key: build-${{ runner.os }}
 
       - name: Setup Git user
-        uses: fregante/setup-git-user@v2.0.2
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
 
       - name: Build cacheable packages
         run: |
