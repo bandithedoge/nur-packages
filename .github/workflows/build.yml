@@ -83,6 +83,7 @@ jobs:
         run: |
           git checkout origin/master
           git rebase staging
+          git pull origin master
           git push origin HEAD:master
 
       - name: Trigger NUR update
