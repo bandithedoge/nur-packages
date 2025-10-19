@@ -83,7 +83,7 @@ jobs:
         run: |
           git checkout origin/master
           git rebase staging
-          git push
+          git push origin HEAD:master
 
       - name: Trigger NUR update
         run: curl -XPOST "https://nur-update.nix-community.org/update?repo=bandithedoge"
