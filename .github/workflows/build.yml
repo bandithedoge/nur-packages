@@ -81,10 +81,9 @@ jobs:
 
       - name: Merge into master
         run: |
-          git checkout origin/master
+          git checkout master
           git rebase staging
-          git pull origin master
-          git push origin HEAD:master
+          git push
 
       - name: Trigger NUR update
         run: curl -XPOST "https://nur-update.nix-community.org/update?repo=bandithedoge"
