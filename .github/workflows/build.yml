@@ -83,7 +83,7 @@ jobs:
         uses: everlytic/branch-merge@1.1.5
         with:
           github_token: ${{ github.token }}
-          source_ref: ${{ github.ref }}
+          source_ref: staging
           target_branch: master
           commit_message_template: "Merge updates"
 
