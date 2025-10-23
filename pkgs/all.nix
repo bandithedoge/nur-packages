@@ -128,7 +128,6 @@ in
   vgmtrans = callPackage' ./vgmtrans;
   vimPlugins = callPackages' ./vimPlugins;
   vitalium-verb-bin = callPackage' ./vitalium-verb-bin;
-  vkdoom = callPackage' ./vkdoom;
   waterfox-bin = callPackage' ./waterfox-bin;
   wavetable-bin = callPackage' ./wavetable-bin;
   whisper-vamp-plugin-bin = callPackage' ./whisper-vamp-plugin-bin;
