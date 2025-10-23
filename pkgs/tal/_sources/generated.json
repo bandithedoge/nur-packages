@@ -83,7 +83,7 @@
     "pinned": false,
     "src": {
       "name": null,
-      "sha256": "sha256-WnyJdefa5rqBnSJyybBMbKz61eIKUQZDI30v4pw935M=",
+      "sha256": "sha256-HoSBVPvg48PQXwiVBAX00eqLU7+WKulNpHcHc3HcAIM=",
       "type": "url",
       "url": "https://tal-software.com/downloads/plugins/TAL-EQ_64_linux.zip"
     },
@@ -173,7 +173,7 @@
     "pinned": false,
     "src": {
       "name": null,
-      "sha256": "sha256-wcwG3WLoldwSsi3JgV6n4cjl7cLzvDCyP3kDcBUpWdM=",
+      "sha256": "sha256-sGSpVwds+QHB4nUG6dBKt5HKrc3o+GUxSav9NhWoyH0=",
       "type": "url",
       "url": "https://tal-software.com/downloads/plugins/TAL-Pha_64_linux.zip"
     },
