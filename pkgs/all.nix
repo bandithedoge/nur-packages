@@ -123,6 +123,7 @@ in
   u-he = callPackages' ./u-he;
   uhhyou = callPackage' ./uhhyou;
   unplugred = callPackage' ./unplugred;
+  uzdoom = callPackage' ./uzdoom;
   valentine = callPackage' ./valentine;
   venn = callPackages' ./venn;
   vgmtrans = callPackage' ./vgmtrans;
