@@ -1,22 +1,22 @@
 {
-  "propertree": {
-    "cargoLocks": null,
-    "date": "2025-09-27",
-    "extract": null,
-    "name": "propertree",
-    "passthru": null,
-    "pinned": false,
-    "src": {
-      "deepClone": false,
-      "fetchSubmodules": false,
-      "leaveDotGit": false,
-      "name": null,
-      "rev": "7cd845d9d133bca9e16fd9734d33efa8fc5eb8d9",
-      "sha256": "sha256-VaCQZbItyihb5doMm0DlKjevRxqoE+JCcmY38RzlgkA=",
-      "sparseCheckout": [],
-      "type": "git",
-      "url": "https://github.com/corpnewt/ProperTree"
-    },
-    "version": "7cd845d9d133bca9e16fd9734d33efa8fc5eb8d9"
-  }
+    "propertree": {
+        "cargoLocks": null,
+        "date": "2025-10-24",
+        "extract": null,
+        "name": "propertree",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "rev": "a9a4108768338ad20c2fc1a1fe2422aff463017f",
+            "sha256": "sha256-t5bFjRESH06r3VsPU6PtQh5AoqDwRlaDtc5eXCA9PcY=",
+            "sparseCheckout": [],
+            "type": "git",
+            "url": "https://github.com/corpnewt/ProperTree"
+        },
+        "version": "a9a4108768338ad20c2fc1a1fe2422aff463017f"
+    }
 }
