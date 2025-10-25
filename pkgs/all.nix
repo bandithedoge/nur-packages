@@ -123,12 +123,12 @@ in
   u-he = callPackages' ./u-he;
   uhhyou = callPackage' ./uhhyou;
   unplugred = callPackage' ./unplugred;
+  uzdoom = callPackage' ./uzdoom;
   valentine = callPackage' ./valentine;
   venn = callPackages' ./venn;
   vgmtrans = callPackage' ./vgmtrans;
   vimPlugins = callPackages' ./vimPlugins;
   vitalium-verb-bin = callPackage' ./vitalium-verb-bin;
-  vkdoom = callPackage' ./vkdoom;
   waterfox-bin = callPackage' ./waterfox-bin;
   wavetable-bin = callPackage' ./wavetable-bin;
   whisper-vamp-plugin-bin = callPackage' ./whisper-vamp-plugin-bin;

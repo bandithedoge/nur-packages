@@ -51,7 +51,7 @@
     version = "latest";
     src = fetchurl {
       url = "https://tal-software.com/downloads/plugins/TAL-EQ_64_linux.zip";
-      sha256 = "sha256-WnyJdefa5rqBnSJyybBMbKz61eIKUQZDI30v4pw935M=";
+      sha256 = "sha256-HoSBVPvg48PQXwiVBAX00eqLU7+WKulNpHcHc3HcAIM=";
     };
   };
   filter-2 = {
@@ -99,7 +99,7 @@
     version = "latest";
     src = fetchurl {
       url = "https://tal-software.com/downloads/plugins/TAL-Pha_64_linux.zip";
-      sha256 = "sha256-wcwG3WLoldwSsi3JgV6n4cjl7cLzvDCyP3kDcBUpWdM=";
+      sha256 = "sha256-sGSpVwds+QHB4nUG6dBKt5HKrc3o+GUxSav9NhWoyH0=";
     };
   };
   reverb-4 = {

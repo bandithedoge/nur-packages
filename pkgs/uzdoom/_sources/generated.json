@@ -1,9 +1,9 @@
 {
-  "propertree": {
+  "uzdoom": {
     "cargoLocks": null,
     "date": "2025-10-24",
     "extract": null,
-    "name": "propertree",
+    "name": "uzdoom",
     "passthru": null,
     "pinned": false,
     "src": {
@@ -11,12 +11,12 @@
       "fetchSubmodules": false,
       "leaveDotGit": false,
       "name": null,
-      "rev": "a9a4108768338ad20c2fc1a1fe2422aff463017f",
-      "sha256": "sha256-t5bFjRESH06r3VsPU6PtQh5AoqDwRlaDtc5eXCA9PcY=",
+      "rev": "f6883d62908d00180a65cac8920e66b4a8379b1c",
+      "sha256": "sha256-mGWaf7wU8OGdxzwlOkGZ+Sv+YhD2hAuOBQmO1r7l96Q=",
       "sparseCheckout": [],
       "type": "git",
-      "url": "https://github.com/corpnewt/ProperTree"
+      "url": "https://github.com/UZDoom/UZDoom"
     },
-    "version": "a9a4108768338ad20c2fc1a1fe2422aff463017f"
+    "version": "f6883d62908d00180a65cac8920e66b4a8379b1c"
   }
 }

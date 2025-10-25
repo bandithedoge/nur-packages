@@ -21,6 +21,7 @@ jobs:
         uses: actions/checkout@v5
         with:
           ref: staging
+          fetch-depth: 0
 
       - name: Install Lix
         uses: samueldr/lix-gha-installer-action@latest
@@ -37,7 +38,9 @@ jobs:
           primary-key: build-${{ runner.os }}
 
       - name: Setup Git user
-        uses: fregante/setup-git-user@v2.0.2
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
 
       - name: Build cacheable packages
         run: |
@@ -80,7 +83,7 @@ jobs:
         uses: everlytic/branch-merge@1.1.5
         with:
           github_token: ${{ github.token }}
-          source_ref: ${{ github.ref }}
+          source_ref: staging
           target_branch: master
           commit_message_template: "Merge updates"
 

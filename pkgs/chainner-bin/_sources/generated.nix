@@ -8,18 +8,18 @@
 {
   chainner-bin-nightly = {
     pname = "chainner-bin-nightly";
-    version = "2025-05-30";
+    version = "2025-10-24";
     src = fetchurl {
-      url = "https://github.com/chaiNNer-org/chaiNNer-nightly/releases/download/2025-05-30/chaiNNer-ubuntu-latest-nightly.2025-05-30.zip";
-      sha256 = "sha256-ZXL7zPU6lxmbdTbPbFhXh8ZmPK5m8fuLBsRymHBKqzU=";
+      url = "https://github.com/chaiNNer-org/chaiNNer-nightly/releases/download/2025-10-24/chaiNNer-ubuntu-latest-nightly.2025-10-24.zip";
+      sha256 = "sha256-p8dHDB0O+mwmtREOPjrk/J856DPaUEM85UMb/wS1Yvc=";
     };
   };
   chainner-bin-stable = {
     pname = "chainner-bin-stable";
-    version = "0.24.1";
+    version = "0.25.1";
     src = fetchurl {
-      url = "https://github.com/chaiNNer-org/chaiNNer/releases/download/v0.24.1/chaiNNer-linux-x64-0.24.1.zip";
-      sha256 = "sha256-WwTkJtN8K3B39XfLHJBn0akGU8wcr4dolDMx9MekesE=";
+      url = "https://github.com/chaiNNer-org/chaiNNer/releases/download/v0.25.1/chaiNNer-linux-x64-0.25.1-portable.zip";
+      sha256 = "sha256-BFl4S/C8veI/DV+ntesoUvAc3s1q8+LwFIEE3VuDyyU=";
     };
   };
 }

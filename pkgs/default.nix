@@ -18,3 +18,6 @@ pkgs.lib.recursiveUpdate
         pkgs
     ) (import ./_upstreamed.nix)
   )
+// {
+  vkdoom = throw "VKDoom has been merged into GZDoom";
+}

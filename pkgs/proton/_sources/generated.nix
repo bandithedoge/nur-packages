@@ -8,18 +8,18 @@
 {
   proton-cachyos = {
     pname = "proton-cachyos";
-    version = "cachyos-10.0-20251006-slr";
+    version = "cachyos-10.0-20251017-slr";
     src = fetchurl {
-      url = "https://github.com/CachyOS/proton-cachyos/releases/download/cachyos-10.0-20251006-slr/proton-cachyos-10.0-20251006-slr-x86_64_v3.tar.xz";
-      sha256 = "sha256-+XlqepGWyF4kfpxHvU48+6EyRaDsLUOOmWAHgVAC2pk=";
+      url = "https://github.com/CachyOS/proton-cachyos/releases/download/cachyos-10.0-20251017-slr/proton-cachyos-10.0-20251017-slr-x86_64_v3.tar.xz";
+      sha256 = "sha256-oCAy+EZieMd0dcO7Z16jjIIzr6kwTQHAhVr5K3D30Qk=";
     };
   };
   proton-ge = {
     pname = "proton-ge";
-    version = "GE-Proton10-20";
+    version = "GE-Proton10-21";
     src = fetchurl {
-      url = "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton10-20/GE-Proton10-20.tar.gz";
-      sha256 = "sha256-IUvsEZmG4cqzy606Keh6NQbCI5RJr0mxS0EEcJanfoA=";
+      url = "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton10-21/GE-Proton10-21.tar.gz";
+      sha256 = "sha256-vMBTKQ38uUzT+I3cZ9lssEIaCNqOxIVUz4qfKH9ptAs=";
     };
   };
   proton-sarek = {

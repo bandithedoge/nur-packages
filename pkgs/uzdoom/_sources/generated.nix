@@ -6,17 +6,17 @@
   dockerTools,
 }:
 {
-  propertree = {
-    pname = "propertree";
-    version = "a9a4108768338ad20c2fc1a1fe2422aff463017f";
+  uzdoom = {
+    pname = "uzdoom";
+    version = "f6883d62908d00180a65cac8920e66b4a8379b1c";
     src = fetchgit {
-      url = "https://github.com/corpnewt/ProperTree";
-      rev = "a9a4108768338ad20c2fc1a1fe2422aff463017f";
+      url = "https://github.com/UZDoom/UZDoom";
+      rev = "f6883d62908d00180a65cac8920e66b4a8379b1c";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-t5bFjRESH06r3VsPU6PtQh5AoqDwRlaDtc5eXCA9PcY=";
+      sha256 = "sha256-mGWaf7wU8OGdxzwlOkGZ+Sv+YhD2hAuOBQmO1r7l96Q=";
     };
     date = "2025-10-24";
   };
