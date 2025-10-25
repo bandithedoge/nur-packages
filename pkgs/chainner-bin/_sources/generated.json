@@ -1,32 +1,32 @@
 {
-  "chainner-bin-nightly": {
-    "cargoLocks": null,
-    "date": null,
-    "extract": null,
-    "name": "chainner-bin-nightly",
-    "passthru": null,
-    "pinned": false,
-    "src": {
-      "name": null,
-      "sha256": "sha256-hqiPJtam+5lflh5uY/OCMXvdNxAb+y85luJ2sZApkno=",
-      "type": "url",
-      "url": "https://github.com/chaiNNer-org/chaiNNer-nightly/releases/download/2025-10-23/chaiNNer-ubuntu-latest-nightly.2025-10-23.zip"
+    "chainner-bin-nightly": {
+        "cargoLocks": null,
+        "date": null,
+        "extract": null,
+        "name": "chainner-bin-nightly",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-p8dHDB0O+mwmtREOPjrk/J856DPaUEM85UMb/wS1Yvc=",
+            "type": "url",
+            "url": "https://github.com/chaiNNer-org/chaiNNer-nightly/releases/download/2025-10-24/chaiNNer-ubuntu-latest-nightly.2025-10-24.zip"
+        },
+        "version": "2025-10-24"
     },
-    "version": "2025-10-23"
-  },
-  "chainner-bin-stable": {
-    "cargoLocks": null,
-    "date": null,
-    "extract": null,
-    "name": "chainner-bin-stable",
-    "passthru": null,
-    "pinned": false,
-    "src": {
-      "name": null,
-      "sha256": "sha256-BFl4S/C8veI/DV+ntesoUvAc3s1q8+LwFIEE3VuDyyU=",
-      "type": "url",
-      "url": "https://github.com/chaiNNer-org/chaiNNer/releases/download/v0.25.1/chaiNNer-linux-x64-0.25.1-portable.zip"
-    },
-    "version": "0.25.1"
-  }
+    "chainner-bin-stable": {
+        "cargoLocks": null,
+        "date": null,
+        "extract": null,
+        "name": "chainner-bin-stable",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-BFl4S/C8veI/DV+ntesoUvAc3s1q8+LwFIEE3VuDyyU=",
+            "type": "url",
+            "url": "https://github.com/chaiNNer-org/chaiNNer/releases/download/v0.25.1/chaiNNer-linux-x64-0.25.1-portable.zip"
+        },
+        "version": "0.25.1"
+    }
 }
