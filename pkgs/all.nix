@@ -50,6 +50,7 @@ in
   harrison = callPackages' ./harrison;
   haskellPackages = callPackages' ./haskellPackages;
   helion-bin = callPackage' ./helion-bin;
+  helium-bin = callPackage' ./helium-bin;
   hera = callPackage' ./hera;
   hise = callPackage' ./hise;
   hvcc = callPackage' ./hvcc;
