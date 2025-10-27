@@ -4,11 +4,12 @@
   ...
 }:
 let
-  mkProton =
+  mkProton = pkgs.makeOverridable (
     {
       source,
       meta,
       version ? source.version,
+      steamDisplayName ? source.pname,
     }:
     pkgs.stdenvNoCC.mkDerivation {
       inherit (source) pname src;
@@ -25,6 +26,8 @@ let
         mkdir -p $out/share/steam/compatibilitytools.d/$pname
         cp -r * $out/share/steam/compatibilitytools.d/$pname
         ln -s $out/share/steam/compatibilitytools.d/$pname $steamcompattool
+        substituteInPlace $steamcompattool/compatibilitytool.vdf \
+          --replace-fail "${source.version}" "${steamDisplayName}"
 
         runHook postBuild
       '';
@@ -37,7 +40,8 @@ let
           sourceProvenance = [ sourceTypes.binaryNativeCode ];
         }
         // meta;
-    };
+    }
+  );
 in
 {
   cachyos = mkProton rec {
