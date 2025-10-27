@@ -1,17 +1,17 @@
 {
-    "chainner-bin": {
-        "cargoLocks": null,
-        "date": null,
-        "extract": null,
-        "name": "chainner-bin",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "name": null,
-            "sha256": "sha256-BFl4S/C8veI/DV+ntesoUvAc3s1q8+LwFIEE3VuDyyU=",
-            "type": "url",
-            "url": "https://github.com/chaiNNer-org/chaiNNer/releases/download/v0.25.1/chaiNNer-linux-x64-0.25.1-portable.zip"
-        },
-        "version": "0.25.1"
-    }
+  "chainner-bin": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "chainner-bin",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-BFl4S/C8veI/DV+ntesoUvAc3s1q8+LwFIEE3VuDyyU=",
+      "type": "url",
+      "url": "https://github.com/chaiNNer-org/chaiNNer/releases/download/v0.25.1/chaiNNer-linux-x64-0.25.1-portable.zip"
+    },
+    "version": "0.25.1"
+  }
 }
