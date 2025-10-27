@@ -1,8 +1,8 @@
 {
   bitdos-bin = [ "bitdos" ];
   chainner-bin = {
-    stable = ["chainner-bin"];
-    nightly = ["chainner-bin"];
+    stable = [ "chainner-bin" ];
+    nightly = [ "chainner-bin" ];
   };
   destruqtor = [
     "blepfx"
