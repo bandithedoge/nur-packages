@@ -1,22 +1,22 @@
 {
-    "uzdoom": {
-        "cargoLocks": null,
-        "date": "2025-10-28",
-        "extract": null,
-        "name": "uzdoom",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "deepClone": false,
-            "fetchSubmodules": false,
-            "leaveDotGit": false,
-            "name": null,
-            "rev": "c982a68803950c0900f98601141430ac572f72fe",
-            "sha256": "sha256-vla5i1OUBCa3ShRzwbDWufPBDsvAEm5f5mH/XX/tS+o=",
-            "sparseCheckout": [],
-            "type": "git",
-            "url": "https://github.com/UZDoom/UZDoom"
-        },
-        "version": "c982a68803950c0900f98601141430ac572f72fe"
-    }
+  "uzdoom": {
+    "cargoLocks": null,
+    "date": "2025-10-28",
+    "extract": null,
+    "name": "uzdoom",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "deepClone": false,
+      "fetchSubmodules": false,
+      "leaveDotGit": false,
+      "name": null,
+      "rev": "c982a68803950c0900f98601141430ac572f72fe",
+      "sha256": "sha256-vla5i1OUBCa3ShRzwbDWufPBDsvAEm5f5mH/XX/tS+o=",
+      "sparseCheckout": [],
+      "type": "git",
+      "url": "https://github.com/UZDoom/UZDoom"
+    },
+    "version": "c982a68803950c0900f98601141430ac572f72fe"
+  }
 }
