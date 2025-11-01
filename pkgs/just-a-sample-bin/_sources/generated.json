@@ -8,10 +8,10 @@
     "pinned": false,
     "src": {
       "name": null,
-      "sha256": "sha256-9JhioE5PnPhOKNrKj4PvUPOYIa1Pq2VfzayhvK1nKno=",
+      "sha256": "sha256-EtNuHJ/3shpYdTNOELr/RxwK7oqMc7cqZJdwLpY2nNc=",
       "type": "url",
-      "url": "https://github.com/BOBONA/Just-a-Sample/releases/download/v1.02/Linux.VST3.zip"
+      "url": "https://github.com/BOBONA/Just-a-Sample/releases/download/v1.03/Linux.VST3.zip"
     },
-    "version": "v1.02"
+    "version": "v1.03"
   }
 }

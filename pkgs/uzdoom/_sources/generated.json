@@ -1,7 +1,7 @@
 {
   "uzdoom": {
     "cargoLocks": null,
-    "date": "2025-10-26",
+    "date": "2025-10-31",
     "extract": null,
     "name": "uzdoom",
     "passthru": null,
@@ -11,12 +11,12 @@
       "fetchSubmodules": false,
       "leaveDotGit": false,
       "name": null,
-      "rev": "5104cc431314c380b0996244f545f3674c848d72",
-      "sha256": "sha256-TIcNY+uXhUhLUdcRFn5b74gpNSbLO9nRgT7YvROCzaw=",
+      "rev": "713fd49cc07935002aa19e00c6c6a92a08ef3791",
+      "sha256": "sha256-EmFHXnCjSCyLkSPZ8cgen9d/yV38vQIJf2s3zpGoLR4=",
       "sparseCheckout": [],
       "type": "git",
       "url": "https://github.com/UZDoom/UZDoom"
     },
-    "version": "5104cc431314c380b0996244f545f3674c848d72"
+    "version": "713fd49cc07935002aa19e00c6c6a92a08ef3791"
   }
 }
