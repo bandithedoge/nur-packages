@@ -47,6 +47,7 @@ in
   gnomedistort2 = callPackage' ./gnomedistort2;
   guitarix-vst-bin = callPackage' ./guitarix-vst-bin;
   guitarml = callPackages' ./guitarml;
+  hamburger = callPackage' ./hamburger;
   harrison = callPackages' ./harrison;
   haskellPackages = callPackages' ./haskellPackages;
   helion-bin = callPackage' ./helion-bin;

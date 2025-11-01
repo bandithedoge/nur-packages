@@ -1,0 +1,12 @@
+[hamburger]
+src.github_tag = "Davit-G/Hamburger"
+fetch.github = "Davit-G/Hamburger"
+
+[juce]
+src.manual = "51d11a2be6d5c97ccf12b4e5e827006e19f0555a"
+fetch.git = "https://github.com/juce-framework/JUCE.git"
+
+[clap-juce-extensions]
+src.git = "https://github.com/free-audio/clap-juce-extensions.git"
+fetch.git = "https://github.com/free-audio/clap-juce-extensions.git"
+git.fetchSubmodules = true
