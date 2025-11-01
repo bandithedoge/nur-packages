@@ -15,7 +15,7 @@ in
       src = src' { inherit pkgs; };
     in
     pkgs.lib.attrsets.nameValuePair sanitizedName (
-      pkgs.emacsPackages.melpaBuild {
+      pkgs.emacs.pkgs.melpaBuild {
         pname = sanitizedName;
         # TODO: set version properly
         # https://github.com/nmattia/niv/issues/111
