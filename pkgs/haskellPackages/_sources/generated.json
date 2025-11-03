@@ -1,65 +1,65 @@
 {
-    "kmonad": {
-        "cargoLocks": null,
-        "date": "2025-11-02",
-        "extract": null,
-        "name": "kmonad",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "deepClone": false,
-            "fetchSubmodules": false,
-            "leaveDotGit": false,
-            "name": null,
-            "owner": "kmonad",
-            "repo": "kmonad",
-            "rev": "52050528a1e45b3732ff476d1de1bef72e637a23",
-            "sha256": "sha256-1xcZ4TJWNnDo8yxrHVUZKv3V1fBWC383+HjPPeBAUf8=",
-            "sparseCheckout": [],
-            "type": "github"
-        },
-        "version": "52050528a1e45b3732ff476d1de1bef72e637a23"
+  "kmonad": {
+    "cargoLocks": null,
+    "date": "2025-11-02",
+    "extract": null,
+    "name": "kmonad",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "deepClone": false,
+      "fetchSubmodules": false,
+      "leaveDotGit": false,
+      "name": null,
+      "owner": "kmonad",
+      "repo": "kmonad",
+      "rev": "52050528a1e45b3732ff476d1de1bef72e637a23",
+      "sha256": "sha256-1xcZ4TJWNnDo8yxrHVUZKv3V1fBWC383+HjPPeBAUf8=",
+      "sparseCheckout": [],
+      "type": "github"
     },
-    "taffybar": {
-        "cargoLocks": null,
-        "date": "2025-10-16",
-        "extract": null,
-        "name": "taffybar",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "deepClone": false,
-            "fetchSubmodules": false,
-            "leaveDotGit": false,
-            "name": null,
-            "owner": "taffybar",
-            "repo": "taffybar",
-            "rev": "b256a711416036ca124fc9b3f89e7c957535e465",
-            "sha256": "sha256-O21ayp5v2eccXdcwNjTK5ZB99ruK0Zt9CUaw5Rye42g=",
-            "sparseCheckout": [],
-            "type": "github"
-        },
-        "version": "b256a711416036ca124fc9b3f89e7c957535e465"
+    "version": "52050528a1e45b3732ff476d1de1bef72e637a23"
+  },
+  "taffybar": {
+    "cargoLocks": null,
+    "date": "2025-10-16",
+    "extract": null,
+    "name": "taffybar",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "deepClone": false,
+      "fetchSubmodules": false,
+      "leaveDotGit": false,
+      "name": null,
+      "owner": "taffybar",
+      "repo": "taffybar",
+      "rev": "b256a711416036ca124fc9b3f89e7c957535e465",
+      "sha256": "sha256-O21ayp5v2eccXdcwNjTK5ZB99ruK0Zt9CUaw5Rye42g=",
+      "sparseCheckout": [],
+      "type": "github"
     },
-    "xmonad-entryhelper": {
-        "cargoLocks": null,
-        "date": "2022-05-18",
-        "extract": null,
-        "name": "xmonad-entryhelper",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "deepClone": false,
-            "fetchSubmodules": false,
-            "leaveDotGit": false,
-            "name": null,
-            "owner": "Javran",
-            "repo": "xmonad-entryhelper",
-            "rev": "ee2d0c14f9258503d7bd62907aa731dd64fa34d0",
-            "sha256": "sha256-CGaibR0Yejng9IQInm92Zx0pEZS29tJjWvPgaiWgUNQ=",
-            "sparseCheckout": [],
-            "type": "github"
-        },
-        "version": "ee2d0c14f9258503d7bd62907aa731dd64fa34d0"
-    }
+    "version": "b256a711416036ca124fc9b3f89e7c957535e465"
+  },
+  "xmonad-entryhelper": {
+    "cargoLocks": null,
+    "date": "2022-05-18",
+    "extract": null,
+    "name": "xmonad-entryhelper",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "deepClone": false,
+      "fetchSubmodules": false,
+      "leaveDotGit": false,
+      "name": null,
+      "owner": "Javran",
+      "repo": "xmonad-entryhelper",
+      "rev": "ee2d0c14f9258503d7bd62907aa731dd64fa34d0",
+      "sha256": "sha256-CGaibR0Yejng9IQInm92Zx0pEZS29tJjWvPgaiWgUNQ=",
+      "sparseCheckout": [],
+      "type": "github"
+    },
+    "version": "ee2d0c14f9258503d7bd62907aa731dd64fa34d0"
+  }
 }
