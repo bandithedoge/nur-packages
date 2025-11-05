@@ -5,6 +5,7 @@ pkgs.stdenv.mkDerivation {
 
   nativeBuildInputs = with pkgs; [
     cmake
+    makeWrapper
     ninja
     pkg-config
   ];
