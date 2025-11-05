@@ -1,10 +1,11 @@
-{ pkgs, sources, ... }:
+{ pkgs, sources, lib, ... }:
 pkgs.stdenv.mkDerivation {
   inherit (sources.uzdoom) pname src;
   version = sources.uzdoom.date;
 
   nativeBuildInputs = with pkgs; [
     cmake
+    makeWrapper
     ninja
     pkg-config
   ];
@@ -24,6 +25,12 @@ pkgs.stdenv.mkDerivation {
     "-DDYN_OPENAL=OFF"
     "-DVULKAN_USE_WAYLAND=1"
   ];
+
+  postInstall = lib.optionalString pkgs.stdenv.hostPlatform.isLinux ''
+    mv $out/bin/uzdoom $out/share/games/doom/uzdoom
+    makeWrapper $out/share/games/doom/uzdoom $out/bin/uzdoom \
+      --set LD_LIBRARY_PATH ${lib.makeLibraryPath [ pkgs.vulkan-loader ]}
+  '';
 
   meta = with pkgs.lib; {
     description = "Feature centric port for all Doom engine games, based on GZDoom, adding an advanced renderer and powerful scripting capabilities";
