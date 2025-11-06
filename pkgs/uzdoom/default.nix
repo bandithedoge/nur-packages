@@ -1,4 +1,9 @@
-{ pkgs, sources, lib, ... }:
+{
+  pkgs,
+  sources,
+  lib,
+  ...
+}:
 pkgs.stdenv.mkDerivation {
   inherit (sources.uzdoom) pname src;
   version = sources.uzdoom.date;
@@ -27,8 +32,8 @@ pkgs.stdenv.mkDerivation {
   ];
 
   postInstall = lib.optionalString pkgs.stdenv.hostPlatform.isLinux ''
-    mv $out/bin/uzdoom $out/share/games/doom/uzdoom
-    makeWrapper $out/share/games/doom/uzdoom $out/bin/uzdoom \
+    mv $out/bin/uzdoom $out/share/games/uzdoom/uzdoom
+    makeWrapper $out/share/games/uzdoom/uzdoom $out/bin/uzdoom \
       --set LD_LIBRARY_PATH ${lib.makeLibraryPath [ pkgs.vulkan-loader ]}
   '';
 
