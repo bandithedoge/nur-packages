@@ -1,4 +1,9 @@
-{ pkgs, sources, lib, ... }:
+{
+  pkgs,
+  sources,
+  lib,
+  ...
+}:
 pkgs.stdenv.mkDerivation {
   inherit (sources.uzdoom) pname src;
   version = sources.uzdoom.date;
