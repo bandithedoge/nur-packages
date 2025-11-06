@@ -4,7 +4,7 @@
   ...
 }:
 let
-  mkProton = pkgs.makeOverridable (
+  mkProton = pkgs.lib.makeOverridable (
     {
       source,
       meta,

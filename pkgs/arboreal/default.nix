@@ -11,7 +11,7 @@ let
       meta,
       cmakeFlags ? [ ],
     }:
-    pkgs.makeOverridable (
+    pkgs.lib.makeOverridable (
       {
         noLicenseCheck ? false,
         productionBuild ? true,
