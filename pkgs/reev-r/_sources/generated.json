@@ -1,23 +1,23 @@
 {
-    "reev-r": {
-        "cargoLocks": null,
-        "date": null,
-        "extract": null,
-        "name": "reev-r",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "deepClone": false,
-            "fetchSubmodules": true,
-            "leaveDotGit": false,
-            "name": null,
-            "owner": "tiagolr",
-            "repo": "reevr",
-            "rev": "v1.1.0",
-            "sha256": "sha256-2JGBDYyxXIGM+8/T6srGn81YbhhknAHKbVllz1jIwOY=",
-            "sparseCheckout": [],
-            "type": "github"
-        },
-        "version": "v1.1.0"
-    }
+  "reev-r": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "reev-r",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "deepClone": false,
+      "fetchSubmodules": true,
+      "leaveDotGit": false,
+      "name": null,
+      "owner": "tiagolr",
+      "repo": "reevr",
+      "rev": "v1.1.0",
+      "sha256": "sha256-2JGBDYyxXIGM+8/T6srGn81YbhhknAHKbVllz1jIwOY=",
+      "sparseCheckout": [],
+      "type": "github"
+    },
+    "version": "v1.1.0"
+  }
 }
