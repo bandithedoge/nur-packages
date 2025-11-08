@@ -11,12 +11,12 @@
       "fetchSubmodules": false,
       "leaveDotGit": false,
       "name": null,
-      "rev": "1e1259f1ca3e807b677b2e39f3d929f27b66d42e",
-      "sha256": "sha256-eKJ3McsaonRlBayg0mMYiGhwmmfJeTpD0AIjqpMj79M=",
+      "rev": "c0f0d6b47b696680d04be4699c575be7febbe0cf",
+      "sha256": "sha256-9dBnJAOMTu59b4DQEbNNY1HHSJCAyUICb/sJ3XOt8+s=",
       "sparseCheckout": [],
       "type": "git",
       "url": "https://github.com/UZDoom/UZDoom"
     },
-    "version": "1e1259f1ca3e807b677b2e39f3d929f27b66d42e"
+    "version": "c0f0d6b47b696680d04be4699c575be7febbe0cf"
   }
 }
