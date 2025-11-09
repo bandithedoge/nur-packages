@@ -123,7 +123,6 @@ in
   tonez = callPackage' ./tonez;
   two-filters = callPackage' ./two-filters;
   u-he = callPackages' ./u-he;
-  uhhyou = callPackage' ./uhhyou;
   unplugred = callPackage' ./unplugred;
   uzdoom = callPackage' ./uzdoom;
   valentine = callPackage' ./valentine;

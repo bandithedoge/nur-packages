@@ -30,6 +30,7 @@
     "tree-sitter-grammars"
     "tree-sitter-hyprland"
   ];
+  uhhyou = [ "uhhyou-plugins" ];
   zlint-bin = [ "zlint-zig" ];
   zrythm = [ "zrythm" ];
 }
