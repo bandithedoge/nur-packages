@@ -39,6 +39,6 @@ pythonPkgs.buildPythonPackage {
     description = "The heavy hvcc compiler for Pure Data patches. Updated to python3 and additional generators ";
     homepage = "https://wasted-audio.github.io/hvcc/";
     license = licenses.gpl3;
-    platform = platforms.unix;
+    platforms = platforms.unix;
   };
 }
