@@ -9,9 +9,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "1943d57a30960b9b705bf74f8af250e8dabc00df",
-      "url": "https://github.com/Sonico98/allmytoes.yazi/archive/1943d57a30960b9b705bf74f8af250e8dabc00df.tar.gz",
-      "hash": "sha256-Tpb9addfu/TrEqUbG/lOPOec0lRUqdabYMkcPo0tRTY="
+      "revision": "3747ed3a6e713b7ce134426ef662ff863b55c0a2",
+      "url": "https://github.com/Sonico98/allmytoes.yazi/archive/3747ed3a6e713b7ce134426ef662ff863b55c0a2.tar.gz",
+      "hash": "sha256-FD2kzmavY+xSQEnuNnDmGwI92mA1K6LMX/LXFRdewI0="
     },
     "archivemount.yazi": {
       "type": "Git",
@@ -139,9 +139,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "f07b496922c25c89c62305a292c6a53ccb4670cd",
-      "url": "https://github.com/boydaihungst/gvfs.yazi/archive/f07b496922c25c89c62305a292c6a53ccb4670cd.tar.gz",
-      "hash": "sha256-EY56KmgzzujDAUMOSlUia5L/55qQJuGe/iuL0kQzlQM="
+      "revision": "6db0c605ff4ccc9ef59613773aecbacc6fb93c9c",
+      "url": "https://github.com/boydaihungst/gvfs.yazi/archive/6db0c605ff4ccc9ef59613773aecbacc6fb93c9c.tar.gz",
+      "hash": "sha256-0W1nQ8MJ+BgPyKcn+oDzntX9BXplJEyl8UjsHWCHrE8="
     },
     "hexyl.yazi": {
       "type": "Git",
@@ -204,9 +204,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "7fb073fd29a98807bc6032327b475ec9b0b5479f",
-      "url": "https://github.com/AnirudhG07/nbpreview.yazi/archive/7fb073fd29a98807bc6032327b475ec9b0b5479f.tar.gz",
-      "hash": "sha256-bg/sXnY8m+bCNp1kwz7+t15LxZoICe2fYWGX1Q4QSCo="
+      "revision": "b50459402c52cbfd8d9262ae91e353d3300f8a8c",
+      "url": "https://github.com/AnirudhG07/nbpreview.yazi/archive/b50459402c52cbfd8d9262ae91e353d3300f8a8c.tar.gz",
+      "hash": "sha256-Fh0F8sa3X6w83KukSdyNw8XtYAnFYcJ36Be55z/fdRw="
     },
     "omp.yazi": {
       "type": "Git",
@@ -217,9 +217,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "41f7e89b7f631d6186d1f085360fb6557924d685",
-      "url": "https://github.com/saumyajyoti/omp.yazi/archive/41f7e89b7f631d6186d1f085360fb6557924d685.tar.gz",
-      "hash": "sha256-MvItTUorB0rWg7L3KXUsF3+1KE+wm38C1yAGSfpQ5gg="
+      "revision": "7a0624c23b544469dc5a7800fa87fdf9b0880b2e",
+      "url": "https://github.com/saumyajyoti/omp.yazi/archive/7a0624c23b544469dc5a7800fa87fdf9b0880b2e.tar.gz",
+      "hash": "sha256-gvXC+akaV+WLQyL5cpDJXc59GtkeRxyd0gIThoq0eoU="
     },
     "open-with-cmd.yazi": {
       "type": "Git",
@@ -295,9 +295,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "843c3faf0a99f5ce31d02372c868d8dae92ca29d",
-      "url": "https://github.com/AnirudhG07/rich-preview.yazi/archive/843c3faf0a99f5ce31d02372c868d8dae92ca29d.tar.gz",
-      "hash": "sha256-celObHo9Y3pFCd1mTx1Lz77Tc22SJTleRblAkbH/RqY="
+      "revision": "831234e828d292913f4b174a1ca2be2fb1080f22",
+      "url": "https://github.com/AnirudhG07/rich-preview.yazi/archive/831234e828d292913f4b174a1ca2be2fb1080f22.tar.gz",
+      "hash": "sha256-CK3ynjs53I1tRqARoOYMgBczBrcle+pwpUhHt3VpSXs="
     },
     "rsync.yazi": {
       "type": "Git",
@@ -308,9 +308,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "55631aaaa7654b86469a07bbedf62a5561caa2c9",
-      "url": "https://github.com/GianniBYoung/rsync.yazi/archive/55631aaaa7654b86469a07bbedf62a5561caa2c9.tar.gz",
-      "hash": "sha256-4U6tYAZboMV5YguQIBpcZtcLWwF3TYYFFUXLtVxYxwU="
+      "revision": "14d28283f49b39593a2763d7457e0dacb78f7597",
+      "url": "https://github.com/GianniBYoung/rsync.yazi/archive/14d28283f49b39593a2763d7457e0dacb78f7597.tar.gz",
+      "hash": "sha256-LT+4NKiCkiF72RG9g/tOjS6F+Wc4tY3vtnHNHPxbn1w="
     },
     "simple-status.yazi": {
       "type": "Git",
@@ -347,9 +347,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "f35afcbe183c6017038f64b03fd42eef413efa33",
-      "url": "https://github.com/TD-Sky/sudo.yazi/archive/f35afcbe183c6017038f64b03fd42eef413efa33.tar.gz",
-      "hash": "sha256-pgYHKLKqtpxRDaT+FyVFuh7tBJe7lUfy2LBJMPAtSqA="
+      "revision": "86205aa8044f10b02471be1087f3381bbadc967e",
+      "url": "https://github.com/TD-Sky/sudo.yazi/archive/86205aa8044f10b02471be1087f3381bbadc967e.tar.gz",
+      "hash": "sha256-mpQLij+Sg88RarCC+0u7JfZ2EqcX4gB7jvy8bfBt90w="
     },
     "system-clipboard.yazi": {
       "type": "Git",
@@ -360,9 +360,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "4f6942dd5f0e143586ab347d82dfd6c1f7f9c894",
-      "url": "https://github.com/orhnk/system-clipboard.yazi/archive/4f6942dd5f0e143586ab347d82dfd6c1f7f9c894.tar.gz",
-      "hash": "sha256-M7zKUlLcQA3ihpCAZyOkAy/SzLu31eqHGLkCSQPX1dY="
+      "revision": "888026c6d5988bd9dc5be51f7f96787bb8cadc4b",
+      "url": "https://github.com/orhnk/system-clipboard.yazi/archive/888026c6d5988bd9dc5be51f7f96787bb8cadc4b.tar.gz",
+      "hash": "sha256-8YtYYxNDfQBTyMxn6Q7/BCiTiscpiZFXRuX0riMlRWQ="
     },
     "torrent-preview.yazi": {
       "type": "Git",
@@ -430,5 +430,5 @@
       "hash": "sha256-RkQKZQAa5U9eMWk1Q0doueJZiuP4elUJ0dM1XKLSnDo="
     }
   },
-  "version": 6
+  "version": 7
 }

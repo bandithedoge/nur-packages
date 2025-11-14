@@ -19,15 +19,15 @@ def fetch-node [] {
 }
 
 def fetch-vim [] {
-    ^npins -d pkgs/vimPackages/npins update
+    ^npins -d pkgs/vimPlugins/npins update
 }
 
 def fetch-xplr [] {
-    ^npins -d pkgs/xplrPackages/npins update
+    ^npins -d pkgs/xplrPlugins/npins update
 }
 
 def fetch-yazi [] {
-    ^npins -d pkgs/yaziPackages/npins update
+    ^npins -d pkgs/yaziPlugins/npins update
 }
 
 def fetch [
@@ -53,6 +53,12 @@ def main [
             echo $pkg
             fetch ($pkg.name | path dirname) --commit=$commit
         }
+        fetch-emacs
+        fetch-firefox
+        fetch-node
+        fetch-vim
+        fetch-xplr
+        fetch-yazi
     } else {
         for $package in $packages {
             match $package {

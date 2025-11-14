@@ -107,6 +107,7 @@
               clang-format.enable = true;
               nixfmt = {
                 enable = true;
+                package = pkgs.nixfmt;
                 excludes = [
                   "_sources/*"
                   "npins/*"
@@ -114,6 +115,7 @@
               };
               prettier = {
                 enable = true;
+                package = pkgs.prettier;
                 excludes = [ "_sources/*" ];
               };
               ruff-format.enable = true;
