@@ -8,7 +8,7 @@ let
 
   callPackage' = pkg: pkgs.callPackage pkg (callPackageArgs pkg);
 
-  callPackages' = pkg: pkgs.lib.makeExtensible (_: import pkg (callPackageArgs pkg));
+  callPackages' = pkg: pkgs.lib.recurseIntoAttrs (pkgs.lib.makeExtensible (_: import pkg (callPackageArgs pkg)));
 in
 {
   actuate = callPackage' ./actuate;
@@ -49,7 +49,6 @@ in
   guitarml = callPackages' ./guitarml;
   hamburger = callPackage' ./hamburger;
   harrison = callPackages' ./harrison;
-  haskellPackages = callPackages' ./haskellPackages;
   helion-bin = callPackage' ./helion-bin;
   helium-bin = callPackage' ./helium-bin;
   hera = callPackage' ./hera;

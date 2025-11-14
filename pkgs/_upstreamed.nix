@@ -16,6 +16,17 @@
       };
   geonkick = [ "geonkick" ];
   giada = [ "giada" ];
+  haskellPackages =
+    builtins.mapAttrs
+      (_: name: [
+        "haskellPackages"
+        name
+      ])
+      {
+        kmonad = "kmonad";
+        taffybar = "taffybar";
+        xmonad-entryhelper = "xmonad-entryhelper";
+      };
   luakit = [ "luakit" ];
   mesonlsp-bin = [ "mesonlsp" ];
   nimlangserver = [ "nimlangserver" ];

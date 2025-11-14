@@ -37,7 +37,7 @@ pkgs.stdenv.mkDerivation {
     description = "Charlatan is a virtual analog (VA) synthesizer with focus on sound quality and easy usability";
     homepage = "https://blaukraut.info/";
     license = licenses.unfree;
-    systems = [ "x86_64-linux" ];
+    platforms = [ "x86_64-linux" ];
     sourceProvenance = [ sourceTypes.binaryNativeCode ];
   };
 }

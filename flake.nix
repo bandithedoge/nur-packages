@@ -39,7 +39,10 @@
         {
           _module.args.pkgs = import inputs.nixpkgs {
             inherit system;
-            config.allowUnfree = true;
+            config = {
+              allowAliases = false;
+              allowUnfree = true;
+            };
           };
 
           legacyPackages =
@@ -104,6 +107,7 @@
               clang-format.enable = true;
               nixfmt = {
                 enable = true;
+                package = pkgs.nixfmt;
                 excludes = [
                   "_sources/*"
                   "npins/*"
@@ -111,6 +115,7 @@
               };
               prettier = {
                 enable = true;
+                package = pkgs.prettier;
                 excludes = [ "_sources/*" ];
               };
               ruff-format.enable = true;
