@@ -1,23 +1,23 @@
 {
-  "time-12": {
-    "cargoLocks": null,
-    "date": null,
-    "extract": null,
-    "name": "time-12",
-    "passthru": null,
-    "pinned": false,
-    "src": {
-      "deepClone": false,
-      "fetchSubmodules": true,
-      "leaveDotGit": false,
-      "name": null,
-      "owner": "tiagolr",
-      "repo": "time12",
-      "rev": "v1.2.1",
-      "sha256": "sha256-VS27VdP1Wq4pzUi8RfOJvU600yHahRwqKRO6RvtU0uM=",
-      "sparseCheckout": [],
-      "type": "github"
-    },
-    "version": "v1.2.1"
-  }
+    "time-12": {
+        "cargoLocks": null,
+        "date": null,
+        "extract": null,
+        "name": "time-12",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": true,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "tiagolr",
+            "repo": "time12",
+            "rev": "v1.2.2",
+            "sha256": "sha256-kyh1IMiOykkSglpuJo2DnNOluUdO38Z25ONXh0mi400=",
+            "sparseCheckout": [],
+            "type": "github"
+        },
+        "version": "v1.2.2"
+    }
 }
