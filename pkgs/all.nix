@@ -8,7 +8,8 @@ let
 
   callPackage' = pkg: pkgs.callPackage pkg (callPackageArgs pkg);
 
-  callPackages' = pkg: pkgs.lib.recurseIntoAttrs (pkgs.lib.makeExtensible (_: import pkg (callPackageArgs pkg)));
+  callPackages' =
+    pkg: pkgs.lib.recurseIntoAttrs (pkgs.lib.makeExtensible (_: import pkg (callPackageArgs pkg)));
 in
 {
   actuate = callPackage' ./actuate;

@@ -35,7 +35,7 @@
     version = "latest";
     src = fetchurl {
       url = "https://tal-software.com/downloads/plugins/TAL-Drum_64_linux.zip";
-      sha256 = "sha256-vyBbZwKFMOzC8knalJNV5uBB75J7IO65dfSWey7Idw4=";
+      sha256 = "sha256-qhjEofzrbGpvd5ekHCmBzH3EyNaNX7NJHg1XFOYtuzs=";
     };
   };
   dub-x = {

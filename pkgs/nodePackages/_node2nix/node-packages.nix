@@ -21,31 +21,31 @@ let
         sha512 = "qMlSxKbpRlAridDExk92nSobyDdpPijUq2DW6oDnUqd0iOGxmQjyqhMIihI9+zv4LPyZdRje2cavWPbCbWm3eA==";
       };
     };
-    "@babel/helper-validator-identifier-7.27.1" = {
+    "@babel/helper-validator-identifier-7.28.5" = {
       name = "_at_babel_slash_helper-validator-identifier";
       packageName = "@babel/helper-validator-identifier";
-      version = "7.27.1";
+      version = "7.28.5";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/helper-validator-identifier/-/helper-validator-identifier-7.27.1.tgz";
-        sha512 = "D2hP9eA+Sqx1kBZgzxZh0y1trbuU+JoDkiEwqhQ36nodYqJwyEIhPSdMNd7lOm/4io72luTPWH20Yda0xOuUow==";
+        url = "https://registry.npmjs.org/@babel/helper-validator-identifier/-/helper-validator-identifier-7.28.5.tgz";
+        sha512 = "qSs4ifwzKJSV39ucNjsvc6WVHs6b7S03sOh2OcHF9UHfVPqWWALUsNUVzhSBiItjRZoLHx7nIarVjqKVusUZ1Q==";
       };
     };
-    "@babel/parser-7.28.4" = {
+    "@babel/parser-7.28.5" = {
       name = "_at_babel_slash_parser";
       packageName = "@babel/parser";
-      version = "7.28.4";
+      version = "7.28.5";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/parser/-/parser-7.28.4.tgz";
-        sha512 = "yZbBqeM6TkpP9du/I2pUZnJsRMGGvOuIrhjzC1AwHwW+6he4mni6Bp/m8ijn0iOuZuPI2BfkCoSRunpyjnrQKg==";
+        url = "https://registry.npmjs.org/@babel/parser/-/parser-7.28.5.tgz";
+        sha512 = "KKBU1VGYR7ORr3At5HAtUQ+TV3SzRCXmA/8OdDZiLDBIZxVyzXuztPjfLd3BV1PRAQGCMWWSHYhL0F8d5uHBDQ==";
       };
     };
-    "@babel/types-7.28.4" = {
+    "@babel/types-7.28.5" = {
       name = "_at_babel_slash_types";
       packageName = "@babel/types";
-      version = "7.28.4";
+      version = "7.28.5";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/types/-/types-7.28.4.tgz";
-        sha512 = "bkFqkLhh3pMBUQQkpVgWDWq/lqzc2678eUyDlTBhRqhCHFguYYGM0Efga7tYk4TogG/3x0EEl66/OQ+WGbWB/Q==";
+        url = "https://registry.npmjs.org/@babel/types/-/types-7.28.5.tgz";
+        sha512 = "qQ5m48eI/MFLQ5PxQj4PFaprjyCTLI37ElWMmNs0K8Lk3dVeOdNpB3ks8jc7yM5CDmVC73eMVk/trk3fgmrUpA==";
       };
     };
     "@emmetio/abbreviation-2.3.3" = {
@@ -327,22 +327,22 @@ let
         sha512 = "TwAZM+zE5Tq3lrEHvOlvwgj1XLWQCtaaibSN11Q+gGBAS7Y1uZSWwXXRe4iF6OXnaq1riyQAPFOBtYc77Mxq0g==";
       };
     };
-    "jiti-2.6.0" = {
+    "jiti-2.6.1" = {
       name = "jiti";
       packageName = "jiti";
-      version = "2.6.0";
+      version = "2.6.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/jiti/-/jiti-2.6.0.tgz";
-        sha512 = "VXe6RjJkBPj0ohtqaO8vSWP3ZhAKo66fKrFNCll4BTcwljPLz03pCbaNKfzGP5MbrCYcbJ7v0nOYYwUzTEIdXQ==";
+        url = "https://registry.npmjs.org/jiti/-/jiti-2.6.1.tgz";
+        sha512 = "ekilCSN1jwRvIbgeg/57YFh8qQDNbwDb9xT/qu2DAHbFFZUicIl4ygVaAvzveMhMVr3LnpSKTNnwt8PoOfmKhQ==";
       };
     };
-    "js-yaml-4.1.0" = {
+    "js-yaml-4.1.1" = {
       name = "js-yaml";
       packageName = "js-yaml";
-      version = "4.1.0";
+      version = "4.1.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/js-yaml/-/js-yaml-4.1.0.tgz";
-        sha512 = "wpxZs9NoxZaJESJGIZTyDEaYpl0FKSA+FB9aJiyemKhMwkxQg63h4T1KJgUGHpTqPDNRcmmYLugrRjJlBtWvRA==";
+        url = "https://registry.npmjs.org/js-yaml/-/js-yaml-4.1.1.tgz";
+        sha512 = "qQKT4zQxXl8lLwBtHMWwaTcGfFOZviOJet3Oy/xmGk2gZH677CJM9EvtfdSkgWcATZhj/55JZ0rmy3myCT5lsA==";
       };
     };
     "jsonc-parser-2.3.1" = {
@@ -534,13 +534,13 @@ let
         sha512 = "GDhwkLfywWL2s6vEjyhri+eXmfH6j1L7JE27WhqLeYzoh/A3DBaYGEj2H/HFZCn/kMfim73FXxEJTw06WtxQwg==";
       };
     };
-    "semver-7.7.2" = {
+    "semver-7.7.3" = {
       name = "semver";
       packageName = "semver";
-      version = "7.7.2";
+      version = "7.7.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/semver/-/semver-7.7.2.tgz";
-        sha512 = "RF0Fw+rO5AMf9MAyaRXI4AV0Ulj5lMHqVxxdSgiVbixSCXoEmmX/jk0CuJw4+3SqroYO9VoUh+HcuJivvtJemA==";
+        url = "https://registry.npmjs.org/semver/-/semver-7.7.3.tgz";
+        sha512 = "SdsKMrI9TdgjdweUSR9MweHA4EJ8YxHn8DFaDisvhVlUOe4BF1tLD7GAj0lIqWVl+dPb/rExr0Btby5loQm20Q==";
       };
     };
     "sisteransi-1.0.5" = {
@@ -727,9 +727,9 @@ in
     };
     dependencies = [
       sources."@babel/helper-string-parser-7.27.1"
-      sources."@babel/helper-validator-identifier-7.27.1"
-      sources."@babel/parser-7.28.4"
-      sources."@babel/types-7.28.4"
+      sources."@babel/helper-validator-identifier-7.28.5"
+      sources."@babel/parser-7.28.5"
+      sources."@babel/types-7.28.5"
       sources."@emmetio/abbreviation-2.3.3"
       sources."@emmetio/css-abbreviation-2.1.8"
       sources."@emmetio/html-matcher-1.3.0"
@@ -780,8 +780,8 @@ in
       )
       sources."giget-1.2.5"
       sources."htmlparser2-10.0.0"
-      sources."jiti-2.6.0"
-      sources."js-yaml-4.1.0"
+      sources."jiti-2.6.1"
+      sources."js-yaml-4.1.1"
       sources."jsonc-parser-2.3.1"
       sources."kleur-3.0.3"
       sources."magicast-0.3.5"
@@ -808,7 +808,7 @@ in
       sources."quansync-0.2.11"
       sources."rc9-2.1.2"
       sources."readdirp-4.1.2"
-      sources."semver-7.7.2"
+      sources."semver-7.7.3"
       sources."sisteransi-1.0.5"
       sources."source-map-js-1.2.1"
       sources."tar-6.2.1"
@@ -837,10 +837,10 @@ in
   "@tailwindcss/language-server" = nodeEnv.buildNodePackage {
     name = "_at_tailwindcss_slash_language-server";
     packageName = "@tailwindcss/language-server";
-    version = "0.14.26";
+    version = "0.14.29";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@tailwindcss/language-server/-/language-server-0.14.26.tgz";
-      sha512 = "kFTsuu0bJCIPp4zEPmlEAmSRCwBEgCa6Un8ijWM7TE7R0Ltx17xhikamHjqquQdhPl3tiV2+FyHht9uHbEXraA==";
+      url = "https://registry.npmjs.org/@tailwindcss/language-server/-/language-server-0.14.29.tgz";
+      sha512 = "aZ3/XyTNmsoIyhs09Fghlw6D6y7o70aIxHmQEYPFiJPe/1k3HqtxXqhn7g7a5UpA1yeGOyKK9HRNJ8ghZqIclg==";
     };
     buildInputs = globalBuildInputs;
     meta = {
@@ -886,10 +886,10 @@ in
   some-sass-language-server = nodeEnv.buildNodePackage {
     name = "some-sass-language-server";
     packageName = "some-sass-language-server";
-    version = "2.3.1";
+    version = "2.3.6";
     src = fetchurl {
-      url = "https://registry.npmjs.org/some-sass-language-server/-/some-sass-language-server-2.3.1.tgz";
-      sha512 = "Ay0b7L5mHd/pyeHLkbmaQkbkHGV7N9ZfonEbg7bpXOvnSFgv/COMppQbM+iVSSRbtPr22hwetb8AWEBdkSv9jg==";
+      url = "https://registry.npmjs.org/some-sass-language-server/-/some-sass-language-server-2.3.6.tgz";
+      sha512 = "LCT9LRp1Qj7BFL7vkMAFljehWNOefhmH6/V/XnC44bi/tUHvQf91HQaIBPJRArcH4XJQQhapiJ65ZaI/1uv2kg==";
     };
     buildInputs = globalBuildInputs;
     meta = {
