@@ -9,12 +9,12 @@ def fetch-firefox [] {
 }
 
 def fetch-node [] {
-    let path = pkgs/nodePackages/_node2nix
+    let path = "pkgs/nodePackages/_node2nix"
     (^node2nix
-        -i $path ++ /node-packages.json
-        -o $path ++ /node-packages.nix
-        -c $path ++ /default.nix
-        -e $path ++ /node-env.nix
+        -i ($path ++ /node-packages.json)
+        -o ($path ++ /node-packages.nix)
+        -c ($path ++ /default.nix)
+        -e ($path ++ /node-env.nix)
     )
 }
 
