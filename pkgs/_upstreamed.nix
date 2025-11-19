@@ -42,6 +42,11 @@
     "tree-sitter-hyprland"
   ];
   uhhyou = [ "uhhyou-plugins" ];
+  zl-audio = {
+    equalizer = [ "zlequalizer" ];
+    compressor = [ "zlcompressor" ];
+    splitter = [ "zlsplitter" ];
+  };
   zlint-bin = [ "zlint-zig" ];
   zrythm = [ "zrythm" ];
 }
