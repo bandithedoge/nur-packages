@@ -8,10 +8,10 @@
     "pinned": false,
     "src": {
       "name": null,
-      "sha256": "sha256-6l1YXSOx42b4+/B3wTo7ad7RLFwHh/r8fViNDCf6B1g=",
+      "sha256": "sha256-hOgNRd4jfeu4/2dRZ8zihFCuzOpNsI8y0ub3zegnofU=",
       "type": "url",
-      "url": "https://github.com/Korkman/macemu-appimage-builder/releases/download/2025-10-11/SheepShaver-x86_64.AppImage"
+      "url": "https://github.com/Korkman/macemu-appimage-builder/releases/download/2025-11-11/SheepShaver-x86_64.AppImage"
     },
-    "version": "2025-10-11"
+    "version": "2025-11-11"
   }
 }

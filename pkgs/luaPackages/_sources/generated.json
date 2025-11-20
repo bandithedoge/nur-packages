@@ -61,7 +61,7 @@
   },
   "lua-dbus_proxy": {
     "cargoLocks": null,
-    "date": "2024-10-04",
+    "date": "2025-11-15",
     "extract": null,
     "name": "lua-dbus_proxy",
     "passthru": null,
@@ -71,12 +71,12 @@
       "fetchSubmodules": false,
       "leaveDotGit": false,
       "name": null,
-      "rev": "986bf1a4dc481a753c812c6035d2277a149c9b2a",
-      "sha256": "sha256-AeKYKaPYADWkufB9OicPNTrcm1mQfkuMI+7WKidppNw=",
+      "rev": "0f84913358c1f7ce939b79f071bea9883a75cfb5",
+      "sha256": "sha256-H44JBe2n4QZcQRyQTcYY/DtuG7XQgolPrdPgUU6SJTs=",
       "sparseCheckout": [],
       "type": "git",
       "url": "https://github.com/stefano-m/lua-dbus_proxy"
     },
-    "version": "986bf1a4dc481a753c812c6035d2277a149c9b2a"
+    "version": "0f84913358c1f7ce939b79f071bea9883a75cfb5"
   }
 }

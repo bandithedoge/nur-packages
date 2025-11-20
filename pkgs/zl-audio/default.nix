@@ -35,39 +35,6 @@ let
     };
 in
 {
-  equalizer = mkZl {
-    pname = "ZLEqualizer";
-    source = sources.equalizer;
-    meta = {
-      description = "equalizer plugin";
-      homepage = "https://zl-audio.github.io/plugins/zlequalizer/";
-      license = pkgs.lib.licenses.agpl3Only;
-    };
-    extraCmakeFlags = [ "-DKFR_ENABLE_DFT=ON" ];
-  };
-
-  compressor = mkZl {
-    pname = "ZLCompressor";
-    source = sources.compressor;
-    version = sources.compressor.date;
-    meta = {
-      description = "compressor plugin";
-      homepage = "https://github.com/ZL-Audio/ZLCompressor";
-    };
-    extraCmakeFlags = [ "-DKFR_ENABLE_DFT=ON" ];
-  };
-
-  splitter = mkZl {
-    pname = "ZLSplitter";
-    source = sources.splitter;
-    meta = {
-      description = "splitter plugin";
-      homepage = "https://zl-audio.github.io/plugins/zlsplitter/";
-    };
-    extraCmakeFlags = [ "-DKFR_ENABLE_DFT=ON" ];
-    cflags = [ "-Wno-changes-meaning" ];
-  };
-
   warm = mkZl {
     pname = "ZLWarm";
     source = sources.warm;

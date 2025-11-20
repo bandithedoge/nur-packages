@@ -6,31 +6,6 @@
   dockerTools,
 }:
 {
-  compressor = {
-    pname = "compressor";
-    version = "4910dfa9e8a090c23ca864b63372e2d755f97fe6";
-    src = fetchgit {
-      url = "https://github.com/ZL-Audio/ZLCompressor";
-      rev = "4910dfa9e8a090c23ca864b63372e2d755f97fe6";
-      fetchSubmodules = true;
-      deepClone = false;
-      leaveDotGit = false;
-      sparseCheckout = [ ];
-      sha256 = "sha256-bHUdStIPi736JMvpXLUwnc2kp53Lbgd5aACcLAIgAHg=";
-    };
-    date = "2025-10-24";
-  };
-  equalizer = {
-    pname = "equalizer";
-    version = "0.6.2";
-    src = fetchFromGitHub {
-      owner = "ZL-Audio";
-      repo = "ZLEqualizer";
-      rev = "0.6.2";
-      fetchSubmodules = true;
-      sha256 = "sha256-wtcPLB039nF6sZQ7+6jaV6VBYVNMm0aaJMSqzyI/4YA=";
-    };
-  };
   inflator = {
     pname = "inflator";
     version = "0.3.0";
@@ -62,17 +37,6 @@
       rev = "v0.2.4";
       fetchSubmodules = true;
       sha256 = "sha256-HswX1bWg1Rej+em21N1H3G1TVmeXY+tq0ib9OKNlTN4=";
-    };
-  };
-  splitter = {
-    pname = "splitter";
-    version = "0.2.0";
-    src = fetchFromGitHub {
-      owner = "ZL-Audio";
-      repo = "ZLSplitter";
-      rev = "0.2.0";
-      fetchSubmodules = true;
-      sha256 = "sha256-8a/t1yJG5CUr4udnKIy80exQejDy0HzOi7uMjelPldg=";
     };
   };
   warm = {

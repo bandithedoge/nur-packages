@@ -1,7 +1,7 @@
 {
   "oneknob-series": {
     "cargoLocks": null,
-    "date": "2025-09-17",
+    "date": "2025-11-13",
     "extract": null,
     "name": "oneknob-series",
     "passthru": null,
@@ -11,12 +11,12 @@
       "fetchSubmodules": true,
       "leaveDotGit": false,
       "name": null,
-      "rev": "6733edfe5af0e1c08331beda3a4a02a20cf6c049",
-      "sha256": "sha256-/FcuCnuKPexKLmk8rzMzQ968EPdeZ88hlZVyk2pKr9w=",
+      "rev": "f5b53149f0e3577ea4664aa68041b42434773b12",
+      "sha256": "sha256-RSGfAUwelmepFnC9exU0EUWNRTI7rIDxYIvn+AU72Ks=",
       "sparseCheckout": [],
       "type": "git",
       "url": "https://github.com/DISTRHO/OneKnob-Series"
     },
-    "version": "6733edfe5af0e1c08331beda3a4a02a20cf6c049"
+    "version": "f5b53149f0e3577ea4664aa68041b42434773b12"
   }
 }

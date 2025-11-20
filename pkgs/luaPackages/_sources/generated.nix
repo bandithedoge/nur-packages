@@ -50,16 +50,16 @@
   };
   lua-dbus_proxy = {
     pname = "lua-dbus_proxy";
-    version = "986bf1a4dc481a753c812c6035d2277a149c9b2a";
+    version = "0f84913358c1f7ce939b79f071bea9883a75cfb5";
     src = fetchgit {
       url = "https://github.com/stefano-m/lua-dbus_proxy";
-      rev = "986bf1a4dc481a753c812c6035d2277a149c9b2a";
+      rev = "0f84913358c1f7ce939b79f071bea9883a75cfb5";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-AeKYKaPYADWkufB9OicPNTrcm1mQfkuMI+7WKidppNw=";
+      sha256 = "sha256-H44JBe2n4QZcQRyQTcYY/DtuG7XQgolPrdPgUU6SJTs=";
     };
-    date = "2024-10-04";
+    date = "2025-11-15";
   };
 }

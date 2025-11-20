@@ -8,10 +8,10 @@
 {
   charlatan = {
     pname = "charlatan";
-    version = "3.3.1";
+    version = "3.3.2";
     src = fetchurl {
-      url = "https://blaukraut.info/downloads/charlatan3_3.3.1_linux.zip";
-      sha256 = "sha256-06JaHcwkUaYp65V7DWqHo2wh+csggEBM+AodmfO8wFI=";
+      url = "https://blaukraut.info/downloads/charlatan3_3.3.2_linux.zip";
+      sha256 = "sha256-yyQt6t0lzFTdRPd0v9oWW01mA4zzYwLldhbjqmlpll4=";
     };
   };
 }

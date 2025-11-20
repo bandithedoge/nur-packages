@@ -13,6 +13,7 @@ pkgs.stdenv.mkDerivation {
     makeWrapper
     ninja
     pkg-config
+    python3
   ];
 
   buildInputs = with pkgs; [
