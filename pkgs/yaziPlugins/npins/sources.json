@@ -9,9 +9,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "d79edb580c3a939bb0bfac53cf1ce63cf0584c6d",
-      "url": "https://github.com/Sonico98/allmytoes.yazi/archive/d79edb580c3a939bb0bfac53cf1ce63cf0584c6d.tar.gz",
-      "hash": "sha256-SUTsrgRa273B5P3LAj9L6LQyJ53E8lSvSsCGtKncztg="
+      "revision": "acdc53be76434a82218eed8e1fda5512971bf3cc",
+      "url": "https://github.com/Sonico98/allmytoes.yazi/archive/acdc53be76434a82218eed8e1fda5512971bf3cc.tar.gz",
+      "hash": "sha256-zZ9L0FrcxFvSuDJwi6VHQXDT7b/sM4DhZ3LPi/i9tig="
     },
     "archivemount.yazi": {
       "type": "Git",
@@ -139,9 +139,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "6db0c605ff4ccc9ef59613773aecbacc6fb93c9c",
-      "url": "https://github.com/boydaihungst/gvfs.yazi/archive/6db0c605ff4ccc9ef59613773aecbacc6fb93c9c.tar.gz",
-      "hash": "sha256-0W1nQ8MJ+BgPyKcn+oDzntX9BXplJEyl8UjsHWCHrE8="
+      "revision": "d4b8d83d37fcb10a53e1ca07f8ee011dff089c91",
+      "url": "https://github.com/boydaihungst/gvfs.yazi/archive/d4b8d83d37fcb10a53e1ca07f8ee011dff089c91.tar.gz",
+      "hash": "sha256-6VNra6WUjDfBdGjCw/6VOAaAgZLF78/4Gj47BOh1Q/0="
     },
     "hexyl.yazi": {
       "type": "Git",
