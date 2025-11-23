@@ -8,16 +8,16 @@
 {
   uzdoom = {
     pname = "uzdoom";
-    version = "df7ff511e270dee3659478c046250a1bc175d50f";
+    version = "3ef0dcef02bee9e53eb217a5ae6a4b45ab3e5ea0";
     src = fetchgit {
       url = "https://github.com/UZDoom/UZDoom";
-      rev = "df7ff511e270dee3659478c046250a1bc175d50f";
+      rev = "3ef0dcef02bee9e53eb217a5ae6a4b45ab3e5ea0";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-NTQJL1Pk3Lont0GQEYcvYibqmxX3BcHRsOuGEVQt4ig=";
+      sha256 = "sha256-hFGUKcieRtnteRB7Usb1PPDsri7AV7LpB1osBO1OvGw=";
     };
-    date = "2025-11-20";
+    date = "2025-11-22";
   };
 }

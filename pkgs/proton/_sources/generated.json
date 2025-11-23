@@ -8,11 +8,11 @@
     "pinned": false,
     "src": {
       "name": null,
-      "sha256": "sha256-AaQ0sgjdorw+HDhLYY9ToYywamkSKHxtCUnBSdkAViA=",
+      "sha256": "sha256-aKCII5GGKLnC29m+BMZvtF38XIpg8aUKAJ+70zsr9oQ=",
       "type": "url",
-      "url": "https://github.com/CachyOS/proton-cachyos/releases/download/cachyos-10.0-20251107-slr/proton-cachyos-10.0-20251107-slr-x86_64_v3.tar.xz"
+      "url": "https://github.com/CachyOS/proton-cachyos/releases/download/cachyos-10.0-20251120-slr/proton-cachyos-10.0-20251120-slr-x86_64_v3.tar.xz"
     },
-    "version": "cachyos-10.0-20251107-slr"
+    "version": "cachyos-10.0-20251120-slr"
   },
   "proton-ge": {
     "cargoLocks": null,
