@@ -243,9 +243,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "0742fffea5229271164016bf96fb599d861972db",
-      "url": "https://github.com/ndtoan96/ouch.yazi/archive/0742fffea5229271164016bf96fb599d861972db.tar.gz",
-      "hash": "sha256-C0wG8NQ+zjAMfd+J39Uvs3K4U6e3Qpo1yLPm2xcsAaI="
+      "revision": "41d68cd39b9c62f4edc9f6d50cfc77f913cd6acc",
+      "url": "https://github.com/ndtoan96/ouch.yazi/archive/41d68cd39b9c62f4edc9f6d50cfc77f913cd6acc.tar.gz",
+      "hash": "sha256-BmFyz6uKwm8+YNQ7OG1se5rL8IxA5vzZnEHIo4SR4og="
     },
     "projects.yazi": {
       "type": "Git",
