@@ -35,9 +35,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "120406f79b6a5bf4db6120dd99c1106008ada5cf",
-      "url": "https://github.com/hankertrix/augment-command.yazi/archive/120406f79b6a5bf4db6120dd99c1106008ada5cf.tar.gz",
-      "hash": "sha256-t9X7cNrMR3fFqiM13COQbBDHYr8UKgxW708V6ndZVgY="
+      "revision": "f0e6f4468606ac7545b7695decd2c3e7212c23f6",
+      "url": "https://github.com/hankertrix/augment-command.yazi/archive/f0e6f4468606ac7545b7695decd2c3e7212c23f6.tar.gz",
+      "hash": "sha256-HRs/wVEg1fEkMtpT0k4W2rzz/NXbXgBWk3/qhWeZHH0="
     },
     "bookmarks.yazi": {
       "type": "Git",
@@ -243,9 +243,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "41d68cd39b9c62f4edc9f6d50cfc77f913cd6acc",
-      "url": "https://github.com/ndtoan96/ouch.yazi/archive/41d68cd39b9c62f4edc9f6d50cfc77f913cd6acc.tar.gz",
-      "hash": "sha256-BmFyz6uKwm8+YNQ7OG1se5rL8IxA5vzZnEHIo4SR4og="
+      "revision": "cfb91404d3d83bcf7bbf90d689d226699b0e4147",
+      "url": "https://github.com/ndtoan96/ouch.yazi/archive/cfb91404d3d83bcf7bbf90d689d226699b0e4147.tar.gz",
+      "hash": "sha256-6TyKPsapXJMiSRFrKRfP/hamOiG6LfgbPp7flh5tKoo="
     },
     "projects.yazi": {
       "type": "Git",
