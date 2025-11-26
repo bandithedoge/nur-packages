@@ -1,6 +1,6 @@
-{ pkgs, ... }:
+{ callPackage', nodejs }:
 let
-  nodeDeps = pkgs.callPackage ./_node2nix/default.nix { nodejs = pkgs.nodejs_latest; };
+  nodeDeps = callPackage' ./_node2nix/default.nix { inherit nodejs; };
 in
 {
   inherit (nodeDeps)

@@ -1,13 +1,16 @@
 {
-  pkgs,
   sources,
-  ...
-}:
-pkgs.stdenv.mkDerivation {
-  inherit (sources.reverse-camel) pname src;
-  version = pkgs.lib.removePrefix "v" sources.reverse-camel.version;
 
-  nativeBuildInputs = with pkgs; [
+  lib,
+  stdenv,
+
+  pkg-config,
+}:
+stdenv.mkDerivation {
+  inherit (sources.reverse-camel) pname src;
+  version = lib.removePrefix "v" sources.reverse-camel.version;
+
+  nativeBuildInputs = [
     pkg-config
   ];
 
@@ -25,7 +28,7 @@ pkgs.stdenv.mkDerivation {
 
   enableParallelBuilding = true;
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "Cross-platform Camel Crusher Clone VST plug-in based on black-box analysis";
     homepage = "https://github.com/soerenbnoergaard/reverse-camel";
     platforms = platforms.linux;

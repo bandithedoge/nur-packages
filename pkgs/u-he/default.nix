@@ -1,12 +1,20 @@
 {
-  pkgs,
   sources,
-  ...
+
+  lib,
+  stdenv,
+
+  autoPatchelfHook,
+  autoreconfHook,
+  glib,
+  gtk3,
+  unzip,
+  xorg,
 }:
 let
-  patchelf-raphi = pkgs.stdenv.mkDerivation {
+  patchelf-raphi = stdenv.mkDerivation {
     inherit (sources.patchelf-raphi) pname version src;
-    nativeBuildInputs = with pkgs; [ autoreconfHook ];
+    nativeBuildInputs = [ autoreconfHook ];
     meta.mainProgram = "patchelf";
   };
 
@@ -20,25 +28,21 @@ let
       preBuild ? null,
       postBuild ? null,
     }:
-    pkgs.stdenv.mkDerivation {
+    stdenv.mkDerivation {
       inherit (sources.${product}) pname version src;
 
-      nativeBuildInputs =
-        with pkgs;
-        [
-          autoPatchelfHook
-        ]
-        ++ nativeBuildInputs;
+      nativeBuildInputs = [
+        autoPatchelfHook
+      ]
+      ++ nativeBuildInputs;
 
-      buildInputs =
-        with pkgs;
-        [
-          glib
-          gtk3
-          xorg.xcbutil
-          xorg.xcbutilkeysyms
-        ]
-        ++ extraLibs;
+      buildInputs = [
+        glib
+        gtk3
+        xorg.xcbutil
+        xorg.xcbutilkeysyms
+      ]
+      ++ extraLibs;
 
       buildPhase = ''
         runHook preBuild
@@ -54,7 +58,7 @@ let
           --subst-var-by store_path $out/libexec/${product}
         cc -fPIC -shared -O3 wrapper.c -o $out/libexec/${product}/snprintf_wrapper.so
 
-        ${pkgs.lib.getExe patchelf-raphi} \
+        ${lib.getExe patchelf-raphi} \
           --replace-symbol snprintf snprintf_wrapper \
           --add-needed snprintf_wrapper.so \
           $out/libexec/${product}/${product}.64.so
@@ -66,7 +70,7 @@ let
         ln -s $out/libexec/${product}/${product}.64.so $out/lib/vst3/${product}.vst3/Contents/x86_64-linux/${product}.so
         ln -s $out/libexec/${product}/*.pdf $out/lib/vst3/${product}.vst3/Contents/Resources/Documentation/
       ''
-      + (pkgs.lib.optionalString clap ''
+      + (lib.optionalString clap ''
         mkdir -p $out/lib/clap
         ln -s $out/libexec/${product}/${product}.64.so $out/lib/clap/${product}.64.clap
       '')
@@ -81,7 +85,7 @@ let
       };
 
       meta =
-        with pkgs.lib;
+        with lib;
         {
           license = licenses.unfree;
           platforms = [ "x86_64-linux" ];
@@ -214,7 +218,7 @@ in
   };
 
   zebra-legacy = mkUhe "Zebra2" {
-    nativeBuildInputs = with pkgs; [ unzip ];
+    nativeBuildInputs = [ unzip ];
     preBuild = ''
       tar -xf 01\ Zebra2/*.xz
       cp -r Zebra2*/Zebra2 .
@@ -225,7 +229,7 @@ in
 
       mkdir -p $out/libexec/Zebra2/Presets/{ZRev,ZebraHZ}/MIDI\ Programs
 
-      ${pkgs.lib.getExe patchelf-raphi} \
+      ${lib.getExe patchelf-raphi} \
         --replace-symbol snprintf snprintf_wrapper \
         --add-needed snprintf_wrapper.so \
         $out/libexec/Zebra2/ZebraHZ.64.so

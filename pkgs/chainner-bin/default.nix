@@ -1,12 +1,21 @@
 {
-  pkgs,
   sources,
-  ...
+
+  lib,
+  stdenv,
+
+  copyDesktopItems,
+  electron,
+  glib,
+  libGL,
+  makeDesktopItem,
+  makeWrapper,
+  unzip,
 }:
-pkgs.stdenv.mkDerivation {
+stdenv.mkDerivation {
   inherit (sources.chainner-bin) pname version src;
 
-  nativeBuildInputs = with pkgs; [
+  nativeBuildInputs = [
     copyDesktopItems
     makeWrapper
     unzip
@@ -18,10 +27,9 @@ pkgs.stdenv.mkDerivation {
     mkdir -p $out/{bin,libexec,share/icons/hicolor/256x256/apps}
     cp -r * $out/libexec
 
-    makeWrapper ${with pkgs; lib.getExe electron} $out/bin/chainner \
+    makeWrapper ${lib.getExe electron} $out/bin/chainner \
       --add-flags $out/libexec/resources/app \
       --set LD_LIBRARY_PATH ${
-        with pkgs;
         lib.makeLibraryPath [
           libGL
           glib
@@ -35,7 +43,7 @@ pkgs.stdenv.mkDerivation {
     runHook postBuild
   '';
 
-  desktopItems = with pkgs; [
+  desktopItems = [
     (makeDesktopItem {
       name = "chainner";
       desktopName = "chaiNNer";
@@ -48,7 +56,7 @@ pkgs.stdenv.mkDerivation {
     })
   ];
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "A node-based image processing GUI aimed at making chaining image processing tasks easy and customizable.";
     homepage = "https://chainner.app/";
     license = licenses.gpl3Plus;

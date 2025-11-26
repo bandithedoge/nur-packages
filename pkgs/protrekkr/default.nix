@@ -1,24 +1,34 @@
 {
-  pkgs,
   sources,
-  ...
+
+  fetchurl,
+  lib,
+  stdenv,
+
+  SDL,
+  alsa-lib,
+  copyDesktopItems,
+  jack1,
+  libGL,
+  makeDesktopItem,
+  makeWrapper,
 }:
 let
-  icon = pkgs.fetchurl {
+  icon = fetchurl {
     url = "https://raw.githubusercontent.com/falkTX/protrekkr/refs/heads/master/defaultlogo.png";
     hash = "sha256-4IGInSZ4lBtETHi3pLu06m7TGpQiBgiLZM3QftA7ngk=";
   };
 in
-pkgs.stdenv.mkDerivation {
+stdenv.mkDerivation {
   inherit (sources.protrekkr) pname src;
-  version = pkgs.lib.removePrefix "v" sources.protrekkr.version;
+  version = lib.removePrefix "v" sources.protrekkr.version;
 
-  nativeBuildInputs = with pkgs; [
+  nativeBuildInputs = [
     copyDesktopItems
     makeWrapper
   ];
 
-  buildInputs = with pkgs; [
+  buildInputs = [
     SDL
     alsa-lib
     jack1
@@ -54,7 +64,7 @@ pkgs.stdenv.mkDerivation {
   makefile = "makefile.linux";
 
   desktopItems = [
-    (pkgs.makeDesktopItem {
+    (makeDesktopItem {
       name = "protrekkr";
       exec = "protrekkr %u";
       desktopName = "ProTrekkr";
@@ -64,7 +74,7 @@ pkgs.stdenv.mkDerivation {
 
   hardeningDisable = [ "format" ];
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "A fork of ProTrekkr, now with linux JACK Audio support";
     homepage = "https://github.com/falkTX/protrekkr";
     license = licenses.bsd3;

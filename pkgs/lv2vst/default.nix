@@ -1,9 +1,10 @@
 {
-  pkgs,
   sources,
-  ...
+
+  lib,
+  stdenv,
 }:
-pkgs.stdenv.mkDerivation {
+stdenv.mkDerivation {
   inherit (sources.lv2vst) src pname;
   version = sources.lv2vst.date;
 
@@ -11,7 +12,7 @@ pkgs.stdenv.mkDerivation {
 
   makeFlags = [ "PREFIX=$(out)" ];
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "experimental LV2 to VST2.x wrapper";
     homepage = "https://github.com/x42/lv2vst";
     license = licenses.gpl2;

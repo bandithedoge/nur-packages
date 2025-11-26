@@ -1,12 +1,12 @@
 {
-  pkgs,
   sources,
   utils,
-  ...
+
+  lib,
 }:
 utils.juce.mkJucePackage {
   inherit (sources.rnnoise-plugin) pname src;
-  version = pkgs.lib.removePrefix "v" sources.rnnoise-plugin.version;
+  version = lib.removePrefix "v" sources.rnnoise-plugin.version;
 
   cmakeFlags = [ "-DBUILD_FOR_RELEASE=ON" ];
 
@@ -22,7 +22,7 @@ utils.juce.mkJucePackage {
     runHook postInstall
   '';
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "Noise suppression plugin based on Xiph's RNNoise";
     homepage = "https://github.com/werman/noise-suppression-for-voice";
     license = licenses.gpl3Plus;

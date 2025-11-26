@@ -1,8 +1,10 @@
 {
-  pkgs,
   sources,
-  callPackage',
-  ...
+
+  lib,
+  stdenv,
+
+  projucer
 }:
 let
   mkMrugalla =
@@ -11,18 +13,18 @@ let
       jucerFile ? "Project.jucer",
       meta ? { },
     }:
-    pkgs.stdenv.mkDerivation {
+    stdenv.mkDerivation {
       inherit (source) pname src;
       version = source.date;
 
       nativeBuildInputs = [
-        (callPackage' ../projucer)
+        projucer
       ];
 
       inherit jucerFile;
 
       meta =
-        (with pkgs.lib; {
+        (with lib; {
           license = licenses.gpl3Plus;
           platforms = platforms.linux;
         })

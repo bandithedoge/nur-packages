@@ -1,29 +1,32 @@
 {
-  pkgs,
   sources,
   utils,
-  ...
+
+  lib,
+  stdenv,
+
+  autoPatchelfHook,
+  csound,
+  unzip,
 }:
 let
-  csound = pkgs.csound.overrideAttrs (_: {
+  csound' = csound.overrideAttrs (_: {
     NIX_CFLAGS_COMPILE = [ "-Wno-incompatible-pointer-types" ];
   });
 in
-pkgs.stdenv.mkDerivation {
+stdenv.mkDerivation {
   inherit (sources.tonez) pname version src;
 
-  nativeBuildInputs = with pkgs; [
+  nativeBuildInputs = [
     autoPatchelfHook
     unzip
   ];
 
-  buildInputs =
-    with pkgs;
-    [
-      csound
-      stdenv.cc.cc.lib
-    ]
-    ++ utils.juce.commonBuildInputs;
+  buildInputs = [
+    csound'
+    stdenv.cc.cc.lib
+  ]
+  ++ utils.juce.commonBuildInputs;
 
   buildPhase = ''
     runHook preBuild
@@ -34,7 +37,7 @@ pkgs.stdenv.mkDerivation {
     runHook postBuild
   '';
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "Free cross-platform polyphonic synthesizer";
     homepage = "https://www.retornz.com/plugins/tonez";
     license = licenses.gpl3Plus;

@@ -1,10 +1,14 @@
 {
-  pkgs,
   sources,
   utils,
-  ...
+
+  lib,
+  stdenv,
+
+  autoPatchelfHook,
+  unzip,
 }:
-pkgs.stdenv.mkDerivation {
+stdenv.mkDerivation {
   pname = "audible-planets-bin";
   inherit (sources.audible-planets-lv2) version;
   srcs = with sources; [
@@ -13,17 +17,15 @@ pkgs.stdenv.mkDerivation {
   ];
   sourceRoot = ".";
 
-  nativeBuildInputs = with pkgs; [
+  nativeBuildInputs = [
     autoPatchelfHook
     unzip
   ];
 
-  buildInputs =
-    with pkgs;
-    [
-      stdenv.cc.cc.lib
-    ]
-    ++ utils.juce.commonBuildInputs;
+  buildInputs = [
+    stdenv.cc.cc.lib
+  ]
+  ++ utils.juce.commonBuildInputs;
 
   buildPhase = ''
     runHook preBuild
@@ -35,7 +37,7 @@ pkgs.stdenv.mkDerivation {
     runHook postBuild
   '';
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "An expressive, quasi-Ptolemaic semi-modular synthesizer";
     homepage = "https://github.com/gregrecco67/AudiblePlanets";
     license = licenses.gpl3Plus;

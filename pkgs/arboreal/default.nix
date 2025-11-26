@@ -1,8 +1,9 @@
 {
-  pkgs,
   sources,
   utils,
-  ...
+
+  lib,
+  stdenv,
 }:
 let
   mkArboreal =
@@ -11,7 +12,7 @@ let
       meta,
       cmakeFlags ? [ ],
     }:
-    pkgs.lib.makeOverridable (
+    lib.makeOverridable (
       {
         noLicenseCheck ? false,
         productionBuild ? true,
@@ -21,11 +22,11 @@ let
 
         cmakeFlags =
           cmakeFlags
-          ++ (pkgs.lib.optional noLicenseCheck "-DNO_LICENSE_CHECK=1")
-          ++ pkgs.lib.optional productionBuild "-DPRODUCTION_BUILD=1";
+          ++ (lib.optional noLicenseCheck "-DNO_LICENSE_CHECK=1")
+          ++ lib.optional productionBuild "-DPRODUCTION_BUILD=1";
 
         meta =
-          with pkgs.lib;
+          with lib;
           {
             license = licenses.gpl3Plus;
             platforms = platforms.linux;

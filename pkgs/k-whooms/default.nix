@@ -1,16 +1,28 @@
 {
-  pkgs,
   sources,
-  ...
+
+  lib,
+  stdenv,
+
+  autoPatchelfHook,
+  cairo,
+  expat,
+  freetype,
+  glib,
+  harfbuzz,
+  libxkbcommon,
+  pango,
+  xcb-util-cursor,
+  xorg,
 }:
-pkgs.stdenv.mkDerivation {
+stdenv.mkDerivation {
   inherit (sources.k-whooms) pname version src;
 
-  nativeBuildInputs = with pkgs; [
+  nativeBuildInputs = [
     autoPatchelfHook
   ];
 
-  buildInputs = with pkgs; [
+  buildInputs = [
     cairo
     expat
     freetype
@@ -38,7 +50,7 @@ pkgs.stdenv.mkDerivation {
     runHook postBuild
   '';
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "Get K-Whooms and squeeze the fattest sounds out of it with just a few turns of the controls";
     homepage = "https://www.hansen-audio.org/";
     license = licenses.unfree;

@@ -1,26 +1,31 @@
 {
-  pkgs,
   sources,
   utils,
-  ...
+
+  lib,
+
+  gtk3,
+  ladspa-sdk,
+  libjack2,
+  pkg-config,
+  webkitgtk_4_1,
+  writableTmpDirAsHomeHook,
 }:
 utils.juce.mkJucePackage (finalAttrs: {
   pname = "projucer";
   inherit (sources.juce) version src;
 
-  buildInputs = with pkgs; [
+  buildInputs = [
     ladspa-sdk
   ];
 
-  propagatedBuildInputs =
-    utils.juce.commonBuildInputs
-    ++ (with pkgs; [
-      gtk3
-      libjack2
-      pkg-config
-      webkitgtk_4_1
-      writableTmpDirAsHomeHook
-    ]);
+  propagatedBuildInputs = utils.juce.commonBuildInputs ++ [
+    gtk3
+    libjack2
+    pkg-config
+    webkitgtk_4_1
+    writableTmpDirAsHomeHook
+  ];
 
   installPhase = ''
     runHook preInstall
@@ -37,7 +42,7 @@ utils.juce.mkJucePackage (finalAttrs: {
 
   setupHook = ./setupHook.sh;
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     homepage = "https://juce.com/";
     license = licenses.agpl3Only;
     platforms = platforms.unix;

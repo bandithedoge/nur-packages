@@ -1,12 +1,12 @@
 {
-  pkgs,
   sources,
   utils,
-  ...
+
+  lib,
 }:
 utils.juce.mkJucePackage {
   inherit (sources.ysfx) pname src;
-  version = pkgs.lib.removePrefix "v" sources.ysfx.version;
+  version = lib.removePrefix "v" sources.ysfx.version;
 
   cmakeFlags = [
     "-DFETCHCONTENT_SOURCE_DIR_JUCE=${sources.juce.src}"
@@ -14,7 +14,7 @@ utils.juce.mkJucePackage {
     "-DYSFX_PLUGIN_LTO=ON"
   ];
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "Hosting library for JSFX";
     homepage = "https://github.com/JoepVanlier/ysfx";
     license = licenses.asl20;

@@ -1,14 +1,10 @@
 {
-  pkgs,
+  callPackage',
   sources,
-  ...
 }:
-let
-  callPackage' = pkg: pkgs.callPackage pkg { inherit pkgs sources; };
-in
 {
-  dmenu = callPackage' ./dmenu.nix;
-  dwm = callPackage' ./dwm.nix;
-  slock = callPackage' ./slock.nix;
-  st = callPackage' ./st.nix;
+  dmenu = callPackage' ./dmenu.nix { inherit sources; };
+  dwm = callPackage' ./dwm.nix { inherit sources; };
+  slock = callPackage' ./slock.nix { inherit sources; };
+  st = callPackage' ./st.nix { inherit sources; };
 }

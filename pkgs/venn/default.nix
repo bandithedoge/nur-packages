@@ -1,7 +1,13 @@
 {
-  pkgs,
   sources,
-  ...
+
+  lib,
+  stdenv,
+
+  autoPatchelfHook,
+  curl,
+  freetype,
+  unzip,
 }:
 let
   mkVenn =
@@ -10,16 +16,16 @@ let
       meta,
       sourceRoot ? null,
     }:
-    pkgs.stdenv.mkDerivation {
+    stdenv.mkDerivation {
       inherit (source) pname version src;
       inherit sourceRoot;
 
-      nativeBuildInputs = with pkgs; [
+      nativeBuildInputs = [
         autoPatchelfHook
         unzip
       ];
 
-      buildInputs = with pkgs; [
+      buildInputs = [
         curl
         freetype
         stdenv.cc.cc.lib
@@ -35,7 +41,7 @@ let
       '';
 
       meta =
-        with pkgs.lib;
+        with lib;
         {
           license = licenses.unfree;
           platforms = [ "x86_64-linux" ];

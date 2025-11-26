@@ -1,13 +1,17 @@
 {
-  pkgs,
   sources,
-  ...
-}:
-pkgs.stdenv.mkDerivation {
-  inherit (sources.clap-info) pname src;
-  version = pkgs.lib.removePrefix "v" sources.clap-info.version;
 
-  nativeBuildInputs = with pkgs; [
+  lib,
+  stdenv,
+
+  cmake,
+  ninja,
+}:
+stdenv.mkDerivation {
+  inherit (sources.clap-info) pname src;
+  version = lib.removePrefix "v" sources.clap-info.version;
+
+  nativeBuildInputs = [
     cmake
     ninja
   ];
@@ -26,7 +30,7 @@ pkgs.stdenv.mkDerivation {
     runHook postInstall
   '';
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "A tool to show information about a CLAP plugin on the command line";
     homepage = "https://github.com/free-audio/clap-info";
     license = licenses.mit;

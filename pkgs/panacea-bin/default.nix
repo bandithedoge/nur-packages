@@ -1,29 +1,31 @@
 {
-  pkgs,
   sources,
   utils,
-  ...
+
+  lib,
+  stdenv,
+
+  autoPatchelfHook,
+  csound,
 }:
 let
-  csound = pkgs.csound.overrideAttrs (_: {
+  csound' = csound.overrideAttrs (_: {
     NIX_CFLAGS_COMPILE = [ "-Wno-incompatible-pointer-types" ];
   });
 in
-pkgs.stdenv.mkDerivation {
+stdenv.mkDerivation {
   inherit (sources.panacea-bin) pname src;
-  version = pkgs.lib.removePrefix "v" sources.panacea-bin.version;
+  version = lib.removePrefix "v" sources.panacea-bin.version;
 
-  nativeBuildInputs = with pkgs; [
+  nativeBuildInputs = [
     autoPatchelfHook
   ];
 
-  buildInputs =
-    with pkgs;
-    [
-      csound
-      stdenv.cc.cc.lib
-    ]
-    ++ utils.juce.commonBuildInputs;
+  buildInputs = [
+    csound'
+    stdenv.cc.cc.lib
+  ]
+  ++ utils.juce.commonBuildInputs;
 
   buildPhase = ''
     runHook preBuild
@@ -36,7 +38,7 @@ pkgs.stdenv.mkDerivation {
     runHook postBuild
   '';
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "Panacea is an autopan audio effect plugin with the possibility of humanization";
     homepage = "https://github.com/consint/Panacea";
     license = licenses.gpl3Plus;

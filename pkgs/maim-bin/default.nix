@@ -1,14 +1,18 @@
 {
-  pkgs,
   sources,
+
+  lib,
+  stdenv,
+
+  autoPatchelfHook,
+  unzip,
   utils,
-  ...
 }:
-pkgs.stdenv.mkDerivation {
+stdenv.mkDerivation {
   inherit (sources.maim-bin) pname version src;
   sourceRoot = ".";
 
-  nativeBuildInputs = with pkgs; [
+  nativeBuildInputs = [
     autoPatchelfHook
     unzip
   ];
@@ -25,7 +29,7 @@ pkgs.stdenv.mkDerivation {
     runHook postBuild
   '';
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "Audio plugin for custom MP3 distortion and digital glitches";
     homepage = "https://github.com/ArdenButterfield/Maim";
     license = licenses.gpl3Plus;

@@ -1,8 +1,8 @@
 {
-  pkgs,
   sources,
   utils,
-  ...
+
+  lib,
 }:
 utils.juce.mkJucePackage {
   inherit (sources.unplugred) pname src;
@@ -23,7 +23,7 @@ utils.juce.mkJucePackage {
     "-DFETCHCONTENT_SOURCE_DIR_CLAP-JUCE-EXTENSIONS=${sources.clap-juce-extensions.src}"
   ];
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "Collection of VST plugins made by unplugred";
     homepage = "https://vst.unplug.red";
     license = licenses.agpl3Plus;

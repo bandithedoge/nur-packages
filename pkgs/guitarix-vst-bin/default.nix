@@ -1,30 +1,37 @@
 {
-  pkgs,
   sources,
   utils,
-  ...
+
+  lib,
+  stdenv,
+
+  autoPatchelfHook,
+  fftwFloat,
+  glibmm,
+  libsigcxx,
+  libsndfile,
+  lilv,
+  unzip,
 }:
-pkgs.stdenv.mkDerivation {
+stdenv.mkDerivation {
   inherit (sources.guitarix-vst-bin) pname src;
-  version = pkgs.lib.removePrefix "v" sources.guitarix-vst-bin.version;
+  version = lib.removePrefix "v" sources.guitarix-vst-bin.version;
   sourceRoot = ".";
 
-  nativeBuildInputs = with pkgs; [
+  nativeBuildInputs = [
     autoPatchelfHook
     unzip
   ];
 
-  buildInputs =
-    with pkgs;
-    [
-      fftwFloat
-      glibmm
-      libsigcxx
-      libsndfile
-      lilv
-      stdenv.cc.cc.lib
-    ]
-    ++ utils.juce.commonBuildInputs;
+  buildInputs = [
+    fftwFloat
+    glibmm
+    libsigcxx
+    libsndfile
+    lilv
+    stdenv.cc.cc.lib
+  ]
+  ++ utils.juce.commonBuildInputs;
 
   buildPhase = ''
     runHook preBuild
@@ -35,7 +42,7 @@ pkgs.stdenv.mkDerivation {
     runHook postBuild
   '';
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "guitarix vst3 wrapper for linux";
     homepage = "https://github.com/brummer10/guitarix.vst";
     license = licenses.gpl3Plus;

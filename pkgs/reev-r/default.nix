@@ -1,14 +1,14 @@
 {
-  pkgs,
   sources,
   utils,
-  ...
+
+  lib,
 }:
 utils.juce.mkJucePackage {
   inherit (sources.reev-r) pname src;
-  version = pkgs.lib.removePrefix "v" sources.reev-r.version;
+  version = lib.removePrefix "v" sources.reev-r.version;
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "Convolution reverb with pre and post modulation";
     homepage = "https://github.com/tiagolr/reevr";
     license = licenses.gpl3Plus;

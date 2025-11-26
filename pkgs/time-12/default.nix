@@ -1,10 +1,10 @@
 {
-  pkgs,
   sources,
   utils,
-  ...
+
+  lib,
 }:
 utils.juce.mkJucePackage {
   inherit (sources.time-12) pname src;
-  version = pkgs.lib.removePrefix "v" sources.time-12.version;
+  version = lib.removePrefix "v" sources.time-12.version;
 }

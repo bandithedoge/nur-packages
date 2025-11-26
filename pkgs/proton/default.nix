@@ -1,17 +1,18 @@
 {
-  pkgs,
   sources,
-  ...
+
+  lib,
+  stdenvNoCC,
 }:
 let
-  mkProton = pkgs.lib.makeOverridable (
+  mkProton = lib.makeOverridable (
     {
       source,
       meta,
       version ? source.version,
       steamDisplayName ? source.pname,
     }:
-    pkgs.stdenvNoCC.mkDerivation {
+    stdenvNoCC.mkDerivation {
       inherit (source) pname src;
       inherit version;
 
@@ -33,7 +34,7 @@ let
       '';
 
       meta =
-        with pkgs.lib;
+        with lib;
         {
           license = licenses.bsd3;
           platforms = [ "x86_64-linux" ];
@@ -46,7 +47,7 @@ in
 {
   cachyos = mkProton rec {
     source = sources.proton-cachyos;
-    version = pkgs.lib.removePrefix "cachyos-" source.version;
+    version = lib.removePrefix "cachyos-" source.version;
     meta = {
       description = "A compatibility tool for Steam Play based on Wine and additional components, experimental branch with extra CachyOS flavour";
       homepage = "https://github.com/CachyOS/proton-cachyos";
@@ -55,7 +56,7 @@ in
 
   ge = mkProton rec {
     source = sources.proton-ge;
-    version = pkgs.lib.removePrefix "GE-Proton" source.version;
+    version = lib.removePrefix "GE-Proton" source.version;
     meta = {
       description = "Compatibility tool for Steam Play based on Wine and additional components";
       homepage = "https://github.com/GloriousEggroll/proton-ge-custom";
@@ -64,7 +65,7 @@ in
 
   sarek = mkProton rec {
     source = sources.proton-sarek;
-    version = pkgs.lib.removePrefix "Proton-Sarek" source.version;
+    version = lib.removePrefix "Proton-Sarek" source.version;
     meta = {
       description = "Steam Play compatibility tool based on Wine and additional components, with a focus on older PCs";
       homepage = "https://github.com/pythonlover02/Proton-Sarek";
@@ -73,7 +74,7 @@ in
 
   sarek-async = mkProton rec {
     source = sources.proton-sarek-async;
-    version = pkgs.lib.removePrefix "Proton-Sarek" source.version;
+    version = lib.removePrefix "Proton-Sarek" source.version;
     meta = {
       description = "Steam Play compatibility tool based on Wine and additional components, with a focus on older PCs (with DXVK async)";
       homepage = "https://github.com/pythonlover02/Proton-Sarek";

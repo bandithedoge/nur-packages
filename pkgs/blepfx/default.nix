@@ -1,7 +1,13 @@
 {
-  pkgs,
   sources,
-  ...
+
+  lib,
+  stdenv,
+
+  autoPatchelfHook,
+  libGL,
+  unzip,
+  xorg,
 }:
 let
   mkBlep =
@@ -10,18 +16,18 @@ let
       description,
       homepage,
     }:
-    pkgs.stdenv.mkDerivation {
+    stdenv.mkDerivation {
       inherit (source) pname src;
-      version = pkgs.lib.removePrefix "version-" source.version;
+      version = lib.removePrefix "version-" source.version;
 
       sourceRoot = ".";
 
-      nativeBuildInputs = with pkgs; [
+      nativeBuildInputs = [
         unzip
         autoPatchelfHook
       ];
 
-      buildInputs = with pkgs; [
+      buildInputs = [
         libGL
         xorg.libX11
         xorg.libxcb
@@ -37,7 +43,7 @@ let
         runHook postBuild
       '';
 
-      meta = with pkgs.lib; {
+      meta = with lib; {
         inherit description homepage;
         license = licenses.unfree;
         platforms = [ "x86_64-linux" ];

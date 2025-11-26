@@ -1,10 +1,14 @@
 {
-  pkgs,
   sources,
   utils,
-  ...
+
+  lib,
+  stdenv,
+
+  autoPatchelfHook,
+  unzip,
 }:
-pkgs.stdenv.mkDerivation {
+stdenv.mkDerivation {
   inherit (sources.resonarium-bin) pname version;
   srcs = [
     sources.resonarium-bin.src
@@ -12,7 +16,7 @@ pkgs.stdenv.mkDerivation {
   ];
   sourceRoot = ".";
 
-  nativeBuildInputs = with pkgs; [
+  nativeBuildInputs = [
     autoPatchelfHook
     unzip
   ];
@@ -25,7 +29,7 @@ pkgs.stdenv.mkDerivation {
     cp -r VST3/* $out/lib/vst3
   '';
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "An expressive, semi-modular, and comprehensive physical modeling/waveguide synthesizer";
     homepage = "https://github.com/gabrielsoule/resonarium";
     license = licenses.gpl3Plus;

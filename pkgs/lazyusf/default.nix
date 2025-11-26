@@ -1,24 +1,31 @@
 {
-  pkgs,
   sources,
-  ...
+
+  lib,
+  stdenv,
+
+  cmake,
+  flac,
+  libao,
+  libogg,
+  ninja,
 }:
-pkgs.stdenv.mkDerivation {
+stdenv.mkDerivation {
   inherit (sources.lazyusf) pname src;
   version = sources.lazyusf.date;
 
-  nativeBuildInputs = with pkgs; [
+  nativeBuildInputs = [
     cmake
     ninja
   ];
 
-  buildInputs = with pkgs; [
+  buildInputs = [
     flac
     libao
     libogg
   ];
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "Converter for Ultra 64 Sound Format";
     homepage = "https://github.com/derselbst/lazyusf";
     platforms = platforms.unix;

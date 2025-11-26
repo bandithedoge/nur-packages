@@ -1,12 +1,13 @@
 {
-  pkgs,
   sources,
-  ...
+
+  lib,
+  stdenv,
 }:
 let
-  source = sources."snyk-ls-bin-${pkgs.stdenv.targetPlatform.system}";
+  source = sources."snyk-ls-bin-${stdenv.targetPlatform.system}";
 in
-pkgs.stdenv.mkDerivation {
+stdenv.mkDerivation {
   pname = "snyk-ls-bin";
   inherit (source) version src;
 
@@ -22,7 +23,7 @@ pkgs.stdenv.mkDerivation {
     runHook postBuild
   '';
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "Language Server used by IDEs as Snyk Backend for Frontends";
     homepage = "https://github.com/snyk/snyk-ls";
     license = licenses.asl20;

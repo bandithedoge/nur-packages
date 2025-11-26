@@ -1,21 +1,26 @@
 {
-  pkgs,
   sources,
-  callPackage',
-  ...
+
+  lib,
+  stdenv,
+
+  autoPatchelfHook,
+  curl-gnutls3,
+  libGL,
+  xorg,
 }:
 let
   mkHarrison =
     source:
-    pkgs.stdenv.mkDerivation {
+    stdenv.mkDerivation {
       inherit (source) pname version src;
 
-      nativeBuildInputs = with pkgs; [
+      nativeBuildInputs = [
         autoPatchelfHook
       ];
 
-      buildInputs = with pkgs; [
-        (callPackage' ../curl-gnutls3)
+      buildInputs = [
+        curl-gnutls3
         libGL
         xorg.libX11
         xorg.libXext
@@ -30,7 +35,7 @@ let
         runHook postBuild
       '';
 
-      meta = with pkgs.lib; {
+      meta = with lib; {
         homepage = "https://support.harrisonaudio.com/hc/en-gb/articles/19516617411613-Harrison-AVA-downloads-OLD-VERSIONS";
         license = licenses.unfree;
         platforms = [ "x86_64-linux" ];

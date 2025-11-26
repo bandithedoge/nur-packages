@@ -1,13 +1,25 @@
-{ pkgs, sources, ... }:
-pkgs.stdenv.mkDerivation {
+{
+  sources,
+
+  lib,
+  stdenv,
+
+  alsa-lib,
+  autoPatchelfHook,
+  freetype,
+  libGL,
+  runCommand,
+  unzip,
+}:
+stdenv.mkDerivation {
   inherit (sources.quetzalcoatl-bin) pname version src;
   sourceRoot = ".";
 
-  nativeBuildInputs = with pkgs; [
+  nativeBuildInputs = [
     autoPatchelfHook
   ];
 
-  buildInputs = with pkgs; [
+  buildInputs = [
     alsa-lib
     freetype
     libGL
@@ -27,10 +39,10 @@ pkgs.stdenv.mkDerivation {
     let
       mkContent =
         source:
-        pkgs.runCommandNoCC source.pname
+        runCommand source.pname
           {
             inherit (source) src;
-            nativeBuildInputs = with pkgs; [ unzip ];
+            nativeBuildInputs = [ unzip ];
           }
           ''
             unzip $src
@@ -42,7 +54,7 @@ pkgs.stdenv.mkDerivation {
       presets = mkContent sources.quetzalcoatl-presets;
     };
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "Sample player";
     longDescription = ''
       This derivation exports passthru attributes for required Quetzalcoatl content. Symlink (or copy the contents of)

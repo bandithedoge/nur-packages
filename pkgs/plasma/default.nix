@@ -1,20 +1,22 @@
 {
-  pkgs,
   sources,
-  callPackage',
-  ...
+
+  lib,
+  stdenv,
+
+  projucer,
 }:
-pkgs.stdenv.mkDerivation {
+stdenv.mkDerivation {
   inherit (sources.plasma) pname src;
-  version = pkgs.lib.removePrefix "v" sources.plasma.version;
+  version = lib.removePrefix "v" sources.plasma.version;
 
   nativeBuildInputs = [
-    (callPackage' ../projucer)
+    projucer
   ];
 
   jucerFile = "Plasma.jucer";
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "Asymmetrical Distortion Audio Plugin";
     homepage = "https://github.com/Dimethoxy/Plasma";
     license = licenses.agpl3Plus;

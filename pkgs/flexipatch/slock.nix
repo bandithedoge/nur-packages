@@ -1,13 +1,17 @@
 {
-  pkgs,
   sources,
-  ...
+
+  lib,
+  stdenv,
+
+  libxcrypt,
+  xorg,
 }:
-pkgs.stdenv.mkDerivation {
+stdenv.mkDerivation {
   inherit (sources.slock-flexipatch) pname src;
   version = sources.slock-flexipatch.date;
 
-  buildInputs = with pkgs; [
+  buildInputs = [
     libxcrypt
     xorg.libX11
     xorg.libXext
@@ -22,7 +26,7 @@ pkgs.stdenv.mkDerivation {
 
   makeFlags = [ "CC:=$(CC)" ];
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "An slock build with preprocessor directives to decide which patches to include during build time";
     homepage = "https://github.com/bakkeby/slock-flexipatch";
     license = licenses.mit;

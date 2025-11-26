@@ -1,24 +1,26 @@
 {
-  pkgs,
   sources,
   utils,
-  ...
-}:
-pkgs.stdenv.mkDerivation {
-  inherit (sources.peakeater-bin) pname src;
-  version = pkgs.lib.removePrefix "v" sources.peakeater-bin.version;
 
-  nativeBuildInputs = with pkgs; [
+  lib,
+  stdenv,
+
+  autoPatchelfHook,
+  unzip,
+}:
+stdenv.mkDerivation {
+  inherit (sources.peakeater-bin) pname src;
+  version = lib.removePrefix "v" sources.peakeater-bin.version;
+
+  nativeBuildInputs = [
     autoPatchelfHook
     unzip
   ];
 
-  buildInputs =
-    with pkgs;
-    [
-      stdenv.cc.cc.lib
-    ]
-    ++ utils.juce.commonBuildInputs;
+  buildInputs = [
+    stdenv.cc.cc.lib
+  ]
+  ++ utils.juce.commonBuildInputs;
 
   buildPhase = ''
     runHook preBuild
@@ -31,7 +33,7 @@ pkgs.stdenv.mkDerivation {
     runHook postBuild
   '';
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "PeakEater is a free open-source cross-platform VST3/AU/LV2/CLAP wave shaper plugin";
     homepage = "https://github.com/vvvar/PeakEater";
     license = licenses.gpl3Plus;

@@ -1,8 +1,12 @@
 {
-  pkgs,
   sources,
   utils,
-  ...
+
+  lib,
+  stdenv,
+
+  autoPatchelfHook,
+  unzip,
 }:
 let
   mkWea =
@@ -11,24 +15,22 @@ let
       source,
       description,
       homepage,
-      license ? pkgs.lib.licenses.gpl3Plus,
+      license ? lib.licenses.gpl3Plus,
     }:
-    pkgs.stdenv.mkDerivation rec {
+    stdenv.mkDerivation rec {
       inherit (source) pname version src;
 
       sourceRoot = "${name} v${version}";
 
-      nativeBuildInputs = with pkgs; [
+      nativeBuildInputs = [
         autoPatchelfHook
         unzip
       ];
 
-      buildInputs =
-        with pkgs;
-        [
-          stdenv.cc.cc.lib
-        ]
-        ++ utils.juce.commonBuildInputs;
+      buildInputs = [
+        stdenv.cc.cc.lib
+      ]
+      ++ utils.juce.commonBuildInputs;
 
       buildPhase = ''
         runHook preBuild
@@ -39,7 +41,7 @@ let
         runHook postBuild
       '';
 
-      meta = with pkgs.lib; {
+      meta = with lib; {
         inherit description homepage license;
         platforms = [ "x86_64-linux" ];
         sourceProvenance = [ sourceTypes.binaryNativeCode ];

@@ -1,9 +1,12 @@
 {
-  pkgs,
   sources,
-  ...
+
+  lib,
+  stdenv,
+
+  autoPatchelfHook,
 }:
-pkgs.stdenv.mkDerivation {
+stdenv.mkDerivation {
   inherit (sources.whisper-vamp-plugin-bin) pname version src;
 
   outputs = [
@@ -13,11 +16,11 @@ pkgs.stdenv.mkDerivation {
 
   preferLocalBuild = true;
 
-  nativeBuildInputs = with pkgs; [
+  nativeBuildInputs = [
     autoPatchelfHook
   ];
 
-  buildInputs = with pkgs; [
+  buildInputs = [
     stdenv.cc.cc.lib
   ];
 
@@ -33,7 +36,7 @@ pkgs.stdenv.mkDerivation {
     runHook postBuild
   '';
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "The Whisper Vamp plugin is an implementation of the Whisper speech recognition model developed by OpenAI as a Vamp plugin";
     homepage = "https://github.com/Ircam-Partiels/whisper-vamp-plugin";
     license = licenses.mit;

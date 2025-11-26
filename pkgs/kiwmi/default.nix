@@ -1,27 +1,40 @@
 {
-  pkgs,
   sources,
-  ...
+
+  stdenv,
+  lib,
+
+  git,
+  libxkbcommon,
+  lua,
+  meson,
+  ninja,
+  pixman,
+  pkg-config,
+  udev,
+  wayland,
+  wayland-protocols,
+  wlroots_0_17,
 }:
-pkgs.stdenv.mkDerivation rec {
+stdenv.mkDerivation rec {
   inherit (sources.kiwmi) src pname;
   version = sources.kiwmi.date;
 
-  nativeBuildInputs = with pkgs; [
+  nativeBuildInputs = [
     git
     meson
     ninja
     pkg-config
   ];
 
-  buildInputs = with pkgs; [
+  buildInputs = [
     libxkbcommon
     lua
     pixman
     udev
     wayland
     wayland-protocols
-    wlroots_0_15
+    wlroots_0_17
   ];
 
   mesonBuildType = "release";
@@ -29,7 +42,7 @@ pkgs.stdenv.mkDerivation rec {
 
   mesonFlags = [ "-Dkiwmi-version=${version}" ];
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "A fully programmable Wayland Compositor";
     homepage = "https://github.com/buffet/kiwmi";
     license = licenses.mpl20;

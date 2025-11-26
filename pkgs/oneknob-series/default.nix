@@ -1,13 +1,16 @@
 {
-  pkgs,
   sources,
-  ...
+
+  lib,
+  stdenv,
+
+  pkg-config,
 }:
-pkgs.stdenv.mkDerivation {
+stdenv.mkDerivation {
   inherit (sources.oneknob-series) pname src;
   version = sources.oneknob-series.date;
 
-  nativeBuildInputs = with pkgs; [
+  nativeBuildInputs = [
     pkg-config
   ];
 
@@ -30,7 +33,7 @@ pkgs.stdenv.mkDerivation {
 
   enableParallelBuilding = true;
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "Collection of stupidly simple but well-polished and visually pleasing audio plugins";
     homepage = "https://github.com/DISTRHO/OneKnob-Series";
     license = licenses.gpl2;

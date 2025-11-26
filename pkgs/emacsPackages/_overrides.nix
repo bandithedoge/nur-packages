@@ -1,11 +1,11 @@
-{ pkgs, ... }:
+{ emacsPackages }:
 final: prev: {
   eglot-ltex = prev.eglot-ltex.overrideAttrs (_: {
-    buildInputs = with pkgs.emacs.pkgs; [ f ];
+    buildInputs = with emacsPackages; [ f ];
   });
 
   org-bars = prev.org-bars.overrideAttrs (_: {
-    buildInputs = with pkgs.emacs.pkgs; [
+    buildInputs = with emacsPackages; [
       dash
       s
     ];

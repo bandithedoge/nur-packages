@@ -1,16 +1,23 @@
-{ pkgs, ... }:
+{
+  callPackage',
+
+  lib,
+  pkgs,
+
+  stdenvNoCC,
+}:
 let
   sources = import ./npins { };
 in
-(pkgs.lib.makeExtensible (
+(lib.makeExtensible (
   _:
-  pkgs.lib.mapAttrs' (
+  lib.mapAttrs' (
     name: src':
     let
       src = src' { inherit pkgs; };
     in
-    pkgs.lib.nameValuePair (pkgs.lib.removeSuffix ".xplr" name) (
-      pkgs.stdenv.mkDerivation {
+    lib.nameValuePair (lib.removeSuffix ".xplr" name) (
+      stdenvNoCC.mkDerivation {
         pname = name;
         version = src.revision;
         inherit src;
@@ -25,4 +32,4 @@ in
     )
   ) sources
 )).extend
-  (pkgs.callPackage ./_overrides.nix { })
+  (callPackage' ./_overrides.nix { })

@@ -1,14 +1,15 @@
 {
-  pkgs,
   sources,
-  ...
+
+  appimageTools,
+  lib,
 }:
 let
-  appimageContents = pkgs.appimageTools.extract {
+  appimageContents = appimageTools.extract {
     inherit (sources.thorium-bin) pname version src;
   };
 in
-pkgs.appimageTools.wrapType2 {
+appimageTools.wrapType2 {
   inherit (sources.thorium-bin) version src;
   pname = "thorium";
 
@@ -19,7 +20,7 @@ pkgs.appimageTools.wrapType2 {
     cp ${appimageContents}/thorium-browser.desktop $out/share/applications
   '';
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "Chromium fork named after radioactive element No. 90";
     homepage = "https://thorium.rocks";
     license = licenses.bsd3;

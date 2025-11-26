@@ -1,21 +1,26 @@
 {
-  pkgs,
   sources,
-  ...
+
+  lib,
+  stdenv,
+
+  autoPatchelfHook,
+  unzip,
+  xorg,
 }:
 let
   mkKlknn =
     source:
-    pkgs.stdenv.mkDerivation {
+    stdenv.mkDerivation {
       inherit (source) pname src;
-      version = pkgs.lib.removePrefix "v" source.version;
+      version = lib.removePrefix "v" source.version;
 
-      nativeBuildInputs = with pkgs; [
+      nativeBuildInputs = [
         autoPatchelfHook
         unzip
       ];
 
-      buildInputs = with pkgs; [
+      buildInputs = [
         stdenv.cc.cc.lib
         xorg.libX11
       ];
@@ -31,7 +36,7 @@ let
         runHook postBuild
       '';
 
-      meta = with pkgs.lib; {
+      meta = with lib; {
         homepage = "https://github.com/klknn/kdr";
         license = licenses.boost;
         platforms = [ "x86_64-linux" ];

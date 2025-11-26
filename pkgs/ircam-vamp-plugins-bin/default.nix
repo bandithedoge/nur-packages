@@ -1,19 +1,23 @@
 {
-  pkgs,
   sources,
-  ...
+
+  lib,
+  stdenv,
+
+  autoPatchelfHook,
+  unzip,
 }:
-pkgs.stdenv.mkDerivation {
+stdenv.mkDerivation {
   inherit (sources.ircam-vamp-plugins-bin) pname version src;
 
   preferLocalBuild = true;
 
-  nativeBuildInputs = with pkgs; [
+  nativeBuildInputs = [
     autoPatchelfHook
     unzip
   ];
 
-  buildInputs = with pkgs; [
+  buildInputs = [
     stdenv.cc.cc.lib
   ];
 
@@ -26,7 +30,7 @@ pkgs.stdenv.mkDerivation {
     runHook postBuild
   '';
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "A package containing Vamp plug-ins developed at Ircam";
     homepage = "https://github.com/Ircam-Partiels/ircam-vamp-plugins";
     license = licenses.unfree;

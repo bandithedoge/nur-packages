@@ -1,14 +1,22 @@
 {
-  pkgs,
   sources,
   utils,
-  ...
-}:
-pkgs.stdenv.mkDerivation {
-  inherit (sources.six-sines) pname src;
-  version = pkgs.lib.removePrefix "v" sources.six-sines.version;
 
-  nativeBuildInputs = with pkgs; [
+  lib,
+  stdenv,
+
+  cmake,
+  git,
+  ninja,
+  pkg-config,
+  rtaudio_6,
+  rtmidi,
+}:
+stdenv.mkDerivation {
+  inherit (sources.six-sines) pname src;
+  version = lib.removePrefix "v" sources.six-sines.version;
+
+  nativeBuildInputs = [
     cmake
     ninja
     pkg-config
@@ -19,8 +27,8 @@ pkgs.stdenv.mkDerivation {
 
   cmakeFlags = [
     "-DVST3_SDK_ROOT=${sources.vst3sdk.src}"
-    "-DRTAUDIO_SDK_ROOT=${pkgs.rtaudio_6.src}"
-    "-DRTMIDI_SDK_ROOT=${pkgs.rtmidi.src}"
+    "-DRTAUDIO_SDK_ROOT=${rtaudio_6.src}"
+    "-DRTMIDI_SDK_ROOT=${rtmidi.src}"
     "-DGIT_COMMIT_HASH=${sources.six-sines.version}"
     "-DCOPY_AFTER_BUILD=FALSE"
     "-DCMAKE_POLICY_VERSION_MINIMUM=3.5"
@@ -39,7 +47,7 @@ pkgs.stdenv.mkDerivation {
     runHook postInstall
   '';
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "Small synthesizer which explores audio rate inter-modulation of signals";
     homepage = "https://github.com/baconpaul/six-sines";
     license = licenses.mit;

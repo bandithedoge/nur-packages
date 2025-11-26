@@ -1,19 +1,25 @@
 {
-  pkgs,
   sources,
-  ...
+
+  lib,
+  stdenv,
+
+  autoPatchelfHook,
+  systemd,
+  unzip,
+  xorg,
 }:
-pkgs.stdenv.mkDerivation {
+stdenv.mkDerivation {
   inherit (sources.charlatan) pname version src;
 
   sourceRoot = ".";
 
-  nativeBuildInputs = with pkgs; [
+  nativeBuildInputs = [
     autoPatchelfHook
     unzip
   ];
 
-  buildInputs = with pkgs; [
+  buildInputs = [
     systemd
     xorg.libxcb
     xorg.xcbutilkeysyms
@@ -33,7 +39,7 @@ pkgs.stdenv.mkDerivation {
     runHook postBuild
   '';
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "Charlatan is a virtual analog (VA) synthesizer with focus on sound quality and easy usability";
     homepage = "https://blaukraut.info/";
     license = licenses.unfree;

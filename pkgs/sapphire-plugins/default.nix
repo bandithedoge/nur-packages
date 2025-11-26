@@ -1,17 +1,24 @@
 {
-  pkgs,
   sources,
   utils,
-  ...
+
+  lib,
+  stdenv,
+
+  cmake,
+  cpm-cmake,
+  git,
+  ninja,
+  pkg-config,
 }:
 let
-  date = pkgs.lib.splitString "-" sources.sapphire-plugins.date;
+  date = lib.splitString "-" sources.sapphire-plugins.date;
 in
-pkgs.stdenv.mkDerivation {
+stdenv.mkDerivation {
   inherit (sources.sapphire-plugins) pname src;
   version = sources.sapphire-plugins.date;
 
-  nativeBuildInputs = with pkgs; [
+  nativeBuildInputs = [
     cmake
     git
     ninja
@@ -38,10 +45,10 @@ pkgs.stdenv.mkDerivation {
 
   postPatch = ''
     substituteInPlace CMakeLists.txt \
-      --replace-fail "%j" ${builtins.toString ((pkgs.lib.toIntBase10 (builtins.elemAt date 1)) * 2)} \
-      --replace-fail "%Y" ${builtins.toString ((pkgs.lib.toInt (builtins.elemAt date 0)) + 2021)}
+      --replace-fail "%j" ${builtins.toString ((lib.toIntBase10 (builtins.elemAt date 1)) * 2)} \
+      --replace-fail "%Y" ${builtins.toString ((lib.toInt (builtins.elemAt date 0)) + 2021)}
 
-    ln -sf ${pkgs.cpm-cmake}/share/cpm/CPM.cmake libs/clap-libs/clap-wrapper/cmake/external/CPM.cmake
+    ln -sf ${cpm-cmake}/share/cpm/CPM.cmake libs/clap-libs/clap-wrapper/cmake/external/CPM.cmake
   '';
 
   hardeningDisable = [ "format" ];

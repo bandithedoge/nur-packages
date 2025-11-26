@@ -1,14 +1,33 @@
 {
-  pkgs,
   sources,
   utils,
-  ...
+
+  lib,
+  stdenv,
+
+  boost,
+  cairo,
+  cmake,
+  git,
+  ladspa-sdk,
+  libjack2,
+  lilv,
+  lv2,
+  lvtk,
+  makeWrapper,
+  meson,
+  ninja,
+  pkg-config,
+  pugl,
+  python3,
+  suil,
+  xorg,
 }:
-pkgs.stdenv.mkDerivation rec {
+stdenv.mkDerivation rec {
   inherit (sources.element) pname src;
   version = sources.element.date;
 
-  nativeBuildInputs = with pkgs; [
+  nativeBuildInputs = [
     cmake
     git
     makeWrapper
@@ -18,21 +37,19 @@ pkgs.stdenv.mkDerivation rec {
     python3
   ];
 
-  buildInputs =
-    with pkgs;
-    [
-      boost
-      cairo
-      ladspa-sdk
-      libjack2
-      lilv
-      lv2
-      lvtk
-      pugl
-      suil
-      xorg.libXcomposite
-    ]
-    ++ utils.juce.commonBuildInputs;
+  buildInputs = [
+    boost
+    cairo
+    ladspa-sdk
+    libjack2
+    lilv
+    lv2
+    lvtk
+    pugl
+    suil
+    xorg.libXcomposite
+  ]
+  ++ utils.juce.commonBuildInputs;
 
   postPatch = ''
     ln -s ${sources.clap-helpers.src} subprojects/clap-helpers
@@ -43,12 +60,12 @@ pkgs.stdenv.mkDerivation rec {
   '';
 
   postInstall = ''
-    wrapProgram $out/bin/element --prefix LD_LIBRARY_PATH : ${pkgs.lib.makeLibraryPath buildInputs}
+    wrapProgram $out/bin/element --prefix LD_LIBRARY_PATH : ${lib.makeLibraryPath buildInputs}
   '';
 
   dontUseCmakeConfigure = true;
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "A modular AU/LV2/VST/VST3 audio plugin host";
     homepage = "https://kushview.net/element/";
     license = licenses.gpl3Only;

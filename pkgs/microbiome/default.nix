@@ -1,20 +1,21 @@
 {
-  pkgs,
   sources,
-  callPackage',
-  ...
+
+  stdenv,
+  lib,
+  projucer,
 }:
-pkgs.stdenv.mkDerivation {
+stdenv.mkDerivation {
   inherit (sources.microbiome) pname src;
-  version = pkgs.lib.removePrefix "v" sources.microbiome.version;
+  version = lib.removePrefix "v" sources.microbiome.version;
 
   nativeBuildInputs = [
-    (callPackage' ../projucer)
+    projucer
   ];
 
   jucerFile = "Microbiome.jucer";
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "A delay-based audio effects plugin";
     homepage = "https://github.com/dsmaugy/microbiome";
     license = licenses.gpl3Plus;

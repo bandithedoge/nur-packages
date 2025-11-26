@@ -1,28 +1,30 @@
 {
-  pkgs,
   sources,
-  callPackage',
+
+  python3Packages,
+  beets,
+  lib,
   ...
 }:
 {
-  describe = pkgs.python3Packages.buildPythonApplication {
+  describe = python3Packages.buildPythonApplication {
     inherit (sources.beets-describe) pname version src;
 
     pyproject = true;
-    build-system = [ pkgs.python3Packages.setuptools ];
+    build-system = [ python3Packages.setuptools ];
 
-    nativeBuildInputs = with pkgs; [
+    nativeBuildInputs = [
       beets
     ];
 
-    dependencies = with pkgs.python3Packages; [
-      (callPackage' ../pythonPackages/termtables)
+    dependencies = with python3Packages; [
+      termtables
       numpy
       pandas
       termplotlib
     ];
 
-    nativeCheckInputs = with pkgs.python3Packages; [
+    nativeCheckInputs = with python3Packages; [
       pytest
       coverage
       mock
@@ -30,7 +32,7 @@
       pyyaml
     ];
 
-    meta = with pkgs; {
+    meta = {
       description = "A beets plugin for obsessive-compulsive music geeks to describe what's in their library";
       homepage = "https://github.com/adamjakab/BeetsPluginDescribe";
       license = lib.licenses.mit;
@@ -38,21 +40,21 @@
     };
   };
 
-  yearfixer = pkgs.python3Packages.buildPythonApplication {
+  yearfixer = python3Packages.buildPythonApplication {
     inherit (sources.beets-yearfixer) pname version src;
 
     pyproject = true;
-    build-system = [ pkgs.python3Packages.setuptools ];
+    build-system = [ python3Packages.setuptools ];
 
-    nativeBuildInputs = with pkgs; [
+    nativeBuildInputs = [
       beets
     ];
 
-    dependencies = with pkgs.python3Packages; [
+    dependencies = with python3Packages; [
       requests
     ];
 
-    nativeCheckInputs = with pkgs.python3Packages; [
+    nativeCheckInputs = with python3Packages; [
       pytest
       coverage
       mock
@@ -60,7 +62,7 @@
       pyyaml
     ];
 
-    meta = with pkgs; {
+    meta = {
       description = "A beets plugin for obsessive-compulsive music geeks to fix missing album release date";
       homepage = "https://github.com/adamjakab/BeetsPluginYearFixer";
       license = lib.licenses.mit;

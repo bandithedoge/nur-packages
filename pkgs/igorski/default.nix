@@ -1,8 +1,21 @@
 {
-  pkgs,
   sources,
   utils,
-  ...
+
+  lib,
+  stdenv,
+
+  cairo,
+  cmake,
+  freetype,
+  glib,
+  libxkbcommon,
+  ninja,
+  pango,
+  pkg-config,
+  sqlite,
+  xcb-util-cursor,
+  xorg,
 }:
 let
   mkJuce =
@@ -12,14 +25,14 @@ let
     }:
     utils.juce.mkJucePackage {
       inherit (source) pname src;
-      version = pkgs.lib.removePrefix "v" source.version;
+      version = lib.removePrefix "v" source.version;
 
       postPatch = ''
         ln -s ${sources.juce.src} JUCE
       '';
 
       meta =
-        with pkgs.lib;
+        with lib;
         {
           license = licenses.gpl3Only;
           platforms = platforms.linux;
@@ -33,7 +46,7 @@ let
       meta,
     }:
     let
-      commonBuildInputs = with pkgs; [
+      commonBuildInputs = [
         libxkbcommon
         xcb-util-cursor
         xorg.xcbutil
@@ -45,21 +58,19 @@ let
         pango
       ];
 
-      vst3sdk = pkgs.stdenv.mkDerivation {
+      vst3sdk = stdenv.mkDerivation {
         inherit (sources.vst3sdk) pname version src;
 
-        nativeBuildInputs = with pkgs; [
+        nativeBuildInputs = [
           cmake
           ninja
           pkg-config
         ];
 
-        buildInputs =
-          with pkgs;
-          [
-            sqlite
-          ]
-          ++ commonBuildInputs;
+        buildInputs = [
+          sqlite
+        ]
+        ++ commonBuildInputs;
 
         postPatch = ''
           substituteInPlace cmake/modules/SMTG_VstGuiSupport.cmake \
@@ -89,10 +100,10 @@ let
         ];
       };
     in
-    pkgs.stdenv.mkDerivation {
+    stdenv.mkDerivation {
       inherit (source) pname version src;
 
-      nativeBuildInputs = with pkgs; [
+      nativeBuildInputs = [
         cmake
         ninja
         pkg-config
@@ -121,7 +132,7 @@ let
       ];
 
       meta =
-        with pkgs.lib;
+        with lib;
         {
           license = licenses.mit;
           platforms = platforms.linux;

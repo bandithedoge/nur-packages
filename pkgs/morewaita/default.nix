@@ -1,19 +1,27 @@
 {
-  pkgs,
   sources,
-  ...
+
+  stdenvNoCC,
+  lib,
+
+  adwaita-icon-theme,
+  adwaita-icon-theme-legacy,
+  gtk3,
+  hicolor-icon-theme,
+  meson,
+  ninja,
 }:
-pkgs.stdenvNoCC.mkDerivation {
+stdenvNoCC.mkDerivation {
   inherit (sources.morewaita) pname src;
   version = sources.morewaita.date;
 
-  nativeBuildInputs = with pkgs; [
+  nativeBuildInputs = [
     gtk3
     meson
     ninja
   ];
 
-  propagatedBuildInputs = with pkgs; [
+  propagatedBuildInputs = [
     adwaita-icon-theme
     adwaita-icon-theme-legacy
     hicolor-icon-theme
@@ -25,7 +33,7 @@ pkgs.stdenvNoCC.mkDerivation {
 
   dontDropIconThemeCache = true;
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "An expanded Adwaita-styled companion icon theme with extra icons for popular apps to complement Gnome Shell's original icons";
     homepage = "https://github.com/somepaulo/MoreWaita";
     license = licenses.gpl3Plus;
