@@ -1,17 +1,24 @@
 {
-  pkgs,
   sources,
-  ...
+
+  lib,
+  stdenv,
+
+  alsa-lib,
+  autoPatchelfHook,
+  libGL,
+  unzip,
+  xorg,
 }:
-pkgs.stdenv.mkDerivation {
+stdenv.mkDerivation {
   inherit (sources.vitalium-verb-bin) pname version src;
 
-  nativeBuildInputs = with pkgs; [
+  nativeBuildInputs = [
     autoPatchelfHook
     unzip
   ];
 
-  buildInputs = with pkgs; [
+  buildInputs = [
     alsa-lib
     libGL
     stdenv.cc.cc.lib
@@ -30,7 +37,7 @@ pkgs.stdenv.mkDerivation {
     runHook postBuild
   '';
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "A Rust port of the reverb module from the Vital/Vitalium synthesizer";
     homepage = "https://github.com/BillyDM/vitalium-verb";
     license = licenses.gpl3Plus;

@@ -1,16 +1,21 @@
 {
-  pkgs,
   sources,
-  ...
+
+  lib,
+  stdenv,
+
+  cairo,
+  lv2,
+  pkg-config,
 }:
-pkgs.stdenv.mkDerivation {
+stdenv.mkDerivation {
   inherit (sources.molot-lite) pname version src;
 
-  nativeBuildInputs = with pkgs; [
+  nativeBuildInputs = [
     pkg-config
   ];
 
-  buildInputs = with pkgs; [
+  buildInputs = [
     lv2
     cairo
   ];
@@ -31,7 +36,7 @@ pkgs.stdenv.mkDerivation {
 
   enableParallelBuilding = true;
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "A cut-down version of Molot, a compressor with a lot of color and character";
     homepage = "https://github.com/magnetophon/molot-lite";
     license = licenses.gpl3Plus;

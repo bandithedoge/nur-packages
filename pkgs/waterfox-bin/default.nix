@@ -1,19 +1,34 @@
 {
-  pkgs,
   sources,
+
+  lib,
+  stdenv,
+
+  alsa-lib,
+  autoPatchelfHook,
+  copyDesktopItems,
+  curl,
+  dbus-glib,
+  gtk3,
+  libva,
+  makeDesktopItem,
+  patchelfUnstable,
+  pciutils,
+  pipewire,
+  xorg,
+
   config,
-  ...
 }:
-pkgs.stdenv.mkDerivation {
+stdenv.mkDerivation {
   inherit (sources.waterfox-bin) pname version src;
 
-  nativeBuildInputs = with pkgs; [
+  nativeBuildInputs = [
     autoPatchelfHook
     copyDesktopItems
     patchelfUnstable
   ];
 
-  buildInputs = with pkgs; [
+  buildInputs = [
     alsa-lib
     dbus-glib
     gtk3
@@ -21,13 +36,13 @@ pkgs.stdenv.mkDerivation {
     xorg.libXtst
   ];
 
-  runtimeDependencies = with pkgs; [
+  runtimeDependencies = [
     curl
     libva.out
     pciutils
   ];
 
-  appendRunpaths = with pkgs; [
+  appendRunpaths = [
     (lib.getLib pipewire)
   ];
 
@@ -60,7 +75,7 @@ pkgs.stdenv.mkDerivation {
     '';
 
   desktopItems = [
-    (pkgs.makeDesktopItem {
+    (makeDesktopItem {
       name = "Waterfox";
       exec = "waterfox %U";
       desktopName = "Waterfox";
@@ -101,13 +116,13 @@ pkgs.stdenv.mkDerivation {
   passthru = {
     binaryName = "waterfox";
     libName = "waterfox";
-    inherit (pkgs) gtk3;
+    inherit gtk3;
 
     alsaSupport = true;
     pipewireSupport = true;
   };
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "Fast and Private Web Browser";
     homepage = "https://www.waterfox.net/";
     license = licenses.mpl20;

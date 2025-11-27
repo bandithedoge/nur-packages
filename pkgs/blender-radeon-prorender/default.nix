@@ -1,21 +1,28 @@
 {
-  pkgs,
   sources,
-  blender ? pkgs.blender,
-  ...
+
+  lib,
+  stdenv,
+
+  autoPatchelfHook,
+  blender,
+  libGL,
+  rocmPackages,
+  unzip,
+  vulkan-loader,
 }:
-pkgs.stdenv.mkDerivation {
+stdenv.mkDerivation {
   inherit (sources.blender-radeon-prorender) pname src;
-  version = pkgs.lib.removePrefix "v" (
-    builtins.elemAt (pkgs.lib.splitString "/" sources.blender-radeon-prorender.version) 0
+  version = lib.removePrefix "v" (
+    builtins.elemAt (lib.splitString "/" sources.blender-radeon-prorender.version) 0
   );
 
-  nativeBuildInputs = with pkgs; [
+  nativeBuildInputs = [
     autoPatchelfHook
     unzip
   ];
 
-  buildInputs = with pkgs; [
+  buildInputs = [
     libGL
     rocmPackages.clr
     stdenv.cc.cc.lib
@@ -25,14 +32,14 @@ pkgs.stdenv.mkDerivation {
   buildPhase = ''
     runHook preBuild
 
-    path=$out/share/blender/${pkgs.lib.versions.majorMinor blender.version}/scripts/addons/rprblender
+    path=$out/share/blender/${lib.versions.majorMinor blender.version}/scripts/addons/rprblender
     mkdir -p $path
     cp -r * $path
 
     runHook postBuild
   '';
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "This hardware-agnostic rendering plug-in for Blender uses accurate ray-tracing technology to produce images and animations of your scenes, and provides real-time interactive rendering and continuous adjustment of effects";
     homepage = "https://www.amd.com/en/products/graphics/software/radeon-prorender/blender.html";
     license = licenses.asl20;

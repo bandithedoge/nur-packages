@@ -1,23 +1,29 @@
 {
-  pkgs,
   sources,
-  ...
-}:
-pkgs.stdenv.mkDerivation {
-  inherit (sources.winegui) pname src;
-  version = pkgs.lib.removePrefix "v" sources.winegui.version;
 
-  nativeBuildInputs = with pkgs; [
+  lib,
+  stdenv,
+
+  cmake,
+  gtkmm3,
+  ninja,
+  pkg-config,
+}:
+stdenv.mkDerivation {
+  inherit (sources.winegui) pname src;
+  version = lib.removePrefix "v" sources.winegui.version;
+
+  nativeBuildInputs = [
     cmake
     ninja
     pkg-config
   ];
 
-  buildInputs = with pkgs; [
+  buildInputs = [
     gtkmm3
   ];
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "A user-friendly WINE manager";
     homepage = "https://gitlab.melroy.org/melroy/winegui";
     license = licenses.agpl3Plus;

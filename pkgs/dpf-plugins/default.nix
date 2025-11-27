@@ -1,20 +1,27 @@
 {
-  pkgs,
   sources,
-  ...
-}:
-pkgs.stdenv.mkDerivation {
-  inherit (sources.dpf-plugins) pname src;
-  version = pkgs.lib.removePrefix "v" sources.dpf-plugins.version;
 
-  buildInputs = with pkgs; [
+  stdenv,
+  lib,
+
+  libGL,
+  liblo,
+  libprojectm,
+  pkg-config,
+  xorg,
+}:
+stdenv.mkDerivation {
+  inherit (sources.dpf-plugins) pname src;
+  version = lib.removePrefix "v" sources.dpf-plugins.version;
+
+  buildInputs = [
     libGL
     liblo
     libprojectm
     xorg.libX11
   ];
 
-  nativeBuildInputs = with pkgs; [
+  nativeBuildInputs = [
     pkg-config
   ];
 
@@ -26,7 +33,7 @@ pkgs.stdenv.mkDerivation {
 
   makeFlags = [ "PREFIX=$(out)" ];
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "Collection of DPF-based plugins for packaging";
     homepage = "https://github.com/DISTRHO/DPF-Plugins";
     license = with licenses; [

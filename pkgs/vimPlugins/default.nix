@@ -1,19 +1,23 @@
-{ pkgs, ... }:
+{
+  callPackage',
+
+  pkgs,
+  lib,
+  vimUtils,
+}:
 let
   sources = import ./npins { };
 in
-(pkgs.lib.makeExtensible (
+(lib.makeExtensible (
   _:
-  pkgs.lib.attrsets.mapAttrs' (
+  lib.attrsets.mapAttrs' (
     name: src':
     let
       src = src' { inherit pkgs; };
-      sanitizedName = builtins.replaceStrings [ "." ] [ "-" ] (
-        pkgs.lib.strings.sanitizeDerivationName name
-      );
+      sanitizedName = builtins.replaceStrings [ "." ] [ "-" ] (lib.strings.sanitizeDerivationName name);
     in
-    pkgs.lib.attrsets.nameValuePair sanitizedName (
-      pkgs.vimUtils.buildVimPlugin {
+    lib.attrsets.nameValuePair sanitizedName (
+      vimUtils.buildVimPlugin {
         pname = sanitizedName;
         version = src.revision;
         inherit src;
@@ -22,4 +26,4 @@ in
     )
   ) sources
 )).extend
-  (import ./_overrides.nix { inherit pkgs; })
+  (callPackage' ./_overrides.nix { })

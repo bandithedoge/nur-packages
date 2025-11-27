@@ -1,17 +1,20 @@
 {
-  pkgs,
   sources,
-  ...
+
+  lib,
+  stdenv,
+
+  autoPatchelfHook,
 }:
-pkgs.stdenv.mkDerivation {
+stdenv.mkDerivation {
   inherit (sources.digits-bin) pname src;
   version = builtins.replaceStrings [ "_" ] [ "." ] sources.digits-bin.version;
 
-  nativeBuildInputs = with pkgs; [
+  nativeBuildInputs = [
     autoPatchelfHook
   ];
 
-  buildInputs = with pkgs; [
+  buildInputs = [
     stdenv.cc.cc.lib
   ];
 
@@ -25,7 +28,7 @@ pkgs.stdenv.mkDerivation {
     runHook postBuild
   '';
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "An advanced phase distortion synthesizer";
     homepage = "http://www.extentofthejam.com/";
     license = licenses.gpl3;

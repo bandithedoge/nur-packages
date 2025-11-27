@@ -1,20 +1,26 @@
 {
-  pkgs,
   sources,
-  ...
+
+  lib,
+  stdenv,
+
+  copyDesktopItems,
+  makeDesktopItem,
+  makeWrapper,
+  python3,
 }:
-pkgs.stdenv.mkDerivation {
+stdenv.mkDerivation {
   inherit (sources.propertree) pname src;
   version = sources.propertree.date;
 
-  buildInputs = with pkgs; [
-    (pkgs.python3.withPackages (ps: with ps; [ tkinter ]))
+  buildInputs = [
+    (python3.withPackages (ps: with ps; [ tkinter ]))
     copyDesktopItems
     makeWrapper
   ];
 
   desktopItems = [
-    (pkgs.makeDesktopItem {
+    (makeDesktopItem {
       name = "propertree";
       exec = "propertree";
       desktopName = "ProperTree";
@@ -33,7 +39,7 @@ pkgs.stdenv.mkDerivation {
     runHook postBuild
   '';
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "Cross platform GUI plist editor written in python.";
     homepage = "https://github.com/corpnewt/ProperTree";
     license = licenses.bsd3;

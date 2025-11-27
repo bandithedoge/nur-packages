@@ -1,9 +1,16 @@
-{ pkgs, sources, ... }:
-pkgs.stdenv.mkDerivation {
-  inherit (sources.snd2acm) pname src;
-  version = pkgs.lib.removePrefix "v" sources.snd2acm.version;
+{
+  sources,
 
-  buildInputs = with pkgs; [
+  lib,
+  stdenv,
+
+  libvorbis,
+}:
+stdenv.mkDerivation {
+  inherit (sources.snd2acm) pname src;
+  version = lib.removePrefix "v" sources.snd2acm.version;
+
+  buildInputs = [
     libvorbis
   ];
 
@@ -16,7 +23,7 @@ pkgs.stdenv.mkDerivation {
     runHook postInstall
   '';
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "Sound to ACM converter based on The DragonLance Total Conversion Editor Pro (DLTCEP) code";
     homepage = "https://github.com/dtiefling/snd2acm-portable";
     license = licenses.gpl2Plus;

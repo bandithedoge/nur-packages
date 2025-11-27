@@ -1,7 +1,9 @@
 {
-  pkgs,
   sources,
   utils,
+
+  lib,
+
   variants ? [
     "nodalred2x"
     "osirus"
@@ -9,7 +11,6 @@
     "vavra"
     "xenia"
   ],
-  ...
 }:
 assert builtins.length variants != 0;
 utils.juce.mkJucePackage {
@@ -22,16 +23,16 @@ utils.juce.mkJucePackage {
   installPhase = ''
     mkdir -p $out/{bin,lib}
   ''
-  + pkgs.lib.optionalString (builtins.elem "osirus" variants || builtins.elem "ostirus" variants) ''
+  + lib.optionalString (builtins.elem "osirus" variants || builtins.elem "ostirus" variants) ''
     cp source/virusTestConsole/virusTestConsole $out/bin
   ''
-  + pkgs.lib.optionalString (builtins.elem "vavra" variants) ''
+  + lib.optionalString (builtins.elem "vavra" variants) ''
     cp source/mqTestConsole/mqTestConsole $out/bin
   ''
-  + pkgs.lib.optionalString (builtins.elem "xenia" variants) ''
+  + lib.optionalString (builtins.elem "xenia" variants) ''
     cp source/xtTestConsole/xtTestConsole $out/bin
   ''
-  + pkgs.lib.optionalString (builtins.elem "nodalred2x" variants) ''
+  + lib.optionalString (builtins.elem "nodalred2x" variants) ''
     cp source/nord/n2x/n2xTestConsole/n2xTestConsole $out/bin
   ''
   + ''
@@ -43,14 +44,14 @@ utils.juce.mkJucePackage {
 
   cmakeFlags =
     let
-      enable = name: cond: "gearmulator_${pkgs.lib.toUpper name}=${if cond then "on" else "off"}";
+      enable = name: cond: "gearmulator_${lib.toUpper name}=${if cond then "on" else "off"}";
     in
     map (v: enable "SYNTH_${v}" true) variants;
 
   dontUseJuceInstall = true;
 
-  meta = with pkgs.lib; {
-    description = "Emulation of classic VA synths of the late 90s/2000s that are based on Motorola 56300 family DSPs (${pkgs.lib.concatStringsSep ", " variants})";
+  meta = with lib; {
+    description = "Emulation of classic VA synths of the late 90s/2000s that are based on Motorola 56300 family DSPs (${lib.concatStringsSep ", " variants})";
     homepage = "https://dsp56300.wordpress.com/";
     license = licenses.gpl3Plus;
     platforms = platforms.linux;

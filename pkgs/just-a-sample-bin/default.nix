@@ -1,14 +1,18 @@
 {
-  pkgs,
   sources,
+
+  stdenv,
+  lib,
+
+  autoPatchelfHook,
+  unzip,
   utils,
-  ...
 }:
-pkgs.stdenv.mkDerivation {
+stdenv.mkDerivation {
   inherit (sources.just-a-sample-bin) pname version src;
   sourceRoot = ".";
 
-  nativeBuildInputs = with pkgs; [
+  nativeBuildInputs = [
     autoPatchelfHook
     unzip
   ];
@@ -24,7 +28,7 @@ pkgs.stdenv.mkDerivation {
     runHook postBuild
   '';
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "Just a Sample is a modern, open-source audio sampler";
     homepage = "https://bobona.github.io/just-a-sample/";
     license = licenses.mit;

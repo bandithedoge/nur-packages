@@ -1,14 +1,18 @@
 {
-  pkgs,
   sources,
   utils,
-  ...
-}:
-pkgs.stdenv.mkDerivation {
-  inherit (sources.mxtune-bin) pname src;
-  version = pkgs.lib.removePrefix "v" sources.mxtune-bin.version;
 
-  nativeBuildInputs = with pkgs; [
+  lib,
+  stdenv,
+
+  autoPatchelfHook,
+  unzip,
+}:
+stdenv.mkDerivation {
+  inherit (sources.mxtune-bin) pname src;
+  version = lib.removePrefix "v" sources.mxtune-bin.version;
+
+  nativeBuildInputs = [
     autoPatchelfHook
     unzip
   ];
@@ -24,7 +28,7 @@ pkgs.stdenv.mkDerivation {
     runHook postInstall
   '';
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "Pitch correction plugin for VST";
     homepage = "https://github.com/liuanlin-mx/MXTune";
     license = licenses.gpl3Plus;

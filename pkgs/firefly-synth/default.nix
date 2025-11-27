@@ -1,12 +1,12 @@
 {
-  pkgs,
   sources,
   utils,
-  ...
+
+  lib,
 }:
 utils.juce.mkJucePackage {
   inherit (sources.firefly-synth) pname src;
-  version = pkgs.lib.removePrefix "v" sources.firefly-synth.version;
+  version = lib.removePrefix "v" sources.firefly-synth.version;
 
   installPhase = ''
     runHook preInstall
@@ -21,7 +21,7 @@ utils.juce.mkJucePackage {
     runHook postInstall
   '';
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "Semi-modular synthesizer and FX plugin for Windows, Linux and Mac, VST3 and CLAP";
     homepage = "https://firefly-synth.com/";
     license = licenses.gpl3Plus;

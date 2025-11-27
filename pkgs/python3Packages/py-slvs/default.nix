@@ -1,19 +1,21 @@
 {
-  pkgs,
   sources,
-  pythonPkgs ? pkgs.python3Packages,
-  ...
+
+  lib,
+  python3Packages,
+
+  swig,
 }:
-pythonPkgs.buildPythonPackage {
+python3Packages.buildPythonPackage {
   inherit (sources.py-slvs) pname version src;
   patches = [ ./cmake_policy_version_minimum.patch ];
   pyproject = true;
 
-  nativeBuildInputs = with pkgs; [
+  nativeBuildInputs = [
     swig
   ];
 
-  propagatedBuildInputs = with pythonPkgs; [
+  propagatedBuildInputs = with python3Packages; [
     cmake
     ninja
     setuptools
@@ -22,7 +24,7 @@ pythonPkgs.buildPythonPackage {
 
   dontUseCmakeConfigure = true;
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "Python binding of SOLVESPACE geometry constraint solver";
     homepage = "https://github.com/realthunder/slvs_py";
     license = licenses.gpl3Plus;

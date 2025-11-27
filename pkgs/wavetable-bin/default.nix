@@ -1,14 +1,18 @@
 {
-  pkgs,
   sources,
   utils,
-  ...
+
+  lib,
+  stdenv,
+
+  autoPatchelfHook,
+  unzip,
 }:
-pkgs.stdenv.mkDerivation {
+stdenv.mkDerivation {
   inherit (sources.wavetable-bin) pname version src;
   sourceRoot = ".";
 
-  nativeBuildInputs = with pkgs; [
+  nativeBuildInputs = [
     autoPatchelfHook
     unzip
   ];
@@ -26,7 +30,7 @@ pkgs.stdenv.mkDerivation {
     runHook postBuild
   '';
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "Wavetable synth";
     homepage = "https://socalabs.com/synths/wavetable/";
     license = licenses.bsd3;

@@ -1,18 +1,23 @@
 {
-  pkgs,
   sources,
-  ...
+
+  lib,
+  rustPlatform,
+
+  libGL,
+  pkg-config,
+  xorg,
 }:
-pkgs.rustPlatform.buildRustPackage {
+rustPlatform.buildRustPackage {
   inherit (sources.actuate) pname src;
-  version = pkgs.lib.removePrefix "v" sources.actuate.version;
+  version = lib.removePrefix "v" sources.actuate.version;
   cargoLock = sources.actuate.cargoLock."Cargo.lock";
 
-  nativeBuildInputs = with pkgs; [
+  nativeBuildInputs = [
     pkg-config
   ];
 
-  buildInputs = with pkgs; [
+  buildInputs = [
     libGL
     xorg.libX11
   ];
@@ -33,7 +38,7 @@ pkgs.rustPlatform.buildRustPackage {
 
   doCheck = false;
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "Synthesizer, Sampler, Granulizer written in Rust with Nih-Plug and egui";
     homepage = "https://github.com/ardura/Actuate";
     license = licenses.gpl3Plus;

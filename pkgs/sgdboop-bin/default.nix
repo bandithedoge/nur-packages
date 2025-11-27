@@ -1,18 +1,23 @@
 {
-  pkgs,
   sources,
-  ...
+
+  stdenv,
+  lib,
+
+  autoPatchelfHook,
+  curl,
+  gtk3,
 }:
-pkgs.stdenv.mkDerivation {
+stdenv.mkDerivation {
   inherit (sources.sgdboop-bin) pname src;
-  version = pkgs.lib.removePrefix "v" sources.sgdboop-bin.version;
+  version = lib.removePrefix "v" sources.sgdboop-bin.version;
   sourceRoot = ".";
 
-  nativeBuildInputs = with pkgs; [
+  nativeBuildInputs = [
     autoPatchelfHook
   ];
 
-  buildInputs = with pkgs; [
+  buildInputs = [
     curl
     gtk3
   ];
@@ -27,7 +32,7 @@ pkgs.stdenv.mkDerivation {
     runHook postBuild
   '';
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "A program used for applying custom artwork to Steam, using SteamGridDB";
     homepage = "https://www.steamgriddb.com/boop";
     license = licenses.cc-by-nc-sa-40;

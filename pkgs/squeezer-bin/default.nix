@@ -1,10 +1,13 @@
 {
-  pkgs,
   sources,
   utils,
-  ...
+
+  lib,
+  stdenv,
+
+  autoPatchelfHook,
 }:
-pkgs.stdenv.mkDerivation rec {
+stdenv.mkDerivation rec {
   inherit (sources.squeezer-bin-standalone) pname version;
   srcs = with sources; [
     squeezer-bin-standalone.src
@@ -12,7 +15,7 @@ pkgs.stdenv.mkDerivation rec {
   ];
   sourceRoot = ".";
 
-  nativeBuildInputs = with pkgs; [
+  nativeBuildInputs = [
     autoPatchelfHook
   ];
 
@@ -35,7 +38,7 @@ pkgs.stdenv.mkDerivation rec {
     runHook postBuild
   '';
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "Flexible general-purpose audio compressor with a touch of citrus";
     homepage = "https://github.com/mzuther/Squeezer";
     license = licenses.gpl3Plus;

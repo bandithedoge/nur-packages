@@ -1,16 +1,24 @@
 {
-  pkgs,
   sources,
-  ...
+
+  lib,
+  stdenv,
+
+  alsa-lib,
+  autoPatchelfHook,
+  dbus,
+  glib,
+  libuuid,
+  qt5,
 }:
-pkgs.stdenv.mkDerivation {
+stdenv.mkDerivation {
   inherit (sources.mod-desktop-bin) pname version src;
 
-  nativeBuildInputs = with pkgs; [
+  nativeBuildInputs = [
     autoPatchelfHook
   ];
 
-  buildInputs = with pkgs; [
+  buildInputs = [
     alsa-lib
     dbus
     glib
@@ -30,7 +38,7 @@ pkgs.stdenv.mkDerivation {
 
   dontWrapQtApps = true;
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "MOD Audio for the desktop";
     homepage = "https://mod.audio/desktop/";
     license = licenses.agpl3Plus;

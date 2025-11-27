@@ -1,9 +1,16 @@
-{ pkgs, sources, ... }:
-pkgs.stdenv.mkDerivation {
-  inherit (sources.cchorus) pname src;
-  version = pkgs.lib.removePrefix "v" sources.cchorus.version;
+{
+  sources,
 
-  nativeBuildInputs = with pkgs; [
+  lib,
+  stdenv,
+
+  pkg-config,
+}:
+stdenv.mkDerivation {
+  inherit (sources.cchorus) pname src;
+  version = lib.removePrefix "v" sources.cchorus.version;
+
+  nativeBuildInputs = [
     pkg-config
   ];
 
@@ -13,7 +20,7 @@ pkgs.stdenv.mkDerivation {
     patchShebangs dpf/utils/generate-ttl.sh
   '';
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "Versatile stereo chorus, multi-format audio effect plugin";
     homepage = "https://github.com/SpotlightKid/cchorus";
     license = licenses.mit;

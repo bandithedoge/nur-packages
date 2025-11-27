@@ -1,16 +1,34 @@
-{ pkgs, sources, ... }:
+{
+  sources,
+
+  lib,
+  stdenv,
+
+  alsa-lib,
+  at-spi2-atk,
+  autoPatchelfHook,
+  cups,
+  expat,
+  gtk4,
+  libxkbcommon,
+  nspr,
+  nss,
+  qt6,
+  systemd,
+  xorg,
+}:
 let
-  source = if pkgs.stdenv.isAarch64 then sources.helium-bin-arm64 else sources.helium-bin-x86_64;
+  source = if stdenv.isAarch64 then sources.helium-bin-arm64 else sources.helium-bin-x86_64;
 in
-pkgs.stdenv.mkDerivation {
+stdenv.mkDerivation {
   pname = "helium-bin";
   inherit (source) version src;
 
-  nativeBuildInputs = with pkgs; [
+  nativeBuildInputs = [
     autoPatchelfHook
   ];
 
-  buildInputs = with pkgs; [
+  buildInputs = [
     alsa-lib
     at-spi2-atk
     cups
@@ -51,7 +69,7 @@ pkgs.stdenv.mkDerivation {
     runHook postBuild
   '';
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "Private, fast, and honest web browser";
     homepage = "https://helium.computer/";
     license = with licenses; [

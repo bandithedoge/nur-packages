@@ -1,23 +1,29 @@
 {
-  pkgs,
   sources,
-  ...
+
+  lib,
+  stdenv,
+
+  libopenmpt,
+  meson,
+  ninja,
+  pkg-config,
 }:
-pkgs.stdenv.mkDerivation {
+stdenv.mkDerivation {
   inherit (sources.modstems) pname src;
   version = sources.modstems.date;
 
-  nativeBuildInputs = with pkgs; [
+  nativeBuildInputs = [
     meson
     ninja
     pkg-config
   ];
 
-  buildInputs = with pkgs; [
+  buildInputs = [
     libopenmpt.dev
   ];
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "Dumps \"stems\" from module files using libopenmpt ";
     homepage = "https://github.com/bandithedoge/modstems";
     license = licenses.mit;

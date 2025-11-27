@@ -1,9 +1,10 @@
 {
-  pkgs,
   sources,
-  ...
+
+  appimageTools,
+  lib,
 }:
-pkgs.appimageTools.wrapType2 {
+appimageTools.wrapType2 {
   inherit (sources.basiliskii-bin) pname version src;
 
   extraPkgs =
@@ -11,7 +12,7 @@ pkgs.appimageTools.wrapType2 {
       libthai
     ];
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "68k Macintosh emulator";
     homepage = "https://basilisk.cebix.net/";
     license = licenses.gpl2;

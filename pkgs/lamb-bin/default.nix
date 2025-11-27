@@ -1,19 +1,26 @@
 {
-  pkgs,
   sources,
-  ...
+
+  lib,
+  stdenv,
+
+  alsa-lib,
+  autoPatchelfHook,
+  libGL,
+  unzip,
+  xorg,
 }:
-pkgs.stdenv.mkDerivation {
+stdenv.mkDerivation {
   inherit (sources.lamb-bin) pname src;
-  version = pkgs.lib.removePrefix "v" sources.lamb-bin.version;
+  version = lib.removePrefix "v" sources.lamb-bin.version;
   sourceRoot = ".";
 
-  nativeBuildInputs = with pkgs; [
+  nativeBuildInputs = [
     autoPatchelfHook
     unzip
   ];
 
-  buildInputs = with pkgs; [
+  buildInputs = [
     alsa-lib
     libGL
     stdenv.cc.cc.lib
@@ -33,7 +40,7 @@ pkgs.stdenv.mkDerivation {
     runHook postInstall
   '';
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "A lookahead compressor/limiter that's soft as a lamb";
     homepage = "https://github.com/magnetophon/lamb-rs";
     license = licenses.agpl3Plus;

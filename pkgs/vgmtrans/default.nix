@@ -1,19 +1,24 @@
 {
-  pkgs,
   sources,
-  ...
+
+  lib,
+  stdenv,
+
+  cmake,
+  ninja,
+  qt6,
 }:
-pkgs.stdenv.mkDerivation {
+stdenv.mkDerivation {
   inherit (sources.vgmtrans) pname src;
   version = sources.vgmtrans.date;
 
-  nativeBuildInputs = with pkgs; [
+  nativeBuildInputs = [
     cmake
     ninja
     qt6.wrapQtAppsHook
   ];
 
-  buildInputs = with pkgs; [
+  buildInputs = [
     qt6.qtbase
     qt6.qtsvg
   ];
@@ -22,7 +27,7 @@ pkgs.stdenv.mkDerivation {
     mkdir -p $out/lib
   ''
   + (
-    if pkgs.stdenv.isAarch64 then
+    if stdenv.isAarch64 then
       ''
         cp $src/lib/bass/aarch64/*.so $out/lib/
       ''
@@ -32,7 +37,7 @@ pkgs.stdenv.mkDerivation {
       ''
   );
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "A tool to convert proprietary, sequenced videogame music to industry-standard formats";
     homepage = "https://github.com/vgmtrans/vgmtrans";
     license = licenses.zlib;

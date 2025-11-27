@@ -1,24 +1,31 @@
 {
-  pkgs,
   sources,
-  ...
+
+  lib,
+  stdenv,
+
+  cmake,
+  libGL,
+  ninja,
+  pkg-config,
+  xorg,
 }:
-pkgs.stdenv.mkDerivation {
+stdenv.mkDerivation {
   inherit (sources.misstrhortion) pname src;
   version = sources.misstrhortion.date;
 
-  nativeBuildInputs = with pkgs; [
+  nativeBuildInputs = [
     cmake
     ninja
     pkg-config
   ];
 
-  buildInputs = with pkgs; [
+  buildInputs = [
     libGL
     xorg.libX11
   ];
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "DPF port of Misstortion";
     homepage = "https://github.com/bandithedoge/misstrhortion";
     license = licenses.gpl3Plus;

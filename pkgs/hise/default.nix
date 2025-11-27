@@ -1,15 +1,17 @@
 {
-  pkgs,
   sources,
-  utils,
-  callPackage',
-  ...
+
+  lib,
+  stdenv,
+
+  projucer,
+  unzip,
 }:
-pkgs.stdenv.mkDerivation {
+stdenv.mkDerivation {
   inherit (sources.hise) pname version src;
 
-  nativeBuildInputs = with pkgs; [
-    (callPackage' ../projucer)
+  nativeBuildInputs = [
+    projucer
     unzip
   ];
 
@@ -35,7 +37,7 @@ pkgs.stdenv.mkDerivation {
 
   dontStrip = true;
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "The open source toolkit for building virtual instruments and audio effects";
     homepage = "https://hise.dev";
     license = licenses.gpl3Plus;

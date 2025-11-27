@@ -1,14 +1,28 @@
 {
-  pkgs,
   sources,
+
   lib,
-  ...
+  stdenv,
+
+  SDL2,
+  asmjit,
+  bzip2,
+  cmake,
+  gtk3,
+  libvpx,
+  makeWrapper,
+  ninja,
+  openal,
+  pkg-config,
+  python3,
+  vulkan-loader,
+  zmusic,
 }:
-pkgs.stdenv.mkDerivation {
+stdenv.mkDerivation {
   inherit (sources.uzdoom) pname src;
   version = sources.uzdoom.date;
 
-  nativeBuildInputs = with pkgs; [
+  nativeBuildInputs = [
     cmake
     makeWrapper
     ninja
@@ -16,7 +30,7 @@ pkgs.stdenv.mkDerivation {
     python3
   ];
 
-  buildInputs = with pkgs; [
+  buildInputs = [
     SDL2
     asmjit
     bzip2
@@ -32,13 +46,13 @@ pkgs.stdenv.mkDerivation {
     "-DVULKAN_USE_WAYLAND=1"
   ];
 
-  postInstall = lib.optionalString pkgs.stdenv.hostPlatform.isLinux ''
+  postInstall = lib.optionalString stdenv.hostPlatform.isLinux ''
     mv $out/bin/uzdoom $out/share/games/uzdoom/uzdoom
     makeWrapper $out/share/games/uzdoom/uzdoom $out/bin/uzdoom \
-      --set LD_LIBRARY_PATH ${lib.makeLibraryPath [ pkgs.vulkan-loader ]}
+      --set LD_LIBRARY_PATH ${lib.makeLibraryPath [ vulkan-loader ]}
   '';
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "Feature centric port for all Doom engine games, based on GZDoom, adding an advanced renderer and powerful scripting capabilities";
     homepage = "https://github.com/UZDoom/UZDoom";
     license = licenses.gpl3Plus;

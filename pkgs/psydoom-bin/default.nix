@@ -1,7 +1,9 @@
 {
-  pkgs,
   sources,
-  ...
+
+  appimageTools,
+  lib,
+  stdenv,
 }:
 let
   sourceMap = with sources; {
@@ -12,13 +14,13 @@ let
     armv7l-linux = psydoom-bin-armhf;
   };
 
-  source = sourceMap.${pkgs.stdenv.system} or sourceMap.x86_64-linux;
+  source = sourceMap.${stdenv.system} or sourceMap.x86_64-linux;
 in
-pkgs.appimageTools.wrapType2 {
+appimageTools.wrapType2 {
   pname = "psydoom";
   inherit (source) version src;
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "A backport of PSX Doom to PC";
     homepage = "https://github.com/BodbDearg/PsyDoom";
     license = licenses.gpl3Plus;

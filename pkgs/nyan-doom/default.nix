@@ -1,19 +1,35 @@
 {
-  pkgs,
   sources,
-  ...
+
+  lib,
+  stdenv,
+
+  SDL2,
+  SDL2_image,
+  SDL2_mixer,
+  cmake,
+  fluidsynth,
+  libGLU,
+  libmad,
+  libopenmpt,
+  libsndfile,
+  libvorbis,
+  libzip,
+  ninja,
+  portmidi,
+  zlib,
 }:
-pkgs.stdenv.mkDerivation rec {
+stdenv.mkDerivation rec {
   inherit (sources.nyan-doom) pname src;
-  version = pkgs.lib.removePrefix "v" sources.nyan-doom.version;
+  version = lib.removePrefix "v" sources.nyan-doom.version;
   sourceRoot = "${src.name}/prboom2";
 
-  nativeBuildInputs = with pkgs; [
+  nativeBuildInputs = [
     cmake
     ninja
   ];
 
-  buildInputs = with pkgs; [
+  buildInputs = [
     SDL2
     SDL2_image
     SDL2_mixer
@@ -28,7 +44,7 @@ pkgs.stdenv.mkDerivation rec {
     zlib
   ];
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "The most cuddly Doom Source Port, with an emphasis on innovative and quality-of-life features";
     homepage = "https://github.com/andrikpowell/nyan-doom";
     license = licenses.gpl2Plus;

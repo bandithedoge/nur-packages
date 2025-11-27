@@ -1,21 +1,18 @@
 {
-  pkgs,
-  sources,
-  ...
+  fetchurl,
+  lib,
+  stdenv,
 }:
 let
   # copied from https://github.com/nix-community/nur-combined/blob/master/repos/rycee/pkgs/firefox-addons/default.nix
-  buildFirefoxXpiAddon = pkgs.lib.makeOverridable (
+  buildFirefoxXpiAddon = lib.makeOverridable (
     {
-      stdenv ? pkgs.stdenv,
-      fetchurl ? pkgs.fetchurl,
       pname,
       version,
       addonId,
       url,
       sha256,
       meta,
-      ...
     }:
     stdenv.mkDerivation {
       name = "${pname}-${version}";
@@ -36,6 +33,10 @@ let
   );
 in
 import ./_generated.nix {
-  inherit buildFirefoxXpiAddon;
-  inherit (pkgs) fetchurl lib stdenv;
+  inherit
+    buildFirefoxXpiAddon
+    fetchurl
+    lib
+    stdenv
+    ;
 }

@@ -1,27 +1,33 @@
 {
-  pkgs,
   sources,
-  ...
+
+  lib,
+  stdenv,
+
+  mpv,
+  qt6,
+  taglib,
+  taglib_1,
 }:
-pkgs.stdenv.mkDerivation {
+stdenv.mkDerivation {
   inherit (sources.musique) pname version src;
 
-  nativeBuildInputs = with pkgs; [
+  nativeBuildInputs = [
     qt6.qmake
     qt6.wrapQtAppsHook
     qt6.qttools
   ];
 
-  buildInputs = with pkgs; [
+  buildInputs = [
     mpv
     taglib_1
   ];
 
   postPatch = ''
-    substituteInPlace musique.pro --replace-fail /usr/include/taglib ${pkgs.taglib}/include/taglib
+    substituteInPlace musique.pro --replace-fail /usr/include/taglib ${taglib}/include/taglib
   '';
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "A finely crafted music player";
     homepage = "https://flavio.tordini.org/musique";
     platforms = platforms.linux;

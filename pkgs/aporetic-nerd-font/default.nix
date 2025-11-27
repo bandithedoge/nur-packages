@@ -1,5 +1,9 @@
-{ pkgs, sources, ... }:
-pkgs.stdenvNoCC.mkDerivation {
+{
+  sources,
+
+  stdenvNoCC,
+}:
+stdenvNoCC.mkDerivation {
   inherit (sources.aporetic-nerd-font) pname src;
   version = sources.aporetic-nerd-font.date;
 

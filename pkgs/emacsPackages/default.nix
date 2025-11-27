@@ -1,21 +1,29 @@
-{ pkgs, ... }:
+{
+  callPackage',
+
+  pkgs,
+  lib,
+
+  emacsPackages,
+  writeText,
+}:
 let
   sources = import ./npins { };
 in
-(pkgs.lib.makeExtensible (
+(lib.makeExtensible (
   _:
-  pkgs.lib.attrsets.mapAttrs' (
+  lib.attrsets.mapAttrs' (
     name: src':
     let
-      sanitizedName = pkgs.lib.pipe name [
-        (pkgs.lib.removeSuffix ".el")
+      sanitizedName = lib.pipe name [
+        (lib.removeSuffix ".el")
         (builtins.replaceStrings [ "." ] [ "-" ])
-        pkgs.lib.strings.sanitizeDerivationName
+        lib.strings.sanitizeDerivationName
       ];
       src = src' { inherit pkgs; };
     in
-    pkgs.lib.attrsets.nameValuePair sanitizedName (
-      pkgs.emacs.pkgs.melpaBuild {
+    lib.attrsets.nameValuePair sanitizedName (
+      emacsPackages.melpaBuild {
         pname = sanitizedName;
         # TODO: set version properly
         # https://github.com/nmattia/niv/issues/111
@@ -23,7 +31,7 @@ in
         inherit src;
         commit = src.revision;
 
-        recipe = pkgs.writeText "recipe" ''
+        recipe = writeText "recipe" ''
           (${sanitizedName}
             :repo "${src.repository.owner}/${src.repository.repo}"
             :fetcher github)
@@ -32,4 +40,4 @@ in
     )
   ) sources
 )).extend
-  (import ./_overrides.nix { inherit pkgs; })
+  (callPackage' ./_overrides.nix { })

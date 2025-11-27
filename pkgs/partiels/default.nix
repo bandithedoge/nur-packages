@@ -1,11 +1,17 @@
 {
-  pkgs,
   sources,
   utils,
-  ...
+
+  lib,
+
+  copyDesktopItems,
+  git,
+  libjack2,
+  makeDesktopItem,
+  runCommand,
 }:
 let
-  vamp-plugin-sdk' = pkgs.runCommand "vamp-plugin-sdk" { nativeBuildInputs = with pkgs; [ git ]; } ''
+  vamp-plugin-sdk' = runCommand "vamp-plugin-sdk" { nativeBuildInputs = [ git ]; } ''
     cp -r --no-preserve all ${sources.vamp-plugin-sdk.src} vamp-plugin-sdk
     cd vamp-plugin-sdk
     git apply "${sources.partiels.src}/BinaryData/Resource/vamp-plugin-sdk-src.patch"
@@ -16,12 +22,12 @@ in
 utils.juce.mkJucePackage {
   inherit (sources.partiels) pname version src;
 
-  nativeBuildInputs = with pkgs; [
+  nativeBuildInputs = [
     copyDesktopItems
     git
   ];
 
-  buildInputs = with pkgs; [
+  buildInputs = [
     libjack2
   ];
 
@@ -41,7 +47,7 @@ utils.juce.mkJucePackage {
   ];
 
   desktopItems = [
-    (pkgs.makeDesktopItem {
+    (makeDesktopItem {
       name = "Partiels";
       exec = "Partiels";
       desktopName = "Partiels";
@@ -52,7 +58,7 @@ utils.juce.mkJucePackage {
 
   NIX_CFLAGS_COMPILE = [ "-Wno-error=format-security" ];
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "Partiels is an audio analysis application that allow you to explore the content and characteristics of sounds";
     homepage = "https://github.com/Ircam-Partiels/Partiels";
     license = licenses.gpl3Plus;

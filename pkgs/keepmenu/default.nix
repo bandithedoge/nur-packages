@@ -1,15 +1,16 @@
 {
-  pkgs,
   sources,
-  ...
+
+  lib,
+  python3Packages,
 }:
-pkgs.python3Packages.buildPythonApplication {
+python3Packages.buildPythonApplication {
   inherit (sources.keepmenu) pname src;
   version = sources.keepmenu.date;
 
   format = "pyproject";
 
-  propagatedBuildInputs = with pkgs.python3Packages; [
+  propagatedBuildInputs = with python3Packages; [
     hatch-vcs
     hatchling
     pykeepass
@@ -18,7 +19,7 @@ pkgs.python3Packages.buildPythonApplication {
 
   doCheck = false;
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "Dmenu/Rofi frontend for Keepass databases";
     homepage = "https://github.com/firecat53/keepmenu";
     license = licenses.gpl3Plus;

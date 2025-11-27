@@ -1,18 +1,23 @@
 # TODO: figure out plugin scanning with carla
 {
-  pkgs,
   sources,
-  ...
+
+  lib,
+  stdenv,
+
+  libGL,
+  pkg-config,
+  xorg,
 }:
-pkgs.stdenv.mkDerivation {
+stdenv.mkDerivation {
   inherit (sources.ildaeil) pname src;
   version = sources.ildaeil.date;
 
-  nativeBuildInputs = with pkgs; [
+  nativeBuildInputs = [
     pkg-config
   ];
 
-  buildInputs = with pkgs; [
+  buildInputs = [
     libGL
     xorg.libX11
     xorg.libXcursor
@@ -27,7 +32,7 @@ pkgs.stdenv.mkDerivation {
 
   makeFlags = [ "PREFIX=$(out)" ];
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "mini-plugin host as plugin";
     homepage = "https://github.com/DISTRHO/Ildaeil";
     license = licenses.gpl2;

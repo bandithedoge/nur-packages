@@ -1,20 +1,27 @@
 {
-  pkgs,
   sources,
-  ...
+
+  lib,
+  stdenv,
+
+  fontconfig,
+  freetype,
+  ncurses,
+  pkg-config,
+  xorg,
 }:
-pkgs.stdenv.mkDerivation rec {
+stdenv.mkDerivation {
   inherit (sources.st-flexipatch) src pname;
   version = sources.st-flexipatch.date;
 
-  nativeBuildInputs = with pkgs; [
+  nativeBuildInputs = [
     pkg-config
     ncurses
     fontconfig
     freetype
   ];
 
-  buildInputs = with pkgs; [
+  buildInputs = [
     xorg.libX11
     xorg.libXft
   ];
@@ -24,10 +31,10 @@ pkgs.stdenv.mkDerivation rec {
   enableParallelBuilding = true;
 
   makeFlags = [
-    "PKG_CONFIG=${pkgs.stdenv.cc.targetPrefix}pkg-config"
+    "PKG_CONFIG=${stdenv.cc.targetPrefix}pkg-config"
   ];
 
-  postPatch = pkgs.lib.optionalString pkgs.stdenv.isDarwin ''
+  postPatch = lib.optionalString stdenv.isDarwin ''
     substituteInPlace config.mk --replace "-lrt" ""
   '';
 
@@ -37,7 +44,7 @@ pkgs.stdenv.mkDerivation rec {
 
   installFlags = [ "PREFIX=$(out)" ];
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "An st build with preprocessor directives to decide which patches to include during build time";
     homepage = "https://github.com/bakkeby/st-flexipatch";
     license = licenses.mit;

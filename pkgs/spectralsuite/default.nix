@@ -1,14 +1,16 @@
 {
-  pkgs,
   sources,
   utils,
-  ...
+
+  lib,
+
+  juce,
 }:
 utils.juce.mkJucePackage {
   inherit (sources.spectralsuite) pname src;
-  version = pkgs.lib.removePrefix "v" sources.spectralsuite.version;
+  version = lib.removePrefix "v" sources.spectralsuite.version;
 
-  cmakeFlags = [ "-DCPM_JUCE_SOURCE=${pkgs.juce.src}" ];
+  cmakeFlags = [ "-DCPM_JUCE_SOURCE=${juce.src}" ];
 
   installPhase = ''
     runHook preInstall

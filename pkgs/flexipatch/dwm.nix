@@ -1,13 +1,16 @@
 {
-  pkgs,
   sources,
-  ...
+
+  lib,
+  stdenv,
+
+  xorg,
 }:
-pkgs.stdenv.mkDerivation {
+stdenv.mkDerivation {
   inherit (sources.dwm-flexipatch) src pname;
   version = sources.dwm-flexipatch.date;
 
-  buildInputs = with pkgs; [
+  buildInputs = [
     xorg.libX11
     xorg.libXinerama
     xorg.libXft
@@ -19,7 +22,7 @@ pkgs.stdenv.mkDerivation {
 
   enableParallelBuilding = true;
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "A dwm build with preprocessor directives to decide which patches to include during build time";
     homepage = "https://github.com/bakkeby/dwm-flexipatch";
     license = licenses.mit;

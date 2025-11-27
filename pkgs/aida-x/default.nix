@@ -1,18 +1,25 @@
 {
-  pkgs,
   sources,
-  ...
+
+  lib,
+  stdenv,
+
+  cmake,
+  libGL,
+  ninja,
+  python3,
+  xorg,
 }:
-pkgs.stdenv.mkDerivation {
+stdenv.mkDerivation {
   inherit (sources.aida-x) pname version src;
 
-  nativeBuildInputs = with pkgs; [
+  nativeBuildInputs = [
     cmake
     ninja
     python3
   ];
 
-  buildInputs = with pkgs; [
+  buildInputs = [
     libGL
     xorg.libX11
   ];
@@ -36,7 +43,7 @@ pkgs.stdenv.mkDerivation {
     runHook postInstall
   '';
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "An Amp Model Player leveraging AI";
     homepage = "https://aida-x.cc/";
     license = licenses.gpl3Plus;

@@ -1,8 +1,7 @@
 {
-  pkgs,
   callPackage',
   ...
 }:
 {
-  juce = callPackage' ./juce.nix;
+  juce = callPackage' ./juce.nix { };
 }

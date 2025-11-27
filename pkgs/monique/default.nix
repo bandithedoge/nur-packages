@@ -1,22 +1,25 @@
 {
-  pkgs,
   sources,
   utils,
-  ...
+
+  lib,
+
+  git,
+  libjack2,
 }:
 utils.juce.mkJucePackage {
   inherit (sources.monique) pname src;
   version = sources.monique.date;
 
-  nativeBuildInputs = with pkgs; [
+  nativeBuildInputs = [
     git
   ];
 
-  buildInputs = with pkgs; [
+  buildInputs = [
     libjack2
   ];
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "Monique monosynth";
     homepage = "https://github.com/surge-synthesizer/monique-monosynth";
     license = with licenses; [

@@ -1,16 +1,20 @@
 {
-  pkgs,
   sources,
-  ...
+
+  lib,
+  stdenv,
+
+  xorg,
+  zlib,
 }:
 let
   source = sources.dmenu-flexipatch;
 in
-pkgs.stdenv.mkDerivation rec {
+stdenv.mkDerivation {
   inherit (source) pname src;
   version = source.date;
 
-  buildInputs = with pkgs; [
+  buildInputs = [
     xorg.libX11
     xorg.libXinerama
     xorg.libXft
@@ -30,7 +34,7 @@ pkgs.stdenv.mkDerivation rec {
     sed -ri -e 's!\<stest\>!'"$out/bin"'/&!g' dmenu_path
   '';
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "A dmenu build with preprocessor directives to decide which patches to include during build time";
     homepage = "https://github.com/bakkeby/dmenu-flexipatch";
     license = licenses.mit;

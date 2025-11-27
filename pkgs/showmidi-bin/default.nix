@@ -1,22 +1,23 @@
 {
-  pkgs,
   sources,
   utils,
-  ...
+
+  lib,
+  stdenv,
+
+  autoPatchelfHook,
 }:
-pkgs.stdenv.mkDerivation {
+stdenv.mkDerivation {
   inherit (sources.showmidi-bin) pname version src;
 
-  nativeBuildInputs = with pkgs; [
+  nativeBuildInputs = [
     autoPatchelfHook
   ];
 
-  buildInputs =
-    with pkgs;
-    [
-      stdenv.cc.cc.lib
-    ]
-    ++ utils.juce.commonBuildInputs;
+  buildInputs = [
+    stdenv.cc.cc.lib
+  ]
+  ++ utils.juce.commonBuildInputs;
 
   buildPhase = ''
     runHook preBuild
@@ -30,7 +31,7 @@ pkgs.stdenv.mkDerivation {
     runHook postBuild
   '';
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "Multi-platform GUI application to effortlessly visualize MIDI activity";
     homepage = "https://github.com/gbevin/ShowMIDI";
     license = licenses.gpl3Plus;

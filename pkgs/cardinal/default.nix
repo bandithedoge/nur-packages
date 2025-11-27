@@ -1,13 +1,34 @@
 {
-  pkgs,
   sources,
-  ...
+
+  lib,
+  stdenv,
+
+  SDL2,
+  alsa-lib,
+  cmake,
+  copyDesktopItems,
+  dbus,
+  fftw,
+  freetype,
+  glib,
+  jansson,
+  libGL,
+  libarchive,
+  liblo,
+  libsamplerate,
+  makeDesktopItem,
+  mesa,
+  pkg-config,
+  python3,
+  speexdsp,
+  xorg,
 }:
-pkgs.stdenv.mkDerivation {
+stdenv.mkDerivation {
   inherit (sources.cardinal) src pname;
   version = sources.cardinal.date;
 
-  nativeBuildInputs = with pkgs; [
+  nativeBuildInputs = [
     cmake
     copyDesktopItems
     pkg-config
@@ -16,7 +37,7 @@ pkgs.stdenv.mkDerivation {
 
   dontUseCmakeConfigure = true;
 
-  buildInputs = with pkgs; [
+  buildInputs = [
     SDL2
     alsa-lib
     dbus
@@ -41,7 +62,7 @@ pkgs.stdenv.mkDerivation {
   '';
 
   desktopItems = [
-    (pkgs.makeDesktopItem {
+    (makeDesktopItem {
       name = "cardinal";
       exec = "Cardinal";
       desktopName = "Cardinal";
@@ -50,7 +71,7 @@ pkgs.stdenv.mkDerivation {
         "Audio"
       ];
     })
-    (pkgs.makeDesktopItem {
+    (makeDesktopItem {
       name = "cardinal-native";
       exec = "CardinalNative";
       desktopName = "Cardinal (Native)";
@@ -70,7 +91,7 @@ pkgs.stdenv.mkDerivation {
 
   hardeningDisable = [ "format" ];
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "Virtual modular synthesizer plugin";
     homepage = "https://github.com/DISTRHO/Cardinal";
     license = licenses.gpl3Plus;

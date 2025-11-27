@@ -1,19 +1,25 @@
 {
-  pkgs,
   sources,
-  ...
+
+  lib,
+  rustPlatform,
+
+  libGL,
+  pkg-config,
+  python3,
+  xorg,
 }:
-pkgs.rustPlatform.buildRustPackage {
+rustPlatform.buildRustPackage {
   inherit (sources.octasine) pname src;
-  version = pkgs.lib.removePrefix "v" sources.octasine.version;
+  version = lib.removePrefix "v" sources.octasine.version;
   cargoLock = sources.octasine.cargoLock."Cargo.lock";
 
-  nativeBuildInputs = with pkgs; [
+  nativeBuildInputs = [
     pkg-config
     python3
   ];
 
-  buildInputs = with pkgs; [
+  buildInputs = [
     libGL
     xorg.libX11
     xorg.libXcursor
@@ -32,7 +38,7 @@ pkgs.rustPlatform.buildRustPackage {
     cp target/bundled/octasine.clap $out/lib/clap
   '';
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "Frequency modulation synthesizer plugin (VST2, CLAP).";
     homepage = "https://www.octasine.com/";
     license = licenses.agpl3Plus;

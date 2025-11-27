@@ -1,19 +1,37 @@
 {
-  pkgs,
   sources,
-  ...
+
+  lib,
+  stdenv,
+
+  autoPatchelfHook,
+  dotnetCorePackages,
+  glib,
+  icu,
+  libGL,
+  libdecor,
+  libdrm,
+  libgbm,
+  libsndfile,
+  libxkbcommon,
+  makeWrapper,
+  openal,
+  openssl,
+  unzip,
+  wayland,
+  xorg,
 }:
-pkgs.stdenv.mkDerivation {
+stdenv.mkDerivation {
   inherit (sources.helion-bin) pname version src;
   sourceRoot = ".";
 
-  nativeBuildInputs = with pkgs; [
+  nativeBuildInputs = [
     autoPatchelfHook
     unzip
     makeWrapper
   ];
 
-  buildInputs = with pkgs; [
+  buildInputs = [
     glib
     libGL
     libdecor
@@ -34,7 +52,7 @@ pkgs.stdenv.mkDerivation {
     openssl
   ];
 
-  runtimeDependencies = with pkgs; [
+  runtimeDependencies = [
     icu
   ];
 
@@ -45,7 +63,7 @@ pkgs.stdenv.mkDerivation {
     cp -r * $out/libexec
 
     makeWrapper $out/libexec/Helion $out/bin/Helion \
-      --set DOTNET_ROOT ${pkgs.dotnetCorePackages.dotnet_9.runtime}/share/dotnet
+      --set DOTNET_ROOT ${dotnetCorePackages.dotnet_9.runtime}/share/dotnet
 
     patchelf $out/libexec/Helion \
       --add-needed libopenal.so.1 \
@@ -55,7 +73,7 @@ pkgs.stdenv.mkDerivation {
     runHook postBuild
   '';
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "A modern fast paced Doom FPS engine";
     homepage = "https://github.com/Helion-Engine/Helion";
     license = licenses.gpl3Plus;

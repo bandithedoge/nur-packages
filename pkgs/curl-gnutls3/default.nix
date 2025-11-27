@@ -1,8 +1,19 @@
-{ pkgs, ... }:
-pkgs.stdenv.mkDerivation {
+{
+  fetchFromGitHub,
+  lib,
+  stdenv,
+
+  autoreconfHook,
+  gnutls,
+  nghttp2,
+  perl,
+  pkg-config,
+  zlib,
+}:
+stdenv.mkDerivation {
   pname = "curl";
   version = "8.4.0";
-  src = pkgs.fetchFromGitHub {
+  src = fetchFromGitHub {
     owner = "curl";
     repo = "curl";
     rev = "curl-8_4_0";
@@ -11,13 +22,13 @@ pkgs.stdenv.mkDerivation {
 
   patches = [ ./03_keep_symbols_compat.patch ];
 
-  nativeBuildInputs = with pkgs; [
+  nativeBuildInputs = [
     pkg-config
     autoreconfHook
     perl
   ];
 
-  propagatedBuildInputs = with pkgs; [
+  propagatedBuildInputs = [
     gnutls
     nghttp2
     zlib
@@ -25,7 +36,7 @@ pkgs.stdenv.mkDerivation {
 
   postInstall =
     let
-      inherit (pkgs.stdenv.hostPlatform.extensions) sharedLibrary;
+      inherit (stdenv.hostPlatform.extensions) sharedLibrary;
     in
     ''
       ln $out/lib/libcurl${sharedLibrary} $out/lib/libcurl-gnutls${sharedLibrary}
@@ -40,7 +51,7 @@ pkgs.stdenv.mkDerivation {
     "--with-gnutls"
   ];
 
-  meta = with pkgs.lib; {
+  meta = with lib; {
     description = "libcurl with libcurl3 symbols";
     homepage = "https://curl.se";
     license = licenses.curl;

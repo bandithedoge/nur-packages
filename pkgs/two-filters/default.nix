@@ -1,14 +1,22 @@
 {
-  pkgs,
   sources,
   utils,
-  ...
+
+  lib,
+  stdenv,
+
+  cmake,
+  git,
+  ninja,
+  pkg-config,
+  rtaudio_6,
+  rtmidi,
 }:
-pkgs.stdenv.mkDerivation {
+stdenv.mkDerivation {
   inherit (sources.two-filters) pname src;
   version = sources.two-filters.date;
 
-  nativeBuildInputs = with pkgs; [
+  nativeBuildInputs = [
     cmake
     git
     ninja
@@ -20,8 +28,8 @@ pkgs.stdenv.mkDerivation {
   cmakeFlags = [
     "-DCOPY_AFTER_BUILD=FALSE"
     "-DGIT_COMMIT_HASH=${sources.two-filters.version}"
-    "-DRTAUDIO_SDK_ROOT=${pkgs.rtaudio_6.src}"
-    "-DRTMIDI_SDK_ROOT=${pkgs.rtmidi.src}"
+    "-DRTAUDIO_SDK_ROOT=${rtaudio_6.src}"
+    "-DRTMIDI_SDK_ROOT=${rtmidi.src}"
     "-DVST3_SDK_ROOT=${sources.vst3sdk.src}"
   ];
 
@@ -39,9 +47,5 @@ pkgs.stdenv.mkDerivation {
   '';
 
   SOURCE_DATE_EPOCH =
-    pkgs.lib.toInt (pkgs.lib.elemAt (pkgs.lib.splitString "-" sources.two-filters.date) 0)
-    * 365
-    * 24
-    * 60
-    * 60;
+    lib.toInt (lib.elemAt (lib.splitString "-" sources.two-filters.date) 0) * 365 * 24 * 60 * 60;
 }

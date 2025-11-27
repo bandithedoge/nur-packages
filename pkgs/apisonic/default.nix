@@ -1,8 +1,12 @@
 {
-  pkgs,
   sources,
   utils,
-  ...
+
+  lib,
+  stdenv,
+
+  unzip,
+  autoPatchelfHook,
 }:
 let
   mkApisonic =
@@ -11,12 +15,12 @@ let
       meta,
       sourceRoot ? "linux",
     }:
-    pkgs.stdenv.mkDerivation {
+    stdenv.mkDerivation {
       inherit (source) pname src;
-      version = pkgs.lib.removePrefix "v" source.version;
+      version = lib.removePrefix "v" source.version;
       inherit sourceRoot;
 
-      nativeBuildInputs = with pkgs; [
+      nativeBuildInputs = [
         autoPatchelfHook
         unzip
       ];
@@ -34,7 +38,7 @@ let
       '';
 
       meta =
-        with pkgs.lib;
+        with lib;
         {
           license = licenses.unfree;
           platforms = [ "x86_64-linux" ];

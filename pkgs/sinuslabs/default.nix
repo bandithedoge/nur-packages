@@ -1,8 +1,12 @@
 {
-  pkgs,
   sources,
   utils,
-  ...
+
+  lib,
+  stdenv,
+
+  autoPatchelfHook,
+  unzip,
 }:
 let
   mkSinuslabs =
@@ -11,11 +15,11 @@ let
       meta,
       sourceRoot ? ".",
     }:
-    pkgs.stdenv.mkDerivation {
+    stdenv.mkDerivation {
       inherit (source) pname version src;
       inherit sourceRoot;
 
-      nativeBuildInputs = with pkgs; [
+      nativeBuildInputs = [
         autoPatchelfHook
         unzip
       ];
@@ -33,7 +37,7 @@ let
 
       meta = {
         platforms = [ "x86_64-linux" ];
-        sourceProvenance = [ pkgs.lib.sourceTypes.binaryNativeCode ];
+        sourceProvenance = [ lib.sourceTypes.binaryNativeCode ];
       }
       // meta;
     };
@@ -62,7 +66,7 @@ in
     meta = {
       description = "Extraterrestrial Reverb with a unique Sound";
       homepage = "https://sinuslabs.io/products/reach";
-      license = pkgs.lib.licenses.gpl3Plus;
+      license = lib.licenses.gpl3Plus;
     };
   };
 }
