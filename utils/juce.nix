@@ -5,7 +5,7 @@
 }:
 rec {
   commonBuildInputs = with pkgs; [
-    (callPackage' ../pkgs/curl-gnutls3 {})
+    (callPackage' ../pkgs/curl-gnutls3 { })
     alsa-lib
     fontconfig
     freetype

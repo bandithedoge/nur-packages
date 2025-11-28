@@ -4,7 +4,7 @@
   lib,
   stdenv,
 
-  projucer
+  projucer,
 }:
 let
   mkMrugalla =

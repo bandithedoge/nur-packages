@@ -296,10 +296,10 @@
   };
   "csgofloat" = buildFirefoxXpiAddon {
     pname = "csgofloat";
-    version = "5.9.0";
+    version = "5.9.3";
     addonId = "{194d0dc6-7ada-41c6-88b8-95d7636fe43c}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4605795/csgofloat-5.9.0.xpi";
-    sha256 = "e5936bc6ce150435a21e58e156529d8040f547e0581705f146658add06b19717";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4627404/csgofloat-5.9.3.xpi";
+    sha256 = "e95fa49cee8640756e6b4ee7176889621b755df0c296a1439b2e7f7da06a8c4b";
     meta = with lib; {
       homepage = "https://csgofloat.com";
       description = "Shows the float value, paint seed, and screenshots of Counter-Strike (CS:GO &amp; CS2) items on the Steam Market or Inventories";
@@ -1507,10 +1507,10 @@
   };
   "steam-database" = buildFirefoxXpiAddon {
     pname = "steam-database";
-    version = "4.27";
+    version = "4.28";
     addonId = "firefox-extension@steamdb.info";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4584596/steam_database-4.27.xpi";
-    sha256 = "2d2a2c0347d096b7c75ee84cdf5b6a55fd1f94105d32bec8620039215d3f0e49";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4623903/steam_database-4.28.xpi";
+    sha256 = "53dce17d39523a642e4b1b75fb7c8e882fc0db146305d33df388cc0eb69508c0";
     meta = with lib; {
       homepage = "https://steamdb.info/";
       description = "Adds SteamDB links and new features on the Steam store and community. View lowest game prices and stats.";
