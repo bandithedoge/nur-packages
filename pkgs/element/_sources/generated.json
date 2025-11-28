@@ -13,12 +13,12 @@
       "name": null,
       "owner": "free-audio",
       "repo": "clap",
-      "rev": "1.2.6",
-      "sha256": "sha256-QyIuuiwFg5DP2Ao/LOKYiBXxKHQ0FbFhssIIUnEQz+c=",
+      "rev": "1.2.7",
+      "sha256": "sha256-FtsqfpUBn0YGEyhRrJnPGSqrawS1g3F/exVGAuvXkRQ=",
       "sparseCheckout": [],
       "type": "github"
     },
-    "version": "1.2.6"
+    "version": "1.2.7"
   },
   "clap-helpers": {
     "cargoLocks": null,
@@ -53,7 +53,7 @@
       "leaveDotGit": true,
       "name": null,
       "rev": "9745ca99a23a47d42692fb727ea36b130194fe61",
-      "sha256": "sha256-W/PUCAQUonbWT4VeB2y71d1hx98u0PiMhfYa/D7f3fs=",
+      "sha256": "sha256-wOyxINAkUR0NEd1N8RS867++HfPcpdXfIcPBPYaW3CA=",
       "sparseCheckout": [],
       "type": "git",
       "url": "https://github.com/kushview/element"

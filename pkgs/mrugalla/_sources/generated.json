@@ -261,7 +261,7 @@
   },
   "xen": {
     "cargoLocks": null,
-    "date": "2025-11-06",
+    "date": "2025-11-27",
     "extract": null,
     "name": "xen",
     "passthru": null,
@@ -271,12 +271,12 @@
       "fetchSubmodules": false,
       "leaveDotGit": false,
       "name": null,
-      "rev": "3d3e920d55a4e21fd3f627e2e043d6dcad91c7c9",
-      "sha256": "sha256-Q4a5yk9wmH+QGzZOKrccwMoXN/E55qVOyUNTGWXCagg=",
+      "rev": "d413862c841119301806f567d052cde9942b1410",
+      "sha256": "sha256-X0SGSOWKjr94MNAtKcYLSZnNXd9EJrjTnGCEhWcw2mc=",
       "sparseCheckout": [],
       "type": "git",
       "url": "https://github.com/Mrugalla/Xen"
     },
-    "version": "3d3e920d55a4e21fd3f627e2e043d6dcad91c7c9"
+    "version": "d413862c841119301806f567d052cde9942b1410"
   }
 }
