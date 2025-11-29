@@ -22,7 +22,7 @@
   },
   "clap-helpers": {
     "cargoLocks": null,
-    "date": "2025-09-29",
+    "date": "2025-11-28",
     "extract": null,
     "name": "clap-helpers",
     "passthru": null,
@@ -32,13 +32,13 @@
       "fetchSubmodules": false,
       "leaveDotGit": false,
       "name": null,
-      "rev": "7b6be400293c3bfefff095cb00163e225c1a5872",
-      "sha256": "sha256-qJkTrJmkN6FgPSRwEYbEGcjULgx6XdxxzlOfR3HWELE=",
+      "rev": "a61bcdf0ecc2c8db1e80bfe8bf9cb7e8d9fd2bbc",
+      "sha256": "sha256-bqZxhi5zeaxcz3pzzyH/Jt4Tw8ae8kcNXSS0wbfaI80=",
       "sparseCheckout": [],
       "type": "git",
       "url": "https://github.com/free-audio/clap-helpers.git"
     },
-    "version": "7b6be400293c3bfefff095cb00163e225c1a5872"
+    "version": "a61bcdf0ecc2c8db1e80bfe8bf9cb7e8d9fd2bbc"
   },
   "element": {
     "cargoLocks": null,
@@ -53,7 +53,7 @@
       "leaveDotGit": true,
       "name": null,
       "rev": "9745ca99a23a47d42692fb727ea36b130194fe61",
-      "sha256": "sha256-wOyxINAkUR0NEd1N8RS867++HfPcpdXfIcPBPYaW3CA=",
+      "sha256": "sha256-FNe2rJqdhuPSZM+aKGUdHMN2apEdHYL9lGnnkv/5yi0=",
       "sparseCheckout": [],
       "type": "git",
       "url": "https://github.com/kushview/element"
