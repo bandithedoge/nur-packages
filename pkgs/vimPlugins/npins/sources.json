@@ -74,9 +74,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "aa25399c48236b77af71d4b64cdf157d2ba4e990",
-      "url": "https://github.com/b0o/SchemaStore.nvim/archive/aa25399c48236b77af71d4b64cdf157d2ba4e990.tar.gz",
-      "hash": "sha256-4KKj1zp+5Z2zbC31hpvw73BIuf4dW7rimepGOggmUp4="
+      "revision": "4f5b624100600751eddfafb5d64bc81a1c2b6f70",
+      "url": "https://github.com/b0o/SchemaStore.nvim/archive/4f5b624100600751eddfafb5d64bc81a1c2b6f70.tar.gz",
+      "hash": "sha256-z7d1p/kbAFGJlGA2ZW6D4QRddGrv5RwICljVbfUvVtY="
     },
     "aniseed": {
       "type": "Git",
@@ -685,9 +685,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "684270f22364bd248fcedd51598b6433266fdc47",
-      "url": "https://github.com/lewis6991/gitsigns.nvim/archive/684270f22364bd248fcedd51598b6433266fdc47.tar.gz",
-      "hash": "sha256-KaYbeO7lEWB4Oi5q8pebYMaxwmdR4C2M9aMchaHEdnY="
+      "revision": "5813e4878748805f1518cee7abb50fd7205a3a48",
+      "url": "https://github.com/lewis6991/gitsigns.nvim/archive/5813e4878748805f1518cee7abb50fd7205a3a48.tar.gz",
+      "hash": "sha256-w3Q7nMFEbcjP6RmSTONg2Nw1dBXDEHnjQ69FuAPJRD8="
     },
     "glance.nvim": {
       "type": "Git",
@@ -1035,9 +1035,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "72b0194c56c984476c5975b62eb340fd1aa1686a",
-      "url": "https://github.com/echasnovski/mini.nvim/archive/72b0194c56c984476c5975b62eb340fd1aa1686a.tar.gz",
-      "hash": "sha256-CEMLuKfORX4LUDuoqWjag0gzgnoyrGa6bPjy5+TF4z8="
+      "revision": "c007f4b3822c99b98328bc214589a721c69d1514",
+      "url": "https://github.com/echasnovski/mini.nvim/archive/c007f4b3822c99b98328bc214589a721c69d1514.tar.gz",
+      "hash": "sha256-CHJ/kfqqWqdpuVDBmdGQqfr6DYIi436OMxYcOttNAjk="
     },
     "mkdir.nvim": {
       "type": "Git",
@@ -1100,9 +1100,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "b7b0681ef3a45875dcf40df411249f8e1eed008e",
-      "url": "https://github.com/folke/neoconf.nvim/archive/b7b0681ef3a45875dcf40df411249f8e1eed008e.tar.gz",
-      "hash": "sha256-KE7c2uYG5rDK9j1cy9YxA18L+hl5BBW7z9jLOw9haYk="
+      "revision": "3fdd84804c397059d4698fd8933f443058c4858e",
+      "url": "https://github.com/folke/neoconf.nvim/archive/3fdd84804c397059d4698fd8933f443058c4858e.tar.gz",
+      "hash": "sha256-hqUh7U7J1nDYd/Nd77MHO4H6IMC2AHeitDtY6+BW2/I="
     },
     "neodev.nvim": {
       "type": "Git",
