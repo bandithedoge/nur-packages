@@ -66,4 +66,21 @@
       license = licenses.lgpl21Plus;
     };
   };
+
+  luarocks-build-fennel = luaPackages.buildLuarocksPackage rec {
+    inherit (sources.luarocks-build-fennel) pname src;
+    version = sources.luarocks-build-fennel.date;
+
+    knownRockspec = "${src}/rockspecs/${pname}-scm-1.rockspec";
+
+    propagatedBuildInputs = with luaPackages; [
+      fennel
+    ];
+
+    meta = with lib; {
+      description = "Teach LuaRocks how to build your Fennel rock";
+      homepage = "https://sr.ht/~xerool/luarocks-build-fennel/";
+      license = licenses.mit;
+    };
+  };
 }
