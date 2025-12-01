@@ -1589,12 +1589,12 @@
   };
   "tabcenter-reborn" = buildFirefoxXpiAddon {
     pname = "tabcenter-reborn";
-    version = "3.0.1";
+    version = "3.0.2";
     addonId = "tabcenter-reborn@ariasuni";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4466811/tabcenter_reborn-3.0.1.xpi";
-    sha256 = "a95d7c312a8a47647e93f34d43933ba065649b64083016fb3ab70600e015d812";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4631653/tabcenter_reborn-3.0.2.xpi";
+    sha256 = "47dc2967afd4bc1774807e52ebc1ccdef909864f873fbbc03e382d47054c24c5";
     meta = with lib; {
-      homepage = "https://codeberg.org/ariasuni";
+      homepage = "https://codeberg.org/ariasuni/tabcenter-reborn";
       description = "Simple and powerful vertical tab bar";
       license = licenses.mpl20;
       mozPermissions = [
