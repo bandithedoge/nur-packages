@@ -1,8 +1,10 @@
 {
   sources,
-  utils,
 
   lib,
+  stdenv,
+
+  juceCmakeHook,
 }:
 let
   mkGuitarMl =
@@ -11,9 +13,11 @@ let
       meta,
       version ? source.version,
     }:
-    utils.juce.mkJucePackage {
+    stdenv.mkDerivation {
       inherit (source) pname src;
       inherit version;
+
+      nativeBuildInputs = [ juceCmakeHook ];
 
       meta =
         with lib;

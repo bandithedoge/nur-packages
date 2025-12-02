@@ -1,11 +1,17 @@
 {
   sources,
-  utils,
 
   lib,
+  stdenv,
+
+  juceCmakeHook,
 }:
-utils.juce.mkJucePackage {
+stdenv.mkDerivation {
   inherit (sources.gnomedistort2) pname version src;
+
+  nativeBuildInputs = [
+    juceCmakeHook
+  ];
 
   meta = with lib; {
     description = "Weird & brutal distortion VST plugin";

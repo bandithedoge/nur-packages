@@ -1,12 +1,16 @@
 {
   sources,
-  utils,
 
   lib,
+  stdenv,
+
+  juceCmakeHook,
 }:
-utils.juce.mkJucePackage {
+stdenv.mkDerivation {
   inherit (sources.cloudreverb) pname src;
   version = sources.cloudreverb.date;
+
+  nativeBuildInputs = [ juceCmakeHook ];
 
   meta = with lib; {
     description = "algorithmic reverb plugin based on CloudSeed";

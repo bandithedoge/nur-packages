@@ -1,6 +1,5 @@
 {
   sources,
-  utils,
 
   lib,
   stdenv,
@@ -9,6 +8,7 @@
   cmake,
   freetype,
   glib,
+  juceCmakeHook,
   libxkbcommon,
   ninja,
   pango,
@@ -23,9 +23,11 @@ let
       source,
       meta,
     }:
-    utils.juce.mkJucePackage {
+    stdenv.mkDerivation {
       inherit (source) pname src;
       version = lib.removePrefix "v" source.version;
+
+      nativeBuildInputs = [ juceCmakeHook ];
 
       postPatch = ''
         ln -s ${sources.juce.src} JUCE

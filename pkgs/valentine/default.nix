@@ -1,12 +1,18 @@
 {
   sources,
-  utils,
 
   lib,
+  stdenv,
+
+  juceCmakeHook,
 }:
-utils.juce.mkJucePackage {
+stdenv.mkDerivation {
   inherit (sources.valentine) pname src;
   version = lib.removePrefix "v" sources.valentine.version;
+
+  nativeBuildInputs = [
+    juceCmakeHook
+  ];
 
   cmakeFlags = [ "-DFETCHCONTENT_SOURCE_DIR_CATCH2=${sources.catch2.src}" ];
 

@@ -1,11 +1,15 @@
 {
   sources,
-  utils,
 
   lib,
+  stdenv,
+
+  juceCmakeHook,
 }:
-utils.juce.mkJucePackage {
+stdenv.mkDerivation {
   inherit (sources.terrain) pname version src;
+
+  nativeBuildInputs = [ juceCmakeHook ];
 
   NIX_CFLAGS_COMPILE = [ "-Wno-error" ];
 

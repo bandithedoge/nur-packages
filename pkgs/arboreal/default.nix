@@ -1,9 +1,10 @@
 {
   sources,
-  utils,
 
   lib,
   stdenv,
+
+  juceCmakeHook,
 }:
 let
   mkArboreal =
@@ -17,8 +18,10 @@ let
         noLicenseCheck ? false,
         productionBuild ? true,
       }:
-      utils.juce.mkJucePackage {
+      stdenv.mkDerivation {
         inherit (source) pname version src;
+
+        nativeBuildInputs = [ juceCmakeHook ];
 
         cmakeFlags =
           cmakeFlags

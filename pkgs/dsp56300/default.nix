@@ -1,8 +1,10 @@
 {
   sources,
-  utils,
 
   lib,
+  stdenv,
+
+  juceCmakeHook,
 
   variants ? [
     "nodalred2x"
@@ -13,8 +15,12 @@
   ],
 }:
 assert builtins.length variants != 0;
-utils.juce.mkJucePackage {
+stdenv.mkDerivation {
   inherit (sources.dsp56300) pname version src;
+
+  nativeBuildInputs = [
+    juceCmakeHook
+  ];
 
   postPatch = ''
     substituteAll CMakeLists.txt --replace-fail "/usr/local" "${placeholder "out"}"

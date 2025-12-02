@@ -1,8 +1,10 @@
 {
   sources,
-  utils,
 
   lib,
+  stdenv,
+
+  juceCmakeHook,
 }:
 let
   mkZl =
@@ -14,9 +16,11 @@ let
       extraCmakeFlags ? [ ],
       cflags ? [ ],
     }:
-    utils.juce.mkJucePackage {
+    stdenv.mkDerivation {
       inherit pname version;
       inherit (source) src;
+
+      nativeBuildInputs = [ juceCmakeHook ];
 
       cmakeFlags = [
         "-DZL_JUCE_COPY_PLUGIN=FALSE"

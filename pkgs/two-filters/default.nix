@@ -1,12 +1,12 @@
 {
   sources,
-  utils,
 
   lib,
   stdenv,
 
   cmake,
   git,
+  juceCmakeHook,
   ninja,
   pkg-config,
   rtaudio_6,
@@ -23,7 +23,7 @@ stdenv.mkDerivation {
     pkg-config
   ];
 
-  buildInputs = utils.juce.commonBuildInputs;
+  buildInputs = juceCmakeHook.commonBuildInputs;
 
   cmakeFlags = [
     "-DCOPY_AFTER_BUILD=FALSE"

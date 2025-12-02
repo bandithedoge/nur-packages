@@ -1,12 +1,18 @@
 {
   sources,
-  utils,
 
   lib,
+  stdenv,
+
+  juceCmakeHook,
 }:
-utils.juce.mkJucePackage {
+stdenv.mkDerivation {
   inherit (sources.firefly-synth) pname src;
   version = lib.removePrefix "v" sources.firefly-synth.version;
+
+  nativeBuildInputs = [
+    juceCmakeHook
+  ];
 
   installPhase = ''
     runHook preInstall

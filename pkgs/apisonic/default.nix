@@ -1,12 +1,12 @@
 {
   sources,
-  utils,
 
   lib,
   stdenv,
 
-  unzip,
   autoPatchelfHook,
+  juceCmakeHook,
+  unzip,
 }:
 let
   mkApisonic =
@@ -25,7 +25,7 @@ let
         unzip
       ];
 
-      buildInputs = utils.juce.commonBuildInputs;
+      buildInputs = juceCmakeHook.commonBuildInputs;
 
       buildPhase = ''
         runHook preBuild

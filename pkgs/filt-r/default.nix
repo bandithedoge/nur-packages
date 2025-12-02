@@ -1,12 +1,16 @@
 {
   sources,
-  utils,
 
   lib,
+  stdenv,
+
+  juceCmakeHook,
 }:
-utils.juce.mkJucePackage {
+stdenv.mkDerivation {
   inherit (sources.filt-r) pname src;
   version = lib.removePrefix "v" sources.filt-r.version;
+
+  nativeBuildInputs = [ juceCmakeHook ];
 
   meta = with lib; {
     description = "Envelope based filter modulator";

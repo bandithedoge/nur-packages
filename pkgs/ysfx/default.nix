@@ -1,12 +1,16 @@
 {
   sources,
-  utils,
 
   lib,
+  stdenv,
+
+  juceCmakeHook,
 }:
-utils.juce.mkJucePackage {
+stdenv.mkDerivation {
   inherit (sources.ysfx) pname src;
   version = lib.removePrefix "v" sources.ysfx.version;
+
+  nativeBuildInputs = [ juceCmakeHook ];
 
   cmakeFlags = [
     "-DFETCHCONTENT_SOURCE_DIR_JUCE=${sources.juce.src}"

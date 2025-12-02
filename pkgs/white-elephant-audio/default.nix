@@ -1,11 +1,11 @@
 {
   sources,
-  utils,
 
   lib,
   stdenv,
 
   autoPatchelfHook,
+  juceCmakeHook,
   unzip,
 }:
 let
@@ -30,7 +30,7 @@ let
       buildInputs = [
         stdenv.cc.cc.lib
       ]
-      ++ utils.juce.commonBuildInputs;
+      ++ juceCmakeHook.commonBuildInputs;
 
       buildPhase = ''
         runHook preBuild

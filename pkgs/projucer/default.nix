@@ -1,25 +1,30 @@
 {
   sources,
-  utils,
 
   lib,
+  stdenv,
 
   gtk3,
+  juceCmakeHook,
   ladspa-sdk,
   libjack2,
   pkg-config,
   webkitgtk_4_1,
   writableTmpDirAsHomeHook,
 }:
-utils.juce.mkJucePackage (finalAttrs: {
+stdenv.mkDerivation {
   pname = "projucer";
   inherit (sources.juce) version src;
+
+  nativeBuildInputs = [
+    juceCmakeHook
+  ];
 
   buildInputs = [
     ladspa-sdk
   ];
 
-  propagatedBuildInputs = utils.juce.commonBuildInputs ++ [
+  propagatedBuildInputs = juceCmakeHook.commonBuildInputs ++ [
     gtk3
     libjack2
     pkg-config
@@ -47,4 +52,4 @@ utils.juce.mkJucePackage (finalAttrs: {
     license = licenses.agpl3Only;
     platforms = platforms.unix;
   };
-})
+}

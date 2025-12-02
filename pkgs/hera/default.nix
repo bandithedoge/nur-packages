@@ -1,12 +1,16 @@
 {
   sources,
-  utils,
 
   lib,
+  stdenv,
+
+  juceCmakeHook,
 }:
-utils.juce.mkJucePackage {
+stdenv.mkDerivation {
   inherit (sources.hera) pname src;
   version = sources.hera.date;
+
+  nativeBuildInputs = [ juceCmakeHook ];
 
   meta = with lib; {
     description = "Juno 60 emulation synthesizer";

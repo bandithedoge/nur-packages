@@ -1,12 +1,12 @@
 {
   sources,
-  utils,
 
   lib,
   stdenv,
 
   cmake,
   git,
+  juceCmakeHook,
   ninja,
   pkg-config,
   rtaudio_6,
@@ -23,7 +23,7 @@ stdenv.mkDerivation {
     git
   ];
 
-  buildInputs = utils.juce.commonBuildInputs;
+  buildInputs = juceCmakeHook.commonBuildInputs;
 
   cmakeFlags = [
     "-DVST3_SDK_ROOT=${sources.vst3sdk.src}"

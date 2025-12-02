@@ -1,11 +1,15 @@
 {
   sources,
-  utils,
 
   lib,
+  stdenv,
+
+  juceCmakeHook,
 }:
-utils.juce.mkJucePackage {
+stdenv.mkDerivation {
   inherit (sources.sg-323) pname version src;
+
+  nativeBuildInputs = [ juceCmakeHook ];
 
   meta = with lib; {
     description = "Ursa Major Stargate 323 reverb emulation";

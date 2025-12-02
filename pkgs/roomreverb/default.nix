@@ -1,12 +1,18 @@
 {
   sources,
-  utils,
 
   lib,
+  stdenv,
+
+  juceCmakeHook,
 }:
-utils.juce.mkJucePackage {
+stdenv.mkDerivation {
   inherit (sources.roomreverb) pname src;
   version = lib.removePrefix "v" sources.roomreverb.version;
+
+  nativeBuildInputs = [
+    juceCmakeHook
+  ];
 
   meta = with lib; {
     description = "Room Reverb is a mono/stereo to stereo algorithmic reverb audio plugin with many presets that lets you add reverberation to your recordings in your DAW";

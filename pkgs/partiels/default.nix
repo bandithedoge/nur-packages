@@ -1,11 +1,12 @@
 {
   sources,
-  utils,
 
   lib,
+  stdenv,
 
   copyDesktopItems,
   git,
+  juceCmakeHook,
   libjack2,
   makeDesktopItem,
   runCommand,
@@ -19,19 +20,20 @@ let
     cp -r vamp-plugin-sdk $out
   '';
 in
-utils.juce.mkJucePackage {
+stdenv.mkDerivation {
   inherit (sources.partiels) pname version src;
 
   nativeBuildInputs = [
     copyDesktopItems
     git
+    juceCmakeHook
   ];
 
   buildInputs = [
     libjack2
   ];
 
-  postInstall = ''
+  installPhase = ''
     mkdir -p $out/{bin,lib/vamp}
     cp -r Partiels $out/libexec
 

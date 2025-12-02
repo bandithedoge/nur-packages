@@ -1,18 +1,20 @@
 {
   sources,
-  utils,
 
-  rustPlatform,
+  lib,
+  stdenv,
 
   cargo,
-  lib,
+  juceCmakeHook,
+  rustPlatform,
 }:
-utils.juce.mkJucePackage {
+stdenv.mkDerivation {
   inherit (sources.schrammel-ojd) pname src;
   version = sources.schrammel-ojd.date;
 
   nativeBuildInputs = [
     cargo
+    juceCmakeHook
     rustPlatform.cargoSetupHook
   ];
 

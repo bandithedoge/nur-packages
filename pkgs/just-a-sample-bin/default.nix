@@ -5,8 +5,8 @@
   lib,
 
   autoPatchelfHook,
+  juceCmakeHook,
   unzip,
-  utils,
 }:
 stdenv.mkDerivation {
   inherit (sources.just-a-sample-bin) pname version src;
@@ -17,7 +17,7 @@ stdenv.mkDerivation {
     unzip
   ];
 
-  buildInputs = utils.juce.commonBuildInputs;
+  buildInputs = juceCmakeHook.commonBuildInputs;
 
   buildPhase = ''
     runHook preBuild

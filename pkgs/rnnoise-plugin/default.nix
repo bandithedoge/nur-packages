@@ -1,12 +1,16 @@
 {
   sources,
-  utils,
 
   lib,
+  stdenv,
+
+  juceCmakeHook,
 }:
-utils.juce.mkJucePackage {
+stdenv.mkDerivation {
   inherit (sources.rnnoise-plugin) pname src;
   version = lib.removePrefix "v" sources.rnnoise-plugin.version;
+
+  nativeBuildInputs = [ juceCmakeHook ];
 
   cmakeFlags = [ "-DBUILD_FOR_RELEASE=ON" ];
 

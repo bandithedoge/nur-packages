@@ -1,6 +1,5 @@
 {
   sources,
-  utils,
 
   lib,
   stdenv,
@@ -8,6 +7,7 @@
   autoPatchelfHook,
   fftwFloat,
   glibmm,
+  juceCmakeHook,
   libsigcxx,
   libsndfile,
   lilv,
@@ -31,7 +31,7 @@ stdenv.mkDerivation {
     lilv
     stdenv.cc.cc.lib
   ]
-  ++ utils.juce.commonBuildInputs;
+  ++ juceCmakeHook.commonBuildInputs;
 
   buildPhase = ''
     runHook preBuild

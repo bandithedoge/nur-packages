@@ -1,17 +1,19 @@
 {
   sources,
-  utils,
 
   lib,
+  stdenv,
 
   git,
+  juceCmakeHook,
 }:
-utils.juce.mkJucePackage {
+stdenv.mkDerivation {
   inherit (sources.ob-xf) pname src;
   version = sources.ob-xf.date;
 
   nativeBuildInputs = [
     git
+    juceCmakeHook
   ];
 
   cmakeFlags = [

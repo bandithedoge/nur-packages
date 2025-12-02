@@ -1,12 +1,16 @@
 {
   sources,
-  utils,
 
   lib,
+  stdenv,
+
+  juceCmakeHook,
 }:
-utils.juce.mkJucePackage {
+stdenv.mkDerivation {
   inherit (sources.ripplerx) pname src;
   version = lib.removePrefix "v" sources.ripplerx.version;
+
+  nativeBuildInputs = [ juceCmakeHook ];
 
   meta = with lib; {
     description = "A physically modeled synth";

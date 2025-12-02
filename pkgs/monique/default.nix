@@ -1,17 +1,19 @@
 {
   sources,
-  utils,
 
   lib,
+  stdenv,
 
   git,
+  juceCmakeHook,
   libjack2,
 }:
-utils.juce.mkJucePackage {
+stdenv.mkDerivation {
   inherit (sources.monique) pname src;
   version = sources.monique.date;
 
   nativeBuildInputs = [
+    juceCmakeHook
     git
   ];
 

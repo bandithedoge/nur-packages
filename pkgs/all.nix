@@ -48,6 +48,7 @@ let
     ildaeil = callPackage' ./ildaeil { };
     ircam-vamp-plugins-bin = callPackage' ./ircam-vamp-plugins-bin { };
     js80p = callPackage' ./js80p { };
+    juceCmakeHook = callPackage' ./juceCmakeHook { };
     just-a-sample-bin = callPackage' ./just-a-sample-bin { };
     k-whooms = callPackage' ./k-whooms { };
     keepmenu = callPackage' ./keepmenu { };
@@ -137,7 +138,6 @@ let
       // {
         inherit callPackage';
         sources = pkgs.callPackage (pkg + "/_sources/generated.nix") { };
-        utils = callPackage' ../utils { };
       }
     ) pkg;
 

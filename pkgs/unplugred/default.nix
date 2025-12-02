@@ -1,12 +1,18 @@
 {
   sources,
-  utils,
 
   lib,
+  stdenv,
+
+  juceCmakeHook,
 }:
-utils.juce.mkJucePackage {
+stdenv.mkDerivation {
   inherit (sources.unplugred) pname src;
   version = sources.unplugred.date;
+
+  nativeBuildInputs = [
+    juceCmakeHook
+  ];
 
   patches = [
     # HACK: https://github.com/unplugred/vsts/issues/7

@@ -1,11 +1,11 @@
 {
   sources,
-  utils,
 
   lib,
   stdenv,
 
   autoPatchelfHook,
+  juceCmakeHook,
 }:
 stdenv.mkDerivation rec {
   inherit (sources.squeezer-bin-standalone) pname version;
@@ -19,7 +19,7 @@ stdenv.mkDerivation rec {
     autoPatchelfHook
   ];
 
-  buildInputs = utils.juce.commonBuildInputs;
+  buildInputs = juceCmakeHook.commonBuildInputs;
 
   buildPhase = ''
     runHook preBuild

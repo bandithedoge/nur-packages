@@ -1,12 +1,12 @@
 {
   sources,
-  utils,
 
   lib,
   stdenv,
 
   autoPatchelfHook,
   csound,
+  juceCmakeHook,
   unzip,
 }:
 let
@@ -26,7 +26,7 @@ stdenv.mkDerivation {
     csound'
     stdenv.cc.cc.lib
   ]
-  ++ utils.juce.commonBuildInputs;
+  ++ juceCmakeHook.commonBuildInputs;
 
   buildPhase = ''
     runHook preBuild

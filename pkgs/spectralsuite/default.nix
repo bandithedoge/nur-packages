@@ -1,14 +1,17 @@
 {
   sources,
-  utils,
 
   lib,
+  stdenv,
 
   juce,
+  juceCmakeHook,
 }:
-utils.juce.mkJucePackage {
+stdenv.mkDerivation {
   inherit (sources.spectralsuite) pname src;
   version = lib.removePrefix "v" sources.spectralsuite.version;
+
+  nativeBuildInputs = [ juceCmakeHook ];
 
   cmakeFlags = [ "-DCPM_JUCE_SOURCE=${juce.src}" ];
 

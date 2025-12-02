@@ -1,11 +1,11 @@
 {
   sources,
-  utils,
 
   lib,
   stdenv,
 
   autoPatchelfHook,
+  juceCmakeHook,
   unzip,
 }:
 stdenv.mkDerivation {
@@ -25,7 +25,7 @@ stdenv.mkDerivation {
   buildInputs = [
     stdenv.cc.cc.lib
   ]
-  ++ utils.juce.commonBuildInputs;
+  ++ juceCmakeHook.commonBuildInputs;
 
   buildPhase = ''
     runHook preBuild

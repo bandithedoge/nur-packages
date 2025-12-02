@@ -1,11 +1,11 @@
 {
   sources,
-  utils,
 
   lib,
   stdenv,
 
   autoPatchelfHook,
+  juceCmakeHook,
 }:
 stdenv.mkDerivation {
   inherit (sources.showmidi-bin) pname version src;
@@ -17,7 +17,7 @@ stdenv.mkDerivation {
   buildInputs = [
     stdenv.cc.cc.lib
   ]
-  ++ utils.juce.commonBuildInputs;
+  ++ juceCmakeHook.commonBuildInputs;
 
   buildPhase = ''
     runHook preBuild

@@ -1,12 +1,12 @@
 {
   sources,
-  utils,
 
   lib,
   stdenv,
 
   autoPatchelfHook,
   csound,
+  juceCmakeHook,
 }:
 let
   csound' = csound.overrideAttrs (_: {
@@ -25,7 +25,7 @@ stdenv.mkDerivation {
     csound'
     stdenv.cc.cc.lib
   ]
-  ++ utils.juce.commonBuildInputs;
+  ++ juceCmakeHook.commonBuildInputs;
 
   buildPhase = ''
     runHook preBuild

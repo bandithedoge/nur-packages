@@ -1,6 +1,5 @@
 {
   sources,
-  utils,
 
   lib,
   stdenv,
@@ -9,6 +8,7 @@
   cairo,
   cmake,
   git,
+  juceCmakeHook,
   ladspa-sdk,
   libjack2,
   lilv,
@@ -49,7 +49,7 @@ stdenv.mkDerivation rec {
     suil
     xorg.libXcomposite
   ]
-  ++ utils.juce.commonBuildInputs;
+  ++ juceCmakeHook.commonBuildInputs;
 
   postPatch = ''
     ln -s ${sources.clap-helpers.src} subprojects/clap-helpers
