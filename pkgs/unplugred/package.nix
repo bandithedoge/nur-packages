@@ -21,7 +21,6 @@ stdenv.mkDerivation {
 
   preInstall = ''
     cp -r plugins/*/*_artefacts .
-    ls
   '';
 
   cmakeFlags = [

@@ -1,0 +1,23 @@
+{
+    "dwm-flexipatch": {
+        "cargoLocks": null,
+        "date": "2025-10-31",
+        "extract": null,
+        "name": "dwm-flexipatch",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "bakkeby",
+            "repo": "dwm-flexipatch",
+            "rev": "a74df8bbcedd9f91841653844c71424d3ab4a0dc",
+            "sha256": "sha256-csMXMCBuVGwO+1TG/MXm3yHyDNNjfpgAmbhT7a0mcrc=",
+            "sparseCheckout": [],
+            "type": "github"
+        },
+        "version": "a74df8bbcedd9f91841653844c71424d3ab4a0dc"
+    }
+}

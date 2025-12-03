@@ -49,9 +49,7 @@
             let
               packages = import ./pkgs/default.nix { inherit pkgs; };
 
-              all = inputs.flake-utils.lib.flattenTree (
-                pkgs.lib.recurseIntoAttrs (import ./pkgs/all.nix { inherit pkgs; })
-              );
+              all = inputs.flake-utils.lib.flattenTree packages;
 
               buildable = pkgs.lib.filterAttrs (_: p: !(p.meta.broken || p.meta.insecure)) all;
               cacheable = pkgs.lib.filterAttrs (

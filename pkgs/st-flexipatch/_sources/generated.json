@@ -1,0 +1,23 @@
+{
+    "st-flexipatch": {
+        "cargoLocks": null,
+        "date": "2025-10-28",
+        "extract": null,
+        "name": "st-flexipatch",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "bakkeby",
+            "repo": "st-flexipatch",
+            "rev": "37bc089f1d9f3c53ded68d442dac3108b3366426",
+            "sha256": "sha256-kLWuxgCKEGZJ0z78SGhfoP7QXO1Z+gASAysfRVYLGgw=",
+            "sparseCheckout": [],
+            "type": "github"
+        },
+        "version": "37bc089f1d9f3c53ded68d442dac3108b3366426"
+    }
+}
