@@ -34,7 +34,7 @@ fi
 
 postFixupHooks+=(juceCmakePostFixup)
 
-cmakeFlags+=(
+cmakeFlagsArray+=(
     '-DCMAKE_CXX_FLAGS="-fuse-ld=mold"' # juce really doesn't like gcc it seems
     "-DCOPY_PLUGIN_AFTER_BUILD=FALSE"
     "-DCMAKE_POLICY_VERSION_MINIMUM=3.5"
