@@ -1,23 +1,23 @@
 {
-    "dmenu-flexipatch": {
-        "cargoLocks": null,
-        "date": "2025-11-29",
-        "extract": null,
-        "name": "dmenu-flexipatch",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "deepClone": false,
-            "fetchSubmodules": false,
-            "leaveDotGit": false,
-            "name": null,
-            "owner": "bakkeby",
-            "repo": "dmenu-flexipatch",
-            "rev": "d9ca864a7f9e40f8e23f4a27a2f4013812a9bc04",
-            "sha256": "sha256-8CzxKsGM8NB1RKiFYpGSUNu3MXYsm2YpgN1Ze/PUpFE=",
-            "sparseCheckout": [],
-            "type": "github"
-        },
-        "version": "d9ca864a7f9e40f8e23f4a27a2f4013812a9bc04"
-    }
+  "dmenu-flexipatch": {
+    "cargoLocks": null,
+    "date": "2025-11-29",
+    "extract": null,
+    "name": "dmenu-flexipatch",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "deepClone": false,
+      "fetchSubmodules": false,
+      "leaveDotGit": false,
+      "name": null,
+      "owner": "bakkeby",
+      "repo": "dmenu-flexipatch",
+      "rev": "d9ca864a7f9e40f8e23f4a27a2f4013812a9bc04",
+      "sha256": "sha256-8CzxKsGM8NB1RKiFYpGSUNu3MXYsm2YpgN1Ze/PUpFE=",
+      "sparseCheckout": [],
+      "type": "github"
+    },
+    "version": "d9ca864a7f9e40f8e23f4a27a2f4013812a9bc04"
+  }
 }
