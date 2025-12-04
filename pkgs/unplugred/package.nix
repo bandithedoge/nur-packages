@@ -33,5 +33,6 @@ stdenv.mkDerivation {
     homepage = "https://vst.unplug.red";
     license = licenses.agpl3Plus;
     platforms = platforms.linux;
+    broken = true;
   };
 }
