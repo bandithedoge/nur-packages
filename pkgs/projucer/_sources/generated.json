@@ -1,23 +1,23 @@
 {
-  "juce": {
-    "cargoLocks": null,
-    "date": null,
-    "extract": null,
-    "name": "juce",
-    "passthru": null,
-    "pinned": false,
-    "src": {
-      "deepClone": false,
-      "fetchSubmodules": false,
-      "leaveDotGit": false,
-      "name": null,
-      "owner": "juce-framework",
-      "repo": "JUCE",
-      "rev": "8.0.10",
-      "sha256": "sha256-YSNVQ337/IAlz3mFNgJisIY5D9wPz6sFboMNwsjcGBo=",
-      "sparseCheckout": [],
-      "type": "github"
-    },
-    "version": "8.0.10"
-  }
+    "juce": {
+        "cargoLocks": null,
+        "date": null,
+        "extract": null,
+        "name": "juce",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "juce-framework",
+            "repo": "JUCE",
+            "rev": "8.0.11",
+            "sha256": "sha256-sUxPFxQ/Q1ESlp6tdGI8hGkc3szYkFwBO8xARg2JiR4=",
+            "sparseCheckout": [],
+            "type": "github"
+        },
+        "version": "8.0.11"
+    }
 }
