@@ -334,9 +334,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "d7056e37c853048a39b1fb9243d8654e60311d79",
-      "url": "https://github.com/Rolv-Apneseth/starship.yazi/archive/d7056e37c853048a39b1fb9243d8654e60311d79.tar.gz",
-      "hash": "sha256-zlyJrBBUTeeGB69pMel+QWU/ivbUfzBJhGJy+yoHoaE="
+      "revision": "eca186171c5f2011ce62712f95f699308251c749",
+      "url": "https://github.com/Rolv-Apneseth/starship.yazi/archive/eca186171c5f2011ce62712f95f699308251c749.tar.gz",
+      "hash": "sha256-xcz2+zepICZ3ji0Hm0SSUBSaEpabWUrIdG7JmxUl/ts="
     },
     "sudo.yazi": {
       "type": "Git",
@@ -412,9 +412,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "22af0033be18eead7b04c2768767d38ccfbaa05b",
-      "url": "https://github.com/h-hg/yamb.yazi/archive/22af0033be18eead7b04c2768767d38ccfbaa05b.tar.gz",
-      "hash": "sha256-NMxZ8/7HQgs+BsZeH4nEglWsRH2ibAzq7hRSyrtFDTA="
+      "revision": "5f2e22e784dd5fc830cd85885a6d1d6690b52298",
+      "url": "https://github.com/h-hg/yamb.yazi/archive/5f2e22e784dd5fc830cd85885a6d1d6690b52298.tar.gz",
+      "hash": "sha256-3Cp3+v0laSVsDdTyG26EOh2xt18ER8P9Nla9vtRuj9k="
     },
     "yatline.yazi": {
       "type": "Git",
