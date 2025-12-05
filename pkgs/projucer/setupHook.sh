@@ -7,7 +7,7 @@ projucerConfigurePhase() {
   if [ -n "${jucerUserModules-}" ]; then
     Projucer --set-global-search-path linux defaultUserModulePath "$jucerUserModules"
   fi
-  Projucer --resave "${jucerFile:-$pname.jucer}"
+  Projucer --resave "${jucerFile:-$pname.jucer}" --fix-missing-dependencies
 
   preBuildHooks+=(projucerPreBuild)
   if [ -z "${dontUseProjucerInstall-}" ]; then
