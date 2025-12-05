@@ -125,6 +125,7 @@
                   "npins/*"
                 ];
               };
+              keep-sorted.enable = true;
             };
           };
         };

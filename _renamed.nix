@@ -1,4 +1,5 @@
 {
+  # keep-sorted start block=yes
   bitdos-bin = [ "bitdos" ];
   chainner-bin = {
     stable = [ "chainner-bin" ];
@@ -31,4 +32,5 @@
     "u-he"
     "zebra-legacy"
   ];
+  # keep-sorted end
 }

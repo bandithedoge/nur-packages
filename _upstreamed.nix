@@ -1,4 +1,5 @@
 {
+  # keep-sorted start block=yes
   airwindows-consolidated = [ "airwin2rack" ];
   cantata = [ "cantata" ];
   distrho-ports = [ "distrho-ports" ];
@@ -50,4 +51,5 @@
   };
   zlint-bin = [ "zlint-zig" ];
   zrythm = [ "zrythm" ];
+  # keep-sorted end
 }
