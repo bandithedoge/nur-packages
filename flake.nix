@@ -47,9 +47,9 @@
 
           legacyPackages =
             let
-              packages = import ./default.nix { inherit pkgs; };
+              all = import ./all.nix { inherit pkgs; };
 
-              allPackages = inputs.flake-utils.lib.flattenTree packages;
+              allPackages = inputs.flake-utils.lib.flattenTree all;
 
               buildable = pkgs.lib.filterAttrs (_: p: !(p.meta.broken || p.meta.insecure)) allPackages;
               cacheable = pkgs.lib.filterAttrs (
@@ -59,7 +59,7 @@
                 && !(pkgs.lib.any (prov: !prov.isSource) (p.meta.sourceProvenance or [ ]))
               ) buildable;
             in
-            packages
+            import ./default.nix { inherit pkgs; }
             // {
               _BUILDABLE = buildable;
               _CACHEABLE = cacheable;
