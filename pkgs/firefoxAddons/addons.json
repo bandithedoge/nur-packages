@@ -122,5 +122,9 @@
   },
   {
     "slug": "ff2mpv"
+  },
+  {
+    "pname": "harper",
+    "slug": "private-grammar-checker-harper"
   }
 ]
