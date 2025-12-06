@@ -1,0 +1,3 @@
+[sox-ng]
+src.git = "https://codeberg.org/sox_ng/sox_ng.git"
+fetch.git = "https://codeberg.org/sox_ng/sox_ng.git"
