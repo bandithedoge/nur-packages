@@ -58,13 +58,18 @@ stdenv.mkDerivation {
   buildPhase = ''
     runHook preBuild
 
-    mkdir -p $out/{bin,libexec/helium}
+    mkdir -p $out/{bin,libexec/helium,share/applications,share/icons/hicolor/256x256/apps}
     cp -r * $out/libexec/helium
+
     ln -s $out/libexec/helium/chrome $out/bin/helium
+    ln -s $out/libexec/helium/chrome $out/bin/chromium
 
     patchelf --add-needed libEGL.so.1 $out/libexec/helium/lib*GL*
     rm $out/libexec/helium/libvulkan.so.1
     patchelf --add-needed libvulkan.so.1 $out/libexec/helium/lib*GL*
+
+    ln -s $out/libexec/helium/helium.desktop $out/share/applications
+    ln -s $out/libexec/helium/product_logo_256.png $out/share/icons/hicolor/256x256/apps/helium.png
 
     runHook postBuild
   '';
