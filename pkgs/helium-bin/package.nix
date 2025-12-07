@@ -62,6 +62,7 @@ stdenv.mkDerivation {
     cp -r * $out/libexec/helium
 
     ln -s $out/libexec/helium/chrome $out/bin/helium
+    ln -s $out/libexec/helium/chrome $out/bin/chromium
 
     patchelf --add-needed libEGL.so.1 $out/libexec/helium/lib*GL*
     rm $out/libexec/helium/libvulkan.so.1
