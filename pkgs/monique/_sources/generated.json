@@ -12,7 +12,7 @@
       "leaveDotGit": true,
       "name": null,
       "rev": "df7d3395bce862847d40237350d0161a463dcc0d",
-      "sha256": "sha256-inEOEQogAMqEYN5+ipci+4ECw2UvxZHLuHx0ZW/1gVo=",
+      "sha256": "sha256-msKFguaZoh6Rv2BuMn8pRSWF3MeL9dk4p0qfmiDgwWM=",
       "sparseCheckout": [],
       "type": "git",
       "url": "https://github.com/surge-synthesizer/monique-monosynth"
