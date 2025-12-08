@@ -11,12 +11,12 @@
       "fetchSubmodules": false,
       "leaveDotGit": false,
       "name": null,
-      "rev": "fd3115dabb9ea8268dab389d8ec52b351a7eb684",
-      "sha256": "sha256-Zo/TFTklaWcxfU5QbyHQ4fu+dZN2Gb+4Gx58EXtdIN4=",
+      "rev": "6c53c61c1f483d99ca601ea8c575570e22d05bb2",
+      "sha256": "sha256-7L0KurGKg4fsRGRYnHqSERJnMUR+TXmeaPD6Kgm3IZU=",
       "sparseCheckout": [],
       "type": "git",
       "url": "https://github.com/somepaulo/MoreWaita"
     },
-    "version": "fd3115dabb9ea8268dab389d8ec52b351a7eb684"
+    "version": "6c53c61c1f483d99ca601ea8c575570e22d05bb2"
   }
 }
