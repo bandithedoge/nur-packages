@@ -42,7 +42,7 @@
   },
   "element": {
     "cargoLocks": null,
-    "date": "2025-11-19",
+    "date": "2025-12-08",
     "extract": null,
     "name": "element",
     "passthru": null,
@@ -52,13 +52,13 @@
       "fetchSubmodules": false,
       "leaveDotGit": true,
       "name": null,
-      "rev": "9745ca99a23a47d42692fb727ea36b130194fe61",
-      "sha256": "sha256-FNe2rJqdhuPSZM+aKGUdHMN2apEdHYL9lGnnkv/5yi0=",
+      "rev": "af25ee73a64a65bb55a595873423c09989ba8320",
+      "sha256": "sha256-6MbXvzK4KoSlBk1I4mxoNirKf+rBJ/sua5gN+kZmzAA=",
       "sparseCheckout": [],
       "type": "git",
       "url": "https://github.com/kushview/element"
     },
-    "version": "9745ca99a23a47d42692fb727ea36b130194fe61"
+    "version": "af25ee73a64a65bb55a595873423c09989ba8320"
   },
   "juce-element": {
     "cargoLocks": null,
