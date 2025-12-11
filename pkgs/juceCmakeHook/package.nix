@@ -8,7 +8,7 @@
   fontconfig,
   freetype,
   libGL,
-  mold-wrapped,
+  mold,
   ninja,
   pkg-config,
   xorg,
@@ -33,7 +33,7 @@ makeSetupHook {
 
   propagatedBuildInputs = [
     cmake
-    mold-wrapped
+    mold
     ninja
     pkg-config
     writableTmpDirAsHomeHook
