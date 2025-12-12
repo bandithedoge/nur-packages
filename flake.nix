@@ -47,9 +47,7 @@
 
           legacyPackages =
             let
-              all = import ./all.nix { inherit pkgs; };
-
-              allPackages = inputs.flake-utils.lib.flattenTree all;
+              allPackages = inputs.flake-utils.lib.flattenTree (import ./all.nix { inherit pkgs; });
 
               buildable = pkgs.lib.filterAttrs (_: p: !(p.meta.broken || p.meta.insecure)) allPackages;
               cacheable = pkgs.lib.filterAttrs (
@@ -63,6 +61,30 @@
             // {
               _BUILDABLE = buildable;
               _CACHEABLE = cacheable;
+
+              _LIST = ''
+                | Name | Description |
+                | ---- | ----------- |
+              ''
+              + pkgs.lib.concatMapAttrsStringSep "\n" (
+                name: value:
+                let
+                  name' =
+                    let
+                      path = builtins.replaceStrings ["/"] ["."] name;
+                    in
+                    if (builtins.hasAttr "meta" value && builtins.hasAttr "homepage" value.meta) then
+                      "[${path}](${value.meta.homepage})"
+                    else
+                      path;
+                  value' =
+                    if (builtins.hasAttr "meta" value && builtins.hasAttr "description" value.meta) then
+                      pkgs.lib.trim (builtins.elemAt (pkgs.lib.splitString "\n" value.meta.description) 0)
+                    else
+                      "";
+                in
+                "| ${name'} | ${value'} |"
+              ) allPackages;
 
               inherit
                 (import "${inputs.cache-nix-action}/saveFromGC.nix" {
