@@ -1,23 +1,23 @@
 {
-    "gate-12": {
-        "cargoLocks": null,
-        "date": null,
-        "extract": null,
-        "name": "gate-12",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "deepClone": false,
-            "fetchSubmodules": true,
-            "leaveDotGit": false,
-            "name": null,
-            "owner": "tiagolr",
-            "repo": "gate12",
-            "rev": "v1.2.3",
-            "sha256": "sha256-2b58XzuV2wcO8/JAlC628Cz+ZWTKEGTzpIAicMrXanc=",
-            "sparseCheckout": [],
-            "type": "github"
-        },
-        "version": "v1.2.3"
-    }
+  "gate-12": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "gate-12",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "deepClone": false,
+      "fetchSubmodules": true,
+      "leaveDotGit": false,
+      "name": null,
+      "owner": "tiagolr",
+      "repo": "gate12",
+      "rev": "v1.2.3",
+      "sha256": "sha256-2b58XzuV2wcO8/JAlC628Cz+ZWTKEGTzpIAicMrXanc=",
+      "sparseCheckout": [],
+      "type": "github"
+    },
+    "version": "v1.2.3"
+  }
 }

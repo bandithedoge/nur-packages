@@ -71,7 +71,7 @@
                 let
                   name' =
                     let
-                      path = builtins.replaceStrings ["/"] ["."] name;
+                      path = builtins.replaceStrings [ "/" ] [ "." ] name;
                     in
                     if (builtins.hasAttr "meta" value && builtins.hasAttr "homepage" value.meta) then
                       "[${path}](${value.meta.homepage})"
