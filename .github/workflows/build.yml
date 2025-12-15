@@ -14,8 +14,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Free disk space
-        uses: jlumbroso/free-disk-space@v1.3.1
+      - name: Nothing but Nix
+        uses: wimpysworld/nothing-but-nix@v6
+        with:
+          hatchet-protocol: carve
 
       - name: Checkout repository
         uses: actions/checkout@v6

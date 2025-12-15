@@ -8,6 +8,11 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
+      - name: Nothing but Nix
+        uses: wimpysworld/nothing-but-nix@v6
+        with:
+          hatchet-protocol: carve
+
       - name: Checkout repository
         uses: actions/checkout@v6
         with:
