@@ -165,9 +165,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "8f37dc5795f165021098b17d797c7b8f510aeca9",
-      "url": "https://github.com/Lil-Dank/lazygit.yazi/archive/8f37dc5795f165021098b17d797c7b8f510aeca9.tar.gz",
-      "hash": "sha256-rR7SMTtQYrvQjhkzulDaNH/LAA77UnXkcZ50WwBX2Uw="
+      "revision": "ea20d05b4ede88a239830d2b50ba79b1860a3bee",
+      "url": "https://github.com/Lil-Dank/lazygit.yazi/archive/ea20d05b4ede88a239830d2b50ba79b1860a3bee.tar.gz",
+      "hash": "sha256-uDRd2pDgvYAwrnsKg5U/Dj8ZPtNKzlJRg+YARKjSpCw="
     },
     "mediainfo.yazi": {
       "type": "Git",
