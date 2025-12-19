@@ -1,5 +1,4 @@
 [element]
 src.git = "https://github.com/kushview/element"
 fetch.git = "https://github.com/kushview/element"
-git.leaveDotGit = true
 git.fetchSubmodules = true
