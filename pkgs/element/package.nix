@@ -6,35 +6,23 @@
 
   boost,
   cairo,
-  cmake,
-  git,
   juceCmakeHook,
   ladspa-sdk,
   libjack2,
   lilv,
   lv2,
-  lvtk,
-  makeWrapper,
-  meson,
-  ninja,
-  pkg-config,
   pugl,
-  python3,
   suil,
   xorg,
+
+  enablePlugins ? true,
 }:
-stdenv.mkDerivation rec {
+stdenv.mkDerivation {
   inherit (sources.element) pname src;
   version = sources.element.date;
 
   nativeBuildInputs = [
-    cmake
-    git
-    makeWrapper
-    meson
-    ninja
-    pkg-config
-    python3
+    juceCmakeHook
   ];
 
   buildInputs = [
@@ -44,26 +32,17 @@ stdenv.mkDerivation rec {
     libjack2
     lilv
     lv2
-    lvtk
     pugl
     suil
     xorg.libXcomposite
-  ]
-  ++ juceCmakeHook.commonBuildInputs;
+  ];
 
-  postPatch = ''
-    ln -s ${sources.clap-helpers.src} subprojects/clap-helpers
-    ln -s ${sources.clap.src} subprojects/clap
-    ln -s ${sources.juce-element.src} subprojects/juce
-    ln -s ${sources.lvtk-host.src} subprojects/lvtk-host
-    ln -s ${sources.lvtk.src} subprojects/lvtk
+  cmakeFlags = [ (lib.cmakeBool "ELEMENT_ENABLE_PLUGINS" enablePlugins) ];
+
+  installPhase = ''
+    mkdir -p $out/bin
+    cp element_app_artefacts/Release/Element $out/bin/element
   '';
-
-  postInstall = ''
-    wrapProgram $out/bin/element --prefix LD_LIBRARY_PATH : ${lib.makeLibraryPath buildInputs}
-  '';
-
-  dontUseCmakeConfigure = true;
 
   meta = with lib; {
     description = "A modular AU/LV2/VST/VST3 audio plugin host";

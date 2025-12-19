@@ -6,85 +6,18 @@
   dockerTools,
 }:
 {
-  clap = {
-    pname = "clap";
-    version = "1.2.7";
-    src = fetchFromGitHub {
-      owner = "free-audio";
-      repo = "clap";
-      rev = "1.2.7";
-      fetchSubmodules = false;
-      sha256 = "sha256-FtsqfpUBn0YGEyhRrJnPGSqrawS1g3F/exVGAuvXkRQ=";
-    };
-  };
-  clap-helpers = {
-    pname = "clap-helpers";
-    version = "a61bcdf0ecc2c8db1e80bfe8bf9cb7e8d9fd2bbc";
-    src = fetchgit {
-      url = "https://github.com/free-audio/clap-helpers.git";
-      rev = "a61bcdf0ecc2c8db1e80bfe8bf9cb7e8d9fd2bbc";
-      fetchSubmodules = false;
-      deepClone = false;
-      leaveDotGit = false;
-      sparseCheckout = [ ];
-      sha256 = "sha256-bqZxhi5zeaxcz3pzzyH/Jt4Tw8ae8kcNXSS0wbfaI80=";
-    };
-    date = "2025-11-28";
-  };
   element = {
     pname = "element";
-    version = "af25ee73a64a65bb55a595873423c09989ba8320";
+    version = "43b0ccda074c9aa1582a85359e9ec022f447c152";
     src = fetchgit {
       url = "https://github.com/kushview/element";
-      rev = "af25ee73a64a65bb55a595873423c09989ba8320";
-      fetchSubmodules = false;
-      deepClone = false;
-      leaveDotGit = true;
-      sparseCheckout = [ ];
-      sha256 = "sha256-6MbXvzK4KoSlBk1I4mxoNirKf+rBJ/sua5gN+kZmzAA=";
-    };
-    date = "2025-12-08";
-  };
-  juce-element = {
-    pname = "juce-element";
-    version = "34b98e72bf4406d6a11c9b81a8a404c1abd5a02e";
-    src = fetchgit {
-      url = "https://gitlab.com/kushview/juce";
-      rev = "34b98e72bf4406d6a11c9b81a8a404c1abd5a02e";
-      fetchSubmodules = false;
+      rev = "43b0ccda074c9aa1582a85359e9ec022f447c152";
+      fetchSubmodules = true;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-vdtU5CvKjCtqqbGyMrkdavHkNCb91IERnzySoJXXbwE=";
+      sha256 = "sha256-MZOQwsnZ0yIBOKFzah6JZzuIE+j2gCTXhxO5lYc8CJM=";
     };
-    date = "2024-06-13";
-  };
-  lvtk = {
-    pname = "lvtk";
-    version = "6e5f8d72513f76cc8b11f26a7aeb6a77dbe52923";
-    src = fetchgit {
-      url = "https://github.com/lvtk/lvtk.git";
-      rev = "6e5f8d72513f76cc8b11f26a7aeb6a77dbe52923";
-      fetchSubmodules = false;
-      deepClone = false;
-      leaveDotGit = false;
-      sparseCheckout = [ ];
-      sha256 = "sha256-IXgnOPsOnUSlQXbhbdNk+Qpv9yHb9tWrppAocXsBCi0=";
-    };
-    date = "2025-02-19";
-  };
-  lvtk-host = {
-    pname = "lvtk-host";
-    version = "604e642c65f7a457397d72cb0b99e354f1e48abd";
-    src = fetchgit {
-      url = "https://github.com/lvtk/lvtk-host.git";
-      rev = "604e642c65f7a457397d72cb0b99e354f1e48abd";
-      fetchSubmodules = false;
-      deepClone = false;
-      leaveDotGit = false;
-      sparseCheckout = [ ];
-      sha256 = "sha256-lIP/yyMohNyJB+LEZcG0dW/8KNFq7S85GWkmye+oaiM=";
-    };
-    date = "2025-02-01";
+    date = "2025-12-18";
   };
 }

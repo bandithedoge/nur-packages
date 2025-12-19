@@ -8,13 +8,13 @@
 {
   reev-r = {
     pname = "reev-r";
-    version = "v1.1.0";
+    version = "v1.3.1";
     src = fetchFromGitHub {
       owner = "tiagolr";
       repo = "reevr";
-      rev = "v1.1.0";
+      rev = "v1.3.1";
       fetchSubmodules = true;
-      sha256 = "sha256-2JGBDYyxXIGM+8/T6srGn81YbhhknAHKbVllz1jIwOY=";
+      sha256 = "sha256-ONzh3fDaMdRm5uAGZjYzAuQp9bEAhMfG5lhs0/awvl0=";
     };
   };
 }

@@ -8,6 +8,11 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
+      - name: Nothing but Nix
+        uses: wimpysworld/nothing-but-nix@v6
+        with:
+          hatchet-protocol: carve
+
       - name: Checkout repository
         uses: actions/checkout@v6
         with:
@@ -42,6 +47,9 @@ jobs:
           nix develop .#update -c ./fetch.nu --commit
           rm keyfile.toml
           git add -A
+
+      - name: Generate package list
+        run: nix eval --raw .#_LIST > LIST.md
 
       - name: Format code
         run: nix fmt
