@@ -14,10 +14,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Nothing but Nix
-        uses: wimpysworld/nothing-but-nix@v6
-        with:
-          hatchet-protocol: carve
+      - name: ci-hoover
+        uses: xd009642/ci-hoover@0.1.1
 
       - name: Checkout repository
         uses: actions/checkout@v6
@@ -72,7 +70,7 @@ jobs:
         if: always() && steps.cache-restore.outputs.hit-primary-key != 'true'
         with:
           primary-key: build-${{ runner.os }}
-          gc-max-store-size: 9G
+          gc-max-store-size: 8G
           purge: true
 
       - name: Build summary

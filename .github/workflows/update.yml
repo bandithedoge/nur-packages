@@ -8,10 +8,8 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - name: Nothing but Nix
-        uses: wimpysworld/nothing-but-nix@v6
-        with:
-          hatchet-protocol: carve
+      - name: ci-hoover
+        uses: xd009642/ci-hoover@0.1.1
 
       - name: Checkout repository
         uses: actions/checkout@v6
@@ -31,11 +29,11 @@ jobs:
             keep-outputs = true
             accept-flake-config = true
 
-      - name: Setup Cachix
-        uses: cachix/cachix-action@v16
+      - name: Restore cache
+        id: cache-restore
+        uses: nix-community/cache-nix-action/restore@v6
         with:
-          name: bandithedoge
-          authToken: ${{ secrets.CACHIX_AUTH_TOKEN }}
+          primary-key: update-${{ runner.os }}
 
       - name: Update sources
         env:
@@ -53,6 +51,14 @@ jobs:
 
       - name: Format code
         run: nix fmt
+
+      - name: Save cache
+        uses: nix-community/cache-nix-action/save@v6
+        if: always() && steps.cache-restore.outputs.hit-primary-key != 'true'
+        with:
+          primary-key: update-${{ runner.os }}
+          gc-max-store-size: 1G
+          purge: true
 
       - name: Commit changes
         run: |
