@@ -91,7 +91,9 @@
               inherit
                 (import "${inputs.cache-nix-action}/saveFromGC.nix" {
                   inherit pkgs inputs;
-                  derivations = builtins.attrValues (pkgs.lib.filterAttrs (k: v: !(cacheable ? k)) buildable);
+                  derivations =
+                    (builtins.attrValues (pkgs.lib.filterAttrs (k: v: !(cacheable ? k)) buildable))
+                    ++ (builtins.attrValues self'.devShells);
                 })
                 saveFromGC
                 ;
