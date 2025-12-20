@@ -1,17 +1,17 @@
 {
-    "waterfox-bin": {
-        "cargoLocks": null,
-        "date": null,
-        "extract": null,
-        "name": "waterfox-bin",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "name": null,
-            "sha256": "sha256-/R2rQkYPJ8boC/hHK39UuIkKyAHjaW+t7s5aaWZYTTI=",
-            "type": "url",
-            "url": "https://cdn1.waterfox.net/waterfox/releases/6.6.7/Linux_x86_64/waterfox-6.6.7.tar.bz2"
-        },
-        "version": "6.6.7"
-    }
+  "waterfox-bin": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "waterfox-bin",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-/R2rQkYPJ8boC/hHK39UuIkKyAHjaW+t7s5aaWZYTTI=",
+      "type": "url",
+      "url": "https://cdn1.waterfox.net/waterfox/releases/6.6.7/Linux_x86_64/waterfox-6.6.7.tar.bz2"
+    },
+    "version": "6.6.7"
+  }
 }
