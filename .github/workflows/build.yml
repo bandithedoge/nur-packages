@@ -72,7 +72,7 @@ jobs:
         if: always() && steps.cache-restore.outputs.hit-primary-key != 'true'
         with:
           primary-key: build-${{ runner.os }}
-          gc-max-store-size: 9G
+          gc-max-store-size: 8G
           purge: true
 
       - name: Build summary
