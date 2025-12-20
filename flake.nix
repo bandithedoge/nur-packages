@@ -49,7 +49,9 @@
             let
               allPackages = inputs.flake-utils.lib.flattenTree (import ./all.nix { inherit pkgs; });
 
-              buildable = pkgs.lib.filterAttrs (_: p: !(p.meta.broken || p.meta.insecure)) allPackages;
+              buildable = pkgs.lib.filterAttrs (
+                _: p: ((builtins.tryEval p).success && !(p.meta.broken || p.meta.insecure))
+              ) allPackages;
               cacheable = pkgs.lib.filterAttrs (
                 _: p:
                 (p.meta.license.free or true)
