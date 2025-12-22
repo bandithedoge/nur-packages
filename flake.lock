@@ -175,11 +175,11 @@
     "npins": {
       "flake": false,
       "locked": {
-        "lastModified": 1766222242,
-        "narHash": "sha256-Vjh9lCsrzQudNkc33wcjZ+Zl4Q51ci60H4GUHb1MlKQ=",
+        "lastModified": 1766339071,
+        "narHash": "sha256-ksOXi7u4bpHyWNHwkUR62fdwKowPW5GqBS7MA7Apwh4=",
         "owner": "andir",
         "repo": "npins",
-        "rev": "d8c9790908391118f76387c6fdac0a0afa227548",
+        "rev": "52904b878c2db61e062b63beb07784d41f98c765",
         "type": "github"
       },
       "original": {
