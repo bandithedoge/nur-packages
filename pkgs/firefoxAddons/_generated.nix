@@ -1522,10 +1522,10 @@
   };
   "steam-database" = buildFirefoxXpiAddon {
     pname = "steam-database";
-    version = "4.30";
+    version = "4.31";
     addonId = "firefox-extension@steamdb.info";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4638558/steam_database-4.30.xpi";
-    sha256 = "895b3415268bdd7f2dff6fd65f20b89beb70ba68617961aa14c605653ebc7faa";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4648167/steam_database-4.31.xpi";
+    sha256 = "4c7ee23e77fef583d2adf7de883f7df2ecd719dfbe716d96226929087a80c156";
     meta = with lib; {
       homepage = "https://steamdb.info/";
       description = "Adds SteamDB links and new features on the Steam store and community. View lowest game prices and stats.";
