@@ -501,10 +501,10 @@
   };
   "harper" = buildFirefoxXpiAddon {
     pname = "harper";
-    version = "1.2.0";
+    version = "1.3.0";
     addonId = "harper@writewithharper.com";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4640643/private_grammar_checker_harper-1.2.0.xpi";
-    sha256 = "8abe2973f56e1073ffd5707c668f7fd397771d486ca115684d42cc76eb5294e0";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4649158/private_grammar_checker_harper-1.3.0.xpi";
+    sha256 = "53625166e326256d0d6ebbdebaf438a30f9fa43fd2a9225a9486aea25c4744e9";
     meta = with lib; {
       homepage = "https://writewithharper.com";
       description = "A private grammar checker for 21st Century English";
@@ -814,10 +814,10 @@
   };
   "material-icons-for-github" = buildFirefoxXpiAddon {
     pname = "material-icons-for-github";
-    version = "1.11.0";
+    version = "1.12.0";
     addonId = "{eac6e624-97fa-4f28-9d24-c06c9b8aa713}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4624505/material_icons_for_github-1.11.0.xpi";
-    sha256 = "bcc8a0d73964ee43f91bccf7b8788b5fd64a552e2d943d22ca5da4e9ef033375";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4649256/material_icons_for_github-1.12.0.xpi";
+    sha256 = "c4773235d93c8268b7defe8bf5d4c8fe48d65c47011da2a19463f4b2c6d3a8cc";
     meta = with lib; {
       homepage = "https://github.com/material-extensions/material-icons-browser-extension";
       description = "Replace the file/folder icons on github file browsers with icons representing the file's type and which tool it is used by.";
@@ -1522,10 +1522,10 @@
   };
   "steam-database" = buildFirefoxXpiAddon {
     pname = "steam-database";
-    version = "4.30";
+    version = "4.31";
     addonId = "firefox-extension@steamdb.info";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4638558/steam_database-4.30.xpi";
-    sha256 = "895b3415268bdd7f2dff6fd65f20b89beb70ba68617961aa14c605653ebc7faa";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4648167/steam_database-4.31.xpi";
+    sha256 = "4c7ee23e77fef583d2adf7de883f7df2ecd719dfbe716d96226929087a80c156";
     meta = with lib; {
       homepage = "https://steamdb.info/";
       description = "Adds SteamDB links and new features on the Steam store and community. View lowest game prices and stats.";
