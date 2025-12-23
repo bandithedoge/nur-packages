@@ -41,7 +41,7 @@ stdenv.mkDerivation {
 
   installPhase = ''
     mkdir -p $out/bin
-    cp element_app_artefacts/Release/Element $out/bin/element
+    cp element_app_artefacts/Release/element $out/bin
   '';
 
   meta = with lib; {
