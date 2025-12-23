@@ -8,10 +8,18 @@ def main [
     $"{
       sources,
 
+      lib,
       stdenv,
     }:
     stdenv.mkDerivation {
       inherit \(sources.($name)) pname version src;
+
+      meta = with lib; {
+        description = \"\";
+        homepage = \"\";
+        license = null;
+        platforms = [];
+      };
     }" | nixfmt | save $"pkgs/($name)/package.nix"
     print $"created new package at pkgs/($name)"
 }
