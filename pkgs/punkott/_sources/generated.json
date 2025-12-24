@@ -1,9 +1,9 @@
 {
-    "catch2-populate": {
+    "catch2": {
         "cargoLocks": null,
         "date": null,
         "extract": null,
-        "name": "catch2-populate",
+        "name": "catch2",
         "passthru": null,
         "pinned": false,
         "src": {
