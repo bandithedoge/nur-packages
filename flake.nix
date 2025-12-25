@@ -49,7 +49,15 @@
             let
               allPackages = inputs.flake-utils.lib.flattenTree (import ./all.nix { inherit pkgs; });
 
-              isBuildable = pkg: ((builtins.tryEval pkg).success && !(pkg.meta.broken || pkg.meta.insecure));
+              isBuildable =
+                pkg:
+                (
+                  (builtins.tryEval pkg).success
+                  && !(
+                    (if pkgs.lib.hasAttrByPath [ "meta" "broken" ] pkg then pkg.meta.broken else false)
+                    || (if pkgs.lib.hasAttrByPath [ "meta" "insecure" ] pkg then pkg.meta.insecure else false)
+                  )
+                );
               isCacheable =
                 pkg:
                 isBuildable pkg
@@ -57,8 +65,8 @@
                 && !(pkg.preferLocalBuild or false)
                 && !(pkgs.lib.any (prov: !prov.isSource) (pkg.meta.sourceProvenance or [ ]));
 
-              buildable = pkgs.lib.filterAttrs isBuildable allPackages;
-              cacheable = pkgs.lib.filterAttrs isCacheable allPackages;
+              buildable = pkgs.lib.filterAttrs (_: isBuildable) allPackages;
+              cacheable = pkgs.lib.filterAttrs (_: isCacheable) allPackages;
             in
             import ./default.nix { inherit pkgs; }
             // {
