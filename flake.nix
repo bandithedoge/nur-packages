@@ -5,10 +5,6 @@
     treefmt-nix.url = "github:numtide/treefmt-nix";
     flake-utils.url = "github:numtide/flake-utils";
 
-    npins = {
-      url = "github:andir/npins";
-      flake = false;
-    };
     mozilla-addons-to-nix.url = "sourcehut:~rycee/mozilla-addons-to-nix";
 
     cache-nix-action = {
@@ -145,9 +141,9 @@
 
             update = pkgs.mkShell {
               packages = with pkgs; [
-                (callPackage "${inputs.npins}/npins.nix" { })
                 inputs.mozilla-addons-to-nix.packages.${system}.default
                 node2nix
+                npins
                 nushell
                 nvfetcher
               ];
