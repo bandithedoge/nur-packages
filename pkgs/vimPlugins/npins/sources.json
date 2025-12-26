@@ -1100,9 +1100,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "fe17bc205e3f5b15555f2ec742d0e5ad6473b10c",
-      "url": "https://github.com/folke/neoconf.nvim/archive/fe17bc205e3f5b15555f2ec742d0e5ad6473b10c.tar.gz",
-      "hash": "sha256-uRsaKsZ03V5/aFp3up1rRUMuX2qiNtoDkD3vzvsocg4="
+      "revision": "ea6dde7d6ad07959339a8aa1b12e714f4cb8a2e9",
+      "url": "https://github.com/folke/neoconf.nvim/archive/ea6dde7d6ad07959339a8aa1b12e714f4cb8a2e9.tar.gz",
+      "hash": "sha256-gGp7ycDJ9JshK6tl7C+yW98CRcuMHrnEco6UHItRQho="
     },
     "neodev.nvim": {
       "type": "Git",
@@ -1438,9 +1438,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "8973916a3d015d65a8c4614e141f4270a713cf33",
-      "url": "https://github.com/neovim/nvim-lspconfig/archive/8973916a3d015d65a8c4614e141f4270a713cf33.tar.gz",
-      "hash": "sha256-LJdveve0iOYQdPyr9uNpSGnfCfUpVDDkN+80oEHWLno="
+      "revision": "d696e36d5792daf828f8c8e8d4b9aa90c1a10c2a",
+      "url": "https://github.com/neovim/nvim-lspconfig/archive/d696e36d5792daf828f8c8e8d4b9aa90c1a10c2a.tar.gz",
+      "hash": "sha256-R9SjpxYawdrwfXy6XBumy249P3MSWS77yXtdM/oY6GI="
     },
     "nvim-luaref": {
       "type": "Git",
