@@ -1,0 +1,7 @@
+[jdrummer]
+src.git = "https://github.com/jmantra/jdrummer"
+fetch.git = "https://github.com/jmantra/jdrummer"
+
+[juce]
+src.manual = "7.0.9"
+fetch.git = "https://github.com/juce-framework/JUCE.git"

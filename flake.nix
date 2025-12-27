@@ -5,10 +5,6 @@
     treefmt-nix.url = "github:numtide/treefmt-nix";
     flake-utils.url = "github:numtide/flake-utils";
 
-    npins = {
-      url = "github:andir/npins";
-      flake = false;
-    };
     mozilla-addons-to-nix.url = "sourcehut:~rycee/mozilla-addons-to-nix";
 
     cache-nix-action = {
@@ -49,21 +45,80 @@
             let
               allPackages = inputs.flake-utils.lib.flattenTree (import ./all.nix { inherit pkgs; });
 
-              buildable = pkgs.lib.filterAttrs (
-                _: p: ((builtins.tryEval p).success && !(p.meta.broken || p.meta.insecure))
-              ) allPackages;
-              cacheable = pkgs.lib.filterAttrs (
-                _: p:
-                (p.meta.license.free or true)
-                && !(p.preferLocalBuild or false)
-                && !(pkgs.lib.any (prov: !prov.isSource) (p.meta.sourceProvenance or [ ]))
-              ) buildable;
+              isBuildable =
+                pkg:
+                (
+                  (builtins.tryEval pkg).success
+                  && !(
+                    (if pkgs.lib.hasAttrByPath [ "meta" "broken" ] pkg then pkg.meta.broken else false)
+                    || (if pkgs.lib.hasAttrByPath [ "meta" "insecure" ] pkg then pkg.meta.insecure else false)
+                  )
+                );
+              isCacheable =
+                pkg:
+                isBuildable pkg
+                && pkg.meta.license.free or true
+                && !(pkg.preferLocalBuild or false)
+                && !(pkgs.lib.any (prov: !prov.isSource) (pkg.meta.sourceProvenance or [ ]));
+
+              buildable = pkgs.lib.filterAttrs (_: isBuildable) allPackages;
+              cacheable = pkgs.lib.filterAttrs (_: isCacheable) allPackages;
             in
             import ./default.nix { inherit pkgs; }
             // {
               _BUILDABLE = buildable;
               _CACHEABLE = cacheable;
-              _LIST = import ./list.nix { inherit pkgs allPackages; };
+
+              _LIST = ''
+                - ✔️ - cached
+                - 🆗 - buildable
+                - ❌ - broken
+
+                | Name | Version | Description | License(s) |
+                | ---- | ------- | ----------- | ---------- |
+              ''
+              + pkgs.lib.concatMapAttrsStringSep "\n" (
+                name: value:
+                let
+                  name' =
+                    let
+                      path = "`${builtins.replaceStrings [ "/" ] [ "." ] name}`";
+                      status =
+                        if isCacheable value then
+                          "✔️"
+                        else if isBuildable value then
+                          "🆗"
+                        else
+                          "❌";
+                    in
+                    if (pkgs.lib.hasAttrByPath [ "meta" "homepage" ] value) then
+                      "${status} [${path}](${value.meta.homepage})"
+                    else
+                      path;
+
+                  version' = pkgs.lib.optionalString (builtins.hasAttr "version" value) value.version;
+
+                  value' = pkgs.lib.optionalString (pkgs.lib.hasAttrByPath [ "meta" "description" ] value) (
+                    pkgs.lib.trim (builtins.elemAt (pkgs.lib.splitString "\n" value.meta.description) 0)
+                  );
+
+                  license' = pkgs.lib.optionalString (pkgs.lib.hasAttrByPath [ "meta" "license" ] value) (
+                    let
+                      license = value.meta.license;
+                    in
+                    if (builtins.isString license) then
+                      license
+                    else
+                      (
+                        let
+                          fmt = l: if (builtins.hasAttr "url" l) then "[${l.fullName}](${l.url})" else l.fullName;
+                        in
+                        if (builtins.isList license) then (pkgs.lib.concatMapStringsSep ", " fmt license) else fmt license
+                      )
+                  );
+                in
+                "| ${name'} | ${version'} | ${value'} | ${license'} |"
+              ) allPackages;
 
               inherit
                 (import "${inputs.cache-nix-action}/saveFromGC.nix" {
@@ -86,9 +141,9 @@
 
             update = pkgs.mkShell {
               packages = with pkgs; [
-                (callPackage "${inputs.npins}/npins.nix" { })
                 inputs.mozilla-addons-to-nix.packages.${system}.default
                 node2nix
+                npins
                 nushell
                 nvfetcher
               ];
