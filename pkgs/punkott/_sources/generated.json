@@ -1,43 +1,43 @@
 {
-    "catch2": {
-        "cargoLocks": null,
-        "date": null,
-        "extract": null,
-        "name": "catch2",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "deepClone": false,
-            "fetchSubmodules": false,
-            "leaveDotGit": false,
-            "name": null,
-            "owner": "catchorg",
-            "repo": "Catch2",
-            "rev": "v3.8.1",
-            "sha256": "sha256-blhSdtNXwe4wKPVKlopsE0omgikMdl12JjwqASwJM2w=",
-            "sparseCheckout": [],
-            "type": "github"
-        },
-        "version": "v3.8.1"
+  "catch2": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "catch2",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "deepClone": false,
+      "fetchSubmodules": false,
+      "leaveDotGit": false,
+      "name": null,
+      "owner": "catchorg",
+      "repo": "Catch2",
+      "rev": "v3.8.1",
+      "sha256": "sha256-blhSdtNXwe4wKPVKlopsE0omgikMdl12JjwqASwJM2w=",
+      "sparseCheckout": [],
+      "type": "github"
     },
-    "punkott": {
-        "cargoLocks": null,
-        "date": "2025-12-26",
-        "extract": null,
-        "name": "punkott",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "deepClone": false,
-            "fetchSubmodules": true,
-            "leaveDotGit": false,
-            "name": null,
-            "rev": "12a7d865f69086c54cec36b3d820ee588558c0bd",
-            "sha256": "sha256-9qMiIJEYQUuMoUJynkL6gNluSJHpFXfavXkWxoT6ciY=",
-            "sparseCheckout": [],
-            "type": "git",
-            "url": "https://github.com/gmoican/PunkOTT.git"
-        },
-        "version": "12a7d865f69086c54cec36b3d820ee588558c0bd"
-    }
+    "version": "v3.8.1"
+  },
+  "punkott": {
+    "cargoLocks": null,
+    "date": "2025-12-26",
+    "extract": null,
+    "name": "punkott",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "deepClone": false,
+      "fetchSubmodules": true,
+      "leaveDotGit": false,
+      "name": null,
+      "rev": "12a7d865f69086c54cec36b3d820ee588558c0bd",
+      "sha256": "sha256-9qMiIJEYQUuMoUJynkL6gNluSJHpFXfavXkWxoT6ciY=",
+      "sparseCheckout": [],
+      "type": "git",
+      "url": "https://github.com/gmoican/PunkOTT.git"
+    },
+    "version": "12a7d865f69086c54cec36b3d820ee588558c0bd"
+  }
 }
