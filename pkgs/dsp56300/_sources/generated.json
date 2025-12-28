@@ -13,11 +13,11 @@
       "name": null,
       "owner": "dsp56300",
       "repo": "gearmulator",
-      "rev": "2.0.15",
-      "sha256": "sha256-HaNRet3i46QBlE9ZfUoIn+JxIgmWhDY/JKbeeTZRVkQ=",
+      "rev": "2.1.0",
+      "sha256": "sha256-EXJJmdphGho9RNeMGvmb3gM+8kxjXrWm/oOBxRDPFbU=",
       "sparseCheckout": [],
       "type": "github"
     },
-    "version": "2.0.15"
+    "version": "2.1.0"
   }
 }
