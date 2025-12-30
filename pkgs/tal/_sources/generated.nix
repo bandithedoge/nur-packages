@@ -75,7 +75,7 @@
     version = "latest";
     src = fetchurl {
       url = "https://tal-software.com/downloads/plugins/TAL-J-8_64_linux.zip";
-      sha256 = "sha256-Xj5ZNPeMt3yrSMJjqR6Xr4C1iM9vL3ZmFJ7p/x5Ph6M=";
+      sha256 = "sha256-6NMv+jV3xcDOd+s7GoglmnlQaz4JBvpNfisPoliFk18=";
     };
   };
   mod = {
@@ -99,7 +99,7 @@
     version = "latest";
     src = fetchurl {
       url = "https://tal-software.com/downloads/plugins/TAL-Pha_64_linux.zip";
-      sha256 = "sha256-Vih6MCd8VJ5FCnBIDD+FY27DgSEngTfcUuqpHt2RfU8=";
+      sha256 = "sha256-Sx4XBIBDiBCL5KeVZc9kYA3rP+AMVu1LYSkolgF66ow=";
     };
   };
   reverb-4 = {
