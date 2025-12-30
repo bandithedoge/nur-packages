@@ -2,7 +2,7 @@
   sources,
 
   lib,
-  stdenv,
+  clangStdenv,
 
   boost,
   cairo,
@@ -17,7 +17,7 @@
 
   enablePlugins ? true,
 }:
-stdenv.mkDerivation {
+clangStdenv.mkDerivation {
   inherit (sources.element) pname src;
   version = sources.element.date;
 
