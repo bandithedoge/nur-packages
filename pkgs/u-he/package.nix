@@ -56,11 +56,11 @@ let
         # adapted from https://git.sr.ht/~raphi/elf-replace-symbol/tree/master/item/libfprint2-tod1-broadcom/default.nix
         substitute ${./wrapper.c} wrapper.c \
           --subst-var-by store_path $out/libexec/${product}
-        cc -fPIC -shared -O3 wrapper.c -o $out/libexec/${product}/snprintf_wrapper.so
+        cc -fPIC -shared -O3 wrapper.c -o $out/libexec/${product}/snprintf_wrapper_${product}.so
 
         ${lib.getExe patchelf-raphi} \
           --replace-symbol snprintf snprintf_wrapper \
-          --add-needed snprintf_wrapper.so \
+          --add-needed snprintf_wrapper_${product}.so \
           $out/libexec/${product}/${product}.64.so
 
         mkdir -p $out/lib/vst
@@ -231,7 +231,7 @@ in
 
       ${lib.getExe patchelf-raphi} \
         --replace-symbol snprintf snprintf_wrapper \
-        --add-needed snprintf_wrapper.so \
+        --add-needed snprintf_wrapper_Zebra2.so \
         $out/libexec/Zebra2/ZebraHZ.64.so
 
       ln -s $out/libexec/Zebra2/ZebraHZ.64.so $out/lib/vst/ZebraHZ.so
