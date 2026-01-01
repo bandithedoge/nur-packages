@@ -74,9 +74,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "1bc1227ee1f5ad02f6796701539e9aaf6c5e77e6",
-      "url": "https://github.com/b0o/SchemaStore.nvim/archive/1bc1227ee1f5ad02f6796701539e9aaf6c5e77e6.tar.gz",
-      "hash": "sha256-M/P5lzogRyS++WonInk5atp/jdE9ilL6z2X4g4jqOtE="
+      "revision": "c76a8ec99cda6873084e63962b008745eb6534dc",
+      "url": "https://github.com/b0o/SchemaStore.nvim/archive/c76a8ec99cda6873084e63962b008745eb6534dc.tar.gz",
+      "hash": "sha256-sTCKto3J/nneQr3JHJDJ1AMjhJhp2XUqkJqpECBHjj8="
     },
     "aniseed": {
       "type": "Git",
@@ -659,9 +659,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "a899e3e33c6c26ffeda5739fb6e7157cfc21ad6f",
-      "url": "https://github.com/ibhagwan/fzf-lua/archive/a899e3e33c6c26ffeda5739fb6e7157cfc21ad6f.tar.gz",
-      "hash": "sha256-JfyaDCYaRkZCplKi7qdPIe7q/xawovXrucsw28M8LJw="
+      "revision": "19d7020b700879759d7f834fc717dde086f673a7",
+      "url": "https://github.com/ibhagwan/fzf-lua/archive/19d7020b700879759d7f834fc717dde086f673a7.tar.gz",
+      "hash": "sha256-vs4kjdYaLt52Y/X3nGdmeRpx/jQ1mu6Dfz/tLRKX1Fo="
     },
     "galaxyline.nvim": {
       "type": "Git",
@@ -2165,9 +2165,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "3f8109cd21abe9fdb274a09da1e3c176673254b4",
-      "url": "https://github.com/nvim-telescope/telescope.nvim/archive/3f8109cd21abe9fdb274a09da1e3c176673254b4.tar.gz",
-      "hash": "sha256-XLs28MbJXt9y1RqG5FdMOviNAC/++0KV8jjBX7mXMrY="
+      "revision": "3333a52ff548ba0a68af6d8da1e54f9cd96e9179",
+      "url": "https://github.com/nvim-telescope/telescope.nvim/archive/3333a52ff548ba0a68af6d8da1e54f9cd96e9179.tar.gz",
+      "hash": "sha256-QwhFgTRh4h+8QjZMkXkoxgr7bv27HCp2TG2HAjI8VVg="
     },
     "todo-comments.nvim": {
       "type": "Git",
