@@ -70,7 +70,8 @@ stdenv.mkDerivation rec {
   VERSION_STR = version;
   VERSION_INT = lib.concatStrings (lib.splitString "." (lib.removePrefix "v" version));
 
-  NIX_CFLAGS_COMPILE = "-Wno-format-security";
+  hardeningDisable = [ "format" ];
+  NIX_CFLAGS_COMPILE = [ "-Wno-error=deprecated-declarations" ];
 
   enableParallelBuilding = true;
 
