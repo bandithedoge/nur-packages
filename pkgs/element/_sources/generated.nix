@@ -8,16 +8,16 @@
 {
   element = {
     pname = "element";
-    version = "dad8195e0da3c34b91bbd5832868345e71f25639";
+    version = "dbbecc6d723039531f1763e01b0433a79c53626f";
     src = fetchgit {
       url = "https://github.com/kushview/element";
-      rev = "dad8195e0da3c34b91bbd5832868345e71f25639";
+      rev = "dbbecc6d723039531f1763e01b0433a79c53626f";
       fetchSubmodules = true;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-PFHyxd2Jin5Q05YVT0FzUBQBWM+GezXCF4wkKrzeEts=";
+      sha256 = "sha256-p4R5/GcHDEuif8CbG8ChN+hgF8EjSmCR7SYxNtt9nQk=";
     };
-    date = "2025-12-30";
+    date = "2026-01-01";
   };
 }

@@ -13,6 +13,9 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        cacheable: [true, false]
     steps:
       - name: ci-hoover
         uses: xd009642/ci-hoover@0.1.1
@@ -32,52 +35,53 @@ jobs:
             accept-flake-config = true
 
       - name: Restore cache
+        if: ${{ !matrix.cacheable }}
         id: cache-restore
         uses: nix-community/cache-nix-action/restore@v6
         with:
           primary-key: build-${{ runner.os }}
 
-      - name: Setup Git user
-        run: |
-          git config user.name github-actions[bot]
-          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-
       - name: Build cacheable packages
+        if: ${{ matrix.cacheable }}
         run: |
           nix develop .#build -c nix-fast-build \
             -f .#legacyPackages.x86_64-linux._CACHEABLE \
             --no-nom \
             --skip-cached \
-            --cachix-cache bandithedoge \
-            --result-file result-cacheable.xml \
-            --result-format junit \
-            -j 1
+            --cachix-cache bandithedoge
         env:
           CACHIX_AUTH_TOKEN: ${{ secrets.CACHIX_AUTH_TOKEN }}
 
-      - name: Build the rest
+      - name: Build uncacheable packages
+        if: ${{ !matrix.cacheable }}
         run: |
           nix develop .#build -c nix-fast-build \
-            -f .#legacyPackages.x86_64-linux._BUILDABLE \
+            -f .#legacyPackages.x86_64-linux._UNCACHEABLE \
             --no-nom \
-            --skip-cached \
-            --result-file result-buildable.xml \
-            --result-format junit \
-            -j 1
+            --skip-cached
 
       - name: Save cache
+        if: ${{ !matrix.cacheable && always() && steps.cache-restore.outputs.hit-primary-key != 'true' }}
         uses: nix-community/cache-nix-action/save@v6
-        if: always() && steps.cache-restore.outputs.hit-primary-key != 'true'
         with:
           primary-key: build-${{ runner.os }}
           gc-max-store-size: 8G
           purge: true
 
-      - name: Build summary
-        uses: test-summary/action@v2
-        if: always()
+  merge:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
         with:
-          paths: "result-*.xml"
+          ref: staging
+          fetch-depth: 0
+
+      - name: Setup Git user
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
 
       - name: Merge into master
         uses: everlytic/branch-merge@1.1.5

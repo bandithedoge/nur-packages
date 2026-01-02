@@ -42,7 +42,7 @@
   },
   "unplugred": {
     "cargoLocks": null,
-    "date": "2025-12-27",
+    "date": "2026-01-02",
     "extract": null,
     "name": "unplugred",
     "passthru": null,
@@ -52,12 +52,12 @@
       "fetchSubmodules": false,
       "leaveDotGit": false,
       "name": null,
-      "rev": "a39f76e68badf8957464353a8735b1de31eadb69",
-      "sha256": "sha256-/tHlmA1uRHuPABO0qgaDcyBWBUG/agpC6IGdQA4fWQA=",
+      "rev": "d56721d5567ddeb41de2770131ef30bb09aefdf4",
+      "sha256": "sha256-thqYVtH3+/goK30VG4TDCGnUG/NEO0m504Wzt17lrYs=",
       "sparseCheckout": [],
       "type": "git",
       "url": "https://github.com/unplugred/vsts"
     },
-    "version": "a39f76e68badf8957464353a8735b1de31eadb69"
+    "version": "d56721d5567ddeb41de2770131ef30bb09aefdf4"
   }
 }
