@@ -113,9 +113,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "738356fdb82c07787b5a7d78e5487d2852dd2a8a",
-      "url": "https://github.com/ourongxing/fast-enter.yazi/archive/738356fdb82c07787b5a7d78e5487d2852dd2a8a.tar.gz",
-      "hash": "sha256-FRgD/jxTQMzguQRsR4XF6oGmOIDZjKhh7SnMq8qFFI8="
+      "revision": "3247b70c7d71ae8472d3ccba1d9d3ac87b06e2bb",
+      "url": "https://github.com/ourongxing/fast-enter.yazi/archive/3247b70c7d71ae8472d3ccba1d9d3ac87b06e2bb.tar.gz",
+      "hash": "sha256-n3j83UK4cZmFYvC71Yhr/2hJtKUkJLsMKqmiXml8YdE="
     },
     "glow.yazi": {
       "type": "Git",
