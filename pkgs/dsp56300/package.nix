@@ -1,8 +1,8 @@
 {
   sources,
 
+  gcc14Stdenv,
   lib,
-  stdenv,
 
   juceCmakeHook,
 
@@ -15,7 +15,7 @@
   ],
 }:
 assert builtins.length variants != 0;
-stdenv.mkDerivation {
+gcc14Stdenv.mkDerivation {
   inherit (sources.dsp56300) pname version src;
 
   nativeBuildInputs = [
