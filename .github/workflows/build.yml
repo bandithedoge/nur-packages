@@ -16,6 +16,7 @@ jobs:
     strategy:
       matrix:
         cacheable: [true, false]
+    name: ${{ format('Build {0} packages', matrix.cacheable && 'cacheable' || 'uncacheable') }}
     steps:
       - name: ci-hoover
         uses: xd009642/ci-hoover@0.1.1
@@ -71,6 +72,7 @@ jobs:
   merge:
     needs: build
     runs-on: ubuntu-latest
+    name: Merge into master
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6

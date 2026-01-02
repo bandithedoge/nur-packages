@@ -1,4 +1,7 @@
-{ pkgs }:
+{
+  pkgs ? import <nixpkgs> { },
+  ...
+}:
 let
   all = import ./all.nix { inherit pkgs; };
 
