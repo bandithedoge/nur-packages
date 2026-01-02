@@ -49,6 +49,8 @@ jobs:
             -f .#legacyPackages.x86_64-linux._CACHEABLE \
             --no-nom \
             --skip-cached \
+            --result-file result.xml \
+            --result-format junit \
             --cachix-cache bandithedoge
         env:
           CACHIX_AUTH_TOKEN: ${{ secrets.CACHIX_AUTH_TOKEN }}
@@ -59,7 +61,9 @@ jobs:
           nix develop .#build -c nix-fast-build \
             -f .#legacyPackages.x86_64-linux._UNCACHEABLE \
             --no-nom \
-            --skip-cached
+            --skip-cached \
+            --result-file result.xml \
+            --result-format junit
 
       - name: Save cache
         if: ${{ !matrix.cacheable && always() && steps.cache-restore.outputs.hit-primary-key != 'true' }}
@@ -68,6 +72,12 @@ jobs:
           primary-key: build-${{ runner.os }}
           gc-max-store-size: 8G
           purge: true
+
+      - name: Build summary
+        uses: test-summary/action@v2
+        if: always()
+        with:
+          paths: "result.xml"
 
   merge:
     needs: build
