@@ -63,11 +63,13 @@
 
               buildable = pkgs.lib.filterAttrs (_: isBuildable) allPackages;
               cacheable = pkgs.lib.filterAttrs (_: isCacheable) allPackages;
+              uncacheable = pkgs.lib.filterAttrs (x: _: !builtins.elem x (builtins.attrNames cacheable)) buildable;
             in
             import ./default.nix { inherit pkgs; }
             // {
               _BUILDABLE = buildable;
               _CACHEABLE = cacheable;
+              _UNCACHEABLE = uncacheable;
 
               _LIST = ''
                 - ✔️ - cached
