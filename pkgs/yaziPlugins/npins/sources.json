@@ -113,9 +113,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "3247b70c7d71ae8472d3ccba1d9d3ac87b06e2bb",
-      "url": "https://github.com/ourongxing/fast-enter.yazi/archive/3247b70c7d71ae8472d3ccba1d9d3ac87b06e2bb.tar.gz",
-      "hash": "sha256-n3j83UK4cZmFYvC71Yhr/2hJtKUkJLsMKqmiXml8YdE="
+      "revision": "9fe77d8292c6bc63538acdc97cb91b81542e85a4",
+      "url": "https://github.com/ourongxing/fast-enter.yazi/archive/9fe77d8292c6bc63538acdc97cb91b81542e85a4.tar.gz",
+      "hash": "sha256-E0r0XsyECKMJ8w+9OVJKDggSXhAqlwD3u9ZSEXHc6J0="
     },
     "glow.yazi": {
       "type": "Git",
@@ -399,9 +399,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "a36fdaf6e011b1da41a8884956dd7237b59fad4d",
-      "url": "https://github.com/pirafrank/what-size.yazi/archive/a36fdaf6e011b1da41a8884956dd7237b59fad4d.tar.gz",
-      "hash": "sha256-dakNC8Pivqm89FVpNL8FfpWjF0687Kd4cWnpcyEMq+Y="
+      "revision": "a1438d488fefc2cf578fd1df1aeb66411de53d22",
+      "url": "https://github.com/pirafrank/what-size.yazi/archive/a1438d488fefc2cf578fd1df1aeb66411de53d22.tar.gz",
+      "hash": "sha256-s2BifzWr/uewDI6Bowy7J+5LrID6I6OFEA5BrlOPNcM="
     },
     "yamb.yazi": {
       "type": "Git",

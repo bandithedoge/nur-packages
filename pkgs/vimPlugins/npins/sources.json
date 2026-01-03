@@ -659,9 +659,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "19d7020b700879759d7f834fc717dde086f673a7",
-      "url": "https://github.com/ibhagwan/fzf-lua/archive/19d7020b700879759d7f834fc717dde086f673a7.tar.gz",
-      "hash": "sha256-vs4kjdYaLt52Y/X3nGdmeRpx/jQ1mu6Dfz/tLRKX1Fo="
+      "revision": "ab0d0135746c564ca31cd2c8a84c170802be6d16",
+      "url": "https://github.com/ibhagwan/fzf-lua/archive/ab0d0135746c564ca31cd2c8a84c170802be6d16.tar.gz",
+      "hash": "sha256-02r14alMNQRwaeZEUjZ1fCGWgLAwId/IUo/sftwtqZg="
     },
     "galaxyline.nvim": {
       "type": "Git",
@@ -1035,9 +1035,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "43ec25063430196d36f5fff5758c9101775f3d57",
-      "url": "https://github.com/echasnovski/mini.nvim/archive/43ec25063430196d36f5fff5758c9101775f3d57.tar.gz",
-      "hash": "sha256-j8EnJ0xV8LQ56bbDxg8lQNO8oJ1iRh56w6CUcaPY6X4="
+      "revision": "2809a06d24fe528c572c7ceca4f0a82fecb02ea8",
+      "url": "https://github.com/echasnovski/mini.nvim/archive/2809a06d24fe528c572c7ceca4f0a82fecb02ea8.tar.gz",
+      "hash": "sha256-ZoESFN+Hnqh6YjLV/r4ba8WZMZS/lJXZH61nipaRknc="
     },
     "mkdir.nvim": {
       "type": "Git",
@@ -1308,9 +1308,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "c4f7dc770cdebfc9723333175bcd88d9cdbe8408",
-      "url": "https://github.com/hrsh7th/nvim-cmp/archive/c4f7dc770cdebfc9723333175bcd88d9cdbe8408.tar.gz",
-      "hash": "sha256-v76HSIGigQ7VUyOSO2eaRb/BX6vyeAcDE4WWUf5TI4E="
+      "revision": "85bbfad83f804f11688d1ab9486b459e699292d6",
+      "url": "https://github.com/hrsh7th/nvim-cmp/archive/85bbfad83f804f11688d1ab9486b459e699292d6.tar.gz",
+      "hash": "sha256-gwuiUgz3UEFpaKs79BSWS4qkwOi+XMHIDFdYRatWt0g="
     },
     "nvim-colorizer.lua": {
       "type": "Git",
@@ -1347,9 +1347,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "818cd8787a77a97703eb1d9090543a374f79a9ac",
-      "url": "https://github.com/mfussenegger/nvim-dap/archive/818cd8787a77a97703eb1d9090543a374f79a9ac.tar.gz",
-      "hash": "sha256-D4YqVHXPC5UzXGNGIFHAFlwkyaxlWQekR6nXqMSJCYw="
+      "revision": "7bb46cc612bb127d7b0e3e9ed695267d830824ec",
+      "url": "https://github.com/mfussenegger/nvim-dap/archive/7bb46cc612bb127d7b0e3e9ed695267d830824ec.tar.gz",
+      "hash": "sha256-dWBw00dF175UDOlZ6Jr9c3iEfIn2IKlZ4ZFhZDo+N+E="
     },
     "nvim-dap-ui": {
       "type": "Git",

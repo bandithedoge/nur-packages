@@ -1,32 +1,32 @@
 {
-    "helium-bin-arm64": {
-        "cargoLocks": null,
-        "date": null,
-        "extract": null,
-        "name": "helium-bin-arm64",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "name": null,
-            "sha256": "sha256-moB0EYxQUGIsGjWeLH/XMvoTpPYLGdpdsyfUMlml1/U=",
-            "type": "url",
-            "url": "https://github.com/imputnet/helium-linux/releases/download/0.7.7.2/helium-0.7.7.2-arm64_linux.tar.xz"
-        },
-        "version": "0.7.7.2"
+  "helium-bin-arm64": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "helium-bin-arm64",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-moB0EYxQUGIsGjWeLH/XMvoTpPYLGdpdsyfUMlml1/U=",
+      "type": "url",
+      "url": "https://github.com/imputnet/helium-linux/releases/download/0.7.7.2/helium-0.7.7.2-arm64_linux.tar.xz"
     },
-    "helium-bin-x86_64": {
-        "cargoLocks": null,
-        "date": null,
-        "extract": null,
-        "name": "helium-bin-x86_64",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "name": null,
-            "sha256": "sha256-PswWOwMOD+l4zpGiyasAPfy8tKUIc8OtGNDlYAccwCc=",
-            "type": "url",
-            "url": "https://github.com/imputnet/helium-linux/releases/download/0.7.7.2/helium-0.7.7.2-x86_64_linux.tar.xz"
-        },
-        "version": "0.7.7.2"
-    }
+    "version": "0.7.7.2"
+  },
+  "helium-bin-x86_64": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "helium-bin-x86_64",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-PswWOwMOD+l4zpGiyasAPfy8tKUIc8OtGNDlYAccwCc=",
+      "type": "url",
+      "url": "https://github.com/imputnet/helium-linux/releases/download/0.7.7.2/helium-0.7.7.2-x86_64_linux.tar.xz"
+    },
+    "version": "0.7.7.2"
+  }
 }
