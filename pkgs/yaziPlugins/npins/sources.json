@@ -74,9 +74,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "c2646395394f22b6c40bff64dc4c8c922d210570",
-      "url": "https://github.com/KKV9/compress.yazi/archive/c2646395394f22b6c40bff64dc4c8c922d210570.tar.gz",
-      "hash": "sha256-qAuMD4YojLfVaywurk5uHLywRRF77U2F7ql+gR8B/lo="
+      "revision": "f9208fe6c1885ff4fe9bcc890e4c96d87d91d37d",
+      "url": "https://github.com/KKV9/compress.yazi/archive/f9208fe6c1885ff4fe9bcc890e4c96d87d91d37d.tar.gz",
+      "hash": "sha256-teyZP1ij/T92fJx8gf9Z8/ddzcNknNC6KijaYeAzPz8="
     },
     "exifaudio.yazi": {
       "type": "Git",
@@ -399,9 +399,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "a1438d488fefc2cf578fd1df1aeb66411de53d22",
-      "url": "https://github.com/pirafrank/what-size.yazi/archive/a1438d488fefc2cf578fd1df1aeb66411de53d22.tar.gz",
-      "hash": "sha256-s2BifzWr/uewDI6Bowy7J+5LrID6I6OFEA5BrlOPNcM="
+      "revision": "6fd634aa7cea6fea286df05a8b2e9475c22958cb",
+      "url": "https://github.com/pirafrank/what-size.yazi/archive/6fd634aa7cea6fea286df05a8b2e9475c22958cb.tar.gz",
+      "hash": "sha256-Qi95CWehaUpu+4Irwwn+nnxv3NobBCnO+dedDbUFDUs="
     },
     "yamb.yazi": {
       "type": "Git",
