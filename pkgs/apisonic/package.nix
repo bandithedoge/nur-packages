@@ -48,13 +48,27 @@ let
     };
 in
 {
-  speedrum = mkApisonic {
-    source = sources.Speedrum2;
-    meta = {
-      homepage = "https://www.apisonic-audio.com/speedrum2.html";
-      description = "Drum/percussion sampler and sequencer plugin";
-    };
-  };
+  speedrum =
+    (mkApisonic {
+      source = sources.Speedrum2;
+      meta = {
+        homepage = "https://www.apisonic-audio.com/speedrum2.html";
+        description = "Drum/percussion sampler and sequencer plugin";
+      };
+    }).overrideAttrs
+      (_: {
+        buildPhase = ''
+          runHook preBuild
+
+          mkdir -p $out/{bin,lib/vst,lib/vst3}
+          cp Standalone/Speedrum2 $out/bin
+          chmod +x $out/bin/Speedrum2
+          cp -r VST3/Speedrum2.vst3 $out/lib/vst3
+          cp VST/Speedrum2.so $out/lib/vst
+
+          runHook postBuild
+        '';
+      });
 
   speedrum1 = mkApisonic {
     source = sources.Speedrum;
