@@ -1,27 +1,27 @@
 {
-  "nu-lint": {
-    "cargoLocks": {
-      "Cargo.lock": [
-        "./nu-lint-356031df3c66bf7058eecac9c16cdca9ed17a720/Cargo.lock",
-        {}
-      ]
-    },
-    "date": "2026-01-04",
-    "extract": null,
-    "name": "nu-lint",
-    "passthru": null,
-    "pinned": false,
-    "src": {
-      "deepClone": false,
-      "fetchSubmodules": false,
-      "leaveDotGit": false,
-      "name": null,
-      "rev": "356031df3c66bf7058eecac9c16cdca9ed17a720",
-      "sha256": "sha256-niGCQPEPiCpZ+CxGAj8WH0JZs3ysHc/1q6qpc9tzBxw=",
-      "sparseCheckout": [],
-      "type": "git",
-      "url": "https://codeberg.org/wvhulle/nu-lint.git"
-    },
-    "version": "356031df3c66bf7058eecac9c16cdca9ed17a720"
-  }
+    "nu-lint": {
+        "cargoLocks": {
+            "Cargo.lock": [
+                "./nu-lint-8bf2023e3cbf3f1023e944499e36244d4bbdfab7/Cargo.lock",
+                {}
+            ]
+        },
+        "date": "2026-01-04",
+        "extract": null,
+        "name": "nu-lint",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "rev": "8bf2023e3cbf3f1023e944499e36244d4bbdfab7",
+            "sha256": "sha256-q4I3YmuNEhIH+0ZATdWoXvJJwjA+H/EkBQO4MKy4Wc4=",
+            "sparseCheckout": [],
+            "type": "git",
+            "url": "https://codeberg.org/wvhulle/nu-lint.git"
+        },
+        "version": "8bf2023e3cbf3f1023e944499e36244d4bbdfab7"
+    }
 }
