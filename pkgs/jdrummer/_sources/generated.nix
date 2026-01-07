@@ -8,17 +8,17 @@
 {
   jdrummer = {
     pname = "jdrummer";
-    version = "93ce6c66e982b2c7f9b013d1284d6c090ce7c490";
+    version = "714ed42587ef41befae9ca2977f15752fa4dcf9e";
     src = fetchgit {
       url = "https://github.com/jmantra/jdrummer";
-      rev = "93ce6c66e982b2c7f9b013d1284d6c090ce7c490";
+      rev = "714ed42587ef41befae9ca2977f15752fa4dcf9e";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-5PrO12036/Rt2OR7N3eXbKkgbu/w1E0chTr83EedRtY=";
+      sha256 = "sha256-NZXXqrut2JqT5+Z2ssQwY9V1NH7ctkSGSFnIDjR8fjQ=";
     };
-    date = "2026-01-04";
+    date = "2026-01-06";
   };
   juce = {
     pname = "juce";

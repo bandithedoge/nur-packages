@@ -606,13 +606,13 @@ let
         sha512 = "1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==";
       };
     };
-    "ufo-1.6.1" = {
+    "ufo-1.6.2" = {
       name = "ufo";
       packageName = "ufo";
-      version = "1.6.1";
+      version = "1.6.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/ufo/-/ufo-1.6.1.tgz";
-        sha512 = "9a4/uxlTWJ4+a5i0ooc1rU7C7YOw3wT+UGqdeNNHWnOF9qcMBgLRS+4IYUqbczewFx4mLEig6gawh7X6mFlEkA==";
+        url = "https://registry.npmjs.org/ufo/-/ufo-1.6.2.tgz";
+        sha512 = "heMioaxBcG9+Znsda5Q8sQbWnLJSl98AFDXTO80wELWEzX3hordXsTdxrIfMQoO9IY1MEnoGoPjpoKpMj+Yx0Q==";
       };
     };
     "vscode-jsonrpc-6.0.0" = {
@@ -815,7 +815,7 @@ in
       sources."tiny-conventional-commits-parser-0.0.1"
       sources."tinyexec-0.3.2"
       sources."tinyglobby-0.2.15"
-      sources."ufo-1.6.1"
+      sources."ufo-1.6.2"
       sources."vscode-jsonrpc-8.2.0"
       sources."vscode-languageserver-9.0.1"
       sources."vscode-languageserver-protocol-3.17.5"
