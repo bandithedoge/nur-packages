@@ -1,42 +1,42 @@
 {
-    "jdrummer": {
-        "cargoLocks": null,
-        "date": "2026-01-06",
-        "extract": null,
-        "name": "jdrummer",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "deepClone": false,
-            "fetchSubmodules": false,
-            "leaveDotGit": false,
-            "name": null,
-            "rev": "714ed42587ef41befae9ca2977f15752fa4dcf9e",
-            "sha256": "sha256-NZXXqrut2JqT5+Z2ssQwY9V1NH7ctkSGSFnIDjR8fjQ=",
-            "sparseCheckout": [],
-            "type": "git",
-            "url": "https://github.com/jmantra/jdrummer"
-        },
-        "version": "714ed42587ef41befae9ca2977f15752fa4dcf9e"
+  "jdrummer": {
+    "cargoLocks": null,
+    "date": "2026-01-06",
+    "extract": null,
+    "name": "jdrummer",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "deepClone": false,
+      "fetchSubmodules": false,
+      "leaveDotGit": false,
+      "name": null,
+      "rev": "714ed42587ef41befae9ca2977f15752fa4dcf9e",
+      "sha256": "sha256-NZXXqrut2JqT5+Z2ssQwY9V1NH7ctkSGSFnIDjR8fjQ=",
+      "sparseCheckout": [],
+      "type": "git",
+      "url": "https://github.com/jmantra/jdrummer"
     },
-    "juce": {
-        "cargoLocks": null,
-        "date": null,
-        "extract": null,
-        "name": "juce",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "deepClone": false,
-            "fetchSubmodules": false,
-            "leaveDotGit": false,
-            "name": null,
-            "rev": "7.0.9",
-            "sha256": "sha256-k8cNTPH9OgOav4dsSLqrd5PlJ1rqO0PLt6Lwmumc2Gg=",
-            "sparseCheckout": [],
-            "type": "git",
-            "url": "https://github.com/juce-framework/JUCE.git"
-        },
-        "version": "7.0.9"
-    }
+    "version": "714ed42587ef41befae9ca2977f15752fa4dcf9e"
+  },
+  "juce": {
+    "cargoLocks": null,
+    "date": null,
+    "extract": null,
+    "name": "juce",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "deepClone": false,
+      "fetchSubmodules": false,
+      "leaveDotGit": false,
+      "name": null,
+      "rev": "7.0.9",
+      "sha256": "sha256-k8cNTPH9OgOav4dsSLqrd5PlJ1rqO0PLt6Lwmumc2Gg=",
+      "sparseCheckout": [],
+      "type": "git",
+      "url": "https://github.com/juce-framework/JUCE.git"
+    },
+    "version": "7.0.9"
+  }
 }
