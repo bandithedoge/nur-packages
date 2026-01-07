@@ -74,9 +74,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "c2646395394f22b6c40bff64dc4c8c922d210570",
-      "url": "https://github.com/KKV9/compress.yazi/archive/c2646395394f22b6c40bff64dc4c8c922d210570.tar.gz",
-      "hash": "sha256-qAuMD4YojLfVaywurk5uHLywRRF77U2F7ql+gR8B/lo="
+      "revision": "c9c16d8eb3d8f15bea5d58419229529921c58c94",
+      "url": "https://github.com/KKV9/compress.yazi/archive/c9c16d8eb3d8f15bea5d58419229529921c58c94.tar.gz",
+      "hash": "sha256-tllxA9rlyQGuFHMMhoTjjAAJImsCTAgawBd3c9ZGzMU="
     },
     "exifaudio.yazi": {
       "type": "Git",
@@ -113,9 +113,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "3247b70c7d71ae8472d3ccba1d9d3ac87b06e2bb",
-      "url": "https://github.com/ourongxing/fast-enter.yazi/archive/3247b70c7d71ae8472d3ccba1d9d3ac87b06e2bb.tar.gz",
-      "hash": "sha256-n3j83UK4cZmFYvC71Yhr/2hJtKUkJLsMKqmiXml8YdE="
+      "revision": "9fe77d8292c6bc63538acdc97cb91b81542e85a4",
+      "url": "https://github.com/ourongxing/fast-enter.yazi/archive/9fe77d8292c6bc63538acdc97cb91b81542e85a4.tar.gz",
+      "hash": "sha256-E0r0XsyECKMJ8w+9OVJKDggSXhAqlwD3u9ZSEXHc6J0="
     },
     "glow.yazi": {
       "type": "Git",
@@ -139,9 +139,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "9046dd85b509981de494ec9577289bee4ea1277b",
-      "url": "https://github.com/boydaihungst/gvfs.yazi/archive/9046dd85b509981de494ec9577289bee4ea1277b.tar.gz",
-      "hash": "sha256-eFbs/KCOEiCAn2NAXP2ZqKSZCPmNwuS+c8F1rbQuvdg="
+      "revision": "d613e830c5335710120f7cee54c331f812c194eb",
+      "url": "https://github.com/boydaihungst/gvfs.yazi/archive/d613e830c5335710120f7cee54c331f812c194eb.tar.gz",
+      "hash": "sha256-y+Cd23sB9ebhJPgTssZJ/L4PBxpIktPQYdfxVWitUsA="
     },
     "hexyl.yazi": {
       "type": "Git",
@@ -295,9 +295,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "831234e828d292913f4b174a1ca2be2fb1080f22",
-      "url": "https://github.com/AnirudhG07/rich-preview.yazi/archive/831234e828d292913f4b174a1ca2be2fb1080f22.tar.gz",
-      "hash": "sha256-CK3ynjs53I1tRqARoOYMgBczBrcle+pwpUhHt3VpSXs="
+      "revision": "573b275fc0065eea3e8aa2afd07ad59e56ceff57",
+      "url": "https://github.com/AnirudhG07/rich-preview.yazi/archive/573b275fc0065eea3e8aa2afd07ad59e56ceff57.tar.gz",
+      "hash": "sha256-Nla6KUHmdpW4trejrBTrh8jSDi5cu2fIGls24Cfy3pc="
     },
     "rsync.yazi": {
       "type": "Git",
@@ -399,9 +399,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "a36fdaf6e011b1da41a8884956dd7237b59fad4d",
-      "url": "https://github.com/pirafrank/what-size.yazi/archive/a36fdaf6e011b1da41a8884956dd7237b59fad4d.tar.gz",
-      "hash": "sha256-dakNC8Pivqm89FVpNL8FfpWjF0687Kd4cWnpcyEMq+Y="
+      "revision": "179ebf69c9c3ade40cacc0f25e9557a43427c6ca",
+      "url": "https://github.com/pirafrank/what-size.yazi/archive/179ebf69c9c3ade40cacc0f25e9557a43427c6ca.tar.gz",
+      "hash": "sha256-7q/45TopqbojNRvYDmP9+hgSGPmiyLHBcV051qpOB2Y="
     },
     "yamb.yazi": {
       "type": "Git",

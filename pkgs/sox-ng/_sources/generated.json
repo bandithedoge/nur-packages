@@ -1,7 +1,7 @@
 {
   "sox-ng": {
     "cargoLocks": null,
-    "date": "2026-01-01",
+    "date": "2026-01-04",
     "extract": null,
     "name": "sox-ng",
     "passthru": null,
@@ -11,12 +11,12 @@
       "fetchSubmodules": false,
       "leaveDotGit": false,
       "name": null,
-      "rev": "93c6bab7728998624d53eba5502e9eaf9ee98573",
-      "sha256": "sha256-GkRJNl5KOkh9EXU6ECuZ73njCTtK0pk+cAQvHGwc4eA=",
+      "rev": "52dcfd9dcc370cdc7fccceb12770c96b78d7a8a2",
+      "sha256": "sha256-sfFtVfvi4MopO//i5mO+9hCfx83mX80QJiqJUzb+KoA=",
       "sparseCheckout": [],
       "type": "git",
       "url": "https://codeberg.org/sox_ng/sox_ng.git"
     },
-    "version": "93c6bab7728998624d53eba5502e9eaf9ee98573"
+    "version": "52dcfd9dcc370cdc7fccceb12770c96b78d7a8a2"
   }
 }

@@ -13,11 +13,11 @@
       "name": null,
       "owner": "tiagolr",
       "repo": "reevr",
-      "rev": "v1.3.1",
-      "sha256": "sha256-ONzh3fDaMdRm5uAGZjYzAuQp9bEAhMfG5lhs0/awvl0=",
+      "rev": "v1.3.2",
+      "sha256": "sha256-pSiOOXeFGMhVw8VZsCrGycSgAiGYPRtk53iHwETf6Vk=",
       "sparseCheckout": [],
       "type": "github"
     },
-    "version": "v1.3.1"
+    "version": "v1.3.2"
   }
 }

@@ -2,11 +2,11 @@
   "nu-lint": {
     "cargoLocks": {
       "Cargo.lock": [
-        "./nu-lint-f491402adec84d6eb9974983ca65b8005ceb71a0/Cargo.lock",
+        "./nu-lint-dcc06b4d618b2395e5aed5968fb548a30f55b843/Cargo.lock",
         {}
       ]
     },
-    "date": "2026-01-01",
+    "date": "2026-01-05",
     "extract": null,
     "name": "nu-lint",
     "passthru": null,
@@ -16,12 +16,12 @@
       "fetchSubmodules": false,
       "leaveDotGit": false,
       "name": null,
-      "rev": "f491402adec84d6eb9974983ca65b8005ceb71a0",
-      "sha256": "sha256-bqnXBeGaHXmbFvP1lesy7OHt13CvdfW0inm2q7AxOdQ=",
+      "rev": "dcc06b4d618b2395e5aed5968fb548a30f55b843",
+      "sha256": "sha256-9xRkTh3Dgn0hP9G1Ry2ESbOk3k8fHb1Kessj8yYiRgg=",
       "sparseCheckout": [],
       "type": "git",
       "url": "https://codeberg.org/wvhulle/nu-lint.git"
     },
-    "version": "f491402adec84d6eb9974983ca65b8005ceb71a0"
+    "version": "dcc06b4d618b2395e5aed5968fb548a30f55b843"
   }
 }
