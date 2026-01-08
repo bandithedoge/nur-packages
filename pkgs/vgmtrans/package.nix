@@ -1,7 +1,6 @@
 {
   sources,
 
-  fetchpatch,
   lib,
   stdenv,
 
@@ -12,14 +11,6 @@
 stdenv.mkDerivation {
   inherit (sources.vgmtrans) pname src;
   version = sources.vgmtrans.date;
-
-  patches = [
-    # XXX: https://github.com/vgmtrans/vgmtrans/pull/717
-    (fetchpatch {
-      url = "https://github.com/bandithedoge/vgmtrans/commit/a7efa092b04a91c25a8fd8cfde8c74b6215cbca7.patch";
-      sha256 = "ihbabpTPmiZLT3e3pnd5k9BGL1VvakeBolGzxXM0mLs=";
-    })
-  ];
 
   nativeBuildInputs = [
     cmake
