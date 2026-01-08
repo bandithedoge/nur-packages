@@ -74,9 +74,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "1b83928c9ff8ff9d9506acc1aa8e0bdee635c570",
-      "url": "https://github.com/b0o/SchemaStore.nvim/archive/1b83928c9ff8ff9d9506acc1aa8e0bdee635c570.tar.gz",
-      "hash": "sha256-MawBfiQLyvaOsD+bxVZTOfiBHLgbJCA3mPyouUwoRK8="
+      "revision": "d5687736d15cfc3c1ac943485cad7808ba487d2b",
+      "url": "https://github.com/b0o/SchemaStore.nvim/archive/d5687736d15cfc3c1ac943485cad7808ba487d2b.tar.gz",
+      "hash": "sha256-+duGacPCeTZPCOTB/Ye+T33I9pBKZdu0cNMYWt6MhSg="
     },
     "aniseed": {
       "type": "Git",
@@ -1438,9 +1438,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "0b38bc74487e73489624d61396af7805af9cc75f",
-      "url": "https://github.com/neovim/nvim-lspconfig/archive/0b38bc74487e73489624d61396af7805af9cc75f.tar.gz",
-      "hash": "sha256-mSZYePlc8UES6VnhKv329DTJB34E1bGJDSdrn/2dUjs="
+      "revision": "5a82e10b2df0ed31bec642c1c0344baee7c458b6",
+      "url": "https://github.com/neovim/nvim-lspconfig/archive/5a82e10b2df0ed31bec642c1c0344baee7c458b6.tar.gz",
+      "hash": "sha256-zPHLBRaFa0bWPk8cVVyNjDro1Zp4k0dsGHuX5mcYY94="
     },
     "nvim-luaref": {
       "type": "Git",
@@ -2035,9 +2035,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "b3affa6db7eab80fca2a2db5b73b473144507039",
-      "url": "https://github.com/nanozuki/tabby.nvim/archive/b3affa6db7eab80fca2a2db5b73b473144507039.tar.gz",
-      "hash": "sha256-26ysSn0klZYMPEaxCe/1zD2qCYwobU5dZSq5P/GtwMU="
+      "revision": "3c130e1fcb598ce39a9c292847e32d7c3987cf11",
+      "url": "https://github.com/nanozuki/tabby.nvim/archive/3c130e1fcb598ce39a9c292847e32d7c3987cf11.tar.gz",
+      "hash": "sha256-YAnw/FpSLqKjvnug4bdvbGHpYWwtDKuh/DmxhK+PSu0="
     },
     "tangerine.nvim": {
       "type": "Git",
