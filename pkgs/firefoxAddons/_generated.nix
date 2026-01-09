@@ -501,10 +501,10 @@
   };
   "harper" = buildFirefoxXpiAddon {
     pname = "harper";
-    version = "1.3.0";
+    version = "1.4.1";
     addonId = "harper@writewithharper.com";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4649158/private_grammar_checker_harper-1.3.0.xpi";
-    sha256 = "53625166e326256d0d6ebbdebaf438a30f9fa43fd2a9225a9486aea25c4744e9";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4660884/private_grammar_checker_harper-1.4.1.xpi";
+    sha256 = "86a009462865ab2e0fc60d604cf6780789f9137d312f8afdbbece78a7471ef69";
     meta = with lib; {
       homepage = "https://writewithharper.com";
       description = "A private grammar checker for 21st Century English";
@@ -1579,10 +1579,10 @@
   };
   "stylus" = buildFirefoxXpiAddon {
     pname = "stylus";
-    version = "2.3.18";
+    version = "2.3.19";
     addonId = "{7a7a4a92-a2a0-41d1-9fd7-1e92480d612d}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4659939/styl_us-2.3.18.xpi";
-    sha256 = "dcf1d6504652ee34e40991df030817825ea980d96d5859676103317b5695fdbb";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4661054/styl_us-2.3.19.xpi";
+    sha256 = "f479caf673b2f1b1f821d16f5c341a52433542930a9a2597c81f0798b4ecaa32";
     meta = with lib; {
       homepage = "https://add0n.com/stylus.html";
       description = "Redesign your favorite websites with Stylus, an actively developed and community driven userstyles manager. Easily install custom themes from popular online repositories, or create, edit, and manage your own personalized CSS stylesheets.";
