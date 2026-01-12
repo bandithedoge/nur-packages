@@ -38,7 +38,7 @@ jobs:
       - name: Restore cache
         if: ${{ !matrix.cacheable }}
         id: cache-restore
-        uses: nix-community/cache-nix-action/restore@v6
+        uses: nix-community/cache-nix-action/restore@v7
         with:
           primary-key: build-${{ runner.os }}
 
@@ -67,7 +67,7 @@ jobs:
 
       - name: Save cache
         if: ${{ !matrix.cacheable && always() && steps.cache-restore.outputs.hit-primary-key != 'true' }}
-        uses: nix-community/cache-nix-action/save@v6
+        uses: nix-community/cache-nix-action/save@v7
         with:
           primary-key: build-${{ runner.os }}
           gc-max-store-size: 8G

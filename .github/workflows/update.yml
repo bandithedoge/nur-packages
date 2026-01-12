@@ -31,7 +31,7 @@ jobs:
 
       - name: Restore cache
         id: cache-restore
-        uses: nix-community/cache-nix-action/restore@v6
+        uses: nix-community/cache-nix-action/restore@v7
         with:
           primary-key: update-${{ runner.os }}
 
@@ -53,7 +53,7 @@ jobs:
         run: nix fmt
 
       - name: Save cache
-        uses: nix-community/cache-nix-action/save@v6
+        uses: nix-community/cache-nix-action/save@v7
         if: always() && steps.cache-restore.outputs.hit-primary-key != 'true'
         with:
           primary-key: update-${{ runner.os }}
