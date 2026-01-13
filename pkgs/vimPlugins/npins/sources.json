@@ -74,9 +74,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "f35b7747d4d536fba96aa098a4144e5c85252828",
-      "url": "https://github.com/b0o/SchemaStore.nvim/archive/f35b7747d4d536fba96aa098a4144e5c85252828.tar.gz",
-      "hash": "sha256-Ys2LKIfJcWz99WxD1om+mttshdYQVm691US+/7bvW9U="
+      "revision": "20ee0cad0b25e4a028d355c51b06d41eecb90d91",
+      "url": "https://github.com/b0o/SchemaStore.nvim/archive/20ee0cad0b25e4a028d355c51b06d41eecb90d91.tar.gz",
+      "hash": "sha256-6KeO/v4c3uYcM4FWSPbUIDKhxTfgnHVahMp1l2oJF7U="
     },
     "aniseed": {
       "type": "Git",
@@ -204,9 +204,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "6fd7f12df71a04dd9ec398fc63aaa23fbe9f525f",
-      "url": "https://github.com/p00f/clangd_extensions.nvim/archive/6fd7f12df71a04dd9ec398fc63aaa23fbe9f525f.tar.gz",
-      "hash": "sha256-+7x567W7ky/rchm10hSh72cOUWfs2umw87+K4++n3YM="
+      "revision": "997d20e6bc83ea1a6223c08d2b9db76943abf56b",
+      "url": "https://github.com/p00f/clangd_extensions.nvim/archive/997d20e6bc83ea1a6223c08d2b9db76943abf56b.tar.gz",
+      "hash": "sha256-5XES8qyl3tdMmsT+mkVcJ1sC5AKJDpHI/elsoB8XE/8="
     },
     "cmake-tools.nvim": {
       "type": "Git",
@@ -1100,9 +1100,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "f063e7357b74162f0299e3a731fbb2e66fd79f6b",
-      "url": "https://github.com/folke/neoconf.nvim/archive/f063e7357b74162f0299e3a731fbb2e66fd79f6b.tar.gz",
-      "hash": "sha256-g/3aveyBphhfH9zrThMj+06aDdcuuYH4k8myJRGGuJw="
+      "revision": "7568d2bdea8fd8b0162239174ece804903218f86",
+      "url": "https://github.com/folke/neoconf.nvim/archive/7568d2bdea8fd8b0162239174ece804903218f86.tar.gz",
+      "hash": "sha256-lPEDmHgkVzPmYKSBvX8WX2SlQQD53zVmK2kHNgsCdzM="
     },
     "neodev.nvim": {
       "type": "Git",
@@ -1879,9 +1879,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "1b5176283bcf91d052b5755d9ba6e8ce14dfc95b",
-      "url": "https://github.com/vladdoster/remember.nvim/archive/1b5176283bcf91d052b5755d9ba6e8ce14dfc95b.tar.gz",
-      "hash": "sha256-VGgRRLG1nUAye9+yts8CpzdYLwESj8TErrZdnw2KDIk="
+      "revision": "85aff6dc0a5adab088ef6b9210585ded31c32c7b",
+      "url": "https://github.com/vladdoster/remember.nvim/archive/85aff6dc0a5adab088ef6b9210585ded31c32c7b.tar.gz",
+      "hash": "sha256-kJABTjY6p+wFlNZ9VLmK5LvusHcbD/0aaZP6yOpR1Zc="
     },
     "reticle.nvim": {
       "type": "Git",
