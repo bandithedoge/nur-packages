@@ -11,7 +11,7 @@
     version = "6.6.8";
     src = fetchurl {
       url = "https://cdn1.waterfox.net/waterfox/releases/6.6.8/Linux_x86_64/waterfox-6.6.8.tar.bz2";
-      sha256 = "sha256-Pvf7J3vhhe+7ooKgbuO0ALv9PN4vQ0U4GcKgobiIzYk=";
+      sha256 = "sha256-Vj94tSPxGxMyl6D2jgz9KBZHjjpmWAfIQeklIYztcYg=";
     };
   };
 }
