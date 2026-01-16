@@ -74,9 +74,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "2a8afcddb67a14dc80001f074f1eecedac2f27a7",
-      "url": "https://github.com/b0o/SchemaStore.nvim/archive/2a8afcddb67a14dc80001f074f1eecedac2f27a7.tar.gz",
-      "hash": "sha256-IDfZ17epQoug4wonyMvemc7IMEpJe2EVxlHxRi4n0QU="
+      "revision": "fb7b9034285a5658c746faa12eff8c1c9d9b11b1",
+      "url": "https://github.com/b0o/SchemaStore.nvim/archive/fb7b9034285a5658c746faa12eff8c1c9d9b11b1.tar.gz",
+      "hash": "sha256-YqpMq96FPe6WfzlYNXIC5UMpHdYmD90snYyiq59spms="
     },
     "aniseed": {
       "type": "Git",
@@ -1035,9 +1035,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "8dccba88fc4dce006ca0ad668067c9e0d5ce7702",
-      "url": "https://github.com/echasnovski/mini.nvim/archive/8dccba88fc4dce006ca0ad668067c9e0d5ce7702.tar.gz",
-      "hash": "sha256-5TtVFnngyu0oVsmSDz5ywov1rJdwh1oDodqr1zg2NXM="
+      "revision": "19973fa2c13399d68bf8d2cd98b0cb7367a8a72a",
+      "url": "https://github.com/echasnovski/mini.nvim/archive/19973fa2c13399d68bf8d2cd98b0cb7367a8a72a.tar.gz",
+      "hash": "sha256-Q6B61dxhiNvuiV3To3Wdp8O/HHXi6vHRtDOlfneFz/U="
     },
     "mkdir.nvim": {
       "type": "Git",
