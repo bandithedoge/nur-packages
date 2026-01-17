@@ -1,63 +1,63 @@
 {
-  "clap-juce-extensions": {
-    "cargoLocks": null,
-    "date": "2025-12-01",
-    "extract": null,
-    "name": "clap-juce-extensions",
-    "passthru": null,
-    "pinned": false,
-    "src": {
-      "deepClone": false,
-      "fetchSubmodules": true,
-      "leaveDotGit": false,
-      "name": null,
-      "rev": "645ed2fd0949d36639e3d63333f26136df6df769",
-      "sha256": "sha256-Lx88nyEFjPLA5yh8rrqBdyZIxe/j0FgIHoyKcbjuuI4=",
-      "sparseCheckout": [],
-      "type": "git",
-      "url": "https://github.com/free-audio/clap-juce-extensions"
+    "clap-juce-extensions": {
+        "cargoLocks": null,
+        "date": "2026-01-16",
+        "extract": null,
+        "name": "clap-juce-extensions",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": true,
+            "leaveDotGit": false,
+            "name": null,
+            "rev": "e44a9e53ea8d22e2fbe2f366921d494534bb2b52",
+            "sha256": "sha256-X77BO4yHf1Nu3bopt0fDw28o3NI1vYFnDbRQT/5EH90=",
+            "sparseCheckout": [],
+            "type": "git",
+            "url": "https://github.com/free-audio/clap-juce-extensions"
+        },
+        "version": "e44a9e53ea8d22e2fbe2f366921d494534bb2b52"
     },
-    "version": "645ed2fd0949d36639e3d63333f26136df6df769"
-  },
-  "juce": {
-    "cargoLocks": null,
-    "date": null,
-    "extract": null,
-    "name": "juce",
-    "passthru": null,
-    "pinned": false,
-    "src": {
-      "deepClone": false,
-      "fetchSubmodules": false,
-      "leaveDotGit": false,
-      "name": null,
-      "owner": "juce-framework",
-      "repo": "JUCE",
-      "rev": "7.0.12",
-      "sha256": "sha256-/awe6D824ZjF17xjkt0wY7dcDuS/s8KKAv1UKHxF0FM=",
-      "sparseCheckout": [],
-      "type": "github"
+    "juce": {
+        "cargoLocks": null,
+        "date": null,
+        "extract": null,
+        "name": "juce",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "juce-framework",
+            "repo": "JUCE",
+            "rev": "7.0.12",
+            "sha256": "sha256-/awe6D824ZjF17xjkt0wY7dcDuS/s8KKAv1UKHxF0FM=",
+            "sparseCheckout": [],
+            "type": "github"
+        },
+        "version": "7.0.12"
     },
-    "version": "7.0.12"
-  },
-  "unplugred": {
-    "cargoLocks": null,
-    "date": "2026-01-08",
-    "extract": null,
-    "name": "unplugred",
-    "passthru": null,
-    "pinned": false,
-    "src": {
-      "deepClone": false,
-      "fetchSubmodules": false,
-      "leaveDotGit": false,
-      "name": null,
-      "rev": "b26ce209134db5ae9c6ef43b4a8a4a4afe54dd71",
-      "sha256": "sha256-1ysBfgHb4fWX/EXrsHtCzG/mKidb8rrcuGbny+yneS4=",
-      "sparseCheckout": [],
-      "type": "git",
-      "url": "https://github.com/unplugred/vsts"
-    },
-    "version": "b26ce209134db5ae9c6ef43b4a8a4a4afe54dd71"
-  }
+    "unplugred": {
+        "cargoLocks": null,
+        "date": "2026-01-16",
+        "extract": null,
+        "name": "unplugred",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "rev": "6fd8397d5881e42559a11e921ebd3238d7cb2fa5",
+            "sha256": "sha256-YhQpewsjQQh+8LNennSuiGwc+C+I9pacM+TKpRS3MlI=",
+            "sparseCheckout": [],
+            "type": "git",
+            "url": "https://github.com/unplugred/vsts"
+        },
+        "version": "6fd8397d5881e42559a11e921ebd3238d7cb2fa5"
+    }
 }
