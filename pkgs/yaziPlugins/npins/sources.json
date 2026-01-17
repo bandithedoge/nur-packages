@@ -35,9 +35,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "daeef1d87a80e4ab4a785c9aa96f4e0bb56b807a",
-      "url": "https://github.com/hankertrix/augment-command.yazi/archive/daeef1d87a80e4ab4a785c9aa96f4e0bb56b807a.tar.gz",
-      "hash": "sha256-iumXU8vDtC/KPop8Wp4MBudRax7zHYep9UjcbxZleKA="
+      "revision": "7c12bdf5528a6a820a81001811dd3ef8098f33b0",
+      "url": "https://github.com/hankertrix/augment-command.yazi/archive/7c12bdf5528a6a820a81001811dd3ef8098f33b0.tar.gz",
+      "hash": "sha256-zrtT1GRmq/jmLo/esg/ZzDXdO9yU+1/CwTFtFtuyiDs="
     },
     "bookmarks.yazi": {
       "type": "Git",
@@ -139,9 +139,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "d9e3e0d3ce352f230ec066c116afdb496a114530",
-      "url": "https://github.com/boydaihungst/gvfs.yazi/archive/d9e3e0d3ce352f230ec066c116afdb496a114530.tar.gz",
-      "hash": "sha256-YhiqH3fFX6XjxyoyWwz+VpyHmFWGegWRie/GHeD6+SE="
+      "revision": "1badf40fb87a1c80e4831bfc11b087c9abee15f9",
+      "url": "https://github.com/boydaihungst/gvfs.yazi/archive/1badf40fb87a1c80e4831bfc11b087c9abee15f9.tar.gz",
+      "hash": "sha256-gqBkA2tqFJvdaPCRRxLbHy9lBDL8xAaqferSrBSyGCM="
     },
     "hexyl.yazi": {
       "type": "Git",

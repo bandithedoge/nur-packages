@@ -1,22 +1,22 @@
 {
-    "element": {
-        "cargoLocks": null,
-        "date": "2026-01-16",
-        "extract": null,
-        "name": "element",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "deepClone": false,
-            "fetchSubmodules": true,
-            "leaveDotGit": false,
-            "name": null,
-            "rev": "38748f5fee0e639f62d72b506f69e9735ff79d13",
-            "sha256": "sha256-z+uxzQra5Q7+5BvoRp4RS1W20BFP2UE4gTZFajKIHQA=",
-            "sparseCheckout": [],
-            "type": "git",
-            "url": "https://github.com/kushview/element"
-        },
-        "version": "38748f5fee0e639f62d72b506f69e9735ff79d13"
-    }
+  "element": {
+    "cargoLocks": null,
+    "date": "2026-01-16",
+    "extract": null,
+    "name": "element",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "deepClone": false,
+      "fetchSubmodules": true,
+      "leaveDotGit": false,
+      "name": null,
+      "rev": "38748f5fee0e639f62d72b506f69e9735ff79d13",
+      "sha256": "sha256-z+uxzQra5Q7+5BvoRp4RS1W20BFP2UE4gTZFajKIHQA=",
+      "sparseCheckout": [],
+      "type": "git",
+      "url": "https://github.com/kushview/element"
+    },
+    "version": "38748f5fee0e639f62d72b506f69e9735ff79d13"
+  }
 }

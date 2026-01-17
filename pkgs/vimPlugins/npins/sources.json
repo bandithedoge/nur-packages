@@ -347,9 +347,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "238f542a118984a88124fc915d5b981680418707",
-      "url": "https://github.com/stevearc/conform.nvim/archive/238f542a118984a88124fc915d5b981680418707.tar.gz",
-      "hash": "sha256-zCPK7Q1v80Kc0xGoCLM5K3hLdKehF4GQiEfMtLbf39g="
+      "revision": "5ac2bb57a9096f00ca50e1a3c46020d5930319b8",
+      "url": "https://github.com/stevearc/conform.nvim/archive/5ac2bb57a9096f00ca50e1a3c46020d5930319b8.tar.gz",
+      "hash": "sha256-YQivyPuskDJO4qK55VgOHXRsB4y/shA9T44iyfoNG2k="
     },
     "coq_nvim": {
       "type": "Git",
@@ -957,9 +957,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "3ddd1b4edefa425fda5a9f95a4f25578727c0bb3",
-      "url": "https://github.com/onsails/lspkind.nvim/archive/3ddd1b4edefa425fda5a9f95a4f25578727c0bb3.tar.gz",
-      "hash": "sha256-TVKYttrJrEgKfQaEsVGDQH/1i5vr0B3sJIJ4wtQWzns="
+      "revision": "53374a2dbcb959f1d0d5d3cf6c47c4b029151c6e",
+      "url": "https://github.com/onsails/lspkind.nvim/archive/53374a2dbcb959f1d0d5d3cf6c47c4b029151c6e.tar.gz",
+      "hash": "sha256-I4mKAFk0qcaSfKOZHWiWHWRspP0pc9SpDI2Fk4LgBic="
     },
     "lsplinks.nvim": {
       "type": "Git",
@@ -1035,9 +1035,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "19973fa2c13399d68bf8d2cd98b0cb7367a8a72a",
-      "url": "https://github.com/echasnovski/mini.nvim/archive/19973fa2c13399d68bf8d2cd98b0cb7367a8a72a.tar.gz",
-      "hash": "sha256-Q6B61dxhiNvuiV3To3Wdp8O/HHXi6vHRtDOlfneFz/U="
+      "revision": "c9d3bc2df3015d82eabe3d2d88dac1ef5746e9e8",
+      "url": "https://github.com/echasnovski/mini.nvim/archive/c9d3bc2df3015d82eabe3d2d88dac1ef5746e9e8.tar.gz",
+      "hash": "sha256-WKsMLLWannZUywOpI/ZnlLCIAwNwr1UEGRLP31mDA54="
     },
     "mkdir.nvim": {
       "type": "Git",
@@ -1698,9 +1698,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "3629625199b9a45bdb41fa734bc2c6ef86d251bd",
-      "url": "https://github.com/nvim-orgmode/orgmode/archive/3629625199b9a45bdb41fa734bc2c6ef86d251bd.tar.gz",
-      "hash": "sha256-g11ki/nn6hoGEDUSShBxPFMm7bQ0F3ZSqkqZ/FfeGfk="
+      "revision": "89b684ebb164587812c40ba7df8443f146867589",
+      "url": "https://github.com/nvim-orgmode/orgmode/archive/89b684ebb164587812c40ba7df8443f146867589.tar.gz",
+      "hash": "sha256-w9ff5fACQ40DfvH0r98zSXJHFI0DWRU08TACEr1xKFo="
     },
     "package-info.nvim": {
       "type": "Git",

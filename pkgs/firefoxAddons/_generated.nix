@@ -428,10 +428,10 @@
   };
   "gitako" = buildFirefoxXpiAddon {
     pname = "gitako";
-    version = "3.15.2";
+    version = "3.15.3";
     addonId = "{983bd86b-9d6f-4394-92b8-63d844c4ce4c}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4666426/gitako_github_file_tree-3.15.2.xpi";
-    sha256 = "4512d6dd4775cf473fd43bc749e39e27eaad6a01ef9c905a3615cd05142839fb";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4667580/gitako_github_file_tree-3.15.3.xpi";
+    sha256 = "1bb6b0a951608269ae71d046e579dbde8bf7c9649f4a5d46b0b34e58f493e9bc";
     meta = with lib; {
       homepage = "https://github.com/EnixCoda/Gitako";
       description = "Gitako is a file tree extension for GitHub, available on Firefox, Chrome, and Edge.\n\nVideo intro: https://youtu.be/r4Ein-s2pN0\nHomepage: https://github.com/EnixCoda/Gitako";
@@ -1581,8 +1581,8 @@
     pname = "stylus";
     version = "2.3.19";
     addonId = "{7a7a4a92-a2a0-41d1-9fd7-1e92480d612d}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4661054/styl_us-2.3.19.xpi";
-    sha256 = "f479caf673b2f1b1f821d16f5c341a52433542930a9a2597c81f0798b4ecaa32";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4661054/styl_us-2.3.19_qtD9vir.xpi";
+    sha256 = "fed97d9b8cb8793d1b1f95c95abfaf7660377c0ba71d49ec48ffd3d676f66af1";
     meta = with lib; {
       homepage = "https://add0n.com/stylus.html";
       description = "Redesign your favorite websites with Stylus, an actively developed and community driven userstyles manager. Easily install custom themes from popular online repositories, or create, edit, and manage your own personalized CSS stylesheets.";
