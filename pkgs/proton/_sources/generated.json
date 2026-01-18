@@ -8,7 +8,7 @@
     "pinned": false,
     "src": {
       "name": null,
-      "sha256": "sha256-lQtTLrPBVPd9sRPWhyXOse8TwuHQ6NmiRKiUnxdJb+E=",
+      "sha256": "sha256-bDlgsRNxA35YW91AsXhvA7dLsSq6cZ8Umczbw+Zj+2k=",
       "type": "url",
       "url": "https://github.com/CachyOS/proton-cachyos/releases/download/cachyos-10.0-20260102-slr/proton-cachyos-10.0-20260102-slr-x86_64_v3.tar.xz"
     },
