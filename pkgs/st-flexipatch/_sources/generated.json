@@ -1,7 +1,7 @@
 {
   "st-flexipatch": {
     "cargoLocks": null,
-    "date": "2025-10-28",
+    "date": "2026-01-15",
     "extract": null,
     "name": "st-flexipatch",
     "passthru": null,
@@ -13,11 +13,11 @@
       "name": null,
       "owner": "bakkeby",
       "repo": "st-flexipatch",
-      "rev": "37bc089f1d9f3c53ded68d442dac3108b3366426",
-      "sha256": "sha256-kLWuxgCKEGZJ0z78SGhfoP7QXO1Z+gASAysfRVYLGgw=",
+      "rev": "490d2440da7bf264d851e80c1719e3ebe0d84b57",
+      "sha256": "sha256-585VQ3MRWKtnIVFWzy3/rSHT/pveDj45P1HFJHiutgA=",
       "sparseCheckout": [],
       "type": "github"
     },
-    "version": "37bc089f1d9f3c53ded68d442dac3108b3366426"
+    "version": "490d2440da7bf264d851e80c1719e3ebe0d84b57"
   }
 }

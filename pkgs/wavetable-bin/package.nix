@@ -23,9 +23,9 @@ stdenv.mkDerivation {
     runHook preBuild
 
     mkdir -p $out/lib/{lv2,vst3,vst}
-    cp -r Wavetable.lv2 $out/lib/lv2
-    cp -r Wavetable.vst3 $out/lib/vst3
-    cp Wavetable.so $out/lib/vst
+    cp -r lv2/Wavetable.lv2 $out/lib/lv2
+    cp -r vst3/Wavetable.vst3 $out/lib/vst3
+    cp vst/Wavetable.so $out/lib/vst
 
     runHook postBuild
   '';

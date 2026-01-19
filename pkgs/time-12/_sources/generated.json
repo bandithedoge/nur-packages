@@ -13,11 +13,11 @@
       "name": null,
       "owner": "tiagolr",
       "repo": "time12",
-      "rev": "v1.2.2",
-      "sha256": "sha256-kyh1IMiOykkSglpuJo2DnNOluUdO38Z25ONXh0mi400=",
+      "rev": "v1.2.3",
+      "sha256": "sha256-/siQGQRHPqIP17NE4e/IGEQIzLPnBAXXzU6ucL1y5os=",
       "sparseCheckout": [],
       "type": "github"
     },
-    "version": "v1.2.2"
+    "version": "v1.2.3"
   }
 }

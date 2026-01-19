@@ -190,16 +190,16 @@
   };
   xen = {
     pname = "xen";
-    version = "e73564413e2865aecd1a10050dd306c9f3252ce9";
+    version = "4f15fc030d2687dd0c4ae499125e27bdec7e54bf";
     src = fetchgit {
       url = "https://github.com/Mrugalla/Xen";
-      rev = "e73564413e2865aecd1a10050dd306c9f3252ce9";
+      rev = "4f15fc030d2687dd0c4ae499125e27bdec7e54bf";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-9/hltkhAHCvmEkg/R4fbLKX/c6F7MMDpVQJbngs7iQE=";
+      sha256 = "sha256-qyudHZf7GrhtS499KCij41uvfGVq00hQc3YXesw7SvI=";
     };
-    date = "2025-12-08";
+    date = "2026-01-12";
   };
 }

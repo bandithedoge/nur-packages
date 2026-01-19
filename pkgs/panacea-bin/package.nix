@@ -5,14 +5,9 @@
   stdenv,
 
   autoPatchelfHook,
-  csound,
+  csound6,
   juceCmakeHook,
 }:
-let
-  csound' = csound.overrideAttrs (_: {
-    NIX_CFLAGS_COMPILE = [ "-Wno-incompatible-pointer-types" ];
-  });
-in
 stdenv.mkDerivation {
   inherit (sources.panacea-bin) pname src;
   version = lib.removePrefix "v" sources.panacea-bin.version;
@@ -22,7 +17,7 @@ stdenv.mkDerivation {
   ];
 
   buildInputs = [
-    csound'
+    csound6
     stdenv.cc.cc.lib
   ]
   ++ juceCmakeHook.commonBuildInputs;

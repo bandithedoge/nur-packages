@@ -8,13 +8,13 @@
 {
   time-12 = {
     pname = "time-12";
-    version = "v1.2.2";
+    version = "v1.2.3";
     src = fetchFromGitHub {
       owner = "tiagolr";
       repo = "time12";
-      rev = "v1.2.2";
+      rev = "v1.2.3";
       fetchSubmodules = true;
-      sha256 = "sha256-kyh1IMiOykkSglpuJo2DnNOluUdO38Z25ONXh0mi400=";
+      sha256 = "sha256-/siQGQRHPqIP17NE4e/IGEQIzLPnBAXXzU6ucL1y5os=";
     };
   };
 }
