@@ -5,15 +5,10 @@
   stdenv,
 
   autoPatchelfHook,
-  csound,
+  csound6,
   juceCmakeHook,
   unzip,
 }:
-let
-  csound' = csound.overrideAttrs (_: {
-    NIX_CFLAGS_COMPILE = [ "-Wno-incompatible-pointer-types" ];
-  });
-in
 stdenv.mkDerivation {
   inherit (sources.tonez) pname version src;
 
@@ -23,7 +18,7 @@ stdenv.mkDerivation {
   ];
 
   buildInputs = [
-    csound'
+    csound6
     stdenv.cc.cc.lib
   ]
   ++ juceCmakeHook.commonBuildInputs;
