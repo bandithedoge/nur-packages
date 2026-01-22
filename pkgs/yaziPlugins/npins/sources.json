@@ -74,9 +74,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "e6007f7c3f364cdb7146f5b6b282790948fb0bd6",
-      "url": "https://github.com/KKV9/compress.yazi/archive/e6007f7c3f364cdb7146f5b6b282790948fb0bd6.tar.gz",
-      "hash": "sha256-m5FfN2gnTHsbwP2aYaE+K6kNGfAC7HBVtCyy6HzNRrE="
+      "revision": "13e89fbd04a1ec1ea74045d26d0ecd641eb4fb5e",
+      "url": "https://github.com/KKV9/compress.yazi/archive/13e89fbd04a1ec1ea74045d26d0ecd641eb4fb5e.tar.gz",
+      "hash": "sha256-Pj4XfZvkqNJRdaZDFp5xVVk/stk42aUAik2SthdqIVM="
     },
     "exifaudio.yazi": {
       "type": "Git",
