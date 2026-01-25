@@ -1,6 +1,6 @@
 {
   "just-a-sample-bin": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "just-a-sample-bin",

@@ -1,6 +1,6 @@
 {
   "cloudreverb": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": "2026-01-03",
     "extract": null,
     "name": "cloudreverb",

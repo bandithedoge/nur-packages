@@ -13,12 +13,6 @@
       url = "https://github.com/onagre-launcher/onagre/archive/c68c716b086afa3cc8ca02a9a03334493ecb5cb1.tar.gz";
       sha256 = "sha256-I6o+GVothedWTxsS7exiIxXBwFIlh3A2S14YJf01bQ4=";
     };
-    cargoLock."Cargo.lock" = {
-      lockFile = ./onagre-c68c716b086afa3cc8ca02a9a03334493ecb5cb1/Cargo.lock;
-      outputHashes = {
-
-      };
-    };
     date = "2025-04-24";
   };
 }

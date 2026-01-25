@@ -1,6 +1,6 @@
 {
   "catch2": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "catch2",
@@ -21,7 +21,7 @@
     "version": "v3.8.1"
   },
   "punkott": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": "2026-01-07",
     "extract": null,
     "name": "punkott",

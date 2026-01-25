@@ -1,6 +1,6 @@
 {
   "rnnoise-plugin": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "rnnoise-plugin",

@@ -16,19 +16,5 @@
       fetchSubmodules = false;
       sha256 = "sha256-pg5vgjINpOhoxWjhWQWpfbOaQPkCRzRbQy3FSNUWChw=";
     };
-    cargoLock."Cargo.lock" = {
-      lockFile = ./actuate-v1.4.2/Cargo.lock;
-      outputHashes = {
-        "egui-baseview-0.6.0" = "sha256-cgcyIGEmia2NIdNCvI3wrSCTQHUbDqeOAycgXg2/dy8=";
-        "reflink-0.1.3" = "sha256-1o5d/mepjbDLuoZ2/49Bi6sFgVX4WdCuhGJkk8ulhcI=";
-        "nih_plug-0.0.0" = "sha256-WOP9ZIembxB1SpYFQgpbxw2DbGFlFvrMUyJKZWJGmio=";
-        "anymap3-1.0.1" = "sha256-aIbI8NAV4IW7EpBzBsTrhMgZV+lgy5GSYwSTOyHMQzw=";
-        "vst3-com-0.1.0" = "sha256-tKWEmJR9aRpfsiuVr0K8XXYafVs+CzqCcP+Ea9qvZ7Y=";
-        "assert_no_alloc-1.1.2" = "sha256-kCwtn0uONDTlDqfCpYtjB3spYM89qWjkzUOdcGjtY3c=";
-        "clap-sys-0.5.0" = "sha256-Ha/UJlMFCVKxx1axrdRQR+T/G0xK3828xFKdfBIehKM=";
-        "nih_plug_xtask-0.1.0" = "sha256-rPd1Vmw3YK9aUz+hFlVUuf9la9nIhi74Goo8et6pZqE=";
-        "baseview-0.1.0" = "sha256-FLHmrqN7xOiDwICKefKhXKfJi/rQ7OlXmMNvlwWKViU=";
-      };
-    };
   };
 }

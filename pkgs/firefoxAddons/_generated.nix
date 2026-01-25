@@ -465,17 +465,16 @@
   };
   "github-isometric-contributions" = buildFirefoxXpiAddon {
     pname = "github-isometric-contributions";
-    version = "1.1.31";
+    version = "1.2.0";
     addonId = "isometric-contributions@jasonlong.me";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4326182/github_isometric_contributions-1.1.31.xpi";
-    sha256 = "bb55818eb558344debfbd0c19ae7ae287ba4d6fa3d119904fe088220c3661be8";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4674485/github_isometric_contributions-1.2.0.xpi";
+    sha256 = "4ccfc4f412264e1e52c2934d1a238d03c7103fc2b717cc3ce02355421ee2b401";
     meta = with lib; {
       description = "Renders an isometric pixel view of GitHub contribution graphs.";
       license = licenses.mit;
       mozPermissions = [
         "storage"
-        "contextMenus"
-        "activeTab"
+        "https://github.com/"
         "https://github.com/*"
       ];
       platforms = platforms.all;
@@ -841,10 +840,10 @@
   };
   "nexusmods-advance" = buildFirefoxXpiAddon {
     pname = "nexusmods-advance";
-    version = "0.26.2";
+    version = "0.26.3";
     addonId = "NexusModsAdvance@Caiota";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4656021/nexusmods_advance-0.26.2.xpi";
-    sha256 = "ef39949acc2b46dc14efea964926acff0bd09918813e049ae520ad4f36fd3d06";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4674695/nexusmods_advance-0.26.3.xpi";
+    sha256 = "78962d4d9cb598494cb400e914afa5059f9ce27fc8c2dc90caa9cdbfa2a4e48b";
     meta = with lib; {
       description = "Enhance your browsing experience on the NexusMods site and manage your mods directly through the browser!";
       license = licenses.mpl20;
@@ -1383,10 +1382,10 @@
   };
   "refined-github" = buildFirefoxXpiAddon {
     pname = "refined-github";
-    version = "26.1.18";
+    version = "26.1.24";
     addonId = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4669016/refined_github-26.1.18.xpi";
-    sha256 = "7783de3e1dbeeec1fb9947a1d6e63cda259bcf4dd06b9f5d6d49e9baede60b4a";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4674175/refined_github-26.1.24.xpi";
+    sha256 = "ba36e08ec22ee45a14ba8893f84ed3a8b1e27bfa89e356ffcedecd0e769542a2";
     meta = with lib; {
       homepage = "https://github.com/refined-github/refined-github";
       description = "Simplifies the GitHub interface and adds many useful features.";

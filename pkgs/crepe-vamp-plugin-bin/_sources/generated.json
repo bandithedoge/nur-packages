@@ -1,6 +1,6 @@
 {
   "crepe-vamp-plugin-bin": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "crepe-vamp-plugin-bin",

@@ -1,6 +1,6 @@
 {
   "six-sines": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "six-sines",
@@ -21,7 +21,7 @@
     "version": "v1.1.0"
   },
   "vst3sdk": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "vst3sdk",

@@ -1,22 +1,22 @@
 {
-    "nu-lint": {
-        "cargoLock": null,
-        "date": "2026-01-23",
-        "extract": null,
-        "name": "nu-lint",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "deepClone": false,
-            "fetchSubmodules": false,
-            "leaveDotGit": false,
-            "name": null,
-            "rev": "4cc3623b4e1757e67e9a058c7152fa1065074096",
-            "sha256": "sha256-gqZAvWCTFLxopInnpZmqaTmWI0gw+PvyHmPlFMv4TS4=",
-            "sparseCheckout": [],
-            "type": "git",
-            "url": "https://codeberg.org/wvhulle/nu-lint.git"
-        },
-        "version": "4cc3623b4e1757e67e9a058c7152fa1065074096"
-    }
+  "nu-lint": {
+    "cargoLock": null,
+    "date": "2026-01-23",
+    "extract": null,
+    "name": "nu-lint",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "deepClone": false,
+      "fetchSubmodules": false,
+      "leaveDotGit": false,
+      "name": null,
+      "rev": "4cc3623b4e1757e67e9a058c7152fa1065074096",
+      "sha256": "sha256-gqZAvWCTFLxopInnpZmqaTmWI0gw+PvyHmPlFMv4TS4=",
+      "sparseCheckout": [],
+      "type": "git",
+      "url": "https://codeberg.org/wvhulle/nu-lint.git"
+    },
+    "version": "4cc3623b4e1757e67e9a058c7152fa1065074096"
+  }
 }

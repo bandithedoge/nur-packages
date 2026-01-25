@@ -1,6 +1,6 @@
 {
   "sox-ng": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": "2026-01-22",
     "extract": null,
     "name": "sox-ng",

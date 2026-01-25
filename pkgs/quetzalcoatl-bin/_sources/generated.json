@@ -1,6 +1,6 @@
 {
   "quetzalcoatl-bin": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "quetzalcoatl-bin",
@@ -15,7 +15,7 @@
     "version": "0.9.0"
   },
   "quetzalcoatl-presets": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "quetzalcoatl-presets",
@@ -30,7 +30,7 @@
     "version": "0.9.0"
   },
   "quetzalcoatl-samples": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "quetzalcoatl-samples",

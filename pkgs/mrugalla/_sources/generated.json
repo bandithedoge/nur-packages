@@ -1,6 +1,6 @@
 {
   "absorb": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": "2025-09-12",
     "extract": null,
     "name": "absorb",
@@ -20,7 +20,7 @@
     "version": "dc340430494213db40c67a04e9796b0462e61363"
   },
   "adsr": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": "2025-09-15",
     "extract": null,
     "name": "adsr",
@@ -40,7 +40,7 @@
     "version": "428545e2840abc6fd2e22cb8046df1be862c3aa5"
   },
   "allhaas": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": "2025-09-12",
     "extract": null,
     "name": "allhaas",
@@ -60,7 +60,7 @@
     "version": "1c897e3ed25c37b6b64a093c42d2363d4b23189f"
   },
   "hammer-and-meiszel": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": "2025-10-10",
     "extract": null,
     "name": "hammer-and-meiszel",
@@ -80,7 +80,7 @@
     "version": "8ab4654287809054a6e28a17c8d6bb4584f9f284"
   },
   "jif": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": "2025-09-15",
     "extract": null,
     "name": "jif",
@@ -100,7 +100,7 @@
     "version": "d82e0283684b494630b2fee2c3d976f491a68f3e"
   },
   "manta": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": "2024-11-02",
     "extract": null,
     "name": "manta",
@@ -120,7 +120,7 @@
     "version": "57a76552853dc3d49341497cd61257f9ed6e81d0"
   },
   "nel-19": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": "2024-09-08",
     "extract": null,
     "name": "nel-19",
@@ -140,7 +140,7 @@
     "version": "eb112420eb8547c419ffd1fe5f66672bb600fe47"
   },
   "nelorbit": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": "2025-09-12",
     "extract": null,
     "name": "nelorbit",
@@ -160,7 +160,7 @@
     "version": "9fd3eb30351216e400e09c9e322242a059f0355c"
   },
   "overdrive-reneo": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": "2025-09-15",
     "extract": null,
     "name": "overdrive-reneo",
@@ -180,7 +180,7 @@
     "version": "a7ab76e2915a0e68f2e6946d8389ad6e308643ac"
   },
   "perlinnoisemod": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": "2025-09-15",
     "extract": null,
     "name": "perlinnoisemod",
@@ -200,7 +200,7 @@
     "version": "5951a7f8ca94045e09ebbe2757c4a15a91595c46"
   },
   "pitchglitcher": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": "2025-09-15",
     "extract": null,
     "name": "pitchglitcher",
@@ -220,7 +220,7 @@
     "version": "1c95571b5548f1f0aa7283ebacedb2bdf07c0431"
   },
   "slew-over": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": "2025-09-12",
     "extract": null,
     "name": "slew-over",
@@ -240,7 +240,7 @@
     "version": "c1d8e253931a10acb7c221960dfa760db964cedd"
   },
   "susquash": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": "2025-09-15",
     "extract": null,
     "name": "susquash",
@@ -260,7 +260,7 @@
     "version": "3af376db597195005b655c708483ccce8be49c5f"
   },
   "xen": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": "2026-01-12",
     "extract": null,
     "name": "xen",

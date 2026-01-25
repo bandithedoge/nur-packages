@@ -1,6 +1,6 @@
 {
   "ACE": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "ACE",
@@ -14,7 +14,7 @@
     "version": "143_16518"
   },
   "Bazille": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "Bazille",
@@ -28,7 +28,7 @@
     "version": "113_16518"
   },
   "BazilleCM": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "BazilleCM",
@@ -42,7 +42,7 @@
     "version": "101_12185"
   },
   "ColourCopy": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "ColourCopy",
@@ -56,7 +56,7 @@
     "version": "102_16742"
   },
   "Diva": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "Diva",
@@ -70,7 +70,7 @@
     "version": "148_16519"
   },
   "Filterscape": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "Filterscape",
@@ -84,7 +84,7 @@
     "version": "151_15664"
   },
   "Hive": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "Hive",
@@ -98,7 +98,7 @@
     "version": "212_16520"
   },
   "MFM2": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "MFM2",
@@ -112,7 +112,7 @@
     "version": "251_16742"
   },
   "Podolski": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "Podolski",
@@ -126,7 +126,7 @@
     "version": "123_12092"
   },
   "Presswerk": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "Presswerk",
@@ -140,7 +140,7 @@
     "version": "116_16960"
   },
   "Protoverb": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "Protoverb",
@@ -154,7 +154,7 @@
     "version": "101_12092"
   },
   "Repro-1": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "Repro-1",
@@ -168,7 +168,7 @@
     "version": "113_16797"
   },
   "Satin": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "Satin",
@@ -182,7 +182,7 @@
     "version": "133_15721"
   },
   "TripleCheese": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "TripleCheese",
@@ -196,7 +196,7 @@
     "version": "130_12092"
   },
   "Twangstrom": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "Twangstrom",
@@ -210,7 +210,7 @@
     "version": "102_16742"
   },
   "TyrellN6": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "TyrellN6",
@@ -224,7 +224,7 @@
     "version": "300_public_beta_16976"
   },
   "Uhbik": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "Uhbik",
@@ -238,7 +238,7 @@
     "version": "200_19684"
   },
   "Zebra2": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "Zebra2",
@@ -252,7 +252,7 @@
     "version": "294_16765"
   },
   "ZebraCM": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "ZebraCM",
@@ -266,7 +266,7 @@
     "version": "111_12185"
   },
   "patchelf-raphi": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": "2022-08-30",
     "extract": null,
     "name": "patchelf-raphi",

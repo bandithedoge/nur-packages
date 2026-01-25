@@ -1,6 +1,6 @@
 {
   "psydoom-bin-aarch64": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "psydoom-bin-aarch64",
@@ -15,7 +15,7 @@
     "version": "1.1.1"
   },
   "psydoom-bin-armhf": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "psydoom-bin-armhf",
@@ -30,7 +30,7 @@
     "version": "1.1.1"
   },
   "psydoom-bin-x86_64": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "psydoom-bin-x86_64",

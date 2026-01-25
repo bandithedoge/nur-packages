@@ -1,6 +1,6 @@
 {
   "envtool-bin": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "envtool-bin",
@@ -15,7 +15,7 @@
     "version": "v1.4.2"
   },
   "epiano2-bin": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "epiano2-bin",
@@ -30,7 +30,7 @@
     "version": "v1.4.2"
   },
   "freeverb-bin": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "freeverb-bin",
@@ -45,7 +45,7 @@
     "version": "v1.4.2"
   },
   "synth2-bin": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "synth2-bin",

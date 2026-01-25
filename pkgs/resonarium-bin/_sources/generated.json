@@ -1,6 +1,6 @@
 {
   "resonarium-bin": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "resonarium-bin",
@@ -15,7 +15,7 @@
     "version": "0.0.11"
   },
   "resonarium-effect-bin": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "resonarium-effect-bin",

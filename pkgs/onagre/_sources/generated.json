@@ -1,11 +1,6 @@
 {
   "onagre": {
-    "cargoLocks": {
-      "Cargo.lock": [
-        "./onagre-c68c716b086afa3cc8ca02a9a03334493ecb5cb1/Cargo.lock",
-        {}
-      ]
-    },
+    "cargoLock": null,
     "date": "2025-04-24",
     "extract": null,
     "name": "onagre",

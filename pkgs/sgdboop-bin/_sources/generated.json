@@ -1,6 +1,6 @@
 {
   "sgdboop-bin": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "sgdboop-bin",

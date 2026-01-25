@@ -1,6 +1,6 @@
 {
   "kiwmi": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": "2022-07-30",
     "extract": null,
     "name": "kiwmi",

@@ -1,6 +1,6 @@
 {
   "dmenu-flexipatch": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": "2025-12-05",
     "extract": null,
     "name": "dmenu-flexipatch",

@@ -1,6 +1,6 @@
 {
   "whisper-vamp-plugin-bin": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "whisper-vamp-plugin-bin",

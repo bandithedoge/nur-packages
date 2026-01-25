@@ -1,6 +1,6 @@
 {
   "chameleon": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": "2023-01-05",
     "extract": null,
     "name": "chameleon",
@@ -20,7 +20,7 @@
     "version": "bf0b03b4ebead33c84432e3beabe199ff0fa847e"
   },
   "prince": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "prince",
@@ -41,7 +41,7 @@
     "version": "v1.0"
   },
   "proteus": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "proteus",
@@ -62,7 +62,7 @@
     "version": "v1.2"
   },
   "smartamp": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": "2023-04-11",
     "extract": null,
     "name": "smartamp",
@@ -82,7 +82,7 @@
     "version": "883944d1b46d03e6e906602db2f15cf24ecb743b"
   },
   "smartpedal": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": "2022-10-12",
     "extract": null,
     "name": "smartpedal",
@@ -102,7 +102,7 @@
     "version": "fede0242a4d77fff609a49b9277151bfb63cd3cf"
   },
   "ts-m1n3": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": "2023-01-05",
     "extract": null,
     "name": "ts-m1n3",

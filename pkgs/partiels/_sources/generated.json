@@ -1,6 +1,6 @@
 {
   "partiels": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "partiels",
@@ -21,7 +21,7 @@
     "version": "2.4.0"
   },
   "vamp-plugin-sdk": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "vamp-plugin-sdk",

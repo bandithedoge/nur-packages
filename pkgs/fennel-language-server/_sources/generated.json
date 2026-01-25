@@ -1,11 +1,6 @@
 {
   "fennel-language-server": {
-    "cargoLocks": {
-      "Cargo.lock": [
-        "./fennel-language-server-59005549ca1191bf2aa364391e6bf2371889b4f8/Cargo.lock",
-        {}
-      ]
-    },
+    "cargoLock": null,
     "date": "2023-06-29",
     "extract": null,
     "name": "fennel-language-server",

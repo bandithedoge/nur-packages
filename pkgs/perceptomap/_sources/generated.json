@@ -1,6 +1,6 @@
 {
   "juce": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "juce",
@@ -21,7 +21,7 @@
     "version": "8.0.8"
   },
   "perceptomap": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "perceptomap",

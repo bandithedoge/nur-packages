@@ -1,6 +1,6 @@
 {
   "ircam-vamp-plugins-bin": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "ircam-vamp-plugins-bin",

@@ -1,6 +1,6 @@
 {
   "snd2acm": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "snd2acm",

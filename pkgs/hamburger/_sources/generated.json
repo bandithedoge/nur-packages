@@ -1,6 +1,6 @@
 {
   "clap-juce-extensions": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": "2026-01-16",
     "extract": null,
     "name": "clap-juce-extensions",
@@ -20,7 +20,7 @@
     "version": "e44a9e53ea8d22e2fbe2f366921d494534bb2b52"
   },
   "hamburger": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "hamburger",
@@ -41,7 +41,7 @@
     "version": "v0.5"
   },
   "juce": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "juce",

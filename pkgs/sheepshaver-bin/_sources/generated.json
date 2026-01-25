@@ -1,6 +1,6 @@
 {
   "sheepshaver-bin": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "sheepshaver-bin",

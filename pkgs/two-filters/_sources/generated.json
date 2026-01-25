@@ -1,6 +1,6 @@
 {
   "two-filters": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": "2026-01-12",
     "extract": null,
     "name": "two-filters",
@@ -20,7 +20,7 @@
     "version": "3abc7adf1b7b964b286d0a4df24a062dad107c4b"
   },
   "vst3sdk": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "vst3sdk",
