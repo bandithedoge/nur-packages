@@ -18,6 +18,12 @@
       sparseCheckout = [ ];
       sha256 = "sha256-gqZAvWCTFLxopInnpZmqaTmWI0gw+PvyHmPlFMv4TS4=";
     };
+    cargoLock."Cargo.lock" = {
+      lockFile = ./. + "/sha256-gqZAvWCTFLxopInnpZmqaTmWI0gw+PvyHmPlFMv4TS4=/Cargo.lock";
+      outputHashes = {
+        
+      };
+    };
     date = "2026-01-23";
   };
 }
