@@ -1,0 +1,18 @@
+[polycule]
+src.git = "https://gitlab.com/polycule_client/polycule.git"
+fetch.git = "https://gitlab.com/polycule_client/polycule.git"
+extract = ["pubspec.lock"]
+
+# https://gitlab.com/polycule_client/polycule/-/blob/main/pubspec.lock
+
+[matrix]
+src.manual = "82ad90573e0e5e1ccb2cf1e669a5861bd6db351c"
+fetch.git = "https://github.com/TheOneWithTheBraid/matrix-dart-sdk.git"
+
+[media_kit]
+src.manual = "75ed92c5c61d38beaff5d1bf1f4a3fd7bf3edaac"
+fetch.git = "https://github.com/TheOneWithTheBraid/media-kit.git"
+
+[media_kit_libs_android_video]
+src.manual = "bb17d68ca43443abf68171da1aa703f2ba90a658"
+fetch.git = "https://github.com/Predidit/media-kit.git"
