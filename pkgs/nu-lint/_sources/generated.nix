@@ -8,22 +8,22 @@
 {
   nu-lint = {
     pname = "nu-lint";
-    version = "4cc3623b4e1757e67e9a058c7152fa1065074096";
+    version = "653f19ee514db13da164e02778e5734deaca75f6";
     src = fetchgit {
       url = "https://codeberg.org/wvhulle/nu-lint.git";
-      rev = "4cc3623b4e1757e67e9a058c7152fa1065074096";
+      rev = "653f19ee514db13da164e02778e5734deaca75f6";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-gqZAvWCTFLxopInnpZmqaTmWI0gw+PvyHmPlFMv4TS4=";
+      sha256 = "sha256-Hdm1JtChg5dSnPKO8q2EVVGUL4978ZK97trvi9J1rIc=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./. + "/sha256-gqZAvWCTFLxopInnpZmqaTmWI0gw+PvyHmPlFMv4TS4=/Cargo.lock";
+      lockFile = ./. + "/sha256-Hdm1JtChg5dSnPKO8q2EVVGUL4978ZK97trvi9J1rIc=/Cargo.lock";
       outputHashes = {
         
       };
     };
-    date = "2026-01-23";
+    date = "2026-01-26";
   };
 }
