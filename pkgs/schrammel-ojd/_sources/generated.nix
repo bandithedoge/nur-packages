@@ -19,9 +19,10 @@
       sha256 = "sha256-lhPV/BmluHdRgJu/f9+qDfgbbqewIUIaAaYUTNp/m7c=";
     };
     cargoLock."Ext/Resvg4JUCE/Ext/resvg/Cargo.lock" = {
-      lockFile = ./. + "/sha256-lhPV_BmluHdRgJu_f9+qDfgbbqewIUIaAaYUTNp_m7c=/Ext/Resvg4JUCE/Ext/resvg/Cargo.lock";
+      lockFile =
+        ./. + "/sha256-lhPV_BmluHdRgJu_f9+qDfgbbqewIUIaAaYUTNp_m7c=/Ext/Resvg4JUCE/Ext/resvg/Cargo.lock";
       outputHashes = {
-        
+
       };
     };
     date = "2022-09-12";

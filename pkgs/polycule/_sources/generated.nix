@@ -59,6 +59,7 @@
     };
     extract = {
       "pubspec.lock" = ./. + "/sha256-Sx9KN9RwiCwa3vUMjsRfYb_qymABlszwDR9+3Aj34iA=/pubspec.lock";
-    };date = "2025-11-14";
+    };
+    date = "2025-11-14";
   };
 }
