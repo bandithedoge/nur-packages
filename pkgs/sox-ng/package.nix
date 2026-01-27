@@ -82,6 +82,7 @@ stdenv.mkDerivation {
   ++ lib.optional replaceSox "--enable-replace";
 
   enableParallelBuilding = true;
+  hardeningDisable = [ "format" ];
 
   meta = with lib; {
     description = "Another Swiss Army Knife of sound processing utilities";
