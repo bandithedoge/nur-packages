@@ -1,6 +1,6 @@
 {
   "slock-flexipatch": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": "2026-01-04",
     "extract": null,
     "name": "slock-flexipatch",

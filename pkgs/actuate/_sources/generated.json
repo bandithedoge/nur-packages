@@ -1,8 +1,8 @@
 {
   "actuate": {
-    "cargoLocks": {
+    "cargoLock": {
       "Cargo.lock": [
-        "./actuate-v1.4.2/Cargo.lock",
+        "sha256-pg5vgjINpOhoxWjhWQWpfbOaQPkCRzRbQy3FSNUWChw=/Cargo.lock",
         {
           "anymap3-1.0.1": "sha256-aIbI8NAV4IW7EpBzBsTrhMgZV+lgy5GSYwSTOyHMQzw=",
           "assert_no_alloc-1.1.2": "sha256-kCwtn0uONDTlDqfCpYtjB3spYM89qWjkzUOdcGjtY3c=",

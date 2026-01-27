@@ -1,6 +1,6 @@
 {
   "sapphire-plugins": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": "2025-01-27",
     "extract": null,
     "name": "sapphire-plugins",
@@ -20,7 +20,7 @@
     "version": "2aa07b6ffd6b92d3058efdb5ff7a57fb8d7f25e7"
   },
   "vst3sdk": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "vst3sdk",

@@ -273,13 +273,13 @@ let
         sha512 = "V0hjH4dGPh9Ao5p0MoRY6BVqtwCjhz6vI5LT8AJ55H+4g9/4vbHx1I54fS0XuclLhDHArPQCiMjDxjaL8fPxhw==";
       };
     };
-    "entities-6.0.1" = {
+    "entities-7.0.1" = {
       name = "entities";
       packageName = "entities";
-      version = "6.0.1";
+      version = "7.0.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/entities/-/entities-6.0.1.tgz";
-        sha512 = "aN97NXWF6AWBTahfVOIrB/NShkzi5H7F9r1s9mD3cDj4Ko5f2qhhVoYMibXF7GlLveb/D2ioWay8lxI97Ven3g==";
+        url = "https://registry.npmjs.org/entities/-/entities-7.0.1.tgz";
+        sha512 = "TWrgLOFUQTH994YUyl1yT4uyavY5nNB5muff+RtWaqNVCAK408b5ZnnbNAUEWLTCpum9w6arT70i1XdQ4UeOPA==";
       };
     };
     "escalade-3.2.0" = {
@@ -318,13 +318,13 @@ let
         sha512 = "r1ekGw/Bgpi3HLV3h1MRBIlSAdHoIMklpaQ3OQLFcRw9PwAj2rqigvIbg+dBUI51OxVI2jsEtDywDBjSiuf7Ug==";
       };
     };
-    "htmlparser2-10.0.0" = {
+    "htmlparser2-10.1.0" = {
       name = "htmlparser2";
       packageName = "htmlparser2";
-      version = "10.0.0";
+      version = "10.1.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/htmlparser2/-/htmlparser2-10.0.0.tgz";
-        sha512 = "TwAZM+zE5Tq3lrEHvOlvwgj1XLWQCtaaibSN11Q+gGBAS7Y1uZSWwXXRe4iF6OXnaq1riyQAPFOBtYc77Mxq0g==";
+        url = "https://registry.npmjs.org/htmlparser2/-/htmlparser2-10.1.0.tgz";
+        sha512 = "VTZkM9GWRAtEpveh7MSF6SjjrpNVNNVJfFup7xTY3UpFtm67foy9HDVXneLtFVt4pMz5kZtgNcvCniNFb1hlEQ==";
       };
     };
     "jiti-2.6.1" = {
@@ -767,7 +767,7 @@ in
       sources."domutils-3.2.2"
       sources."dotenv-16.6.1"
       sources."emmet-2.4.11"
-      sources."entities-6.0.1"
+      sources."entities-7.0.1"
       sources."escalade-3.2.0"
       sources."fdir-6.5.0"
       (
@@ -779,7 +779,7 @@ in
         }
       )
       sources."giget-1.2.5"
-      sources."htmlparser2-10.0.0"
+      sources."htmlparser2-10.1.0"
       sources."jiti-2.6.1"
       sources."js-yaml-4.1.1"
       sources."jsonc-parser-2.3.1"

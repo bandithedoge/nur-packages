@@ -1,6 +1,6 @@
 {
   "bassline-101": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "bassline-101",
@@ -15,7 +15,7 @@
     "version": "latest"
   },
   "chorus-lx": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "chorus-lx",
@@ -30,7 +30,7 @@
     "version": "latest"
   },
   "dac": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "dac",
@@ -45,7 +45,7 @@
     "version": "latest"
   },
   "drum": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "drum",
@@ -60,7 +60,7 @@
     "version": "latest"
   },
   "dub-x": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "dub-x",
@@ -75,7 +75,7 @@
     "version": "latest"
   },
   "eq": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "eq",
@@ -90,7 +90,7 @@
     "version": "latest"
   },
   "filter-2": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "filter-2",
@@ -105,7 +105,7 @@
     "version": "latest"
   },
   "g-verb": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "g-verb",
@@ -120,7 +120,7 @@
     "version": "latest"
   },
   "j-8": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "j-8",
@@ -135,7 +135,7 @@
     "version": "latest"
   },
   "mod": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "mod",
@@ -150,7 +150,7 @@
     "version": "latest"
   },
   "noisemaker": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "noisemaker",
@@ -165,7 +165,7 @@
     "version": "latest"
   },
   "pha": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "pha",
@@ -180,7 +180,7 @@
     "version": "latest"
   },
   "reverb-4": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "reverb-4",
@@ -195,7 +195,7 @@
     "version": "latest"
   },
   "sampler": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "sampler",
@@ -210,7 +210,7 @@
     "version": "latest"
   },
   "u-no-lx": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "u-no-lx",
@@ -225,7 +225,7 @@
     "version": "latest"
   },
   "vocoder": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "vocoder",

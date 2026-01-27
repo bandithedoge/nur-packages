@@ -1,6 +1,6 @@
 {
   "harrison-32c": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "harrison-32c",
@@ -15,7 +15,7 @@
     "version": "3-5-22"
   },
   "harrison-ava": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "harrison-ava",

@@ -1,8 +1,8 @@
 {
   "octasine": {
-    "cargoLocks": {
+    "cargoLock": {
       "Cargo.lock": [
-        "./octasine-v0.9.1/Cargo.lock",
+        "sha256-tn_mGdeZtCAJVjBO3TvH8BlSMZ_LGhHAEJZi6yPiT3U=/Cargo.lock",
         {
           "baseview-0.1.0": "sha256-QAkOTdA5krZPOUs7ExTVGfqK+sxG2A4H87GZgDl2LpU=",
           "iced_baseview-0.0.3": "sha256-BXGYNoRLZBE2DyJ/113u31ORxR2RrJ0A9fdKrhp3RiI=",

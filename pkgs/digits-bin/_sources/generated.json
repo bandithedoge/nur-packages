@@ -1,6 +1,6 @@
 {
   "digits-bin": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "digits-bin",

@@ -1,6 +1,6 @@
 {
   "squeezer-bin-standalone": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "squeezer-bin-standalone",
@@ -15,7 +15,7 @@
     "version": "2.5.4"
   },
   "squeezer-bin-vst2": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "squeezer-bin-vst2",

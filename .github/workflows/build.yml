@@ -51,6 +51,7 @@ jobs:
             --skip-cached \
             --result-file result.xml \
             --result-format junit \
+            -j 1 \
             --cachix-cache bandithedoge
         env:
           CACHIX_AUTH_TOKEN: ${{ secrets.CACHIX_AUTH_TOKEN }}

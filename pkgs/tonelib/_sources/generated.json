@@ -1,6 +1,6 @@
 {
   "bassdrive": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "bassdrive",
@@ -15,7 +15,7 @@
     "version": "2.1.0"
   },
   "easycomp": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "easycomp",
@@ -30,7 +30,7 @@
     "version": "2.2.1"
   },
   "noisereducer": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "noisereducer",
@@ -45,7 +45,7 @@
     "version": "2.0.2"
   },
   "tubewarmth": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "tubewarmth",
@@ -60,7 +60,7 @@
     "version": "2.0.1"
   },
   "zoom": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "zoom",

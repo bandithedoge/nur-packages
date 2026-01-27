@@ -19,7 +19,8 @@
       sha256 = "sha256-lhPV/BmluHdRgJu/f9+qDfgbbqewIUIaAaYUTNp/m7c=";
     };
     cargoLock."Ext/Resvg4JUCE/Ext/resvg/Cargo.lock" = {
-      lockFile = ./schrammel-ojd-31de608759f3f03cadf8537f5330168977bae232/Ext/Resvg4JUCE/Ext/resvg/Cargo.lock;
+      lockFile =
+        ./. + "/sha256-lhPV_BmluHdRgJu_f9+qDfgbbqewIUIaAaYUTNp_m7c=/Ext/Resvg4JUCE/Ext/resvg/Cargo.lock";
       outputHashes = {
 
       };

@@ -1,6 +1,6 @@
 {
   "waterfox-bin": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "waterfox-bin",

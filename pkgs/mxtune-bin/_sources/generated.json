@@ -1,6 +1,6 @@
 {
   "mxtune-bin": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "mxtune-bin",

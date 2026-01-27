@@ -1,6 +1,6 @@
 {
   "carve-bin": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "carve-bin",
@@ -15,7 +15,7 @@
     "version": "2.6.1"
   },
   "monstr-bin": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "monstr-bin",
@@ -30,7 +30,7 @@
     "version": "2.1.3"
   },
   "richter-bin": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "richter-bin",
@@ -45,7 +45,7 @@
     "version": "2.3.0"
   },
   "songbird-bin": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "songbird-bin",

@@ -1,7 +1,7 @@
 {
   "clap-juce-extensions": {
-    "cargoLocks": null,
-    "date": "2026-01-16",
+    "cargoLock": null,
+    "date": "2026-01-26",
     "extract": null,
     "name": "clap-juce-extensions",
     "passthru": null,
@@ -11,16 +11,16 @@
       "fetchSubmodules": true,
       "leaveDotGit": false,
       "name": null,
-      "rev": "e44a9e53ea8d22e2fbe2f366921d494534bb2b52",
-      "sha256": "sha256-X77BO4yHf1Nu3bopt0fDw28o3NI1vYFnDbRQT/5EH90=",
+      "rev": "02f91b7988298f7f1f05c706da16e1d9da852a87",
+      "sha256": "sha256-cPi+prl+jLq/KvjZ5M2MxxZVLSKCiJB9SQHK8psW2OU=",
       "sparseCheckout": [],
       "type": "git",
       "url": "https://github.com/free-audio/clap-juce-extensions.git"
     },
-    "version": "e44a9e53ea8d22e2fbe2f366921d494534bb2b52"
+    "version": "02f91b7988298f7f1f05c706da16e1d9da852a87"
   },
   "hamburger": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "hamburger",
@@ -41,7 +41,7 @@
     "version": "v0.5"
   },
   "juce": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "juce",

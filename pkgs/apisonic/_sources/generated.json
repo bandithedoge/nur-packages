@@ -1,6 +1,6 @@
 {
   "Speedrum": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "Speedrum",
@@ -15,7 +15,7 @@
     "version": "v1.5.3"
   },
   "Speedrum2": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "Speedrum2",
@@ -30,7 +30,7 @@
     "version": "v2.3.3"
   },
   "SpeedrumLite": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "SpeedrumLite",
@@ -45,7 +45,7 @@
     "version": "v1.0.3"
   },
   "Transperc": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "Transperc",

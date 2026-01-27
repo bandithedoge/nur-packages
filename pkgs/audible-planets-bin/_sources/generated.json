@@ -1,6 +1,6 @@
 {
   "audible-planets-lv2": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "audible-planets-lv2",
@@ -15,7 +15,7 @@
     "version": "1.2.2"
   },
   "audible-planets-vst3": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "audible-planets-vst3",

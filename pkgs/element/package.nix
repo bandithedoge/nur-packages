@@ -6,12 +6,14 @@
 
   boost,
   cairo,
+  juce,
   juceCmakeHook,
   ladspa-sdk,
   libjack2,
   lilv,
   lv2,
   pugl,
+  sol2,
   suil,
   xorg,
 
@@ -28,11 +30,13 @@ clangStdenv.mkDerivation {
   buildInputs = [
     boost
     cairo
+    juce
     ladspa-sdk
     libjack2
     lilv
     lv2
     pugl
+    sol2
     suil
     xorg.libXcomposite
   ];

@@ -1,6 +1,6 @@
 {
   "crunchrr": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "crunchrr",
@@ -15,7 +15,7 @@
     "version": "release-91"
   },
   "destruqtor": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "destruqtor",
@@ -30,7 +30,7 @@
     "version": "release-91"
   },
   "filtrr": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "filtrr",
@@ -45,7 +45,7 @@
     "version": "release-91"
   },
   "prisma": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "prisma",

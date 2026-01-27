@@ -65,9 +65,8 @@ stdenv.mkDerivation {
     mkdir -p $out/{bin,libexec/helium,share/applications,share/icons/hicolor/256x256/apps}
     cp -r * $out/libexec/helium
 
-    makeWrapper $out/libexec/helium/chrome $out/bin/helium \
+    makeWrapper $out/libexec/helium/helium $out/bin/helium \
       --add-flags ${lib.escapeShellArg commandLineArgs}
-    ln -s $out/bin/helium $out/bin/chromium
 
     patchelf --add-needed libEGL.so.1 $out/libexec/helium/lib*GL*
     rm $out/libexec/helium/libvulkan.so.1

@@ -14,7 +14,7 @@
       sha256 = "sha256-rKp07bHlKHFiGKo3KlfkzLGGDEey9b+L/oRHq2IUpBg=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./fennel-language-server-59005549ca1191bf2aa364391e6bf2371889b4f8/Cargo.lock;
+      lockFile = ./. + "/sha256-rKp07bHlKHFiGKo3KlfkzLGGDEey9b+L_oRHq2IUpBg=/Cargo.lock";
       outputHashes = {
 
       };

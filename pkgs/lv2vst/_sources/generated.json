@@ -1,6 +1,6 @@
 {
   "lv2vst": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": "2020-06-07",
     "extract": null,
     "name": "lv2vst",

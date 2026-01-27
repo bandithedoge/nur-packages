@@ -17,7 +17,7 @@
       sha256 = "sha256-pg5vgjINpOhoxWjhWQWpfbOaQPkCRzRbQy3FSNUWChw=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./actuate-v1.4.2/Cargo.lock;
+      lockFile = ./. + "/sha256-pg5vgjINpOhoxWjhWQWpfbOaQPkCRzRbQy3FSNUWChw=/Cargo.lock";
       outputHashes = {
         "egui-baseview-0.6.0" = "sha256-cgcyIGEmia2NIdNCvI3wrSCTQHUbDqeOAycgXg2/dy8=";
         "reflink-0.1.3" = "sha256-1o5d/mepjbDLuoZ2/49Bi6sFgVX4WdCuhGJkk8ulhcI=";

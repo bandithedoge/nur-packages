@@ -1,6 +1,6 @@
 {
   "monique": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": "2024-07-30",
     "extract": null,
     "name": "monique",
@@ -12,7 +12,7 @@
       "leaveDotGit": true,
       "name": null,
       "rev": "df7d3395bce862847d40237350d0161a463dcc0d",
-      "sha256": "sha256-65phpY35p95L/X+AKerxfxQ/ERlswVFNW6gGqIaBuPs=",
+      "sha256": "sha256-BxccoaC3KfHI4oEkfj2H+U2D1Nph4mKk08wOi+ie0Cw=",
       "sparseCheckout": [],
       "type": "git",
       "url": "https://github.com/surge-synthesizer/monique-monosynth"

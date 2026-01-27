@@ -1,6 +1,6 @@
 {
   "inflator": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "inflator",
@@ -21,7 +21,7 @@
     "version": "0.3.0"
   },
   "lmakeup": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "lmakeup",
@@ -42,7 +42,7 @@
     "version": "v0.2.7"
   },
   "lmatch": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "lmatch",
@@ -63,7 +63,7 @@
     "version": "v0.2.4"
   },
   "warm": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "warm",

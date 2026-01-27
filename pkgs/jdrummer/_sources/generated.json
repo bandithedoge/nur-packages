@@ -1,6 +1,6 @@
 {
   "jdrummer": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": "2026-01-06",
     "extract": null,
     "name": "jdrummer",
@@ -20,7 +20,7 @@
     "version": "714ed42587ef41befae9ca2977f15752fa4dcf9e"
   },
   "juce": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "juce",

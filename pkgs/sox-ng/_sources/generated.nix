@@ -8,16 +8,16 @@
 {
   sox-ng = {
     pname = "sox-ng";
-    version = "cf882b49d462a4e8fd46f2a6510b49669a2b1639";
+    version = "c53c84a2bddb7af39a162bb457d51de9463f3e6f";
     src = fetchgit {
       url = "https://codeberg.org/sox_ng/sox_ng.git";
-      rev = "cf882b49d462a4e8fd46f2a6510b49669a2b1639";
+      rev = "c53c84a2bddb7af39a162bb457d51de9463f3e6f";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-SbVC8lWcGSCBFs0nMIgh1/dG9uUv2sa/70BpbxIk9sw=";
+      sha256 = "sha256-1wEemGDKq2mcnifPhpZEzAzTND+/HCwmHVzNyeTQKNc=";
     };
-    date = "2026-01-18";
+    date = "2026-01-26";
   };
 }

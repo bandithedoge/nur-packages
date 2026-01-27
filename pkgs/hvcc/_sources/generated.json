@@ -1,6 +1,6 @@
 {
   "hvcc": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "hvcc",
@@ -21,7 +21,7 @@
     "version": "v0.15.0"
   },
   "wstd2daisy": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": "2024-09-20",
     "extract": null,
     "name": "wstd2daisy",

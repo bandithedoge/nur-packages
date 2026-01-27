@@ -1,6 +1,6 @@
 {
   "vitalium-verb-bin": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "vitalium-verb-bin",

@@ -1,6 +1,6 @@
 {
   "blocks": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": "2024-08-07",
     "extract": null,
     "name": "blocks",

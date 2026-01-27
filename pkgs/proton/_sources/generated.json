@@ -1,6 +1,6 @@
 {
   "proton-cachyos": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "proton-cachyos",
@@ -15,7 +15,7 @@
     "version": "cachyos-10.0-20260102-slr"
   },
   "proton-ge": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "proton-ge",
@@ -23,14 +23,14 @@
     "pinned": false,
     "src": {
       "name": null,
-      "sha256": "sha256-TFzEbn8a9T9hDgLGC8lHDbDYLgcrAHI3LvWIqCxN4xY=",
+      "sha256": "sha256-KaQv8ATp5ceeIvqaBZVJAoQWfUoufKu+VwsfnC8ylcA=",
       "type": "url",
-      "url": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton10-28/GE-Proton10-28.tar.gz"
+      "url": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton10-29/GE-Proton10-29.tar.gz"
     },
-    "version": "GE-Proton10-28"
+    "version": "GE-Proton10-29"
   },
   "proton-sarek": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "proton-sarek",
@@ -45,7 +45,7 @@
     "version": "Proton-Sarek10-17"
   },
   "proton-sarek-async": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "proton-sarek-async",

@@ -1,6 +1,6 @@
 {
   "catch2": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "catch2",
@@ -20,7 +20,7 @@
     "version": "v3.4.0"
   },
   "valentine": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "valentine",

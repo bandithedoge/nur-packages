@@ -74,9 +74,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "e6007f7c3f364cdb7146f5b6b282790948fb0bd6",
-      "url": "https://github.com/KKV9/compress.yazi/archive/e6007f7c3f364cdb7146f5b6b282790948fb0bd6.tar.gz",
-      "hash": "sha256-m5FfN2gnTHsbwP2aYaE+K6kNGfAC7HBVtCyy6HzNRrE="
+      "revision": "cb6e8ec0141915dc319ccd6b904dcd2f03502576",
+      "url": "https://github.com/KKV9/compress.yazi/archive/cb6e8ec0141915dc319ccd6b904dcd2f03502576.tar.gz",
+      "hash": "sha256-D/EpcRDIc3toeyjHqi+vGw0v9B22HVvKJua5EVEAc0U="
     },
     "exifaudio.yazi": {
       "type": "Git",
@@ -139,9 +139,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "1badf40fb87a1c80e4831bfc11b087c9abee15f9",
-      "url": "https://github.com/boydaihungst/gvfs.yazi/archive/1badf40fb87a1c80e4831bfc11b087c9abee15f9.tar.gz",
-      "hash": "sha256-gqBkA2tqFJvdaPCRRxLbHy9lBDL8xAaqferSrBSyGCM="
+      "revision": "30440c70affb1916a553d805a193c4b5ddab4058",
+      "url": "https://github.com/boydaihungst/gvfs.yazi/archive/30440c70affb1916a553d805a193c4b5ddab4058.tar.gz",
+      "hash": "sha256-jcNHthObhZ5OPHwBxy0Pc3udlGUaZF9WqxHeoXeFbtg="
     },
     "hexyl.yazi": {
       "type": "Git",
@@ -425,9 +425,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "88bd1c58357d472fe7e8daf9904936771fc49795",
-      "url": "https://github.com/imsi32/yatline.yazi/archive/88bd1c58357d472fe7e8daf9904936771fc49795.tar.gz",
-      "hash": "sha256-RkQKZQAa5U9eMWk1Q0doueJZiuP4elUJ0dM1XKLSnDo="
+      "revision": "3227a30b21f69b68df513754b5a00d6e75cece57",
+      "url": "https://github.com/imsi32/yatline.yazi/archive/3227a30b21f69b68df513754b5a00d6e75cece57.tar.gz",
+      "hash": "sha256-yhptHABQ0alVab2i367D5grJyG7SrfHH8H4JuGeYFyk="
     }
   },
   "version": 7

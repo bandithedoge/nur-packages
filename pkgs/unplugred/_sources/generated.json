@@ -1,7 +1,7 @@
 {
   "clap-juce-extensions": {
-    "cargoLocks": null,
-    "date": "2026-01-16",
+    "cargoLock": null,
+    "date": "2026-01-26",
     "extract": null,
     "name": "clap-juce-extensions",
     "passthru": null,
@@ -11,16 +11,16 @@
       "fetchSubmodules": true,
       "leaveDotGit": false,
       "name": null,
-      "rev": "e44a9e53ea8d22e2fbe2f366921d494534bb2b52",
-      "sha256": "sha256-X77BO4yHf1Nu3bopt0fDw28o3NI1vYFnDbRQT/5EH90=",
+      "rev": "02f91b7988298f7f1f05c706da16e1d9da852a87",
+      "sha256": "sha256-cPi+prl+jLq/KvjZ5M2MxxZVLSKCiJB9SQHK8psW2OU=",
       "sparseCheckout": [],
       "type": "git",
       "url": "https://github.com/free-audio/clap-juce-extensions"
     },
-    "version": "e44a9e53ea8d22e2fbe2f366921d494534bb2b52"
+    "version": "02f91b7988298f7f1f05c706da16e1d9da852a87"
   },
   "juce": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "juce",
@@ -41,8 +41,8 @@
     "version": "7.0.12"
   },
   "unplugred": {
-    "cargoLocks": null,
-    "date": "2026-01-16",
+    "cargoLock": null,
+    "date": "2026-01-25",
     "extract": null,
     "name": "unplugred",
     "passthru": null,
@@ -52,12 +52,12 @@
       "fetchSubmodules": false,
       "leaveDotGit": false,
       "name": null,
-      "rev": "6fd8397d5881e42559a11e921ebd3238d7cb2fa5",
-      "sha256": "sha256-YhQpewsjQQh+8LNennSuiGwc+C+I9pacM+TKpRS3MlI=",
+      "rev": "4d86bfdadf7214707e068b1610c42f807c617d50",
+      "sha256": "sha256-tDqedme8ONe08iiS0XnHXHtxkdY0O7wPYwlre37TtOM=",
       "sparseCheckout": [],
       "type": "git",
       "url": "https://github.com/unplugred/vsts"
     },
-    "version": "6fd8397d5881e42559a11e921ebd3238d7cb2fa5"
+    "version": "4d86bfdadf7214707e068b1610c42f807c617d50"
   }
 }

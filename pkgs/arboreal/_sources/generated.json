@@ -1,6 +1,6 @@
 {
   "clap-juce-extensions": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "clap-juce-extensions",
@@ -20,7 +20,7 @@
     "version": "8d0754f5d6ca1e95bc207b7743c04ebd7dc17e88"
   },
   "juce": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "juce",
@@ -40,7 +40,7 @@
     "version": "730669c40166d49b3d2c9d6048cd0493cef998f8"
   },
   "omniamp": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "omniamp",
@@ -61,7 +61,7 @@
     "version": "1.0.2"
   },
   "pffft": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "pffft",
@@ -81,7 +81,7 @@
     "version": "e0bf595c98ded55cc457a371c1b29c8cab552628"
   },
   "pimax": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "pimax",
@@ -102,7 +102,7 @@
     "version": "1.1.3"
   },
   "str-x": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "str-x",

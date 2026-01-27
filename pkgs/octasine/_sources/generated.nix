@@ -14,7 +14,7 @@
       sha256 = "sha256-tn/mGdeZtCAJVjBO3TvH8BlSMZ/LGhHAEJZi6yPiT3U=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./octasine-v0.9.1/Cargo.lock;
+      lockFile = ./. + "/sha256-tn_mGdeZtCAJVjBO3TvH8BlSMZ_LGhHAEJZi6yPiT3U=/Cargo.lock";
       outputHashes = {
         "iced_baseview-0.0.3" = "sha256-BXGYNoRLZBE2DyJ/113u31ORxR2RrJ0A9fdKrhp3RiI=";
         "reflink-0.1.3" = "sha256-1o5d/mepjbDLuoZ2/49Bi6sFgVX4WdCuhGJkk8ulhcI=";

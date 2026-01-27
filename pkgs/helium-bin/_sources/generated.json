@@ -1,6 +1,6 @@
 {
   "helium-bin-arm64": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "helium-bin-arm64",
@@ -8,14 +8,14 @@
     "pinned": false,
     "src": {
       "name": null,
-      "sha256": "sha256-ymEQnVCAZN9SXIcVLEt6kNkkZ7USY0qBI9M1HsBkrrU=",
+      "sha256": "sha256-kWdjLBRe0jg1zvedtSnUarenuG6wK9WExZV6wW82xxo=",
       "type": "url",
-      "url": "https://github.com/imputnet/helium-linux/releases/download/0.8.2.1/helium-0.8.2.1-arm64_linux.tar.xz"
+      "url": "https://github.com/imputnet/helium-linux/releases/download/0.8.3.1/helium-0.8.3.1-arm64_linux.tar.xz"
     },
-    "version": "0.8.2.1"
+    "version": "0.8.3.1"
   },
   "helium-bin-x86_64": {
-    "cargoLocks": null,
+    "cargoLock": null,
     "date": null,
     "extract": null,
     "name": "helium-bin-x86_64",
@@ -23,10 +23,10 @@
     "pinned": false,
     "src": {
       "name": null,
-      "sha256": "sha256-hljL7KlafD1TYPmA+U8HRdXKOUdsb6Lnk4XiAYfmPI8=",
+      "sha256": "sha256-WVeqX8FeOFnfzZDPWqdSAK8qb/CMKAKVAhglcfX/sCY=",
       "type": "url",
-      "url": "https://github.com/imputnet/helium-linux/releases/download/0.8.2.1/helium-0.8.2.1-x86_64_linux.tar.xz"
+      "url": "https://github.com/imputnet/helium-linux/releases/download/0.8.3.1/helium-0.8.3.1-x86_64_linux.tar.xz"
     },
-    "version": "0.8.2.1"
+    "version": "0.8.3.1"
   }
 }
