@@ -425,9 +425,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "3227a30b21f69b68df513754b5a00d6e75cece57",
-      "url": "https://github.com/imsi32/yatline.yazi/archive/3227a30b21f69b68df513754b5a00d6e75cece57.tar.gz",
-      "hash": "sha256-yhptHABQ0alVab2i367D5grJyG7SrfHH8H4JuGeYFyk="
+      "revision": "c5d4b487d6277dd68ea9d3c6537641bf4ae9cf8e",
+      "url": "https://github.com/imsi32/yatline.yazi/archive/c5d4b487d6277dd68ea9d3c6537641bf4ae9cf8e.tar.gz",
+      "hash": "sha256-HjTRAfUHs6vlEWKruQWeA2wT/Mcd+WEHM90egFTYcWQ="
     }
   },
   "version": 7
