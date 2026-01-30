@@ -1,22 +1,22 @@
 {
-    "sox-ng": {
-        "cargoLock": null,
-        "date": "2026-01-29",
-        "extract": null,
-        "name": "sox-ng",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "deepClone": false,
-            "fetchSubmodules": false,
-            "leaveDotGit": false,
-            "name": null,
-            "rev": "6f0e23ffbe2d9a96da88257cb1b3426f05e7ae25",
-            "sha256": "sha256-s0ylXm8kst4zhY/PDoKZ5iNt6BaXs/AX6M7Y8qpGj8g=",
-            "sparseCheckout": [],
-            "type": "git",
-            "url": "https://codeberg.org/sox_ng/sox_ng.git"
-        },
-        "version": "6f0e23ffbe2d9a96da88257cb1b3426f05e7ae25"
-    }
+  "sox-ng": {
+    "cargoLock": null,
+    "date": "2026-01-29",
+    "extract": null,
+    "name": "sox-ng",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "deepClone": false,
+      "fetchSubmodules": false,
+      "leaveDotGit": false,
+      "name": null,
+      "rev": "6f0e23ffbe2d9a96da88257cb1b3426f05e7ae25",
+      "sha256": "sha256-s0ylXm8kst4zhY/PDoKZ5iNt6BaXs/AX6M7Y8qpGj8g=",
+      "sparseCheckout": [],
+      "type": "git",
+      "url": "https://codeberg.org/sox_ng/sox_ng.git"
+    },
+    "version": "6f0e23ffbe2d9a96da88257cb1b3426f05e7ae25"
+  }
 }
