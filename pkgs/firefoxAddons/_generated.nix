@@ -538,10 +538,10 @@
   };
   "indie-wiki-buddy" = buildFirefoxXpiAddon {
     pname = "indie-wiki-buddy";
-    version = "3.13.8";
+    version = "3.14.0";
     addonId = "{cb31ec5d-c49a-4e5a-b240-16c767444f62}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4585291/indie_wiki_buddy-3.13.8.xpi";
-    sha256 = "edadaabaaa32aa43b148231abb2e9e60b0677da9e65d9cee68f95e97b2195a1a";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4674222/indie_wiki_buddy-3.14.0.xpi";
+    sha256 = "a35d614b0e31db684d212914593825c023e5dfccf4a005ef24d3a39910f7128e";
     meta = with lib; {
       homepage = "https://getindie.wiki/";
       description = "Helping you discover quality, independent wikis!\n\nWhen visiting a Fandom wiki, Indie Wiki Buddy redirects or alerts you of independent alternatives. It also filters search engine results. BreezeWiki is also supported, to reduce clutter on Fandom.";
@@ -1695,10 +1695,10 @@
   };
   "ublock-origin" = buildFirefoxXpiAddon {
     pname = "ublock-origin";
-    version = "1.68.0";
+    version = "1.69.0";
     addonId = "uBlock0@raymondhill.net";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4629131/ublock_origin-1.68.0.xpi";
-    sha256 = "5caf4abda494018841222a12156919bbdd8cad82a783c38c36b22dd642704315";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4675310/ublock_origin-1.69.0.xpi";
+    sha256 = "785bcde68a25faa8a0949964ec5ffe9bdcb85d3f0ae21c23f607c6c8f91472cf";
     meta = with lib; {
       homepage = "https://github.com/gorhill/uBlock#ublock-origin";
       description = "Finally, an efficient wide-spectrum content blocker. Easy on CPU and memory.";

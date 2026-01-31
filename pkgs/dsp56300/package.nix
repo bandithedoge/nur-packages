@@ -1,21 +1,19 @@
 {
+  enableJE8086 ? true,
+  enableNodalRed2x ? true,
+  enableOsTIrus ? true,
+  enableOsirus ? true,
+  enableVavra ? true,
+  enableXenia ? true,
+
   sources,
 
-  gcc14Stdenv,
   lib,
+  stdenv,
 
   juceCmakeHook,
-
-  variants ? [
-    "nodalred2x"
-    "osirus"
-    "ostirus"
-    "vavra"
-    "xenia"
-  ],
 }:
-assert builtins.length variants != 0;
-gcc14Stdenv.mkDerivation {
+stdenv.mkDerivation {
   inherit (sources.dsp56300) pname version src;
 
   nativeBuildInputs = [
@@ -29,17 +27,20 @@ gcc14Stdenv.mkDerivation {
   installPhase = ''
     mkdir -p $out/{bin,lib}
   ''
-  + lib.optionalString (builtins.elem "osirus" variants || builtins.elem "ostirus" variants) ''
+  + lib.optionalString enableJE8086 ''
+    cp source/ronaldo/je8086/jeTestConsole/JE8086TestConsole $out/bin
+  ''
+  + lib.optionalString enableNodalRed2x ''
+    cp source/nord/n2x/n2xTestConsole/n2xTestConsole $out/bin
+  ''
+  + lib.optionalString (enableOsirus || enableOsTIrus) ''
     cp source/virusTestConsole/virusTestConsole $out/bin
   ''
-  + lib.optionalString (builtins.elem "vavra" variants) ''
+  + lib.optionalString enableVavra ''
     cp source/mqTestConsole/mqTestConsole $out/bin
   ''
-  + lib.optionalString (builtins.elem "xenia" variants) ''
+  + lib.optionalString enableXenia ''
     cp source/xtTestConsole/xtTestConsole $out/bin
-  ''
-  + lib.optionalString (builtins.elem "nodalred2x" variants) ''
-    cp source/nord/n2x/n2xTestConsole/n2xTestConsole $out/bin
   ''
   + ''
     cd ../bin/plugins/Release
@@ -48,16 +49,19 @@ gcc14Stdenv.mkDerivation {
     cp -r VST $out/lib/vst
   '';
 
-  cmakeFlags =
-    let
-      enable = name: cond: "gearmulator_${lib.toUpper name}=${if cond then "on" else "off"}";
-    in
-    map (v: enable "SYNTH_${v}" true) variants;
+  cmakeFlags = [
+    (lib.cmakeBool "gearmulator_SYNTH_JE8086" enableJE8086)
+    (lib.cmakeBool "gearmulator_SYNTH_NODALRED2X" enableNodalRed2x)
+    (lib.cmakeBool "gearmulator_SYNTH_OSIRUS" enableOsirus)
+    (lib.cmakeBool "gearmulator_SYNTH_OSTIRUS" enableOsTIrus)
+    (lib.cmakeBool "gearmulator_SYNTH_VAVRA" enableVavra)
+    (lib.cmakeBool "gearmulator_SYNTH_XENIA" enableXenia)
+  ];
 
   dontUseJuceInstall = true;
 
   meta = with lib; {
-    description = "Emulation of classic VA synths of the late 90s/2000s that are based on Motorola 56300 family DSPs (${lib.concatStringsSep ", " variants})";
+    description = "Emulation of classic VA synths of the late 90s/2000s that are based on Motorola 56300 family DSPs";
     homepage = "https://dsp56300.wordpress.com/";
     license = licenses.gpl3Plus;
     platforms = platforms.linux;
