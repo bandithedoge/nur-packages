@@ -750,9 +750,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "c7d0249f81bdcdd2b29dcf6aaf9b7926f88bc559",
-      "url": "https://github.com/MrcJkb/haskell-tools.nvim/archive/c7d0249f81bdcdd2b29dcf6aaf9b7926f88bc559.tar.gz",
-      "hash": "sha256-8NKIvWLe4miYJgP8EfDqtPiA1KI+an/jphmFplqnBHI="
+      "revision": "128a7e36331050603b3145b1efe1a219115464e8",
+      "url": "https://github.com/MrcJkb/haskell-tools.nvim/archive/128a7e36331050603b3145b1efe1a219115464e8.tar.gz",
+      "hash": "sha256-LHTpyiap8K+11j9JFakdNjgMpa7vvrsU00aRXUwb1pQ="
     },
     "heirline.nvim": {
       "type": "Git",
@@ -1321,9 +1321,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "81e676d3203c9eb6e4c0ccf1eba1679296ef923f",
-      "url": "https://github.com/NvChad/nvim-colorizer.lua/archive/81e676d3203c9eb6e4c0ccf1eba1679296ef923f.tar.gz",
-      "hash": "sha256-1faAhmHrYhCyeVc4vRaRWC1OW38POjTEwORjtnRdoV4="
+      "revision": "338409dd8a6ed74767bad3eb5269f1b903ffb3cf",
+      "url": "https://github.com/NvChad/nvim-colorizer.lua/archive/338409dd8a6ed74767bad3eb5269f1b903ffb3cf.tar.gz",
+      "hash": "sha256-gQnWyUVE4iXvliUSy8Cig1Ov4iMCP1UmCFIskZ6nijQ="
     },
     "nvim-cursorword": {
       "type": "Git",
