@@ -1,23 +1,23 @@
 {
-  "keepmenu": {
-    "cargoLock": null,
-    "date": "2026-01-11",
-    "extract": null,
-    "name": "keepmenu",
-    "passthru": null,
-    "pinned": false,
-    "src": {
-      "deepClone": false,
-      "fetchSubmodules": false,
-      "leaveDotGit": false,
-      "name": null,
-      "owner": "firecat53",
-      "repo": "keepmenu",
-      "rev": "43970a3c6156601912a26f5b3d4e64dbc956a6d9",
-      "sha256": "sha256-TGSyXkGEo7eybggiofEBe1K9QUISiauff/2iU15wSws=",
-      "sparseCheckout": [],
-      "type": "github"
-    },
-    "version": "43970a3c6156601912a26f5b3d4e64dbc956a6d9"
-  }
+    "keepmenu": {
+        "cargoLock": null,
+        "date": "2026-01-31",
+        "extract": null,
+        "name": "keepmenu",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "firecat53",
+            "repo": "keepmenu",
+            "rev": "3d2f6b5c9b904aaee726e729b6504fc95599bcbc",
+            "sha256": "sha256-BcpjNGdCLvfmzods/RtRd814eC7+P+aLNqYwVhNx7Sw=",
+            "sparseCheckout": [],
+            "type": "github"
+        },
+        "version": "3d2f6b5c9b904aaee726e729b6504fc95599bcbc"
+    }
 }
