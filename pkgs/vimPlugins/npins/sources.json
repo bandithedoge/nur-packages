@@ -1100,9 +1100,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "a659e840dbfe1dd6eb0f7b67dc367d0080f9da8f",
-      "url": "https://github.com/folke/neoconf.nvim/archive/a659e840dbfe1dd6eb0f7b67dc367d0080f9da8f.tar.gz",
-      "hash": "sha256-/S8tyxqjskjji49chST7hJ9AJlmxqX4cPXcgZM/Op+Q="
+      "revision": "d5361648f7cfc598aed6dcfbac81fa702af1514d",
+      "url": "https://github.com/folke/neoconf.nvim/archive/d5361648f7cfc598aed6dcfbac81fa702af1514d.tar.gz",
+      "hash": "sha256-5Zx7II30fCxjcgksswe73lNvtjowKGTiglDdCeCAI04="
     },
     "neodev.nvim": {
       "type": "Git",
