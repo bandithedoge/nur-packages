@@ -74,9 +74,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "9b6a3ab14cecc7da9f3aa4fa0ae2a7390748aca5",
-      "url": "https://github.com/b0o/SchemaStore.nvim/archive/9b6a3ab14cecc7da9f3aa4fa0ae2a7390748aca5.tar.gz",
-      "hash": "sha256-bCFDpo7O+vY7a+8gxDa0t82XoY3dyWPmm1kELFM7qUA="
+      "revision": "6217ff926e951401ac32f572da04e93e8cd6129d",
+      "url": "https://github.com/b0o/SchemaStore.nvim/archive/6217ff926e951401ac32f572da04e93e8cd6129d.tar.gz",
+      "hash": "sha256-s9aN1WOCnCzDBN50vsNXTyZVYzQmwnN7E4BSl9+yCLQ="
     },
     "aniseed": {
       "type": "Git",
@@ -659,9 +659,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "b4b1f05957a77f7662de834328827890c1a8c02b",
-      "url": "https://github.com/ibhagwan/fzf-lua/archive/b4b1f05957a77f7662de834328827890c1a8c02b.tar.gz",
-      "hash": "sha256-SUmzOvbMmc4FL4bAFa5RGK41OGkY5BxZTmED9dnXu94="
+      "revision": "e5804f4924cf74ad03834c25988998a273ae0d7b",
+      "url": "https://github.com/ibhagwan/fzf-lua/archive/e5804f4924cf74ad03834c25988998a273ae0d7b.tar.gz",
+      "hash": "sha256-JBSZZJwsLhkOl58D69fOmunR59xEqFRm1SY7jrX83OE="
     },
     "galaxyline.nvim": {
       "type": "Git",
@@ -1100,9 +1100,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "d5361648f7cfc598aed6dcfbac81fa702af1514d",
-      "url": "https://github.com/folke/neoconf.nvim/archive/d5361648f7cfc598aed6dcfbac81fa702af1514d.tar.gz",
-      "hash": "sha256-5Zx7II30fCxjcgksswe73lNvtjowKGTiglDdCeCAI04="
+      "revision": "e98b13b378cb019b52fbc8e9316ff375d5aa554a",
+      "url": "https://github.com/folke/neoconf.nvim/archive/e98b13b378cb019b52fbc8e9316ff375d5aa554a.tar.gz",
+      "hash": "sha256-R58FHvKntvH/bqrVmWuqXyrk7cvhow196qKb+vfqsy0="
     },
     "neodev.nvim": {
       "type": "Git",
@@ -1698,9 +1698,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "b681e551f1a70501a76e03f8c7215c473cb91324",
-      "url": "https://github.com/nvim-orgmode/orgmode/archive/b681e551f1a70501a76e03f8c7215c473cb91324.tar.gz",
-      "hash": "sha256-hdKpxv8catq3Q0hDhN2bF/UkDcuF8mjoyzr/PMA9ClQ="
+      "revision": "c421c7677b7332f5fd543023283a2290cf8dd4ff",
+      "url": "https://github.com/nvim-orgmode/orgmode/archive/c421c7677b7332f5fd543023283a2290cf8dd4ff.tar.gz",
+      "hash": "sha256-+5Svtm7uJUNBOkxqVdpvZVACl563FRPsM9onK0gxfo0="
     },
     "package-info.nvim": {
       "type": "Git",
