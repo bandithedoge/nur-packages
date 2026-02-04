@@ -360,9 +360,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "888026c6d5988bd9dc5be51f7f96787bb8cadc4b",
-      "url": "https://github.com/orhnk/system-clipboard.yazi/archive/888026c6d5988bd9dc5be51f7f96787bb8cadc4b.tar.gz",
-      "hash": "sha256-8YtYYxNDfQBTyMxn6Q7/BCiTiscpiZFXRuX0riMlRWQ="
+      "revision": "75a53300bed1946c6d488d42efc34864ea26ca85",
+      "url": "https://github.com/orhnk/system-clipboard.yazi/archive/75a53300bed1946c6d488d42efc34864ea26ca85.tar.gz",
+      "hash": "sha256-djvSPRHjP9bc4eXTiHwty4byVgVFRBDvfNYlX/nHVaw="
     },
     "torrent-preview.yazi": {
       "type": "Git",
