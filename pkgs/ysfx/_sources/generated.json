@@ -1,43 +1,43 @@
 {
-  "juce": {
-    "cargoLock": null,
-    "date": null,
-    "extract": null,
-    "name": "juce",
-    "passthru": null,
-    "pinned": false,
-    "src": {
-      "deepClone": false,
-      "fetchSubmodules": false,
-      "leaveDotGit": false,
-      "name": null,
-      "rev": "8.0.1",
-      "sha256": "sha256-2Bx3QHRcYRPrnw2zZzwleUQ+Q1zOKr4bl8cmsT7vUNs=",
-      "sparseCheckout": [],
-      "type": "git",
-      "url": "https://github.com/juce-framework/JUCE"
+    "juce": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "juce",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "rev": "8.0.1",
+            "sha256": "sha256-2Bx3QHRcYRPrnw2zZzwleUQ+Q1zOKr4bl8cmsT7vUNs=",
+            "sparseCheckout": [],
+            "type": "git",
+            "url": "https://github.com/juce-framework/JUCE"
+        },
+        "version": "8.0.1"
     },
-    "version": "8.0.1"
-  },
-  "ysfx": {
-    "cargoLock": null,
-    "date": null,
-    "extract": null,
-    "name": "ysfx",
-    "passthru": null,
-    "pinned": false,
-    "src": {
-      "deepClone": false,
-      "fetchSubmodules": true,
-      "leaveDotGit": false,
-      "name": null,
-      "owner": "JoepVanlier",
-      "repo": "ysfx",
-      "rev": "v0.0.42",
-      "sha256": "sha256-dh2l8Q+0wesr93oco4AOK2PWv1xtT8itPiU7n4MSQKc=",
-      "sparseCheckout": [],
-      "type": "github"
-    },
-    "version": "v0.0.42"
-  }
+    "ysfx": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "ysfx",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": true,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "JoepVanlier",
+            "repo": "ysfx",
+            "rev": "v0.0.43",
+            "sha256": "sha256-grZ58SE169fziG6GZ2jc5lEhiyH6oONmCJw/xCK5xXc=",
+            "sparseCheckout": [],
+            "type": "github"
+        },
+        "version": "v0.0.43"
+    }
 }
