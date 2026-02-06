@@ -25,7 +25,7 @@
       repo = "delirion";
       rev = "1.1.0";
       fetchSubmodules = false;
-      sha256 = "sha256-w13DfRyIAcfG+DHLRfEV/qUygLWfQkyPcUAHYmklYyo=";
+      sha256 = "sha256-87+9N/CLKuhh+suwUi/y9EVbP2aFqU9ydbjMKp4jE5c=";
     };
   };
   fogpad = {
