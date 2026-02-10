@@ -10,12 +10,12 @@
   juceCmakeHook,
   ladspa-sdk,
   libjack2,
+  libxcomposite,
   lilv,
   lv2,
   pugl,
   sol2,
   suil,
-  xorg,
 
   enablePlugins ? true,
 }:
@@ -33,12 +33,12 @@ clangStdenv.mkDerivation {
     juce
     ladspa-sdk
     libjack2
+    libxcomposite
     lilv
     lv2
     pugl
     sol2
     suil
-    xorg.libXcomposite
   ];
 
   cmakeFlags = [ (lib.cmakeBool "ELEMENT_ENABLE_PLUGINS" enablePlugins) ];

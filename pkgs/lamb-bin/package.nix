@@ -7,8 +7,10 @@
   alsa-lib,
   autoPatchelfHook,
   libGL,
+  libx11,
+  libxcb,
+  libxcb-wm,
   unzip,
-  xorg,
 }:
 stdenv.mkDerivation {
   inherit (sources.lamb-bin) pname src;
@@ -23,10 +25,10 @@ stdenv.mkDerivation {
   buildInputs = [
     alsa-lib
     libGL
+    libx11
+    libxcb
+    libxcb-wm
     stdenv.cc.cc.lib
-    xorg.libX11
-    xorg.libxcb
-    xorg.xcbutilwm
   ];
 
   installPhase = ''

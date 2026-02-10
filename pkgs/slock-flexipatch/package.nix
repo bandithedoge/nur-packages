@@ -4,18 +4,20 @@
   lib,
   stdenv,
 
+  libx11,
   libxcrypt,
-  xorg,
+  libxext,
+  libxrandr,
 }:
 stdenv.mkDerivation {
   inherit (sources.slock-flexipatch) pname src;
   version = sources.slock-flexipatch.date;
 
   buildInputs = [
+    libx11
     libxcrypt
-    xorg.libX11
-    xorg.libXext
-    xorg.libXrandr
+    libxext
+    libxrandr
   ];
 
   installFlags = [ "PREFIX=$(out)" ];

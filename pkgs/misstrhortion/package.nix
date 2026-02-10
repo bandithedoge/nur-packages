@@ -6,9 +6,9 @@
 
   cmake,
   libGL,
+  libx11,
   ninja,
   pkg-config,
-  xorg,
 }:
 stdenv.mkDerivation {
   inherit (sources.misstrhortion) pname src;
@@ -22,7 +22,7 @@ stdenv.mkDerivation {
 
   buildInputs = [
     libGL
-    xorg.libX11
+    libx11
   ];
 
   meta = with lib; {

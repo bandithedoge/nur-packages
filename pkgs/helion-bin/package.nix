@@ -13,13 +13,19 @@
   libdrm,
   libgbm,
   libsndfile,
+  libx11,
+  libxcursor,
+  libxi,
+  libxinerama,
   libxkbcommon,
+  libxrandr,
+  libxscrnsaver,
+  libxxf86vm,
   makeWrapper,
   openal,
   openssl,
   unzip,
   wayland,
-  xorg,
 }:
 stdenv.mkDerivation {
   inherit (sources.helion-bin) pname version src;
@@ -38,18 +44,18 @@ stdenv.mkDerivation {
     libdrm
     libgbm
     libsndfile
+    libx11
+    libxcursor
+    libxi
+    libxinerama
     libxkbcommon
+    libxrandr
+    libxscrnsaver
+    libxxf86vm
     openal
+    openssl
     stdenv.cc.cc.lib
     wayland
-    xorg.libX11
-    xorg.libXScrnSaver
-    xorg.libXcursor
-    xorg.libXi
-    xorg.libXinerama
-    xorg.libXrandr
-    xorg.libXxf86vm
-    openssl
   ];
 
   runtimeDependencies = [

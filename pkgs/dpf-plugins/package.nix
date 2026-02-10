@@ -7,8 +7,8 @@
   libGL,
   liblo,
   libprojectm,
+  libx11,
   pkg-config,
-  xorg,
 }:
 stdenv.mkDerivation {
   inherit (sources.dpf-plugins) pname src;
@@ -18,7 +18,7 @@ stdenv.mkDerivation {
     libGL
     liblo
     libprojectm
-    xorg.libX11
+    libx11
   ];
 
   nativeBuildInputs = [

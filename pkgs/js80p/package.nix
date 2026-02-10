@@ -6,8 +6,9 @@
 
   cairo,
   cppcheck,
+  libx11,
+  libxcb,
   symlinkJoin,
-  xorg,
 
   instructionSet ? "avx", # sse2 or avx
 }:
@@ -20,8 +21,8 @@ stdenv.mkDerivation rec {
 
   buildInputs = [
     cairo
-    xorg.libX11
-    xorg.libxcb
+    libx11
+    libxcb
   ];
 
   postPatch = ''
@@ -57,7 +58,7 @@ stdenv.mkDerivation rec {
       name = "js80p-libs";
       paths = [
         cairo
-        xorg.libxcb
+        libxcb
       ];
     })
     + "/lib";

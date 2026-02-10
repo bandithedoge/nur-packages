@@ -4,7 +4,9 @@
   lib,
   stdenv,
 
-  xorg,
+  libx11,
+  libxft,
+  libxinerama,
   zlib,
 }:
 let
@@ -15,9 +17,9 @@ stdenv.mkDerivation {
   version = source.date;
 
   buildInputs = [
-    xorg.libX11
-    xorg.libXinerama
-    xorg.libXft
+    libx11
+    libxft
+    libxinerama
     zlib
   ];
 

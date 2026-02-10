@@ -5,9 +5,12 @@
   rustPlatform,
 
   libGL,
+  libx11,
+  libxcb,
+  libxcb-wm,
+  libxcursor,
   pkg-config,
   python3,
-  xorg,
 }:
 rustPlatform.buildRustPackage {
   inherit (sources.octasine) pname src;
@@ -21,10 +24,10 @@ rustPlatform.buildRustPackage {
 
   buildInputs = [
     libGL
-    xorg.libX11
-    xorg.libXcursor
-    xorg.libxcb
-    xorg.xcbutilwm
+    libx11
+    libxcb
+    libxcb-wm
+    libxcursor
   ];
 
   postBuild = ''

@@ -4,16 +4,18 @@
   lib,
   stdenv,
 
-  xorg,
+  libx11,
+  libxft,
+  libxinerama,
 }:
 stdenv.mkDerivation {
   inherit (sources.dwm-flexipatch) src pname;
   version = sources.dwm-flexipatch.date;
 
   buildInputs = [
-    xorg.libX11
-    xorg.libXinerama
-    xorg.libXft
+    libx11
+    libxinerama
+    libxft
   ];
 
   prePatch = ''

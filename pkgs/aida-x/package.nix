@@ -6,9 +6,9 @@
 
   cmake,
   libGL,
+  libx11,
   ninja,
   python3,
-  xorg,
 }:
 stdenv.mkDerivation {
   inherit (sources.aida-x) pname version src;
@@ -21,7 +21,7 @@ stdenv.mkDerivation {
 
   buildInputs = [
     libGL
-    xorg.libX11
+    libx11
   ];
 
   cmakeFlags = [ "-DCMAKE_POLICY_VERSION_MINIMUM=3.5" ];

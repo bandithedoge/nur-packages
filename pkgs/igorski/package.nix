@@ -9,13 +9,15 @@
   freetype,
   glib,
   juceCmakeHook,
+  libx11,
+  libxcb-cursor,
+  libxcb-keysyms,
+  libxcb-util,
   libxkbcommon,
   ninja,
   pango,
   pkg-config,
   sqlite,
-  xcb-util-cursor,
-  xorg,
 }:
 let
   mkJuce =
@@ -49,14 +51,14 @@ let
     }:
     let
       commonBuildInputs = [
-        libxkbcommon
-        xcb-util-cursor
-        xorg.xcbutil
-        xorg.xcbutilkeysyms
-        xorg.libX11
+        cairo
         freetype
         glib
-        cairo
+        libx11
+        libxcb-cursor
+        libxcb-keysyms
+        libxcb-util
+        libxkbcommon
         pango
       ];
 

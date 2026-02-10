@@ -6,8 +6,9 @@
 
   autoPatchelfHook,
   libGL,
+  libx11,
+  libxcb,
   unzip,
-  xorg,
 }:
 let
   mkBlep =
@@ -29,8 +30,8 @@ let
 
       buildInputs = [
         libGL
-        xorg.libX11
-        xorg.libxcb
+        libx11
+        libxcb
       ];
 
       buildPhase = ''

@@ -8,8 +8,9 @@
   autoreconfHook,
   glib,
   gtk3,
+  libxcb,
+  libxcb-keysyms,
   unzip,
-  xorg,
 }:
 let
   patchelf-raphi = stdenv.mkDerivation {
@@ -39,8 +40,8 @@ let
       buildInputs = [
         glib
         gtk3
-        xorg.xcbutil
-        xorg.xcbutilkeysyms
+        libxcb
+        libxcb-keysyms
       ]
       ++ extraLibs;
 
