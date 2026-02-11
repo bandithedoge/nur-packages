@@ -67,7 +67,7 @@
     version = "latest";
     src = fetchurl {
       url = "https://tal-software.com/downloads/plugins/TAL-G-Verb_64_linux.zip";
-      sha256 = "sha256-wfvfYR1jlLB2uBnu9rYLaK5wMf1OpJ3Ag8CqxpXDKsw=";
+      sha256 = "sha256-Qhf4RjOYpBf983d/rrM/nmjltvngFNQAWHtOg3GfA2c=";
     };
   };
   j-8 = {
@@ -75,7 +75,7 @@
     version = "latest";
     src = fetchurl {
       url = "https://tal-software.com/downloads/plugins/TAL-J-8_64_linux.zip";
-      sha256 = "sha256-6NMv+jV3xcDOd+s7GoglmnlQaz4JBvpNfisPoliFk18=";
+      sha256 = "sha256-tem4a8C0VuphNnEtggIF5nivPF6nNM8sehIIKqj5mhY=";
     };
   };
   mod = {
