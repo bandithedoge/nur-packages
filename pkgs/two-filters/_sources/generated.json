@@ -1,43 +1,43 @@
 {
-  "two-filters": {
-    "cargoLock": null,
-    "date": "2026-01-12",
-    "extract": null,
-    "name": "two-filters",
-    "passthru": null,
-    "pinned": false,
-    "src": {
-      "deepClone": false,
-      "fetchSubmodules": true,
-      "leaveDotGit": false,
-      "name": null,
-      "rev": "3abc7adf1b7b964b286d0a4df24a062dad107c4b",
-      "sha256": "sha256-m9yBbH55RR7I9lCStvaTfDuzvaSGp1Be997j0opppKs=",
-      "sparseCheckout": [],
-      "type": "git",
-      "url": "https://github.com/baconpaul/two-filters"
+    "two-filters": {
+        "cargoLock": null,
+        "date": "2026-02-08",
+        "extract": null,
+        "name": "two-filters",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": true,
+            "leaveDotGit": false,
+            "name": null,
+            "rev": "e0188a3a40c7210b34db490fbce9cbc47ebd91a1",
+            "sha256": "sha256-d4LVAnBjBUDxLFe2xogi9o8dF6eniBkm6p+IbHi/jfY=",
+            "sparseCheckout": [],
+            "type": "git",
+            "url": "https://github.com/baconpaul/two-filters"
+        },
+        "version": "e0188a3a40c7210b34db490fbce9cbc47ebd91a1"
     },
-    "version": "3abc7adf1b7b964b286d0a4df24a062dad107c4b"
-  },
-  "vst3sdk": {
-    "cargoLock": null,
-    "date": null,
-    "extract": null,
-    "name": "vst3sdk",
-    "passthru": null,
-    "pinned": false,
-    "src": {
-      "deepClone": false,
-      "fetchSubmodules": true,
-      "leaveDotGit": false,
-      "name": null,
-      "owner": "steinbergmedia",
-      "repo": "vst3sdk",
-      "rev": "v3.7.6_build_18",
-      "sha256": "sha256-jfh+iP5rqov8q++IyG4FXlYKs4PQtFjCwCP6xou8N0E=",
-      "sparseCheckout": [],
-      "type": "github"
-    },
-    "version": "v3.7.6_build_18"
-  }
+    "vst3sdk": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "vst3sdk",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": true,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "steinbergmedia",
+            "repo": "vst3sdk",
+            "rev": "v3.7.6_build_18",
+            "sha256": "sha256-jfh+iP5rqov8q++IyG4FXlYKs4PQtFjCwCP6xou8N0E=",
+            "sparseCheckout": [],
+            "type": "github"
+        },
+        "version": "v3.7.6_build_18"
+    }
 }
