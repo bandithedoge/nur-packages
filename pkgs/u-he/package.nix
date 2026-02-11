@@ -10,6 +10,7 @@
   gtk3,
   libxcb,
   libxcb-keysyms,
+  libxcb-util,
   unzip,
 }:
 let
@@ -42,6 +43,7 @@ let
         gtk3
         libxcb
         libxcb-keysyms
+        libxcb-util
       ]
       ++ extraLibs;
 
