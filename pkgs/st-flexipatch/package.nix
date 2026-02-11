@@ -6,9 +6,10 @@
 
   fontconfig,
   freetype,
+  libx11,
+  libxft,
   ncurses,
   pkg-config,
-  xorg,
 }:
 stdenv.mkDerivation {
   inherit (sources.st-flexipatch) src pname;
@@ -22,8 +23,8 @@ stdenv.mkDerivation {
   ];
 
   buildInputs = [
-    xorg.libX11
-    xorg.libXft
+    libx11
+    libxft
   ];
 
   strictDeps = true;

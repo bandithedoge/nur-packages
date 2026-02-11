@@ -11,11 +11,11 @@
   dbus-glib,
   gtk3,
   libva,
+  libxtst,
   makeDesktopItem,
   patchelfUnstable,
   pciutils,
   pipewire,
-  xorg,
 
   config,
 }:
@@ -32,8 +32,8 @@ stdenv.mkDerivation {
     alsa-lib
     dbus-glib
     gtk3
+    libxtst
     stdenv.cc.cc.lib
-    xorg.libXtst
   ];
 
   runtimeDependencies = [

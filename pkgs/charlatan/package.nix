@@ -5,9 +5,10 @@
   stdenv,
 
   autoPatchelfHook,
+  libxcb,
+  libxcb-keysyms,
   systemd,
   unzip,
-  xorg,
 }:
 stdenv.mkDerivation {
   inherit (sources.charlatan) pname version src;
@@ -20,9 +21,9 @@ stdenv.mkDerivation {
   ];
 
   buildInputs = [
+    libxcb
+    libxcb-keysyms
     systemd
-    xorg.libxcb
-    xorg.xcbutilkeysyms
   ];
 
   buildPhase = ''

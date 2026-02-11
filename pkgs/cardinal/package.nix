@@ -17,12 +17,15 @@
   libarchive,
   liblo,
   libsamplerate,
+  libx11,
+  libxcursor,
+  libxext,
+  libxrandr,
   makeDesktopItem,
   mesa,
   pkg-config,
   python3,
   speexdsp,
-  xorg,
 }:
 stdenv.mkDerivation {
   inherit (sources.cardinal) src pname;
@@ -49,12 +52,12 @@ stdenv.mkDerivation {
     libarchive
     liblo
     libsamplerate
+    libx11
+    libxcursor
+    libxext
+    libxrandr
     mesa
     speexdsp
-    xorg.libX11
-    xorg.libXcursor
-    xorg.libXext
-    xorg.libXrandr
   ];
 
   prePatch = ''

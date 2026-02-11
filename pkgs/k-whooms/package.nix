@@ -10,10 +10,15 @@
   freetype,
   glib,
   harfbuzz,
+  libice,
+  libsm,
+  libx11,
+  libxcb,
+  libxcb-cursor,
+  libxcb-keysyms,
+  libxext,
   libxkbcommon,
   pango,
-  xcb-util-cursor,
-  xorg,
 }:
 stdenv.mkDerivation {
   inherit (sources.k-whooms) pname version src;
@@ -28,16 +33,16 @@ stdenv.mkDerivation {
     freetype
     glib
     harfbuzz
+    libice
+    libsm
+    libx11
+    libxcb
+    libxcb-cursor
+    libxcb-keysyms
+    libxext
     libxkbcommon
     pango
     stdenv.cc.cc.lib
-    xcb-util-cursor
-    xorg.libICE
-    xorg.libSM
-    xorg.libX11
-    xorg.libXext
-    xorg.libxcb
-    xorg.xcbutilkeysyms
   ];
 
   buildPhase = ''

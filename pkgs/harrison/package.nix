@@ -7,7 +7,8 @@
   autoPatchelfHook,
   curl-gnutls3,
   libGL,
-  xorg,
+  libx11,
+  libxext,
 }:
 let
   mkHarrison =
@@ -22,8 +23,8 @@ let
       buildInputs = [
         curl-gnutls3
         libGL
-        xorg.libX11
-        xorg.libXext
+        libx11
+        libxext
       ];
 
       buildPhase = ''

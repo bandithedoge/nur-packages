@@ -6,8 +6,10 @@
   stdenv,
 
   libGL,
+  libx11,
+  libxcursor,
+  libxext,
   pkg-config,
-  xorg,
 }:
 stdenv.mkDerivation {
   inherit (sources.ildaeil) pname src;
@@ -19,9 +21,9 @@ stdenv.mkDerivation {
 
   buildInputs = [
     libGL
-    xorg.libX11
-    xorg.libXcursor
-    xorg.libXext
+    libx11
+    libxcursor
+    libxext
   ];
 
   prePatch = ''

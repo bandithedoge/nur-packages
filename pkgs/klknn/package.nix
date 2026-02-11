@@ -5,8 +5,8 @@
   stdenv,
 
   autoPatchelfHook,
+  libx11,
   unzip,
-  xorg,
 }:
 let
   mkKlknn =
@@ -21,8 +21,8 @@ let
       ];
 
       buildInputs = [
+        libx11
         stdenv.cc.cc.lib
-        xorg.libX11
       ];
 
       buildPhase = ''

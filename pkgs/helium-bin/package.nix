@@ -10,13 +10,19 @@
   cups,
   expat,
   gtk4,
+  libx11,
+  libxcb,
+  libxcomposite,
+  libxdamage,
+  libxext,
+  libxfixes,
   libxkbcommon,
+  libxrandr,
   makeWrapper,
   nspr,
   nss,
   qt6,
   systemd,
-  xorg,
 
   commandLineArgs ? "",
 }:
@@ -38,21 +44,20 @@ stdenv.mkDerivation {
     cups
     expat
     gtk4
+    libx11
+    libxcb
+    libxcomposite
+    libxdamage
+    libxext
+    libxfixes
     libxkbcommon
+    libxrandr
     nspr
     nss
     qt6.qtbase
     qt6.qtwayland
     stdenv.cc.cc.lib
     systemd
-    xorg.libX11
-    xorg.libXcomposite
-    xorg.libXdamage
-    xorg.libXext
-    xorg.libXext
-    xorg.libXfixes
-    xorg.libXrandr
-    xorg.libxcb
   ];
 
   autoPatchelfIgnoreMissingDeps = [ "libQt5*.so.5" ];

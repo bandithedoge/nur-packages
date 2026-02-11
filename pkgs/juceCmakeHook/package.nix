@@ -8,10 +8,14 @@
   fontconfig,
   freetype,
   libGL,
+  libx11,
+  libxcursor,
+  libxext,
+  libxinerama,
+  libxrandr,
   mold,
   ninja,
   pkg-config,
-  xorg,
   writableTmpDirAsHomeHook,
 }:
 let
@@ -21,11 +25,11 @@ let
     fontconfig
     freetype
     libGL
-    xorg.libX11
-    xorg.libXcursor
-    xorg.libXext
-    xorg.libXinerama
-    xorg.libXrandr
+    libx11
+    libxcursor
+    libxext
+    libxinerama
+    libxrandr
   ];
 in
 makeSetupHook {

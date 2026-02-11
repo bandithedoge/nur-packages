@@ -5,8 +5,8 @@
   rustPlatform,
 
   libGL,
+  libx11,
   pkg-config,
-  xorg,
 }:
 rustPlatform.buildRustPackage {
   inherit (sources.actuate) pname src;
@@ -19,7 +19,7 @@ rustPlatform.buildRustPackage {
 
   buildInputs = [
     libGL
-    xorg.libX11
+    libx11
   ];
 
   postBuild = ''
