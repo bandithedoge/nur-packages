@@ -1,17 +1,17 @@
 {
-    "sheepshaver-bin": {
-        "cargoLock": null,
-        "date": null,
-        "extract": null,
-        "name": "sheepshaver-bin",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "name": null,
-            "sha256": "sha256-Oq6DSo6uODHvOY5QDSbOl2hsdEzBK94JB/GIWbiuhBo=",
-            "type": "url",
-            "url": "https://github.com/Korkman/macemu-appimage-builder/releases/download/2026-02-11/SheepShaver-x86_64.AppImage"
-        },
-        "version": "2026-02-11"
-    }
+  "sheepshaver-bin": {
+    "cargoLock": null,
+    "date": null,
+    "extract": null,
+    "name": "sheepshaver-bin",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-Oq6DSo6uODHvOY5QDSbOl2hsdEzBK94JB/GIWbiuhBo=",
+      "type": "url",
+      "url": "https://github.com/Korkman/macemu-appimage-builder/releases/download/2026-02-11/SheepShaver-x86_64.AppImage"
+    },
+    "version": "2026-02-11"
+  }
 }

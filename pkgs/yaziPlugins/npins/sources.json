@@ -295,9 +295,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "573b275fc0065eea3e8aa2afd07ad59e56ceff57",
-      "url": "https://github.com/AnirudhG07/rich-preview.yazi/archive/573b275fc0065eea3e8aa2afd07ad59e56ceff57.tar.gz",
-      "hash": "sha256-Nla6KUHmdpW4trejrBTrh8jSDi5cu2fIGls24Cfy3pc="
+      "revision": "7d616ad88498747b46124f32a35847324862cd83",
+      "url": "https://github.com/AnirudhG07/rich-preview.yazi/archive/7d616ad88498747b46124f32a35847324862cd83.tar.gz",
+      "hash": "sha256-KHmjff7tHFLkPqOs8IdWQ0mCliSZn/mIKYof+ulnddk="
     },
     "rsync.yazi": {
       "type": "Git",
