@@ -500,10 +500,10 @@
   };
   "harper" = buildFirefoxXpiAddon {
     pname = "harper";
-    version = "1.6.0";
+    version = "1.7.0";
     addonId = "harper@writewithharper.com";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4685080/private_grammar_checker_harper-1.6.0.xpi";
-    sha256 = "0bba1f442aaf47ad7089ce83e2e5c35f05c215aa26f881f74b6e6b7a4a2cabd8";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4692158/private_grammar_checker_harper-1.7.0.xpi";
+    sha256 = "abb1f387ade5885734ce5382a5d61bbabac146029cbbac182ca3c04aeb00f421";
     meta = with lib; {
       homepage = "https://writewithharper.com";
       description = "A private grammar checker for 21st Century English";
@@ -840,10 +840,10 @@
   };
   "nexusmods-advance" = buildFirefoxXpiAddon {
     pname = "nexusmods-advance";
-    version = "0.26.4";
+    version = "0.26.5";
     addonId = "NexusModsAdvance@Caiota";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4678660/nexusmods_advance-0.26.4.xpi";
-    sha256 = "f3878d96d474953605572e617b780903a8113283e13b9a5d8732cfce9338ba04";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4693003/nexusmods_advance-0.26.5.xpi";
+    sha256 = "a9290e235e5ba0d5947f739a6011e617d49cdd72ecef8e8c2d28d8679f0c2730";
     meta = with lib; {
       description = "Enhance your browsing experience on the NexusMods site and manage your mods directly through the browser!";
       license = licenses.mpl20;
@@ -1382,10 +1382,10 @@
   };
   "refined-github" = buildFirefoxXpiAddon {
     pname = "refined-github";
-    version = "26.2.2";
+    version = "26.2.3";
     addonId = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4682198/refined_github-26.2.2.xpi";
-    sha256 = "020f040a973b700dbac9fae6611ad1b516ab80d46e30e296b74a81e0f14bd9f4";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4691422/refined_github-26.2.3.xpi";
+    sha256 = "0d49c1f4df9b25f0e3b2807b155b668e567ca0129d97f7d5271dff3eb4c19438";
     meta = with lib; {
       homepage = "https://github.com/refined-github/refined-github";
       description = "Simplifies the GitHub interface and adds many useful features.";

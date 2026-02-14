@@ -20,6 +20,7 @@ stdenv.mkDerivation {
 
   buildInputs = [
     qt6.qtbase
+    qt6.qtshadertools
     qt6.qtsvg
   ];
 
