@@ -273,10 +273,10 @@
   };
   "canvasblocker" = buildFirefoxXpiAddon {
     pname = "canvasblocker";
-    version = "1.11";
+    version = "1.12";
     addonId = "CanvasBlocker@kkapsner.de";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4413485/canvasblocker-1.11.xpi";
-    sha256 = "0479b7315ce2c195fd2fbd519c50866030083abdb6d895c1b162d52762a676ec";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4691016/canvasblocker-1.12.xpi";
+    sha256 = "0698d92c4bd2d190b2f4025613bf4bd3dba40910d58ab4cf1b32f36637a244c9";
     meta = with lib; {
       homepage = "https://github.com/kkapsner/CanvasBlocker/";
       description = "Alters some JS APIs to prevent fingerprinting.";
