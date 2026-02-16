@@ -23,11 +23,11 @@
     "pinned": false,
     "src": {
       "name": null,
-      "sha256": "sha256-TNecD3UtM4tNwdLv5TuanCwictYLztMvZnHCzN3J2ho=",
+      "sha256": "sha256-z7lfqDKCtD/4RJMClJCPLj3KWWJy5HZiZpwQs83OlWo=",
       "type": "url",
-      "url": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton10-30/GE-Proton10-30.tar.gz"
+      "url": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton10-31/GE-Proton10-31.tar.gz"
     },
-    "version": "GE-Proton10-30"
+    "version": "GE-Proton10-31"
   },
   "proton-sarek": {
     "cargoLock": null,

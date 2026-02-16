@@ -841,9 +841,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "2597bccb57d1b570fbdbd4adf88b955f7ade715b",
-      "url": "https://github.com/smjonas/inc-rename.nvim/archive/2597bccb57d1b570fbdbd4adf88b955f7ade715b.tar.gz",
-      "hash": "sha256-IoB6TM8DFq1hCJof5wOap5hrv5HrPheJjGVRyXFekAQ="
+      "revision": "a2f4b564c72ea1f22cba2caa97db603618d16d6f",
+      "url": "https://github.com/smjonas/inc-rename.nvim/archive/a2f4b564c72ea1f22cba2caa97db603618d16d6f.tar.gz",
+      "hash": "sha256-jnv0GLBqqD13FMU9HE+PWY/CxtK3k6iGWaRnDRpTEXM="
     },
     "incline.nvim": {
       "type": "Git",
@@ -1581,9 +1581,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "1df1960d0e3a26643a4100f64fa03b991b9f4b85",
-      "url": "https://github.com/kyazdani42/nvim-tree.lua/archive/1df1960d0e3a26643a4100f64fa03b991b9f4b85.tar.gz",
-      "hash": "sha256-Q4AuJBbDu/xmA0Gy62aPRZ8T+Sy8q7GZ5GPCyzNkN0U="
+      "revision": "516f95e8efec035d344114c591e56b7fb2d4c0dc",
+      "url": "https://github.com/kyazdani42/nvim-tree.lua/archive/516f95e8efec035d344114c591e56b7fb2d4c0dc.tar.gz",
+      "hash": "sha256-thpqDsBu5+yuHJe7UMsMR0I71M2ZeTR3QzA/EFEWXSI="
     },
     "nvim-treesitter": {
       "type": "Git",
