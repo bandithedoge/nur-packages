@@ -256,9 +256,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "eed0657a833f56ea69f3531c89ecc7bad761d611",
-      "url": "https://github.com/MasouShizuka/projects.yazi/archive/eed0657a833f56ea69f3531c89ecc7bad761d611.tar.gz",
-      "hash": "sha256-5J0eqffUzI0GodpqwzmaQJtfh75kEbbIwbR8pFH/ZmU="
+      "revision": "198c2ba30e4916ca275d2a08bd329fcf32735866",
+      "url": "https://github.com/MasouShizuka/projects.yazi/archive/198c2ba30e4916ca275d2a08bd329fcf32735866.tar.gz",
+      "hash": "sha256-Grvtx+N1DpdpMaVuDwaHu3S7zu6pQtmu1twvFIowbLM="
     },
     "reflink.yazi": {
       "type": "Git",

@@ -1,23 +1,23 @@
 {
-    "dwm-flexipatch": {
-        "cargoLock": null,
-        "date": "2026-02-15",
-        "extract": null,
-        "name": "dwm-flexipatch",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "deepClone": false,
-            "fetchSubmodules": false,
-            "leaveDotGit": false,
-            "name": null,
-            "owner": "bakkeby",
-            "repo": "dwm-flexipatch",
-            "rev": "a09d9d72199eb6a1f87acf890a234021580b97c2",
-            "sha256": "sha256-IoZC3se7YcgRT4+cUnYUn5tQdWNOsu2HZy1mYm8CebE=",
-            "sparseCheckout": [],
-            "type": "github"
-        },
-        "version": "a09d9d72199eb6a1f87acf890a234021580b97c2"
-    }
+  "dwm-flexipatch": {
+    "cargoLock": null,
+    "date": "2026-02-15",
+    "extract": null,
+    "name": "dwm-flexipatch",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "deepClone": false,
+      "fetchSubmodules": false,
+      "leaveDotGit": false,
+      "name": null,
+      "owner": "bakkeby",
+      "repo": "dwm-flexipatch",
+      "rev": "a09d9d72199eb6a1f87acf890a234021580b97c2",
+      "sha256": "sha256-IoZC3se7YcgRT4+cUnYUn5tQdWNOsu2HZy1mYm8CebE=",
+      "sparseCheckout": [],
+      "type": "github"
+    },
+    "version": "a09d9d72199eb6a1f87acf890a234021580b97c2"
+  }
 }
