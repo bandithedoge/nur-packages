@@ -139,9 +139,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "30440c70affb1916a553d805a193c4b5ddab4058",
-      "url": "https://github.com/boydaihungst/gvfs.yazi/archive/30440c70affb1916a553d805a193c4b5ddab4058.tar.gz",
-      "hash": "sha256-jcNHthObhZ5OPHwBxy0Pc3udlGUaZF9WqxHeoXeFbtg="
+      "revision": "9d64595cd5ba669dda27d41a936e748a795e949a",
+      "url": "https://github.com/boydaihungst/gvfs.yazi/archive/9d64595cd5ba669dda27d41a936e748a795e949a.tar.gz",
+      "hash": "sha256-KXx0SDcksaA7cM7UonUGVtm1JJEyC1lGja3R+fsHxtY="
     },
     "hexyl.yazi": {
       "type": "Git",
@@ -217,9 +217,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "7a0624c23b544469dc5a7800fa87fdf9b0880b2e",
-      "url": "https://github.com/saumyajyoti/omp.yazi/archive/7a0624c23b544469dc5a7800fa87fdf9b0880b2e.tar.gz",
-      "hash": "sha256-gvXC+akaV+WLQyL5cpDJXc59GtkeRxyd0gIThoq0eoU="
+      "revision": "32ae96c8da930641ee81c32f76b2d7452ba6c8d9",
+      "url": "https://github.com/saumyajyoti/omp.yazi/archive/32ae96c8da930641ee81c32f76b2d7452ba6c8d9.tar.gz",
+      "hash": "sha256-jawTDIMHIu6YYWcKy9TOuk37yiRcHZ+IhZcdNLE/2VU="
     },
     "open-with-cmd.yazi": {
       "type": "Git",
