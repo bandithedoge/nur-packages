@@ -35,9 +35,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "68f4dcc18e79b5977da9d2fdc069d7c46a14292f",
-      "url": "https://github.com/nemethf/eglot-x/archive/68f4dcc18e79b5977da9d2fdc069d7c46a14292f.tar.gz",
-      "hash": "sha256-G+cvYwgI9pTTu/EI/s5rDLKlu0oNGuL2xrdhaHntdwM="
+      "revision": "46bca93291727454dd92567e761a1e2ab5622590",
+      "url": "https://github.com/nemethf/eglot-x/archive/46bca93291727454dd92567e761a1e2ab5622590.tar.gz",
+      "hash": "sha256-c8NzzK7SOYYDB803Osp3TOymrmwC07+dcvbI4waAfco="
     },
     "eglot-yaml": {
       "type": "Git",
