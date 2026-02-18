@@ -8,16 +8,16 @@
 {
   vgmtrans = {
     pname = "vgmtrans";
-    version = "9510fe4517677d22c670d098bb7229b0b33c71f8";
+    version = "a10323f340033896a6ebd1f58e495c492675085c";
     src = fetchgit {
       url = "https://github.com/vgmtrans/vgmtrans";
-      rev = "9510fe4517677d22c670d098bb7229b0b33c71f8";
+      rev = "a10323f340033896a6ebd1f58e495c492675085c";
       fetchSubmodules = true;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-CfLXJcLgE50he0hHEEErBANqqvwKbpMswekQB/J6pZ8=";
+      sha256 = "sha256-AAVMnPtt+uf0vmCQ7U+C9pJdJOuftJfW3ZQ4iHeGGRI=";
     };
-    date = "2026-02-13";
+    date = "2026-02-17";
   };
 }

@@ -27,7 +27,7 @@
     version = "101_12185";
     src = fetchTarball {
       url = "https://uhe-dl.b-cdn.net/releases/BazilleCM_101_12185_Linux.tar.xz";
-      sha256 = "sha256-re7+ZfN7L+USFPoLE+lG3jR8smvBfXdE/5zppqReO5I=";
+      sha256 = "sha256-MYcPAeoa9/qCdIuq1eSYrhqmsY45quYQMBVRVuOytC8=";
     };
   };
   ColourCopy = {
@@ -75,7 +75,7 @@
     version = "123_12092";
     src = fetchTarball {
       url = "https://uhe-dl.b-cdn.net/releases/Podolski_123_12092_Linux.tar.xz";
-      sha256 = "sha256-QfoBUEsL3+RZZ8GfVii4eRSw/bMKe6/s5Q6njx/i8Zc=";
+      sha256 = "sha256-D4YFSKoi5LkD67+J441Q8ip9Nn4qgl2G6sUPxNvzV4w=";
     };
   };
   Presswerk = {
@@ -91,7 +91,7 @@
     version = "101_12092";
     src = fetchTarball {
       url = "https://uhe-dl.b-cdn.net/releases/Protoverb_101_12092_Linux.tar.xz";
-      sha256 = "sha256-oxzg5ChBJkt/+oweFljcKsb9hKljIFxtyvH8lzJYvOI=";
+      sha256 = "sha256-VvGHEZ1wzC7u8FLkCrVgNJL3Cx5o4N2vs5InQwIyIVg=";
     };
   };
   Repro-1 = {
@@ -115,7 +115,7 @@
     version = "130_12092";
     src = fetchTarball {
       url = "https://uhe-dl.b-cdn.net/releases/TripleCheese_130_12092_Linux.tar.xz";
-      sha256 = "sha256-VbweVqn0z/HxKRD9cJoX2WDUG39d8M5KmElakt8UzyA=";
+      sha256 = "sha256-Xkv+NcJPB1T/UNftYbHr3I6+OtprexgOTod8LxCkaYE=";
     };
   };
   Twangstrom = {
@@ -155,7 +155,7 @@
     version = "111_12185";
     src = fetchTarball {
       url = "https://uhe-dl.b-cdn.net/releases/ZebraCM_111_12185_Linux.tar.xz";
-      sha256 = "sha256-jk9TKleEqjVNtaq/kNt+rw7rTgAOONYJXifYZ1vyq9U=";
+      sha256 = "sha256-/iKtVIc28S+0hDN9iSgUqrLVKUOhF7m328aafOHJtqc=";
     };
   };
   patchelf-raphi = {
