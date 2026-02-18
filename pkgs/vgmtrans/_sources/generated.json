@@ -1,22 +1,22 @@
 {
-  "vgmtrans": {
-    "cargoLock": null,
-    "date": "2026-02-13",
-    "extract": null,
-    "name": "vgmtrans",
-    "passthru": null,
-    "pinned": false,
-    "src": {
-      "deepClone": false,
-      "fetchSubmodules": true,
-      "leaveDotGit": false,
-      "name": null,
-      "rev": "9510fe4517677d22c670d098bb7229b0b33c71f8",
-      "sha256": "sha256-CfLXJcLgE50he0hHEEErBANqqvwKbpMswekQB/J6pZ8=",
-      "sparseCheckout": [],
-      "type": "git",
-      "url": "https://github.com/vgmtrans/vgmtrans"
-    },
-    "version": "9510fe4517677d22c670d098bb7229b0b33c71f8"
-  }
+    "vgmtrans": {
+        "cargoLock": null,
+        "date": "2026-02-17",
+        "extract": null,
+        "name": "vgmtrans",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": true,
+            "leaveDotGit": false,
+            "name": null,
+            "rev": "a10323f340033896a6ebd1f58e495c492675085c",
+            "sha256": "sha256-AAVMnPtt+uf0vmCQ7U+C9pJdJOuftJfW3ZQ4iHeGGRI=",
+            "sparseCheckout": [],
+            "type": "git",
+            "url": "https://github.com/vgmtrans/vgmtrans"
+        },
+        "version": "a10323f340033896a6ebd1f58e495c492675085c"
+    }
 }
