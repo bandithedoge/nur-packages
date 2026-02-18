@@ -1,22 +1,22 @@
 {
-    "cloudreverb": {
-        "cargoLock": null,
-        "date": "2026-02-17",
-        "extract": null,
-        "name": "cloudreverb",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "deepClone": false,
-            "fetchSubmodules": true,
-            "leaveDotGit": false,
-            "name": null,
-            "rev": "a0e4e41b152069d1446f3b90acd4c7ab9b42006c",
-            "sha256": "sha256-iNZguvdaJNVwmre10bBy50sEXhXb0lPdP6VqVkBhqIs=",
-            "sparseCheckout": [],
-            "type": "git",
-            "url": "https://github.com/xunil-cloud/CloudReverb"
-        },
-        "version": "a0e4e41b152069d1446f3b90acd4c7ab9b42006c"
-    }
+  "cloudreverb": {
+    "cargoLock": null,
+    "date": "2026-02-17",
+    "extract": null,
+    "name": "cloudreverb",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "deepClone": false,
+      "fetchSubmodules": true,
+      "leaveDotGit": false,
+      "name": null,
+      "rev": "a0e4e41b152069d1446f3b90acd4c7ab9b42006c",
+      "sha256": "sha256-iNZguvdaJNVwmre10bBy50sEXhXb0lPdP6VqVkBhqIs=",
+      "sparseCheckout": [],
+      "type": "git",
+      "url": "https://github.com/xunil-cloud/CloudReverb"
+    },
+    "version": "a0e4e41b152069d1446f3b90acd4c7ab9b42006c"
+  }
 }
