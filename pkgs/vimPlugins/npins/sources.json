@@ -100,9 +100,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "41e7e7208102d95409aa2632b9dc6f7ece9f8abf",
-      "url": "https://github.com/AstroNvim/astrocore/archive/41e7e7208102d95409aa2632b9dc6f7ece9f8abf.tar.gz",
-      "hash": "sha256-J5QfHh25ktvDY9evWtAuweiGAj3dR9UjSV0+palne90="
+      "revision": "a29046604356b977df0df874face71cca78dc124",
+      "url": "https://github.com/AstroNvim/astrocore/archive/a29046604356b977df0df874face71cca78dc124.tar.gz",
+      "hash": "sha256-Rc/5EluObfP8/FQWIWKiIaXUDVzGptmu6yrgMTwfMGY="
     },
     "barbar.nvim": {
       "type": "Git",
@@ -659,9 +659,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "0867870a6033d7e9cc40f40aaf57290fba66682d",
-      "url": "https://github.com/ibhagwan/fzf-lua/archive/0867870a6033d7e9cc40f40aaf57290fba66682d.tar.gz",
-      "hash": "sha256-UFQ9wX7HuR1zR3P+Evj7XzF455CNimIgxPTFuvcxea0="
+      "revision": "b2c0603216adb92c6bba81053bc996d7ae95b77a",
+      "url": "https://github.com/ibhagwan/fzf-lua/archive/b2c0603216adb92c6bba81053bc996d7ae95b77a.tar.gz",
+      "hash": "sha256-7c3ttKzHX86cAhpM044j/6o4yNml1Q1TJR6hvBo5EGM="
     },
     "galaxyline.nvim": {
       "type": "Git",
@@ -1100,9 +1100,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "9d557b070eecbf7986e1c371ac3cf4c8f4c5df8b",
-      "url": "https://github.com/folke/neoconf.nvim/archive/9d557b070eecbf7986e1c371ac3cf4c8f4c5df8b.tar.gz",
-      "hash": "sha256-PxRr/U36XlxqYNxhzmRfueVkjz4JS6fjwZOZNF7DH1w="
+      "revision": "ee74a07465efff0338b1093b0f9c7e2bbeb479f9",
+      "url": "https://github.com/folke/neoconf.nvim/archive/ee74a07465efff0338b1093b0f9c7e2bbeb479f9.tar.gz",
+      "hash": "sha256-N5efKIEYHKG3pyPuwSbrAODcZIfJYG5Dw9aLmok3rsE="
     },
     "neodev.nvim": {
       "type": "Git",
@@ -1412,9 +1412,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "a3d17105a79fc12055c2a0d732665d9c2b1c2dc3",
-      "url": "https://github.com/mfussenegger/nvim-lint/archive/a3d17105a79fc12055c2a0d732665d9c2b1c2dc3.tar.gz",
-      "hash": "sha256-64B3InCLgD8ch9mkk6TxW1FDDyy6kbBx9cgrsQmxcTU="
+      "revision": "486474c2ace8d78d28995074dbdbe29011bc63d0",
+      "url": "https://github.com/mfussenegger/nvim-lint/archive/486474c2ace8d78d28995074dbdbe29011bc63d0.tar.gz",
+      "hash": "sha256-aK7iQMJJfUJO6KsafSHgDvGQXkf1V6jbNlLz0MNdM34="
     },
     "nvim-lsp-file-operations": {
       "type": "Git",
