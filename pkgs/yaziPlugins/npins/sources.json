@@ -269,9 +269,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "7ecd36b48038088c8c67fc9c9b5b7eca6adbbfd8",
-      "url": "https://github.com/Ape/reflink.yazi/archive/7ecd36b48038088c8c67fc9c9b5b7eca6adbbfd8.tar.gz",
-      "hash": "sha256-/lFwW/XaZkgSAPTdnpaE+pGyfdlXQxuYzud+odmEOg4="
+      "revision": "00f0fd0d8100f3a6325144565c7d6449da9c2b99",
+      "url": "https://github.com/Ape/reflink.yazi/archive/00f0fd0d8100f3a6325144565c7d6449da9c2b99.tar.gz",
+      "hash": "sha256-RHS1kqDt8GdtnLmq9zifrXNd5fu21AdRQr69ljejunI="
     },
     "relative-motions.yazi": {
       "type": "Git",
