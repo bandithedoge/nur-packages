@@ -102,13 +102,13 @@ let
         sha512 = "QLxjQR3imPZPQltfbWRnHU6JecWTF1QSWhx3GAKQpslx7y3Dp6sIIXhKjiUJ/BR9FX8PVthjr9PD6pNwOJfAzw==";
       };
     };
-    "acorn-8.15.0" = {
+    "acorn-8.16.0" = {
       name = "acorn";
       packageName = "acorn";
-      version = "8.15.0";
+      version = "8.16.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/acorn/-/acorn-8.15.0.tgz";
-        sha512 = "NZyJarBfL7nWwIq+FDL6Zp/yHEhePMNnnJ0y3qfieCrmNvYct8uvtiV41UvlSe6apAfk0fY1FbWx+NwfmpvtTg==";
+        url = "https://registry.npmjs.org/acorn/-/acorn-8.16.0.tgz";
+        sha512 = "UVJyE9MttOsBQIDKw1skb9nAwQuR5wuGD3+82K6JgJlm/Y+KI92oNsMNGZCYdDsVtRHSak0pcV5Dno5+4jh9sw==";
       };
     };
     "argparse-2.0.1" = {
@@ -735,7 +735,7 @@ in
       sources."@emmetio/html-matcher-1.3.0"
       sources."@emmetio/scanner-1.0.4"
       sources."@vscode/emmet-helper-2.11.0"
-      sources."acorn-8.15.0"
+      sources."acorn-8.16.0"
       sources."argparse-2.0.1"
       (
         sources."bumpp-9.11.1"
