@@ -1,17 +1,17 @@
 {
-    "just-a-sample-bin": {
-        "cargoLock": null,
-        "date": null,
-        "extract": null,
-        "name": "just-a-sample-bin",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "name": null,
-            "sha256": "sha256-EtNuHJ/3shpYdTNOELr/RxwK7oqMc7cqZJdwLpY2nNc=",
-            "type": "url",
-            "url": "https://github.com/BOBONA/Just-a-Sample/releases/download/v1.03.Pre/Linux.VST3.zip"
-        },
-        "version": "v1.03.Pre"
-    }
+  "just-a-sample-bin": {
+    "cargoLock": null,
+    "date": null,
+    "extract": null,
+    "name": "just-a-sample-bin",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-EtNuHJ/3shpYdTNOELr/RxwK7oqMc7cqZJdwLpY2nNc=",
+      "type": "url",
+      "url": "https://github.com/BOBONA/Just-a-Sample/releases/download/v1.03.Pre/Linux.VST3.zip"
+    },
+    "version": "v1.03.Pre"
+  }
 }
