@@ -1,23 +1,23 @@
 {
-  "dsp56300": {
-    "cargoLock": null,
-    "date": null,
-    "extract": null,
-    "name": "dsp56300",
-    "passthru": null,
-    "pinned": false,
-    "src": {
-      "deepClone": false,
-      "fetchSubmodules": true,
-      "leaveDotGit": false,
-      "name": null,
-      "owner": "dsp56300",
-      "repo": "gearmulator",
-      "rev": "2.1.1",
-      "sha256": "sha256-Q9cjYdf4sQ3ciF1yh3JpfEaGWVZjQPdBzbZjsOcSP1k=",
-      "sparseCheckout": [],
-      "type": "github"
-    },
-    "version": "2.1.1"
-  }
+    "dsp56300": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "dsp56300",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": true,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "dsp56300",
+            "repo": "gearmulator",
+            "rev": "2.1.2",
+            "sha256": "sha256-90I7mBlBuSGQLiXYSz6nx0ERl78zfLc4uDK5wRvSn6o=",
+            "sparseCheckout": [],
+            "type": "github"
+        },
+        "version": "2.1.2"
+    }
 }
