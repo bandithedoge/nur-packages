@@ -1,23 +1,23 @@
 {
-    "winegui": {
-        "cargoLock": null,
-        "date": null,
-        "extract": null,
-        "name": "winegui",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "deepClone": false,
-            "fetchSubmodules": false,
-            "leaveDotGit": false,
-            "name": null,
-            "owner": "winegui",
-            "repo": "WineGUI",
-            "rev": "v3.0.1",
-            "sha256": "sha256-QtzXGbFWT5H8tgYYVBYWB8lW8ji8NaERbzLYW9NUvWM=",
-            "sparseCheckout": [],
-            "type": "github"
-        },
-        "version": "v3.0.1"
-    }
+  "winegui": {
+    "cargoLock": null,
+    "date": null,
+    "extract": null,
+    "name": "winegui",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "deepClone": false,
+      "fetchSubmodules": false,
+      "leaveDotGit": false,
+      "name": null,
+      "owner": "winegui",
+      "repo": "WineGUI",
+      "rev": "v3.0.1",
+      "sha256": "sha256-QtzXGbFWT5H8tgYYVBYWB8lW8ji8NaERbzLYW9NUvWM=",
+      "sparseCheckout": [],
+      "type": "github"
+    },
+    "version": "v3.0.1"
+  }
 }
