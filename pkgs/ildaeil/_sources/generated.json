@@ -1,23 +1,23 @@
 {
-  "ildaeil": {
-    "cargoLock": null,
-    "date": "2026-01-31",
-    "extract": null,
-    "name": "ildaeil",
-    "passthru": null,
-    "pinned": false,
-    "src": {
-      "deepClone": false,
-      "fetchSubmodules": true,
-      "leaveDotGit": false,
-      "name": null,
-      "owner": "DISTRHO",
-      "repo": "Ildaeil",
-      "rev": "00b9aa1ab69855aef021fcdf613fc4457a2f480a",
-      "sha256": "sha256-7FvfV8oKktE+Bj4dAxDxabEuqIwp5YzBGJU/gTR7C0c=",
-      "sparseCheckout": [],
-      "type": "github"
-    },
-    "version": "00b9aa1ab69855aef021fcdf613fc4457a2f480a"
-  }
+    "ildaeil": {
+        "cargoLock": null,
+        "date": "2026-02-21",
+        "extract": null,
+        "name": "ildaeil",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": true,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "DISTRHO",
+            "repo": "Ildaeil",
+            "rev": "af9fc9f73b1a1832da8d6dfa12f7d03c431293d6",
+            "sha256": "sha256-7oayKRqAHXEkf3PMsma3HfuHYXrNNR+xkrHyYrZ7s5I=",
+            "sparseCheckout": [],
+            "type": "github"
+        },
+        "version": "af9fc9f73b1a1832da8d6dfa12f7d03c431293d6"
+    }
 }
