@@ -1,23 +1,23 @@
 {
-    "cardinal": {
-        "cargoLock": null,
-        "date": "2026-02-22",
-        "extract": null,
-        "name": "cardinal",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "deepClone": false,
-            "fetchSubmodules": true,
-            "leaveDotGit": false,
-            "name": null,
-            "owner": "DISTRHO",
-            "repo": "Cardinal",
-            "rev": "46525adee696c31473bc2d8ab4416f99e0305ba4",
-            "sha256": "sha256-s2mqoF8Fz5+Bw+TRy0bWTdBr9NcC1TDzuHVAaMdNVzY=",
-            "sparseCheckout": [],
-            "type": "github"
-        },
-        "version": "46525adee696c31473bc2d8ab4416f99e0305ba4"
-    }
+  "cardinal": {
+    "cargoLock": null,
+    "date": "2026-02-22",
+    "extract": null,
+    "name": "cardinal",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "deepClone": false,
+      "fetchSubmodules": true,
+      "leaveDotGit": false,
+      "name": null,
+      "owner": "DISTRHO",
+      "repo": "Cardinal",
+      "rev": "46525adee696c31473bc2d8ab4416f99e0305ba4",
+      "sha256": "sha256-s2mqoF8Fz5+Bw+TRy0bWTdBr9NcC1TDzuHVAaMdNVzY=",
+      "sparseCheckout": [],
+      "type": "github"
+    },
+    "version": "46525adee696c31473bc2d8ab4416f99e0305ba4"
+  }
 }
