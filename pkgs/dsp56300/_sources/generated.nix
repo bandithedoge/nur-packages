@@ -8,13 +8,13 @@
 {
   dsp56300 = {
     pname = "dsp56300";
-    version = "2.1.2";
+    version = "2.1.3";
     src = fetchFromGitHub {
       owner = "dsp56300";
       repo = "gearmulator";
-      rev = "2.1.2";
+      rev = "2.1.3";
       fetchSubmodules = true;
-      sha256 = "sha256-90I7mBlBuSGQLiXYSz6nx0ERl78zfLc4uDK5wRvSn6o=";
+      sha256 = "sha256-3yYmFc7mXdfDagen9E5npnW3ohomHsfzy7/E3dGlE+U=";
     };
   };
 }
