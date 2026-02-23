@@ -5,7 +5,7 @@
   lib,
 
   alsa-lib,
-  mpv,
+  mpv-unwrapped,
   pkg-config,
 }:
 flutter335.buildFlutterApplication {
@@ -24,7 +24,7 @@ flutter335.buildFlutterApplication {
 
   buildInputs = [
     alsa-lib
-    mpv
+    mpv-unwrapped
   ];
 
   postInstall = ''
