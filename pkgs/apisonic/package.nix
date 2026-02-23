@@ -64,7 +64,7 @@ in
           cp Standalone/Speedrum2 $out/bin
           chmod +x $out/bin/Speedrum2
           cp -r VST3/Speedrum2.vst3 $out/lib/vst3
-          cp VST/Speedrum2.so $out/lib/vst
+          cp VST/libSpeedrum2.so $out/lib/vst
 
           runHook postBuild
         '';

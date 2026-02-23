@@ -5,7 +5,7 @@
   stdenv,
 
   cmake,
-  gtkmm3,
+  gtkmm4,
   ninja,
   pkg-config,
 }:
@@ -20,7 +20,7 @@ stdenv.mkDerivation {
   ];
 
   buildInputs = [
-    gtkmm3
+    gtkmm4
   ];
 
   meta = with lib; {
