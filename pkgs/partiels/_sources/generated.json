@@ -1,43 +1,43 @@
 {
-    "partiels": {
-        "cargoLock": null,
-        "date": null,
-        "extract": null,
-        "name": "partiels",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "deepClone": false,
-            "fetchSubmodules": true,
-            "leaveDotGit": false,
-            "name": null,
-            "owner": "Ircam-Partiels",
-            "repo": "Partiels",
-            "rev": "2.4.1",
-            "sha256": "sha256-79bRChmuSQ5v8fFwyjfYcO+JHBDI+w/8v4jJx66ZAHc=",
-            "sparseCheckout": [],
-            "type": "github"
-        },
-        "version": "2.4.1"
+  "partiels": {
+    "cargoLock": null,
+    "date": null,
+    "extract": null,
+    "name": "partiels",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "deepClone": false,
+      "fetchSubmodules": true,
+      "leaveDotGit": false,
+      "name": null,
+      "owner": "Ircam-Partiels",
+      "repo": "Partiels",
+      "rev": "2.4.1",
+      "sha256": "sha256-79bRChmuSQ5v8fFwyjfYcO+JHBDI+w/8v4jJx66ZAHc=",
+      "sparseCheckout": [],
+      "type": "github"
     },
-    "vamp-plugin-sdk": {
-        "cargoLock": null,
-        "date": null,
-        "extract": null,
-        "name": "vamp-plugin-sdk",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "deepClone": false,
-            "fetchSubmodules": false,
-            "leaveDotGit": false,
-            "name": null,
-            "rev": "d7ceb7d1d490674c93d334e5378108c4328e9e05",
-            "sha256": "sha256-CCcjHIykhaplN12GZUp9Q0EAEy5YL6ih/C+qpQmlcIM=",
-            "sparseCheckout": [],
-            "type": "git",
-            "url": "https://github.com/vamp-plugins/vamp-plugin-sdk.git"
-        },
-        "version": "d7ceb7d1d490674c93d334e5378108c4328e9e05"
-    }
+    "version": "2.4.1"
+  },
+  "vamp-plugin-sdk": {
+    "cargoLock": null,
+    "date": null,
+    "extract": null,
+    "name": "vamp-plugin-sdk",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "deepClone": false,
+      "fetchSubmodules": false,
+      "leaveDotGit": false,
+      "name": null,
+      "rev": "d7ceb7d1d490674c93d334e5378108c4328e9e05",
+      "sha256": "sha256-CCcjHIykhaplN12GZUp9Q0EAEy5YL6ih/C+qpQmlcIM=",
+      "sparseCheckout": [],
+      "type": "git",
+      "url": "https://github.com/vamp-plugins/vamp-plugin-sdk.git"
+    },
+    "version": "d7ceb7d1d490674c93d334e5378108c4328e9e05"
+  }
 }
