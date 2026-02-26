@@ -1,0 +1,4 @@
+[sable]
+src.git = "https://github.com/7w1/sable.git"
+fetch.git = "https://github.com/7w1/sable.git"
+extract = ["package.json", "package-lock.json"]
