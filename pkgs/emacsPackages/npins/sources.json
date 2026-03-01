@@ -74,9 +74,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "a6f950c29c846a50018bc63695f24f611c1a58be",
-      "url": "https://github.com/emacs-magus/once/archive/a6f950c29c846a50018bc63695f24f611c1a58be.tar.gz",
-      "hash": "sha256-lDpj+LVRjBYb5XCIjLumENb1T4VmWL/ray6NkOK0K8w="
+      "revision": "78a03dfa53a48304b82cbf2a0c3c0b89351fbb2f",
+      "url": "https://github.com/emacs-magus/once/archive/78a03dfa53a48304b82cbf2a0c3c0b89351fbb2f.tar.gz",
+      "hash": "sha256-UkJQSQ/P5AT0FSgCnCK6GQI9Q90YL3rw7DwOnOSK+HU="
     },
     "org-bars": {
       "type": "Git",

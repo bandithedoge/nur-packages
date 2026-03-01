@@ -465,10 +465,10 @@
   };
   "github-isometric-contributions" = buildFirefoxXpiAddon {
     pname = "github-isometric-contributions";
-    version = "1.2.1";
+    version = "1.2.2";
     addonId = "isometric-contributions@jasonlong.me";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4678436/github_isometric_contributions-1.2.1.xpi";
-    sha256 = "da2128370c5b864ef7a369c45d2fe5d52be850bca66e2a926ea46a5386fec5eb";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4708681/github_isometric_contributions-1.2.2.xpi";
+    sha256 = "f7b6d4fe3d7ab00d037ec42f3c947232bfb695c84a968abdc726d8f387298892";
     meta = with lib; {
       description = "Renders an isometric pixel view of GitHub contribution graphs.";
       license = licenses.mit;
@@ -500,10 +500,10 @@
   };
   "harper" = buildFirefoxXpiAddon {
     pname = "harper";
-    version = "1.8.0";
+    version = "1.9.0";
     addonId = "harper@writewithharper.com";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4698974/private_grammar_checker_harper-1.8.0.xpi";
-    sha256 = "37e7c252f61659d37be37496527cf8285b480bd0f91babc2370b418b69b79e33";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4708425/private_grammar_checker_harper-1.9.0.xpi";
+    sha256 = "e49daf5a4f40b42a631f48667b64406f037cdce6cd3fc249c277879d703ca47a";
     meta = with lib; {
       homepage = "https://writewithharper.com";
       description = "A private grammar checker for 21st Century English";
@@ -903,10 +903,10 @@
   };
   "privacy-badger" = buildFirefoxXpiAddon {
     pname = "privacy-badger";
-    version = "2025.12.9";
+    version = "2026.2.20";
     addonId = "jid1-MnnxcxisBPnSXQ@jetpack";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4638816/privacy_badger17-2025.12.9.xpi";
-    sha256 = "f432abdcdced726c992bfefa9ad00deb6fa8b6a7e439996095d507627439cea1";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4700632/privacy_badger17-2026.2.20.xpi";
+    sha256 = "eea49f1461de5eb00eb17b22b2864b55b54acb577b0360687460fe982633fbd6";
     meta = with lib; {
       homepage = "https://privacybadger.org/";
       description = "Automatically learns to block hidden trackers. Made by the leading digital rights nonprofit EFF to stop companies from spying on you.";
@@ -1657,10 +1657,10 @@
   };
   "tridactyl" = buildFirefoxXpiAddon {
     pname = "tridactyl";
-    version = "1.24.4";
+    version = "1.24.5";
     addonId = "tridactyl.vim@cmcaine.co.uk";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4549492/tridactyl_vim-1.24.4.xpi";
-    sha256 = "9ba7d6bc3be555631c981c3acdd25cab6942c1f4a6f0cb511bbe8fa81d79dd9d";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4704384/tridactyl_vim-1.24.5.xpi";
+    sha256 = "0bf18c2a3a8edbcbf46c991548988ec510734b19b95f325beb76f4484079fb07";
     meta = with lib; {
       homepage = "https://tridactyl.xyz";
       description = "Vim, but in your browser. Replace Firefox's control mechanism with one modelled on Vim.\n\nThis addon is very usable, but is in an early stage of development. We intend to implement the majority of Vimperator's features.";
