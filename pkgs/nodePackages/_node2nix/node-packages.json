@@ -1,6 +1,3 @@
 [
-  "@olrtg/emmet-language-server",
-  "@tailwindcss/language-server",
-  "emmet-ls",
   "some-sass-language-server"
 ]
