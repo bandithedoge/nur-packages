@@ -6,6 +6,7 @@
 
   libGL,
   libx11,
+  libxcb,
   pkg-config,
 }:
 rustPlatform.buildRustPackage {
@@ -20,6 +21,7 @@ rustPlatform.buildRustPackage {
   buildInputs = [
     libGL
     libx11
+    libxcb
   ];
 
   postBuild = ''
@@ -43,6 +45,6 @@ rustPlatform.buildRustPackage {
     homepage = "https://github.com/ardura/Actuate";
     license = licenses.gpl3Plus;
     platforms = platforms.linux;
-    broken = true; # weird rust dependency hash things happening
+    # broken = true; # weird rust dependency hash things happening
   };
 }
