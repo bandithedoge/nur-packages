@@ -16,6 +16,7 @@
   filtr = [ "filt-r" ];
   lamb = [ "lamb-bin" ];
   microbiome-bin = [ "microbiome" ];
+  nodePackages.some-sass-language-server = [ "some-sass-language-server" ];
   osirus = [ "dsp56300" ];
   proton-cachyos-bin = [
     "proton"

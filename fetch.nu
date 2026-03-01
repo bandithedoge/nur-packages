@@ -8,16 +8,6 @@ def fetch-firefox [] {
     ^mozilla-addons-to-nix pkgs/firefoxAddons/addons.json pkgs/firefoxAddons/_generated.nix
 }
 
-def fetch-node [] {
-    let path = "pkgs/nodePackages/_node2nix"
-    (^node2nix
-        -i ($path ++ /node-packages.json)
-        -o ($path ++ /node-packages.nix)
-        -c ($path ++ /default.nix)
-        -e ($path ++ /node-env.nix)
-    )
-}
-
 def fetch-vim [] {
     ^npins -d pkgs/vimPlugins/npins update
 }
@@ -55,7 +45,6 @@ def main [
         }
         fetch-emacs
         fetch-firefox
-        fetch-node
         fetch-vim
         fetch-xplr
         fetch-yazi
@@ -64,7 +53,6 @@ def main [
             match $package {
                 "emacs" => fetch-emacs,
                 "firefox" => fetch-firefox,
-                "node" => fetch-node,
                 "vim" => fetch-vim,
                 "xplr" => fetch-xplr,
                 "yazi" => fetch-yazi,

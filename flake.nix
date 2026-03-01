@@ -146,7 +146,6 @@
             update = pkgs.mkShell {
               packages = with pkgs; [
                 inputs.mozilla-addons-to-nix.packages.${system}.default
-                node2nix
                 npins
                 nushell
                 nvfetcher
