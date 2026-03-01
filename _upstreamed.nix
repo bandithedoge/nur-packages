@@ -31,6 +31,11 @@
   luakit = [ "luakit" ];
   mesonlsp-bin = [ "mesonlsp" ];
   nimlangserver = [ "nimlangserver" ];
+  nodePackages = {
+    emmet-ls = [ "emmet-ls" ];
+    emmet-language-server = [ "emmet-language-server" ];
+    tailwindcss-language-server = [ "tailwindcss-language-server" ];
+  };
   nugget-doom = [ "nugget-doom" ];
   powertab = [ "powertab-editor" ];
   satty = [ "satty" ];

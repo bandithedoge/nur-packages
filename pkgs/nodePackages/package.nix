@@ -4,10 +4,6 @@ let
 in
 {
   inherit (nodeDeps)
-    emmet-ls
     some-sass-language-server
     ;
-
-  emmet-language-server = nodeDeps."@olrtg/emmet-language-server";
-  tailwindcss-language-server = nodeDeps."@tailwindcss/language-server";
 }
