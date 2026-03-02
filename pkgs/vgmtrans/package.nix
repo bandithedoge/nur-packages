@@ -9,8 +9,7 @@
   qt6,
 }:
 stdenv.mkDerivation {
-  inherit (sources.vgmtrans) pname src;
-  version = sources.vgmtrans.date;
+  inherit (sources.vgmtrans) pname version src;
 
   nativeBuildInputs = [
     cmake
