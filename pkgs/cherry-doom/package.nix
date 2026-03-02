@@ -13,7 +13,7 @@
   libsndfile,
   libxmp,
   ninja,
-  openalSoft,
+  openal-soft,
   python3,
   yyjson,
 }:
@@ -35,7 +35,7 @@ stdenv.mkDerivation {
     libebur128
     libsndfile
     libxmp
-    openalSoft
+    openal-soft
     yyjson
   ];
 

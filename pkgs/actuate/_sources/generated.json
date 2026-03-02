@@ -2,7 +2,7 @@
   "actuate": {
     "cargoLock": {
       "Cargo.lock": [
-        "sha256-pg5vgjINpOhoxWjhWQWpfbOaQPkCRzRbQy3FSNUWChw=/Cargo.lock",
+        "sha256-RHcSjgbZYtcu6nfOweLegQQUMuemifigYAz2+EwWW1I=/Cargo.lock",
         {
           "anymap3-1.0.1": "sha256-aIbI8NAV4IW7EpBzBsTrhMgZV+lgy5GSYwSTOyHMQzw=",
           "assert_no_alloc-1.1.2": "sha256-kCwtn0uONDTlDqfCpYtjB3spYM89qWjkzUOdcGjtY3c=",
@@ -28,11 +28,11 @@
       "name": null,
       "owner": "ardura",
       "repo": "Actuate",
-      "rev": "v1.4.2",
-      "sha256": "sha256-pg5vgjINpOhoxWjhWQWpfbOaQPkCRzRbQy3FSNUWChw=",
+      "rev": "v1.4.3",
+      "sha256": "sha256-RHcSjgbZYtcu6nfOweLegQQUMuemifigYAz2+EwWW1I=",
       "sparseCheckout": [],
       "type": "github"
     },
-    "version": "v1.4.2"
+    "version": "v1.4.3"
   }
 }

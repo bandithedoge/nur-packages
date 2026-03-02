@@ -35,9 +35,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "7c12bdf5528a6a820a81001811dd3ef8098f33b0",
-      "url": "https://github.com/hankertrix/augment-command.yazi/archive/7c12bdf5528a6a820a81001811dd3ef8098f33b0.tar.gz",
-      "hash": "sha256-zrtT1GRmq/jmLo/esg/ZzDXdO9yU+1/CwTFtFtuyiDs="
+      "revision": "681158d8a088b30ee947c97b864ce300346d9965",
+      "url": "https://github.com/hankertrix/augment-command.yazi/archive/681158d8a088b30ee947c97b864ce300346d9965.tar.gz",
+      "hash": "sha256-ct0ieBbTmQb3LlSWP+txuzmKuugyDRVprFGCvhLOzYQ="
     },
     "bookmarks.yazi": {
       "type": "Git",
@@ -308,9 +308,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "14d28283f49b39593a2763d7457e0dacb78f7597",
-      "url": "https://github.com/GianniBYoung/rsync.yazi/archive/14d28283f49b39593a2763d7457e0dacb78f7597.tar.gz",
-      "hash": "sha256-LT+4NKiCkiF72RG9g/tOjS6F+Wc4tY3vtnHNHPxbn1w="
+      "revision": "c094a5ce2dc2ebdb37f97a6f1f15af6c14c06402",
+      "url": "https://github.com/GianniBYoung/rsync.yazi/archive/c094a5ce2dc2ebdb37f97a6f1f15af6c14c06402.tar.gz",
+      "hash": "sha256-SqN3jDwHtsVDqawJyYHWdndi9IaCKPJH9+d7ffX9H7c="
     },
     "simple-status.yazi": {
       "type": "Git",
