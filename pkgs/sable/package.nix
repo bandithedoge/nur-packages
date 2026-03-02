@@ -6,26 +6,20 @@
   buildNpmPackage,
   cairo,
   importNpmLock,
-  nodejs_22,
   pango,
   pixman,
   pkg-config,
 }:
-let
-  nodejs' = nodejs_22;
-in
 buildNpmPackage {
   inherit (sources.sable) pname src;
   version = sources.sable.date;
-
-  nodejs = nodejs';
 
   npmDeps = importNpmLock {
     package = lib.importJSON sources.sable.extract."package.json";
     packageLock = lib.importJSON sources.sable.extract."package-lock.json";
   };
 
-  npmConfigHook = importNpmLock.hooks.npmConfigHook.override { nodejs = nodejs'; };
+  inherit (importNpmLock) npmConfigHook;
 
   nativeBuildInputs = [
     pkg-config
