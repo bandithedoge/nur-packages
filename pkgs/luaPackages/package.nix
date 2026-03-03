@@ -1,8 +1,12 @@
 {
   sources,
 
+  cairo,
+  gobject-introspection,
   lib,
   luaPackages,
+  pkg-config,
+  stdenv,
 }:
 {
   lua-dbus_proxy = luaPackages.buildLuarocksPackage rec {
@@ -57,6 +61,7 @@
     knownRockspec = src + "/astal-dev-1.rockspec";
 
     propagatedBuildInputs = with luaPackages; [
+      argparse
       lgi
     ];
 
@@ -80,6 +85,28 @@
     meta = with lib; {
       description = "Teach LuaRocks how to build your Fennel rock";
       homepage = "https://sr.ht/~xerool/luarocks-build-fennel/";
+      license = licenses.mit;
+    };
+  };
+
+  lgi = luaPackages.buildLuarocksPackage rec {
+    inherit (sources.lgi) pname src;
+    version = sources.lgi.date;
+
+    knownRockspec = "${src}/lgi-scm-1.rockspec";
+
+    nativeBuildInputs = [
+      pkg-config
+    ];
+
+    buildInputs = [
+      cairo
+      gobject-introspection
+    ];
+
+    meta = with lib; {
+      description = "Dynamic Lua binding to GObject libraries using GObject-Introspection";
+      homepage = "https://github.com/lgi-devs/lgi";
       license = licenses.mit;
     };
   };

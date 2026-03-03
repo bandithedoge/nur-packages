@@ -17,3 +17,7 @@ fetch.git = "https://github.com/tokyob0t/astal-lua"
 [luarocks-build-fennel]
 src.git = "https://git.sr.ht/~xerool/luarocks-build-fennel"
 fetch.git = "https://git.sr.ht/~xerool/luarocks-build-fennel"
+
+[lgi]
+src.git = "https://github.com/lgi-devs/lgi.git"
+fetch.git = "https://github.com/lgi-devs/lgi.git"
