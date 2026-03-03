@@ -1,16 +1,25 @@
 {
   sources,
 
+  cairo,
+  gobject-introspection,
   lib,
   luaPackages,
+  pkg-config,
+  stdenv,
 }:
 {
-  lua-dbus_proxy = luaPackages.buildLuarocksPackage rec {
+  lua-dbus_proxy = luaPackages.buildLuarocksPackage {
     inherit (sources.lua-dbus_proxy) src pname;
     version = sources.lua-dbus_proxy.date;
 
     propagatedBuildInputs = with luaPackages; [ lgi ];
-    knownRockspec = src + "/rockspec/dbus_proxy-devel-1.rockspec";
+    knownRockspec = "rockspec/dbus_proxy-devel-1.rockspec";
+
+    postPatch = ''
+      substituteInPlace rockspec/dbus_proxy-devel-1.rockspec \
+        --replace-fail "lgi >= 0.9.0, < 1" "lgi >= 0.9.0"
+    '';
 
     meta = with lib; {
       description = "Simple API around GLib's GIO:GDBusProxy built on top of lgi";
@@ -57,6 +66,7 @@
     knownRockspec = src + "/astal-dev-1.rockspec";
 
     propagatedBuildInputs = with luaPackages; [
+      argparse
       lgi
     ];
 
@@ -80,6 +90,28 @@
     meta = with lib; {
       description = "Teach LuaRocks how to build your Fennel rock";
       homepage = "https://sr.ht/~xerool/luarocks-build-fennel/";
+      license = licenses.mit;
+    };
+  };
+
+  lgi = luaPackages.buildLuarocksPackage rec {
+    inherit (sources.lgi) pname src;
+    version = sources.lgi.date;
+
+    knownRockspec = "${src}/lgi-scm-1.rockspec";
+
+    nativeBuildInputs = [
+      pkg-config
+    ];
+
+    buildInputs = [
+      cairo
+      gobject-introspection
+    ];
+
+    meta = with lib; {
+      description = "Dynamic Lua binding to GObject libraries using GObject-Introspection";
+      homepage = "https://github.com/lgi-devs/lgi";
       license = licenses.mit;
     };
   };

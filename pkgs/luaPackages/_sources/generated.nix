@@ -34,6 +34,20 @@
     };
     date = "2024-12-17";
   };
+  lgi = {
+    pname = "lgi";
+    version = "c9b8e4473c6421f2a215d8c06c0d94b86eb0b26a";
+    src = fetchgit {
+      url = "https://github.com/lgi-devs/lgi.git";
+      rev = "c9b8e4473c6421f2a215d8c06c0d94b86eb0b26a";
+      fetchSubmodules = false;
+      deepClone = false;
+      leaveDotGit = false;
+      sparseCheckout = [ ];
+      sha256 = "sha256-2ambBV1udfkPzcAKuKbaSaRjscYQ9B51UmkCBYLi3sc=";
+    };
+    date = "2026-01-22";
+  };
   lua-dbus = {
     pname = "lua-dbus";
     version = "cdef26d09aa61d7f1f175675040383f6ae0becbb";
