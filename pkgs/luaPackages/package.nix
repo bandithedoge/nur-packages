@@ -9,12 +9,17 @@
   stdenv,
 }:
 {
-  lua-dbus_proxy = luaPackages.buildLuarocksPackage rec {
+  lua-dbus_proxy = luaPackages.buildLuarocksPackage {
     inherit (sources.lua-dbus_proxy) src pname;
     version = sources.lua-dbus_proxy.date;
 
     propagatedBuildInputs = with luaPackages; [ lgi ];
-    knownRockspec = src + "/rockspec/dbus_proxy-devel-1.rockspec";
+    knownRockspec = "rockspec/dbus_proxy-devel-1.rockspec";
+
+    postPatch = ''
+      substituteInPlace rockspec/dbus_proxy-devel-1.rockspec \
+        --replace-fail "lgi >= 0.9.0, < 1" "lgi >= 0.9.0"
+    '';
 
     meta = with lib; {
       description = "Simple API around GLib's GIO:GDBusProxy built on top of lgi";
