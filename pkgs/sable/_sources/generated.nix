@@ -8,21 +8,19 @@
 {
   sable = {
     pname = "sable";
-    version = "20bd1be57ab4c44d5f2f449ad65774dfcd9ee5a8";
+    version = "a2d61da2546e683bf88c5a20639fe8b2a434eccd";
     src = fetchgit {
       url = "https://github.com/7w1/sable.git";
-      rev = "20bd1be57ab4c44d5f2f449ad65774dfcd9ee5a8";
+      rev = "a2d61da2546e683bf88c5a20639fe8b2a434eccd";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-LNmUt3X+A3rE3eJ8x5pUkdBtZ74xGJ03pO9OmR4pfsY=";
+      sha256 = "sha256-qlsCap2eY49iv2P0PoWOMa2HFux/3G4cwfK5nlZEJ78=";
     };
     extract = {
-      "package-lock.json" =
-        ./. + "/sha256-LNmUt3X+A3rE3eJ8x5pUkdBtZ74xGJ03pO9OmR4pfsY=/package-lock.json";
-      "package.json" = ./. + "/sha256-LNmUt3X+A3rE3eJ8x5pUkdBtZ74xGJ03pO9OmR4pfsY=/package.json";
-    };
-    date = "2026-03-03";
+      "package-lock.json" = ./. + "/sha256-qlsCap2eY49iv2P0PoWOMa2HFux_3G4cwfK5nlZEJ78=/package-lock.json";
+      "package.json" = ./. + "/sha256-qlsCap2eY49iv2P0PoWOMa2HFux_3G4cwfK5nlZEJ78=/package.json";
+    };date = "2026-03-04";
   };
 }
