@@ -19,8 +19,10 @@
       sha256 = "sha256-qlsCap2eY49iv2P0PoWOMa2HFux/3G4cwfK5nlZEJ78=";
     };
     extract = {
-      "package-lock.json" = ./. + "/sha256-qlsCap2eY49iv2P0PoWOMa2HFux_3G4cwfK5nlZEJ78=/package-lock.json";
+      "package-lock.json" =
+        ./. + "/sha256-qlsCap2eY49iv2P0PoWOMa2HFux_3G4cwfK5nlZEJ78=/package-lock.json";
       "package.json" = ./. + "/sha256-qlsCap2eY49iv2P0PoWOMa2HFux_3G4cwfK5nlZEJ78=/package.json";
-    };date = "2026-03-04";
+    };
+    date = "2026-03-04";
   };
 }
