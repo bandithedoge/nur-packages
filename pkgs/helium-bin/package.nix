@@ -25,6 +25,7 @@
   systemd,
 
   commandLineArgs ? "",
+  pipewire,
 }:
 let
   source = if stdenv.isAarch64 then sources.helium-bin-arm64 else sources.helium-bin-x86_64;
@@ -71,7 +72,8 @@ stdenv.mkDerivation {
     cp -r * $out/libexec/helium
 
     makeWrapper $out/libexec/helium/helium $out/bin/helium \
-      --add-flags ${lib.escapeShellArg commandLineArgs}
+      --add-flags ${lib.escapeShellArg commandLineArgs} \
+      --prefix LD_LIBRARY_PATH : ${lib.makeLibraryPath [ pipewire ]}
 
     patchelf --add-needed libEGL.so.1 $out/libexec/helium/lib*GL*
     rm $out/libexec/helium/libvulkan.so.1
