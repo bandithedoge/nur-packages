@@ -1321,9 +1321,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "1ace5df4a1e55e5bbd8c2b310284d8264aede0fe",
-      "url": "https://github.com/NvChad/nvim-colorizer.lua/archive/1ace5df4a1e55e5bbd8c2b310284d8264aede0fe.tar.gz",
-      "hash": "sha256-tPWI4wk0qoGavXIosKItY0CTCoKuNZJMZbiMoCT0JR4="
+      "revision": "aa43945c87f5f6474a9da9f392254046c3574ad8",
+      "url": "https://github.com/NvChad/nvim-colorizer.lua/archive/aa43945c87f5f6474a9da9f392254046c3574ad8.tar.gz",
+      "hash": "sha256-cSCZLMihNZVIrxORmur6tyPcbCHY8WIoF5NCo+NWzM4="
     },
     "nvim-cursorword": {
       "type": "Git",
@@ -1438,9 +1438,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "ead0f5f342d8d323441e7d4b88f0fc436a81ad5f",
-      "url": "https://github.com/neovim/nvim-lspconfig/archive/ead0f5f342d8d323441e7d4b88f0fc436a81ad5f.tar.gz",
-      "hash": "sha256-kBUMraEK8L3jFSyJqozY+dZJ3eJj8AhBvIf0eHXaz2E="
+      "revision": "2b87d107942b9eebef768512f5849330335a9493",
+      "url": "https://github.com/neovim/nvim-lspconfig/archive/2b87d107942b9eebef768512f5849330335a9493.tar.gz",
+      "hash": "sha256-wX9FnI1HxLa6tg1PlDN+XYPu9t0ejUb0jyELOWupQ0U="
     },
     "nvim-luaref": {
       "type": "Git",
