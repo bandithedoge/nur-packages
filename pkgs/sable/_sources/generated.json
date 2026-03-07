@@ -1,25 +1,26 @@
 {
-  "sable": {
-    "cargoLock": null,
-    "date": "2026-03-05",
-    "extract": {
-      "package-lock.json": "sha256-tdQNVv2N+cCcYN7ieS9Jt7Y+2BKqU86uyTxmbV_AjEw=/package-lock.json",
-      "package.json": "sha256-tdQNVv2N+cCcYN7ieS9Jt7Y+2BKqU86uyTxmbV_AjEw=/package.json"
-    },
-    "name": "sable",
-    "passthru": null,
-    "pinned": false,
-    "src": {
-      "deepClone": false,
-      "fetchSubmodules": false,
-      "leaveDotGit": false,
-      "name": null,
-      "rev": "ae71309a1fed2b4fb5ada0e6051c01fe5092fa4c",
-      "sha256": "sha256-tdQNVv2N+cCcYN7ieS9Jt7Y+2BKqU86uyTxmbV/AjEw=",
-      "sparseCheckout": [],
-      "type": "git",
-      "url": "https://github.com/7w1/sable.git"
-    },
-    "version": "ae71309a1fed2b4fb5ada0e6051c01fe5092fa4c"
-  }
+    "sable": {
+        "cargoLock": null,
+        "date": null,
+        "extract": {
+            "package-lock.json": "sha256-47m10P5hDVT6G5wRUUyckTnLi6wMfXBPrWz_L6PL2yA=/package-lock.json",
+            "package.json": "sha256-47m10P5hDVT6G5wRUUyckTnLi6wMfXBPrWz_L6PL2yA=/package.json"
+        },
+        "name": "sable",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "7w1",
+            "repo": "sable",
+            "rev": "sable/v1.4.0",
+            "sha256": "sha256-47m10P5hDVT6G5wRUUyckTnLi6wMfXBPrWz/L6PL2yA=",
+            "sparseCheckout": [],
+            "type": "github"
+        },
+        "version": "sable/v1.4.0"
+    }
 }
