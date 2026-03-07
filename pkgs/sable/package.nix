@@ -12,7 +12,7 @@
 }:
 buildNpmPackage {
   inherit (sources.sable) pname src;
-  version = sources.sable.date;
+  version = lib.removePrefix "sable/v" sources.sable.version;
 
   npmDeps = importNpmLock {
     package = lib.importJSON sources.sable.extract."package.json";
@@ -20,6 +20,8 @@ buildNpmPackage {
   };
 
   inherit (importNpmLock) npmConfigHook;
+
+  npmRebuildFlags = [ "--ignore-scripts" ];
 
   nativeBuildInputs = [
     pkg-config
