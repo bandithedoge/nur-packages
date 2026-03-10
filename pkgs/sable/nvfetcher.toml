@@ -1,4 +1,4 @@
 [sable]
-src.github = "7w1/sable"
-fetch.github = "7w1/sable"
+src.github = "SableClient/Sable"
+fetch.github = "SableClient/Sable"
 extract = ["package.json", "package-lock.json"]

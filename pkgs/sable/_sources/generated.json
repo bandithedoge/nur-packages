@@ -3,8 +3,8 @@
         "cargoLock": null,
         "date": null,
         "extract": {
-            "package-lock.json": "sha256-47m10P5hDVT6G5wRUUyckTnLi6wMfXBPrWz_L6PL2yA=/package-lock.json",
-            "package.json": "sha256-47m10P5hDVT6G5wRUUyckTnLi6wMfXBPrWz_L6PL2yA=/package.json"
+            "package-lock.json": "sha256-q4POD5YQFPwfg79O3dzidU20wUmUNz6933l6RGH3_Eg=/package-lock.json",
+            "package.json": "sha256-q4POD5YQFPwfg79O3dzidU20wUmUNz6933l6RGH3_Eg=/package.json"
         },
         "name": "sable",
         "passthru": null,
@@ -14,13 +14,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "owner": "7w1",
-            "repo": "sable",
-            "rev": "sable/v1.4.0",
-            "sha256": "sha256-47m10P5hDVT6G5wRUUyckTnLi6wMfXBPrWz/L6PL2yA=",
+            "owner": "SableClient",
+            "repo": "Sable",
+            "rev": "sable/v1.6.0",
+            "sha256": "sha256-q4POD5YQFPwfg79O3dzidU20wUmUNz6933l6RGH3/Eg=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "sable/v1.4.0"
+        "version": "sable/v1.6.0"
     }
 }

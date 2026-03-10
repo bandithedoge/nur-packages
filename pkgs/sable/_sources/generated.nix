@@ -8,17 +8,17 @@
 {
   sable = {
     pname = "sable";
-    version = "sable/v1.4.0";
+    version = "sable/v1.6.0";
     src = fetchFromGitHub {
-      owner = "7w1";
-      repo = "sable";
-      rev = "sable/v1.4.0";
+      owner = "SableClient";
+      repo = "Sable";
+      rev = "sable/v1.6.0";
       fetchSubmodules = false;
-      sha256 = "sha256-47m10P5hDVT6G5wRUUyckTnLi6wMfXBPrWz/L6PL2yA=";
+      sha256 = "sha256-q4POD5YQFPwfg79O3dzidU20wUmUNz6933l6RGH3/Eg=";
     };
     extract = {
-      "package-lock.json" = ./. + "/sha256-47m10P5hDVT6G5wRUUyckTnLi6wMfXBPrWz_L6PL2yA=/package-lock.json";
-      "package.json" = ./. + "/sha256-47m10P5hDVT6G5wRUUyckTnLi6wMfXBPrWz_L6PL2yA=/package.json";
+      "package-lock.json" = ./. + "/sha256-q4POD5YQFPwfg79O3dzidU20wUmUNz6933l6RGH3_Eg=/package-lock.json";
+      "package.json" = ./. + "/sha256-q4POD5YQFPwfg79O3dzidU20wUmUNz6933l6RGH3_Eg=/package.json";
     };
   };
 }
