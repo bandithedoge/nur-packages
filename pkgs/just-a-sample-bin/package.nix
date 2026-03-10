@@ -23,7 +23,7 @@ stdenv.mkDerivation {
     runHook preBuild
 
     mkdir -p $out/lib/vst3
-    cp -r JustASample.vst3 $out/lib/vst3
+    cp -r "Just a Sample.vst3" $out/lib/vst3
 
     runHook postBuild
   '';
