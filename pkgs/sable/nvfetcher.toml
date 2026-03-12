@@ -1,4 +1,4 @@
 [sable]
 src.github = "SableClient/Sable"
-fetch.github = "SableClient/Sable"
-extract = ["package.json", "package-lock.json"]
+src.prefix = "v"
+fetch.docker = "ghcr.io/sableclient/sable"

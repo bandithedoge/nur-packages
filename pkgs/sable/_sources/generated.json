@@ -2,25 +2,21 @@
     "sable": {
         "cargoLock": null,
         "date": null,
-        "extract": {
-            "package-lock.json": "sha256-q4POD5YQFPwfg79O3dzidU20wUmUNz6933l6RGH3_Eg=/package-lock.json",
-            "package.json": "sha256-q4POD5YQFPwfg79O3dzidU20wUmUNz6933l6RGH3_Eg=/package.json"
-        },
+        "extract": null,
         "name": "sable",
         "passthru": null,
         "pinned": false,
         "src": {
-            "deepClone": false,
-            "fetchSubmodules": false,
-            "leaveDotGit": false,
-            "name": null,
-            "owner": "SableClient",
-            "repo": "Sable",
-            "rev": "sable/v1.6.0",
-            "sha256": "sha256-q4POD5YQFPwfg79O3dzidU20wUmUNz6933l6RGH3/Eg=",
-            "sparseCheckout": [],
-            "type": "github"
+            "arch": null,
+            "finalImageName": null,
+            "finalImageTag": null,
+            "imageDigest": "sha256:12330d08bc236b1811a7282e5b6fd245c03856dc7b5cd9670d72a4b8ce4248d7",
+            "imageName": "ghcr.io/sableclient/sable",
+            "imageTag": "1.7.0",
+            "os": null,
+            "sha256": "sha256-+kKaXv1KqJcyP/O3ezwfgP/fu92tD7QZtDXpGqSa2m8=",
+            "tlsVerify": null
         },
-        "version": "sable/v1.6.0"
+        "version": "1.7.0"
     }
 }
