@@ -6,7 +6,7 @@
 }:
 python3Packages.buildPythonApplication {
   inherit (sources.beets-lyricsmanager) pname src;
-  version = lib.removePrefix "v" sources.beets-lyricsmanager.version;
+  version = sources.beets-lyricsmanager.date;
 
   format = "setuptools";
 
