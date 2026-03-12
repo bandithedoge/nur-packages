@@ -1,0 +1,23 @@
+{
+    "beets-lyricsmanager": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "beets-lyricsmanager",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "zytx",
+            "repo": "beets-lyrics-manager",
+            "rev": "v0.0.3",
+            "sha256": "sha256-8UP0UhmlOPfhwL5/GzAiHfsQ6Ogx2d4G2h8LeWgpImc=",
+            "sparseCheckout": [],
+            "type": "github"
+        },
+        "version": "v0.0.3"
+    }
+}

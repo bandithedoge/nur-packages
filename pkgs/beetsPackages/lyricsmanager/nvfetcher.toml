@@ -1,0 +1,3 @@
+[beets-lyricsmanager]
+src.github = "zytx/beets-lyrics-manager"
+fetch.github = "zytx/beets-lyrics-manager"
