@@ -2,43 +2,24 @@
   sources,
 
   lib,
-
-  buildNpmPackage,
-  cairo,
-  importNpmLock,
-  pango,
-  pixman,
-  pkg-config,
+  stdenvNoCC,
 }:
-buildNpmPackage {
-  inherit (sources.sable) pname src;
-  version = lib.removePrefix "sable/v" sources.sable.version;
+stdenvNoCC.mkDerivation (finalAttrs: {
+  inherit (sources.sable) pname version src;
+  sourceRoot = ".";
 
-  npmDeps = importNpmLock {
-    package = lib.importJSON sources.sable.extract."package.json";
-    packageLock = lib.importJSON sources.sable.extract."package-lock.json";
-  };
+  buildPhase = ''
+    runHook preBuild
 
-  inherit (importNpmLock) npmConfigHook;
+    for tarball in *.tar; do
+      if tar -tf "$tarball" | grep app/index.html; then
+        tar -xf "$tarball"
+        cp -r app $out
+        break
+      fi
+    done
 
-  npmRebuildFlags = [ "--ignore-scripts" ];
-
-  nativeBuildInputs = [
-    pkg-config
-  ];
-
-  buildInputs = [
-    pixman
-    cairo
-    pango
-  ];
-
-  installPhase = ''
-    runHook preInstall
-
-    cp -r dist $out
-
-    runHook postInstall
+    runHook postBuild
   '';
 
   meta = with lib; {
@@ -47,4 +28,4 @@ buildNpmPackage {
     license = licenses.agpl3Plus;
     platforms = platforms.all;
   };
-}
+})

@@ -8,17 +8,12 @@
 {
   sable = {
     pname = "sable";
-    version = "sable/v1.6.0";
-    src = fetchFromGitHub {
-      owner = "SableClient";
-      repo = "Sable";
-      rev = "sable/v1.6.0";
-      fetchSubmodules = false;
-      sha256 = "sha256-q4POD5YQFPwfg79O3dzidU20wUmUNz6933l6RGH3/Eg=";
-    };
-    extract = {
-      "package-lock.json" = ./. + "/sha256-q4POD5YQFPwfg79O3dzidU20wUmUNz6933l6RGH3_Eg=/package-lock.json";
-      "package.json" = ./. + "/sha256-q4POD5YQFPwfg79O3dzidU20wUmUNz6933l6RGH3_Eg=/package.json";
+    version = "1.7.0";
+    src = dockerTools.pullImage {
+      imageName = "ghcr.io/sableclient/sable";
+      imageDigest = "sha256:12330d08bc236b1811a7282e5b6fd245c03856dc7b5cd9670d72a4b8ce4248d7";
+      sha256 = "sha256-+kKaXv1KqJcyP/O3ezwfgP/fu92tD7QZtDXpGqSa2m8=";
+      finalImageTag = "1.7.0";
     };
   };
 }
