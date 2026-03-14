@@ -165,9 +165,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "0e56060192d1ccd307664bf93b3d0beb1efe528e",
-      "url": "https://github.com/Lil-Dank/lazygit.yazi/archive/0e56060192d1ccd307664bf93b3d0beb1efe528e.tar.gz",
-      "hash": "sha256-LcEpzSf0E43hnhOxJ/EHNJRk3Au5hcgRZ2Kj412Ykew="
+      "revision": "8c4086c813c5856ab9571ae9142ed7d40ed3211e",
+      "url": "https://github.com/Lil-Dank/lazygit.yazi/archive/8c4086c813c5856ab9571ae9142ed7d40ed3211e.tar.gz",
+      "hash": "sha256-YpRWnR5fEXzHY9yBFNKy1NvTzHa8B1UhS2Qrfe9+Tpg="
     },
     "mediainfo.yazi": {
       "type": "Git",
@@ -308,9 +308,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "c094a5ce2dc2ebdb37f97a6f1f15af6c14c06402",
-      "url": "https://github.com/GianniBYoung/rsync.yazi/archive/c094a5ce2dc2ebdb37f97a6f1f15af6c14c06402.tar.gz",
-      "hash": "sha256-SqN3jDwHtsVDqawJyYHWdndi9IaCKPJH9+d7ffX9H7c="
+      "revision": "44f6979e5739c04039b1a8b0a04b2e2cb6cde46c",
+      "url": "https://github.com/GianniBYoung/rsync.yazi/archive/44f6979e5739c04039b1a8b0a04b2e2cb6cde46c.tar.gz",
+      "hash": "sha256-54tXRwE1a+aq2cP4+ErXKQoHhUNx630sJZqiJpbrFT4="
     },
     "simple-status.yazi": {
       "type": "Git",
