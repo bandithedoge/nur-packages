@@ -8,14 +8,14 @@
 {
   dmenu-flexipatch = {
     pname = "dmenu-flexipatch";
-    version = "ce504573d0fba602678c79a650830ee74e9e35ca";
+    version = "c59af646f2d8ccbc31f799111b0ff7a1282efa63";
     src = fetchFromGitHub {
       owner = "bakkeby";
       repo = "dmenu-flexipatch";
-      rev = "ce504573d0fba602678c79a650830ee74e9e35ca";
+      rev = "c59af646f2d8ccbc31f799111b0ff7a1282efa63";
       fetchSubmodules = false;
-      sha256 = "sha256-1PN/71sfu1LoFDxyDzG3JzSTqusbt18zrMG6Qbgucaw=";
+      sha256 = "sha256-eQp1HJ64GJ1Xm6cIAWnaO39A2doL8RAEL4m09paTMjw=";
     };
-    date = "2026-02-18";
+    date = "2026-03-10";
   };
 }
