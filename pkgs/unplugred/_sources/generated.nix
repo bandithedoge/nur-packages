@@ -8,17 +8,17 @@
 {
   clap-juce-extensions = {
     pname = "clap-juce-extensions";
-    version = "02f91b7988298f7f1f05c706da16e1d9da852a87";
+    version = "e1f67893cc409a40c1154fa2e78c97046da24ce0";
     src = fetchgit {
       url = "https://github.com/free-audio/clap-juce-extensions";
-      rev = "02f91b7988298f7f1f05c706da16e1d9da852a87";
+      rev = "e1f67893cc409a40c1154fa2e78c97046da24ce0";
       fetchSubmodules = true;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-cPi+prl+jLq/KvjZ5M2MxxZVLSKCiJB9SQHK8psW2OU=";
+      sha256 = "sha256-JHHK9GcW0CUgUbDZeOavNRKOaAI+9pECVo9UfksPnLg=";
     };
-    date = "2026-01-26";
+    date = "2026-03-09";
   };
   juce = {
     pname = "juce";
@@ -33,16 +33,16 @@
   };
   unplugred = {
     pname = "unplugred";
-    version = "9c56b3efdb1d698ea06de46343db39e904492875";
+    version = "374e9bcb5d6863e2e607e598f965552bd2a034c0";
     src = fetchgit {
       url = "https://github.com/unplugred/vsts";
-      rev = "9c56b3efdb1d698ea06de46343db39e904492875";
+      rev = "374e9bcb5d6863e2e607e598f965552bd2a034c0";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-KyUCwrNtFnU7Rd3W2zopw+3qyp8b6S8Mow2dw/oHaL8=";
+      sha256 = "sha256-R2l0IPUyVK1Re7Nsl+sPYqCjR+31u3E1tMdIAh6WmVg=";
     };
-    date = "2026-03-05";
+    date = "2026-03-10";
   };
 }
