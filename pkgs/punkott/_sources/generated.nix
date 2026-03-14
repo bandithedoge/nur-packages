@@ -19,16 +19,16 @@
   };
   punkott = {
     pname = "punkott";
-    version = "48b7a3f20f81419c59b71f283ca9173e3a85732d";
+    version = "55e97d2f114e9db551cfa991074143f1b91ff3ed";
     src = fetchgit {
       url = "https://github.com/gmoican/PunkOTT.git";
-      rev = "48b7a3f20f81419c59b71f283ca9173e3a85732d";
+      rev = "55e97d2f114e9db551cfa991074143f1b91ff3ed";
       fetchSubmodules = true;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-PwQXKzpcThDsQtBW7WTLG7k7Me4oXCyF/57Z/6fJ5YE=";
+      sha256 = "sha256-9aC6sf+ljtkVIeo/gQ9yAz26HKJRFaYQhVVu9kqPNlo=";
     };
-    date = "2026-02-03";
+    date = "2026-03-07";
   };
 }
