@@ -5,7 +5,7 @@
 }:
 let
   # copied from https://github.com/nix-community/nur-combined/blob/master/repos/rycee/pkgs/firefox-addons/default.nix
-  buildFirefoxXpiAddon = lib.makeOverridable (
+  buildMozillaXpiAddon = lib.makeOverridable (
     {
       pname,
       version,
@@ -34,7 +34,7 @@ let
 in
 import ./_generated.nix {
   inherit
-    buildFirefoxXpiAddon
+    buildMozillaXpiAddon
     fetchurl
     lib
     stdenv
