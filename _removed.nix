@@ -1,4 +1,5 @@
 [
-  [ "vkdoom" ]
+  [ "kiwmi" ]
   [ "thorium-bin" ]
+  [ "vkdoom" ]
 ]
