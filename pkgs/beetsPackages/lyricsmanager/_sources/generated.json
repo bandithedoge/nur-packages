@@ -1,22 +1,22 @@
 {
-    "beets-lyricsmanager": {
-        "cargoLock": null,
-        "date": "2025-12-16",
-        "extract": null,
-        "name": "beets-lyricsmanager",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "deepClone": false,
-            "fetchSubmodules": false,
-            "leaveDotGit": false,
-            "name": null,
-            "rev": "66ced5c782135ef6e476842854935b3babf9797d",
-            "sha256": "sha256-mXp9ebOYVrS0inm6G26Azc01qLXx1BN5Mxf9PlsUxig=",
-            "sparseCheckout": [],
-            "type": "git",
-            "url": "https://github.com/zytx/beets-lyrics-manager.git"
-        },
-        "version": "66ced5c782135ef6e476842854935b3babf9797d"
-    }
+  "beets-lyricsmanager": {
+    "cargoLock": null,
+    "date": "2025-12-16",
+    "extract": null,
+    "name": "beets-lyricsmanager",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "deepClone": false,
+      "fetchSubmodules": false,
+      "leaveDotGit": false,
+      "name": null,
+      "rev": "66ced5c782135ef6e476842854935b3babf9797d",
+      "sha256": "sha256-mXp9ebOYVrS0inm6G26Azc01qLXx1BN5Mxf9PlsUxig=",
+      "sparseCheckout": [],
+      "type": "git",
+      "url": "https://github.com/zytx/beets-lyrics-manager.git"
+    },
+    "version": "66ced5c782135ef6e476842854935b3babf9797d"
+  }
 }

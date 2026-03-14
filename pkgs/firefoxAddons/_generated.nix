@@ -1,11 +1,11 @@
 {
-  buildFirefoxXpiAddon,
+  buildMozillaXpiAddon,
   fetchurl,
   lib,
   stdenv,
 }:
 {
-  "augmented-steam" = buildFirefoxXpiAddon {
+  "augmented-steam" = buildMozillaXpiAddon {
     pname = "augmented-steam";
     version = "4.6.2";
     addonId = "{1be309c5-3e4f-4b99-927d-bb500eb4fa88}";
@@ -212,7 +212,7 @@
       platforms = platforms.all;
     };
   };
-  "auto-tab-discard" = buildFirefoxXpiAddon {
+  "auto-tab-discard" = buildMozillaXpiAddon {
     pname = "auto-tab-discard";
     version = "0.6.7";
     addonId = "{c2c003ee-bd69-42a2-b0e9-6f34222cb046}";
@@ -234,7 +234,7 @@
       platforms = platforms.all;
     };
   };
-  "base64-decoder" = buildFirefoxXpiAddon {
+  "base64-decoder" = buildMozillaXpiAddon {
     pname = "base64-decoder";
     version = "1.1resigned1";
     addonId = "{b20e4f00-ab03-4a88-90e7-4f6b6232c5a9}";
@@ -253,7 +253,7 @@
       platforms = platforms.all;
     };
   };
-  "betterviewer" = buildFirefoxXpiAddon {
+  "betterviewer" = buildMozillaXpiAddon {
     pname = "betterviewer";
     version = "2.0.2";
     addonId = "ademking@betterviewer";
@@ -271,7 +271,7 @@
       platforms = platforms.all;
     };
   };
-  "canvasblocker" = buildFirefoxXpiAddon {
+  "canvasblocker" = buildMozillaXpiAddon {
     pname = "canvasblocker";
     version = "1.12";
     addonId = "CanvasBlocker@kkapsner.de";
@@ -294,12 +294,12 @@
       platforms = platforms.all;
     };
   };
-  "csgofloat" = buildFirefoxXpiAddon {
+  "csgofloat" = buildMozillaXpiAddon {
     pname = "csgofloat";
-    version = "5.10.0";
+    version = "5.11.0";
     addonId = "{194d0dc6-7ada-41c6-88b8-95d7636fe43c}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4701562/csgofloat-5.10.0.xpi";
-    sha256 = "c2522f91348a1013772f054d74fb8687229dfd1841ee9635ab2a98351a1ad4d0";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4715509/csgofloat-5.11.0.xpi";
+    sha256 = "e673babf5d9a130e1625fe1374561a7525ec10c845eb6dc046f7032b8c36dc3a";
     meta = with lib; {
       homepage = "https://csgofloat.com";
       description = "Shows the float value, paint seed, and screenshots of Counter-Strike (CS:GO &amp; CS2) items on the Steam Market or Inventories";
@@ -323,7 +323,7 @@
       platforms = platforms.all;
     };
   };
-  "dont-fuck-with-paste" = buildFirefoxXpiAddon {
+  "dont-fuck-with-paste" = buildMozillaXpiAddon {
     pname = "dont-fuck-with-paste";
     version = "2.7";
     addonId = "DontFuckWithPaste@raim.ist";
@@ -341,7 +341,7 @@
       platforms = platforms.all;
     };
   };
-  "downthemall" = buildFirefoxXpiAddon {
+  "downthemall" = buildMozillaXpiAddon {
     pname = "downthemall";
     version = "4.14.2";
     addonId = "{DDC359D1-844A-42a7-9AA1-88A850A938A8}";
@@ -368,7 +368,7 @@
       platforms = platforms.all;
     };
   };
-  "enhanced-github" = buildFirefoxXpiAddon {
+  "enhanced-github" = buildMozillaXpiAddon {
     pname = "enhanced-github";
     version = "6.1.0";
     addonId = "{72bd91c9-3dc5-40a8-9b10-dec633c0873f}";
@@ -387,7 +387,7 @@
       platforms = platforms.all;
     };
   };
-  "ff2mpv" = buildFirefoxXpiAddon {
+  "ff2mpv" = buildMozillaXpiAddon {
     pname = "ff2mpv";
     version = "6.0.0";
     addonId = "ff2mpv@yossarian.net";
@@ -407,12 +407,12 @@
       platforms = platforms.all;
     };
   };
-  "gesturefy" = buildFirefoxXpiAddon {
+  "gesturefy" = buildMozillaXpiAddon {
     pname = "gesturefy";
-    version = "3.2.16";
+    version = "3.2.18";
     addonId = "{506e023c-7f2b-40a3-8066-bc5deb40aebe}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4602457/gesturefy-3.2.16.xpi";
-    sha256 = "eb320794c28c6926185e49b7419005ab1fe78b17aa10b79e6ac0a0f6296f6c40";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4712754/gesturefy-3.2.18.xpi";
+    sha256 = "fbe25c2272ca45efd328eb1c8c7a1887fa4c4003dc953149d3246704c93ec838";
     meta = with lib; {
       homepage = "https://github.com/Robbendebiene/Gesturefy";
       description = "Navigate, operate, and browse faster with mouse gestures! A customizable mouse gesture add-on with a variety of different commands.";
@@ -426,7 +426,7 @@
       platforms = platforms.all;
     };
   };
-  "gitako" = buildFirefoxXpiAddon {
+  "gitako" = buildMozillaXpiAddon {
     pname = "gitako";
     version = "3.15.4";
     addonId = "{983bd86b-9d6f-4394-92b8-63d844c4ce4c}";
@@ -446,7 +446,7 @@
       platforms = platforms.all;
     };
   };
-  "github-code-folding" = buildFirefoxXpiAddon {
+  "github-code-folding" = buildMozillaXpiAddon {
     pname = "github-code-folding";
     version = "0.1.2resigned1";
     addonId = "{b588f8ac-dbdf-4397-bcd7-3d29be2f17d7}";
@@ -463,7 +463,7 @@
       platforms = platforms.all;
     };
   };
-  "github-isometric-contributions" = buildFirefoxXpiAddon {
+  "github-isometric-contributions" = buildMozillaXpiAddon {
     pname = "github-isometric-contributions";
     version = "1.2.2";
     addonId = "isometric-contributions@jasonlong.me";
@@ -480,7 +480,7 @@
       platforms = platforms.all;
     };
   };
-  "github-repo-size" = buildFirefoxXpiAddon {
+  "github-repo-size" = buildMozillaXpiAddon {
     pname = "github-repo-size";
     version = "1.7.0";
     addonId = "github-repo-size@mattelrah.com";
@@ -498,24 +498,25 @@
       platforms = platforms.all;
     };
   };
-  "harper" = buildFirefoxXpiAddon {
+  "harper" = buildMozillaXpiAddon {
     pname = "harper";
-    version = "1.9.0";
+    version = "1.10.0";
     addonId = "harper@writewithharper.com";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4708425/private_grammar_checker_harper-1.9.0.xpi";
-    sha256 = "e49daf5a4f40b42a631f48667b64406f037cdce6cd3fc249c277879d703ca47a";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4722849/private_grammar_checker_harper-1.10.0.xpi";
+    sha256 = "be273deaef3ebb4d273e66c93dabd6f7e025b91b66a95a86f826c8a20e1e63cf";
     meta = with lib; {
       homepage = "https://writewithharper.com";
       description = "A private grammar checker for 21st Century English";
       mozPermissions = [
         "storage"
         "tabs"
+        "https://docs.google.com/document/*"
         "<all_urls>"
       ];
       platforms = platforms.all;
     };
   };
-  "imagus" = buildFirefoxXpiAddon {
+  "imagus" = buildMozillaXpiAddon {
     pname = "imagus";
     version = "0.9.8.74";
     addonId = "{00000f2a-7cde-4f20-83ed-434fcb420d71}";
@@ -536,7 +537,7 @@
       platforms = platforms.all;
     };
   };
-  "indie-wiki-buddy" = buildFirefoxXpiAddon {
+  "indie-wiki-buddy" = buildMozillaXpiAddon {
     pname = "indie-wiki-buddy";
     version = "3.14.1";
     addonId = "{cb31ec5d-c49a-4e5a-b240-16c767444f62}";
@@ -794,7 +795,7 @@
       platforms = platforms.all;
     };
   };
-  "lovely-forks" = buildFirefoxXpiAddon {
+  "lovely-forks" = buildMozillaXpiAddon {
     pname = "lovely-forks";
     version = "3.7.3";
     addonId = "github-forks-addon@musicallyut.in";
@@ -811,7 +812,7 @@
       platforms = platforms.all;
     };
   };
-  "material-icons-for-github" = buildFirefoxXpiAddon {
+  "material-icons-for-github" = buildMozillaXpiAddon {
     pname = "material-icons-for-github";
     version = "1.13.1";
     addonId = "{eac6e624-97fa-4f28-9d24-c06c9b8aa713}";
@@ -838,7 +839,7 @@
       platforms = platforms.all;
     };
   };
-  "nexusmods-advance" = buildFirefoxXpiAddon {
+  "nexusmods-advance" = buildMozillaXpiAddon {
     pname = "nexusmods-advance";
     version = "0.26.6";
     addonId = "NexusModsAdvance@Caiota";
@@ -860,7 +861,7 @@
       platforms = platforms.all;
     };
   };
-  "npm-hub" = buildFirefoxXpiAddon {
+  "npm-hub" = buildMozillaXpiAddon {
     pname = "npm-hub";
     version = "2024.7.26";
     addonId = "npm-hub@sikelianos.com";
@@ -879,7 +880,7 @@
       platforms = platforms.all;
     };
   };
-  "octolinker" = buildFirefoxXpiAddon {
+  "octolinker" = buildMozillaXpiAddon {
     pname = "octolinker";
     version = "6.10.5";
     addonId = "octolinker@stefanbuck.com";
@@ -901,7 +902,7 @@
       platforms = platforms.all;
     };
   };
-  "privacy-badger" = buildFirefoxXpiAddon {
+  "privacy-badger" = buildMozillaXpiAddon {
     pname = "privacy-badger";
     version = "2026.2.20";
     addonId = "jid1-MnnxcxisBPnSXQ@jetpack";
@@ -1313,7 +1314,7 @@
       platforms = platforms.all;
     };
   };
-  "privacy-pass" = buildFirefoxXpiAddon {
+  "privacy-pass" = buildMozillaXpiAddon {
     pname = "privacy-pass";
     version = "4.0.2";
     addonId = "{48748554-4c01-49e8-94af-79662bf34d50}";
@@ -1333,7 +1334,7 @@
       platforms = platforms.all;
     };
   };
-  "pronoundb" = buildFirefoxXpiAddon {
+  "pronoundb" = buildMozillaXpiAddon {
     pname = "pronoundb";
     version = "0.14.6";
     addonId = "firefox-addon@pronoundb.org";
@@ -1357,7 +1358,7 @@
       platforms = platforms.all;
     };
   };
-  "reddit-enhancement-suite" = buildFirefoxXpiAddon {
+  "reddit-enhancement-suite" = buildMozillaXpiAddon {
     pname = "reddit-enhancement-suite";
     version = "5.24.8";
     addonId = "jid1-xUfzOsOFlzSOXg@jetpack";
@@ -1380,7 +1381,7 @@
       platforms = platforms.all;
     };
   };
-  "refined-github" = buildFirefoxXpiAddon {
+  "refined-github" = buildMozillaXpiAddon {
     pname = "refined-github";
     version = "26.3.3";
     addonId = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
@@ -1402,7 +1403,7 @@
       platforms = platforms.all;
     };
   };
-  "search_by_image" = buildFirefoxXpiAddon {
+  "search_by_image" = buildMozillaXpiAddon {
     pname = "search_by_image";
     version = "8.5.0";
     addonId = "{2e5ff8c8-32fe-46d0-9fc8-6b8986621f3c}";
@@ -1431,7 +1432,7 @@
       platforms = platforms.all;
     };
   };
-  "sidebery" = buildFirefoxXpiAddon {
+  "sidebery" = buildMozillaXpiAddon {
     pname = "sidebery";
     version = "5.5.0";
     addonId = "{3c078156-979c-498b-8990-85f7987dd929}";
@@ -1458,7 +1459,7 @@
       platforms = platforms.all;
     };
   };
-  "skip-redirect" = buildFirefoxXpiAddon {
+  "skip-redirect" = buildMozillaXpiAddon {
     pname = "skip-redirect";
     version = "2.3.6";
     addonId = "skipredirect@sblask";
@@ -1479,7 +1480,7 @@
       platforms = platforms.all;
     };
   };
-  "sourcegraph" = buildFirefoxXpiAddon {
+  "sourcegraph" = buildMozillaXpiAddon {
     pname = "sourcegraph";
     version = "23.4.14.1343";
     addonId = "sourcegraph-for-firefox@sourcegraph.com";
@@ -1498,7 +1499,7 @@
       platforms = platforms.all;
     };
   };
-  "sponsorblock" = buildFirefoxXpiAddon {
+  "sponsorblock" = buildMozillaXpiAddon {
     pname = "sponsorblock";
     version = "6.1.2";
     addonId = "sponsorBlocker@ajay.app";
@@ -1519,12 +1520,12 @@
       platforms = platforms.all;
     };
   };
-  "steam-database" = buildFirefoxXpiAddon {
+  "steam-database" = buildMozillaXpiAddon {
     pname = "steam-database";
-    version = "4.32";
+    version = "4.33";
     addonId = "firefox-extension@steamdb.info";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4657779/steam_database-4.32.xpi";
-    sha256 = "89b2b812e0f4b58d34aaf2ed8fa9a186842d6c9df0636437f94aff4d2e09804c";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4704123/steam_database-4.33.xpi";
+    sha256 = "7a7a0692e9306ec1b4eaf21bb4acbaf0d0b1f6a6e9acdca40903df03fd91f74f";
     meta = with lib; {
       homepage = "https://steamdb.info/";
       description = "Adds SteamDB links and new features on the Steam store and community. View lowest game prices and stats.";
@@ -1576,7 +1577,7 @@
       platforms = platforms.all;
     };
   };
-  "stylus" = buildFirefoxXpiAddon {
+  "stylus" = buildMozillaXpiAddon {
     pname = "stylus";
     version = "2.3.19";
     addonId = "{7a7a4a92-a2a0-41d1-9fd7-1e92480d612d}";
@@ -1601,7 +1602,7 @@
       platforms = platforms.all;
     };
   };
-  "tabcenter-reborn" = buildFirefoxXpiAddon {
+  "tabcenter-reborn" = buildMozillaXpiAddon {
     pname = "tabcenter-reborn";
     version = "3.0.2";
     addonId = "tabcenter-reborn@ariasuni";
@@ -1629,7 +1630,7 @@
       platforms = platforms.all;
     };
   };
-  "tree-style-tab" = buildFirefoxXpiAddon {
+  "tree-style-tab" = buildMozillaXpiAddon {
     pname = "tree-style-tab";
     version = "4.2.10";
     addonId = "treestyletab@piro.sakura.ne.jp";
@@ -1655,7 +1656,7 @@
       platforms = platforms.all;
     };
   };
-  "tridactyl" = buildFirefoxXpiAddon {
+  "tridactyl" = buildMozillaXpiAddon {
     pname = "tridactyl";
     version = "1.24.5";
     addonId = "tridactyl.vim@cmcaine.co.uk";
@@ -1693,12 +1694,12 @@
       platforms = platforms.all;
     };
   };
-  "ublock-origin" = buildFirefoxXpiAddon {
+  "ublock-origin" = buildMozillaXpiAddon {
     pname = "ublock-origin";
-    version = "1.69.0";
+    version = "1.70.0";
     addonId = "uBlock0@raymondhill.net";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4675310/ublock_origin-1.69.0.xpi";
-    sha256 = "785bcde68a25faa8a0949964ec5ffe9bdcb85d3f0ae21c23f607c6c8f91472cf";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4721638/ublock_origin-1.70.0.xpi";
+    sha256 = "f2730d2877005763a45d765749892e936f49cae713d28f7aa6ea314454b89cf1";
     meta = with lib; {
       homepage = "https://github.com/gorhill/uBlock#ublock-origin";
       description = "Finally, an efficient wide-spectrum content blocker. Easy on CPU and memory.";
@@ -1731,12 +1732,12 @@
       platforms = platforms.all;
     };
   };
-  "violentmonkey" = buildFirefoxXpiAddon {
+  "violentmonkey" = buildMozillaXpiAddon {
     pname = "violentmonkey";
-    version = "2.34.0";
+    version = "2.35.0";
     addonId = "{aecec67f-0d10-4fa7-b7c7-609a2db280cf}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4677263/violentmonkey-2.34.0.xpi";
-    sha256 = "ac58eb2796765da73db571a9491352acbb8287b76ccd9e2375612364a4cd5473";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4704557/violentmonkey-2.35.0.xpi";
+    sha256 = "00d6ed07f730e4f5e15395d9a204ea91dff4e06e70c51f0df11edf54dc645ec9";
     meta = with lib; {
       homepage = "https://violentmonkey.github.io/";
       description = "Userscript support for browsers, open source.";

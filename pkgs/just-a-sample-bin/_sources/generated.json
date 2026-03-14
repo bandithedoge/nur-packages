@@ -1,17 +1,17 @@
 {
-    "just-a-sample-bin": {
-        "cargoLock": null,
-        "date": null,
-        "extract": null,
-        "name": "just-a-sample-bin",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "name": null,
-            "sha256": "sha256-kjUh4sGo9n6THofEFfTM4EW1XOxD17PsnUi4Uv8NhAU=",
-            "type": "url",
-            "url": "https://github.com/BOBONA/Just-a-Sample/releases/download/v1.3-latest/JAS.Linux.VST3.v1.3.0.zip"
-        },
-        "version": "1.3"
-    }
+  "just-a-sample-bin": {
+    "cargoLock": null,
+    "date": null,
+    "extract": null,
+    "name": "just-a-sample-bin",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-kjUh4sGo9n6THofEFfTM4EW1XOxD17PsnUi4Uv8NhAU=",
+      "type": "url",
+      "url": "https://github.com/BOBONA/Just-a-Sample/releases/download/v1.3-latest/JAS.Linux.VST3.v1.3.0.zip"
+    },
+    "version": "1.3"
+  }
 }

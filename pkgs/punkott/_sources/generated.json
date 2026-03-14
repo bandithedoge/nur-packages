@@ -22,7 +22,7 @@
   },
   "punkott": {
     "cargoLock": null,
-    "date": "2026-02-03",
+    "date": "2026-03-07",
     "extract": null,
     "name": "punkott",
     "passthru": null,
@@ -32,12 +32,12 @@
       "fetchSubmodules": true,
       "leaveDotGit": false,
       "name": null,
-      "rev": "48b7a3f20f81419c59b71f283ca9173e3a85732d",
-      "sha256": "sha256-PwQXKzpcThDsQtBW7WTLG7k7Me4oXCyF/57Z/6fJ5YE=",
+      "rev": "55e97d2f114e9db551cfa991074143f1b91ff3ed",
+      "sha256": "sha256-9aC6sf+ljtkVIeo/gQ9yAz26HKJRFaYQhVVu9kqPNlo=",
       "sparseCheckout": [],
       "type": "git",
       "url": "https://github.com/gmoican/PunkOTT.git"
     },
-    "version": "48b7a3f20f81419c59b71f283ca9173e3a85732d"
+    "version": "55e97d2f114e9db551cfa991074143f1b91ff3ed"
   }
 }
