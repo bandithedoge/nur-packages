@@ -8,10 +8,10 @@
 {
   just-a-sample-bin = {
     pname = "just-a-sample-bin";
-    version = "1.3";
+    version = "v1.3-latest/JAS.Linux.VST3.v1.3.1";
     src = fetchurl {
-      url = "https://github.com/BOBONA/Just-a-Sample/releases/download/v1.3-latest/JAS.Linux.VST3.v1.3.0.zip";
-      sha256 = "sha256-kjUh4sGo9n6THofEFfTM4EW1XOxD17PsnUi4Uv8NhAU=";
+      url = "https://github.com/BOBONA/Just-a-Sample/releases/download/v1.3-latest/JAS.Linux.VST3.v1.3.1.zip";
+      sha256 = "sha256-XMxPjrV5lMlHKjs0tm7OTp2cGe2fbPgqij+eOJVuu5w=";
     };
   };
 }

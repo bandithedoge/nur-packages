@@ -9,7 +9,12 @@
   unzip,
 }:
 stdenv.mkDerivation {
-  inherit (sources.just-a-sample-bin) pname version src;
+  inherit (sources.just-a-sample-bin) pname src;
+  version = lib.removePrefix "v" (
+    builtins.concatStringsSep "." (
+      lib.takeEnd 3 (lib.splitString "." sources.just-a-sample-bin.version)
+    )
+  );
   sourceRoot = ".";
 
   nativeBuildInputs = [
