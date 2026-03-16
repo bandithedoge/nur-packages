@@ -19,6 +19,7 @@ def main [
       #   homepage = \"\";
       #   license = null;
       #   platforms = [];
+      #   sourceProvenance = [];
       # };
     }" | nixfmt | save $"pkgs/($name)/package.nix"
     print $"created new package at pkgs/($name)"
