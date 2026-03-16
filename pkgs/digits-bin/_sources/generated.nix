@@ -9,9 +9,9 @@
   digits-bin = {
     pname = "digits-bin";
     version = "2_1";
-    src = fetchurl {
+    src = fetchTarball {
       url = "http://www.extentofthejam.com/DigitsLinux_2_1.tar.gz";
-      sha256 = "sha256-Toa9jvRrx6kghpb2zI9E6TcKtYLfvWQG9yFK+EyG1Jg=";
+      sha256 = "sha256-4WFuQi05IiNdUH+RnCfpyhNmt17X0NOrlEIi5lo8WtE=";
     };
   };
 }

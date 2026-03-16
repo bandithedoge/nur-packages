@@ -9,9 +9,9 @@
   blender-radeon-prorender = {
     pname = "blender-radeon-prorender";
     version = "v3.6.11/RadeonProRenderForBlender_3.6.11_Ubuntu24-325eb7f";
-    src = fetchurl {
+    src = fetchTarball {
       url = "https://github.com/GPUOpen-LibrariesAndSDKs/RadeonProRenderBlenderAddon/releases/download/v3.6.11/RadeonProRenderForBlender_3.6.11_Ubuntu24-325eb7f-linux.zip";
-      sha256 = "sha256-Tya4xRvSQEsyG0+VXJaDAbvW/444Y57iMiWO/R78S58=";
+      sha256 = "sha256-tfsyG9vXPRDZdVk42/BbBG/RH4q0upzKcnCs25cELEU=";
     };
   };
 }

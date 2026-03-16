@@ -6,7 +6,6 @@
 
   autoPatchelfHook,
   juceCmakeHook,
-  unzip,
 }:
 stdenv.mkDerivation {
   inherit (sources.peakeater-bin) pname src;
@@ -14,7 +13,6 @@ stdenv.mkDerivation {
 
   nativeBuildInputs = [
     autoPatchelfHook
-    unzip
   ];
 
   buildInputs = [

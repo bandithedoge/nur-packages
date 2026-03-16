@@ -9,9 +9,9 @@
   chainner-bin = {
     pname = "chainner-bin";
     version = "0.25.1";
-    src = fetchurl {
+    src = fetchTarball {
       url = "https://github.com/chaiNNer-org/chaiNNer/releases/download/v0.25.1/chaiNNer-linux-x64-0.25.1-portable.zip";
-      sha256 = "sha256-BFl4S/C8veI/DV+ntesoUvAc3s1q8+LwFIEE3VuDyyU=";
+      sha256 = "sha256-jvDudezyqZFdUWldk+3fCqVdbS81ymXW1tBSxDrEDTI=";
     };
   };
 }

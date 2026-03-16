@@ -9,12 +9,12 @@
   octasine = {
     pname = "octasine";
     version = "v0.9.1";
-    src = fetchurl {
+    src = fetchTarball {
       url = "https://github.com/greatest-ape/OctaSine/archive/v0.9.1.tar.gz";
-      sha256 = "sha256-tn/mGdeZtCAJVjBO3TvH8BlSMZ/LGhHAEJZi6yPiT3U=";
+      sha256 = "sha256-Vr1L5B7dF0pJieE/Zww/T6XbZadWMK5Fdq66qRfQFF0=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./. + "/sha256-tn_mGdeZtCAJVjBO3TvH8BlSMZ_LGhHAEJZi6yPiT3U=/Cargo.lock";
+      lockFile = ./. + "/sha256-Vr1L5B7dF0pJieE_Zww_T6XbZadWMK5Fdq66qRfQFF0=/Cargo.lock";
       outputHashes = {
         "iced_baseview-0.0.3" = "sha256-BXGYNoRLZBE2DyJ/113u31ORxR2RrJ0A9fdKrhp3RiI=";
         "reflink-0.1.3" = "sha256-1o5d/mepjbDLuoZ2/49Bi6sFgVX4WdCuhGJkk8ulhcI=";

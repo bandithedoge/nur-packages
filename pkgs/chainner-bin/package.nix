@@ -10,7 +10,6 @@
   libGL,
   makeDesktopItem,
   makeWrapper,
-  unzip,
 }:
 stdenv.mkDerivation {
   inherit (sources.chainner-bin) pname version src;
@@ -18,7 +17,6 @@ stdenv.mkDerivation {
   nativeBuildInputs = [
     copyDesktopItems
     makeWrapper
-    unzip
   ];
 
   buildPhase = ''

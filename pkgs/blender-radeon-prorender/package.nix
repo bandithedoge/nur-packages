@@ -8,7 +8,6 @@
   blender,
   libGL,
   rocmPackages,
-  unzip,
   vulkan-loader,
 }:
 stdenv.mkDerivation {
@@ -17,10 +16,7 @@ stdenv.mkDerivation {
     builtins.elemAt (lib.splitString "/" sources.blender-radeon-prorender.version) 0
   );
 
-  nativeBuildInputs = [
-    autoPatchelfHook
-    unzip
-  ];
+  nativeBuildInputs = [ autoPatchelfHook ];
 
   buildInputs = [
     libGL

@@ -9,9 +9,9 @@
   vitalium-verb-bin = {
     pname = "vitalium-verb-bin";
     version = "1.3.0";
-    src = fetchurl {
+    src = fetchTarball {
       url = "https://github.com/BillyDM/vitalium-verb/releases/download/v1.3.0/vitaliumverb-1.3.0-ubuntu-22.04.zip";
-      sha256 = "sha256-S7I1WIvqFa+HVvEfNeBShbSZoyOQxX4h1cvekyvDF5I=";
+      sha256 = "sha256-m01aagwJCFRmQTqaVCfrJwqjUjKV20y9aVRiHN1s10E=";
     };
   };
 }

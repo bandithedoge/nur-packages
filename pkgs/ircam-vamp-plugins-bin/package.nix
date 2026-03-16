@@ -5,7 +5,6 @@
   stdenv,
 
   autoPatchelfHook,
-  unzip,
 }:
 stdenv.mkDerivation {
   inherit (sources.ircam-vamp-plugins-bin) pname version src;
@@ -14,7 +13,6 @@ stdenv.mkDerivation {
 
   nativeBuildInputs = [
     autoPatchelfHook
-    unzip
   ];
 
   buildInputs = [

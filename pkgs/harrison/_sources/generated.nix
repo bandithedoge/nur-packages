@@ -9,17 +9,17 @@
   harrison-32c = {
     pname = "harrison-32c";
     version = "3-5-22";
-    src = fetchurl {
+    src = fetchTarball {
       url = "https://rsrc.harrisonconsoles.com/ava/release/32C/3-5-22/Harrison_32C-linux-amd64.tar.gz";
-      sha256 = "sha256-CelnaeTNo5mkmiFNjxbsN0c+pcbjLSq4Tw3bb5toIHU=";
+      sha256 = "sha256-2Bthoz/7RdVAGIXbAd0y/mIwWfcu2NNni95BWqNnCoI=";
     };
   };
   harrison-ava = {
     pname = "harrison-ava";
     version = "10-27-22";
-    src = fetchurl {
+    src = fetchTarball {
       url = "https://rsrc.harrisonconsoles.com/ava/release/AVA/10-27-22/Harrison_AVA-linux-amd64.tar.gz";
-      sha256 = "sha256-oENxkmDdV0xX1hXkJbh0EhwBpp4+CYuqtZo2j6SY2bo=";
+      sha256 = "sha256-jkluEUfJjFfi3mOgx5FIDKr7E972UiKJNL/gEp5E5HU=";
     };
   };
 }
