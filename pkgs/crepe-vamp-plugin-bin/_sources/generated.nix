@@ -9,9 +9,9 @@
   crepe-vamp-plugin-bin = {
     pname = "crepe-vamp-plugin-bin";
     version = "3.0.0";
-    src = fetchurl {
+    src = fetchTarball {
       url = "https://github.com/Ircam-Partiels/crepe-vamp-plugin/releases/download/3.0.0/Crepe-Linux.tar.gz";
-      sha256 = "sha256-hTy1x14ztAHfnPvi5tLHqH9HsJQvn5BB4YtEV4eMqoI=";
+      sha256 = "sha256-dIFwxJN43dptdpp1jGChUyl9k06sC+L9ZpeXAZBXPeo=";
     };
   };
 }

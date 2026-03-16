@@ -9,9 +9,9 @@
   mod-desktop-bin = {
     pname = "mod-desktop-bin";
     version = "0.0.12";
-    src = fetchurl {
+    src = fetchTarball {
       url = "https://github.com/mod-audio/mod-desktop/releases/download/0.0.12/mod-desktop-0.0.12-linux-x86_64.tar.xz";
-      sha256 = "sha256-0fryCUZB1e9Sfum2AS8T8SVePCeDdzk5scJEmEjHxQw=";
+      sha256 = "sha256-MXGVgjjWuBy0bX528asX6pbR7ptQTHQy4Zd/GVgtQyo=";
     };
   };
 }

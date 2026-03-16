@@ -9,33 +9,33 @@
   envtool-bin = {
     pname = "envtool-bin";
     version = "v1.4.2";
-    src = fetchurl {
+    src = fetchTarball {
       url = "https://github.com/klknn/kdr/releases/download/v1.4.2/ubuntu-latest-envtool.zip";
-      sha256 = "sha256-foXXDcAGmzAgnpndZ/pCaExJrl6I2EKxxyaW5oYfRh4=";
+      sha256 = "sha256-ncnjtzOZuL9Vj6LNhqTg/w6A/OSIk9OHJUzFgcVTxUA=";
     };
   };
   epiano2-bin = {
     pname = "epiano2-bin";
     version = "v1.4.2";
-    src = fetchurl {
+    src = fetchTarball {
       url = "https://github.com/klknn/kdr/releases/download/v1.4.2/ubuntu-latest-epiano2.zip";
-      sha256 = "sha256-kJgsu9KTkVk2LD/NN3xgUG5C4YVRSNKPTBNSwbDfZTo=";
+      sha256 = "sha256-+ifB0omh2MKJSZcohjtXz634EJS9xz+qUMf1Hk2ecc8=";
     };
   };
   freeverb-bin = {
     pname = "freeverb-bin";
     version = "v1.4.2";
-    src = fetchurl {
+    src = fetchTarball {
       url = "https://github.com/klknn/kdr/releases/download/v1.4.2/ubuntu-latest-freeverb.zip";
-      sha256 = "sha256-mJBVg9IW09izeKgMj1rr5LP+KqDowQguArh8IwmMw1Q=";
+      sha256 = "sha256-+JHTq7APcYa+ZoF+3/e8Tvr6EioGTFk0BAGMH/Qypgk=";
     };
   };
   synth2-bin = {
     pname = "synth2-bin";
     version = "v1.4.2";
-    src = fetchurl {
+    src = fetchTarball {
       url = "https://github.com/klknn/kdr/releases/download/v1.4.2/ubuntu-latest-synth2.zip";
-      sha256 = "sha256-HDtSoouLmCe++5Ly0UXPuiZoBs1+cqM0A/XW/7CaA/A=";
+      sha256 = "sha256-32rfUQcFum4Q8Ii2w02/7TzJul/XU0boUHTKMtXL3EE=";
     };
   };
 }

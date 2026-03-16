@@ -11,7 +11,6 @@
   freetype,
   libGL,
   libgcc,
-  unzip,
 }:
 let
   mkTal =
@@ -28,7 +27,6 @@ let
 
       nativeBuildInputs = [
         autoPatchelfHook
-        unzip
       ];
 
       buildInputs = [

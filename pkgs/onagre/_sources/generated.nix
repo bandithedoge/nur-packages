@@ -9,14 +9,14 @@
   onagre = {
     pname = "onagre";
     version = "c68c716b086afa3cc8ca02a9a03334493ecb5cb1";
-    src = fetchurl {
+    src = fetchTarball {
       url = "https://github.com/onagre-launcher/onagre/archive/c68c716b086afa3cc8ca02a9a03334493ecb5cb1.tar.gz";
-      sha256 = "sha256-I6o+GVothedWTxsS7exiIxXBwFIlh3A2S14YJf01bQ4=";
+      sha256 = "sha256-X2ZffwkCZdH0fbSFTpVITIpFFqY8djCteo11sp/FU3E=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./. + "/sha256-I6o+GVothedWTxsS7exiIxXBwFIlh3A2S14YJf01bQ4=/Cargo.lock";
+      lockFile = ./. + "/sha256-X2ZffwkCZdH0fbSFTpVITIpFFqY8djCteo11sp_FU3E=/Cargo.lock";
       outputHashes = {
-
+        
       };
     };
     date = "2025-04-24";

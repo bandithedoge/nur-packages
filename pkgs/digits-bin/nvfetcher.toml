@@ -3,4 +3,4 @@ src.webpage = "http://www.extentofthejam.com/"
 src.regex = 'Digits (\d+\.\d+)'
 src.from_pattern = '\.'
 src.to_pattern = "_"
-fetch.url = "http://www.extentofthejam.com/DigitsLinux_$ver.tar.gz"
+fetch.tarball = "http://www.extentofthejam.com/DigitsLinux_$ver.tar.gz"

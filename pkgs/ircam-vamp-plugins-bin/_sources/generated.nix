@@ -9,9 +9,9 @@
   ircam-vamp-plugins-bin = {
     pname = "ircam-vamp-plugins-bin";
     version = "2.1.0";
-    src = fetchurl {
+    src = fetchTarball {
       url = "https://github.com/Ircam-Partiels/ircam-vamp-plugins/releases/download/2.1.0/Ircam-Vamp-Plugins-Linux.zip";
-      sha256 = "sha256-yeskOFda9duIjWxP1vB0t6tXIHlzza1st2u9Qciy770=";
+      sha256 = "sha256-QmW7mbtWZCr0ZAkRSfzSjiVVKIgcBLgsfbCeP+Cf2b8=";
     };
   };
 }

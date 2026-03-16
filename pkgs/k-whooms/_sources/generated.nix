@@ -9,9 +9,9 @@
   k-whooms = {
     pname = "k-whooms";
     version = "2025.03";
-    src = fetchurl {
+    src = fetchTarball {
       url = "https://www.hansen-audio.org/download/K-Whooms-2025.03-Linux.tar.gz";
-      sha256 = "sha256-8tESW1GCgJgsQlkiX+P4qXRbizST8RUaqHvHx8FwgSQ=";
+      sha256 = "sha256-S/UTd6qJamvMycFmDqUjx9PDqVGbhqXSHgI48ggVuww=";
     };
   };
 }
