@@ -22,9 +22,8 @@
     "passthru": null,
     "pinned": false,
     "src": {
-      "name": null,
-      "sha256": "sha256-9JdK/teelilYnUsTYwO3zYWOguVEaPddhSUcbISJNos=",
-      "type": "url",
+      "sha256": "sha256-FT9Few5C67BnE5U9iMjZDOv+fQ+9oVxqHEb4WRmdBuA=",
+      "type": "tarball",
       "url": "https://github.com/publicsamples/Quetzalcoatl/releases/download/0.9.0/Quetzalcoatl_Presets_Wavetables.zip"
     },
     "version": "0.9.0"
@@ -37,9 +36,8 @@
     "passthru": null,
     "pinned": false,
     "src": {
-      "name": null,
-      "sha256": "sha256-14hfZpZZzG0+iGoGWmm9b0651FofLTdwMYy9+Caepn0=",
-      "type": "url",
+      "sha256": "sha256-F7oGkKVe7zAbRx9zZxKflE96G0rt5xQdap5cO99ozHs=",
+      "type": "tarball",
       "url": "https://github.com/publicsamples/Quetzalcoatl/releases/download/0.9.0/Quetzalcoatl_Samples.zip"
     },
     "version": "0.9.0"

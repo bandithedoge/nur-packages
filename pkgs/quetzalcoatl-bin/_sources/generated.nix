@@ -17,17 +17,17 @@
   quetzalcoatl-presets = {
     pname = "quetzalcoatl-presets";
     version = "0.9.0";
-    src = fetchurl {
+    src = fetchTarball {
       url = "https://github.com/publicsamples/Quetzalcoatl/releases/download/0.9.0/Quetzalcoatl_Presets_Wavetables.zip";
-      sha256 = "sha256-9JdK/teelilYnUsTYwO3zYWOguVEaPddhSUcbISJNos=";
+      sha256 = "sha256-FT9Few5C67BnE5U9iMjZDOv+fQ+9oVxqHEb4WRmdBuA=";
     };
   };
   quetzalcoatl-samples = {
     pname = "quetzalcoatl-samples";
     version = "0.9.0";
-    src = fetchurl {
+    src = fetchTarball {
       url = "https://github.com/publicsamples/Quetzalcoatl/releases/download/0.9.0/Quetzalcoatl_Samples.zip";
-      sha256 = "sha256-14hfZpZZzG0+iGoGWmm9b0651FofLTdwMYy9+Caepn0=";
+      sha256 = "sha256-F7oGkKVe7zAbRx9zZxKflE96G0rt5xQdap5cO99ozHs=";
     };
   };
 }

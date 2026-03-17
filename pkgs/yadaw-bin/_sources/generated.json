@@ -1,30 +1,30 @@
 {
-    "yadaw-bin-aarch64": {
-        "cargoLock": null,
-        "date": null,
-        "extract": null,
-        "name": "yadaw-bin-aarch64",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "sha256": "sha256-BJ/6jFNcUaIDaK/6JeMWCmSnPF1ykRvGwYgcbVNxnOM=",
-            "type": "tarball",
-            "url": "https://github.com/mlm-games/yadaw/releases/download/0.6.1/yadaw-0.6.1-aarch64-unknown-linux-gnu.tar.gz"
-        },
-        "version": "0.6.1"
+  "yadaw-bin-aarch64": {
+    "cargoLock": null,
+    "date": null,
+    "extract": null,
+    "name": "yadaw-bin-aarch64",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "sha256": "sha256-BJ/6jFNcUaIDaK/6JeMWCmSnPF1ykRvGwYgcbVNxnOM=",
+      "type": "tarball",
+      "url": "https://github.com/mlm-games/yadaw/releases/download/0.6.1/yadaw-0.6.1-aarch64-unknown-linux-gnu.tar.gz"
     },
-    "yadaw-bin-x86_64": {
-        "cargoLock": null,
-        "date": null,
-        "extract": null,
-        "name": "yadaw-bin-x86_64",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "sha256": "sha256-wPKhpDgXhQ1YJAHP9ZmquyeeYUef4VgltOa42jiRbzE=",
-            "type": "tarball",
-            "url": "https://github.com/mlm-games/yadaw/releases/download/0.6.1/yadaw-0.6.1-x86_64-unknown-linux-gnu.tar.gz"
-        },
-        "version": "0.6.1"
-    }
+    "version": "0.6.1"
+  },
+  "yadaw-bin-x86_64": {
+    "cargoLock": null,
+    "date": null,
+    "extract": null,
+    "name": "yadaw-bin-x86_64",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "sha256": "sha256-wPKhpDgXhQ1YJAHP9ZmquyeeYUef4VgltOa42jiRbzE=",
+      "type": "tarball",
+      "url": "https://github.com/mlm-games/yadaw/releases/download/0.6.1/yadaw-0.6.1-x86_64-unknown-linux-gnu.tar.gz"
+    },
+    "version": "0.6.1"
+  }
 }

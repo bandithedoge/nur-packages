@@ -8,20 +8,20 @@
 {
   some-sass-language-server = {
     pname = "some-sass-language-server";
-    version = "some-sass-language-server@2.3.7";
+    version = "some-sass-language-server@2.3.8";
     src = fetchgit {
       url = "https://github.com/wkillerud/some-sass.git";
-      rev = "some-sass-language-server@2.3.7";
+      rev = "some-sass-language-server@2.3.8";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-ieJYW1sB2Ir3A/xTxOg8AtOwJpnDEwTE+yegmIFIiLM=";
+      sha256 = "sha256-jmpkZReeVuf10juWMy7QO/q1Sm7kye3NTpMCeB8kG48=";
     };
     extract = {
       "package-lock.json" =
-        ./. + "/sha256-ieJYW1sB2Ir3A_xTxOg8AtOwJpnDEwTE+yegmIFIiLM=/package-lock.json";
-      "package.json" = ./. + "/sha256-ieJYW1sB2Ir3A_xTxOg8AtOwJpnDEwTE+yegmIFIiLM=/package.json";
+        ./. + "/sha256-jmpkZReeVuf10juWMy7QO_q1Sm7kye3NTpMCeB8kG48=/package-lock.json";
+      "package.json" = ./. + "/sha256-jmpkZReeVuf10juWMy7QO_q1Sm7kye3NTpMCeB8kG48=/package.json";
     };
   };
 }

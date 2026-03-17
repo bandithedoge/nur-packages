@@ -1,16 +1,16 @@
 {
-    "digits-bin": {
-        "cargoLock": null,
-        "date": null,
-        "extract": null,
-        "name": "digits-bin",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "sha256": "sha256-4WFuQi05IiNdUH+RnCfpyhNmt17X0NOrlEIi5lo8WtE=",
-            "type": "tarball",
-            "url": "http://www.extentofthejam.com/DigitsLinux_2_1.tar.gz"
-        },
-        "version": "2_1"
-    }
+  "digits-bin": {
+    "cargoLock": null,
+    "date": null,
+    "extract": null,
+    "name": "digits-bin",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "sha256": "sha256-4WFuQi05IiNdUH+RnCfpyhNmt17X0NOrlEIi5lo8WtE=",
+      "type": "tarball",
+      "url": "http://www.extentofthejam.com/DigitsLinux_2_1.tar.gz"
+    },
+    "version": "2_1"
+  }
 }

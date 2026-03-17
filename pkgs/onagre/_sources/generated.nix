@@ -16,7 +16,7 @@
     cargoLock."Cargo.lock" = {
       lockFile = ./. + "/sha256-X2ZffwkCZdH0fbSFTpVITIpFFqY8djCteo11sp_FU3E=/Cargo.lock";
       outputHashes = {
-        
+
       };
     };
     date = "2025-04-24";

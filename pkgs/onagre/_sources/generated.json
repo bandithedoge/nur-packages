@@ -1,21 +1,21 @@
 {
-    "onagre": {
-        "cargoLock": {
-            "Cargo.lock": [
-                "sha256-X2ZffwkCZdH0fbSFTpVITIpFFqY8djCteo11sp_FU3E=/Cargo.lock",
-                {}
-            ]
-        },
-        "date": "2025-04-24",
-        "extract": null,
-        "name": "onagre",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "sha256": "sha256-X2ZffwkCZdH0fbSFTpVITIpFFqY8djCteo11sp/FU3E=",
-            "type": "tarball",
-            "url": "https://github.com/onagre-launcher/onagre/archive/c68c716b086afa3cc8ca02a9a03334493ecb5cb1.tar.gz"
-        },
-        "version": "c68c716b086afa3cc8ca02a9a03334493ecb5cb1"
-    }
+  "onagre": {
+    "cargoLock": {
+      "Cargo.lock": [
+        "sha256-X2ZffwkCZdH0fbSFTpVITIpFFqY8djCteo11sp_FU3E=/Cargo.lock",
+        {}
+      ]
+    },
+    "date": "2025-04-24",
+    "extract": null,
+    "name": "onagre",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "sha256": "sha256-X2ZffwkCZdH0fbSFTpVITIpFFqY8djCteo11sp/FU3E=",
+      "type": "tarball",
+      "url": "https://github.com/onagre-launcher/onagre/archive/c68c716b086afa3cc8ca02a9a03334493ecb5cb1.tar.gz"
+    },
+    "version": "c68c716b086afa3cc8ca02a9a03334493ecb5cb1"
+  }
 }

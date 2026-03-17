@@ -8,10 +8,10 @@
 {
   sgdboop-bin = {
     pname = "sgdboop-bin";
-    version = "v1.3.1";
+    version = "v1.3.2";
     src = fetchurl {
-      url = "https://github.com/SteamGridDB/SGDBoop/releases/download/v1.3.1/sgdboop-linux64.tar.gz";
-      sha256 = "sha256-NRP5b/Idpiq54bAFNsNcsfNXECgqLp2i/lys0fqsLUo=";
+      url = "https://github.com/SteamGridDB/SGDBoop/releases/download/v1.3.2/sgdboop-linux64.tar.gz";
+      sha256 = "sha256-p1xPmAwKbYnWc8DE3RW6V/yecTVGh9/wbFS+H5Gtl2U=";
     };
   };
 }

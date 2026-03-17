@@ -7,9 +7,8 @@
     "passthru": null,
     "pinned": false,
     "src": {
-      "name": null,
-      "sha256": "sha256-BhUnGm0I+aZ/944RaxVKAbbGafOJ+5tR6LVZ8UeKIPk=",
-      "type": "url",
+      "sha256": "sha256-kD2WUjrDU67gQigvkOqoyH7Msl5xEnS39Feg+NQMNj4=",
+      "type": "tarball",
       "url": "https://github.com/Ircam-Partiels/whisper-vamp-plugin/releases/download/3.0.0/Whisper-Linux.tar.gz"
     },
     "version": "3.0.0"

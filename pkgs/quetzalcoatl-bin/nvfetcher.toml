@@ -1,6 +1,6 @@
 [quetzalcoatl-bin]
 src.github = "publicsamples/Quetzalcoatl"
-fetch.tarball = "https://github.com/publicsamples/Quetzalcoatl/releases/download/$ver/Quetzalcoatl.vst3.Linux.tar.xz"
+fetch.url = "https://github.com/publicsamples/Quetzalcoatl/releases/download/$ver/Quetzalcoatl.vst3.Linux.tar.xz"
 
 [quetzalcoatl-samples]
 src.github = "publicsamples/Quetzalcoatl"

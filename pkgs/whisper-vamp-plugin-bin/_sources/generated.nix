@@ -9,9 +9,9 @@
   whisper-vamp-plugin-bin = {
     pname = "whisper-vamp-plugin-bin";
     version = "3.0.0";
-    src = fetchurl {
+    src = fetchTarball {
       url = "https://github.com/Ircam-Partiels/whisper-vamp-plugin/releases/download/3.0.0/Whisper-Linux.tar.gz";
-      sha256 = "sha256-BhUnGm0I+aZ/944RaxVKAbbGafOJ+5tR6LVZ8UeKIPk=";
+      sha256 = "sha256-kD2WUjrDU67gQigvkOqoyH7Msl5xEnS39Feg+NQMNj4=";
     };
   };
 }

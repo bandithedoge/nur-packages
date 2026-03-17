@@ -9,8 +9,9 @@ See [LIST.md](LIST.md) for a full list of packages.
 # Conventions
 
 - Commits are made to `staging` (including automated package updates). Everything is merged into `master` by CI if all builds succeed.
-- `-bin` suffix is added to packages that *could* be built from source but for some reason aren't
+- `-bin` suffix is added to packages that _could_ be built from source but for some reason aren't
 - Import order:
+
   ```nix
   {
     sources,
@@ -21,6 +22,7 @@ See [LIST.md](LIST.md) for a full list of packages.
     # libraries, hooks, etc
   }:
   ```
+
 - Dependency lists and the like are sorted alphabetically
 - `version` attribute must be a diffable version:
   - `v` prefix stripped
