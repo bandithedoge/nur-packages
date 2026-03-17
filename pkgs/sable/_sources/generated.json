@@ -1,22 +1,22 @@
 {
-    "sable": {
-        "cargoLock": null,
-        "date": null,
-        "extract": null,
-        "name": "sable",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "arch": null,
-            "finalImageName": null,
-            "finalImageTag": null,
-            "imageDigest": "sha256:2b031ef97230bd93bd02f8629c9ce8025a0df549f146a961c8145276a05c58b0",
-            "imageName": "ghcr.io/sableclient/sable",
-            "imageTag": "1.9.2",
-            "os": null,
-            "sha256": "sha256-3BlbYWqJJyfFJzXOiTsqLcY5fOJ9dval9x2uYGfBVdw=",
-            "tlsVerify": null
-        },
-        "version": "1.9.2"
-    }
+  "sable": {
+    "cargoLock": null,
+    "date": null,
+    "extract": null,
+    "name": "sable",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "arch": null,
+      "finalImageName": null,
+      "finalImageTag": null,
+      "imageDigest": "sha256:2b031ef97230bd93bd02f8629c9ce8025a0df549f146a961c8145276a05c58b0",
+      "imageName": "ghcr.io/sableclient/sable",
+      "imageTag": "1.9.2",
+      "os": null,
+      "sha256": "sha256-3BlbYWqJJyfFJzXOiTsqLcY5fOJ9dval9x2uYGfBVdw=",
+      "tlsVerify": null
+    },
+    "version": "1.9.2"
+  }
 }

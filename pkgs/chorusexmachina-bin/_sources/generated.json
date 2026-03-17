@@ -1,17 +1,17 @@
 {
-    "chorusexmachina-bin": {
-        "cargoLock": null,
-        "date": null,
-        "extract": null,
-        "name": "chorusexmachina-bin",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "name": null,
-            "sha256": "sha256-5pbOuYqIAvugmr2D3gSX/nFjCxam+OS6FlcC4vfeJHM=",
-            "type": "url",
-            "url": "https://github.com/peastman/ChorusExMachina/releases/download/v1.2/chorus_ex_machina-linux-x86.zip"
-        },
-        "version": "v1.2"
-    }
+  "chorusexmachina-bin": {
+    "cargoLock": null,
+    "date": null,
+    "extract": null,
+    "name": "chorusexmachina-bin",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-5pbOuYqIAvugmr2D3gSX/nFjCxam+OS6FlcC4vfeJHM=",
+      "type": "url",
+      "url": "https://github.com/peastman/ChorusExMachina/releases/download/v1.2/chorus_ex_machina-linux-x86.zip"
+    },
+    "version": "v1.2"
+  }
 }
