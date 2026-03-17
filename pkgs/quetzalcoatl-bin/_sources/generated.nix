@@ -9,9 +9,9 @@
   quetzalcoatl-bin = {
     pname = "quetzalcoatl-bin";
     version = "0.9.0";
-    src = fetchTarball {
+    src = fetchurl {
       url = "https://github.com/publicsamples/Quetzalcoatl/releases/download/0.9.0/Quetzalcoatl.vst3.Linux.tar.xz";
-      sha256 = "sha256-rOQGQ5so/lr0g+/WFpiKjBJW/tbvvbpQJLA0c27eiZo=";
+      sha256 = "sha256-npSHwnqaiPjQMJjK+i0rW+cVeKuMp+LlGS2Zvpk5a+A=";
     };
   };
   quetzalcoatl-presets = {

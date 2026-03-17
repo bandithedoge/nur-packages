@@ -7,8 +7,9 @@
     "passthru": null,
     "pinned": false,
     "src": {
-      "sha256": "sha256-rOQGQ5so/lr0g+/WFpiKjBJW/tbvvbpQJLA0c27eiZo=",
-      "type": "tarball",
+      "name": null,
+      "sha256": "sha256-npSHwnqaiPjQMJjK+i0rW+cVeKuMp+LlGS2Zvpk5a+A=",
+      "type": "url",
       "url": "https://github.com/publicsamples/Quetzalcoatl/releases/download/0.9.0/Quetzalcoatl.vst3.Linux.tar.xz"
     },
     "version": "0.9.0"
