@@ -20,8 +20,8 @@ See [LIST.md](LIST.md) for a full list of packages.
 
     # libraries, hooks, etc
   }:
-- Dependency lists and the like are sorted alphabetically
   ```
+- Dependency lists and the like are sorted alphabetically
 - `version` attribute must be a diffable version:
   - `v` prefix stripped
   - date instead of commit hash
