@@ -841,10 +841,10 @@
   };
   "nexusmods-advance" = buildMozillaXpiAddon {
     pname = "nexusmods-advance";
-    version = "0.26.6";
+    version = "0.26.7";
     addonId = "NexusModsAdvance@Caiota";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4715656/nexusmods_advance-0.26.6.xpi";
-    sha256 = "e34d2e2439acc90d2125d61611b443651e929d9972fad24780f60d7196ddc090";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4730549/nexusmods_advance-0.26.7.xpi";
+    sha256 = "c53fb6b91285ee1e3cdbabf74aa39cbbe85d0d48a2b01ff66b02f8b6e1339bed";
     meta = with lib; {
       description = "Enhance your browsing experience on the NexusMods site and manage your mods directly through the browser!";
       license = licenses.mpl20;
