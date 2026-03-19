@@ -74,9 +74,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "157fa3f37a3be55ceb375274e2f3ea2d7d2f9ef6",
-      "url": "https://github.com/b0o/SchemaStore.nvim/archive/157fa3f37a3be55ceb375274e2f3ea2d7d2f9ef6.tar.gz",
-      "hash": "sha256-lsUfI72s1a5F9x7WYQ4vHZaY/okJiPYnLQidy4zF5RE="
+      "revision": "786a23a8e9c0a616c07a93cbf1c5c39a2a8d575d",
+      "url": "https://github.com/b0o/SchemaStore.nvim/archive/786a23a8e9c0a616c07a93cbf1c5c39a2a8d575d.tar.gz",
+      "hash": "sha256-k5AagWAHCYvfEOHBcUvLCYLp65AsQuIKeccMECujCLY="
     },
     "aniseed": {
       "type": "Git",
@@ -802,9 +802,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "426a4ed53f9fb4e03e8fa501cdbd8a9ec1df2933",
-      "url": "https://github.com/lewis6991/hover.nvim/archive/426a4ed53f9fb4e03e8fa501cdbd8a9ec1df2933.tar.gz",
-      "hash": "sha256-X1chzyWxoxHPwMSRytLRbmbgFqRV01G3ZZDys6Ub9AY="
+      "revision": "930327d850cc6dc04d8f49497d6746032ba09064",
+      "url": "https://github.com/lewis6991/hover.nvim/archive/930327d850cc6dc04d8f49497d6746032ba09064.tar.gz",
+      "hash": "sha256-8/hTIrRnsfrlo0K6PEBlwfq319IpHnuJpFiaXFHNr1c="
     },
     "icon-picker.nvim": {
       "type": "Git",
@@ -1815,9 +1815,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "01993eb20c6cdc1d33e7e98252368840309f99b9",
-      "url": "https://gitlab.com/api/v4/projects/HiPhish%2Frainbow-delimiters.nvim/repository/archive.tar.gz?sha=01993eb20c6cdc1d33e7e98252368840309f99b9",
-      "hash": "sha256-DHzdssZkkegR3pk3X0jwGJy5G/BZ/TAGPoNCqo9OnOc="
+      "revision": "607a438d8c647a355749973fd295e33505afafde",
+      "url": "https://gitlab.com/api/v4/projects/HiPhish%2Frainbow-delimiters.nvim/repository/archive.tar.gz?sha=607a438d8c647a355749973fd295e33505afafde",
+      "hash": "sha256-nqZKbqUeVkwzZlUR+xAKe4cb65DahWgStreRtGUchXE="
     },
     "rainbow-delimiters.nvim": {
       "type": "Git",
@@ -1827,9 +1827,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "01993eb20c6cdc1d33e7e98252368840309f99b9",
+      "revision": "607a438d8c647a355749973fd295e33505afafde",
       "url": null,
-      "hash": "sha256-DHzdssZkkegR3pk3X0jwGJy5G/BZ/TAGPoNCqo9OnOc="
+      "hash": "sha256-nqZKbqUeVkwzZlUR+xAKe4cb65DahWgStreRtGUchXE="
     },
     "range-highlight.nvim": {
       "type": "Git",
