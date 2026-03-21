@@ -841,10 +841,10 @@
   };
   "nexusmods-advance" = buildMozillaXpiAddon {
     pname = "nexusmods-advance";
-    version = "0.26.7";
+    version = "0.26.71";
     addonId = "NexusModsAdvance@Caiota";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4730549/nexusmods_advance-0.26.7.xpi";
-    sha256 = "c53fb6b91285ee1e3cdbabf74aa39cbbe85d0d48a2b01ff66b02f8b6e1339bed";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4734398/nexusmods_advance-0.26.71.xpi";
+    sha256 = "10c725958f3125bc36e62198921038b6991d9d08697aa97a9eb7abc898332fbc";
     meta = with lib; {
       description = "Enhance your browsing experience on the NexusMods site and manage your mods directly through the browser!";
       license = licenses.mpl20;
@@ -1632,10 +1632,10 @@
   };
   "tree-style-tab" = buildMozillaXpiAddon {
     pname = "tree-style-tab";
-    version = "4.2.10";
+    version = "4.2.12";
     addonId = "treestyletab@piro.sakura.ne.jp";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4698277/tree_style_tab-4.2.10.xpi";
-    sha256 = "cafd025b04025005b391b1bf23831ae22d6eec53cd0e968a00c058bcd300a9a5";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4729676/tree_style_tab-4.2.12.xpi";
+    sha256 = "d3cb231306c108b5d0048b2b28a8ae4e84d4319a212c92ca1943fc1c3778be5f";
     meta = with lib; {
       homepage = "http://piro.sakura.ne.jp/xul/_treestyletab.html.en";
       description = "Show tabs like a tree.";
