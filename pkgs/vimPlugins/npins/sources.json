@@ -61,9 +61,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "dae4f5aaa3574bd0c2b9dd20fb9542a02c10471c",
-      "url": "https://github.com/L3MON4D3/LuaSnip/archive/dae4f5aaa3574bd0c2b9dd20fb9542a02c10471c.tar.gz",
-      "hash": "sha256-3beTsZPT2EwzAVhEzqNhFRnDAU7C7GlzFFymY3aNp9M="
+      "revision": "642b0c595e11608b4c18219e93b88d7637af27bc",
+      "url": "https://github.com/L3MON4D3/LuaSnip/archive/642b0c595e11608b4c18219e93b88d7637af27bc.tar.gz",
+      "hash": "sha256-diZO1on0rlSp6XuNGN2lNa85rhkNe1QQOejJD+LKkZk="
     },
     "SchemaStore.nvim": {
       "type": "Git",
@@ -750,9 +750,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "be9f0a3349d1d9af7f0d2d252227f0b69ebf789d",
-      "url": "https://github.com/MrcJkb/haskell-tools.nvim/archive/be9f0a3349d1d9af7f0d2d252227f0b69ebf789d.tar.gz",
-      "hash": "sha256-SJ2fOO4zLKMwhWwdrutc/saun9hoSEkbm5iC8CgT3Ks="
+      "revision": "6902e42ef2f8c93c66e856880c42e72108377f0c",
+      "url": "https://github.com/MrcJkb/haskell-tools.nvim/archive/6902e42ef2f8c93c66e856880c42e72108377f0c.tar.gz",
+      "hash": "sha256-VlKD3rnONTHZKOWj0XBL1sbgIhfvfx0g3hbg6ug1b+I="
     },
     "heirline.nvim": {
       "type": "Git",
@@ -1100,9 +1100,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "054f28d5f99fc1f32d22fe6b7bb5f56ebb9bf995",
-      "url": "https://github.com/folke/neoconf.nvim/archive/054f28d5f99fc1f32d22fe6b7bb5f56ebb9bf995.tar.gz",
-      "hash": "sha256-S7DTbNkPA3uG8bYKnc24/cHWPMx8aXvcTP/sJGrGge4="
+      "revision": "af6b5e5924356f167bd5af0873f35704b44bb1e6",
+      "url": "https://github.com/folke/neoconf.nvim/archive/af6b5e5924356f167bd5af0873f35704b44bb1e6.tar.gz",
+      "hash": "sha256-X8+uIU07KoltM2kyLo1GVGLl+XFLf4BY07KoHXPf/JE="
     },
     "neodev.nvim": {
       "type": "Git",
@@ -1321,9 +1321,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "ef211089af881bea206c7aa3f2693a81feee7e90",
-      "url": "https://github.com/NvChad/nvim-colorizer.lua/archive/ef211089af881bea206c7aa3f2693a81feee7e90.tar.gz",
-      "hash": "sha256-8ETgER/T/kKI27I1DlpoenRz1FZAoobNI1/jR1QiRnM="
+      "revision": "85a5e83cd4daa258cf95c3204e277991d6fbe747",
+      "url": "https://github.com/NvChad/nvim-colorizer.lua/archive/85a5e83cd4daa258cf95c3204e277991d6fbe747.tar.gz",
+      "hash": "sha256-bcBASdT6XUU4FOl+WusfHrMPahioHCwwrBXse6BvC4E="
     },
     "nvim-cursorword": {
       "type": "Git",
