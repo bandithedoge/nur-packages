@@ -8,16 +8,16 @@
 {
   ob-xf = {
     pname = "ob-xf";
-    version = "5101cb05e208578bf08544e0ab32059bded698e2";
+    version = "ef3bcc58ce6ab02c1b0cdf1a826df20aad03cd2a";
     src = fetchgit {
       url = "https://github.com/surge-synthesizer/OB-Xf";
-      rev = "5101cb05e208578bf08544e0ab32059bded698e2";
+      rev = "ef3bcc58ce6ab02c1b0cdf1a826df20aad03cd2a";
       fetchSubmodules = true;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-0pq8kZczNhnr0qTPeFbpqEOgc+iBb98s7cLnRkwvwA0=";
+      sha256 = "sha256-TBiPOtBCNYO8T9RwYwu8S4dq0qgpR8pyKqALV58mQDc=";
     };
-    date = "2026-03-19";
+    date = "2026-03-21";
   };
 }

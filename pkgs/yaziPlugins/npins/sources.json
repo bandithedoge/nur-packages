@@ -139,9 +139,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "9d64595cd5ba669dda27d41a936e748a795e949a",
-      "url": "https://github.com/boydaihungst/gvfs.yazi/archive/9d64595cd5ba669dda27d41a936e748a795e949a.tar.gz",
-      "hash": "sha256-KXx0SDcksaA7cM7UonUGVtm1JJEyC1lGja3R+fsHxtY="
+      "revision": "32eb9f395471f883addece1c56ab04f39b7513ae",
+      "url": "https://github.com/boydaihungst/gvfs.yazi/archive/32eb9f395471f883addece1c56ab04f39b7513ae.tar.gz",
+      "hash": "sha256-wtO5JSCW/IQVAj94re2K9TKGm9hUXVY7ZxGvWQeugNc="
     },
     "hexyl.yazi": {
       "type": "Git",
