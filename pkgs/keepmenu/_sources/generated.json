@@ -1,7 +1,7 @@
 {
   "keepmenu": {
     "cargoLock": null,
-    "date": "2026-02-06",
+    "date": "2026-03-22",
     "extract": null,
     "name": "keepmenu",
     "passthru": null,
@@ -13,11 +13,11 @@
       "name": null,
       "owner": "firecat53",
       "repo": "keepmenu",
-      "rev": "d7d052911c7c20d3bf10c3b85eab2e45ebf7e1c2",
-      "sha256": "sha256-jG3yLuYvw2w2DNrphYDMPcr4dR7vYpVG6vApoMbrSH8=",
+      "rev": "4aa908f20088eb7ff814118b12d6f2875e202bc6",
+      "sha256": "sha256-tGl3dueQBLzxIztygwkHDxI/yVbBhrHjOb4P/SU79GA=",
       "sparseCheckout": [],
       "type": "github"
     },
-    "version": "d7d052911c7c20d3bf10c3b85eab2e45ebf7e1c2"
+    "version": "4aa908f20088eb7ff814118b12d6f2875e202bc6"
   }
 }

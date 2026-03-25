@@ -176,17 +176,17 @@
   };
   susquash = {
     pname = "susquash";
-    version = "3af376db597195005b655c708483ccce8be49c5f";
+    version = "4e275b42510ec6325d9f548c5d82d7211281fcc0";
     src = fetchgit {
       url = "https://github.com/Mrugalla/susquash";
-      rev = "3af376db597195005b655c708483ccce8be49c5f";
+      rev = "4e275b42510ec6325d9f548c5d82d7211281fcc0";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-4t4xJWaYuqfxvSXOGL73JWbyqfr8a4/FT51u7cg0oUs=";
+      sha256 = "sha256-6HtbB4q4ytweoOk47T05RQcbI4EcvTOFcf0oQUt1Q78=";
     };
-    date = "2025-09-15";
+    date = "2026-03-23";
   };
   xen = {
     pname = "xen";

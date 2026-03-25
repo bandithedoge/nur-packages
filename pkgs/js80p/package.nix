@@ -47,7 +47,7 @@ stdenv.mkDerivation rec {
     cp dist/js80p.vstxml $out/lib/vst
 
     mkdir -p $out/lib/vst3/js80p.vst3/Contents/${stdenv.system}
-    cp dist/js80p-dev-linux-${arch}-${instructionSet}-vst3_single_file/js80p.vst3 \
+    cp dist/js80p-dev-linux-${arch}-${instructionSet}-vst3_single/js80p.vst3 \
       $out/lib/vst3/js80p.vst3/Contents/${stdenv.system}/js80p.so
 
     runHook postInstall
@@ -72,7 +72,7 @@ stdenv.mkDerivation rec {
   VERSION_INT = lib.concatStrings (lib.splitString "." (lib.removePrefix "v" version));
 
   hardeningDisable = [ "format" ];
-  NIX_CFLAGS_COMPILE = [ "-Wno-error=deprecated-declarations" ];
+  NIX_CFLAGS_COMPILE = [ "-Wno-error" ];
 
   enableParallelBuilding = true;
 
