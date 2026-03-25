@@ -8,26 +8,26 @@
 {
   git-pages-bin-aarch64-darwin = {
     pname = "git-pages-bin-aarch64-darwin";
-    version = "v0.6.1";
+    version = "v0.6.2";
     src = fetchurl {
-      url = "https://codeberg.org/git-pages/git-pages/releases/download/v0.6.1/git-pages.darwin-arm64";
-      sha256 = "sha256-G4qCnGLdHUlvCnOn9KEsO48Cl6rqb6AFI7YcuNFoPlU=";
+      url = "https://codeberg.org/git-pages/git-pages/releases/download/v0.6.2/git-pages.darwin-arm64";
+      sha256 = "sha256-37CxW/YmszcVa4BAluw0jjivB3B9rGoFGi99coobBGQ=";
     };
   };
   git-pages-bin-aarch64-linux = {
     pname = "git-pages-bin-aarch64-linux";
-    version = "v0.6.1";
+    version = "v0.6.2";
     src = fetchurl {
-      url = "https://codeberg.org/git-pages/git-pages/releases/download/v0.6.1/git-pages.linux-arm64";
-      sha256 = "sha256-/Ig3MXUNqPFX48vIJQSEMFpuZ6APxbIaDsktY8HpYDo=";
+      url = "https://codeberg.org/git-pages/git-pages/releases/download/v0.6.2/git-pages.linux-arm64";
+      sha256 = "sha256-I8p74LdcWM60TLXexwMuMg7767jSQS/WRxwh4bSmrPs=";
     };
   };
   git-pages-bin-x86_64-linux = {
     pname = "git-pages-bin-x86_64-linux";
-    version = "v0.6.1";
+    version = "v0.6.2";
     src = fetchurl {
-      url = "https://codeberg.org/git-pages/git-pages/releases/download/v0.6.1/git-pages.linux-amd64";
-      sha256 = "sha256-mvbsJ6OaMTzLCHiUuvNEdI4rLt0mcEaXnIAeadFrWCY=";
+      url = "https://codeberg.org/git-pages/git-pages/releases/download/v0.6.2/git-pages.linux-amd64";
+      sha256 = "sha256-qM1yOEkG7ce2B7yQmt5LlhvutMAMFRwD8z0pGL9LDfA=";
     };
   };
 }
