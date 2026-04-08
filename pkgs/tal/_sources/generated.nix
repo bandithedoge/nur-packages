@@ -123,7 +123,7 @@
     version = "latest";
     src = fetchTarball {
       url = "https://tal-software.com/downloads/plugins/TAL-U-NO-LX-V2_64_linux.zip";
-      sha256 = "sha256-Y8BT/sjRfk6Q31scSvZGsiVaWhjFJYrThHGHDt5h5vs=";
+      sha256 = "sha256-NVvlfmyBI/ngfszV01SY/kNt85TH/GwpVIojTKjMTRA=";
     };
   };
   vocoder = {
