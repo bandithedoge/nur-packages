@@ -1572,6 +1572,19 @@
       "url": "https://github.com/petertriho/nvim-scrollbar/archive/f8e87b96cd6362ef8579be456afee3b38fd7e2a8.tar.gz",
       "hash": "sha256-g+gJp7noNdLKfvp+QbnTFE++PI3FcJG7reDenkg15k0="
     },
+    "nvim-thyme": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "aileot",
+        "repo": "nvim-thyme"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "13b2a55dad7b86ae6c83d51fc640eb00b45c4525",
+      "url": "https://github.com/aileot/nvim-thyme/archive/13b2a55dad7b86ae6c83d51fc640eb00b45c4525.tar.gz",
+      "hash": "sha256-H0PkGDIECGTcCU9WIgltnExnrVmEdZF5CGyxW9+AMXQ="
+    },
     "nvim-tree.lua": {
       "type": "Git",
       "repository": {
