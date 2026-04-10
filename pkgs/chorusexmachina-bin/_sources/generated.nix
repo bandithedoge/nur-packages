@@ -8,10 +8,10 @@
 {
   chorusexmachina-bin = {
     pname = "chorusexmachina-bin";
-    version = "v1.2";
+    version = "v1.3";
     src = fetchurl {
-      url = "https://github.com/peastman/ChorusExMachina/releases/download/v1.2/chorus_ex_machina-linux-x86.zip";
-      sha256 = "sha256-5pbOuYqIAvugmr2D3gSX/nFjCxam+OS6FlcC4vfeJHM=";
+      url = "https://github.com/peastman/ChorusExMachina/releases/download/v1.3/chorus_ex_machina-linux-x86.zip";
+      sha256 = "sha256-rYYx7qzmG/HQKWLg2c6HksCfVkCBf/GbD9pUjBa/4xM=";
     };
   };
 }
