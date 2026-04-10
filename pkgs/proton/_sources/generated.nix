@@ -8,10 +8,10 @@
 {
   proton-cachyos = {
     pname = "proton-cachyos";
-    version = "cachyos-10.0-20260320-slr";
+    version = "cachyos-10.0-20260330-slr";
     src = fetchTarball {
-      url = "https://github.com/CachyOS/proton-cachyos/releases/download/cachyos-10.0-20260320-slr/proton-cachyos-10.0-20260320-slr-x86_64_v3.tar.xz";
-      sha256 = "sha256-vVAWphVI8fTSvfelVn4KNksrbPnbgtTLNZ3xSooP9rY=";
+      url = "https://github.com/CachyOS/proton-cachyos/releases/download/cachyos-10.0-20260330-slr/proton-cachyos-10.0-20260330-slr-x86_64_v3.tar.xz";
+      sha256 = "sha256-amEjRjrmWDKJE8AiJdf8KSm3ulSQcKQLleAoTeu5xpk=";
     };
   };
   proton-ge = {
