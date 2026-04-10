@@ -1,17 +1,17 @@
 {
-    "polarity-md": {
-        "cargoLock": null,
-        "date": null,
-        "extract": null,
-        "name": "polarity-md",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "name": null,
-            "sha256": "sha256-eSIw2LrBbKdWk6xpGme1HHK2S/d4DmHdchIHeCb52ss=",
-            "type": "url",
-            "url": "https://polarity.productions/polarity-md/downloads/PolarityMD-v0.1.34-Linux.zip"
-        },
-        "version": "0.1.34"
-    }
+  "polarity-md": {
+    "cargoLock": null,
+    "date": null,
+    "extract": null,
+    "name": "polarity-md",
+    "passthru": null,
+    "pinned": false,
+    "src": {
+      "name": null,
+      "sha256": "sha256-eSIw2LrBbKdWk6xpGme1HHK2S/d4DmHdchIHeCb52ss=",
+      "type": "url",
+      "url": "https://polarity.productions/polarity-md/downloads/PolarityMD-v0.1.34-Linux.zip"
+    },
+    "version": "0.1.34"
+  }
 }
