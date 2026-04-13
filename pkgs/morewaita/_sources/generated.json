@@ -1,22 +1,22 @@
 {
-  "morewaita": {
-    "cargoLock": null,
-    "date": "2026-04-04",
-    "extract": null,
-    "name": "morewaita",
-    "passthru": null,
-    "pinned": false,
-    "src": {
-      "deepClone": false,
-      "fetchSubmodules": false,
-      "leaveDotGit": false,
-      "name": null,
-      "rev": "cd05e3e545a6f6de04048a6b6b7167fba6420010",
-      "sha256": "sha256-IVlFCXnYEBte7XhPuBho8s6nFdlb4pwiWXJakIgxrm4=",
-      "sparseCheckout": [],
-      "type": "git",
-      "url": "https://github.com/somepaulo/MoreWaita"
-    },
-    "version": "cd05e3e545a6f6de04048a6b6b7167fba6420010"
-  }
+    "morewaita": {
+        "cargoLock": null,
+        "date": "2026-04-11",
+        "extract": null,
+        "name": "morewaita",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "rev": "4e1fb0519242405e8f4528b382403eecdd9d73f0",
+            "sha256": "sha256-Y719Rspkh5yKmbkDCvg4R7OTuKpoHenCDw7qWzd/ttY=",
+            "sparseCheckout": [],
+            "type": "git",
+            "url": "https://github.com/somepaulo/MoreWaita"
+        },
+        "version": "4e1fb0519242405e8f4528b382403eecdd9d73f0"
+    }
 }
