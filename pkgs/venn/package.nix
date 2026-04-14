@@ -19,7 +19,8 @@ let
       extraBuildInputs ? [ ],
     }:
     stdenv.mkDerivation {
-      inherit (source) pname version src;
+      inherit (source) pname src;
+      version = lib.elemAt (lib.splitString "_" source.version) 0;
       inherit sourceRoot;
 
       nativeBuildInputs = [
