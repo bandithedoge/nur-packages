@@ -7,11 +7,11 @@
     "passthru": null,
     "pinned": false,
     "src": {
-      "sha256": "sha256-ExF8rgCVtLFRM5iqnE/+ROWjXOMjeGkoQeHDgYflkcs=",
+      "sha256": "sha256-/PV7s9yp+pm1XLYHJVaLCUuzyztzyNS/Pw8+Itn8k5U=",
       "type": "tarball",
-      "url": "https://github.com/imputnet/helium-linux/releases/download/0.10.7.1/helium-0.10.7.1-arm64_linux.tar.xz"
+      "url": "https://github.com/imputnet/helium-linux/releases/download/0.11.2.1/helium-0.11.2.1-arm64_linux.tar.xz"
     },
-    "version": "0.10.7.1"
+    "version": "0.11.2.1"
   },
   "helium-bin-x86_64": {
     "cargoLock": null,
@@ -21,10 +21,10 @@
     "passthru": null,
     "pinned": false,
     "src": {
-      "sha256": "sha256-9gQ4qTn4QUzHKxX0ULkAxJMB9ImLyZpmmLBLSMYINNQ=",
+      "sha256": "sha256-HS6YmPH2S1X9/mqo8Fd38NdpuWc1bHHx638LjAAkZhw=",
       "type": "tarball",
-      "url": "https://github.com/imputnet/helium-linux/releases/download/0.10.7.1/helium-0.10.7.1-x86_64_linux.tar.xz"
+      "url": "https://github.com/imputnet/helium-linux/releases/download/0.11.2.1/helium-0.11.2.1-x86_64_linux.tar.xz"
     },
-    "version": "0.10.7.1"
+    "version": "0.11.2.1"
   }
 }

@@ -8,10 +8,10 @@
 {
   polarity-md = {
     pname = "polarity-md";
-    version = "0.1.34";
+    version = "0.3.8";
     src = fetchurl {
-      url = "https://polarity.productions/polarity-md/downloads/PolarityMD-v0.1.34-Linux.zip";
-      sha256 = "sha256-eSIw2LrBbKdWk6xpGme1HHK2S/d4DmHdchIHeCb52ss=";
+      url = "https://polarity.productions/polarity-md/downloads/PolarityMD-v0.3.8-Linux.zip";
+      sha256 = "sha256-tUsh0f42ZftSI23jj7hadIkDWf1QRKwDEFaZ8NRXaSE=";
     };
   };
 }

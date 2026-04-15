@@ -38,10 +38,10 @@
     "pinned": false,
     "src": {
       "name": null,
-      "sha256": "sha256-enFKPgn4jYci/JuqvEIMAnT/r7Aef9j1hpb1efRqIdI=",
+      "sha256": "sha256-6pA+S2ryajH5vo8AAcZBBjylW6h/pYprc3YscacGmeM=",
       "type": "url",
-      "url": "https://www.vennaudio.com/downloads/Viper/Viper_Linux_1.6.1_15Nov2024_Release.zip"
+      "url": "https://www.vennaudio.com/downloads/Viper/Viper_Linux_1.6.2_03Apr2026_Release.zip"
     },
-    "version": "1.6.1_15Nov2024"
+    "version": "1.6.2_03Apr2026"
   }
 }

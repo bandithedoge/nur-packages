@@ -8,16 +8,16 @@
 {
   actuate = {
     pname = "actuate";
-    version = "v1.4.3";
+    version = "v1.4.4";
     src = fetchFromGitHub {
       owner = "ardura";
       repo = "Actuate";
-      rev = "v1.4.3";
+      rev = "v1.4.4";
       fetchSubmodules = false;
-      sha256 = "sha256-RHcSjgbZYtcu6nfOweLegQQUMuemifigYAz2+EwWW1I=";
+      sha256 = "sha256-CoMHapdSBObmbclytNDEGR/TMJbLguII5C0UDpdl8Ao=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./. + "/sha256-RHcSjgbZYtcu6nfOweLegQQUMuemifigYAz2+EwWW1I=/Cargo.lock";
+      lockFile = ./. + "/sha256-CoMHapdSBObmbclytNDEGR_TMJbLguII5C0UDpdl8Ao=/Cargo.lock";
       outputHashes = {
         "egui-baseview-0.6.0" = "sha256-cgcyIGEmia2NIdNCvI3wrSCTQHUbDqeOAycgXg2/dy8=";
         "reflink-0.1.3" = "sha256-1o5d/mepjbDLuoZ2/49Bi6sFgVX4WdCuhGJkk8ulhcI=";

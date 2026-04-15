@@ -25,10 +25,10 @@
   };
   viper = {
     pname = "viper";
-    version = "1.6.1_15Nov2024";
+    version = "1.6.2_03Apr2026";
     src = fetchurl {
-      url = "https://www.vennaudio.com/downloads/Viper/Viper_Linux_1.6.1_15Nov2024_Release.zip";
-      sha256 = "sha256-enFKPgn4jYci/JuqvEIMAnT/r7Aef9j1hpb1efRqIdI=";
+      url = "https://www.vennaudio.com/downloads/Viper/Viper_Linux_1.6.2_03Apr2026_Release.zip";
+      sha256 = "sha256-6pA+S2ryajH5vo8AAcZBBjylW6h/pYprc3YscacGmeM=";
     };
   };
 }

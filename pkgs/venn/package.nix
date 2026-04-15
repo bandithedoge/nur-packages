@@ -6,6 +6,7 @@
 
   autoPatchelfHook,
   curl,
+  fontconfig,
   freetype,
   unzip,
 }:
@@ -15,9 +16,11 @@ let
       source,
       meta,
       sourceRoot ? null,
+      extraBuildInputs ? [ ],
     }:
     stdenv.mkDerivation {
-      inherit (source) pname version src;
+      inherit (source) pname src;
+      version = lib.elemAt (lib.splitString "_" source.version) 0;
       inherit sourceRoot;
 
       nativeBuildInputs = [
@@ -29,7 +32,8 @@ let
         curl
         freetype
         stdenv.cc.cc.lib
-      ];
+      ]
+      ++ extraBuildInputs;
 
       buildPhase = ''
         runHook preBuild
@@ -62,6 +66,7 @@ in
 
   viper = mkVenn {
     source = sources.viper;
+    extraBuildInputs = [ fontconfig ];
     meta = {
       homepage = "https://www.vennaudio.com/product/Viper";
       description = "Simple plugin for overlaying visual cues onto your video to cue your actor or Foley artist";

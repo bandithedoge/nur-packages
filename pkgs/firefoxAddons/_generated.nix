@@ -296,10 +296,10 @@
   };
   "csgofloat" = buildMozillaXpiAddon {
     pname = "csgofloat";
-    version = "5.11.0";
+    version = "5.14.0";
     addonId = "{194d0dc6-7ada-41c6-88b8-95d7636fe43c}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4715509/csgofloat-5.11.0.xpi";
-    sha256 = "e673babf5d9a130e1625fe1374561a7525ec10c845eb6dc046f7032b8c36dc3a";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4734421/csgofloat-5.14.0.xpi";
+    sha256 = "2c0b08ae3ed55f6bca82dffd87a8d7351a8753d6a8161fe7706f5103e21d8496";
     meta = with lib; {
       homepage = "https://csgofloat.com";
       description = "Shows the float value, paint seed, and screenshots of Counter-Strike (CS:GO &amp; CS2) items on the Steam Market or Inventories";
@@ -465,10 +465,10 @@
   };
   "github-isometric-contributions" = buildMozillaXpiAddon {
     pname = "github-isometric-contributions";
-    version = "1.2.2";
+    version = "1.2.6";
     addonId = "isometric-contributions@jasonlong.me";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4708681/github_isometric_contributions-1.2.2.xpi";
-    sha256 = "f7b6d4fe3d7ab00d037ec42f3c947232bfb695c84a968abdc726d8f387298892";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4759677/github_isometric_contributions-1.2.6.xpi";
+    sha256 = "8f4bdf96d914df81b22be95e96426c48e2efeb5601b4393065216e45b11d8f4e";
     meta = with lib; {
       description = "Renders an isometric pixel view of GitHub contribution graphs.";
       license = licenses.mit;
@@ -500,10 +500,10 @@
   };
   "harper" = buildMozillaXpiAddon {
     pname = "harper";
-    version = "1.12.0";
+    version = "2.0.0";
     addonId = "harper@writewithharper.com";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4733097/private_grammar_checker_harper-1.12.0.xpi";
-    sha256 = "5715f1e90de798f68f19adf7ec4c466fd07b347b42dc18a6462e7a137d9490a1";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4758672/private_grammar_checker_harper-2.0.0.xpi";
+    sha256 = "f9dbec6273efb00803dd68cf506847ef3c4679500ac1d2768ac107d600fb65eb";
     meta = with lib; {
       homepage = "https://writewithharper.com";
       description = "A private grammar checker for 21st Century English";
@@ -539,10 +539,10 @@
   };
   "indie-wiki-buddy" = buildMozillaXpiAddon {
     pname = "indie-wiki-buddy";
-    version = "3.14.1";
+    version = "3.14.2";
     addonId = "{cb31ec5d-c49a-4e5a-b240-16c767444f62}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4688492/indie_wiki_buddy-3.14.1.xpi";
-    sha256 = "121dba0a23489be29bf5159a2dcd101c9958610c61eac494f64724d5be6c7f80";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4727783/indie_wiki_buddy-3.14.2.xpi";
+    sha256 = "450c8c7629f377880688bedb770ac733e82aa15aa963ed39e199d69622b38523";
     meta = with lib; {
       homepage = "https://getindie.wiki/";
       description = "Helping you discover quality, independent wikis!\n\nWhen visiting a Fandom wiki, Indie Wiki Buddy redirects or alerts you of independent alternatives. It also filters search engine results. BreezeWiki is also supported, to reduce clutter on Fandom.";
@@ -814,10 +814,10 @@
   };
   "material-icons-for-github" = buildMozillaXpiAddon {
     pname = "material-icons-for-github";
-    version = "1.13.1";
+    version = "1.14.0";
     addonId = "{eac6e624-97fa-4f28-9d24-c06c9b8aa713}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4711943/material_icons_for_github-1.13.1.xpi";
-    sha256 = "fed9f785d4f907b6966fb4411911a9f0fdcc24a53d72ace76df151b712868778";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4746796/material_icons_for_github-1.14.0.xpi";
+    sha256 = "820212207e29fe3fa53d078338f8f0f0f78731a0ee0af58206b2224137893d43";
     meta = with lib; {
       homepage = "https://github.com/material-extensions/material-icons-browser-extension";
       description = "Replace the file/folder icons on github file browsers with icons representing the file's type and which tool it is used by.";
@@ -835,6 +835,7 @@
         "*://gitee.com/*"
         "*://sourceforge.net/*"
         "*://codeberg.org/*"
+        "*://tangled.org/*"
       ];
       platforms = platforms.all;
     };
@@ -1383,10 +1384,10 @@
   };
   "refined-github" = buildMozillaXpiAddon {
     pname = "refined-github";
-    version = "26.3.21";
+    version = "26.4.4";
     addonId = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4735200/refined_github-26.3.21.xpi";
-    sha256 = "1a2087c885c552b5530fa85a7bb8b6d104ca0283b9a6345d4c13f70e7dd7369b";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4752872/refined_github-26.4.4.xpi";
+    sha256 = "36d0c4681e37d0ad0a3eb289d71f55324143a37b28b7e2d67ab35427944a3a41";
     meta = with lib; {
       homepage = "https://github.com/refined-github/refined-github";
       description = "Simplifies the GitHub interface and adds many useful features.";
@@ -1405,10 +1406,10 @@
   };
   "search_by_image" = buildMozillaXpiAddon {
     pname = "search_by_image";
-    version = "8.5.0";
+    version = "8.5.1";
     addonId = "{2e5ff8c8-32fe-46d0-9fc8-6b8986621f3c}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4689098/search_by_image-8.5.0.xpi";
-    sha256 = "370940a77ff3c5398a300c10249ecf4e13975688473282afb9a2613a66be2fb3";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4752716/search_by_image-8.5.1.xpi";
+    sha256 = "9c1731bffc5662608f097bec032ed3fbccda54e15934386d8436b2a62a49f58a";
     meta = with lib; {
       homepage = "https://github.com/dessant/search-by-image#readme";
       description = "A powerful reverse image search tool, with support for various search engines, such as Google, Bing, Yandex, Baidu and TinEye.";
@@ -1501,10 +1502,10 @@
   };
   "sponsorblock" = buildMozillaXpiAddon {
     pname = "sponsorblock";
-    version = "6.1.2";
+    version = "6.1.3";
     addonId = "sponsorBlocker@ajay.app";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4644570/sponsorblock-6.1.2.xpi";
-    sha256 = "598f66c9eb6bbab2bd5f87376b632a5860f442d3694e233610f5b37f8b6e3f10";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4744354/sponsorblock-6.1.3.xpi";
+    sha256 = "cc6ee2918298ce6a1754b462d0b54d9a96f545f65cd3ac69016332ebca1d100b";
     meta = with lib; {
       homepage = "https://sponsor.ajay.app";
       description = "Easily skip YouTube video sponsors. When you visit a YouTube video, the extension will check the database for reported sponsors and automatically skip known sponsors. You can also report sponsors in videos. Other browsers: https://sponsor.ajay.app";
@@ -1632,10 +1633,10 @@
   };
   "tree-style-tab" = buildMozillaXpiAddon {
     pname = "tree-style-tab";
-    version = "4.2.12";
+    version = "4.3.1";
     addonId = "treestyletab@piro.sakura.ne.jp";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4729676/tree_style_tab-4.2.12.xpi";
-    sha256 = "d3cb231306c108b5d0048b2b28a8ae4e84d4319a212c92ca1943fc1c3778be5f";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4750651/tree_style_tab-4.3.1.xpi";
+    sha256 = "c97b38d26969e88e73c18cb0120af892ee79767b0e0adf29b5943ff1dde9d363";
     meta = with lib; {
       homepage = "http://piro.sakura.ne.jp/xul/_treestyletab.html.en";
       description = "Show tabs like a tree.";
