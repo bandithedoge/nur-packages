@@ -1,7 +1,7 @@
 {
   "element": {
     "cargoLock": null,
-    "date": "2026-04-07",
+    "date": "2026-04-17",
     "extract": null,
     "name": "element",
     "passthru": null,
@@ -11,12 +11,12 @@
       "fetchSubmodules": true,
       "leaveDotGit": false,
       "name": null,
-      "rev": "c7e1199ededd19b3801a995e0332cfa6865871cd",
-      "sha256": "sha256-gHb0KOz5f9oqs9NoAvCwxI8Tom5uF/Cj/yZ1P3dWINc=",
+      "rev": "2eb021dba3cd2ca7748bfa16c5271b0f7fc8d657",
+      "sha256": "sha256-SuCToV+j4p2w0Jk/HOmbzZg+dvO47NOoYj/Te4Rpa14=",
       "sparseCheckout": [],
       "type": "git",
       "url": "https://github.com/kushview/element"
     },
-    "version": "c7e1199ededd19b3801a995e0332cfa6865871cd"
+    "version": "2eb021dba3cd2ca7748bfa16c5271b0f7fc8d657"
   }
 }
