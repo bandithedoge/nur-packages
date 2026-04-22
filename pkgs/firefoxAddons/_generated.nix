@@ -842,10 +842,10 @@
   };
   "nexusmods-advance" = buildMozillaXpiAddon {
     pname = "nexusmods-advance";
-    version = "0.26.73";
+    version = "0.26.81";
     addonId = "NexusModsAdvance@Caiota";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4739088/nexusmods_advance-0.26.73.xpi";
-    sha256 = "f96a960088fa3f96cdad5b902c4d20e039ef47e804d441a156b4b74f73dd75e5";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4773115/nexusmods_advance-0.26.81.xpi";
+    sha256 = "2dd4a1dad358e69d43c5559dc4524f8ec14145c08aa67b30ed41213d5911e929";
     meta = with lib; {
       description = "Enhance your browsing experience on the NexusMods site and manage your mods directly through the browser!";
       license = licenses.mpl20;
@@ -1384,10 +1384,10 @@
   };
   "refined-github" = buildMozillaXpiAddon {
     pname = "refined-github";
-    version = "26.4.4";
+    version = "26.4.20";
     addonId = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4752872/refined_github-26.4.4.xpi";
-    sha256 = "36d0c4681e37d0ad0a3eb289d71f55324143a37b28b7e2d67ab35427944a3a41";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4772939/refined_github-26.4.20.xpi";
+    sha256 = "d160e48b3d8dc4a6b46c774088d67fe557116dcd51dd6fa376c02eb0c51deb8a";
     meta = with lib; {
       homepage = "https://github.com/refined-github/refined-github";
       description = "Simplifies the GitHub interface and adds many useful features.";
@@ -1633,10 +1633,10 @@
   };
   "tree-style-tab" = buildMozillaXpiAddon {
     pname = "tree-style-tab";
-    version = "4.3.1";
+    version = "4.3.3";
     addonId = "treestyletab@piro.sakura.ne.jp";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4750651/tree_style_tab-4.3.1.xpi";
-    sha256 = "c97b38d26969e88e73c18cb0120af892ee79767b0e0adf29b5943ff1dde9d363";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4769213/tree_style_tab-4.3.3.xpi";
+    sha256 = "cc2a68548e841c269feeea9d176475f5143c5438b196c6e6117dff5dfdc4fab0";
     meta = with lib; {
       homepage = "http://piro.sakura.ne.jp/xul/_treestyletab.html.en";
       description = "Show tabs like a tree.";
