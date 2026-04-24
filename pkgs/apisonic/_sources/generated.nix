@@ -16,10 +16,10 @@
   };
   Speedrum2 = {
     pname = "Speedrum2";
-    version = "v2.3.4";
+    version = "v2.4.0";
     src = fetchurl {
-      url = "https://github.com/apisonic/SP-two/releases/download/v2.3.4/speedrum2-v2.3.4.zip";
-      sha256 = "sha256-KTSisiNX9ibhALLnOtSyNnIBmZbxptZcTIVx1aOP+ok=";
+      url = "https://github.com/apisonic/SP-two/releases/download/v2.4.0/speedrum2-v2.4.0.zip";
+      sha256 = "sha256-lbsPfabkg/VKrOUE0PDJ08jZ3fHwOCAc6T6g6uGnjB0=";
     };
   };
   SpeedrumLite = {
