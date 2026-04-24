@@ -296,10 +296,10 @@
   };
   "csgofloat" = buildMozillaXpiAddon {
     pname = "csgofloat";
-    version = "5.14.0";
+    version = "5.15.0";
     addonId = "{194d0dc6-7ada-41c6-88b8-95d7636fe43c}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4734421/csgofloat-5.14.0.xpi";
-    sha256 = "2c0b08ae3ed55f6bca82dffd87a8d7351a8753d6a8161fe7706f5103e21d8496";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4766910/csgofloat-5.15.0.xpi";
+    sha256 = "73a9a56db9a7a60ba64e551b22486098a7aeea2a2f5b432ec2fd1b5d1ac613e0";
     meta = with lib; {
       homepage = "https://csgofloat.com";
       description = "Shows the float value, paint seed, and screenshots of Counter-Strike (CS:GO &amp; CS2) items on the Steam Market or Inventories";
@@ -1435,10 +1435,10 @@
   };
   "sidebery" = buildMozillaXpiAddon {
     pname = "sidebery";
-    version = "5.5.0";
+    version = "5.5.2";
     addonId = "{3c078156-979c-498b-8990-85f7987dd929}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4688454/sidebery-5.5.0.xpi";
-    sha256 = "8d57ad35177442f6a89c3d319fa3e0586376a1f2b72f0fd3032386e5f3505db8";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4766841/sidebery-5.5.2.xpi";
+    sha256 = "43e7dd4b8f684e637193d645fbcc94fb182583d24ac9a5b58effc4fb4d9faef2";
     meta = with lib; {
       homepage = "https://github.com/mbnuqw/sidebery";
       description = "Vertical tabs tree and bookmarks in sidebar with advanced containers configuration, grouping and many other features.";
