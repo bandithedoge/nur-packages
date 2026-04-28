@@ -76,8 +76,9 @@ stdenv.mkDerivation {
       --add-flags ${lib.escapeShellArg commandLineArgs} \
       --prefix LD_LIBRARY_PATH : ${
         lib.makeLibraryPath [
-          pipewire
+          gtk4
           libGL
+          pipewire
         ]
       }
 
