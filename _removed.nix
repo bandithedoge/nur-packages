@@ -1,4 +1,5 @@
 [
+  [ "digits-bin" ]
   [ "kiwmi" ]
   [ "snyk-ls-bin" ]
   [ "tal" ]
