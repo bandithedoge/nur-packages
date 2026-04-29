@@ -814,10 +814,10 @@
   };
   "material-icons-for-github" = buildMozillaXpiAddon {
     pname = "material-icons-for-github";
-    version = "1.14.0";
+    version = "1.14.1";
     addonId = "{eac6e624-97fa-4f28-9d24-c06c9b8aa713}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4746796/material_icons_for_github-1.14.0.xpi";
-    sha256 = "820212207e29fe3fa53d078338f8f0f0f78731a0ee0af58206b2224137893d43";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4781117/material_icons_for_github-1.14.1.xpi";
+    sha256 = "b2c18c6cfb0e48aca68d218b57fac745dd54dce73b2310d67fddd40e65d5618e";
     meta = with lib; {
       homepage = "https://github.com/material-extensions/material-icons-browser-extension";
       description = "Replace the file/folder icons on github file browsers with icons representing the file's type and which tool it is used by.";
@@ -1633,10 +1633,10 @@
   };
   "tree-style-tab" = buildMozillaXpiAddon {
     pname = "tree-style-tab";
-    version = "4.3.3";
+    version = "4.3.4";
     addonId = "treestyletab@piro.sakura.ne.jp";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4769213/tree_style_tab-4.3.3.xpi";
-    sha256 = "cc2a68548e841c269feeea9d176475f5143c5438b196c6e6117dff5dfdc4fab0";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4781258/tree_style_tab-4.3.4.xpi";
+    sha256 = "c665f0bfdab104a3f28eba709f3437b8743667a2b3b67ba657f7403fe602d327";
     meta = with lib; {
       homepage = "http://piro.sakura.ne.jp/xul/_treestyletab.html.en";
       description = "Show tabs like a tree.";
