@@ -8,14 +8,14 @@
 {
   dwm-flexipatch = {
     pname = "dwm-flexipatch";
-    version = "17e4653c855cc43d97b7319f02bc10365ef371ea";
+    version = "050e728c6bded3e01390a7c2e1102545839180a9";
     src = fetchFromGitHub {
       owner = "bakkeby";
       repo = "dwm-flexipatch";
-      rev = "17e4653c855cc43d97b7319f02bc10365ef371ea";
+      rev = "050e728c6bded3e01390a7c2e1102545839180a9";
       fetchSubmodules = false;
-      sha256 = "sha256-2otqWuxDpe4NDeH7q8fFWjxwcuaJ+LxaqleKzhgr7f0=";
+      sha256 = "sha256-nSnUR/fBnfaQ0Tfi9kXL4oR5y6RD1opT115o17c4P5w=";
     };
-    date = "2026-03-10";
+    date = "2026-04-28";
   };
 }
