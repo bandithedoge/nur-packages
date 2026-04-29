@@ -71,6 +71,7 @@
               _BUILDABLE = buildable;
               _CACHEABLE = cacheable;
               _UNCACHEABLE = uncacheable;
+              _DUPES = import ./_dupes.nix { inherit pkgs; };
 
               _LIST = ''
                 - ✔️ - cached

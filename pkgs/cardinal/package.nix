@@ -94,6 +94,8 @@ stdenv.mkDerivation {
 
   hardeningDisable = [ "format" ];
 
+  passthru._ignoreDupe = true;
+
   meta = with lib; {
     description = "Virtual modular synthesizer plugin";
     homepage = "https://github.com/DISTRHO/Cardinal";

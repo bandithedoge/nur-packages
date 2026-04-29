@@ -70,6 +70,8 @@
       lgi
     ];
 
+    passthru._ignoreDupe = true;
+
     meta = with lib; {
       description = "Lua bindings for libastal";
       homepage = "https://github.com/tokyob0t/astal-lua";
