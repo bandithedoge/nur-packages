@@ -32,3 +32,4 @@ See [LIST.md](LIST.md) for a full list of packages.
 - Packages that are available in nixpkgs are removed and added to [`_upstreamed.nix`](./_upstreamed.nix) except in cases where ours is significantly different (eg. tracking unstable versions)
 - Packages that are renamed are added to [`_renamed.nix`](./_renamed.nix), including when binary packages become source-built and vice versa
 - Packages that are dropped are added to [`_removed.nix`](./_removed.nix)
+- To help keep this repo small, the update action emits a warning if any of the exported attributes is present in nixpkgs. Packages intended to replace their nixpkgs counterparts have `passthru._ignoreDupes = true`.

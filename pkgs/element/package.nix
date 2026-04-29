@@ -48,6 +48,8 @@ clangStdenv.mkDerivation {
     cp element_app_artefacts/Release/element $out/bin
   '';
 
+  passthru._ignoreDupe = true;
+
   meta = with lib; {
     description = "A modular AU/LV2/VST/VST3 audio plugin host";
     homepage = "https://kushview.net/element/";

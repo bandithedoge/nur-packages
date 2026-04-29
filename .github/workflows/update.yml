@@ -49,6 +49,10 @@ jobs:
       - name: Generate package list
         run: nix eval --raw .#_LIST > LIST.md
 
+      - name: Check for nixpkgs dupes
+        run: |
+          nix eval .#_DUPES --json | jq 'map("- `\(. | join("."))`") | .[]' -r >> $GITHUB_STEP_SUMMARY
+
       - name: Format code
         run: nix fmt
 

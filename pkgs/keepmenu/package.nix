@@ -19,6 +19,8 @@ python3Packages.buildPythonApplication {
 
   doCheck = false;
 
+  passthru._ignoreDupe = true;
+
   meta = with lib; {
     description = "Dmenu/Rofi frontend for Keepass databases";
     homepage = "https://github.com/firecat53/keepmenu";

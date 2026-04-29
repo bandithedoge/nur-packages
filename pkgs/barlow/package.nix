@@ -11,6 +11,8 @@ stdenv.mkDerivation {
 
   nativeBuildInputs = [ installFonts ];
 
+  passthru._ignoreDupe = true;
+
   meta = with lib; {
     description = "Straight-sided sans-serif superfamily";
     homepage = "https://tribby.com/fonts/barlow";
