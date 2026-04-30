@@ -111,6 +111,8 @@
       gobject-introspection
     ];
 
+    passthru._ignoreDupe = true;
+
     meta = with lib; {
       description = "Dynamic Lua binding to GObject libraries using GObject-Introspection";
       homepage = "https://github.com/lgi-devs/lgi";

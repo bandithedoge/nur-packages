@@ -18,7 +18,7 @@ builtins.foldl' pkgs.lib.recursiveUpdate all [
     pkgs.lib.warn "${concat old} is available in nixpkgs as ${concat new}" (
       pkgs.lib.attrByPath new null pkgs
     )
-  ) (import ./_upstreamed.nix))
+  ) (import ./_upstreamed.nix { inherit (pkgs) lib; }))
 
   (pkgs.lib.updateManyAttrsByPath (builtins.map (path: {
     inherit path;
