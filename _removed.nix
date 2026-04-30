@@ -5,6 +5,10 @@
   [ "tal" ]
   [ "thorium-bin" ]
   [ "venn" ]
+  [
+    "vimPlugins"
+    "null-ls-nvim"
+  ]
   [ "vkdoom" ]
   [ "waterfox-bin" ]
 ]

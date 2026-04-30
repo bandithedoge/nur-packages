@@ -39,45 +39,6 @@
       "url": "https://github.com/hankertrix/augment-command.yazi/archive/681158d8a088b30ee947c97b864ce300346d9965.tar.gz",
       "hash": "sha256-ct0ieBbTmQb3LlSWP+txuzmKuugyDRVprFGCvhLOzYQ="
     },
-    "bookmarks.yazi": {
-      "type": "Git",
-      "repository": {
-        "type": "GitHub",
-        "owner": "dedukun",
-        "repo": "bookmarks.yazi"
-      },
-      "branch": "main",
-      "submodules": false,
-      "revision": "9ef1254d8afe88aba21cd56a186f4485dd532ab8",
-      "url": "https://github.com/dedukun/bookmarks.yazi/archive/9ef1254d8afe88aba21cd56a186f4485dd532ab8.tar.gz",
-      "hash": "sha256-GQFBRB2aQqmmuKZ0BpcCAC4r0JFKqIANZNhUC98SlwY="
-    },
-    "bypass.yazi": {
-      "type": "Git",
-      "repository": {
-        "type": "GitHub",
-        "owner": "Rolv-Apneseth",
-        "repo": "bypass.yazi"
-      },
-      "branch": "main",
-      "submodules": false,
-      "revision": "c1e5fcf6eeed0bfceb57b9738da6db9d0fb8af56",
-      "url": "https://github.com/Rolv-Apneseth/bypass.yazi/archive/c1e5fcf6eeed0bfceb57b9738da6db9d0fb8af56.tar.gz",
-      "hash": "sha256-ZndDtTMkEwuIMXG4SGe4B95Nw4fChfFhxJHj+IY30Kc="
-    },
-    "compress.yazi": {
-      "type": "Git",
-      "repository": {
-        "type": "GitHub",
-        "owner": "KKV9",
-        "repo": "compress.yazi"
-      },
-      "branch": "main",
-      "submodules": false,
-      "revision": "46a6b9f02ff2f8aced466a1f01a3fe241f1cd45f",
-      "url": "https://github.com/KKV9/compress.yazi/archive/46a6b9f02ff2f8aced466a1f01a3fe241f1cd45f.tar.gz",
-      "hash": "sha256-Mby185FCJY6nqHcHDQu+D5SLk+wGcyeUHK8yAvrd4TM="
-    },
     "exifaudio.yazi": {
       "type": "Git",
       "repository": {
@@ -117,32 +78,6 @@
       "url": "https://github.com/ourongxing/fast-enter.yazi/archive/9fe77d8292c6bc63538acdc97cb91b81542e85a4.tar.gz",
       "hash": "sha256-E0r0XsyECKMJ8w+9OVJKDggSXhAqlwD3u9ZSEXHc6J0="
     },
-    "glow.yazi": {
-      "type": "Git",
-      "repository": {
-        "type": "GitHub",
-        "owner": "Reledia",
-        "repo": "glow.yazi"
-      },
-      "branch": "main",
-      "submodules": false,
-      "revision": "bd3eaa58c065eaf216a8d22d64c62d8e0e9277e9",
-      "url": "https://github.com/Reledia/glow.yazi/archive/bd3eaa58c065eaf216a8d22d64c62d8e0e9277e9.tar.gz",
-      "hash": "sha256-mzW/ut/LTEriZiWF8YMRXG9hZ70OOC0irl5xObTNO40="
-    },
-    "gvfs.yazi": {
-      "type": "Git",
-      "repository": {
-        "type": "GitHub",
-        "owner": "boydaihungst",
-        "repo": "gvfs.yazi"
-      },
-      "branch": "master",
-      "submodules": false,
-      "revision": "3abc0a258f9d7aeaa453a2d0d6e103c5a305953d",
-      "url": "https://github.com/boydaihungst/gvfs.yazi/archive/3abc0a258f9d7aeaa453a2d0d6e103c5a305953d.tar.gz",
-      "hash": "sha256-UHneVJ+YXyDuPrZS+PZbs9n9h+VN5M2QG36FdprBkJc="
-    },
     "hexyl.yazi": {
       "type": "Git",
       "repository": {
@@ -155,45 +90,6 @@
       "revision": "016a09bcc249dd3ce06267d54cc039e73de9c647",
       "url": "https://github.com/Reledia/hexyl.yazi/archive/016a09bcc249dd3ce06267d54cc039e73de9c647.tar.gz",
       "hash": "sha256-ly/cLKl2y3npoT2nX8ioGOFcRXI4UXbD9Es/5veUhOU="
-    },
-    "lazygit.yazi": {
-      "type": "Git",
-      "repository": {
-        "type": "GitHub",
-        "owner": "Lil-Dank",
-        "repo": "lazygit.yazi"
-      },
-      "branch": "main",
-      "submodules": false,
-      "revision": "8c4086c813c5856ab9571ae9142ed7d40ed3211e",
-      "url": "https://github.com/Lil-Dank/lazygit.yazi/archive/8c4086c813c5856ab9571ae9142ed7d40ed3211e.tar.gz",
-      "hash": "sha256-YpRWnR5fEXzHY9yBFNKy1NvTzHa8B1UhS2Qrfe9+Tpg="
-    },
-    "mediainfo.yazi": {
-      "type": "Git",
-      "repository": {
-        "type": "GitHub",
-        "owner": "Ape",
-        "repo": "mediainfo.yazi"
-      },
-      "branch": "master",
-      "submodules": false,
-      "revision": "df17c4fc0df7693e8f3c6e5b9eac58a267d7408f",
-      "url": "https://github.com/Ape/mediainfo.yazi/archive/df17c4fc0df7693e8f3c6e5b9eac58a267d7408f.tar.gz",
-      "hash": "sha256-rMcACpE6HXow44sGr5rA6kY0ovDXPA4uO//R4KmSi9g="
-    },
-    "miller.yazi": {
-      "type": "Git",
-      "repository": {
-        "type": "GitHub",
-        "owner": "Reledia",
-        "repo": "miller.yazi"
-      },
-      "branch": "main",
-      "submodules": false,
-      "revision": "0a3d1316e38132ae9a6b91fbd69bab295cbbf2fe",
-      "url": "https://github.com/Reledia/miller.yazi/archive/0a3d1316e38132ae9a6b91fbd69bab295cbbf2fe.tar.gz",
-      "hash": "sha256-pZpx7V5ud5JhEkgkfVBSuM0CFIIUXZZ+pOX0xVlHf+0="
     },
     "nbpreview.yazi": {
       "type": "Git",
@@ -234,32 +130,6 @@
       "url": "https://github.com/Ape/open-with-cmd.yazi/archive/e3d430f8b12cb314a1d5744bcf8f76dd56b071e7.tar.gz",
       "hash": "sha256-vN7zQeGuYN8TPKlA/6+SNFTVsA607z1DJPKXlNFJ9YM="
     },
-    "ouch.yazi": {
-      "type": "Git",
-      "repository": {
-        "type": "GitHub",
-        "owner": "ndtoan96",
-        "repo": "ouch.yazi"
-      },
-      "branch": "main",
-      "submodules": false,
-      "revision": "406ce6c13ec3a18d4872b8f64b62f4a530759b2c",
-      "url": "https://github.com/ndtoan96/ouch.yazi/archive/406ce6c13ec3a18d4872b8f64b62f4a530759b2c.tar.gz",
-      "hash": "sha256-14x/bD0aD9hXONaqQD8Dt7rLBCMq7bkVLH6uCPOQ0C8="
-    },
-    "projects.yazi": {
-      "type": "Git",
-      "repository": {
-        "type": "GitHub",
-        "owner": "MasouShizuka",
-        "repo": "projects.yazi"
-      },
-      "branch": "main",
-      "submodules": false,
-      "revision": "198c2ba30e4916ca275d2a08bd329fcf32735866",
-      "url": "https://github.com/MasouShizuka/projects.yazi/archive/198c2ba30e4916ca275d2a08bd329fcf32735866.tar.gz",
-      "hash": "sha256-Grvtx+N1DpdpMaVuDwaHu3S7zu6pQtmu1twvFIowbLM="
-    },
     "reflink.yazi": {
       "type": "Git",
       "repository": {
@@ -273,45 +143,6 @@
       "url": "https://github.com/Ape/reflink.yazi/archive/00f0fd0d8100f3a6325144565c7d6449da9c2b99.tar.gz",
       "hash": "sha256-RHS1kqDt8GdtnLmq9zifrXNd5fu21AdRQr69ljejunI="
     },
-    "relative-motions.yazi": {
-      "type": "Git",
-      "repository": {
-        "type": "GitHub",
-        "owner": "dedukun",
-        "repo": "relative-motions.yazi"
-      },
-      "branch": "main",
-      "submodules": false,
-      "revision": "a603d9ea924dfc0610bcf9d3129e7cba605d4501",
-      "url": "https://github.com/dedukun/relative-motions.yazi/archive/a603d9ea924dfc0610bcf9d3129e7cba605d4501.tar.gz",
-      "hash": "sha256-9i6x/VxGOA3bB3FPieB7mQ1zGaMK5wnMhYqsq4CvaM4="
-    },
-    "rich-preview.yazi": {
-      "type": "Git",
-      "repository": {
-        "type": "GitHub",
-        "owner": "AnirudhG07",
-        "repo": "rich-preview.yazi"
-      },
-      "branch": "main",
-      "submodules": false,
-      "revision": "7d616ad88498747b46124f32a35847324862cd83",
-      "url": "https://github.com/AnirudhG07/rich-preview.yazi/archive/7d616ad88498747b46124f32a35847324862cd83.tar.gz",
-      "hash": "sha256-KHmjff7tHFLkPqOs8IdWQ0mCliSZn/mIKYof+ulnddk="
-    },
-    "rsync.yazi": {
-      "type": "Git",
-      "repository": {
-        "type": "GitHub",
-        "owner": "GianniBYoung",
-        "repo": "rsync.yazi"
-      },
-      "branch": "main",
-      "submodules": false,
-      "revision": "44f6979e5739c04039b1a8b0a04b2e2cb6cde46c",
-      "url": "https://github.com/GianniBYoung/rsync.yazi/archive/44f6979e5739c04039b1a8b0a04b2e2cb6cde46c.tar.gz",
-      "hash": "sha256-54tXRwE1a+aq2cP4+ErXKQoHhUNx630sJZqiJpbrFT4="
-    },
     "simple-status.yazi": {
       "type": "Git",
       "repository": {
@@ -324,32 +155,6 @@
       "revision": "d0da1049c417c2d5eec8bf5171ff9aad5c2ae773",
       "url": "https://github.com/Ape/simple-status.yazi/archive/d0da1049c417c2d5eec8bf5171ff9aad5c2ae773.tar.gz",
       "hash": "sha256-c6Y8qMnZAA/azV7lCqzwXN2qlgWi6BS6B0nInbR/sb4="
-    },
-    "starship.yazi": {
-      "type": "Git",
-      "repository": {
-        "type": "GitHub",
-        "owner": "Rolv-Apneseth",
-        "repo": "starship.yazi"
-      },
-      "branch": "main",
-      "submodules": false,
-      "revision": "a83710153ab5625a64ef98d55e6ddad480a3756f",
-      "url": "https://github.com/Rolv-Apneseth/starship.yazi/archive/a83710153ab5625a64ef98d55e6ddad480a3756f.tar.gz",
-      "hash": "sha256-CPRVJVunBLwFLCoj+XfoIIwrrwHxqoElbskCXZgFraw="
-    },
-    "sudo.yazi": {
-      "type": "Git",
-      "repository": {
-        "type": "GitHub",
-        "owner": "TD-Sky",
-        "repo": "sudo.yazi"
-      },
-      "branch": "main",
-      "submodules": false,
-      "revision": "86205aa8044f10b02471be1087f3381bbadc967e",
-      "url": "https://github.com/TD-Sky/sudo.yazi/archive/86205aa8044f10b02471be1087f3381bbadc967e.tar.gz",
-      "hash": "sha256-mpQLij+Sg88RarCC+0u7JfZ2EqcX4gB7jvy8bfBt90w="
     },
     "system-clipboard.yazi": {
       "type": "Git",
@@ -415,19 +220,6 @@
       "revision": "5f2e22e784dd5fc830cd85885a6d1d6690b52298",
       "url": "https://github.com/h-hg/yamb.yazi/archive/5f2e22e784dd5fc830cd85885a6d1d6690b52298.tar.gz",
       "hash": "sha256-3Cp3+v0laSVsDdTyG26EOh2xt18ER8P9Nla9vtRuj9k="
-    },
-    "yatline.yazi": {
-      "type": "Git",
-      "repository": {
-        "type": "GitHub",
-        "owner": "imsi32",
-        "repo": "yatline.yazi"
-      },
-      "branch": "main",
-      "submodules": false,
-      "revision": "c5d4b487d6277dd68ea9d3c6537641bf4ae9cf8e",
-      "url": "https://github.com/imsi32/yatline.yazi/archive/c5d4b487d6277dd68ea9d3c6537641bf4ae9cf8e.tar.gz",
-      "hash": "sha256-HjTRAfUHs6vlEWKruQWeA2wT/Mcd+WEHM90egFTYcWQ="
     }
   },
   "version": 7

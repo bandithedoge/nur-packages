@@ -1,4 +1,0 @@
-[nu-lint]
-src.git = "https://codeberg.org/wvhulle/nu-lint.git"
-fetch.git = "https://codeberg.org/wvhulle/nu-lint.git"
-cargo_lock = ["Cargo.lock"]

@@ -1,18 +1,5 @@
 {
   "pins": {
-    "eglot-booster": {
-      "type": "Git",
-      "repository": {
-        "type": "GitHub",
-        "owner": "jdtsmith",
-        "repo": "eglot-booster"
-      },
-      "branch": "main",
-      "submodules": false,
-      "revision": "cab7803c4f0adc7fff9da6680f90110674bb7a22",
-      "url": "https://github.com/jdtsmith/eglot-booster/archive/cab7803c4f0adc7fff9da6680f90110674bb7a22.tar.gz",
-      "hash": "sha256-xUBQrQpw+JZxcqT1fy/8C2tjKwa7sLFHXamBm45Fa4Y="
-    },
     "eglot-ltex": {
       "type": "Git",
       "repository": {
@@ -64,19 +51,6 @@
       "revision": "ac3eb69f36f345506aad05a6d9bc3ef80d26914b",
       "url": "https://github.com/lastquestion/explain-pause-mode/archive/ac3eb69f36f345506aad05a6d9bc3ef80d26914b.tar.gz",
       "hash": "sha256-6FDYnE9rT12f2Lx3yg2tpDVm9txF2VoVxZvADpm4BoM="
-    },
-    "once": {
-      "type": "Git",
-      "repository": {
-        "type": "GitHub",
-        "owner": "emacs-magus",
-        "repo": "once"
-      },
-      "branch": "master",
-      "submodules": false,
-      "revision": "78a03dfa53a48304b82cbf2a0c3c0b89351fbb2f",
-      "url": "https://github.com/emacs-magus/once/archive/78a03dfa53a48304b82cbf2a0c3c0b89351fbb2f.tar.gz",
-      "hash": "sha256-UkJQSQ/P5AT0FSgCnCK6GQI9Q90YL3rw7DwOnOSK+HU="
     },
     "org-bars": {
       "type": "Git",

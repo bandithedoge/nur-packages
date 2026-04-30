@@ -37,6 +37,8 @@ stdenv.mkDerivation {
       ''
   );
 
+  passthru._ignoreDupe = true;
+
   meta = with lib; {
     description = "A tool to convert proprietary, sequenced videogame music to industry-standard formats";
     homepage = "https://github.com/vgmtrans/vgmtrans";

@@ -33,5 +33,9 @@
     "u-he"
     "zebra-legacy"
   ];
+  vimPlugins.lua-dev-nvim = [
+    "vimPlugins"
+    "neodev-nvim"
+  ];
   # keep-sorted end
 }
