@@ -80,4 +80,13 @@ in
       homepage = "https://github.com/pythonlover02/Proton-Sarek";
     };
   };
+
+  em = mkProton rec {
+    source = sources.proton-em;
+    version = lib.removePrefix "EM-" source.version;
+    meta = {
+      description = "Development Oriented Compatibility tool for Steam Play based on Wine and additional components";
+      homepage = "https://github.com/Etaash-mathamsetty/Proton";
+    };
+  };
 }
