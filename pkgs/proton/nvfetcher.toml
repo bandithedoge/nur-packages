@@ -13,3 +13,7 @@ fetch.tarball = "https://github.com/pythonlover02/Proton-Sarek/releases/download
 [proton-ge]
 src.github = "GloriousEggroll/proton-ge-custom"
 fetch.tarball = "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/$ver/$ver.tar.gz"
+
+[proton-em]
+src.github = "Etaash-mathamsetty/Proton"
+fetch.tarball = "https://github.com/Etaash-mathamsetty/Proton/releases/download/$ver/proton-$ver.tar.xz"
