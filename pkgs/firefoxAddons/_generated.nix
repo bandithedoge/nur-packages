@@ -1384,10 +1384,10 @@
   };
   "refined-github" = buildMozillaXpiAddon {
     pname = "refined-github";
-    version = "26.4.20";
+    version = "26.5.1";
     addonId = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4772939/refined_github-26.4.20.xpi";
-    sha256 = "d160e48b3d8dc4a6b46c774088d67fe557116dcd51dd6fa376c02eb0c51deb8a";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4787850/refined_github-26.5.1.xpi";
+    sha256 = "43714279847a724c1b88b5439487251dd712c8637c28bc3386ba7a4542bef538";
     meta = with lib; {
       homepage = "https://github.com/refined-github/refined-github";
       description = "Simplifies the GitHub interface and adds many useful features.";
@@ -1406,10 +1406,10 @@
   };
   "search_by_image" = buildMozillaXpiAddon {
     pname = "search_by_image";
-    version = "8.5.1";
+    version = "8.5.2";
     addonId = "{2e5ff8c8-32fe-46d0-9fc8-6b8986621f3c}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4752716/search_by_image-8.5.1.xpi";
-    sha256 = "9c1731bffc5662608f097bec032ed3fbccda54e15934386d8436b2a62a49f58a";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4775193/search_by_image-8.5.2.xpi";
+    sha256 = "7e5cab1c46db6d59769b59dc481d1d17b0533f231341dd670ff718792d0b6605";
     meta = with lib; {
       homepage = "https://github.com/dessant/search-by-image#readme";
       description = "A powerful reverse image search tool, with support for various search engines, such as Google, Bing, Yandex, Baidu and TinEye.";
