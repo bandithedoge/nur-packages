@@ -7,11 +7,11 @@
         "passthru": null,
         "pinned": false,
         "src": {
-            "sha256": "sha256-d0hpAXeOwC9pBzdvQWzL1GlNCu6l0iuzQV/ZHSHO4ok=",
+            "sha256": "sha256-Ba+muUD9stahXexvCK46E2Oqdkppb+x1EW3nnrkfElo=",
             "type": "tarball",
-            "url": "https://github.com/CachyOS/proton-cachyos/releases/download/cachyos-11.0-20260428-slr/proton-cachyos-11.0-20260428-slr-x86_64_v3.tar.xz"
+            "url": "https://github.com/CachyOS/proton-cachyos/releases/download/cachyos-11.0-20260429-slr/proton-cachyos-11.0-20260429-slr-x86_64_v3.tar.xz"
         },
-        "version": "cachyos-11.0-20260428-slr"
+        "version": "cachyos-11.0-20260429-slr"
     },
     "proton-em": {
         "cargoLock": null,
