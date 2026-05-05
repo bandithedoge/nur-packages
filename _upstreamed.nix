@@ -80,6 +80,7 @@
         "cmp-path"
         "cmp-under-comparator"
         "cmp_luasnip"
+        "colortils-nvim"
         "conform-nvim"
         "coq_nvim"
         "crates-nvim"
