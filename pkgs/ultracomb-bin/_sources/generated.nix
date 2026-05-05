@@ -8,7 +8,7 @@
 {
   ultracomb-bin = {
     pname = "ultracomb-bin";
-    version = "0.1.0";
+    version = "0.2.0";
     src = fetchTarball {
       url = "https://github.com/Wasaka0/ultracomb/releases/download/0.1.0/linux-0.1.0.zip";
       sha256 = "sha256-ncINZUf7Z/SkZwGMeTMF/vgt6NQOQHB1KGby+ymcEPM=";
