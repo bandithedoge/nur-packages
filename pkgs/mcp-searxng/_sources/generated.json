@@ -1,0 +1,26 @@
+{
+    "mcp-searxng": {
+        "cargoLock": null,
+        "date": null,
+        "extract": {
+            "package-lock.json": "sha256-DEZW6pG_t13I95ZmW7WyIJNfPd64d9cf55ceUyl0SAY=/package-lock.json",
+            "package.json": "sha256-DEZW6pG_t13I95ZmW7WyIJNfPd64d9cf55ceUyl0SAY=/package.json"
+        },
+        "name": "mcp-searxng",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "ihor-sokoliuk",
+            "repo": "mcp-searxng",
+            "rev": "v1.0.3",
+            "sha256": "sha256-DEZW6pG/t13I95ZmW7WyIJNfPd64d9cf55ceUyl0SAY=",
+            "sparseCheckout": [],
+            "type": "github"
+        },
+        "version": "v1.0.3"
+    }
+}

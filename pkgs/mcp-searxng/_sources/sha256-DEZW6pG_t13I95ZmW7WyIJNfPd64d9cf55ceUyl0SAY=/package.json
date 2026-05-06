@@ -1,0 +1,69 @@
+{
+    "name": "mcp-searxng",
+    "version": "1.0.3",
+    "mcpName": "io.github.ihor-sokoliuk/mcp-searxng",
+    "description": "MCP server for SearXNG integration",
+    "license": "MIT",
+    "author": "Ihor Sokoliuk (https://github.com/ihor-sokoliuk)",
+    "homepage": "https://github.com/ihor-sokoliuk/mcp-searxng",
+    "bugs": "https://github.com/ihor-sokoliuk/mcp-searxng/issues",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ihor-sokoliuk/mcp-searxng"
+    },
+    "keywords": [
+        "mcp",
+        "modelcontextprotocol",
+        "searxng",
+        "search",
+        "web-search",
+        "claude",
+        "ai",
+        "pagination",
+        "smithery",
+        "url-reader"
+    ],
+    "type": "module",
+    "bin": {
+        "mcp-searxng": "dist/index.js"
+    },
+    "main": "dist/index.js",
+    "files": [
+        "dist"
+    ],
+    "engines": {
+        "node": ">=20"
+    },
+    "scripts": {
+        "build": "tsc && shx chmod +x dist/*.js",
+        "watch": "tsc --watch",
+        "test": "cross-env SEARXNG_URL=https://test-searx.example.com tsx __tests__/run-all.ts",
+        "test:coverage": "cross-env SEARXNG_URL=https://test-searx.example.com c8 --reporter=text tsx __tests__/run-all.ts",
+        "bootstrap": "npm install && npm run build",
+        "inspector": "DANGEROUSLY_OMIT_AUTH=true npx @modelcontextprotocol/inspector node dist/index.js",
+        "lint": "eslint src __tests__",
+        "postversion": "TAG=$(node scripts/update-version.js | tail -1) && git add src/index.ts .mcp/server.json && git commit --amend --no-edit && git tag -f $TAG"
+    },
+    "dependencies": {
+        "@modelcontextprotocol/sdk": "1.29.0",
+        "@types/cors": "^2.8.19",
+        "@types/express": "^5.0.6",
+        "cors": "^2.8.6",
+        "express": "^5.2.1",
+        "node-html-markdown": "^2.0.0",
+        "undici": "^7.24.0"
+    },
+    "devDependencies": {
+        "@types/node": "^22.17.2",
+        "@types/supertest": "^7.2.0",
+        "@typescript-eslint/eslint-plugin": "^8.58.0",
+        "@typescript-eslint/parser": "^8.58.0",
+        "c8": "^11.0.0",
+        "cross-env": "^10.1.0",
+        "eslint": "^10.1.0",
+        "shx": "^0.4.0",
+        "supertest": "^7.2.2",
+        "tsx": "^4.21.0",
+        "typescript": "^5.8.3"
+    }
+}

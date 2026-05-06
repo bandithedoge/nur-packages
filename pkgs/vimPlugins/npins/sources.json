@@ -78,19 +78,6 @@
       "url": "https://github.com/saifulapm/chartoggle.nvim/archive/9bc99dd79b8de861693fe0d1a2a2fb76bbb537ca.tar.gz",
       "hash": "sha256-nqvMX/heChcGSC1uYPSePDiQt3wuhUhw28KAgTQuzJU="
     },
-    "colortils.nvim": {
-      "type": "Git",
-      "repository": {
-        "type": "GitHub",
-        "owner": "nvim-colortils",
-        "repo": "colortils.nvim"
-      },
-      "branch": "main",
-      "submodules": false,
-      "revision": "948d4eddbd20c3e9eac79368dc50c7929d4fb823",
-      "url": "https://github.com/nvim-colortils/colortils.nvim/archive/948d4eddbd20c3e9eac79368dc50c7929d4fb823.tar.gz",
-      "hash": "sha256-GaAgkNmzKTJaKBlLY/fP2Z1ZyBhfyGRkPiwjUj8Rkg4="
-    },
     "detect-language.nvim": {
       "type": "Git",
       "repository": {
