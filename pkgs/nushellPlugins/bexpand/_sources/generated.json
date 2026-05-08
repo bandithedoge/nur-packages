@@ -1,0 +1,27 @@
+{
+    "nu-plugin-bexpand": {
+        "cargoLock": {
+            "Cargo.lock": [
+                "sha256-aO3SL7DO6932nW0kVRtYoWCtzR8fzGAZ5mBdF++GinY=/Cargo.lock",
+                {}
+            ]
+        },
+        "date": "2026-04-13",
+        "extract": null,
+        "name": "nu-plugin-bexpand",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "rev": "aab59283343e2d06d119311abf5e8c028c7579e8",
+            "sha256": "sha256-aO3SL7DO6932nW0kVRtYoWCtzR8fzGAZ5mBdF++GinY=",
+            "sparseCheckout": [],
+            "type": "git",
+            "url": "https://forge.axfive.net/Taylor/nu-plugin-bexpand.git"
+        },
+        "version": "aab59283343e2d06d119311abf5e8c028c7579e8"
+    }
+}
