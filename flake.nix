@@ -162,30 +162,23 @@
 
           treefmt.config = {
             projectRootFile = "flake.nix";
+            settings.excludes = [
+              "_sources/*"
+              "npins/*"
+            ];
             programs = {
               clang-format.enable = true;
               nixfmt = {
                 enable = true;
                 package = pkgs.nixfmt;
-                excludes = [
-                  "_sources/*"
-                  "npins/*"
-                ];
               };
               prettier = {
                 enable = true;
                 package = pkgs.prettier;
-                excludes = [ "_sources/*" ];
               };
               ruff-format.enable = true;
               shfmt.enable = true;
-              taplo = {
-                enable = true;
-                excludes = [
-                  "_sources/*"
-                  "npins/*"
-                ];
-              };
+              taplo.enable = true;
               keep-sorted.enable = true;
             };
           };
