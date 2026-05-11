@@ -1,34 +1,18 @@
 { pkgs }:
 let
-  inherit (pkgs) lib;
   all = import ./all.nix { inherit pkgs; };
-
-  drvPaths =
-    attrs:
-    builtins.concatMap (
-      key:
-      let
-        val = attrs.${key};
-      in
-      if lib.isDerivation val then
-        [ [ key ] ]
-      else if builtins.isAttrs val then
-        map (path: [ key ] ++ path) (drvPaths val)
-      else
-        [ ]
-    ) (builtins.attrNames attrs);
-
+  lib = import ./lib.nix { inherit (pkgs) lib; };
 in
 builtins.filter (
   path:
   let
-    eval = builtins.tryEval (lib.hasAttrByPath path pkgs);
+    eval = builtins.tryEval (pkgs.lib.hasAttrByPath path pkgs);
   in
   if eval.success then
     let
-      ours = lib.attrByPath path [ ] all;
+      ours = pkgs.lib.attrByPath path [ ] all;
     in
-    if (lib.hasAttr "_ignoreDupe" ours && ours._ignoreDupe) then false else eval.value
+    if (pkgs.lib.hasAttr "_ignoreDupe" ours && ours._ignoreDupe) then false else eval.value
   else
     false
-) (drvPaths all)
+) (lib.drvPaths all)
