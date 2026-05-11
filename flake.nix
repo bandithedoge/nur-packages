@@ -3,8 +3,6 @@
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
     flake-parts.url = "github:hercules-ci/flake-parts";
     treefmt-nix.url = "github:numtide/treefmt-nix";
-    flake-utils.url = "github:numtide/flake-utils";
-
     mozilla-addons-to-nix.url = "sourcehut:~rycee/mozilla-addons-to-nix";
 
     cache-nix-action = {
@@ -42,7 +40,8 @@
 
           legacyPackages =
             let
-              allPackages = inputs.flake-utils.lib.flattenTree (import ./all.nix { inherit pkgs; });
+              lib = import ./lib.nix { inherit (pkgs) lib; };
+              allPackages = lib.flattenTree (import ./all.nix { inherit pkgs; });
 
               isBuildable =
                 pkg:
