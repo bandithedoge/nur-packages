@@ -162,8 +162,8 @@
           treefmt.config = {
             projectRootFile = "flake.nix";
             settings.excludes = [
-              "_sources/*"
-              "npins/*"
+              "*/_sources/*"
+              "*/npins/*"
             ];
             programs = {
               clang-format.enable = true;
