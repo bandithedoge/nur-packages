@@ -1,63 +1,63 @@
 {
-  "clap-juce-extensions": {
-    "cargoLock": null,
-    "date": "2026-04-24",
-    "extract": null,
-    "name": "clap-juce-extensions",
-    "passthru": null,
-    "pinned": false,
-    "src": {
-      "deepClone": false,
-      "fetchSubmodules": true,
-      "leaveDotGit": false,
-      "name": null,
-      "rev": "e8de9e8571626633b8541a54c2406fccc4272767",
-      "sha256": "sha256-dgKBa+7KXa6hI/zAdg762an6URGtNyUqMtXglRpMtGY=",
-      "sparseCheckout": [],
-      "type": "git",
-      "url": "https://github.com/free-audio/clap-juce-extensions.git"
+    "clap-juce-extensions": {
+        "cargoLock": null,
+        "date": "2026-04-24",
+        "extract": null,
+        "name": "clap-juce-extensions",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": true,
+            "leaveDotGit": false,
+            "name": null,
+            "rev": "e8de9e8571626633b8541a54c2406fccc4272767",
+            "sha256": "sha256-dgKBa+7KXa6hI/zAdg762an6URGtNyUqMtXglRpMtGY=",
+            "sparseCheckout": [],
+            "type": "git",
+            "url": "https://github.com/free-audio/clap-juce-extensions.git"
+        },
+        "version": "e8de9e8571626633b8541a54c2406fccc4272767"
     },
-    "version": "e8de9e8571626633b8541a54c2406fccc4272767"
-  },
-  "hamburger": {
-    "cargoLock": null,
-    "date": null,
-    "extract": null,
-    "name": "hamburger",
-    "passthru": null,
-    "pinned": false,
-    "src": {
-      "deepClone": false,
-      "fetchSubmodules": false,
-      "leaveDotGit": false,
-      "name": null,
-      "owner": "Davit-G",
-      "repo": "Hamburger",
-      "rev": "v0.5",
-      "sha256": "sha256-U/xy+uYTtDnBEHuZmVQkjTxy191oyLRs+ofnE/sHMPA=",
-      "sparseCheckout": [],
-      "type": "github"
+    "hamburger": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "hamburger",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "Davit-G",
+            "repo": "Hamburger",
+            "rev": "v0.5",
+            "sha256": "sha256-U/xy+uYTtDnBEHuZmVQkjTxy191oyLRs+ofnE/sHMPA=",
+            "sparseCheckout": [],
+            "type": "github"
+        },
+        "version": "v0.5"
     },
-    "version": "v0.5"
-  },
-  "juce": {
-    "cargoLock": null,
-    "date": null,
-    "extract": null,
-    "name": "juce",
-    "passthru": null,
-    "pinned": false,
-    "src": {
-      "deepClone": false,
-      "fetchSubmodules": false,
-      "leaveDotGit": false,
-      "name": null,
-      "rev": "51d11a2be6d5c97ccf12b4e5e827006e19f0555a",
-      "sha256": "sha256-iAueT+yHwUUHOzqfK5zXEZQ0GgOKJ9q9TyRrVfWdewc=",
-      "sparseCheckout": [],
-      "type": "git",
-      "url": "https://github.com/juce-framework/JUCE.git"
-    },
-    "version": "51d11a2be6d5c97ccf12b4e5e827006e19f0555a"
-  }
+    "juce": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "juce",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "rev": "51d11a2be6d5c97ccf12b4e5e827006e19f0555a",
+            "sha256": "sha256-iAueT+yHwUUHOzqfK5zXEZQ0GgOKJ9q9TyRrVfWdewc=",
+            "sparseCheckout": [],
+            "type": "git",
+            "url": "https://github.com/juce-framework/JUCE.git"
+        },
+        "version": "51d11a2be6d5c97ccf12b4e5e827006e19f0555a"
+    }
 }

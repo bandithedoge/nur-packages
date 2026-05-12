@@ -35,9 +35,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "681158d8a088b30ee947c97b864ce300346d9965",
-      "url": "https://github.com/hankertrix/augment-command.yazi/archive/681158d8a088b30ee947c97b864ce300346d9965.tar.gz",
-      "hash": "sha256-ct0ieBbTmQb3LlSWP+txuzmKuugyDRVprFGCvhLOzYQ="
+      "revision": "d0f48c4bfcd4e63f8f2bca619cb5013bb5192764",
+      "url": "https://github.com/hankertrix/augment-command.yazi/archive/d0f48c4bfcd4e63f8f2bca619cb5013bb5192764.tar.gz",
+      "hash": "sha256-41l93qksBM9qtKxapADMYt56OCFHjGCg3mWJMkefAUw="
     },
     "exifaudio.yazi": {
       "type": "Git",
@@ -126,9 +126,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "e3d430f8b12cb314a1d5744bcf8f76dd56b071e7",
-      "url": "https://github.com/Ape/open-with-cmd.yazi/archive/e3d430f8b12cb314a1d5744bcf8f76dd56b071e7.tar.gz",
-      "hash": "sha256-vN7zQeGuYN8TPKlA/6+SNFTVsA607z1DJPKXlNFJ9YM="
+      "revision": "eba191d9915cdca48333740290bb604400392ef6",
+      "url": "https://github.com/Ape/open-with-cmd.yazi/archive/eba191d9915cdca48333740290bb604400392ef6.tar.gz",
+      "hash": "sha256-5Etw2bKTfhWHBXkIR6VZsbEbCN079QfIGLnQEYiR7Lw="
     },
     "reflink.yazi": {
       "type": "Git",

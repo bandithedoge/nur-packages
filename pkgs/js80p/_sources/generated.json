@@ -1,23 +1,23 @@
 {
-  "js80p": {
-    "cargoLock": null,
-    "date": null,
-    "extract": null,
-    "name": "js80p",
-    "passthru": null,
-    "pinned": false,
-    "src": {
-      "deepClone": false,
-      "fetchSubmodules": false,
-      "leaveDotGit": false,
-      "name": null,
-      "owner": "attilammagyar",
-      "repo": "js80p",
-      "rev": "v4.0.1",
-      "sha256": "sha256-7EXxKlGdhkcR0BwcCdNdjCtQnTZNGR9QWz10wNntWaw=",
-      "sparseCheckout": [],
-      "type": "github"
-    },
-    "version": "v4.0.1"
-  }
+    "js80p": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "js80p",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "attilammagyar",
+            "repo": "js80p",
+            "rev": "v4.0.1",
+            "sha256": "sha256-7EXxKlGdhkcR0BwcCdNdjCtQnTZNGR9QWz10wNntWaw=",
+            "sparseCheckout": [],
+            "type": "github"
+        },
+        "version": "v4.0.1"
+    }
 }
