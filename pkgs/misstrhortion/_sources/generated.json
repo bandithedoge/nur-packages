@@ -1,22 +1,22 @@
 {
-  "misstrhortion": {
-    "cargoLock": null,
-    "date": "2025-04-02",
-    "extract": null,
-    "name": "misstrhortion",
-    "passthru": null,
-    "pinned": false,
-    "src": {
-      "deepClone": false,
-      "fetchSubmodules": true,
-      "leaveDotGit": false,
-      "name": null,
-      "rev": "85fdcf6e994e018778b0d55aa987bd94c9e09f9d",
-      "sha256": "sha256-iUo3zduI6TCqY8ju8Xs+Y0z7V26aXIfUYziakoDOeSg=",
-      "sparseCheckout": [],
-      "type": "git",
-      "url": "https://github.com/bandithedoge/misstrhortion"
-    },
-    "version": "85fdcf6e994e018778b0d55aa987bd94c9e09f9d"
-  }
+    "misstrhortion": {
+        "cargoLock": null,
+        "date": "2025-04-02",
+        "extract": null,
+        "name": "misstrhortion",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": true,
+            "leaveDotGit": false,
+            "name": null,
+            "rev": "85fdcf6e994e018778b0d55aa987bd94c9e09f9d",
+            "sha256": "sha256-iUo3zduI6TCqY8ju8Xs+Y0z7V26aXIfUYziakoDOeSg=",
+            "sparseCheckout": [],
+            "type": "git",
+            "url": "https://github.com/bandithedoge/misstrhortion"
+        },
+        "version": "85fdcf6e994e018778b0d55aa987bd94c9e09f9d"
+    }
 }

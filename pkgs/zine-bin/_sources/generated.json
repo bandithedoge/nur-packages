@@ -1,62 +1,62 @@
 {
-  "zine-bin-aarch64-darwin": {
-    "cargoLock": null,
-    "date": null,
-    "extract": null,
-    "name": "zine-bin-aarch64-darwin",
-    "passthru": null,
-    "pinned": false,
-    "src": {
-      "name": null,
-      "sha256": "sha256-+zv3BlePbA4xIuXa8qsfL00QH2AG7Mcie7W71onYl74=",
-      "type": "url",
-      "url": "https://github.com/kristoff-it/zine/releases/download/v0.11.2/aarch64-macos.zip"
+    "zine-bin-aarch64-darwin": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "zine-bin-aarch64-darwin",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-+zv3BlePbA4xIuXa8qsfL00QH2AG7Mcie7W71onYl74=",
+            "type": "url",
+            "url": "https://github.com/kristoff-it/zine/releases/download/v0.11.2/aarch64-macos.zip"
+        },
+        "version": "v0.11.2"
     },
-    "version": "v0.11.2"
-  },
-  "zine-bin-aarch64-linux": {
-    "cargoLock": null,
-    "date": null,
-    "extract": null,
-    "name": "zine-bin-aarch64-linux",
-    "passthru": null,
-    "pinned": false,
-    "src": {
-      "name": null,
-      "sha256": "sha256-lBOc2l5fjJ48cA0HdqQ0ws3u0VSMy/W6HyzhFM78YQI=",
-      "type": "url",
-      "url": "https://github.com/kristoff-it/zine/releases/download/v0.11.2/aarch64-linux-musl.tar.xz"
+    "zine-bin-aarch64-linux": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "zine-bin-aarch64-linux",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-lBOc2l5fjJ48cA0HdqQ0ws3u0VSMy/W6HyzhFM78YQI=",
+            "type": "url",
+            "url": "https://github.com/kristoff-it/zine/releases/download/v0.11.2/aarch64-linux-musl.tar.xz"
+        },
+        "version": "v0.11.2"
     },
-    "version": "v0.11.2"
-  },
-  "zine-bin-x86_64-darwin": {
-    "cargoLock": null,
-    "date": null,
-    "extract": null,
-    "name": "zine-bin-x86_64-darwin",
-    "passthru": null,
-    "pinned": false,
-    "src": {
-      "name": null,
-      "sha256": "sha256-c93nLJGjhRVr7CORxkNn86JVUUyb/41NYPosF5YoxgI=",
-      "type": "url",
-      "url": "https://github.com/kristoff-it/zine/releases/download/v0.11.2/x86_64-macos.zip"
+    "zine-bin-x86_64-darwin": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "zine-bin-x86_64-darwin",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-c93nLJGjhRVr7CORxkNn86JVUUyb/41NYPosF5YoxgI=",
+            "type": "url",
+            "url": "https://github.com/kristoff-it/zine/releases/download/v0.11.2/x86_64-macos.zip"
+        },
+        "version": "v0.11.2"
     },
-    "version": "v0.11.2"
-  },
-  "zine-bin-x86_64-linux": {
-    "cargoLock": null,
-    "date": null,
-    "extract": null,
-    "name": "zine-bin-x86_64-linux",
-    "passthru": null,
-    "pinned": false,
-    "src": {
-      "name": null,
-      "sha256": "sha256-urP0fgfvuBJkKPgDXs9G5DNElltDCq5fiW1lp0f1wZw=",
-      "type": "url",
-      "url": "https://github.com/kristoff-it/zine/releases/download/v0.11.2/x86_64-linux-musl.tar.xz"
-    },
-    "version": "v0.11.2"
-  }
+    "zine-bin-x86_64-linux": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "zine-bin-x86_64-linux",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-urP0fgfvuBJkKPgDXs9G5DNElltDCq5fiW1lp0f1wZw=",
+            "type": "url",
+            "url": "https://github.com/kristoff-it/zine/releases/download/v0.11.2/x86_64-linux-musl.tar.xz"
+        },
+        "version": "v0.11.2"
+    }
 }

@@ -1,23 +1,23 @@
 {
-  "st-flexipatch": {
-    "cargoLock": null,
-    "date": "2026-03-27",
-    "extract": null,
-    "name": "st-flexipatch",
-    "passthru": null,
-    "pinned": false,
-    "src": {
-      "deepClone": false,
-      "fetchSubmodules": false,
-      "leaveDotGit": false,
-      "name": null,
-      "owner": "bakkeby",
-      "repo": "st-flexipatch",
-      "rev": "1d3f20096c9b5cea0452343a97c644f5987da6d9",
-      "sha256": "sha256-VnfC64Uvy0OExM3ENbQfCNKaERq/fD2Wh3UXqlyjhjc=",
-      "sparseCheckout": [],
-      "type": "github"
-    },
-    "version": "1d3f20096c9b5cea0452343a97c644f5987da6d9"
-  }
+    "st-flexipatch": {
+        "cargoLock": null,
+        "date": "2026-03-27",
+        "extract": null,
+        "name": "st-flexipatch",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "bakkeby",
+            "repo": "st-flexipatch",
+            "rev": "1d3f20096c9b5cea0452343a97c644f5987da6d9",
+            "sha256": "sha256-VnfC64Uvy0OExM3ENbQfCNKaERq/fD2Wh3UXqlyjhjc=",
+            "sparseCheckout": [],
+            "type": "github"
+        },
+        "version": "1d3f20096c9b5cea0452343a97c644f5987da6d9"
+    }
 }

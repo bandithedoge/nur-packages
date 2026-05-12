@@ -1,47 +1,47 @@
 {
-  "git-pages-bin-aarch64-darwin": {
-    "cargoLock": null,
-    "date": null,
-    "extract": null,
-    "name": "git-pages-bin-aarch64-darwin",
-    "passthru": null,
-    "pinned": false,
-    "src": {
-      "name": null,
-      "sha256": "sha256-SyknOGxcNutjUB5LXWRagjW340b2o+qn1nyo/8ksZ6o=",
-      "type": "url",
-      "url": "https://codeberg.org/git-pages/git-pages/releases/download/v0.8.1/git-pages.darwin-arm64"
+    "git-pages-bin-aarch64-darwin": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "git-pages-bin-aarch64-darwin",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-ZnDa2wnoWsPvxGdl4aKru4TXqE8QosBavTHSvxa/3L0=",
+            "type": "url",
+            "url": "https://codeberg.org/git-pages/git-pages/releases/download/v0.9.0/git-pages.darwin-arm64"
+        },
+        "version": "v0.9.0"
     },
-    "version": "v0.8.1"
-  },
-  "git-pages-bin-aarch64-linux": {
-    "cargoLock": null,
-    "date": null,
-    "extract": null,
-    "name": "git-pages-bin-aarch64-linux",
-    "passthru": null,
-    "pinned": false,
-    "src": {
-      "name": null,
-      "sha256": "sha256-DpM+5/iKtECIYtQCi/xDfDrIVbgqkp2LNJed2gY6Gew=",
-      "type": "url",
-      "url": "https://codeberg.org/git-pages/git-pages/releases/download/v0.8.1/git-pages.linux-arm64"
+    "git-pages-bin-aarch64-linux": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "git-pages-bin-aarch64-linux",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-F/KRob/uTRNm9AXXVGEf0172E/ZQ43SUCN/7sZUSRSw=",
+            "type": "url",
+            "url": "https://codeberg.org/git-pages/git-pages/releases/download/v0.9.0/git-pages.linux-arm64"
+        },
+        "version": "v0.9.0"
     },
-    "version": "v0.8.1"
-  },
-  "git-pages-bin-x86_64-linux": {
-    "cargoLock": null,
-    "date": null,
-    "extract": null,
-    "name": "git-pages-bin-x86_64-linux",
-    "passthru": null,
-    "pinned": false,
-    "src": {
-      "name": null,
-      "sha256": "sha256-30VFVxnYfl2TrYhZLrOkQrCfJklsRkoUI3SlRbEi6ZA=",
-      "type": "url",
-      "url": "https://codeberg.org/git-pages/git-pages/releases/download/v0.8.1/git-pages.linux-amd64"
-    },
-    "version": "v0.8.1"
-  }
+    "git-pages-bin-x86_64-linux": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "git-pages-bin-x86_64-linux",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-Lf2xv6K0W5vEotrFU0xDVYI+nNw5gfWhO2TP14KaEUw=",
+            "type": "url",
+            "url": "https://codeberg.org/git-pages/git-pages/releases/download/v0.9.0/git-pages.linux-amd64"
+        },
+        "version": "v0.9.0"
+    }
 }

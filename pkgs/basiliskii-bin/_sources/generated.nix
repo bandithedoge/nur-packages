@@ -8,10 +8,10 @@
 {
   basiliskii-bin = {
     pname = "basiliskii-bin";
-    version = "2026-04-11";
+    version = "2026-05-11";
     src = fetchurl {
-      url = "https://github.com/Korkman/macemu-appimage-builder/releases/download/2026-04-11/BasiliskII-x86_64.AppImage";
-      sha256 = "sha256-jWSKNtYzhWXDC1xMwTj5QKt8HXp6zNQsUrCYHVH0o7Y=";
+      url = "https://github.com/Korkman/macemu-appimage-builder/releases/download/2026-05-11/BasiliskII-x86_64.AppImage";
+      sha256 = "sha256-ed3Feir7SJ8q18dDL3xZd0ZMWvi8ZgIZaKx0jSNnv04=";
     };
   };
 }

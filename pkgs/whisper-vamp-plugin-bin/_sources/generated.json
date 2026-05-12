@@ -1,16 +1,16 @@
 {
-  "whisper-vamp-plugin-bin": {
-    "cargoLock": null,
-    "date": null,
-    "extract": null,
-    "name": "whisper-vamp-plugin-bin",
-    "passthru": null,
-    "pinned": false,
-    "src": {
-      "sha256": "sha256-kD2WUjrDU67gQigvkOqoyH7Msl5xEnS39Feg+NQMNj4=",
-      "type": "tarball",
-      "url": "https://github.com/Ircam-Partiels/whisper-vamp-plugin/releases/download/3.0.0/Whisper-Linux.tar.gz"
-    },
-    "version": "3.0.0"
-  }
+    "whisper-vamp-plugin-bin": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "whisper-vamp-plugin-bin",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "sha256": "sha256-kD2WUjrDU67gQigvkOqoyH7Msl5xEnS39Feg+NQMNj4=",
+            "type": "tarball",
+            "url": "https://github.com/Ircam-Partiels/whisper-vamp-plugin/releases/download/3.0.0/Whisper-Linux.tar.gz"
+        },
+        "version": "3.0.0"
+    }
 }
