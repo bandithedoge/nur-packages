@@ -403,6 +403,19 @@
       "url": "https://github.com/yioneko/nvim-yati/archive/df3dc06076c6fe20a1dcd8643e712af5c252d042.tar.gz",
       "hash": "sha256-hsSGj/bKY0FxZi1BlJxa/U2zvJzOwrFSz1W/MUtPunU="
     },
+    "opencode.nvim": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "sudo-tee",
+        "repo": "opencode.nvim"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "cef831d40812537a3d53ffd73f53865255d68f69",
+      "url": "https://github.com/sudo-tee/opencode.nvim/archive/cef831d40812537a3d53ffd73f53865255d68f69.tar.gz",
+      "hash": "sha256-teYcj++6J8E0HjBOl4aCj0Z54PWQOIOzU1GXUeARKYQ="
+    },
     "org-bullets.nvim": {
       "type": "Git",
       "repository": {
