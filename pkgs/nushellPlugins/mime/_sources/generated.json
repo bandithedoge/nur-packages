@@ -2,11 +2,11 @@
     "nu-plugin-mime": {
         "cargoLock": {
             "Cargo.lock": [
-                "sha256-f9dkMRH7PHmcnYhIypgsdUhsIa+gPDPAAC5GJOuP2xo=/Cargo.lock",
+                "sha256-ZlUCM105Bfe7QsWMyDSOoVT_WXBJTKdFjvEdPc2KD0w=/Cargo.lock",
                 {}
             ]
         },
-        "date": "2026-03-08",
+        "date": "2026-05-09",
         "extract": null,
         "name": "nu-plugin-mime",
         "passthru": null,
@@ -16,12 +16,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "cf85352b95b02587252e1450803767010eec0e30",
-            "sha256": "sha256-f9dkMRH7PHmcnYhIypgsdUhsIa+gPDPAAC5GJOuP2xo=",
+            "rev": "7dd4ae2bf757f1732d5e0a4d9e615bc0586b09d8",
+            "sha256": "sha256-ZlUCM105Bfe7QsWMyDSOoVT/WXBJTKdFjvEdPc2KD0w=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/kik4444/nu_plugin_mime.git"
         },
-        "version": "cf85352b95b02587252e1450803767010eec0e30"
+        "version": "7dd4ae2bf757f1732d5e0a4d9e615bc0586b09d8"
     }
 }
