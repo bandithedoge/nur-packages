@@ -296,10 +296,10 @@
   };
   "csgofloat" = buildMozillaXpiAddon {
     pname = "csgofloat";
-    version = "5.15.0";
+    version = "5.15.1";
     addonId = "{194d0dc6-7ada-41c6-88b8-95d7636fe43c}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4766910/csgofloat-5.15.0.xpi";
-    sha256 = "73a9a56db9a7a60ba64e551b22486098a7aeea2a2f5b432ec2fd1b5d1ac613e0";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4791498/csgofloat-5.15.1.xpi";
+    sha256 = "c87a739ce36751c7dc93370b2cc8a3ede58768736f0790e9a12fb0ba7441d1d3";
     meta = with lib; {
       homepage = "https://csgofloat.com";
       description = "Shows the float value, paint seed, and screenshots of Counter-Strike (CS:GO &amp; CS2) items on the Steam Market or Inventories";
@@ -1384,10 +1384,10 @@
   };
   "refined-github" = buildMozillaXpiAddon {
     pname = "refined-github";
-    version = "26.5.10";
+    version = "26.5.13";
     addonId = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4799573/refined_github-26.5.10.xpi";
-    sha256 = "869681afa89a5462a0dd83a7951249c2ac420efb877002c20eefc54789ecb21e";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4804659/refined_github-26.5.13.xpi";
+    sha256 = "b0d14dcaa4a7248b82aabb38eaac454782dcb9083cd9b721b847e68f6ab9a1bf";
     meta = with lib; {
       homepage = "https://github.com/refined-github/refined-github";
       description = "Simplifies the GitHub interface and adds many useful features.";
