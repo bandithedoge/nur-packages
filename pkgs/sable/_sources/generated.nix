@@ -8,12 +8,12 @@
 {
   sable = {
     pname = "sable";
-    version = "1.15.3";
+    version = "1.16.0";
     src = dockerTools.pullImage {
       imageName = "ghcr.io/sableclient/sable";
-      imageDigest = "sha256:f869bb7f2a13184a70d6ffd3b7b971a9d0cdf4641e214a4e8358616e28da25ba";
-      sha256 = "sha256-G0blPDgg0Ji+m5Z6jWasHwQsJDO5wPTNprUbFEVhUl8=";
-      finalImageTag = "1.15.3";
+      imageDigest = "sha256:0483a3ca8738791661b424a6755d0a596c303e88d362c8058d6161fe0cf303c2";
+      sha256 = "sha256-6pUkiblFom7Rrc61rXn7H/HAZtHGUsVTp+h5UJWekYo=";
+      finalImageTag = "1.16.0";
     };
   };
 }
