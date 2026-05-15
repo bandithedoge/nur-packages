@@ -16,7 +16,7 @@
       deepClone = false;
       leaveDotGit = true;
       sparseCheckout = [ ];
-      sha256 = "sha256-apclG0dEec48ZtqIKXnBBQLV+FjkQ1nUzRsnjMWTvxI=";
+      sha256 = "sha256-pCLy7NcNbwT+VCpgWl6tKjHztPxweBUlXBJ155HSwzc=";
     };
     date = "2024-07-30";
   };
