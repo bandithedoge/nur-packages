@@ -11,12 +11,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "cf61bb2c28a8a7c80c2015d872df23187ee2bc64",
-            "sha256": "sha256-WFqkDow7lFazJ51Wh7tTwAou8rbPL0fBm5/dAdPMdlk=",
+            "rev": "e020eb5ba8c56b786caacccd77fa93858bfe0fee",
+            "sha256": "sha256-UAcWX/MAkKOnuMnCVHcP7PlvhG/94BAiM5b2+vBIXjY=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://codeberg.org/sox_ng/sox_ng.git"
         },
-        "version": "cf61bb2c28a8a7c80c2015d872df23187ee2bc64"
+        "version": "e020eb5ba8c56b786caacccd77fa93858bfe0fee"
     }
 }
