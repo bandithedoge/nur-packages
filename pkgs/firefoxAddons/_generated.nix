@@ -1530,7 +1530,6 @@
     meta = with lib; {
       homepage = "https://steamdb.info/";
       description = "Adds SteamDB links and new features on the Steam store and community. View lowest game prices and stats.";
-      license = licenses.bsd2;
       mozPermissions = [
         "storage"
         "https://steamdb.info/*"
