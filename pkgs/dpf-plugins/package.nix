@@ -44,5 +44,6 @@ stdenv.mkDerivation {
       mit
     ];
     platforms = platforms.linux;
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

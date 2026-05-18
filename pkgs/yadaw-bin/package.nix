@@ -53,5 +53,6 @@ stdenv.mkDerivation {
     ];
     sourceProvenance = [ sourceTypes.binaryNativeCode ];
     mainProgram = "yadaw";
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

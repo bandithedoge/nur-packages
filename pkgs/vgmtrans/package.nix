@@ -45,5 +45,6 @@ stdenv.mkDerivation {
     license = licenses.zlib;
     platforms = platforms.linux;
     mainProgram = "vgmtrans";
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

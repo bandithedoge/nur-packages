@@ -55,5 +55,6 @@ stdenv.mkDerivation {
     license = licenses.mit;
     platforms = platforms.mit;
     mainProgram = "TwoFilters";
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

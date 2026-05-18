@@ -22,5 +22,6 @@ appimageTools.wrapType2 {
     license = licenses.gpl2;
     platforms = [ "x86_64-linux" ];
     mainProgram = "basiliskii";
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

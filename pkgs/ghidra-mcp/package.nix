@@ -35,5 +35,6 @@ ghidra.buildGhidraExtension {
     license = licenses.asl20;
     inherit (ghidra.meta) platforms;
     mainProgram = "bridge-mcp-ghidra";
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

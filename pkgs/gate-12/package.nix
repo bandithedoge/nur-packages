@@ -20,5 +20,6 @@ stdenv.mkDerivation {
     license = licenses.gpl3Plus;
     platforms = platforms.linux;
     mainProgram = "GATE-12";
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

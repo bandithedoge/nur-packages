@@ -18,5 +18,6 @@ stdenv.mkDerivation {
     license = licenses.gpl3Plus;
     platforms = platforms.linux;
     mainProgram = "TIME-12";
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

@@ -56,5 +56,6 @@ clangStdenv.mkDerivation {
     license = licenses.gpl3Only;
     platforms = platforms.linux;
     mainProgram = "element";
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

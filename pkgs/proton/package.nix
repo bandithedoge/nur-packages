@@ -39,6 +39,7 @@ let
           license = licenses.bsd3;
           platforms = [ "x86_64-linux" ];
           sourceProvenance = [ sourceTypes.binaryNativeCode ];
+          maintainers = [ maintainers.bandithedoge ];
         }
         // meta;
     }

@@ -17,5 +17,6 @@ stdenv.mkDerivation {
     homepage = "https://github.com/jpcima/Hera";
     license = licenses.gpl3Plus;
     platforms = platforms.linux;
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

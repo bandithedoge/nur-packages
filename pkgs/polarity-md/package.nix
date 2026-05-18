@@ -38,5 +38,6 @@ stdenv.mkDerivation {
     platforms = [ "x86_64-linux" ];
     sourceProvenance = [ sourceTypes.binaryNativeCode ];
     mainProgram = "Polarity-MD";
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

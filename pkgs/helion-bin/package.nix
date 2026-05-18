@@ -86,5 +86,6 @@ stdenv.mkDerivation {
     platforms = [ "x86_64-linux" ];
     sourceProvenance = [ sourceTypes.binaryNativeCode ];
     mainProgram = "Helion";
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

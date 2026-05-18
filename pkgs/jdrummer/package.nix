@@ -22,5 +22,6 @@ stdenv.mkDerivation {
     license = licenses.gpl3Plus;
     platforms = platforms.linux;
     mainProgram = "jdrummer";
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

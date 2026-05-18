@@ -39,5 +39,6 @@ stdenv.mkDerivation {
     license = licenses.mit;
     platforms = platforms.linux;
     sourceProvenance = [ sourceTypes.binaryNativeCode ];
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

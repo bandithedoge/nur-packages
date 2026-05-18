@@ -45,5 +45,6 @@ stdenv.mkDerivation rec {
     platforms = [ "x86_64-linux" ];
     sourceProvenance = [ sourceTypes.binaryNativeCode ];
     mainProgram = "squeezer";
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

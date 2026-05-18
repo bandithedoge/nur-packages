@@ -20,5 +20,6 @@ stdenv.mkDerivation {
     homepage = "https://github.com/astriiddev/BitDOS-VST";
     license = licenses.agpl3Plus;
     platforms = [ "x86_64-linux" ];
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

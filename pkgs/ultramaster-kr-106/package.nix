@@ -22,5 +22,6 @@ stdenv.mkDerivation {
     license = licenses.gpl3Plus;
     platforms = platforms.linux;
     mainProgram = "KR-106";
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

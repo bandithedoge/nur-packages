@@ -140,6 +140,7 @@ let
         {
           license = licenses.mit;
           platforms = platforms.linux;
+          maintainers = [ maintainers.bandithedoge ];
         }
         // meta;
     };

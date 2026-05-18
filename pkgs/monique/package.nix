@@ -30,5 +30,6 @@ stdenv.mkDerivation {
     ];
     platforms = platforms.linux;
     broken = true; # hash shenanigans
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

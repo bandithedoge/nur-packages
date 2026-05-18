@@ -38,5 +38,6 @@ stdenv.mkDerivation {
     homepage = "https://github.com/DISTRHO/OneKnob-Series";
     license = licenses.gpl2;
     platforms = platforms.linux;
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

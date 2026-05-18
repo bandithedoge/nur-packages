@@ -81,5 +81,6 @@ stdenv.mkDerivation rec {
     homepage = "https://attilammagyar.github.io/js80p/index.html#home";
     license = licenses.gpl3Plus;
     platforms = platforms.linux;
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

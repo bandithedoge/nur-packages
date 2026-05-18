@@ -51,5 +51,6 @@ stdenv.mkDerivation {
     license = licenses.mit;
     platforms = platforms.linux;
     mainProgram = "st";
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

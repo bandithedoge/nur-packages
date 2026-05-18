@@ -49,5 +49,6 @@ stdenv.mkDerivation {
     license = licenses.gpl3Plus;
     platforms = platforms.linux;
     mainProgram = "AIDA-X";
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

@@ -36,5 +36,6 @@ stdenv.mkDerivation {
     license = licenses.mit;
     platforms = platforms.unix;
     mainProgram = "clap-info";
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

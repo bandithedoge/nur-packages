@@ -27,5 +27,6 @@ stdenvNoCC.mkDerivation (finalAttrs: {
     homepage = "https://github.com/7w1/sable";
     license = licenses.agpl3Plus;
     platforms = platforms.all;
+    maintainers = [ maintainers.bandithedoge ];
   };
 })

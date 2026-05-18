@@ -18,5 +18,6 @@ stdenv.mkDerivation {
     homepage = "https://github.com/crowbait/GnomeDistort-2";
     license = licenses.gpl3Plus;
     platforms = platforms.linux;
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

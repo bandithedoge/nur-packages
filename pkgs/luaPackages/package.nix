@@ -25,6 +25,7 @@
       description = "Simple API around GLib's GIO:GDBusProxy built on top of lgi";
       homepage = "https://stefano-m.github.io/lua-dbus_proxy/";
       license = licenses.asl20;
+      maintainers = [ maintainers.bandithedoge ];
     };
   };
 
@@ -41,6 +42,7 @@
       homepage = "https://github.com/dodo/lua-dbus";
       license = licenses.mit;
       broken = true;
+      maintainers = [ maintainers.bandithedoge ];
     };
   };
 
@@ -56,6 +58,7 @@
       description = "Utilities for the awesome window manager";
       homepage = "https://blingcorp.github.io/bling/";
       license = licenses.mit;
+      maintainers = [ maintainers.bandithedoge ];
     };
   };
 
@@ -76,6 +79,7 @@
       description = "Lua bindings for libastal";
       homepage = "https://github.com/tokyob0t/astal-lua";
       license = licenses.lgpl21Plus;
+      maintainers = [ maintainers.bandithedoge ];
     };
   };
 
@@ -93,6 +97,7 @@
       description = "Teach LuaRocks how to build your Fennel rock";
       homepage = "https://sr.ht/~xerool/luarocks-build-fennel/";
       license = licenses.mit;
+      maintainers = [ maintainers.bandithedoge ];
     };
   };
 
@@ -117,6 +122,7 @@
       description = "Dynamic Lua binding to GObject libraries using GObject-Introspection";
       homepage = "https://github.com/lgi-devs/lgi";
       license = licenses.mit;
+      maintainers = [ maintainers.bandithedoge ];
     };
   };
 }

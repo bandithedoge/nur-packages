@@ -30,5 +30,6 @@ stdenv.mkDerivation {
     homepage = "https://github.com/surge-synthesizer/OB-Xf";
     license = licenses.gpl3Plus;
     platforms = platforms.linux;
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

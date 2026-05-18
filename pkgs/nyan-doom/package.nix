@@ -50,5 +50,6 @@ stdenv.mkDerivation rec {
     license = licenses.gpl2Plus;
     platforms = platforms.unix;
     mainProgram = "nyan-doom";
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

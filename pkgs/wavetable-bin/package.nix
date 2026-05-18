@@ -35,5 +35,6 @@ stdenv.mkDerivation {
     homepage = "https://socalabs.com/synths/wavetable/";
     license = licenses.bsd3;
     platforms = [ "x86_64-linux" ];
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

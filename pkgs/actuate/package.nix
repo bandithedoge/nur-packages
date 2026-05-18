@@ -46,5 +46,6 @@ rustPlatform.buildRustPackage {
     license = licenses.gpl3Plus;
     platforms = platforms.linux;
     # broken = true; # weird rust dependency hash things happening
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

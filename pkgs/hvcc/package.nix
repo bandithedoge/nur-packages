@@ -57,5 +57,6 @@ python3Packages.buildPythonPackage {
     license = licenses.gpl3;
     platforms = platforms.unix;
     mainProgram = "hvcc";
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

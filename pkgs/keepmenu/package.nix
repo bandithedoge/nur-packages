@@ -27,5 +27,6 @@ python3Packages.buildPythonApplication {
     license = licenses.gpl3Plus;
     platforms = platforms.linux;
     broken = true;
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

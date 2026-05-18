@@ -45,5 +45,6 @@ stdenv.mkDerivation {
     license = licenses.gpl2Plus;
     platforms = platforms.unix;
     mainProgram = "cherry-doom";
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

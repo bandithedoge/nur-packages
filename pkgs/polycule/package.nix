@@ -42,5 +42,6 @@ flutter335.buildFlutterApplication {
     license = licenses.eupl12;
     platforms = platforms.linux;
     mainProgram = "polycule";
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

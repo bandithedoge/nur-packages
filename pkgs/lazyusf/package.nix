@@ -30,5 +30,6 @@ stdenv.mkDerivation {
     homepage = "https://github.com/derselbst/lazyusf";
     platforms = platforms.unix;
     mainProgram = "lazyusf";
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

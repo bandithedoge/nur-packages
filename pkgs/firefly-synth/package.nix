@@ -32,5 +32,6 @@ stdenv.mkDerivation {
     homepage = "https://firefly-synth.com/";
     license = licenses.gpl3Plus;
     platforms = platforms.linux;
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

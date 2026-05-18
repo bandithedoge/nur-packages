@@ -80,5 +80,6 @@ stdenv.mkDerivation {
     license = licenses.bsd3;
     platforms = platforms.linux;
     mainProgram = "protrekkr";
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

@@ -17,5 +17,6 @@ rustPlatform.buildRustPackage {
     license = licenses.mit;
     inherit (nushell.meta) platforms;
     mainProgram = "nu_plugin_regex";
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

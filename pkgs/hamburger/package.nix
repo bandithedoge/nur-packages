@@ -23,5 +23,6 @@ stdenv.mkDerivation {
     license = licenses.gpl3Plus;
     platforms = platforms.linux;
     mainProgram = "Hamburger";
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

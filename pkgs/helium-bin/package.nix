@@ -105,5 +105,6 @@ stdenv.mkDerivation {
     ];
     sourceProvenance = [ sourceTypes.binaryNativeCode ];
     mainProgram = "helium";
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

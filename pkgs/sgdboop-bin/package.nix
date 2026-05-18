@@ -39,5 +39,6 @@ stdenv.mkDerivation {
     platforms = [ "x86_64-linux" ];
     sourceProvenance = [ sourceTypes.binaryNativeCode ];
     mainProgram = "SGDBoop";
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

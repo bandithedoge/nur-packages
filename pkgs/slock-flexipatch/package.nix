@@ -34,5 +34,6 @@ stdenv.mkDerivation {
     license = licenses.mit;
     platforms = platforms.linux;
     mainProgram = "slock";
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

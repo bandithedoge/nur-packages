@@ -38,5 +38,6 @@ stdenv.mkDerivation {
     platforms = [ "x86_64-linux" ];
     sourceProvenance = [ sourceTypes.binaryNativeCode ];
     mainProgram = "ShowMIDI";
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

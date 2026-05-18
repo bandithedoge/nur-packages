@@ -16,5 +16,6 @@ rustPlatform.buildRustPackage {
     license = licenses.asl20;
     inherit (nushell.meta) platforms;
     mainProgram = "nu_plugin_compress";
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

@@ -33,5 +33,6 @@ stdenv.mkDerivation {
     platforms = platforms.linux;
     license = licenses.gpl3Plus;
     broken = true; # taglib version mismatch or something
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

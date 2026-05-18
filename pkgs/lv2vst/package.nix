@@ -17,5 +17,6 @@ stdenv.mkDerivation {
     homepage = "https://github.com/x42/lv2vst";
     license = licenses.gpl2;
     platforms = platforms.linux;
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

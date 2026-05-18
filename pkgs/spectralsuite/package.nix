@@ -30,5 +30,6 @@ stdenv.mkDerivation {
     homepage = "https://github.com/andrewreeman/SpectralSuite";
     license = licenses.unlicense;
     platforms = platforms.linux;
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

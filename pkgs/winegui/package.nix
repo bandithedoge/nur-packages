@@ -29,5 +29,6 @@ stdenv.mkDerivation {
     license = licenses.agpl3Plus;
     platforms = platforms.linux;
     mainProgram = "winegui";
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

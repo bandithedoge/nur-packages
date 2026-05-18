@@ -17,5 +17,6 @@ rustPlatform.buildRustPackage {
     license = licenses.mpl20;
     inherit (nushell.meta) platforms;
     mainProgram = "nu_plugin_bexpand";
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

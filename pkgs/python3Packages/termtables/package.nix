@@ -16,5 +16,6 @@ python3Packages.buildPythonPackage {
     description = "Pretty tables in the terminal";
     homepage = "https://github.com/nschloe/termtables";
     license = licenses.gpl3Plus;
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

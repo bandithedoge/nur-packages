@@ -17,5 +17,6 @@ rustPlatform.buildRustPackage {
     license = licenses.agpl3Plus;
     inherit (nushell.meta) platforms;
     mainProgram = "nu_plugin_file";
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

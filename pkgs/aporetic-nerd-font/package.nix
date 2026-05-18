@@ -18,5 +18,6 @@ stdenvNoCC.mkDerivation {
     homepage = "https://github.com/Echinoidea/Aporetic-Nerd-Font";
     license = licenses.ofl;
     platforms = platforms.all;
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

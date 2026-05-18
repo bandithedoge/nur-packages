@@ -40,5 +40,6 @@ buildNpmPackage {
     license = licenses.mit;
     platforms = platforms.all;
     mainProgram = "some-sass-language-server";
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

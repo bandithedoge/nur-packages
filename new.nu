@@ -14,13 +14,14 @@ def main [
     stdenv.mkDerivation {
       inherit \(sources.($name)) pname version src;
 
-      # meta = with lib; {
+      # meta = {
       #   description = \"\";
       #   homepage = \"\";
       #   license = null;
       #   platforms = [];
       #   sourceProvenance = [];
       #   mainProgram = "";
+      #   maintainers = [];
       # };
     }" | nixfmt | save $"pkgs/($name)/package.nix"
     print $"created new package at pkgs/($name)"

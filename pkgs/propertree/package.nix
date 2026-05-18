@@ -45,5 +45,6 @@ stdenv.mkDerivation {
     license = licenses.bsd3;
     platforms = platforms.unix;
     mainProgram = "propertree";
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

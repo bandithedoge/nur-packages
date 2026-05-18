@@ -34,5 +34,6 @@ stdenv.mkDerivation {
     license = licenses.agpl3Plus;
     platforms = platforms.linux;
     broken = true;
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

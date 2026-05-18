@@ -30,5 +30,6 @@ stdenv.mkDerivation {
     license = licenses.mit;
     platforms = platforms.linux;
     mainProgram = "dwm";
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

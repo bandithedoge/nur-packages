@@ -58,5 +58,6 @@ stdenv.mkDerivation {
     homepage = "https://github.com/baconpaul/sapphire-plugins";
     license = licenses.gpl3Plus;
     platforms = platforms.linux;
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

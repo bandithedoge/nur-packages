@@ -28,5 +28,6 @@ stdenv.mkDerivation {
     homepage = "https://schrammel.io/";
     license = licenses.gpl3Plus;
     platforms = platforms.linux;
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

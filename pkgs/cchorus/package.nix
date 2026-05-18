@@ -25,5 +25,6 @@ stdenv.mkDerivation {
     homepage = "https://github.com/SpotlightKid/cchorus";
     license = licenses.mit;
     platforms = platforms.linux;
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

@@ -90,5 +90,6 @@ stdenv.mkDerivation {
     license = licenses.gpl2Plus;
     platforms = platforms.unix;
     mainProgram = "sox_ng";
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

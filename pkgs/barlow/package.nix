@@ -22,5 +22,6 @@ stdenv.mkDerivation {
     homepage = "https://tribby.com/fonts/barlow";
     license = licenses.ofl;
     platforms = platforms.all;
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

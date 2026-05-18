@@ -52,5 +52,6 @@ stdenv.mkDerivation {
     license = licenses.agpl3Only;
     platforms = platforms.unix;
     mainProgram = "Projucer";
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

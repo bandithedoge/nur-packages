@@ -41,5 +41,6 @@ stdenv.mkDerivation {
     license = licenses.asl20;
     platforms = [ "x86_64-linux" ];
     sourceProvenance = [ sourceTypes.binaryNativeCode ];
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

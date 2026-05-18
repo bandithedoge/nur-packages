@@ -65,5 +65,6 @@ stdenv.mkDerivation {
     homepage = "https://dsp56300.wordpress.com/";
     license = licenses.gpl3Plus;
     platforms = platforms.linux;
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

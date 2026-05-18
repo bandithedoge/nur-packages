@@ -32,5 +32,6 @@ stdenv.mkDerivation {
     description = "Cross-platform Camel Crusher Clone VST plug-in based on black-box analysis";
     homepage = "https://github.com/soerenbnoergaard/reverse-camel";
     platforms = platforms.linux;
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

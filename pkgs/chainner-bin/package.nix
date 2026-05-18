@@ -61,5 +61,6 @@ stdenv.mkDerivation {
     platforms = [ "x86_64-linux" ];
     sourceProvenance = [ sourceTypes.binaryBytecode ];
     mainProgram = "chainner";
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

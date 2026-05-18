@@ -23,5 +23,6 @@ buildNpmPackage {
     license = licenses.mit;
     platforms = platforms.all;
     mainProgram = "mcp-searxng";
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

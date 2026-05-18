@@ -24,5 +24,6 @@ stdenv.mkDerivation {
     homepage = "https://github.com/gmoican/PunkOTT";
     license = licenses.mit;
     platforms = platforms.linux;
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

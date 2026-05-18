@@ -17,5 +17,6 @@ python3Packages.buildPythonApplication {
     homepage = "https://github.com/zytx/beets-lyrics-manager";
     license = licenses.mit;
     inherit (beets.meta) platforms;
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

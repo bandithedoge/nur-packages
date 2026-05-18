@@ -45,6 +45,7 @@ let
         inherit description homepage license;
         platforms = [ "x86_64-linux" ];
         sourceProvenance = [ sourceTypes.binaryNativeCode ];
+    maintainers = [ maintainers.bandithedoge ];
       };
     };
 in

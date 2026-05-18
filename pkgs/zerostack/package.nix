@@ -19,5 +19,6 @@ rustPlatform.buildRustPackage {
     license = licenses.gpl3Plus;
     platforms = platforms.unix;
     mainProgram = "zerostack";
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

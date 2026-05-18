@@ -21,5 +21,6 @@ stdenv.mkDerivation {
     homepage = "https://github.com/hqrrr/PerceptoMap";
     license = licenses.agpl3Plus;
     platforms = platforms.linux;
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

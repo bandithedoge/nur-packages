@@ -17,5 +17,6 @@ appimageTools.wrapType2 {
     license = licenses.gpl3Plus;
     platforms = [ "x86_64-linux" ];
     mainProgram = "deemix-gui";
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

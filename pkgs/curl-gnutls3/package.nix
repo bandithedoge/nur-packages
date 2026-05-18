@@ -57,5 +57,6 @@ stdenv.mkDerivation {
     license = licenses.curl;
     platforms = platforms.linux;
     mainProgram = "curl";
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

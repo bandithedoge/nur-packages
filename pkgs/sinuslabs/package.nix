@@ -35,11 +35,14 @@ let
         runHook postBuild
       '';
 
-      meta = {
-        platforms = [ "x86_64-linux" ];
-        sourceProvenance = [ lib.sourceTypes.binaryNativeCode ];
-      }
-      // meta;
+      meta =
+        with lib;
+        {
+          platforms = [ "x86_64-linux" ];
+          sourceProvenance = [ lib.sourceTypes.binaryNativeCode ];
+          maintainers = [ maintainers.bandithedoge ];
+        }
+        // meta;
     };
 in
 {

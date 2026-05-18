@@ -18,5 +18,6 @@ stdenv.mkDerivation {
     license = licenses.gpl3Plus;
     platforms = platforms.linux;
     mainProgram = "FILT-R";
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

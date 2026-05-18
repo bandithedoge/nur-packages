@@ -43,5 +43,6 @@ stdenv.mkDerivation {
     license = licenses.lgpl21;
     platforms = [ "x86_64-linux" ];
     sourceProvenance = [ sourceTypes.binaryNativeCode ];
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

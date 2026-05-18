@@ -29,5 +29,6 @@ stdenv.mkDerivation {
     license = licenses.gpl2Plus;
     platforms = platforms.unix;
     mainProgram = "snd2acm";
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

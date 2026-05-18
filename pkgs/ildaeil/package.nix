@@ -40,5 +40,6 @@ stdenv.mkDerivation {
     license = licenses.gpl2;
     platforms = platforms.linux;
     mainProgram = "Ildaeil";
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

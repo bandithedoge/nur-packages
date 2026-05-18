@@ -20,5 +20,6 @@ stdenv.mkDerivation {
     homepage = "https://github.com/dsmaugy/microbiome";
     license = licenses.gpl3Plus;
     platforms = [ "x86_64-linux" ];
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

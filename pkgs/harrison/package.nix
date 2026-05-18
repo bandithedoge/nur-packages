@@ -41,6 +41,7 @@ let
         license = licenses.unfree;
         platforms = [ "x86_64-linux" ];
         sourceProvenance = [ sourceTypes.binaryNativeCode ];
+    maintainers = [ maintainers.bandithedoge ];
       };
     };
 in

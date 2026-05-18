@@ -35,5 +35,6 @@ stdenv.mkDerivation {
     ];
     sourceProvenance = [ sourceTypes.binaryNativeCode ];
     mainProgram = "zine-bin";
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

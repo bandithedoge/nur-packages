@@ -38,5 +38,6 @@ stdenvNoCC.mkDerivation {
     homepage = "https://github.com/somepaulo/MoreWaita";
     license = licenses.gpl3Plus;
     platforms = platforms.linux;
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

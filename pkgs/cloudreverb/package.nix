@@ -18,5 +18,6 @@ stdenv.mkDerivation {
     license = licenses.mit;
     platforms = platforms.linux;
     mainProgram = "CloudReverb";
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

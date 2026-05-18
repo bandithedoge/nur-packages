@@ -31,5 +31,6 @@ appimageTools.wrapType2 {
     platforms = builtins.attrNames sourceMap;
     sourceProvenance = [ sourceTypes.binaryNativeCode ];
     mainProgram = "psydoom";
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

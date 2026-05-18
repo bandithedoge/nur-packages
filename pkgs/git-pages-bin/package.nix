@@ -36,5 +36,6 @@ stdenv.mkDerivation {
     ];
     sourceProvenance = [ sourceTypes.binaryNativeCode ];
     mainProgram = "git-pages";
+    maintainers = [ maintainers.bandithedoge ];
   };
 }

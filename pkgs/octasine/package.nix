@@ -47,5 +47,6 @@ rustPlatform.buildRustPackage {
     license = licenses.agpl3Plus;
     platforms = platforms.linux;
     mainProgram = "octasine-cli";
+    maintainers = [ maintainers.bandithedoge ];
   };
 }
