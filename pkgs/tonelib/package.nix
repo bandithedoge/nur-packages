@@ -42,59 +42,48 @@ let
         runHook postBuild
       '';
 
-      meta =
-        (with lib; {
-          license = licenses.unfree;
-          platforms = [ "x86_64-linux" ];
-          sourceProvenance = [ sourceTypes.binaryNativeCode ];
-          maintainers = [ maintainers.bandithedoge ];
-        })
-        // meta;
+      meta = {
+        license = lib.licenses.unfree;
+        platforms = [ "x86_64-linux" ];
+        sourceProvenance = [ lib.sourceTypes.binaryNativeCode ];
+        maintainers = [ lib.maintainers.bandithedoge ];
+      }
+      // meta;
     };
 in
 {
   bassdrive = mkToneLib "bassdrive" {
-    meta = {
-      description = "Full Power of the Legendary Drive Pedal for the Highest String Gauges";
-      homepage = "https://tonelib.net/tl-bassdrive.html";
-      mainProgram = "ToneLib-BassDrive";
-    };
+    description = "Full Power of the Legendary Drive Pedal for the Highest String Gauges";
+    homepage = "https://tonelib.net/tl-bassdrive.html";
+    mainProgram = "ToneLib-BassDrive";
   };
 
   easycomp = mkToneLib "easycomp" {
-    meta = {
-      description = "Powerful Compressor without any Complexity";
-      homepage = "https://tonelib.net/plugins/tl-easycomp.html";
-      mainProgram = "ToneLib-EasyComp";
-    };
+    description = "Powerful Compressor without any Complexity";
+    homepage = "https://tonelib.net/plugins/tl-easycomp.html";
+    mainProgram = "ToneLib-EasyComp";
   };
 
   noisereducer = mkToneLib "noisereducer" {
-    meta = {
-      description = "Powerful, yet simple two-unit rack effect on guard of your mix clarity";
-      homepage = "https://tonelib.net/tl-noisereducer.html";
-      mainProgram = "ToneLib-NoiseReducer";
-    };
+    description = "Powerful, yet simple two-unit rack effect on guard of your mix clarity";
+    homepage = "https://tonelib.net/tl-noisereducer.html";
+    mainProgram = "ToneLib-NoiseReducer";
   };
 
   tubewarmth = mkToneLib "tubewarmth" {
-    meta = {
-      description = "The Vibrancy and Warmth of the Tube along with the Digital Precision and Clarity";
-      homepage = "https://tonelib.net/tl-tubewarmth.html";
-      mainProgram = "ToneLib-TubeWarmth";
-    };
+    description = "The Vibrancy and Warmth of the Tube along with the Digital Precision and Clarity";
+    homepage = "https://tonelib.net/tl-tubewarmth.html";
+    mainProgram = "ToneLib-TubeWarmth";
   };
 
   zoom =
     (mkToneLib "zoom" {
-      meta = {
-        description = "Best way to manage your Zoom processor";
-        homepage = "https://tonelib.net/tonelib-zoom.html";
-        knownVulnerabilities = [
-          "libsoup2 is EOL"
-        ];
-        insecure = true; # https://github.com/NixOS/nixpkgs/issues/360897
-      };
+      description = "Best way to manage your Zoom processor";
+      homepage = "https://tonelib.net/tonelib-zoom.html";
+      knownVulnerabilities = [
+        "libsoup2 is EOL"
+      ];
+      insecure = true; # https://github.com/NixOS/nixpkgs/issues/360897
     }).overrideAttrs
       (old: {
         buildInputs = old.buildInputs ++ [

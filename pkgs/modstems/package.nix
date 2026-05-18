@@ -23,11 +23,11 @@ stdenv.mkDerivation {
     libopenmpt.dev
   ];
 
-  meta = with lib; {
+  meta = {
     description = "Dumps \"stems\" from module files using libopenmpt ";
     homepage = "https://github.com/bandithedoge/modstems";
-    license = licenses.mit;
-    platforms = platforms.unix;
+    license = lib.licenses.mit;
+    platforms = lib.platforms.unix;
     mainProgram = "modstems";
   };
 }

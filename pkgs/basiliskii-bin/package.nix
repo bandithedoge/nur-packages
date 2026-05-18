@@ -16,12 +16,12 @@ appimageTools.wrapType2 {
     mv $out/bin/${sources.basiliskii-bin.pname} $out/bin/basiliskii
   '';
 
-  meta = with lib; {
+  meta = {
     description = "68k Macintosh emulator";
     homepage = "https://basilisk.cebix.net/";
-    license = licenses.gpl2;
+    license = lib.licenses.gpl2;
     platforms = [ "x86_64-linux" ];
     mainProgram = "basiliskii";
-    maintainers = [ maintainers.bandithedoge ];
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

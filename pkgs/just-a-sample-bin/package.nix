@@ -33,12 +33,12 @@ stdenv.mkDerivation {
     runHook postBuild
   '';
 
-  meta = with lib; {
+  meta = {
     description = "Just a Sample is a modern, open-source audio sampler";
     homepage = "https://bobona.github.io/just-a-sample/";
-    license = licenses.mit;
-    platforms = platforms.linux;
-    sourceProvenance = [ sourceTypes.binaryNativeCode ];
-    maintainers = [ maintainers.bandithedoge ];
+    license = lib.licenses.mit;
+    platforms = lib.platforms.linux;
+    sourceProvenance = [ lib.sourceTypes.binaryNativeCode ];
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

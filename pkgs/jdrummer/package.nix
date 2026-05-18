@@ -16,12 +16,12 @@ stdenv.mkDerivation {
     "-DFETCHCONTENT_SOURCE_DIR_JUCE=${sources.juce.src}"
   ];
 
-  meta = with lib; {
+  meta = {
     description = "Open source drum plugin that acts as an alternative to EZDrummer3";
     homepage = "https://github.com/jmantra/jdrummer";
-    license = licenses.gpl3Plus;
-    platforms = platforms.linux;
+    license = lib.licenses.gpl3Plus;
+    platforms = lib.platforms.linux;
     mainProgram = "jdrummer";
-    maintainers = [ maintainers.bandithedoge ];
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

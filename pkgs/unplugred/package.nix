@@ -28,12 +28,12 @@ stdenv.mkDerivation {
     "-DFETCHCONTENT_SOURCE_DIR_CLAP-JUCE-EXTENSIONS=${sources.clap-juce-extensions.src}"
   ];
 
-  meta = with lib; {
+  meta = {
     description = "Collection of VST plugins made by unplugred";
     homepage = "https://vst.unplug.red";
-    license = licenses.agpl3Plus;
-    platforms = platforms.linux;
+    license = lib.licenses.agpl3Plus;
+    platforms = lib.platforms.linux;
     broken = true;
-    maintainers = [ maintainers.bandithedoge ];
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

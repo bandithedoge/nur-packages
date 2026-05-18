@@ -35,13 +35,11 @@ let
         ln -s ${sources.juce.src} JUCE
       '';
 
-      meta =
-        with lib;
-        {
-          license = licenses.gpl3Only;
-          platforms = platforms.linux;
-        }
-        // meta;
+      meta = {
+        license = lib.licenses.gpl3Only;
+        platforms = lib.platforms.linux;
+      }
+      // meta;
     };
 
   mkVst3 =
@@ -135,14 +133,12 @@ let
         "-lpangocairo-1.0"
       ];
 
-      meta =
-        with lib;
-        {
-          license = licenses.mit;
-          platforms = platforms.linux;
-          maintainers = [ maintainers.bandithedoge ];
-        }
-        // meta;
+      meta = {
+        license = lib.licenses.mit;
+        platforms = lib.platforms.linux;
+        maintainers = [ lib.maintainers.bandithedoge ];
+      }
+      // meta;
     };
 in
 {

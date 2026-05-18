@@ -23,12 +23,12 @@ stdenv.mkDerivation {
     runHook postInstall
   '';
 
-  meta = with lib; {
+  meta = {
     description = "Sound to ACM converter based on The DragonLance Total Conversion Editor Pro (DLTCEP) code";
     homepage = "https://github.com/dtiefling/snd2acm-portable";
-    license = licenses.gpl2Plus;
-    platforms = platforms.unix;
+    license = lib.licenses.gpl2Plus;
+    platforms = lib.platforms.unix;
     mainProgram = "snd2acm";
-    maintainers = [ maintainers.bandithedoge ];
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

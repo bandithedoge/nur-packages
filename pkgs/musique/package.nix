@@ -27,12 +27,12 @@ stdenv.mkDerivation {
     substituteInPlace musique.pro --replace-fail /usr/include/taglib ${taglib}/include/taglib
   '';
 
-  meta = with lib; {
+  meta = {
     description = "A finely crafted music player";
     homepage = "https://flavio.tordini.org/musique";
-    platforms = platforms.linux;
-    license = licenses.gpl3Plus;
+    platforms = lib.platforms.linux;
+    license = lib.licenses.gpl3Plus;
     broken = true; # taglib version mismatch or something
-    maintainers = [ maintainers.bandithedoge ];
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

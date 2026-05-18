@@ -32,6 +32,6 @@ python3Packages.buildPythonApplication {
     homepage = "https://github.com/adamjakab/BeetsPluginYearFixer";
     license = lib.licenses.mit;
     inherit (beets.meta) platforms;
-    maintainers = [ maintainers.bandithedoge ];
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

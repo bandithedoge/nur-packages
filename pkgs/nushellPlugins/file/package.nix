@@ -11,12 +11,12 @@ rustPlatform.buildRustPackage {
 
   cargoLock = sources.nu-plugin-file.cargoLock."Cargo.lock";
 
-  meta = with lib; {
+  meta = {
     description = "Nushell plugin that will inspect a file and return information based on it's magic number";
     homepage = "https://github.com/fdncred/nu_plugin_file";
-    license = licenses.agpl3Plus;
+    license = lib.licenses.agpl3Plus;
     inherit (nushell.meta) platforms;
     mainProgram = "nu_plugin_file";
-    maintainers = [ maintainers.bandithedoge ];
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

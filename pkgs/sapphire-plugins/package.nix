@@ -53,11 +53,11 @@ stdenv.mkDerivation {
 
   hardeningDisable = [ "format" ];
 
-  meta = with lib; {
+  meta = {
     description = "Taking the wonders of Don Cross' Sapphire plugins into the clap-first/daw world";
     homepage = "https://github.com/baconpaul/sapphire-plugins";
-    license = licenses.gpl3Plus;
-    platforms = platforms.linux;
-    maintainers = [ maintainers.bandithedoge ];
+    license = lib.licenses.gpl3Plus;
+    platforms = lib.platforms.linux;
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

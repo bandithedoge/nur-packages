@@ -51,12 +51,12 @@ python3Packages.buildPythonPackage {
 
   doCheck = false;
 
-  meta = with lib; {
+  meta = {
     description = "The heavy hvcc compiler for Pure Data patches. Updated to python3 and additional generators ";
     homepage = "https://wasted-audio.github.io/hvcc/";
-    license = licenses.gpl3;
-    platforms = platforms.unix;
+    license = lib.licenses.gpl3;
+    platforms = lib.platforms.unix;
     mainProgram = "hvcc";
-    maintainers = [ maintainers.bandithedoge ];
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

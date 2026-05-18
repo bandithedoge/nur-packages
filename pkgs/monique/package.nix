@@ -21,15 +21,15 @@ stdenv.mkDerivation {
     libjack2
   ];
 
-  meta = with lib; {
+  meta = {
     description = "Monique monosynth";
     homepage = "https://github.com/surge-synthesizer/monique-monosynth";
-    license = with licenses; [
+    license = with lib.licenses; [
       gpl3Plus
       mit
     ];
-    platforms = platforms.linux;
+    platforms = lib.platforms.linux;
     broken = true; # hash shenanigans
-    maintainers = [ maintainers.bandithedoge ];
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

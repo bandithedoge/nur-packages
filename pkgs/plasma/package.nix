@@ -16,11 +16,11 @@ stdenv.mkDerivation {
 
   jucerFile = "Plasma.jucer";
 
-  meta = with lib; {
+  meta = {
     description = "Asymmetrical Distortion Audio Plugin";
     homepage = "https://github.com/Dimethoxy/Plasma";
-    license = licenses.agpl3Plus;
-    platforms = platforms.linux;
-    maintainers = [ maintainers.bandithedoge ];
+    license = lib.licenses.agpl3Plus;
+    platforms = lib.platforms.linux;
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

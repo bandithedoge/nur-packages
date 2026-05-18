@@ -40,12 +40,12 @@ rustPlatform.buildRustPackage {
 
   doCheck = false;
 
-  meta = with lib; {
+  meta = {
     description = "Synthesizer, Sampler, Granulizer written in Rust with Nih-Plug and egui";
     homepage = "https://github.com/ardura/Actuate";
-    license = licenses.gpl3Plus;
-    platforms = platforms.linux;
+    license = lib.licenses.gpl3Plus;
+    platforms = lib.platforms.linux;
     # broken = true; # weird rust dependency hash things happening
-    maintainers = [ maintainers.bandithedoge ];
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

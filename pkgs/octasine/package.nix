@@ -41,12 +41,12 @@ rustPlatform.buildRustPackage {
     cp target/bundled/octasine.clap $out/lib/clap
   '';
 
-  meta = with lib; {
+  meta = {
     description = "Frequency modulation synthesizer plugin (VST2, CLAP).";
     homepage = "https://www.octasine.com/";
-    license = licenses.agpl3Plus;
-    platforms = platforms.linux;
+    license = lib.licenses.agpl3Plus;
+    platforms = lib.platforms.linux;
     mainProgram = "octasine-cli";
-    maintainers = [ maintainers.bandithedoge ];
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

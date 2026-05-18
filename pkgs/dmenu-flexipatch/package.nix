@@ -36,12 +36,12 @@ stdenv.mkDerivation {
     sed -ri -e 's!\<stest\>!'"$out/bin"'/&!g' dmenu_path
   '';
 
-  meta = with lib; {
+  meta = {
     description = "A dmenu build with preprocessor directives to decide which patches to include during build time";
     homepage = "https://github.com/bakkeby/dmenu-flexipatch";
-    license = licenses.mit;
-    platforms = platforms.linux;
+    license = lib.licenses.mit;
+    platforms = lib.platforms.linux;
     mainProgram = "dmenu";
-    maintainers = [ maintainers.bandithedoge ];
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

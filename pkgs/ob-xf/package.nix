@@ -25,11 +25,11 @@ stdenv.mkDerivation {
 
   NIX_CFLAGS_COMPILE = [ "-Wno-error" ];
 
-  meta = with lib; {
+  meta = {
     description = "Continuation of the last open source version of OB-Xd by 2DaT and later discoDSP, bringing together several efforts going on in the audio space and combining them inside the Surge Synth Team infrastructure";
     homepage = "https://github.com/surge-synthesizer/OB-Xf";
-    license = licenses.gpl3Plus;
-    platforms = platforms.linux;
-    maintainers = [ maintainers.bandithedoge ];
+    license = lib.licenses.gpl3Plus;
+    platforms = lib.platforms.linux;
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

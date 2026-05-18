@@ -32,13 +32,13 @@ stdenv.mkDerivation {
     runHook postBuild
   '';
 
-  meta = with lib; {
+  meta = {
     description = "A program used for applying custom artwork to Steam, using SteamGridDB";
     homepage = "https://www.steamgriddb.com/boop";
-    license = licenses.cc-by-nc-sa-40;
+    license = lib.licenses.cc-by-nc-sa-40;
     platforms = [ "x86_64-linux" ];
-    sourceProvenance = [ sourceTypes.binaryNativeCode ];
+    sourceProvenance = [ lib.sourceTypes.binaryNativeCode ];
     mainProgram = "SGDBoop";
-    maintainers = [ maintainers.bandithedoge ];
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

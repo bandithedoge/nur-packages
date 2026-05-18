@@ -96,12 +96,12 @@ stdenv.mkDerivation {
 
   passthru._ignoreDupe = true;
 
-  meta = with lib; {
+  meta = {
     description = "Virtual modular synthesizer plugin";
     homepage = "https://github.com/DISTRHO/Cardinal";
-    license = licenses.gpl3Plus;
-    platforms = platforms.linux;
+    license = lib.licenses.gpl3Plus;
+    platforms = lib.platforms.linux;
     mainProgram = "Cardinal";
-    maintainers = [ maintainers.bandithedoge ];
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

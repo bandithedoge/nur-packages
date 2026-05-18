@@ -34,12 +34,12 @@ buildNpmPackage {
     runHook postInstall
   '';
 
-  meta = with lib; {
+  meta = {
     description = "Language server with improved support for SCSS, Sass indented and SassDoc. Workspace awareness and full support for Sass modules";
     homepage = "https://wkillerud.github.io/some-sass/";
-    license = licenses.mit;
-    platforms = platforms.all;
+    license = lib.licenses.mit;
+    platforms = lib.platforms.all;
     mainProgram = "some-sass-language-server";
-    maintainers = [ maintainers.bandithedoge ];
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

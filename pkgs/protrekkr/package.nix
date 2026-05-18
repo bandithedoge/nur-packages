@@ -74,12 +74,12 @@ stdenv.mkDerivation {
 
   hardeningDisable = [ "format" ];
 
-  meta = with lib; {
+  meta = {
     description = "A fork of ProTrekkr, now with linux JACK Audio support";
     homepage = "https://github.com/falkTX/protrekkr";
-    license = licenses.bsd3;
-    platforms = platforms.linux;
+    license = lib.licenses.bsd3;
+    platforms = lib.platforms.linux;
     mainProgram = "protrekkr";
-    maintainers = [ maintainers.bandithedoge ];
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

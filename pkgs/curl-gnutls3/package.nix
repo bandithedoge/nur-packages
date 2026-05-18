@@ -51,12 +51,12 @@ stdenv.mkDerivation {
     "--with-gnutls"
   ];
 
-  meta = with lib; {
+  meta = {
     description = "libcurl with libcurl3 symbols";
     homepage = "https://curl.se";
-    license = licenses.curl;
-    platforms = platforms.linux;
+    license = lib.licenses.curl;
+    platforms = lib.platforms.linux;
     mainProgram = "curl";
-    maintainers = [ maintainers.bandithedoge ];
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

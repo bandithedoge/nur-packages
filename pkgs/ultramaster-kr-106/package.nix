@@ -16,12 +16,12 @@ stdenv.mkDerivation {
     mv "$out/bin/Ultramaster KR-106" $out/bin/KR-106
   '';
 
-  meta = with lib; {
+  meta = {
     description = "Synthesizer plugin emulating the Roland Juno-6, Juno-60, and Juno-106, built with JUCE";
     homepage = "https://kayrock.org/kr106";
-    license = licenses.gpl3Plus;
-    platforms = platforms.linux;
+    license = lib.licenses.gpl3Plus;
+    platforms = lib.platforms.linux;
     mainProgram = "KR-106";
-    maintainers = [ maintainers.bandithedoge ];
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

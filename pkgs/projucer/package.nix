@@ -47,11 +47,11 @@ stdenv.mkDerivation {
 
   setupHook = ./setupHook.sh;
 
-  meta = with lib; {
+  meta = {
     homepage = "https://juce.com/";
-    license = licenses.agpl3Only;
-    platforms = platforms.unix;
+    license = lib.licenses.agpl3Only;
+    platforms = lib.platforms.unix;
     mainProgram = "Projucer";
-    maintainers = [ maintainers.bandithedoge ];
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

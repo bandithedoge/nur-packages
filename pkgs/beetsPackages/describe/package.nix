@@ -35,6 +35,6 @@ python3Packages.buildPythonApplication {
     homepage = "https://github.com/adamjakab/BeetsPluginDescribe";
     license = lib.licenses.mit;
     inherit (beets.meta) platforms;
-    maintainers = [ maintainers.bandithedoge ];
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

@@ -39,12 +39,12 @@ stdenv.mkDerivation {
 
   passthru._ignoreDupe = true;
 
-  meta = with lib; {
+  meta = {
     description = "A tool to convert proprietary, sequenced videogame music to industry-standard formats";
     homepage = "https://github.com/vgmtrans/vgmtrans";
-    license = licenses.zlib;
-    platforms = platforms.linux;
+    license = lib.licenses.zlib;
+    platforms = lib.platforms.linux;
     mainProgram = "vgmtrans";
-    maintainers = [ maintainers.bandithedoge ];
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

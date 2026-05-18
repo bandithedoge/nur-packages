@@ -13,12 +13,12 @@ stdenv.mkDerivation {
 
   NIX_CFLAGS_COMPILE = [ "-Wno-error" ];
 
-  meta = with lib; {
+  meta = {
     description = "Open Source Wave Terrain Synth";
     homepage = "https://github.com/aaronaanderson/Terrain";
-    license = licenses.gpl3Plus;
-    platforms = platforms.linux;
+    license = lib.licenses.gpl3Plus;
+    platforms = lib.platforms.linux;
     mainProgram = "Terrain";
-    maintainers = [ maintainers.bandithedoge ];
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

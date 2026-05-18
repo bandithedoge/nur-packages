@@ -11,12 +11,12 @@ rustPlatform.buildRustPackage {
 
   cargoLock = sources.nu-plugin-bexpand.cargoLock."Cargo.lock";
 
-  meta = with lib; {
+  meta = {
     description = "Bash style brace expansion for nushell";
     homepage = "https://forge.axfive.net/Taylor/nu-plugin-bexpand";
-    license = licenses.mpl20;
+    license = lib.licenses.mpl20;
     inherit (nushell.meta) platforms;
     mainProgram = "nu_plugin_bexpand";
-    maintainers = [ maintainers.bandithedoge ];
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

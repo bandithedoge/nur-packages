@@ -29,14 +29,12 @@ let
 
       NIX_CFLAGS_COMPILE = cflags;
 
-      meta =
-        with lib;
-        {
-          license = licenses.gpl3Plus;
-          platforms = platforms.linux;
-          maintainers = [ maintainers.bandithedoge ];
-        }
-        // meta;
+      meta = {
+        license = lib.licenses.gpl3Plus;
+        platforms = lib.platforms.linux;
+        maintainers = [ lib.maintainers.bandithedoge ];
+      }
+      // meta;
     };
 in
 {

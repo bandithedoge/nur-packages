@@ -15,11 +15,11 @@ stdenv.mkDerivation {
 
   jucerFile = "Microbiome.jucer";
 
-  meta = with lib; {
+  meta = {
     description = "A delay-based audio effects plugin";
     homepage = "https://github.com/dsmaugy/microbiome";
-    license = licenses.gpl3Plus;
+    license = lib.licenses.gpl3Plus;
     platforms = [ "x86_64-linux" ];
-    maintainers = [ maintainers.bandithedoge ];
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

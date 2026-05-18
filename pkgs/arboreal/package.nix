@@ -28,14 +28,12 @@ let
           ++ (lib.optional noLicenseCheck "-DNO_LICENSE_CHECK=1")
           ++ lib.optional productionBuild "-DPRODUCTION_BUILD=1";
 
-        meta =
-          with lib;
-          {
-            license = licenses.gpl3Plus;
-            platforms = platforms.linux;
-            maintainers = [ maintainers.bandithedoge ];
-          }
-          // meta;
+        meta = {
+          license = lib.licenses.gpl3Plus;
+          platforms = lib.platforms.linux;
+          maintainers = [ lib.maintainers.bandithedoge ];
+        }
+        // meta;
       }
     ) { };
 in

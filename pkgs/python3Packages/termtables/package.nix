@@ -12,10 +12,10 @@ python3Packages.buildPythonPackage {
     setuptools
   ];
 
-  meta = with lib; {
+  meta = {
     description = "Pretty tables in the terminal";
     homepage = "https://github.com/nschloe/termtables";
-    license = licenses.gpl3Plus;
-    maintainers = [ maintainers.bandithedoge ];
+    license = lib.licenses.gpl3Plus;
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

@@ -33,11 +33,11 @@ stdenv.mkDerivation {
 
   enableParallelBuilding = true;
 
-  meta = with lib; {
+  meta = {
     description = "Collection of stupidly simple but well-polished and visually pleasing audio plugins";
     homepage = "https://github.com/DISTRHO/OneKnob-Series";
-    license = licenses.gpl2;
-    platforms = platforms.linux;
-    maintainers = [ maintainers.bandithedoge ];
+    license = lib.licenses.gpl2;
+    platforms = lib.platforms.linux;
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

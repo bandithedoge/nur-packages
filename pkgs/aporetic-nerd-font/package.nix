@@ -13,11 +13,11 @@ stdenvNoCC.mkDerivation {
     cp *.ttf $out/share/fonts/truetype/NerdFonts/Aporetic
   '';
 
-  meta = with lib; {
+  meta = {
     description = "Nerd Font patch with glyphs of Protesilaos' Aporetic font";
     homepage = "https://github.com/Echinoidea/Aporetic-Nerd-Font";
-    license = licenses.ofl;
-    platforms = platforms.all;
-    maintainers = [ maintainers.bandithedoge ];
+    license = lib.licenses.ofl;
+    platforms = lib.platforms.all;
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

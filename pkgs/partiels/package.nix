@@ -60,12 +60,12 @@ stdenv.mkDerivation {
 
   NIX_CFLAGS_COMPILE = [ "-Wno-error=format-security" ];
 
-  meta = with lib; {
+  meta = {
     description = "Partiels is an audio analysis application that allow you to explore the content and characteristics of sounds";
     homepage = "https://github.com/Ircam-Partiels/Partiels";
-    license = licenses.gpl3Plus;
-    platforms = platforms.linux;
+    license = lib.licenses.gpl3Plus;
+    platforms = lib.platforms.linux;
     mainProgram = "Partiels";
-    maintainers = [ maintainers.bandithedoge ];
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

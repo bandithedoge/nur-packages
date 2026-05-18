@@ -26,10 +26,10 @@ stdenv.mkDerivation {
 
   NIX_CFLAGS_COMPILE = [ "-Wno-error" ];
 
-  meta = with lib; {
+  meta = {
     homepage = "https://github.com/andrewreeman/SpectralSuite";
-    license = licenses.unlicense;
-    platforms = platforms.linux;
-    maintainers = [ maintainers.bandithedoge ];
+    license = lib.licenses.unlicense;
+    platforms = lib.platforms.linux;
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

@@ -24,13 +24,13 @@ appimageTools.wrapType2 {
     mv $out/bin/psydoom-bin $out/bin/psydoom
   '';
 
-  meta = with lib; {
+  meta = {
     description = "A backport of PSX Doom to PC";
     homepage = "https://github.com/BodbDearg/PsyDoom";
-    license = licenses.gpl3Plus;
+    license = lib.licenses.gpl3Plus;
     platforms = builtins.attrNames sourceMap;
-    sourceProvenance = [ sourceTypes.binaryNativeCode ];
+    sourceProvenance = [ lib.sourceTypes.binaryNativeCode ];
     mainProgram = "psydoom";
-    maintainers = [ maintainers.bandithedoge ];
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

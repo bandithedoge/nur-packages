@@ -33,17 +33,17 @@ stdenv.mkDerivation {
 
   makeFlags = [ "PREFIX=$(out)" ];
 
-  meta = with lib; {
+  meta = {
     description = "Collection of DPF-based plugins for packaging";
     homepage = "https://github.com/DISTRHO/DPF-Plugins";
-    license = with licenses; [
+    license = with lib.licenses; [
       gpl2
       gpl3
       isc
       lgpl3
       mit
     ];
-    platforms = platforms.linux;
-    maintainers = [ maintainers.bandithedoge ];
+    platforms = lib.platforms.linux;
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

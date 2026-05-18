@@ -23,12 +23,12 @@ stdenv.mkDerivation {
     gtkmm4
   ];
 
-  meta = with lib; {
+  meta = {
     description = "A user-friendly WINE manager";
     homepage = "https://gitlab.melroy.org/melroy/winegui";
-    license = licenses.agpl3Plus;
-    platforms = platforms.linux;
+    license = lib.licenses.agpl3Plus;
+    platforms = lib.platforms.linux;
     mainProgram = "winegui";
-    maintainers = [ maintainers.bandithedoge ];
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

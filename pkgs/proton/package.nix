@@ -33,15 +33,13 @@ let
         runHook postBuild
       '';
 
-      meta =
-        with lib;
-        {
-          license = licenses.bsd3;
-          platforms = [ "x86_64-linux" ];
-          sourceProvenance = [ sourceTypes.binaryNativeCode ];
-          maintainers = [ maintainers.bandithedoge ];
-        }
-        // meta;
+      meta = {
+        license = lib.licenses.bsd3;
+        platforms = [ "x86_64-linux" ];
+        sourceProvenance = [ lib.sourceTypes.binaryNativeCode ];
+        maintainers = [ lib.maintainers.bandithedoge ];
+      }
+      // meta;
     }
   );
 in

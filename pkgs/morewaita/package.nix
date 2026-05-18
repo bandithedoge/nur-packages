@@ -33,11 +33,11 @@ stdenvNoCC.mkDerivation {
 
   dontDropIconThemeCache = true;
 
-  meta = with lib; {
+  meta = {
     description = "An expanded Adwaita-styled companion icon theme with extra icons for popular apps to complement Gnome Shell's original icons";
     homepage = "https://github.com/somepaulo/MoreWaita";
-    license = licenses.gpl3Plus;
-    platforms = platforms.linux;
-    maintainers = [ maintainers.bandithedoge ];
+    license = lib.licenses.gpl3Plus;
+    platforms = lib.platforms.linux;
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }
