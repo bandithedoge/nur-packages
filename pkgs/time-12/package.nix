@@ -12,5 +12,11 @@ stdenv.mkDerivation {
 
   nativeBuildInputs = [ juceCmakeHook ];
 
-  meta.mainProgram = "TIME-12";
+  meta = with lib; {
+    description = "Envelope based delay modulator";
+    homepage = "https://github.com/tiagolr/time12";
+    license = licenses.gpl3Plus;
+    platforms = platforms.linux;
+    mainProgram = "TIME-12";
+  };
 }

@@ -6,7 +6,6 @@
   ninja,
   cmake,
   libsndfile,
-  pkg-config,
   flex,
   bison,
   alsa-lib,

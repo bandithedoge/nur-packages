@@ -246,6 +246,11 @@ in
         unzip -o "$soundset" -d $out/libexec/Zebra2
       done
     '';
+
+    meta = {
+      homepage = "https://u-he.com/products/zebra-legacy/";
+      description = "The workhorse synth";
+    };
   };
 
   zebracm = mkUhe "ZebraCM" {

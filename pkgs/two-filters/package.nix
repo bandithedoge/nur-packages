@@ -49,5 +49,11 @@ stdenv.mkDerivation {
   SOURCE_DATE_EPOCH =
     lib.toInt (lib.elemAt (lib.splitString "-" sources.two-filters.date) 0) * 365 * 24 * 60 * 60;
 
-  meta.mainProgram = "TwoFilters";
+  meta = with lib; {
+    description = "Two Filters, Two Step Sequencers, and some fixed mod paths";
+    homepage = "https://github.com/baconpaul/two-filters";
+    license = licenses.mit;
+    platforms = platforms.mit;
+    mainProgram = "TwoFilters";
+  };
 }
