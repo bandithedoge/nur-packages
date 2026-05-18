@@ -44,5 +44,6 @@ stdenv.mkDerivation {
     homepage = "https://github.com/corpnewt/ProperTree";
     license = licenses.bsd3;
     platforms = platforms.unix;
+    mainProgram = "propertree";
   };
 }

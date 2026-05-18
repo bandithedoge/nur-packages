@@ -104,5 +104,6 @@ stdenv.mkDerivation {
       "aarch64-linux"
     ];
     sourceProvenance = [ sourceTypes.binaryNativeCode ];
+    mainProgram = "helium";
   };
 }

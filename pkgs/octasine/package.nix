@@ -46,5 +46,6 @@ rustPlatform.buildRustPackage {
     homepage = "https://www.octasine.com/";
     license = licenses.agpl3Plus;
     platforms = platforms.linux;
+    mainProgram = "octasine-cli";
   };
 }

@@ -50,5 +50,6 @@ stdenv.mkDerivation {
     homepage = "https://github.com/bakkeby/st-flexipatch";
     license = licenses.mit;
     platforms = platforms.linux;
+    mainProgram = "st";
   };
 }

@@ -39,7 +39,7 @@ stdenv.mkDerivation {
     runHook preInstall
 
     mkdir -p $out/{bin,lib/clap,lib/vst3}
-    cp "two-filters_assets/Two Filters" $out/bin/SixSines
+    cp "two-filters_assets/Two Filters" $out/bin/TwoFilters
     cp "two-filters_assets/Two Filters.clap" $out/lib/clap
     cp -r "two-filters_assets/Two Filters.vst3" $out/lib/vst3
 
@@ -48,4 +48,6 @@ stdenv.mkDerivation {
 
   SOURCE_DATE_EPOCH =
     lib.toInt (lib.elemAt (lib.splitString "-" sources.two-filters.date) 0) * 365 * 24 * 60 * 60;
+
+  meta.mainProgram = "TwoFilters";
 }

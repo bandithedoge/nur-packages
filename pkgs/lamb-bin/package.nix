@@ -48,5 +48,6 @@ stdenv.mkDerivation {
     license = licenses.agpl3Plus;
     platforms = [ "x86_64-linux" ];
     sourceProvenance = [ sourceTypes.binaryNativeCode ];
+    mainProgram = "lamb";
   };
 }

@@ -35,5 +35,6 @@ stdenv.mkDerivation {
     homepage = "https://github.com/free-audio/clap-info";
     license = licenses.mit;
     platforms = platforms.unix;
+    mainProgram = "clap-info";
   };
 }

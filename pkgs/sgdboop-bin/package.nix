@@ -38,5 +38,6 @@ stdenv.mkDerivation {
     license = licenses.cc-by-nc-sa-40;
     platforms = [ "x86_64-linux" ];
     sourceProvenance = [ sourceTypes.binaryNativeCode ];
+    mainProgram = "SGDBoop";
   };
 }

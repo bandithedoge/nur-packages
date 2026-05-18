@@ -55,5 +55,6 @@ clangStdenv.mkDerivation {
     homepage = "https://kushview.net/element/";
     license = licenses.gpl3Only;
     platforms = platforms.linux;
+    mainProgram = "element";
   };
 }

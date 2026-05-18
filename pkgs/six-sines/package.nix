@@ -52,5 +52,6 @@ stdenv.mkDerivation {
     homepage = "https://github.com/baconpaul/six-sines";
     license = licenses.mit;
     platforms = platforms.linux;
+    mainProgram = "SixSines";
   };
 }

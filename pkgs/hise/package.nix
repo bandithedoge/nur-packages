@@ -42,5 +42,6 @@ stdenv.mkDerivation {
     homepage = "https://hise.dev";
     license = licenses.gpl3Plus;
     platforms = platforms.linux;
+    mainProgram = "HISE";
   };
 }

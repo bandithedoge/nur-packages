@@ -22,5 +22,6 @@ stdenv.mkDerivation {
     homepage = "https://aviaryaudio.com/plugins/hamburgerv2";
     license = licenses.gpl3Plus;
     platforms = platforms.linux;
+    mainProgram = "Hamburger";
   };
 }

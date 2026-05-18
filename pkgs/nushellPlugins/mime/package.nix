@@ -16,5 +16,6 @@ rustPlatform.buildRustPackage {
     homepage = "https://github.com/kik4444/nu_plugin_mime";
     license = licenses.mit;
     inherit (nushell.meta) platforms;
+    mainProgram = "nu_plugin_mime";
   };
 }

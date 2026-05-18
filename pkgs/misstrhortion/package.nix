@@ -30,5 +30,6 @@ stdenv.mkDerivation {
     homepage = "https://github.com/bandithedoge/misstrhortion";
     license = licenses.gpl3Plus;
     platforms = platforms.linux;
+    mainProgram = "Misstrhortion";
   };
 }

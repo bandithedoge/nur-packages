@@ -21,7 +21,7 @@ stdenv.mkDerivation {
   installPhase = ''
     runHook preInstall
 
-    mkdir -p $out/{bin,lib/clap,lib/lv2,lib/vst3,lib/vst,lib/ladspa}
+    mkdir -p $out/lib/{clap,lv2,vst3,vst,ladspa}
     cp bin/*.clap $out/lib/clap
     cp -r bin/*.lv2 $out/lib/lv2
     cp -r bin/*.vst3 $out/lib/vst3

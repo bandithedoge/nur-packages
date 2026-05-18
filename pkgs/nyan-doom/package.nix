@@ -49,5 +49,6 @@ stdenv.mkDerivation rec {
     homepage = "https://github.com/andrikpowell/nyan-doom";
     license = licenses.gpl2Plus;
     platforms = platforms.unix;
+    mainProgram = "nyan-doom";
   };
 }

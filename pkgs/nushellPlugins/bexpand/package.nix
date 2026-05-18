@@ -16,5 +16,6 @@ rustPlatform.buildRustPackage {
     homepage = "https://forge.axfive.net/Taylor/nu-plugin-bexpand";
     license = licenses.mpl20;
     inherit (nushell.meta) platforms;
+    mainProgram = "nu_plugin_bexpand";
   };
 }

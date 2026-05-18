@@ -17,5 +17,6 @@ stdenv.mkDerivation {
     homepage = "https://github.com/tiagolr/filtr";
     license = licenses.gpl3Plus;
     platforms = platforms.linux;
+    mainProgram = "FILT-R";
   };
 }

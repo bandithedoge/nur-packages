@@ -17,5 +17,6 @@ stdenv.mkDerivation {
     homepage = "https://github.com/tiagolr/reevr";
     license = licenses.gpl3Plus;
     platforms = platforms.linux;
+    mainProgram = "REEV-R";
   };
 }

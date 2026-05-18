@@ -15,5 +15,6 @@ rustPlatform.buildRustPackage {
     homepage = "https://github.com/yybit/nu_plugin_compress";
     license = licenses.asl20;
     inherit (nushell.meta) platforms;
+    mainProgram = "nu_plugin_compress";
   };
 }

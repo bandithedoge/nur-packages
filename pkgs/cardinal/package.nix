@@ -101,5 +101,6 @@ stdenv.mkDerivation {
     homepage = "https://github.com/DISTRHO/Cardinal";
     license = licenses.gpl3Plus;
     platforms = platforms.linux;
+    mainProgram = "Cardinal";
   };
 }

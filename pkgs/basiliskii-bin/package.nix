@@ -12,10 +12,15 @@ appimageTools.wrapType2 {
       libthai
     ];
 
+  extraInstallCommands = ''
+    mv $out/bin/${sources.basiliskii-bin.pname} $out/bin/basiliskii
+  '';
+
   meta = with lib; {
     description = "68k Macintosh emulator";
     homepage = "https://basilisk.cebix.net/";
     license = licenses.gpl2;
     platforms = [ "x86_64-linux" ];
+    mainProgram = "basiliskii";
   };
 }

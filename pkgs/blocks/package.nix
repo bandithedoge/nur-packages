@@ -17,5 +17,6 @@ stdenv.mkDerivation {
     homepage = "https://www.soonth.com/";
     license = licenses.gpl3Plus;
     platforms = platforms.linux;
+    mainProgram = "blocks";
   };
 }

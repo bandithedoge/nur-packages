@@ -41,5 +41,6 @@ stdenv.mkDerivation {
     homepage = "https://github.com/bakkeby/dmenu-flexipatch";
     license = licenses.mit;
     platforms = platforms.linux;
+    mainProgram = "dmenu";
   };
 }

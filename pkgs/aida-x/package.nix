@@ -48,5 +48,6 @@ stdenv.mkDerivation {
     homepage = "https://aida-x.cc/";
     license = licenses.gpl3Plus;
     platforms = platforms.linux;
+    mainProgram = "AIDA-X";
   };
 }

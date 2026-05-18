@@ -56,5 +56,6 @@ stdenv.mkDerivation {
     homepage = "https://curl.se";
     license = licenses.curl;
     platforms = platforms.linux;
+    mainProgram = "curl";
   };
 }

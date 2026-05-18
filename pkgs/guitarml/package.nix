@@ -35,6 +35,7 @@ in
     meta = {
       homepage = "https://github.com/GuitarML/Proteus";
       description = "Guitar amp and pedal capture plugin using neural networks";
+      mainProgram = "Proteus";
     };
   };
 
@@ -44,6 +45,7 @@ in
     meta = {
       homepage = "https://github.com/GuitarML/PrincePedal";
       description = "Prince of Tone style guitar plugin made with neural networks";
+      mainProgram = "Prince";
     };
   };
 

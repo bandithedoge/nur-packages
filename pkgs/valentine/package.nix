@@ -21,5 +21,6 @@ stdenv.mkDerivation {
     homepage = "https://github.com/tote-bag-labs/valentine";
     license = licenses.gpl3Plus;
     platforms = platforms.linux;
+    mainProgram = "Valentine";
   };
 }

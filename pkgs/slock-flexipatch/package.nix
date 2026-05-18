@@ -33,5 +33,6 @@ stdenv.mkDerivation {
     homepage = "https://github.com/bakkeby/slock-flexipatch";
     license = licenses.mit;
     platforms = platforms.linux;
+    mainProgram = "slock";
   };
 }

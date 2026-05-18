@@ -54,6 +54,7 @@ in
       license = licenses.unfree;
       platforms = [ "x86_64-linux" ];
       sourceProvenance = [ sourceTypes.binaryNativeCode ];
+      mainProgram = "ToneLib-BassDrive";
     };
   };
 
@@ -64,6 +65,7 @@ in
       license = licenses.unfree;
       platforms = [ "x86_64-linux" ];
       sourceProvenance = [ sourceTypes.binaryNativeCode ];
+      mainProgram = "ToneLib-EasyComp";
     };
   };
 
@@ -74,6 +76,7 @@ in
       license = licenses.unfree;
       platforms = [ "x86_64-linux" ];
       sourceProvenance = [ sourceTypes.binaryNativeCode ];
+      mainProgram = "ToneLib-NoiseReducer";
     };
   };
 
@@ -84,6 +87,7 @@ in
       license = licenses.unfree;
       platforms = [ "x86_64-linux" ];
       sourceProvenance = [ sourceTypes.binaryNativeCode ];
+      mainProgram = "ToneLib-TubeWarmth";
     };
   };
 

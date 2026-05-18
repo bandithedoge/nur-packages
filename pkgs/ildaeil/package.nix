@@ -39,5 +39,6 @@ stdenv.mkDerivation {
     homepage = "https://github.com/DISTRHO/Ildaeil";
     license = licenses.gpl2;
     platforms = platforms.linux;
+    mainProgram = "Ildaeil";
   };
 }

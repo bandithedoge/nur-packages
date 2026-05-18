@@ -19,5 +19,6 @@ stdenv.mkDerivation {
     homepage = "https://github.com/tiagolr/gate12";
     license = licenses.gpl3Plus;
     platforms = platforms.linux;
+    mainProgram = "GATE-12";
   };
 }

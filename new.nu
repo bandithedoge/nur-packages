@@ -20,6 +20,7 @@ def main [
       #   license = null;
       #   platforms = [];
       #   sourceProvenance = [];
+      #   mainProgram = "";
       # };
     }" | nixfmt | save $"pkgs/($name)/package.nix"
     print $"created new package at pkgs/($name)"

@@ -29,5 +29,6 @@ stdenv.mkDerivation {
     description = "Converter for Ultra 64 Sound Format";
     homepage = "https://github.com/derselbst/lazyusf";
     platforms = platforms.unix;
+    mainProgram = "lazyusf";
   };
 }

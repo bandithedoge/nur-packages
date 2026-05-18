@@ -44,5 +44,6 @@ stdenv.mkDerivation {
     homepage = "https://github.com/vgmtrans/vgmtrans";
     license = licenses.zlib;
     platforms = platforms.linux;
+    mainProgram = "vgmtrans";
   };
 }

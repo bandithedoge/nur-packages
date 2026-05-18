@@ -51,5 +51,6 @@ stdenv.mkDerivation {
     homepage = "https://juce.com/";
     license = licenses.agpl3Only;
     platforms = platforms.unix;
+    mainProgram = "Projucer";
   };
 }

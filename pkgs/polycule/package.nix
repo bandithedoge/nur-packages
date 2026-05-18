@@ -41,5 +41,6 @@ flutter335.buildFlutterApplication {
     homepage = "https://polycule.im/";
     license = licenses.eupl12;
     platforms = platforms.linux;
+    mainProgram = "polycule";
   };
 }

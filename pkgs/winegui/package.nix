@@ -28,5 +28,6 @@ stdenv.mkDerivation {
     homepage = "https://gitlab.melroy.org/melroy/winegui";
     license = licenses.agpl3Plus;
     platforms = platforms.linux;
+    mainProgram = "winegui";
   };
 }

@@ -18,5 +18,6 @@ stdenv.mkDerivation {
     homepage = "https://github.com/aaronaanderson/Terrain";
     license = licenses.gpl3Plus;
     platforms = platforms.linux;
+    mainProgram = "Terrain";
   };
 }

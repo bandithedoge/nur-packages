@@ -22,5 +22,6 @@ buildNpmPackage {
     homepage = "https://github.com/ihor-sokoliuk/mcp-searxng";
     license = licenses.mit;
     platforms = platforms.all;
+    mainProgram = "mcp-searxng";
   };
 }

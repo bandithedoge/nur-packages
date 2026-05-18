@@ -44,5 +44,6 @@ stdenv.mkDerivation {
     homepage = "https://github.com/xemonix0/Cherry-Doom";
     license = licenses.gpl2Plus;
     platforms = platforms.unix;
+    mainProgram = "cherry-doom";
   };
 }

@@ -18,5 +18,6 @@ rustPlatform.buildRustPackage {
     homepage = "https://github.com/gi-dellav/zerostack";
     license = licenses.gpl3Plus;
     platforms = platforms.unix;
+    mainProgram = "zerostack";
   };
 }

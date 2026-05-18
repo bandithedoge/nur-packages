@@ -21,5 +21,6 @@ stdenv.mkDerivation {
     homepage = "https://github.com/jmantra/jdrummer";
     license = licenses.gpl3Plus;
     platforms = platforms.linux;
+    mainProgram = "jdrummer";
   };
 }

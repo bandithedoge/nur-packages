@@ -56,5 +56,6 @@ python3Packages.buildPythonPackage {
     homepage = "https://wasted-audio.github.io/hvcc/";
     license = licenses.gpl3;
     platforms = platforms.unix;
+    mainProgram = "hvcc";
   };
 }

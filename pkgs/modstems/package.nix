@@ -28,5 +28,6 @@ stdenv.mkDerivation {
     homepage = "https://github.com/bandithedoge/modstems";
     license = licenses.mit;
     platforms = platforms.unix;
+    mainProgram = "modstems";
   };
 }

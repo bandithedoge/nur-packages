@@ -34,5 +34,6 @@ stdenv.mkDerivation {
       "aarch64-darwin"
     ];
     sourceProvenance = [ sourceTypes.binaryNativeCode ];
+    mainProgram = "zine-bin";
   };
 }

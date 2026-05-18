@@ -65,5 +65,6 @@ stdenv.mkDerivation {
     homepage = "https://github.com/Ircam-Partiels/Partiels";
     license = licenses.gpl3Plus;
     platforms = platforms.linux;
+    mainProgram = "Partiels";
   };
 }

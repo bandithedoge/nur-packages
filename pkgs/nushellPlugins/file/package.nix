@@ -16,5 +16,6 @@ rustPlatform.buildRustPackage {
     homepage = "https://github.com/fdncred/nu_plugin_file";
     license = licenses.agpl3Plus;
     inherit (nushell.meta) platforms;
+    mainProgram = "nu_plugin_file";
   };
 }

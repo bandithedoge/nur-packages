@@ -29,5 +29,6 @@ stdenv.mkDerivation {
     homepage = "https://github.com/bakkeby/dwm-flexipatch";
     license = licenses.mit;
     platforms = platforms.linux;
+    mainProgram = "dwm";
   };
 }

@@ -89,5 +89,6 @@ stdenv.mkDerivation {
     homepage = "https://codeberg.org/sox_ng/sox_ng";
     license = licenses.gpl2Plus;
     platforms = platforms.unix;
+    mainProgram = "sox_ng";
   };
 }

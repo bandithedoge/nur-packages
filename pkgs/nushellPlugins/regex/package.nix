@@ -16,5 +16,6 @@ rustPlatform.buildRustPackage {
     homepage = "https://github.com/fdncred/nu_plugin_regex";
     license = licenses.mit;
     inherit (nushell.meta) platforms;
+    mainProgram = "nu_plugin_regex";
   };
 }

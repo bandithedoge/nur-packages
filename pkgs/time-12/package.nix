@@ -11,4 +11,6 @@ stdenv.mkDerivation {
   version = lib.removePrefix "v" sources.time-12.version;
 
   nativeBuildInputs = [ juceCmakeHook ];
+
+  meta.mainProgram = "TIME-12";
 }

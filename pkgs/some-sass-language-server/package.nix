@@ -39,5 +39,6 @@ buildNpmPackage {
     homepage = "https://wkillerud.github.io/some-sass/";
     license = licenses.mit;
     platforms = platforms.all;
+    mainProgram = "some-sass-language-server";
   };
 }

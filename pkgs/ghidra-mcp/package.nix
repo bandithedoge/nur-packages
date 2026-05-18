@@ -34,5 +34,6 @@ ghidra.buildGhidraExtension {
     homepage = "https://github.com/bethington/ghidra-mcp";
     license = licenses.asl20;
     inherit (ghidra.meta) platforms;
+    mainProgram = "bridge-mcp-ghidra";
   };
 }

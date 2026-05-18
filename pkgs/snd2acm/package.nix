@@ -28,5 +28,6 @@ stdenv.mkDerivation {
     homepage = "https://github.com/dtiefling/snd2acm-portable";
     license = licenses.gpl2Plus;
     platforms = platforms.unix;
+    mainProgram = "snd2acm";
   };
 }
