@@ -150,6 +150,14 @@
       sha256 = "sha256-etzkLGpw9yRkgC5O0+nw0LC+Sb230Cm69y4rEF9FxCo=";
     };
   };
+  Zebra3 = {
+    pname = "Zebra3";
+    version = "300_21799";
+    src = fetchTarball {
+      url = "https://uhe-dl.b-cdn.net/releases/Zebra3_300_21799_Linux.tar.xz";
+      sha256 = "sha256-HXLFPRVtRLr4Iv27tI1NpPcpHsfJbwuuG3Oj693XSUg=";
+    };
+  };
   ZebraCM = {
     pname = "ZebraCM";
     version = "111_12185";

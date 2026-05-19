@@ -258,4 +258,15 @@ in
       description = "Baby zebra";
     };
   };
+
+  zebra3 = mkUhe "Zebra3" {
+    postBuild = ''
+      mkdir -p $out/libexec/Zebra3/{Modules/{Envelope,LFO,MSEG},Tunefiles}/User
+    '';
+
+    meta = {
+      homepage = "https://u-he.com/products/synths/zebra3/";
+      description = "Deep Synthesis";
+    };
+  };
 }
