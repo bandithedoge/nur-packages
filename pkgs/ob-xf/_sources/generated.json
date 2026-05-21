@@ -11,12 +11,12 @@
             "fetchSubmodules": true,
             "leaveDotGit": false,
             "name": null,
-            "rev": "65e95d49e404874faa2ee9bc8b40391e506ff5cb",
-            "sha256": "sha256-AMZjbwtSY1dg4OhA70H2GScWkIGaa2XubsEJbwEYpF0=",
+            "rev": "7c08b7898d80210ed0058255fb3d3e8be329d952",
+            "sha256": "sha256-+1UTdC2VoPlLIp4f4k0mG38E07AWdbGfrcLQyU6MM8s=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/surge-synthesizer/OB-Xf"
         },
-        "version": "65e95d49e404874faa2ee9bc8b40391e506ff5cb"
+        "version": "7c08b7898d80210ed0058255fb3d3e8be329d952"
     }
 }
