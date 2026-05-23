@@ -1,10 +1,9 @@
 {
-  sources,
-
   lib,
   stdenv,
 
   gtk3,
+  juce,
   juceCmakeHook,
   ladspa-sdk,
   libjack2,
@@ -14,7 +13,7 @@
 }:
 stdenv.mkDerivation {
   pname = "projucer";
-  inherit (sources.juce) version src;
+  inherit (juce) version src;
 
   nativeBuildInputs = [
     juceCmakeHook
