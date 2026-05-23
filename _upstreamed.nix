@@ -42,6 +42,7 @@
   };
   nu-lint = [ "nu-lint" ];
   nugget-doom = [ "nugget-doom" ];
+  ob-xf = [ "ob-xf" ];
   onagre = [ "onagre" ];
   powertab = [ "powertab-editor" ];
   ripplerx = [ "ripplerx" ];
