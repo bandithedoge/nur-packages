@@ -28,11 +28,12 @@ stdenv.mkDerivation {
     runHook postBuild
   '';
 
-  meta = with lib; {
+  meta = {
     description = "A package containing Vamp plug-ins developed at Ircam";
     homepage = "https://github.com/Ircam-Partiels/ircam-vamp-plugins";
-    license = licenses.unfree;
+    license = lib.licenses.unfree;
     platforms = [ "x86_64-linux" ];
-    sourceProvenance = [ sourceTypes.binaryNativeCode ];
+    sourceProvenance = [ lib.sourceTypes.binaryNativeCode ];
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

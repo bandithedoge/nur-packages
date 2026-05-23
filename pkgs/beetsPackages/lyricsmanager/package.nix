@@ -12,10 +12,11 @@ python3Packages.buildPythonApplication {
 
   nativeBuildInputs = [ beets ];
 
-  meta = with lib; {
+  meta = {
     description = "Beets plugin for automatically managing lyrics files (.lrc) when importing music files and synchronizing lyrics files when moving songs";
     homepage = "https://github.com/zytx/beets-lyrics-manager";
-    license = licenses.mit;
+    license = lib.licenses.mit;
     inherit (beets.meta) platforms;
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

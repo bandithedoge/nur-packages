@@ -54,7 +54,7 @@ stdenv.mkDerivation {
       presets = mkContent sources.quetzalcoatl-presets;
     };
 
-  meta = with lib; {
+  meta = {
     description = "Sample player";
     longDescription = ''
       This derivation exports passthru attributes for required Quetzalcoatl content. Symlink (or copy the contents of)
@@ -63,8 +63,9 @@ stdenv.mkDerivation {
       - `quetzalcoatl-bin.presets` to `~/.config/modularsamples/Quetzalcoatl`
     '';
     homepage = "https://github.com/publicsamples/Quetzalcoatl";
-    license = licenses.gpl3Plus;
+    license = lib.licenses.gpl3Plus;
     platforms = [ "x86_64-linux" ];
-    sourceProvenance = [ sourceTypes.binaryNativeCode ];
+    sourceProvenance = [ lib.sourceTypes.binaryNativeCode ];
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

@@ -29,11 +29,13 @@ stdenv.mkDerivation {
     runHook postBuild
   '';
 
-  meta = with lib; {
+  meta = {
     description = "Audio plugin for custom MP3 distortion and digital glitches";
     homepage = "https://github.com/ArdenButterfield/Maim";
-    license = licenses.gpl3Plus;
+    license = lib.licenses.gpl3Plus;
     platforms = [ "x86_64-linux" ];
-    sourceProvenance = [ sourceTypes.binaryNativeCode ];
+    sourceProvenance = [ lib.sourceTypes.binaryNativeCode ];
+    mainProgram = "Maim";
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

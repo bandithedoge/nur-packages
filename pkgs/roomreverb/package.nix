@@ -14,10 +14,11 @@ stdenv.mkDerivation {
     juceCmakeHook
   ];
 
-  meta = with lib; {
+  meta = {
     description = "Room Reverb is a mono/stereo to stereo algorithmic reverb audio plugin with many presets that lets you add reverberation to your recordings in your DAW";
     homepage = "https://github.com/cvde/RoomReverb";
-    license = licenses.gpl3Plus;
-    platforms = platforms.linux;
+    license = lib.licenses.gpl3Plus;
+    platforms = lib.platforms.linux;
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

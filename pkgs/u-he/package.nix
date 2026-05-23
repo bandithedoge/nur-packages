@@ -87,14 +87,13 @@ let
         inherit product;
       };
 
-      meta =
-        with lib;
-        {
-          license = licenses.unfree;
-          platforms = [ "x86_64-linux" ];
-          sourceProvenance = [ sourceTypes.binaryNativeCode ];
-        }
-        // meta;
+      meta = {
+        license = lib.licenses.unfree;
+        platforms = [ "x86_64-linux" ];
+        sourceProvenance = [ lib.sourceTypes.binaryNativeCode ];
+        maintainers = [ lib.maintainers.bandithedoge ];
+      }
+      // meta;
     };
 in
 {
@@ -246,12 +245,28 @@ in
         unzip -o "$soundset" -d $out/libexec/Zebra2
       done
     '';
+
+    meta = {
+      homepage = "https://u-he.com/products/zebra-legacy/";
+      description = "The workhorse synth";
+    };
   };
 
   zebracm = mkUhe "ZebraCM" {
     meta = {
       homepage = "https://u-he.com/products/zebracm/";
       description = "Baby zebra";
+    };
+  };
+
+  zebra3 = mkUhe "Zebra3" {
+    postBuild = ''
+      mkdir -p $out/libexec/Zebra3/{Modules/{Envelope,LFO,MSEG},Tunefiles}/User
+    '';
+
+    meta = {
+      homepage = "https://u-he.com/products/synths/zebra3/";
+      description = "Deep Synthesis";
     };
   };
 }

@@ -22,10 +22,11 @@ stdenvNoCC.mkDerivation (finalAttrs: {
     runHook postBuild
   '';
 
-  meta = with lib; {
+  meta = {
     description = "Yet another matrix client but better";
     homepage = "https://github.com/7w1/sable";
-    license = licenses.agpl3Plus;
-    platforms = platforms.all;
+    license = lib.licenses.agpl3Plus;
+    platforms = lib.platforms.all;
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 })

@@ -24,10 +24,12 @@ stdenv.mkDerivation {
 
   enableParallelBuilding = true;
 
-  meta = with lib; {
+  meta = {
     description = "A dwm build with preprocessor directives to decide which patches to include during build time";
     homepage = "https://github.com/bakkeby/dwm-flexipatch";
-    license = licenses.mit;
-    platforms = platforms.linux;
+    license = lib.licenses.mit;
+    platforms = lib.platforms.linux;
+    mainProgram = "dwm";
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

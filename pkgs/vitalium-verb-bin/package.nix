@@ -39,11 +39,12 @@ stdenv.mkDerivation {
     runHook postBuild
   '';
 
-  meta = with lib; {
+  meta = {
     description = "A Rust port of the reverb module from the Vital/Vitalium synthesizer";
     homepage = "https://github.com/BillyDM/vitalium-verb";
-    license = licenses.gpl3Plus;
+    license = lib.licenses.gpl3Plus;
     platforms = [ "x86_64-linux" ];
-    sourceProvenance = [ sourceTypes.binaryNativeCode ];
+    sourceProvenance = [ lib.sourceTypes.binaryNativeCode ];
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

@@ -29,10 +29,12 @@ ghidra.buildGhidraExtension {
     runHook postInstall
   '';
 
-  meta = with lib; {
+  meta = {
     description = "Production-ready Model Context Protocol (MCP) server that bridges Ghidra's powerful reverse engineering capabilities with modern AI tools and automation frameworks";
     homepage = "https://github.com/bethington/ghidra-mcp";
-    license = licenses.asl20;
+    license = lib.licenses.asl20;
     inherit (ghidra.meta) platforms;
+    mainProgram = "bridge-mcp-ghidra";
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

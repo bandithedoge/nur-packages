@@ -23,10 +23,11 @@ stdenv.mkDerivation {
     rustPlatform.importCargoLock
       sources.schrammel-ojd.cargoLock."Ext/Resvg4JUCE/Ext/resvg/Cargo.lock";
 
-  meta = with lib; {
+  meta = {
     description = "Audio plugin model of a modern classic guitar overdrive Pedal";
     homepage = "https://schrammel.io/";
-    license = licenses.gpl3Plus;
-    platforms = platforms.linux;
+    license = lib.licenses.gpl3Plus;
+    platforms = lib.platforms.linux;
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

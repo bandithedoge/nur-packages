@@ -42,11 +42,13 @@ stdenv.mkDerivation {
     runHook postInstall
   '';
 
-  meta = with lib; {
+  meta = {
     description = "A lookahead compressor/limiter that's soft as a lamb";
     homepage = "https://github.com/magnetophon/lamb-rs";
-    license = licenses.agpl3Plus;
+    license = lib.licenses.agpl3Plus;
     platforms = [ "x86_64-linux" ];
-    sourceProvenance = [ sourceTypes.binaryNativeCode ];
+    sourceProvenance = [ lib.sourceTypes.binaryNativeCode ];
+    mainProgram = "lamb";
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

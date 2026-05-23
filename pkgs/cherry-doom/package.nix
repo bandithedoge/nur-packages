@@ -39,10 +39,12 @@ stdenv.mkDerivation {
     yyjson
   ];
 
-  meta = with lib; {
+  meta = {
     description = "Fork of Nugget Doom with more additional features";
     homepage = "https://github.com/xemonix0/Cherry-Doom";
-    license = licenses.gpl2Plus;
-    platforms = platforms.unix;
+    license = lib.licenses.gpl2Plus;
+    platforms = lib.platforms.unix;
+    mainProgram = "cherry-doom";
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

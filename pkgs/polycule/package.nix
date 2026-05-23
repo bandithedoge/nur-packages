@@ -36,10 +36,12 @@ flutter335.buildFlutterApplication {
     ln -s $out/share/pixmaps/business.braid.polycule.svg $out/share/icons/hicolor/scalable/apps/business.braid.polycule.svg
   '';
 
-  meta = with lib; {
+  meta = {
     description = "Geeky and efficient [matrix] client for power users";
     homepage = "https://polycule.im/";
-    license = licenses.eupl12;
-    platforms = platforms.linux;
+    license = lib.licenses.eupl12;
+    platforms = lib.platforms.linux;
+    mainProgram = "polycule";
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

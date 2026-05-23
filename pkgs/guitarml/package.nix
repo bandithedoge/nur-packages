@@ -19,13 +19,12 @@ let
 
       nativeBuildInputs = [ juceCmakeHook ];
 
-      meta =
-        with lib;
-        {
-          license = licenses.gpl3Plus;
-          platforms = platforms.linux;
-        }
-        // meta;
+      meta = {
+        license = lib.licenses.gpl3Plus;
+        platforms = lib.platforms.linux;
+        maintainers = [ lib.maintainers.bandithedoge ];
+      }
+      // meta;
     };
 in
 {
@@ -35,6 +34,7 @@ in
     meta = {
       homepage = "https://github.com/GuitarML/Proteus";
       description = "Guitar amp and pedal capture plugin using neural networks";
+      mainProgram = "Proteus";
     };
   };
 
@@ -44,6 +44,7 @@ in
     meta = {
       homepage = "https://github.com/GuitarML/PrincePedal";
       description = "Prince of Tone style guitar plugin made with neural networks";
+      mainProgram = "Prince";
     };
   };
 

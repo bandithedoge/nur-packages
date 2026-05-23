@@ -17,10 +17,12 @@ buildNpmPackage {
   };
   inherit (importNpmLock) npmConfigHook;
 
-  meta = with lib; {
+  meta = {
     description = "MCP Server for SearXNG";
     homepage = "https://github.com/ihor-sokoliuk/mcp-searxng";
-    license = licenses.mit;
-    platforms = platforms.all;
+    license = lib.licenses.mit;
+    platforms = lib.platforms.all;
+    mainProgram = "mcp-searxng";
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

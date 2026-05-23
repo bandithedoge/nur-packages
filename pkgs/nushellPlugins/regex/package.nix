@@ -11,10 +11,12 @@ rustPlatform.buildRustPackage {
 
   cargoLock = sources.nu-plugin-regex.cargoLock."Cargo.lock";
 
-  meta = with lib; {
+  meta = {
     description = "Nushell plugin to search text with regular expressions";
     homepage = "https://github.com/fdncred/nu_plugin_regex";
-    license = licenses.mit;
+    license = lib.licenses.mit;
     inherit (nushell.meta) platforms;
+    mainProgram = "nu_plugin_regex";
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

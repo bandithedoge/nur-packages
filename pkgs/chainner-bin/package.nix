@@ -54,11 +54,13 @@ stdenv.mkDerivation {
     })
   ];
 
-  meta = with lib; {
+  meta = {
     description = "A node-based image processing GUI aimed at making chaining image processing tasks easy and customizable.";
     homepage = "https://chainner.app/";
-    license = licenses.gpl3Plus;
+    license = lib.licenses.gpl3Plus;
     platforms = [ "x86_64-linux" ];
-    sourceProvenance = [ sourceTypes.binaryBytecode ];
+    sourceProvenance = [ lib.sourceTypes.binaryBytecode ];
+    mainProgram = "chainner";
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

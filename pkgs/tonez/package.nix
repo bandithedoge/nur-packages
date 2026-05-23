@@ -32,11 +32,12 @@ stdenv.mkDerivation {
     runHook postBuild
   '';
 
-  meta = with lib; {
+  meta = {
     description = "Free cross-platform polyphonic synthesizer";
     homepage = "https://www.retornz.com/plugins/tonez";
-    license = licenses.gpl3Plus;
+    license = lib.licenses.gpl3Plus;
     platforms = [ "x86_64-linux" ];
-    sourceProvenance = [ sourceTypes.binaryNativeCode ];
+    sourceProvenance = [ lib.sourceTypes.binaryNativeCode ];
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

@@ -11,10 +11,12 @@ rustPlatform.buildRustPackage {
 
   cargoLock = sources.nu-plugin-mime.cargoLock."Cargo.lock";
 
-  meta = with lib; {
+  meta = {
     description = "Nushell plugin for working with mime types without performing disk access";
     homepage = "https://github.com/kik4444/nu_plugin_mime";
-    license = licenses.mit;
+    license = lib.licenses.mit;
     inherit (nushell.meta) platforms;
+    mainProgram = "nu_plugin_mime";
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

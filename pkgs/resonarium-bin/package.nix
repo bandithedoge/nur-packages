@@ -29,11 +29,13 @@ stdenv.mkDerivation {
     cp -r VST3/* $out/lib/vst3
   '';
 
-  meta = with lib; {
+  meta = {
     description = "An expressive, semi-modular, and comprehensive physical modeling/waveguide synthesizer";
     homepage = "https://github.com/gabrielsoule/resonarium";
-    license = licenses.gpl3Plus;
+    license = lib.licenses.gpl3Plus;
     platforms = [ "x86_64-linux" ];
-    sourceProvenance = [ sourceTypes.binaryNativeCode ];
+    sourceProvenance = [ lib.sourceTypes.binaryNativeCode ];
+    mainProgram = "Resonarium";
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

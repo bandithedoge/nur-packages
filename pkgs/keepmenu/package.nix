@@ -21,11 +21,12 @@ python3Packages.buildPythonApplication {
 
   passthru._ignoreDupe = true;
 
-  meta = with lib; {
+  meta = {
     description = "Dmenu/Rofi frontend for Keepass databases";
     homepage = "https://github.com/firecat53/keepmenu";
-    license = licenses.gpl3Plus;
-    platforms = platforms.linux;
+    license = lib.licenses.gpl3Plus;
+    platforms = lib.platforms.linux;
     broken = true;
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

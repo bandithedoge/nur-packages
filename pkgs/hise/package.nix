@@ -37,10 +37,12 @@ stdenv.mkDerivation {
 
   dontStrip = true;
 
-  meta = with lib; {
+  meta = {
     description = "The open source toolkit for building virtual instruments and audio effects";
     homepage = "https://hise.dev";
-    license = licenses.gpl3Plus;
-    platforms = platforms.linux;
+    license = lib.licenses.gpl3Plus;
+    platforms = lib.platforms.linux;
+    mainProgram = "HISE";
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

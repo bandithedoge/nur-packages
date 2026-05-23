@@ -76,10 +76,11 @@ stdenv.mkDerivation rec {
 
   enableParallelBuilding = true;
 
-  meta = with lib; {
+  meta = {
     description = "A MIDI driven, performance oriented, versatile, free and open source synthesizer VST plugin";
     homepage = "https://attilammagyar.github.io/js80p/index.html#home";
-    license = licenses.gpl3Plus;
-    platforms = platforms.linux;
+    license = lib.licenses.gpl3Plus;
+    platforms = lib.platforms.linux;
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

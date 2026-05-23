@@ -8,34 +8,34 @@
 {
   crunchrr = {
     pname = "crunchrr";
-    version = "release-94";
+    version = "release-97";
     src = fetchurl {
-      url = "https://github.com/blepfx/dist/releases/download/release-94/crunchrr-x86_64-unknown-linux-gnu.zip";
-      sha256 = "sha256-NKcN2hCgHKnc/oZmwyzMnWZOD6EbNtBfNGnYesF9Hd0=";
+      url = "https://github.com/blepfx/dist/releases/download/release-97/crunchrr-x86_64-unknown-linux-gnu.zip";
+      sha256 = "sha256-3zBYbHCQc6t2Ro3vRg/y5jaqeoeGnwTGRUAozWbeHWc=";
     };
   };
   destruqtor = {
     pname = "destruqtor";
-    version = "release-94";
+    version = "release-97";
     src = fetchurl {
-      url = "https://github.com/blepfx/dist/releases/download/release-94/destruqtor-x86_64-unknown-linux-gnu.zip";
-      sha256 = "sha256-jX/rbi6RC4I1xkSzlWISI8CVUJT03RlwKYk4Y15vno4=";
+      url = "https://github.com/blepfx/dist/releases/download/release-97/destruqtor-x86_64-unknown-linux-gnu.zip";
+      sha256 = "sha256-4h6lrJHnAUuT4XyvlLkALugz8rLYmow0hG2HSb8BLdI=";
     };
   };
   filtrr = {
     pname = "filtrr";
-    version = "release-94";
+    version = "release-97";
     src = fetchurl {
-      url = "https://github.com/blepfx/dist/releases/download/release-94/filtrr-x86_64-unknown-linux-gnu.zip";
-      sha256 = "sha256-WYwtR6/fWUvT6arx8a9WCyKxUUq84Wm4cPrv0i+BaFE=";
+      url = "https://github.com/blepfx/dist/releases/download/release-97/filtrr-x86_64-unknown-linux-gnu.zip";
+      sha256 = "sha256-VRKfhcN/3tb03GAwQ2C9LbBpc1M/7qw/DPF75DpwEMk=";
     };
   };
   prisma = {
     pname = "prisma";
-    version = "release-94";
+    version = "release-97";
     src = fetchurl {
-      url = "https://github.com/blepfx/dist/releases/download/release-94/prisma-x86_64-unknown-linux-gnu.zip";
-      sha256 = "sha256-jxzWsAdK4WY1NPlIiXioCW8tmudn+b3AN6Y7Yy4TYVU=";
+      url = "https://github.com/blepfx/dist/releases/download/release-97/prisma-x86_64-unknown-linux-gnu.zip";
+      sha256 = "sha256-1DacKLL5kK2LzvQNFQKtXxgdN2/M+nVTULUzWw1HrhI=";
     };
   };
 }

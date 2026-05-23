@@ -40,11 +40,12 @@ stdenv.mkDerivation {
     runHook postBuild
   '';
 
-  meta = with lib; {
+  meta = {
     description = "Charlatan is a virtual analog (VA) synthesizer with focus on sound quality and easy usability";
     homepage = "https://blaukraut.info/";
-    license = licenses.unfree;
+    license = lib.licenses.unfree;
     platforms = [ "x86_64-linux" ];
-    sourceProvenance = [ sourceTypes.binaryNativeCode ];
+    sourceProvenance = [ lib.sourceTypes.binaryNativeCode ];
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

@@ -17,14 +17,20 @@ let
   source = sourceMap.${stdenv.system} or sourceMap.x86_64-linux;
 in
 appimageTools.wrapType2 {
-  pname = "psydoom";
+  pname = "psydoom-bin";
   inherit (source) version src;
 
-  meta = with lib; {
+  extraInstallCommands = ''
+    mv $out/bin/psydoom-bin $out/bin/psydoom
+  '';
+
+  meta = {
     description = "A backport of PSX Doom to PC";
     homepage = "https://github.com/BodbDearg/PsyDoom";
-    license = licenses.gpl3Plus;
+    license = lib.licenses.gpl3Plus;
     platforms = builtins.attrNames sourceMap;
-    sourceProvenance = [ sourceTypes.binaryNativeCode ];
+    sourceProvenance = [ lib.sourceTypes.binaryNativeCode ];
+    mainProgram = "psydoom";
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

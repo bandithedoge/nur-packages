@@ -16,10 +16,11 @@ stdenv.mkDerivation {
 
   cmakeFlags = [ "-DFETCHCONTENT_SOURCE_DIR_JUCE=${sources.juce.src}" ];
 
-  meta = with lib; {
+  meta = {
     description = "From frequencies to feeling";
     homepage = "https://github.com/hqrrr/PerceptoMap";
-    license = licenses.agpl3Plus;
-    platforms = platforms.linux;
+    license = lib.licenses.agpl3Plus;
+    platforms = lib.platforms.linux;
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

@@ -6,7 +6,6 @@
   ninja,
   cmake,
   libsndfile,
-  pkg-config,
   flex,
   bison,
   alsa-lib,
@@ -17,7 +16,6 @@ stdenv.mkDerivation {
   nativeBuildInputs = [
     cmake
     ninja
-    # pkg-config
     flex
     bison
   ];
@@ -29,10 +27,13 @@ stdenv.mkDerivation {
 
   NIX_CFLAGS_COMPILE = [ "-Wno-template-body" ];
 
-  # meta = with lib; {
-  #   description = "";
-  #   homepage = "";
-  #   license = null;
-  #   platforms = [];
-  # };
+  meta = {
+    description = "Sound design, audio synthesis, and signal processing system, providing facilities for music composition and performance on all major operating systems and platforms";
+    homepage = "https://csound.com";
+    license = lib.licenses.lgpl21Plus;
+    platforms = lib.platforms.unix;
+    broken = stdenv.hostPlatform.isDarwin;
+    mainProgram = "csound";
+    maintainers = [ lib.maintainers.bandithedoge ];
+  };
 }

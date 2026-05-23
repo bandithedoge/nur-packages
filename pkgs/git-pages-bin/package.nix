@@ -25,15 +25,17 @@ stdenv.mkDerivation {
     runHook postBuild
   '';
 
-  meta = with lib; {
+  meta = {
     description = "Scalable static site server for Git forges (like GitHub Pages or Netlify)";
     homepage = "https://git-pages.org";
-    license = licenses.bsd0;
+    license = lib.licenses.bsd0;
     platforms = [
       "x86_64-linux"
       "aarch64-linux"
       "aarch64-darwin"
     ];
-    sourceProvenance = [ sourceTypes.binaryNativeCode ];
+    sourceProvenance = [ lib.sourceTypes.binaryNativeCode ];
+    mainProgram = "git-pages";
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

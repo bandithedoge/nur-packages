@@ -52,4 +52,12 @@ stdenv.mkDerivation {
   '';
 
   hardeningDisable = [ "format" ];
+
+  meta = {
+    description = "Taking the wonders of Don Cross' Sapphire plugins into the clap-first/daw world";
+    homepage = "https://github.com/baconpaul/sapphire-plugins";
+    license = lib.licenses.gpl3Plus;
+    platforms = lib.platforms.linux;
+    maintainers = [ lib.maintainers.bandithedoge ];
+  };
 }

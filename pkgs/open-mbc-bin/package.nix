@@ -37,11 +37,13 @@ stdenv.mkDerivation {
     runHook postBuild
   '';
 
-  meta = with lib; {
+  meta = {
     description = "multiband compressor vst";
     homepage = "https://github.com/maor1993/open_mbc";
-    license = licenses.gpl3Plus;
+    license = lib.licenses.gpl3Plus;
     platforms = [ "x86_64-linux" ];
-    sourceProvenance = [ sourceTypes.binaryNativeCode ];
+    sourceProvenance = [ lib.sourceTypes.binaryNativeCode ];
+    mainProgram = "OpenMbc";
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

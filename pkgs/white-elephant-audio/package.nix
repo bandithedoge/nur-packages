@@ -41,10 +41,11 @@ let
         runHook postBuild
       '';
 
-      meta = with lib; {
+      meta = {
         inherit description homepage license;
         platforms = [ "x86_64-linux" ];
-        sourceProvenance = [ sourceTypes.binaryNativeCode ];
+        sourceProvenance = [ lib.sourceTypes.binaryNativeCode ];
+        maintainers = [ lib.maintainers.bandithedoge ];
       };
     };
 in

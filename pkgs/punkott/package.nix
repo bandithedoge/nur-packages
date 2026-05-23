@@ -19,10 +19,11 @@ stdenv.mkDerivation {
     cp ${cpm-cmake}/share/cpm/CPM.cmake cmake/CPM.cmake
   '';
 
-  meta = with lib; {
+  meta = {
     description = "JUCE audio plugin that pretends to recreate an OTT-style compressor effect";
     homepage = "https://github.com/gmoican/PunkOTT";
-    license = licenses.mit;
-    platforms = platforms.linux;
+    license = lib.licenses.mit;
+    platforms = lib.platforms.linux;
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

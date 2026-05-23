@@ -15,10 +15,11 @@ stdenv.mkDerivation {
 
   jucerFile = "BitDos.jucer";
 
-  meta = with lib; {
+  meta = {
     description = "A bit-inverting industrial distortion plugin with VST3/LV2";
     homepage = "https://github.com/astriiddev/BitDOS-VST";
-    license = licenses.agpl3Plus;
+    license = lib.licenses.agpl3Plus;
     platforms = [ "x86_64-linux" ];
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

@@ -37,11 +37,12 @@ stdenv.mkDerivation {
     runHook postBuild
   '';
 
-  meta = with lib; {
+  meta = {
     description = "Chorus synthesizer";
     homepage = "https://github.com/peastman/ChorusExMachina";
-    license = licenses.lgpl21;
+    license = lib.licenses.lgpl21;
     platforms = [ "x86_64-linux" ];
-    sourceProvenance = [ sourceTypes.binaryNativeCode ];
+    sourceProvenance = [ lib.sourceTypes.binaryNativeCode ];
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

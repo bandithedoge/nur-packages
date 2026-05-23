@@ -1,10 +1,9 @@
 {
-  sources,
-
   lib,
   stdenv,
 
   gtk3,
+  juce,
   juceCmakeHook,
   ladspa-sdk,
   libjack2,
@@ -14,7 +13,7 @@
 }:
 stdenv.mkDerivation {
   pname = "projucer";
-  inherit (sources.juce) version src;
+  inherit (juce) version src;
 
   nativeBuildInputs = [
     juceCmakeHook
@@ -47,9 +46,11 @@ stdenv.mkDerivation {
 
   setupHook = ./setupHook.sh;
 
-  meta = with lib; {
+  meta = {
     homepage = "https://juce.com/";
-    license = licenses.agpl3Only;
-    platforms = platforms.unix;
+    license = lib.licenses.agpl3Only;
+    platforms = lib.platforms.unix;
+    mainProgram = "Projucer";
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

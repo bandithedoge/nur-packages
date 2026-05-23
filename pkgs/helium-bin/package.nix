@@ -92,10 +92,10 @@ stdenv.mkDerivation {
     runHook postBuild
   '';
 
-  meta = with lib; {
+  meta = {
     description = "Private, fast, and honest web browser";
     homepage = "https://helium.computer/";
-    license = with licenses; [
+    license = with lib.licenses; [
       gpl3Plus
       bsd3
     ];
@@ -103,6 +103,8 @@ stdenv.mkDerivation {
       "x86_64-linux"
       "aarch64-linux"
     ];
-    sourceProvenance = [ sourceTypes.binaryNativeCode ];
+    sourceProvenance = [ lib.sourceTypes.binaryNativeCode ];
+    mainProgram = "helium";
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

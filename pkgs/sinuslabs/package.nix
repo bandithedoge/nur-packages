@@ -38,6 +38,7 @@ let
       meta = {
         platforms = [ "x86_64-linux" ];
         sourceProvenance = [ lib.sourceTypes.binaryNativeCode ];
+        maintainers = [ lib.maintainers.bandithedoge ];
       }
       // meta;
     };

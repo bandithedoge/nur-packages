@@ -23,12 +23,12 @@ let
 
       inherit jucerFile;
 
-      meta =
-        (with lib; {
-          license = licenses.gpl3Plus;
-          platforms = platforms.linux;
-        })
-        // meta;
+      meta = {
+        license = lib.licenses.gpl3Plus;
+        platforms = lib.platforms.linux;
+        maintainers = [ lib.maintainers.bandithedoge ];
+      }
+      // meta;
     };
 in
 {

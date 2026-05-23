@@ -36,11 +36,12 @@ let
         runHook postBuild
       '';
 
-      meta = with lib; {
+      meta = {
         homepage = "https://support.harrisonaudio.com/hc/en-gb/articles/19516617411613-Harrison-AVA-downloads-OLD-VERSIONS";
-        license = licenses.unfree;
+        license = lib.licenses.unfree;
         platforms = [ "x86_64-linux" ];
-        sourceProvenance = [ sourceTypes.binaryNativeCode ];
+        sourceProvenance = [ lib.sourceTypes.binaryNativeCode ];
+        maintainers = [ lib.maintainers.bandithedoge ];
       };
     };
 in

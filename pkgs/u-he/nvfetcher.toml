@@ -115,3 +115,9 @@ src.webpage = "https://uhe-dl.b-cdn.net/releases/"
 src.regex = "ZebraCM_(\\d+_\\d+)"
 fetch.tarball = "https://uhe-dl.b-cdn.net/releases/ZebraCM_$ver_Linux.tar.xz"
 fetch.force = true
+
+[Zebra3]
+src.webpage = "https://uhe-dl.b-cdn.net/releases/"
+src.regex = "Zebra3_(\\d+_\\d+)"
+fetch.tarball = "https://uhe-dl.b-cdn.net/releases/Zebra3_$ver_Linux.tar.xz"
+fetch.force = true

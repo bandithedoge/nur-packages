@@ -12,10 +12,11 @@ stdenv.mkDerivation {
 
   makeFlags = [ "PREFIX=$(out)" ];
 
-  meta = with lib; {
+  meta = {
     description = "experimental LV2 to VST2.x wrapper";
     homepage = "https://github.com/x42/lv2vst";
-    license = licenses.gpl2;
-    platforms = platforms.linux;
+    license = lib.licenses.gpl2;
+    platforms = lib.platforms.linux;
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

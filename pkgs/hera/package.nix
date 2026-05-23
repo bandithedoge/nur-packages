@@ -12,10 +12,11 @@ stdenv.mkDerivation {
 
   nativeBuildInputs = [ juceCmakeHook ];
 
-  meta = with lib; {
+  meta = {
     description = "Juno 60 emulation synthesizer";
     homepage = "https://github.com/jpcima/Hera";
-    license = licenses.gpl3Plus;
-    platforms = platforms.linux;
+    license = lib.licenses.gpl3Plus;
+    platforms = lib.platforms.linux;
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

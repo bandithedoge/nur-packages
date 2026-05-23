@@ -10,10 +10,12 @@ rustPlatform.buildRustPackage {
 
   cargoLock = sources.nu-plugin-compress.cargoLock."Cargo.lock";
 
-  meta = with lib; {
+  meta = {
     description = "Nushell plugin for compression and decompression, supporting zstd, gzip, bzip2, and xz";
     homepage = "https://github.com/yybit/nu_plugin_compress";
-    license = licenses.asl20;
+    license = lib.licenses.asl20;
     inherit (nushell.meta) platforms;
+    mainProgram = "nu_plugin_compress";
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

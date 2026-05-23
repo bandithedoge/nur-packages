@@ -12,10 +12,12 @@ stdenv.mkDerivation {
 
   nativeBuildInputs = [ juceCmakeHook ];
 
-  meta = with lib; {
+  meta = {
     description = "Envelope based filter modulator";
     homepage = "https://github.com/tiagolr/filtr";
-    license = licenses.gpl3Plus;
-    platforms = platforms.linux;
+    license = lib.licenses.gpl3Plus;
+    platforms = lib.platforms.linux;
+    mainProgram = "FILT-R";
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

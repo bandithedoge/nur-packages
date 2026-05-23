@@ -28,9 +28,10 @@ stdenv.mkDerivation {
 
   enableParallelBuilding = true;
 
-  meta = with lib; {
+  meta = {
     description = "Cross-platform Camel Crusher Clone VST plug-in based on black-box analysis";
     homepage = "https://github.com/soerenbnoergaard/reverse-camel";
-    platforms = platforms.linux;
+    platforms = lib.platforms.linux;
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

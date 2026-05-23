@@ -12,10 +12,12 @@ stdenv.mkDerivation {
 
   nativeBuildInputs = [ juceCmakeHook ];
 
-  meta = with lib; {
+  meta = {
     description = "algorithmic reverb plugin based on CloudSeed";
     homepage = "https://github.com/xunil-cloud/CloudReverb";
-    license = licenses.mit;
-    platforms = platforms.linux;
+    license = lib.licenses.mit;
+    platforms = lib.platforms.linux;
+    mainProgram = "CloudReverb";
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

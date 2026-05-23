@@ -251,6 +251,20 @@
         },
         "version": "294_16765"
     },
+    "Zebra3": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "Zebra3",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "sha256": "sha256-HXLFPRVtRLr4Iv27tI1NpPcpHsfJbwuuG3Oj693XSUg=",
+            "type": "tarball",
+            "url": "https://uhe-dl.b-cdn.net/releases/Zebra3_300_21799_Linux.tar.xz"
+        },
+        "version": "300_21799"
+    },
     "ZebraCM": {
         "cargoLock": null,
         "date": null,

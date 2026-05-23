@@ -12,10 +12,12 @@ stdenv.mkDerivation {
 
   nativeBuildInputs = [ juceCmakeHook ];
 
-  meta = with lib; {
+  meta = {
     description = "User friendly cross platform modular synth";
     homepage = "https://www.soonth.com/";
-    license = licenses.gpl3Plus;
-    platforms = platforms.linux;
+    license = lib.licenses.gpl3Plus;
+    platforms = lib.platforms.linux;
+    mainProgram = "blocks";
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

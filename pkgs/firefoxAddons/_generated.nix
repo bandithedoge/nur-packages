@@ -814,10 +814,10 @@
   };
   "material-icons-for-github" = buildMozillaXpiAddon {
     pname = "material-icons-for-github";
-    version = "1.14.1";
+    version = "1.15.0";
     addonId = "{eac6e624-97fa-4f28-9d24-c06c9b8aa713}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4781117/material_icons_for_github-1.14.1.xpi";
-    sha256 = "b2c18c6cfb0e48aca68d218b57fac745dd54dce73b2310d67fddd40e65d5618e";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4816966/material_icons_for_github-1.15.0.xpi";
+    sha256 = "9c1f00ce64e153aa62f57fcd930d06a75ff5ab6e4f7a72d17286166b2d79b56e";
     meta = with lib; {
       homepage = "https://github.com/material-extensions/material-icons-browser-extension";
       description = "Replace the file/folder icons on github file browsers with icons representing the file's type and which tool it is used by.";
@@ -1384,10 +1384,10 @@
   };
   "refined-github" = buildMozillaXpiAddon {
     pname = "refined-github";
-    version = "26.5.13";
+    version = "26.5.20";
     addonId = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4804659/refined_github-26.5.13.xpi";
-    sha256 = "b0d14dcaa4a7248b82aabb38eaac454782dcb9083cd9b721b847e68f6ab9a1bf";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4813558/refined_github-26.5.20.xpi";
+    sha256 = "c1bfc7f2461fdc3a5853b238fe155be6e099c59a45e5a579e5dbc354340f2b55";
     meta = with lib; {
       homepage = "https://github.com/refined-github/refined-github";
       description = "Simplifies the GitHub interface and adds many useful features.";
@@ -1523,13 +1523,14 @@
   };
   "steam-database" = buildMozillaXpiAddon {
     pname = "steam-database";
-    version = "4.33";
+    version = "4.34";
     addonId = "firefox-extension@steamdb.info";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4704123/steam_database-4.33.xpi";
-    sha256 = "7a7a0692e9306ec1b4eaf21bb4acbaf0d0b1f6a6e9acdca40903df03fd91f74f";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4803730/steam_database-4.34.xpi";
+    sha256 = "b811d2c8c243ccf58579699e8153b1e24c3acaeac13c26e97daa232c5b0b4bb2";
     meta = with lib; {
       homepage = "https://steamdb.info/";
       description = "Adds SteamDB links and new features on the Steam store and community. View lowest game prices and stats.";
+      license = licenses.bsd2;
       mozPermissions = [
         "storage"
         "https://steamdb.info/*"
@@ -1567,11 +1568,11 @@
         "https://steamcommunity.com/id/*/gamecards/*"
         "https://steamcommunity.com/profiles/*/gamecards/*"
         "https://steamcommunity.com/market/multibuy*"
-        "https://steamcommunity.com/market/*"
         "https://steamcommunity.com/games/*"
         "https://steamcommunity.com/sharedfiles/*"
         "https://steamcommunity.com/workshop/*"
         "https://steamcommunity.com/linkfilter/*"
+        "https://steamcommunity.com/market/*"
         "https://steamcommunity.com/tradingcards/boostercreator*"
       ];
       platforms = platforms.all;

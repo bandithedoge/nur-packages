@@ -14,6 +14,8 @@ See [LIST.md](LIST.md) for a full list of packages.
 
   ```nix
   {
+    withFoo ? true, # package-specific configuration options
+
     sources,
 
     lib,

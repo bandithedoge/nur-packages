@@ -12,10 +12,12 @@ stdenv.mkDerivation {
 
   nativeBuildInputs = [ juceCmakeHook ];
 
-  meta = with lib; {
+  meta = {
     description = "Convolution reverb with pre and post modulation";
     homepage = "https://github.com/tiagolr/reevr";
-    license = licenses.gpl3Plus;
-    platforms = platforms.linux;
+    license = lib.licenses.gpl3Plus;
+    platforms = lib.platforms.linux;
+    mainProgram = "REEV-R";
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

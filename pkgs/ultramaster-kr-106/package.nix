@@ -12,10 +12,16 @@ stdenv.mkDerivation {
 
   nativeBuildInputs = [ juceCmakeHook ];
 
-  meta = with lib; {
+  postInstall = ''
+    mv "$out/bin/Ultramaster KR-106" $out/bin/KR-106
+  '';
+
+  meta = {
     description = "Synthesizer plugin emulating the Roland Juno-6, Juno-60, and Juno-106, built with JUCE";
     homepage = "https://kayrock.org/kr106";
-    license = licenses.gpl3Plus;
-    platforms = platforms.linux;
+    license = lib.licenses.gpl3Plus;
+    platforms = lib.platforms.linux;
+    mainProgram = "KR-106";
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

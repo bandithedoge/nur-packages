@@ -31,11 +31,13 @@ stdenv.mkDerivation {
       $out/bin/Polarity-MD
   '';
 
-  meta = with lib; {
+  meta = {
     description = "Four-band dynamics with upward + downward compression, per-band clipping";
     homepage = "https://polarity.productions/polarity-md/";
-    license = licenses.unfree;
+    license = lib.licenses.unfree;
     platforms = [ "x86_64-linux" ];
-    sourceProvenance = [ sourceTypes.binaryNativeCode ];
+    sourceProvenance = [ lib.sourceTypes.binaryNativeCode ];
+    mainProgram = "Polarity-MD";
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

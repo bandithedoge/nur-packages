@@ -16,10 +16,12 @@ stdenv.mkDerivation {
 
   cmakeFlags = [ "-DFETCHCONTENT_SOURCE_DIR_CATCH2=${sources.catch2.src}" ];
 
-  meta = with lib; {
+  meta = {
     description = "An open source compressor meant to pump and breathe";
     homepage = "https://github.com/tote-bag-labs/valentine";
-    license = licenses.gpl3Plus;
-    platforms = platforms.linux;
+    license = lib.licenses.gpl3Plus;
+    platforms = lib.platforms.linux;
+    mainProgram = "Valentine";
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

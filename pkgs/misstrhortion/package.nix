@@ -25,10 +25,11 @@ stdenv.mkDerivation {
     libx11
   ];
 
-  meta = with lib; {
+  meta = {
     description = "DPF port of Misstortion";
     homepage = "https://github.com/bandithedoge/misstrhortion";
-    license = licenses.gpl3Plus;
-    platforms = platforms.linux;
+    license = lib.licenses.gpl3Plus;
+    platforms = lib.platforms.linux;
+    mainProgram = "Misstrhortion";
   };
 }

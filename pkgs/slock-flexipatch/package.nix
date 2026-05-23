@@ -28,10 +28,12 @@ stdenv.mkDerivation {
 
   makeFlags = [ "CC:=$(CC)" ];
 
-  meta = with lib; {
+  meta = {
     description = "An slock build with preprocessor directives to decide which patches to include during build time";
     homepage = "https://github.com/bakkeby/slock-flexipatch";
-    license = licenses.mit;
-    platforms = platforms.linux;
+    license = lib.licenses.mit;
+    platforms = lib.platforms.linux;
+    mainProgram = "slock";
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

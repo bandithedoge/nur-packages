@@ -23,16 +23,18 @@ stdenv.mkDerivation {
     runHook postBuild
   '';
 
-  meta = with lib; {
+  meta = {
     description = "Fast, Scalable, Flexible Static Site Generator (SSG)";
     homepage = "https://zine-ssg.io";
-    license = licenses.mit;
+    license = lib.licenses.mit;
     platforms = [
       "x86_64-linux"
       "aarch64-linux"
       "x86_64-darwin"
       "aarch64-darwin"
     ];
-    sourceProvenance = [ sourceTypes.binaryNativeCode ];
+    sourceProvenance = [ lib.sourceTypes.binaryNativeCode ];
+    mainProgram = "zine-bin";
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

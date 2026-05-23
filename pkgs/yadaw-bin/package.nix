@@ -43,14 +43,16 @@ stdenv.mkDerivation {
     runHook postBuild
   '';
 
-  meta = with lib; {
+  meta = {
     description = "Sfx creation tool and midi player that doesn't crash often";
     homepage = "https://github.com/mlm-games/yadaw";
-    license = licenses.agpl3Plus;
+    license = lib.licenses.agpl3Plus;
     platforms = [
       "x86_64-linux"
       "aarch64-linux"
     ];
-    sourceProvenance = [ sourceTypes.binaryNativeCode ];
+    sourceProvenance = [ lib.sourceTypes.binaryNativeCode ];
+    mainProgram = "yadaw";
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

@@ -60,10 +60,11 @@ stdenv.mkDerivation {
 
   dontUseJuceInstall = true;
 
-  meta = with lib; {
+  meta = {
     description = "Emulation of classic VA synths of the late 90s/2000s that are based on Motorola 56300 family DSPs";
     homepage = "https://dsp56300.wordpress.com/";
-    license = licenses.gpl3Plus;
-    platforms = platforms.linux;
+    license = lib.licenses.gpl3Plus;
+    platforms = lib.platforms.linux;
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

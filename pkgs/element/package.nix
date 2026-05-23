@@ -50,10 +50,12 @@ clangStdenv.mkDerivation {
 
   passthru._ignoreDupe = true;
 
-  meta = with lib; {
+  meta = {
     description = "A modular AU/LV2/VST/VST3 audio plugin host";
     homepage = "https://kushview.net/element/";
-    license = licenses.gpl3Only;
-    platforms = platforms.linux;
+    license = lib.licenses.gpl3Only;
+    platforms = lib.platforms.linux;
+    mainProgram = "element";
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

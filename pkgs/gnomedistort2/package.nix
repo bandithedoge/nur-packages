@@ -13,10 +13,11 @@ stdenv.mkDerivation {
     juceCmakeHook
   ];
 
-  meta = with lib; {
+  meta = {
     description = "Weird & brutal distortion VST plugin";
     homepage = "https://github.com/crowbait/GnomeDistort-2";
-    license = licenses.gpl3Plus;
-    platforms = platforms.linux;
+    license = lib.licenses.gpl3Plus;
+    platforms = lib.platforms.linux;
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

@@ -45,10 +45,12 @@ stdenv.mkDerivation {
 
   installFlags = [ "PREFIX=$(out)" ];
 
-  meta = with lib; {
+  meta = {
     description = "An st build with preprocessor directives to decide which patches to include during build time";
     homepage = "https://github.com/bakkeby/st-flexipatch";
-    license = licenses.mit;
-    platforms = platforms.linux;
+    license = lib.licenses.mit;
+    platforms = lib.platforms.linux;
+    mainProgram = "st";
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

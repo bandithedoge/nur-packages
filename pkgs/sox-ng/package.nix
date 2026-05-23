@@ -84,10 +84,12 @@ stdenv.mkDerivation {
   enableParallelBuilding = true;
   hardeningDisable = [ "format" ];
 
-  meta = with lib; {
+  meta = {
     description = "Another Swiss Army Knife of sound processing utilities";
     homepage = "https://codeberg.org/sox_ng/sox_ng";
-    license = licenses.gpl2Plus;
-    platforms = platforms.unix;
+    license = lib.licenses.gpl2Plus;
+    platforms = lib.platforms.unix;
+    mainProgram = "sox_ng";
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

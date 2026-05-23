@@ -38,11 +38,13 @@ stdenv.mkDerivation rec {
     runHook postBuild
   '';
 
-  meta = with lib; {
+  meta = {
     description = "Flexible general-purpose audio compressor with a touch of citrus";
     homepage = "https://github.com/mzuther/Squeezer";
-    license = licenses.gpl3Plus;
+    license = lib.licenses.gpl3Plus;
     platforms = [ "x86_64-linux" ];
-    sourceProvenance = [ sourceTypes.binaryNativeCode ];
+    sourceProvenance = [ lib.sourceTypes.binaryNativeCode ];
+    mainProgram = "squeezer";
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

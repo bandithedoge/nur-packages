@@ -39,7 +39,7 @@ stdenv.mkDerivation {
     runHook preInstall
 
     mkdir -p $out/{bin,lib/clap,lib/vst3}
-    cp "two-filters_assets/Two Filters" $out/bin/SixSines
+    cp "two-filters_assets/Two Filters" $out/bin/TwoFilters
     cp "two-filters_assets/Two Filters.clap" $out/lib/clap
     cp -r "two-filters_assets/Two Filters.vst3" $out/lib/vst3
 
@@ -48,4 +48,13 @@ stdenv.mkDerivation {
 
   SOURCE_DATE_EPOCH =
     lib.toInt (lib.elemAt (lib.splitString "-" sources.two-filters.date) 0) * 365 * 24 * 60 * 60;
+
+  meta = {
+    description = "Two Filters, Two Step Sequencers, and some fixed mod paths";
+    homepage = "https://github.com/baconpaul/two-filters";
+    license = lib.licenses.mit;
+    platforms = lib.platforms.linux;
+    mainProgram = "TwoFilters";
+    maintainers = [ lib.maintainers.bandithedoge ];
+  };
 }

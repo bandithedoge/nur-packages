@@ -38,11 +38,12 @@ stdenv.mkDerivation {
 
   dontWrapQtApps = true;
 
-  meta = with lib; {
+  meta = {
     description = "MOD Audio for the desktop";
     homepage = "https://mod.audio/desktop/";
-    license = licenses.agpl3Plus;
+    license = lib.licenses.agpl3Plus;
     platforms = [ "x86_64-linux" ];
-    sourceProvenance = [ sourceTypes.binaryNativeCode ];
+    sourceProvenance = [ lib.sourceTypes.binaryNativeCode ];
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

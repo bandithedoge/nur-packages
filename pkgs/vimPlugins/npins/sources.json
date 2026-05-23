@@ -48,9 +48,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "a62e1083a3cfe8b6b206e7d3d33a51091df25357",
-      "url": "https://github.com/L3MON4D3/LuaSnip/archive/a62e1083a3cfe8b6b206e7d3d33a51091df25357.tar.gz",
-      "hash": "sha256-faK+6aY+RDZ3imFfPIDL3ZMurDjq8NIHMPxmp4y6FdI="
+      "revision": "0abc8f390b278c3b4aabc4c004ac8a088b65cf24",
+      "url": "https://github.com/L3MON4D3/LuaSnip/archive/0abc8f390b278c3b4aabc4c004ac8a088b65cf24.tar.gz",
+      "hash": "sha256-5Dm5maKjGcduew/cUZTWeyyVEgpZ0OpoVdMRYEw8Li0="
     },
     "better-comments.nvim": {
       "type": "Git",
@@ -412,9 +412,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "4ae5d4582880b9bb061bc0572d2af6b1612e6217",
-      "url": "https://github.com/sudo-tee/opencode.nvim/archive/4ae5d4582880b9bb061bc0572d2af6b1612e6217.tar.gz",
-      "hash": "sha256-GDb0ZVJ+tZSt/+9nNhKMwiTQ2a/6NZB+YOzEkQDrxBI="
+      "revision": "fc8440d219ea6cee71ab2680b101248b1301442a",
+      "url": "https://github.com/sudo-tee/opencode.nvim/archive/fc8440d219ea6cee71ab2680b101248b1301442a.tar.gz",
+      "hash": "sha256-XU2Co6U99NgsDqPZ52D6Bcqpn6rD1kma0tPeg9DVhlM="
     },
     "org-bullets.nvim": {
       "type": "Git",

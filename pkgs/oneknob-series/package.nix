@@ -21,7 +21,7 @@ stdenv.mkDerivation {
   installPhase = ''
     runHook preInstall
 
-    mkdir -p $out/{bin,lib/clap,lib/lv2,lib/vst3,lib/vst,lib/ladspa}
+    mkdir -p $out/lib/{clap,lv2,vst3,vst,ladspa}
     cp bin/*.clap $out/lib/clap
     cp -r bin/*.lv2 $out/lib/lv2
     cp -r bin/*.vst3 $out/lib/vst3
@@ -33,10 +33,11 @@ stdenv.mkDerivation {
 
   enableParallelBuilding = true;
 
-  meta = with lib; {
+  meta = {
     description = "Collection of stupidly simple but well-polished and visually pleasing audio plugins";
     homepage = "https://github.com/DISTRHO/OneKnob-Series";
-    license = licenses.gpl2;
-    platforms = platforms.linux;
+    license = lib.licenses.gpl2;
+    platforms = lib.platforms.linux;
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

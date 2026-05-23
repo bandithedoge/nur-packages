@@ -43,10 +43,12 @@ stdenv.mkDerivation {
     runHook postInstall
   '';
 
-  meta = with lib; {
+  meta = {
     description = "An Amp Model Player leveraging AI";
     homepage = "https://aida-x.cc/";
-    license = licenses.gpl3Plus;
-    platforms = platforms.linux;
+    license = lib.licenses.gpl3Plus;
+    platforms = lib.platforms.linux;
+    mainProgram = "AIDA-X";
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }

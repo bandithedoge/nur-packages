@@ -20,10 +20,11 @@ stdenv.mkDerivation {
     patchShebangs dpf/utils/generate-ttl.sh
   '';
 
-  meta = with lib; {
+  meta = {
     description = "Versatile stereo chorus, multi-format audio effect plugin";
     homepage = "https://github.com/SpotlightKid/cchorus";
-    license = licenses.mit;
-    platforms = platforms.linux;
+    license = lib.licenses.mit;
+    platforms = lib.platforms.linux;
+    maintainers = [ lib.maintainers.bandithedoge ];
   };
 }
