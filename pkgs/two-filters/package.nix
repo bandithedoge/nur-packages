@@ -53,7 +53,7 @@ stdenv.mkDerivation {
     description = "Two Filters, Two Step Sequencers, and some fixed mod paths";
     homepage = "https://github.com/baconpaul/two-filters";
     license = lib.licenses.mit;
-    platforms = lib.platforms.mit;
+    platforms = lib.platforms.linux;
     mainProgram = "TwoFilters";
     maintainers = [ lib.maintainers.bandithedoge ];
   };
