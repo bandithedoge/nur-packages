@@ -58,6 +58,7 @@
   ];
   uhhyou = [ "uhhyou-plugins" ];
   uzdoom = [ "uzdoom" ];
+  vgmtrans = [ "vgmtrans" ];
   vimPlugins =
     lib.genAttrs
       [
