@@ -9,13 +9,11 @@
   jdrummer = {
     pname = "jdrummer";
     version = "d9a1d7367325b5aa6e64a3e63c88b8e0f13c51da";
-    src = fetchgit {
-      url = "https://github.com/jmantra/jdrummer";
+    src = fetchFromGitHub {
+      owner = "jmantra";
+      repo = "jdrummer";
       rev = "d9a1d7367325b5aa6e64a3e63c88b8e0f13c51da";
       fetchSubmodules = false;
-      deepClone = false;
-      leaveDotGit = false;
-      sparseCheckout = [ ];
       sha256 = "sha256-INnSlPGUS5Gm+Z7Es/9n9thYEVjCL1mfqwWfrfwSA3k=";
     };
     date = "2026-05-19";
@@ -23,13 +21,11 @@
   juce = {
     pname = "juce";
     version = "7.0.9";
-    src = fetchgit {
-      url = "https://github.com/juce-framework/JUCE.git";
+    src = fetchFromGitHub {
+      owner = "juce-framework";
+      repo = "JUCE";
       rev = "7.0.9";
       fetchSubmodules = false;
-      deepClone = false;
-      leaveDotGit = false;
-      sparseCheckout = [ ];
       sha256 = "sha256-k8cNTPH9OgOav4dsSLqrd5PlJ1rqO0PLt6Lwmumc2Gg=";
     };
   };

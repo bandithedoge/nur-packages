@@ -9,13 +9,11 @@
   clap-juce-extensions = {
     pname = "clap-juce-extensions";
     version = "e8de9e8571626633b8541a54c2406fccc4272767";
-    src = fetchgit {
-      url = "https://github.com/free-audio/clap-juce-extensions";
+    src = fetchFromGitHub {
+      owner = "free-audio";
+      repo = "clap-juce-extensions";
       rev = "e8de9e8571626633b8541a54c2406fccc4272767";
       fetchSubmodules = true;
-      deepClone = false;
-      leaveDotGit = false;
-      sparseCheckout = [ ];
       sha256 = "sha256-dgKBa+7KXa6hI/zAdg762an6URGtNyUqMtXglRpMtGY=";
     };
     date = "2026-04-24";
@@ -34,13 +32,11 @@
   unplugred = {
     pname = "unplugred";
     version = "2d988fcaa4aa96a6ee3e049b7f986a51e61c555e";
-    src = fetchgit {
-      url = "https://github.com/unplugred/vsts";
+    src = fetchFromGitHub {
+      owner = "unplugred";
+      repo = "vsts";
       rev = "2d988fcaa4aa96a6ee3e049b7f986a51e61c555e";
       fetchSubmodules = false;
-      deepClone = false;
-      leaveDotGit = false;
-      sparseCheckout = [ ];
       sha256 = "sha256-TcQ1GZvbbfpl2+nho2s85Se0h9mdLbEvO+ydbSPvX1I=";
     };
     date = "2026-05-24";

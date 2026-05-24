@@ -9,39 +9,33 @@
   matrix = {
     pname = "matrix";
     version = "82ad90573e0e5e1ccb2cf1e669a5861bd6db351c";
-    src = fetchgit {
-      url = "https://github.com/TheOneWithTheBraid/matrix-dart-sdk.git";
+    src = fetchFromGitHub {
+      owner = "TheOneWithTheBraid";
+      repo = "matrix-dart-sdk";
       rev = "82ad90573e0e5e1ccb2cf1e669a5861bd6db351c";
       fetchSubmodules = false;
-      deepClone = false;
-      leaveDotGit = false;
-      sparseCheckout = [ ];
       sha256 = "sha256-w/QB5nYJ9Lh77TcYKEN/DnNQjWfp+9NX0dwQ9GOzWE8=";
     };
   };
   media_kit = {
     pname = "media_kit";
     version = "75ed92c5c61d38beaff5d1bf1f4a3fd7bf3edaac";
-    src = fetchgit {
-      url = "https://github.com/TheOneWithTheBraid/media-kit.git";
+    src = fetchFromGitHub {
+      owner = "TheOneWithTheBraid";
+      repo = "media-kit";
       rev = "75ed92c5c61d38beaff5d1bf1f4a3fd7bf3edaac";
       fetchSubmodules = false;
-      deepClone = false;
-      leaveDotGit = false;
-      sparseCheckout = [ ];
       sha256 = "sha256-3VtvM6brOhhx/lgPAzPcxe+I6zB0x7UWIhcEmk9krFc=";
     };
   };
   media_kit_libs_android_video = {
     pname = "media_kit_libs_android_video";
     version = "bb17d68ca43443abf68171da1aa703f2ba90a658";
-    src = fetchgit {
-      url = "https://github.com/Predidit/media-kit.git";
+    src = fetchFromGitHub {
+      owner = "Predidit";
+      repo = "media-kit";
       rev = "bb17d68ca43443abf68171da1aa703f2ba90a658";
       fetchSubmodules = false;
-      deepClone = false;
-      leaveDotGit = false;
-      sparseCheckout = [ ];
       sha256 = "sha256-nNKVF0kYOfP7ffqa/WPwATjaleB1QaJcT0aFMO7r+90=";
     };
   };

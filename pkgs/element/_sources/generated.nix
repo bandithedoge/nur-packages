@@ -9,13 +9,11 @@
   element = {
     pname = "element";
     version = "2b5c116e4cd89179fc944db8be9473c8404946a1";
-    src = fetchgit {
-      url = "https://github.com/kushview/element";
+    src = fetchFromGitHub {
+      owner = "kushview";
+      repo = "element";
       rev = "2b5c116e4cd89179fc944db8be9473c8404946a1";
       fetchSubmodules = true;
-      deepClone = false;
-      leaveDotGit = false;
-      sparseCheckout = [ ];
       sha256 = "sha256-Wv0kQTFp2j84vGxpFj84jMWkeXosD/LAy60tjNkKnD0=";
     };
     date = "2026-05-17";

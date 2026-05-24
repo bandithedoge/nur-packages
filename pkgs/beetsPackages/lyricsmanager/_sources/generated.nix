@@ -9,13 +9,11 @@
   beets-lyricsmanager = {
     pname = "beets-lyricsmanager";
     version = "66ced5c782135ef6e476842854935b3babf9797d";
-    src = fetchgit {
-      url = "https://github.com/zytx/beets-lyrics-manager.git";
+    src = fetchFromGitHub {
+      owner = "zytx";
+      repo = "beets-lyrics-manager";
       rev = "66ced5c782135ef6e476842854935b3babf9797d";
       fetchSubmodules = false;
-      deepClone = false;
-      leaveDotGit = false;
-      sparseCheckout = [ ];
       sha256 = "sha256-mXp9ebOYVrS0inm6G26Azc01qLXx1BN5Mxf9PlsUxig=";
     };
     date = "2025-12-16";

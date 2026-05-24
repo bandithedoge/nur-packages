@@ -11,11 +11,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
+            "owner": "somepaulo",
+            "repo": "MoreWaita",
             "rev": "a163f61f883225e7bc85c9bbd44d83ec696c87ba",
             "sha256": "sha256-OLJJLwb/57wMUyzFdNiuc2W8Ctbgpn/8vnn0PnawxAk=",
             "sparseCheckout": [],
-            "type": "git",
-            "url": "https://github.com/somepaulo/MoreWaita"
+            "type": "github"
         },
         "version": "a163f61f883225e7bc85c9bbd44d83ec696c87ba"
     }

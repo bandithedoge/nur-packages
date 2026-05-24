@@ -9,13 +9,11 @@
   sapphire-plugins = {
     pname = "sapphire-plugins";
     version = "2aa07b6ffd6b92d3058efdb5ff7a57fb8d7f25e7";
-    src = fetchgit {
-      url = "https://github.com/baconpaul/sapphire-plugins";
+    src = fetchFromGitHub {
+      owner = "baconpaul";
+      repo = "sapphire-plugins";
       rev = "2aa07b6ffd6b92d3058efdb5ff7a57fb8d7f25e7";
       fetchSubmodules = true;
-      deepClone = false;
-      leaveDotGit = false;
-      sparseCheckout = [ ];
       sha256 = "sha256-zobZXe+yM1UFAg4T1GqG7oUk/phYpxivBrX2eJwk6TE=";
     };
     date = "2025-01-27";

@@ -1,6 +1,6 @@
 [punkott]
 src.git = "https://github.com/gmoican/PunkOTT.git"
-fetch.git = "https://github.com/gmoican/PunkOTT.git"
+fetch.github = "gmoican/PunkOTT"
 git.fetchSubmodules = true
 
 [catch2]

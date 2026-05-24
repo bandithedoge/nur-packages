@@ -11,11 +11,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
+            "owner": "jpt",
+            "repo": "barlow",
             "rev": "2ca33194d753691df200902b9073f917ad4d54d1",
             "sha256": "sha256-X7bPcL6/KxpDSoa5YZkwoDGsEodw8hbgt6dxMh+VlaI=",
             "sparseCheckout": [],
-            "type": "git",
-            "url": "https://github.com/jpt/barlow.git"
+            "type": "github"
         },
         "version": "2ca33194d753691df200902b9073f917ad4d54d1"
     }

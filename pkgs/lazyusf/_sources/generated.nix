@@ -9,13 +9,11 @@
   lazyusf = {
     pname = "lazyusf";
     version = "17a078d3a8bb7762a33f1db4465f250947bca67a";
-    src = fetchgit {
-      url = "https://github.com/derselbst/lazyusf";
+    src = fetchFromGitHub {
+      owner = "derselbst";
+      repo = "lazyusf";
       rev = "17a078d3a8bb7762a33f1db4465f250947bca67a";
       fetchSubmodules = false;
-      deepClone = false;
-      leaveDotGit = false;
-      sparseCheckout = [ ];
       sha256 = "sha256-nAMDluO86goZTNuqItnNv5501KVS/UmlrhWdcL+H/p8=";
     };
     date = "2022-04-29";

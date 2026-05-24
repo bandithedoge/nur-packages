@@ -11,11 +11,12 @@
             "fetchSubmodules": true,
             "leaveDotGit": false,
             "name": null,
+            "owner": "free-audio",
+            "repo": "clap-juce-extensions",
             "rev": "e8de9e8571626633b8541a54c2406fccc4272767",
             "sha256": "sha256-dgKBa+7KXa6hI/zAdg762an6URGtNyUqMtXglRpMtGY=",
             "sparseCheckout": [],
-            "type": "git",
-            "url": "https://github.com/free-audio/clap-juce-extensions.git"
+            "type": "github"
         },
         "version": "e8de9e8571626633b8541a54c2406fccc4272767"
     },
@@ -52,11 +53,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
+            "owner": "juce-framework",
+            "repo": "JUCE",
             "rev": "51d11a2be6d5c97ccf12b4e5e827006e19f0555a",
             "sha256": "sha256-iAueT+yHwUUHOzqfK5zXEZQ0GgOKJ9q9TyRrVfWdewc=",
             "sparseCheckout": [],
-            "type": "git",
-            "url": "https://github.com/juce-framework/JUCE.git"
+            "type": "github"
         },
         "version": "51d11a2be6d5c97ccf12b4e5e827006e19f0555a"
     }

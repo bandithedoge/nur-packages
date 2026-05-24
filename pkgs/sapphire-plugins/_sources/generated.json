@@ -11,11 +11,12 @@
             "fetchSubmodules": true,
             "leaveDotGit": false,
             "name": null,
+            "owner": "baconpaul",
+            "repo": "sapphire-plugins",
             "rev": "2aa07b6ffd6b92d3058efdb5ff7a57fb8d7f25e7",
             "sha256": "sha256-zobZXe+yM1UFAg4T1GqG7oUk/phYpxivBrX2eJwk6TE=",
             "sparseCheckout": [],
-            "type": "git",
-            "url": "https://github.com/baconpaul/sapphire-plugins"
+            "type": "github"
         },
         "version": "2aa07b6ffd6b92d3058efdb5ff7a57fb8d7f25e7"
     },

@@ -9,13 +9,11 @@
   nu-plugin-mime = {
     pname = "nu-plugin-mime";
     version = "7dd4ae2bf757f1732d5e0a4d9e615bc0586b09d8";
-    src = fetchgit {
-      url = "https://github.com/kik4444/nu_plugin_mime.git";
+    src = fetchFromGitHub {
+      owner = "kik4444";
+      repo = "nu_plugin_mime";
       rev = "7dd4ae2bf757f1732d5e0a4d9e615bc0586b09d8";
       fetchSubmodules = false;
-      deepClone = false;
-      leaveDotGit = false;
-      sparseCheckout = [ ];
       sha256 = "sha256-ZlUCM105Bfe7QsWMyDSOoVT/WXBJTKdFjvEdPc2KD0w=";
     };
     cargoLock."Cargo.lock" = {

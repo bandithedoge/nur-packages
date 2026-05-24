@@ -20,13 +20,11 @@
   vamp-plugin-sdk = {
     pname = "vamp-plugin-sdk";
     version = "d7ceb7d1d490674c93d334e5378108c4328e9e05";
-    src = fetchgit {
-      url = "https://github.com/vamp-plugins/vamp-plugin-sdk.git";
+    src = fetchFromGitHub {
+      owner = "vamp-plugins";
+      repo = "vamp-plugin-sdk";
       rev = "d7ceb7d1d490674c93d334e5378108c4328e9e05";
       fetchSubmodules = false;
-      deepClone = false;
-      leaveDotGit = false;
-      sparseCheckout = [ ];
       sha256 = "sha256-CCcjHIykhaplN12GZUp9Q0EAEy5YL6ih/C+qpQmlcIM=";
     };
   };

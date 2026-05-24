@@ -9,13 +9,11 @@
   morewaita = {
     pname = "morewaita";
     version = "a163f61f883225e7bc85c9bbd44d83ec696c87ba";
-    src = fetchgit {
-      url = "https://github.com/somepaulo/MoreWaita";
+    src = fetchFromGitHub {
+      owner = "somepaulo";
+      repo = "MoreWaita";
       rev = "a163f61f883225e7bc85c9bbd44d83ec696c87ba";
       fetchSubmodules = false;
-      deepClone = false;
-      leaveDotGit = false;
-      sparseCheckout = [ ];
       sha256 = "sha256-OLJJLwb/57wMUyzFdNiuc2W8Ctbgpn/8vnn0PnawxAk=";
     };
     date = "2026-04-28";

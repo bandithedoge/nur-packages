@@ -9,13 +9,11 @@
   barlow = {
     pname = "barlow";
     version = "2ca33194d753691df200902b9073f917ad4d54d1";
-    src = fetchgit {
-      url = "https://github.com/jpt/barlow.git";
+    src = fetchFromGitHub {
+      owner = "jpt";
+      repo = "barlow";
       rev = "2ca33194d753691df200902b9073f917ad4d54d1";
       fetchSubmodules = false;
-      deepClone = false;
-      leaveDotGit = false;
-      sparseCheckout = [ ];
       sha256 = "sha256-X7bPcL6/KxpDSoa5YZkwoDGsEodw8hbgt6dxMh+VlaI=";
     };
     date = "2024-08-09";

@@ -11,11 +11,12 @@
             "fetchSubmodules": true,
             "leaveDotGit": false,
             "name": null,
+            "owner": "free-audio",
+            "repo": "clap-juce-extensions",
             "rev": "e8de9e8571626633b8541a54c2406fccc4272767",
             "sha256": "sha256-dgKBa+7KXa6hI/zAdg762an6URGtNyUqMtXglRpMtGY=",
             "sparseCheckout": [],
-            "type": "git",
-            "url": "https://github.com/free-audio/clap-juce-extensions"
+            "type": "github"
         },
         "version": "e8de9e8571626633b8541a54c2406fccc4272767"
     },
@@ -52,11 +53,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
+            "owner": "unplugred",
+            "repo": "vsts",
             "rev": "2d988fcaa4aa96a6ee3e049b7f986a51e61c555e",
             "sha256": "sha256-TcQ1GZvbbfpl2+nho2s85Se0h9mdLbEvO+ydbSPvX1I=",
             "sparseCheckout": [],
-            "type": "git",
-            "url": "https://github.com/unplugred/vsts"
+            "type": "github"
         },
         "version": "2d988fcaa4aa96a6ee3e049b7f986a51e61c555e"
     }
