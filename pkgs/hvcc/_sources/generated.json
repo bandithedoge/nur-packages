@@ -32,11 +32,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
+            "owner": "Wasted-Audio",
+            "repo": "json2daisy",
             "rev": "71e2982454d3410c5e4479c2d0dfa575a9826d17",
-            "sha256": "sha256-MKkHfM3DnASRAVsdSdWkwiJChrItgxuDwKrNEaT3nO4=",
+            "sha256": "sha256-1QKYx9gocAKKWCP9uEmuhtFWCptCd+vBlga5keBxkzY=",
             "sparseCheckout": [],
-            "type": "git",
-            "url": "https://github.com/Wasted-Audio/json2daisy"
+            "type": "github"
         },
         "version": "71e2982454d3410c5e4479c2d0dfa575a9826d17"
     }
