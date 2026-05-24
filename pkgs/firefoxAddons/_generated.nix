@@ -539,10 +539,10 @@
   };
   "indie-wiki-buddy" = buildMozillaXpiAddon {
     pname = "indie-wiki-buddy";
-    version = "3.14.5";
+    version = "3.14.6";
     addonId = "{cb31ec5d-c49a-4e5a-b240-16c767444f62}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4801726/indie_wiki_buddy-3.14.5.xpi";
-    sha256 = "beb53fe18dc9438f812eee77002c91a9835cf9c2593e41cb7216fd6eeddb5dbf";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4815321/indie_wiki_buddy-3.14.6.xpi";
+    sha256 = "ed5e9bd34eb285a51205c149b963266e490c3742a2fe9ec50211b03492bc612b";
     meta = with lib; {
       homepage = "https://getindie.wiki/";
       description = "Helping you discover quality, independent wikis!\n\nWhen visiting a Fandom wiki, Indie Wiki Buddy redirects or alerts you of independent alternatives. It also filters search engine results. BreezeWiki is also supported, to reduce clutter on Fandom.";
@@ -814,10 +814,10 @@
   };
   "material-icons-for-github" = buildMozillaXpiAddon {
     pname = "material-icons-for-github";
-    version = "1.15.0";
+    version = "1.16.1";
     addonId = "{eac6e624-97fa-4f28-9d24-c06c9b8aa713}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4816966/material_icons_for_github-1.15.0.xpi";
-    sha256 = "9c1f00ce64e153aa62f57fcd930d06a75ff5ab6e4f7a72d17286166b2d79b56e";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4819856/material_icons_for_github-1.16.1.xpi";
+    sha256 = "b8aefaef558d8a1e9759627a77343ca2fea7bb22801ab5694427135352d94ded";
     meta = with lib; {
       homepage = "https://github.com/material-extensions/material-icons-browser-extension";
       description = "Replace the file/folder icons on github file browsers with icons representing the file's type and which tool it is used by.";
@@ -1384,10 +1384,10 @@
   };
   "refined-github" = buildMozillaXpiAddon {
     pname = "refined-github";
-    version = "26.5.20";
+    version = "26.5.24";
     addonId = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4813558/refined_github-26.5.20.xpi";
-    sha256 = "c1bfc7f2461fdc3a5853b238fe155be6e099c59a45e5a579e5dbc354340f2b55";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4819673/refined_github-26.5.24.xpi";
+    sha256 = "be216e58b24ea4af52c0758294348a3324d73d092de5eb42603e5088ec954016";
     meta = with lib; {
       homepage = "https://github.com/refined-github/refined-github";
       description = "Simplifies the GitHub interface and adds many useful features.";
@@ -1580,10 +1580,10 @@
   };
   "stylus" = buildMozillaXpiAddon {
     pname = "stylus";
-    version = "2.3.23";
+    version = "2.3.24";
     addonId = "{7a7a4a92-a2a0-41d1-9fd7-1e92480d612d}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4802647/styl_us-2.3.23.xpi";
-    sha256 = "94ef5476bb0efc61d9198541e119f5b6f3d25c7a9e17e0148581baf86011b82b";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4813027/styl_us-2.3.24.xpi";
+    sha256 = "2e038b38ccd88d240f2a9e68174fc39543627bc7599c6dd0a2c90f769b11dbe4";
     meta = with lib; {
       homepage = "https://add0n.com/stylus.html";
       description = "Redesign your favorite websites with Stylus, an actively developed and community driven userstyles manager. Easily install custom themes from popular online repositories, or create, edit, and manage your own personalized CSS stylesheets.";
