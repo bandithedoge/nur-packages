@@ -9,13 +9,11 @@
   aporetic-nerd-font = {
     pname = "aporetic-nerd-font";
     version = "88ae58addaa9240cf329b389afb21338748ec749";
-    src = fetchgit {
-      url = "https://github.com/Echinoidea/Aporetic-Nerd-Font";
+    src = fetchFromGitHub {
+      owner = "Echinoidea";
+      repo = "Aporetic-Nerd-Font";
       rev = "88ae58addaa9240cf329b389afb21338748ec749";
       fetchSubmodules = false;
-      deepClone = false;
-      leaveDotGit = false;
-      sparseCheckout = [ ];
       sha256 = "sha256-wvzjwnLeaabfhjZCfGpqolalBslcI5oFAdwuQG9VbBI=";
     };
     date = "2025-10-14";

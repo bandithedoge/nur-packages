@@ -1,6 +1,6 @@
 [sapphire-plugins]
 src.git = "https://github.com/baconpaul/sapphire-plugins"
-fetch.git = "https://github.com/baconpaul/sapphire-plugins"
+fetch.github = "baconpaul/sapphire-plugins"
 git.fetchSubmodules = true
 
 [vst3sdk]

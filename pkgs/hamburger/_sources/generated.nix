@@ -9,13 +9,11 @@
   clap-juce-extensions = {
     pname = "clap-juce-extensions";
     version = "e8de9e8571626633b8541a54c2406fccc4272767";
-    src = fetchgit {
-      url = "https://github.com/free-audio/clap-juce-extensions.git";
+    src = fetchFromGitHub {
+      owner = "free-audio";
+      repo = "clap-juce-extensions";
       rev = "e8de9e8571626633b8541a54c2406fccc4272767";
       fetchSubmodules = true;
-      deepClone = false;
-      leaveDotGit = false;
-      sparseCheckout = [ ];
       sha256 = "sha256-dgKBa+7KXa6hI/zAdg762an6URGtNyUqMtXglRpMtGY=";
     };
     date = "2026-04-24";
@@ -34,13 +32,11 @@
   juce = {
     pname = "juce";
     version = "51d11a2be6d5c97ccf12b4e5e827006e19f0555a";
-    src = fetchgit {
-      url = "https://github.com/juce-framework/JUCE.git";
+    src = fetchFromGitHub {
+      owner = "juce-framework";
+      repo = "JUCE";
       rev = "51d11a2be6d5c97ccf12b4e5e827006e19f0555a";
       fetchSubmodules = false;
-      deepClone = false;
-      leaveDotGit = false;
-      sparseCheckout = [ ];
       sha256 = "sha256-iAueT+yHwUUHOzqfK5zXEZQ0GgOKJ9q9TyRrVfWdewc=";
     };
   };

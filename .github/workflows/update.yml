@@ -31,9 +31,11 @@ jobs:
 
       - name: Restore cache
         id: cache-restore
-        uses: nix-community/cache-nix-action/restore@v7
+        uses: nix-community/cache-nix-action@v7
         with:
           primary-key: update-${{ runner.os }}
+          gc-max-store-size: 1G
+          purge: true
 
       - name: Update sources
         env:
@@ -55,14 +57,6 @@ jobs:
 
       - name: Format code
         run: nix fmt
-
-      - name: Save cache
-        uses: nix-community/cache-nix-action/save@v7
-        if: always() && steps.cache-restore.outputs.hit-primary-key != 'true'
-        with:
-          primary-key: update-${{ runner.os }}
-          gc-max-store-size: 1G
-          purge: true
 
       - name: Commit changes
         run: |

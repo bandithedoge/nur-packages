@@ -9,13 +9,11 @@
   propertree = {
     pname = "propertree";
     version = "8fac15567803e02fbc9b8de60b23288340f0f766";
-    src = fetchgit {
-      url = "https://github.com/corpnewt/ProperTree";
+    src = fetchFromGitHub {
+      owner = "corpnewt";
+      repo = "ProperTree";
       rev = "8fac15567803e02fbc9b8de60b23288340f0f766";
       fetchSubmodules = false;
-      deepClone = false;
-      leaveDotGit = false;
-      sparseCheckout = [ ];
       sha256 = "sha256-t/A1/g7aVf4GQToOKd3TP6Ps5LWNs8W3BkLUdJQcgNE=";
     };
     date = "2026-05-20";

@@ -1,4 +1,4 @@
 [element]
 src.git = "https://github.com/kushview/element"
-fetch.git = "https://github.com/kushview/element"
+fetch.github = "kushview/element"
 git.fetchSubmodules = true

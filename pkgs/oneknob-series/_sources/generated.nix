@@ -9,13 +9,11 @@
   oneknob-series = {
     pname = "oneknob-series";
     version = "0a6ed4e54c0e7380abe9191c2b1b951a3bbc87c3";
-    src = fetchgit {
-      url = "https://github.com/DISTRHO/OneKnob-Series";
+    src = fetchFromGitHub {
+      owner = "DISTRHO";
+      repo = "OneKnob-Series";
       rev = "0a6ed4e54c0e7380abe9191c2b1b951a3bbc87c3";
       fetchSubmodules = true;
-      deepClone = false;
-      leaveDotGit = false;
-      sparseCheckout = [ ];
       sha256 = "sha256-8CCMkti8Y6SmbhD/apK0LHr41Fnn5qQ99SfzolGi82E=";
     };
     date = "2025-12-21";

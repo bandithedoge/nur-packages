@@ -32,11 +32,12 @@
             "fetchSubmodules": true,
             "leaveDotGit": false,
             "name": null,
+            "owner": "gmoican",
+            "repo": "PunkOTT",
             "rev": "55e97d2f114e9db551cfa991074143f1b91ff3ed",
             "sha256": "sha256-9aC6sf+ljtkVIeo/gQ9yAz26HKJRFaYQhVVu9kqPNlo=",
             "sparseCheckout": [],
-            "type": "git",
-            "url": "https://github.com/gmoican/PunkOTT.git"
+            "type": "github"
         },
         "version": "55e97d2f114e9db551cfa991074143f1b91ff3ed"
     }

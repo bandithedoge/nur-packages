@@ -11,11 +11,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
+            "owner": "TheOneWithTheBraid",
+            "repo": "matrix-dart-sdk",
             "rev": "82ad90573e0e5e1ccb2cf1e669a5861bd6db351c",
             "sha256": "sha256-w/QB5nYJ9Lh77TcYKEN/DnNQjWfp+9NX0dwQ9GOzWE8=",
             "sparseCheckout": [],
-            "type": "git",
-            "url": "https://github.com/TheOneWithTheBraid/matrix-dart-sdk.git"
+            "type": "github"
         },
         "version": "82ad90573e0e5e1ccb2cf1e669a5861bd6db351c"
     },
@@ -31,11 +32,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
+            "owner": "TheOneWithTheBraid",
+            "repo": "media-kit",
             "rev": "75ed92c5c61d38beaff5d1bf1f4a3fd7bf3edaac",
             "sha256": "sha256-3VtvM6brOhhx/lgPAzPcxe+I6zB0x7UWIhcEmk9krFc=",
             "sparseCheckout": [],
-            "type": "git",
-            "url": "https://github.com/TheOneWithTheBraid/media-kit.git"
+            "type": "github"
         },
         "version": "75ed92c5c61d38beaff5d1bf1f4a3fd7bf3edaac"
     },
@@ -51,11 +53,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
+            "owner": "Predidit",
+            "repo": "media-kit",
             "rev": "bb17d68ca43443abf68171da1aa703f2ba90a658",
             "sha256": "sha256-nNKVF0kYOfP7ffqa/WPwATjaleB1QaJcT0aFMO7r+90=",
             "sparseCheckout": [],
-            "type": "git",
-            "url": "https://github.com/Predidit/media-kit.git"
+            "type": "github"
         },
         "version": "bb17d68ca43443abf68171da1aa703f2ba90a658"
     },

@@ -20,13 +20,11 @@
   punkott = {
     pname = "punkott";
     version = "55e97d2f114e9db551cfa991074143f1b91ff3ed";
-    src = fetchgit {
-      url = "https://github.com/gmoican/PunkOTT.git";
+    src = fetchFromGitHub {
+      owner = "gmoican";
+      repo = "PunkOTT";
       rev = "55e97d2f114e9db551cfa991074143f1b91ff3ed";
       fetchSubmodules = true;
-      deepClone = false;
-      leaveDotGit = false;
-      sparseCheckout = [ ];
       sha256 = "sha256-9aC6sf+ljtkVIeo/gQ9yAz26HKJRFaYQhVVu9kqPNlo=";
     };
     date = "2026-03-07";

@@ -6,7 +6,6 @@
   lib,
   luaPackages,
   pkg-config,
-  stdenv,
 }:
 {
   lua-dbus_proxy = luaPackages.buildLuarocksPackage {
@@ -66,7 +65,7 @@
     inherit (sources.astal-lua) pname src;
     version = sources.astal-lua.date;
 
-    knownRockspec = src + "/astal-dev-2.rockspec";
+    knownRockspec = src + "/astal-dev-3.rockspec";
 
     propagatedBuildInputs = with luaPackages; [
       argparse

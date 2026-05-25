@@ -11,11 +11,12 @@
             "fetchSubmodules": true,
             "leaveDotGit": false,
             "name": null,
+            "owner": "GuitarML",
+            "repo": "Chameleon",
             "rev": "bf0b03b4ebead33c84432e3beabe199ff0fa847e",
             "sha256": "sha256-Y8oQ3ONHeQn0v7CXR6Jln5yb+CvVR4lXQlJeOm5jsuY=",
             "sparseCheckout": [],
-            "type": "git",
-            "url": "https://github.com/GuitarML/Chameleon"
+            "type": "github"
         },
         "version": "bf0b03b4ebead33c84432e3beabe199ff0fa847e"
     },
@@ -73,11 +74,12 @@
             "fetchSubmodules": true,
             "leaveDotGit": false,
             "name": null,
+            "owner": "GuitarML",
+            "repo": "SmartGuitarAmp",
             "rev": "883944d1b46d03e6e906602db2f15cf24ecb743b",
             "sha256": "sha256-1pS3gSpvncEJqvB96PKbxlfV/Besdvd5pKs7VVfG1pE=",
             "sparseCheckout": [],
-            "type": "git",
-            "url": "https://github.com/GuitarML/SmartGuitarAmp"
+            "type": "github"
         },
         "version": "883944d1b46d03e6e906602db2f15cf24ecb743b"
     },
@@ -93,11 +95,12 @@
             "fetchSubmodules": true,
             "leaveDotGit": false,
             "name": null,
+            "owner": "GuitarML",
+            "repo": "SmartGuitarPedal",
             "rev": "fede0242a4d77fff609a49b9277151bfb63cd3cf",
             "sha256": "sha256-ZqkHF07FHlTvViJCdd/t2ge9JwpTiG/PYt2gMFJzKD8=",
             "sparseCheckout": [],
-            "type": "git",
-            "url": "https://github.com/GuitarML/SmartGuitarPedal"
+            "type": "github"
         },
         "version": "fede0242a4d77fff609a49b9277151bfb63cd3cf"
     },
@@ -113,11 +116,12 @@
             "fetchSubmodules": true,
             "leaveDotGit": false,
             "name": null,
+            "owner": "GuitarML",
+            "repo": "TS-M1N3",
             "rev": "f1cf48c3188c76d7ebf0ead1d7979f7e72f12661",
             "sha256": "sha256-ItxkbMtF2xOUb/mYL/K5s9S9GTrHlsCsAl/P0EDM3xs=",
             "sparseCheckout": [],
-            "type": "git",
-            "url": "https://github.com/GuitarML/TS-M1N3"
+            "type": "github"
         },
         "version": "f1cf48c3188c76d7ebf0ead1d7979f7e72f12661"
     }

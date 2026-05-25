@@ -1,6 +1,6 @@
 [two-filters]
 src.git = "https://github.com/baconpaul/two-filters"
-fetch.git = "https://github.com/baconpaul/two-filters"
+fetch.github = "baconpaul/two-filters"
 git.fetchSubmodules = true
 
 [vst3sdk]

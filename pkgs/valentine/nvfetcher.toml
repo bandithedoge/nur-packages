@@ -5,4 +5,4 @@ git.fetchSubmodules = true
 
 [catch2]
 src.manual = "v3.4.0"
-fetch.git = "https://github.com/catchorg/Catch2.git"
+fetch.github = "catchorg/Catch2"

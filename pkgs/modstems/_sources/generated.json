@@ -11,11 +11,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
+            "owner": "bandithedoge",
+            "repo": "modstems",
             "rev": "9a1b68176f4b10d1676723a36678788cf2790c1a",
             "sha256": "sha256-Ffp6/CWNxf2L43cvTkZE9k35pScYsMF7UXh8IG721pw=",
             "sparseCheckout": [],
-            "type": "git",
-            "url": "https://github.com/bandithedoge/modstems"
+            "type": "github"
         },
         "version": "9a1b68176f4b10d1676723a36678788cf2790c1a"
     }

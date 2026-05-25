@@ -9,13 +9,11 @@
   two-filters = {
     pname = "two-filters";
     version = "a283a8359955e11503833e8d92d9fb2a4287c700";
-    src = fetchgit {
-      url = "https://github.com/baconpaul/two-filters";
+    src = fetchFromGitHub {
+      owner = "baconpaul";
+      repo = "two-filters";
       rev = "a283a8359955e11503833e8d92d9fb2a4287c700";
       fetchSubmodules = true;
-      deepClone = false;
-      leaveDotGit = false;
-      sparseCheckout = [ ];
       sha256 = "sha256-tAJWHAaIiCzRCLj67YDo/LcXX3qKo8si3K5sQhVZUgw=";
     };
     date = "2026-02-27";

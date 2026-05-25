@@ -11,11 +11,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
+            "owner": "jmantra",
+            "repo": "jdrummer",
             "rev": "d9a1d7367325b5aa6e64a3e63c88b8e0f13c51da",
             "sha256": "sha256-INnSlPGUS5Gm+Z7Es/9n9thYEVjCL1mfqwWfrfwSA3k=",
             "sparseCheckout": [],
-            "type": "git",
-            "url": "https://github.com/jmantra/jdrummer"
+            "type": "github"
         },
         "version": "d9a1d7367325b5aa6e64a3e63c88b8e0f13c51da"
     },
@@ -31,11 +32,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
+            "owner": "juce-framework",
+            "repo": "JUCE",
             "rev": "7.0.9",
             "sha256": "sha256-k8cNTPH9OgOav4dsSLqrd5PlJ1rqO0PLt6Lwmumc2Gg=",
             "sparseCheckout": [],
-            "type": "git",
-            "url": "https://github.com/juce-framework/JUCE.git"
+            "type": "github"
         },
         "version": "7.0.9"
     }

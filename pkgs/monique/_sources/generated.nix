@@ -9,14 +9,15 @@
   monique = {
     pname = "monique";
     version = "df7d3395bce862847d40237350d0161a463dcc0d";
-    src = fetchgit {
-      url = "https://github.com/surge-synthesizer/monique-monosynth";
+    src = fetchFromGitHub {
+      owner = "surge-synthesizer";
+      repo = "monique-monosynth";
       rev = "df7d3395bce862847d40237350d0161a463dcc0d";
       fetchSubmodules = true;
       deepClone = false;
       leaveDotGit = true;
       sparseCheckout = [ ];
-      sha256 = "sha256-m+wRIo2ViGjxcNX/HyQPe1CeeWHC8Ybnx4v2yqPN6Sc=";
+      sha256 = "sha256-0DYPaTgE16+25ZU+n7oxHdts68UQcxqDjON7xAe57ek=";
     };
     date = "2024-07-30";
   };
