@@ -21,7 +21,7 @@ def main [
       #   platforms = [];
       #   sourceProvenance = [];
       #   mainProgram = "";
-      #   maintainers = [];
+      #   maintainers = [ lib.maintainers.bandithedoge ];
       # };
     }" | nixfmt | save $"pkgs/($name)/package.nix"
     print $"created new package at pkgs/($name)"

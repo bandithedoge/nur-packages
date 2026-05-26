@@ -1,0 +1,23 @@
+{
+    "astal-niri": {
+        "cargoLock": null,
+        "date": "2025-12-10",
+        "extract": null,
+        "name": "astal-niri",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "sameoldlab",
+            "repo": "astal",
+            "rev": "8ebaca7f913ea2c1af48a5adb424a0122d4a8cb1",
+            "sha256": "sha256-4WAab6GmBTjpkm1I6vaWAiFdnuDCo7wMXLegGCXbuSs=",
+            "sparseCheckout": [],
+            "type": "github"
+        },
+        "version": "8ebaca7f913ea2c1af48a5adb424a0122d4a8cb1"
+    }
+}
