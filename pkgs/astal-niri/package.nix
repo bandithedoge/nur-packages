@@ -21,7 +21,6 @@ astal.buildAstalModule.override
     meta = {
       description = "IPC client for Niri";
       homepage = "https://github.com/sameoldlab/astal";
-      inherit (astal.meta) license platforms;
       mainProgram = "astal-niri";
       maintainers = [ lib.maintainers.bandithedoge ];
     };
