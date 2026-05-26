@@ -8,15 +8,15 @@
 {
   jdrummer = {
     pname = "jdrummer";
-    version = "d9a1d7367325b5aa6e64a3e63c88b8e0f13c51da";
+    version = "c44da269903c217300ae73ba984f2ce3c657ec85";
     src = fetchFromGitHub {
       owner = "jmantra";
       repo = "jdrummer";
-      rev = "d9a1d7367325b5aa6e64a3e63c88b8e0f13c51da";
+      rev = "c44da269903c217300ae73ba984f2ce3c657ec85";
       fetchSubmodules = false;
-      sha256 = "sha256-INnSlPGUS5Gm+Z7Es/9n9thYEVjCL1mfqwWfrfwSA3k=";
+      sha256 = "sha256-17nKiZpw9/if9NNKuiIum5UeN1apAGVm8xz5mLUqabU=";
     };
-    date = "2026-05-19";
+    date = "2026-05-25";
   };
   juce = {
     pname = "juce";

@@ -412,9 +412,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "99f26ffaf28e95a9f94426deaecf81af88ec1e0b",
-      "url": "https://github.com/sudo-tee/opencode.nvim/archive/99f26ffaf28e95a9f94426deaecf81af88ec1e0b.tar.gz",
-      "hash": "sha256-8IR/Nn4kKE832ADnHwsO3gd+QBCG8YomMhwFS61hM5I="
+      "revision": "3798e7f594c04112fb4ea6f9754520b959c5ed2e",
+      "url": "https://github.com/sudo-tee/opencode.nvim/archive/3798e7f594c04112fb4ea6f9754520b959c5ed2e.tar.gz",
+      "hash": "sha256-5ydT+QoDmZrHbdX3l3KNflS+LqB2/c2xoZBEWPmEj6s="
     },
     "org-bullets.nvim": {
       "type": "Git",
