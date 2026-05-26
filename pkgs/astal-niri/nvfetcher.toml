@@ -1,0 +1,4 @@
+[astal-niri]
+src.git = "https://github.com/sameoldlab/astal.git"
+src.branch = "feat/niri"
+fetch.github = "sameoldlab/astal"
