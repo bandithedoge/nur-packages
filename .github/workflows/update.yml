@@ -30,7 +30,6 @@ jobs:
             accept-flake-config = true
 
       - name: Restore cache
-        id: cache-restore
         uses: nix-community/cache-nix-action@v7
         with:
           primary-key: update-${{ runner.os }}

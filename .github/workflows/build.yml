@@ -37,10 +37,11 @@ jobs:
 
       - name: Restore cache
         if: ${{ !matrix.cacheable }}
-        id: cache-restore
-        uses: nix-community/cache-nix-action/restore@v7
+        uses: nix-community/cache-nix-action@v7
         with:
           primary-key: build-${{ runner.os }}
+          gc-max-store-size: 8G
+          purge: true
 
       - name: Build cacheable packages
         if: ${{ matrix.cacheable }}
@@ -65,14 +66,6 @@ jobs:
             --skip-cached \
             --result-file result.xml \
             --result-format junit
-
-      - name: Save cache
-        if: ${{ !matrix.cacheable && always() && steps.cache-restore.outputs.hit-primary-key != 'true' }}
-        uses: nix-community/cache-nix-action/save@v7
-        with:
-          primary-key: build-${{ runner.os }}
-          gc-max-store-size: 8G
-          purge: true
 
       - name: Build summary
         uses: test-summary/action@v2
