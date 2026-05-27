@@ -13,12 +13,12 @@
             "name": null,
             "owner": "jmantra",
             "repo": "jdrummer",
-            "rev": "c44da269903c217300ae73ba984f2ce3c657ec85",
-            "sha256": "sha256-17nKiZpw9/if9NNKuiIum5UeN1apAGVm8xz5mLUqabU=",
+            "rev": "8bd9842a954cf4cb000639dcbbf3d97b2b391afe",
+            "sha256": "sha256-vxY5YEzYbTGGT+wZuq8vB0/i1vxSJFReAxJgMTtOlKg=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "c44da269903c217300ae73ba984f2ce3c657ec85"
+        "version": "8bd9842a954cf4cb000639dcbbf3d97b2b391afe"
     },
     "juce": {
         "cargoLock": null,

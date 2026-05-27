@@ -8,13 +8,13 @@
 {
   jdrummer = {
     pname = "jdrummer";
-    version = "c44da269903c217300ae73ba984f2ce3c657ec85";
+    version = "8bd9842a954cf4cb000639dcbbf3d97b2b391afe";
     src = fetchFromGitHub {
       owner = "jmantra";
       repo = "jdrummer";
-      rev = "c44da269903c217300ae73ba984f2ce3c657ec85";
+      rev = "8bd9842a954cf4cb000639dcbbf3d97b2b391afe";
       fetchSubmodules = false;
-      sha256 = "sha256-17nKiZpw9/if9NNKuiIum5UeN1apAGVm8xz5mLUqabU=";
+      sha256 = "sha256-vxY5YEzYbTGGT+wZuq8vB0/i1vxSJFReAxJgMTtOlKg=";
     };
     date = "2026-05-25";
   };
