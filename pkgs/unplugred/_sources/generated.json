@@ -43,7 +43,7 @@
     },
     "unplugred": {
         "cargoLock": null,
-        "date": "2026-05-24",
+        "date": "2026-05-26",
         "extract": null,
         "name": "unplugred",
         "passthru": null,
@@ -55,11 +55,11 @@
             "name": null,
             "owner": "unplugred",
             "repo": "vsts",
-            "rev": "2d988fcaa4aa96a6ee3e049b7f986a51e61c555e",
-            "sha256": "sha256-TcQ1GZvbbfpl2+nho2s85Se0h9mdLbEvO+ydbSPvX1I=",
+            "rev": "9d60608908f945b00148d80be9207a74ff9c1438",
+            "sha256": "sha256-qoJvWYjua7rxbrh5Fz+SNhqTsamPfw5aozPmvFClT9E=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "2d988fcaa4aa96a6ee3e049b7f986a51e61c555e"
+        "version": "9d60608908f945b00148d80be9207a74ff9c1438"
     }
 }

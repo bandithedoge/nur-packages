@@ -13,32 +13,11 @@
             "name": null,
             "owner": "jmantra",
             "repo": "jdrummer",
-            "rev": "c44da269903c217300ae73ba984f2ce3c657ec85",
-            "sha256": "sha256-17nKiZpw9/if9NNKuiIum5UeN1apAGVm8xz5mLUqabU=",
+            "rev": "51a5540a9b85d398fa83a4c70533d685846c9661",
+            "sha256": "sha256-vxY5YEzYbTGGT+wZuq8vB0/i1vxSJFReAxJgMTtOlKg=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "c44da269903c217300ae73ba984f2ce3c657ec85"
-    },
-    "juce": {
-        "cargoLock": null,
-        "date": null,
-        "extract": null,
-        "name": "juce",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "deepClone": false,
-            "fetchSubmodules": false,
-            "leaveDotGit": false,
-            "name": null,
-            "owner": "juce-framework",
-            "repo": "JUCE",
-            "rev": "7.0.9",
-            "sha256": "sha256-k8cNTPH9OgOav4dsSLqrd5PlJ1rqO0PLt6Lwmumc2Gg=",
-            "sparseCheckout": [],
-            "type": "github"
-        },
-        "version": "7.0.9"
+        "version": "51a5540a9b85d398fa83a4c70533d685846c9661"
     }
 }
