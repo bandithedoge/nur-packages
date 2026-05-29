@@ -58,7 +58,7 @@
       repo = "PiMax";
       rev = "1.1.3";
       fetchSubmodules = true;
-      sha256 = "sha256-zbnSZ1H3RLIrj2/yN17Bvkq9SjSc6XyBaVimN0J+7R4=";
+      sha256 = "sha256-nr63yikQUvbYtM3ADMmSNTm6tjSQ06anV5gabP6RQrQ=";
     };
   };
   str-x = {
