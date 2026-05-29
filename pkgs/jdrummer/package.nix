@@ -5,15 +5,18 @@
   stdenv,
 
   juceCmakeHook,
+  juce,
 }:
 stdenv.mkDerivation {
   inherit (sources.jdrummer) pname src;
   version = sources.jdrummer.date;
 
-  nativeBuildInputs = [ juceCmakeHook ];
+  nativeBuildInputs = [
+    juceCmakeHook
+  ];
 
   cmakeFlags = [
-    "-DFETCHCONTENT_SOURCE_DIR_JUCE=${sources.juce.src}"
+    "-DCPM_JUCE_SOURCE=${juce.src}"
   ];
 
   meta = {
