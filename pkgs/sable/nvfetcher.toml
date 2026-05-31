@@ -1,4 +1,0 @@
-[sable]
-src.github = "SableClient/Sable"
-src.prefix = "v"
-fetch.docker = "ghcr.io/sableclient/sable"

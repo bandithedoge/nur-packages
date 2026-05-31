@@ -3,6 +3,7 @@
   [ "digits-bin" ]
   [ "fennel-language-server" ]
   [ "kiwmi" ]
+  [ "sable" ]
   [ "snyk-ls-bin" ]
   [ "tal" ]
   [ "thorium-bin" ]
