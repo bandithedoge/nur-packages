@@ -49,6 +49,7 @@
   rnnoise-plugin = [ "rnnoise-plugin" ];
   satty = [ "satty" ];
   sg-323 = [ "sg-323" ];
+  sox-ng = [ "sox_ng" ];
   symbols-nerd-font = [
     "nerd-fonts"
     "symbols-only"
