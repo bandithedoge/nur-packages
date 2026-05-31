@@ -9,7 +9,7 @@ rustPlatform.buildRustPackage {
   version = lib.removePrefix "v" sources.fastcrw.version;
   cargoLock = sources.fastcrw.cargoLock."Cargo.lock";
 
-  checkFlags = [ "--skip=sitemap::tests::fetch_sitemap*" ];
+  checkFlags = [ "--skip=" "sitemap::tests::fetch_sitemap*" ];
 
   meta = {
     description = "Fast, lightweight Firecrawl alternative in Rust";
