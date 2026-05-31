@@ -1,5 +1,6 @@
 {
   # keep-sorted start block=yes
+  astal-niri = [ "niri-gtk" ];
   bitdos-bin = [ "bitdos" ];
   chainner-bin = {
     stable = [ "chainner-bin" ];
