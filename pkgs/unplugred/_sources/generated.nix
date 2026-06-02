@@ -8,15 +8,15 @@
 {
   clap-juce-extensions = {
     pname = "clap-juce-extensions";
-    version = "e8de9e8571626633b8541a54c2406fccc4272767";
+    version = "51a9359315298de632cf44e9d7524940868441e6";
     src = fetchFromGitHub {
       owner = "free-audio";
       repo = "clap-juce-extensions";
-      rev = "e8de9e8571626633b8541a54c2406fccc4272767";
+      rev = "51a9359315298de632cf44e9d7524940868441e6";
       fetchSubmodules = true;
-      sha256 = "sha256-dgKBa+7KXa6hI/zAdg762an6URGtNyUqMtXglRpMtGY=";
+      sha256 = "sha256-VJuWiw9wtFcBhDXvjwaEmbeFkZgZC5RYg8U+MXl53II=";
     };
-    date = "2026-04-24";
+    date = "2026-06-01";
   };
   juce = {
     pname = "juce";
@@ -31,14 +31,14 @@
   };
   unplugred = {
     pname = "unplugred";
-    version = "9d60608908f945b00148d80be9207a74ff9c1438";
+    version = "fee1dbba04fda405f23111546cf140e7ce3f297c";
     src = fetchFromGitHub {
       owner = "unplugred";
       repo = "vsts";
-      rev = "9d60608908f945b00148d80be9207a74ff9c1438";
+      rev = "fee1dbba04fda405f23111546cf140e7ce3f297c";
       fetchSubmodules = false;
-      sha256 = "sha256-qoJvWYjua7rxbrh5Fz+SNhqTsamPfw5aozPmvFClT9E=";
+      sha256 = "sha256-m3xyLXpVq46ak6GbteSczPVY6VwVz8cEFYWh1X0zDCo=";
     };
-    date = "2026-05-26";
+    date = "2026-06-02";
   };
 }
