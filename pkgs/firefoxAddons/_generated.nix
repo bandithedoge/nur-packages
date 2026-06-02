@@ -1390,10 +1390,10 @@
   };
   "refined-github" = buildMozillaXpiAddon {
     pname = "refined-github";
-    version = "26.5.24";
+    version = "26.6.1";
     addonId = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4819673/refined_github-26.5.24.xpi";
-    sha256 = "be216e58b24ea4af52c0758294348a3324d73d092de5eb42603e5088ec954016";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4831946/refined_github-26.6.1.xpi";
+    sha256 = "a15a9ffa2ae9cf62aa3f7237edbc7524a5e43e972e539b15729ad4a01cdc9437";
     meta = with lib; {
       homepage = "https://github.com/refined-github/refined-github";
       description = "Simplifies the GitHub interface and adds many useful features.";
@@ -1586,10 +1586,10 @@
   };
   "stylus" = buildMozillaXpiAddon {
     pname = "stylus";
-    version = "2.3.24";
+    version = "2.3.29.24";
     addonId = "{7a7a4a92-a2a0-41d1-9fd7-1e92480d612d}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4813027/styl_us-2.3.24.xpi";
-    sha256 = "2e038b38ccd88d240f2a9e68174fc39543627bc7599c6dd0a2c90f769b11dbe4";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4827127/styl_us-2.3.29.24.xpi";
+    sha256 = "4aa7112f4919e91ace0d367179f39882d406e087d9db8ff3a5fbe1d1294997a3";
     meta = with lib; {
       homepage = "https://add0n.com/stylus.html";
       description = "Redesign your favorite websites with Stylus, an actively developed and community driven userstyles manager. Easily install custom themes from popular online repositories, or create, edit, and manage your own personalized CSS stylesheets.";
@@ -1741,10 +1741,10 @@
   };
   "violentmonkey" = buildMozillaXpiAddon {
     pname = "violentmonkey";
-    version = "2.37.0";
+    version = "2.40.0";
     addonId = "{aecec67f-0d10-4fa7-b7c7-609a2db280cf}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4777100/violentmonkey-2.37.0.xpi";
-    sha256 = "5d04b402f391c3a3b826aed064bf771de41c94cbc8ccd8f7b3a3ce70cb01d735";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4825194/violentmonkey-2.40.0.xpi";
+    sha256 = "a2ce72e66a8aebb8aedf39f5c556cde2cf461da214cd9f3c9b130f0c73071841";
     meta = with lib; {
       homepage = "https://violentmonkey.github.io/";
       description = "Userscript support for browsers, open source.";
