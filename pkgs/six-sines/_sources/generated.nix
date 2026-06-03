@@ -25,7 +25,7 @@
       repo = "vst3sdk";
       rev = "v3.7.6_build_18";
       fetchSubmodules = true;
-      sha256 = "sha256-t/icDZairksROZmFOVFZ57s/9QSqTyijrhM7JmjYIlo=";
+      sha256 = "sha256-jfh+iP5rqov8q++IyG4FXlYKs4PQtFjCwCP6xou8N0E=";
     };
   };
 }
