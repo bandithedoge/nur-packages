@@ -1,17 +1,22 @@
 {
   withAcp ? true,
+  withMemory ? true,
 
   sources,
 
   lib,
   rustPlatform,
+
+  mold,
 }:
 rustPlatform.buildRustPackage {
   inherit (sources.zerostack) pname src;
   version = lib.removePrefix "v" sources.zerostack.version;
 
   cargoLock = sources.zerostack.cargoLock."Cargo.lock";
-  buildFeatures = lib.optional withAcp "acp";
+  buildFeatures = lib.optional withAcp "acp" ++ lib.optional withMemory "memory";
+
+  nativeBuildInputs = [ mold ];
 
   meta = {
     description = "Minimalistic coding agent written in Rust, optimized for memory footprint and performance";
