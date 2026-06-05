@@ -8,15 +8,15 @@
 {
   clap-juce-extensions = {
     pname = "clap-juce-extensions";
-    version = "e8de9e8571626633b8541a54c2406fccc4272767";
+    version = "51a9359315298de632cf44e9d7524940868441e6";
     src = fetchFromGitHub {
       owner = "free-audio";
       repo = "clap-juce-extensions";
-      rev = "e8de9e8571626633b8541a54c2406fccc4272767";
+      rev = "51a9359315298de632cf44e9d7524940868441e6";
       fetchSubmodules = true;
-      sha256 = "sha256-dgKBa+7KXa6hI/zAdg762an6URGtNyUqMtXglRpMtGY=";
+      sha256 = "sha256-VJuWiw9wtFcBhDXvjwaEmbeFkZgZC5RYg8U+MXl53II=";
     };
-    date = "2026-04-24";
+    date = "2026-06-01";
   };
   hamburger = {
     pname = "hamburger";

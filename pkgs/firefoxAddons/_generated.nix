@@ -848,10 +848,10 @@
   };
   "nexusmods-advance" = buildMozillaXpiAddon {
     pname = "nexusmods-advance";
-    version = "0.26.81";
+    version = "0.26.84";
     addonId = "NexusModsAdvance@Caiota";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4773115/nexusmods_advance-0.26.81.xpi";
-    sha256 = "2dd4a1dad358e69d43c5559dc4524f8ec14145c08aa67b30ed41213d5911e929";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4836921/nexusmods_advance-0.26.84.xpi";
+    sha256 = "f58717b8b4a515e64fce052304765532bff40239fec5ba52cd2a5fa3ea74b61d";
     meta = with lib; {
       description = "Enhance your browsing experience on the NexusMods site and manage your mods directly through the browser!";
       license = licenses.mpl20;
@@ -1390,10 +1390,10 @@
   };
   "refined-github" = buildMozillaXpiAddon {
     pname = "refined-github";
-    version = "26.5.24";
+    version = "26.6.1";
     addonId = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4819673/refined_github-26.5.24.xpi";
-    sha256 = "be216e58b24ea4af52c0758294348a3324d73d092de5eb42603e5088ec954016";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4831946/refined_github-26.6.1.xpi";
+    sha256 = "a15a9ffa2ae9cf62aa3f7237edbc7524a5e43e972e539b15729ad4a01cdc9437";
     meta = with lib; {
       homepage = "https://github.com/refined-github/refined-github";
       description = "Simplifies the GitHub interface and adds many useful features.";
@@ -1586,10 +1586,10 @@
   };
   "stylus" = buildMozillaXpiAddon {
     pname = "stylus";
-    version = "2.3.24";
+    version = "2.3.30";
     addonId = "{7a7a4a92-a2a0-41d1-9fd7-1e92480d612d}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4813027/styl_us-2.3.24.xpi";
-    sha256 = "2e038b38ccd88d240f2a9e68174fc39543627bc7599c6dd0a2c90f769b11dbe4";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4827922/styl_us-2.3.30.xpi";
+    sha256 = "f7dfd9fc245c7c452d665dfb1640585d5015b08faed4114f0b28ef90b6575dbd";
     meta = with lib; {
       homepage = "https://add0n.com/stylus.html";
       description = "Redesign your favorite websites with Stylus, an actively developed and community driven userstyles manager. Easily install custom themes from popular online repositories, or create, edit, and manage your own personalized CSS stylesheets.";
@@ -1741,10 +1741,10 @@
   };
   "violentmonkey" = buildMozillaXpiAddon {
     pname = "violentmonkey";
-    version = "2.37.0";
+    version = "2.41.0";
     addonId = "{aecec67f-0d10-4fa7-b7c7-609a2db280cf}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4777100/violentmonkey-2.37.0.xpi";
-    sha256 = "5d04b402f391c3a3b826aed064bf771de41c94cbc8ccd8f7b3a3ce70cb01d735";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4830363/violentmonkey-2.41.0.xpi";
+    sha256 = "42d184788bd2f6a291956dd31cd45daa7b4a5d1b19bf1c74fb0ae76e456fa36b";
     meta = with lib; {
       homepage = "https://violentmonkey.github.io/";
       description = "Userscript support for browsers, open source.";

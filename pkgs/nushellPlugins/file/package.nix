@@ -18,5 +18,6 @@ rustPlatform.buildRustPackage {
     inherit (nushell.meta) platforms;
     mainProgram = "nu_plugin_file";
     maintainers = [ lib.maintainers.bandithedoge ];
+    broken = true;
   };
 }

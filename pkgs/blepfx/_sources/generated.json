@@ -8,11 +8,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-3zBYbHCQc6t2Ro3vRg/y5jaqeoeGnwTGRUAozWbeHWc=",
+            "sha256": "sha256-8i14nLQzdXYNXw7N8NhbEtxYIL/wZM2NQzjo3DrEYL0=",
             "type": "url",
-            "url": "https://github.com/blepfx/dist/releases/download/release-97/crunchrr-x86_64-unknown-linux-gnu.zip"
+            "url": "https://github.com/blepfx/dist/releases/download/release-98/crunchrr-x86_64-unknown-linux-gnu.zip"
         },
-        "version": "release-97"
+        "version": "release-98"
     },
     "destruqtor": {
         "cargoLock": null,
@@ -23,11 +23,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-4h6lrJHnAUuT4XyvlLkALugz8rLYmow0hG2HSb8BLdI=",
+            "sha256": "sha256-Z049u0yiVpKEFK8Yihcn04Plc50JFctuVbvJWNUKfEI=",
             "type": "url",
-            "url": "https://github.com/blepfx/dist/releases/download/release-97/destruqtor-x86_64-unknown-linux-gnu.zip"
+            "url": "https://github.com/blepfx/dist/releases/download/release-98/destruqtor-x86_64-unknown-linux-gnu.zip"
         },
-        "version": "release-97"
+        "version": "release-98"
     },
     "filtrr": {
         "cargoLock": null,
@@ -38,11 +38,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-VRKfhcN/3tb03GAwQ2C9LbBpc1M/7qw/DPF75DpwEMk=",
+            "sha256": "sha256-q4BRGylJYSegYBChgMrR1dE61Q5wM5ykdBtq03oc8lw=",
             "type": "url",
-            "url": "https://github.com/blepfx/dist/releases/download/release-97/filtrr-x86_64-unknown-linux-gnu.zip"
+            "url": "https://github.com/blepfx/dist/releases/download/release-98/filtrr-x86_64-unknown-linux-gnu.zip"
         },
-        "version": "release-97"
+        "version": "release-98"
     },
     "prisma": {
         "cargoLock": null,
@@ -53,10 +53,10 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-1DacKLL5kK2LzvQNFQKtXxgdN2/M+nVTULUzWw1HrhI=",
+            "sha256": "sha256-wVw2LCZPzEW2vEhHowD+Rq12gqFnqS6besJl9pf+Aac=",
             "type": "url",
-            "url": "https://github.com/blepfx/dist/releases/download/release-97/prisma-x86_64-unknown-linux-gnu.zip"
+            "url": "https://github.com/blepfx/dist/releases/download/release-98/prisma-x86_64-unknown-linux-gnu.zip"
         },
-        "version": "release-97"
+        "version": "release-98"
     }
 }
