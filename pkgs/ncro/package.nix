@@ -22,7 +22,7 @@ rustPlatform.buildRustPackage.override { stdenv = clangStdenv; } {
     description = "Lightweight HTTP proxy for optimizing Nix cache routes for fast access";
     homepage = "https://github.com/manic-systems/ncro";
     license = lib.licenses.eupl12;
-    platforms = lib.licenses.unix;
+    platforms = lib.platforms.unix;
     mainProgram = "ncro";
     maintainers = [ lib.maintainers.bandithedoge ];
   };

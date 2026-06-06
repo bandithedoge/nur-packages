@@ -24,7 +24,7 @@ rustPlatform.buildRustPackage {
     description = "Flake-like toml nix pins, lazily fetched and transformed";
     homepage = "https://github.com/manic-systems/tack";
     license = lib.licenses.eupl12;
-    platforms = lib.licenses.unix;
+    platforms = lib.platforms.unix;
     mainProgram = "tack";
     maintainers = [ lib.maintainers.bandithedoge ];
   };
