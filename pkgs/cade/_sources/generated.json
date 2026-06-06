@@ -1,0 +1,28 @@
+{
+    "cade": {
+        "cargoLock": {
+            "Cargo.lock": [
+                "sha256-azVM8fRDhLYqpZycir47yNDEvb7XCJ96M0r4symB3zc=/Cargo.lock",
+                {}
+            ]
+        },
+        "date": "2026-06-04",
+        "extract": null,
+        "name": "cade",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "manic-systems",
+            "repo": "cade",
+            "rev": "af37795a76b6c5080947e9e4a6ef216c230cbf7a",
+            "sha256": "sha256-azVM8fRDhLYqpZycir47yNDEvb7XCJ96M0r4symB3zc=",
+            "sparseCheckout": [],
+            "type": "github"
+        },
+        "version": "af37795a76b6c5080947e9e4a6ef216c230cbf7a"
+    }
+}

@@ -23,6 +23,6 @@ def main [
       #   mainProgram = "";
       #   maintainers = [ lib.maintainers.bandithedoge ];
       # };
-    }" | nixfmt | save $"pkgs/($name)/package.nix"
+    }" | nixfmt - | save $"pkgs/($name)/package.nix"
     print $"created new package at pkgs/($name)"
 }

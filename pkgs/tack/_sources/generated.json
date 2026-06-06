@@ -1,0 +1,28 @@
+{
+    "tack": {
+        "cargoLock": {
+            "Cargo.lock": [
+                "sha256-WUzhuU_LN5M491PQLn3LyTXbwbqDpLNHLNjvXpkleG8=/Cargo.lock",
+                {}
+            ]
+        },
+        "date": null,
+        "extract": null,
+        "name": "tack",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "manic-systems",
+            "repo": "tack",
+            "rev": "v0.1.1",
+            "sha256": "sha256-WUzhuU/LN5M491PQLn3LyTXbwbqDpLNHLNjvXpkleG8=",
+            "sparseCheckout": [],
+            "type": "github"
+        },
+        "version": "v0.1.1"
+    }
+}
