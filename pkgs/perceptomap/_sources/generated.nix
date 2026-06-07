@@ -19,13 +19,13 @@
   };
   perceptomap = {
     pname = "perceptomap";
-    version = "v0.16.1";
+    version = "v0.17.0";
     src = fetchFromGitHub {
       owner = "hqrrr";
       repo = "PerceptoMap";
-      rev = "v0.16.1";
+      rev = "v0.17.0";
       fetchSubmodules = false;
-      sha256 = "sha256-xMZrtctYQgIzWKXMn0vF9dqDkuZnr6prO1HKWT/HpGE=";
+      sha256 = "sha256-Fxrq4UudwBhEncdnHgrDjnxhXAduC9hrmFEtTby7G58=";
     };
   };
 }
