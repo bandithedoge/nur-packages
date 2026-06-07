@@ -35,9 +35,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "6c1d866a26b1e820139935c2bceafe9a1c83205b",
-      "url": "https://github.com/hankertrix/augment-command.yazi/archive/6c1d866a26b1e820139935c2bceafe9a1c83205b.tar.gz",
-      "hash": "sha256-raqn4KUg5XMDLBhj7ZgyFWi/6sYiij3NhaNkoHioRjU="
+      "revision": "000101221f7c6abe8ca56122da39149d19ed37e4",
+      "url": "https://github.com/hankertrix/augment-command.yazi/archive/000101221f7c6abe8ca56122da39149d19ed37e4.tar.gz",
+      "hash": "sha256-p0oYNZ3dAS6qQsY4ToV+bktjB5aRSoqeVwtQfmEG7to="
     },
     "exifaudio.yazi": {
       "type": "Git",
