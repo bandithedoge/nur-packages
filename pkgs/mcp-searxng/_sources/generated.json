@@ -3,8 +3,8 @@
         "cargoLock": null,
         "date": null,
         "extract": {
-            "package-lock.json": "sha256-V1ue0h78Aqa59yMyNyaktgbxZ4UOZO7aMsvm4P7NaZY=/package-lock.json",
-            "package.json": "sha256-V1ue0h78Aqa59yMyNyaktgbxZ4UOZO7aMsvm4P7NaZY=/package.json"
+            "package-lock.json": "sha256-IYJfcjkKe1pisRIOGNAE_SbCHy7m9l8Iu_tYHtBk1Oc=/package-lock.json",
+            "package.json": "sha256-IYJfcjkKe1pisRIOGNAE_SbCHy7m9l8Iu_tYHtBk1Oc=/package.json"
         },
         "name": "mcp-searxng",
         "passthru": null,
@@ -16,11 +16,11 @@
             "name": null,
             "owner": "ihor-sokoliuk",
             "repo": "mcp-searxng",
-            "rev": "v1.2.1",
-            "sha256": "sha256-V1ue0h78Aqa59yMyNyaktgbxZ4UOZO7aMsvm4P7NaZY=",
+            "rev": "v1.3.1",
+            "sha256": "sha256-IYJfcjkKe1pisRIOGNAE/SbCHy7m9l8Iu/tYHtBk1Oc=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "v1.2.1"
+        "version": "v1.3.1"
     }
 }
