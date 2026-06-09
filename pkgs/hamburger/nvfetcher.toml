@@ -10,3 +10,11 @@ fetch.github = "juce-framework/JUCE"
 src.git = "https://github.com/free-audio/clap-juce-extensions.git"
 fetch.github = "free-audio/clap-juce-extensions"
 git.fetchSubmodules = true
+
+[chowdsp-utils]
+src.git = "https://github.com/Chowdhury-DSP/chowdsp_utils.git"
+fetch.git = "https://github.com/Chowdhury-DSP/chowdsp_utils.git"
+
+[xsimd]
+src.git = "https://github.com/xtensor-stack/xsimd.git"
+fetch.git = "https://github.com/xtensor-stack/xsimd.git"
