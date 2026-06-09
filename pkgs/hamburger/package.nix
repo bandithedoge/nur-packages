@@ -15,6 +15,8 @@ stdenv.mkDerivation {
   cmakeFlags = [
     "-DFETCHCONTENT_SOURCE_DIR_JUCE=${sources.juce.src}"
     "-DFETCHCONTENT_SOURCE_DIR_CLAP-JUCE-EXTENSIONS=${sources.clap-juce-extensions.src}"
+    "-DFETCHCONTENT_SOURCE_DIR_CHOWDSP_UTILS=${sources.chowdsp-utils.src}"
+    "-DFETCHCONTENT_SOURCE_DIR_XSIMD=${sources.xsimd.src}"
   ];
 
   meta = {

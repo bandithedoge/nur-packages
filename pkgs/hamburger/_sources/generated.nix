@@ -6,6 +6,20 @@
   dockerTools,
 }:
 {
+  chowdsp-utils = {
+    pname = "chowdsp-utils";
+    version = "e97b826ef3de0b0fd92b15cb2e286076f678d8b9";
+    src = fetchgit {
+      url = "https://github.com/Chowdhury-DSP/chowdsp_utils.git";
+      rev = "e97b826ef3de0b0fd92b15cb2e286076f678d8b9";
+      fetchSubmodules = false;
+      deepClone = false;
+      leaveDotGit = false;
+      sparseCheckout = [ ];
+      sha256 = "sha256-YB6VL1kDCmnW9hmDeeBrqQAdr7P8F5vMXOzOU9RoFtA=";
+    };
+    date = "2025-12-09";
+  };
   clap-juce-extensions = {
     pname = "clap-juce-extensions";
     version = "51a9359315298de632cf44e9d7524940868441e6";
@@ -20,13 +34,13 @@
   };
   hamburger = {
     pname = "hamburger";
-    version = "v0.5";
+    version = "v0.6";
     src = fetchFromGitHub {
       owner = "Davit-G";
       repo = "Hamburger";
-      rev = "v0.5";
+      rev = "v0.6";
       fetchSubmodules = false;
-      sha256 = "sha256-U/xy+uYTtDnBEHuZmVQkjTxy191oyLRs+ofnE/sHMPA=";
+      sha256 = "sha256-8gPAyV59GiE4T6vkEY/x4UCl74qruRAUT5ERpOFo45k=";
     };
   };
   juce = {
@@ -39,5 +53,19 @@
       fetchSubmodules = false;
       sha256 = "sha256-iAueT+yHwUUHOzqfK5zXEZQ0GgOKJ9q9TyRrVfWdewc=";
     };
+  };
+  xsimd = {
+    pname = "xsimd";
+    version = "01f17ece3f1687a2b04bf013c39a5c71e368cffb";
+    src = fetchgit {
+      url = "https://github.com/xtensor-stack/xsimd.git";
+      rev = "01f17ece3f1687a2b04bf013c39a5c71e368cffb";
+      fetchSubmodules = false;
+      deepClone = false;
+      leaveDotGit = false;
+      sparseCheckout = [ ];
+      sha256 = "sha256-1vX2+ZOmrMgzUFVMrhgXAU1XAKwu0H3bX6DH1+lO5tw=";
+    };
+    date = "2026-06-09";
   };
 }
