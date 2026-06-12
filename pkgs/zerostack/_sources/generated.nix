@@ -8,16 +8,16 @@
 {
   zerostack = {
     pname = "zerostack";
-    version = "v1.5.0-rc1";
+    version = "v1.5.0-rc4";
     src = fetchFromGitHub {
       owner = "gi-dellav";
       repo = "zerostack";
-      rev = "v1.5.0-rc1";
+      rev = "v1.5.0-rc4";
       fetchSubmodules = false;
-      sha256 = "sha256-RLEk5nluM/vD+VljZyEx5A9QIAkz2uLvV+m+yHGTM90=";
+      sha256 = "sha256-/A6ZS6Z0fJSKuBKcrkHjTFPkidQmReOUrZJmMATswf4=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./. + "/sha256-RLEk5nluM_vD+VljZyEx5A9QIAkz2uLvV+m+yHGTM90=/Cargo.lock";
+      lockFile = ./. + "/sha256-_A6ZS6Z0fJSKuBKcrkHjTFPkidQmReOUrZJmMATswf4=/Cargo.lock";
       outputHashes = {
         
       };
