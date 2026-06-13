@@ -50,6 +50,7 @@ in
     meta = {
       description = "A compatibility tool for Steam Play based on Wine and additional components, experimental branch with extra CachyOS flavour";
       homepage = "https://github.com/CachyOS/proton-cachyos";
+      broken = true; # broken symlinks
     };
   };
 

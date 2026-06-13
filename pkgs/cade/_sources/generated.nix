@@ -8,20 +8,20 @@
 {
   cade = {
     pname = "cade";
-    version = "af37795a76b6c5080947e9e4a6ef216c230cbf7a";
+    version = "316562cb400117dd7ec998acf67182566e475318";
     src = fetchFromGitHub {
       owner = "manic-systems";
       repo = "cade";
-      rev = "af37795a76b6c5080947e9e4a6ef216c230cbf7a";
+      rev = "316562cb400117dd7ec998acf67182566e475318";
       fetchSubmodules = false;
-      sha256 = "sha256-azVM8fRDhLYqpZycir47yNDEvb7XCJ96M0r4symB3zc=";
+      sha256 = "sha256-MFx0t5f8nQBhWl6WjopW+e19JUKhaDWZ39T7tBmJRHc=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./. + "/sha256-azVM8fRDhLYqpZycir47yNDEvb7XCJ96M0r4symB3zc=/Cargo.lock";
+      lockFile = ./. + "/sha256-MFx0t5f8nQBhWl6WjopW+e19JUKhaDWZ39T7tBmJRHc=/Cargo.lock";
       outputHashes = {
         
       };
     };
-    date = "2026-06-04";
+    date = "2026-06-11";
   };
 }
