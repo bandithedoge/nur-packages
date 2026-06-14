@@ -5,7 +5,7 @@
         "extract": null,
         "name": "envtool-bin",
         "passthru": null,
-        "pinned": false,
+        "pinned": true,
         "src": {
             "sha256": "sha256-ncnjtzOZuL9Vj6LNhqTg/w6A/OSIk9OHJUzFgcVTxUA=",
             "type": "tarball",
@@ -19,7 +19,7 @@
         "extract": null,
         "name": "epiano2-bin",
         "passthru": null,
-        "pinned": false,
+        "pinned": true,
         "src": {
             "sha256": "sha256-+ifB0omh2MKJSZcohjtXz634EJS9xz+qUMf1Hk2ecc8=",
             "type": "tarball",
@@ -33,7 +33,7 @@
         "extract": null,
         "name": "freeverb-bin",
         "passthru": null,
-        "pinned": false,
+        "pinned": true,
         "src": {
             "sha256": "sha256-+JHTq7APcYa+ZoF+3/e8Tvr6EioGTFk0BAGMH/Qypgk=",
             "type": "tarball",
@@ -47,7 +47,7 @@
         "extract": null,
         "name": "synth2-bin",
         "passthru": null,
-        "pinned": false,
+        "pinned": true,
         "src": {
             "sha256": "sha256-32rfUQcFum4Q8Ii2w02/7TzJul/XU0boUHTKMtXL3EE=",
             "type": "tarball",
