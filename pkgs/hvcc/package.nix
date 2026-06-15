@@ -20,19 +20,6 @@ let
       jinja2
     ];
   };
-
-  # XXX: https://github.com/NixOS/nixpkgs/pull/474587
-  pydantic-extra-types = python3Packages.pydantic-extra-types.overridePythonAttrs (old: rec {
-    version = "2.11.0";
-    src = fetchFromGitHub {
-      owner = "pydantic";
-      repo = "pydantic-extra-types";
-      tag = "v${version}";
-      hash = "sha256-aXhlfDBCpk8h3F4gXAQ40fVKxsoFvkmfO/roaqrGxho=";
-    };
-
-    dependencies = old.dependencies ++ [ python3Packages.cron-converter ];
-  });
 in
 python3Packages.buildPythonPackage {
   inherit (sources.hvcc) pname src;
