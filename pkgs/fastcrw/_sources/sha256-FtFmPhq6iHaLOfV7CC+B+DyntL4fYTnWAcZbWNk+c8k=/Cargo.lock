@@ -787,7 +787,7 @@ checksum = "460fbee9c2c2f33933d720630a6a0bac33ba7053db5344fac858d4b8952d77d5"
 
 [[package]]
 name = "crw-browse"
-version = "0.14.0"
+version = "0.15.2"
 dependencies = [
  "anyhow",
  "async-trait",
@@ -817,10 +817,11 @@ dependencies = [
 
 [[package]]
 name = "crw-cli"
-version = "0.14.0"
+version = "0.15.2"
 dependencies = [
  "anyhow",
  "axum",
+ "base64",
  "clap",
  "console 0.15.11",
  "crw-browse",
@@ -851,11 +852,12 @@ dependencies = [
 
 [[package]]
 name = "crw-core"
-version = "0.14.0"
+version = "0.15.2"
 dependencies = [
  "config",
  "crw-mcp-proto",
  "prometheus",
+ "rand 0.9.2",
  "reqwest 0.13.2",
  "serde",
  "serde_json",
@@ -869,7 +871,7 @@ dependencies = [
 
 [[package]]
 name = "crw-crawl"
-version = "0.14.0"
+version = "0.15.2"
 dependencies = [
  "crw-core",
  "crw-diff",
@@ -895,7 +897,7 @@ dependencies = [
 
 [[package]]
 name = "crw-diff"
-version = "0.14.0"
+version = "0.15.2"
 dependencies = [
  "crw-core",
  "hex",
@@ -910,7 +912,7 @@ dependencies = [
 
 [[package]]
 name = "crw-extract"
-version = "0.14.0"
+version = "0.15.2"
 dependencies = [
  "crw-core",
  "ego-tree",
@@ -942,7 +944,7 @@ dependencies = [
 
 [[package]]
 name = "crw-mcp"
-version = "0.14.0"
+version = "0.15.2"
 dependencies = [
  "base64",
  "clap",
@@ -958,7 +960,7 @@ dependencies = [
 
 [[package]]
 name = "crw-mcp-proto"
-version = "0.14.0"
+version = "0.15.2"
 dependencies = [
  "jsonschema",
  "serde",
@@ -968,7 +970,7 @@ dependencies = [
 
 [[package]]
 name = "crw-monitor"
-version = "0.14.0"
+version = "0.15.2"
 dependencies = [
  "crw-core",
  "crw-crawl",
@@ -991,7 +993,7 @@ dependencies = [
 
 [[package]]
 name = "crw-renderer"
-version = "0.14.0"
+version = "0.15.2"
 dependencies = [
  "async-trait",
  "axum",
@@ -1018,7 +1020,7 @@ dependencies = [
 
 [[package]]
 name = "crw-search"
-version = "0.14.0"
+version = "0.15.2"
 dependencies = [
  "crw-core",
  "futures",
@@ -1035,7 +1037,7 @@ dependencies = [
 
 [[package]]
 name = "crw-server"
-version = "0.14.0"
+version = "0.15.2"
 dependencies = [
  "axum",
  "axum-test",

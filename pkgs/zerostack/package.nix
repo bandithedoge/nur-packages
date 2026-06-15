@@ -8,6 +8,7 @@
   rustPlatform,
 
   mold,
+  writableTmpDirAsHomeHook,
 }:
 rustPlatform.buildRustPackage {
   inherit (sources.zerostack) pname src;
@@ -17,6 +18,8 @@ rustPlatform.buildRustPackage {
   buildFeatures = lib.optional withAcp "acp" ++ lib.optional withMemory "memory";
 
   nativeBuildInputs = [ mold ];
+
+  nativeCheckInputs = [ writableTmpDirAsHomeHook ];
 
   meta = {
     description = "Minimalistic coding agent written in Rust, optimized for memory footprint and performance";
