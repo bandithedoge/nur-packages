@@ -349,10 +349,10 @@
   };
   "downthemall" = buildMozillaXpiAddon {
     pname = "downthemall";
-    version = "4.14.2";
+    version = "4.15.1";
     addonId = "{DDC359D1-844A-42a7-9AA1-88A850A938A8}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4628327/downthemall-4.14.2.xpi";
-    sha256 = "7bb83f729934fb2a58f2c65248060830bca337e1e8a7c2729b5608340dc29df3";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4825019/downthemall-4.15.1.xpi";
+    sha256 = "a6f53822b708b4cb595195f25818fb0eeb690e1244ca2d7fc0d0b645c4dc5de9";
     meta = with lib; {
       homepage = "https://www.downthemall.org/";
       description = "The Mass Downloader for your browser";
@@ -1586,10 +1586,10 @@
   };
   "stylus" = buildMozillaXpiAddon {
     pname = "stylus";
-    version = "2.3.30";
+    version = "2.3.34";
     addonId = "{7a7a4a92-a2a0-41d1-9fd7-1e92480d612d}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4827922/styl_us-2.3.30.xpi";
-    sha256 = "f7dfd9fc245c7c452d665dfb1640585d5015b08faed4114f0b28ef90b6575dbd";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4845329/styl_us-2.3.34.xpi";
+    sha256 = "7530002c56a106c38a4703d6f5bf476e0059c78ed3c9fa3fbea2d9ce84e02ed4";
     meta = with lib; {
       homepage = "https://add0n.com/stylus.html";
       description = "Redesign your favorite websites with Stylus, an actively developed and community driven userstyles manager. Easily install custom themes from popular online repositories, or create, edit, and manage your own personalized CSS stylesheets.";

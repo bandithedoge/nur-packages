@@ -34,13 +34,13 @@
   };
   hamburger = {
     pname = "hamburger";
-    version = "v0.6";
+    version = "v0.6.1";
     src = fetchFromGitHub {
       owner = "Davit-G";
       repo = "Hamburger";
-      rev = "v0.6";
+      rev = "v0.6.1";
       fetchSubmodules = false;
-      sha256 = "sha256-8gPAyV59GiE4T6vkEY/x4UCl74qruRAUT5ERpOFo45k=";
+      sha256 = "sha256-v8l3AP2fipk4Dp9czuPXddQ0KQFNzfO1CErWT/EH6a8=";
     };
   };
   juce = {
