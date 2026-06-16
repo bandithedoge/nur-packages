@@ -54,12 +54,12 @@
             "name": null,
             "owner": "Davit-G",
             "repo": "Hamburger",
-            "rev": "v0.6",
-            "sha256": "sha256-8gPAyV59GiE4T6vkEY/x4UCl74qruRAUT5ERpOFo45k=",
+            "rev": "v0.6.1",
+            "sha256": "sha256-v8l3AP2fipk4Dp9czuPXddQ0KQFNzfO1CErWT/EH6a8=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "v0.6"
+        "version": "v0.6.1"
     },
     "juce": {
         "cargoLock": null,
