@@ -1,6 +1,6 @@
 {
     "name": "mcp-searxng",
-    "version": "1.4.0",
+    "version": "1.6.0",
     "mcpName": "io.github.ihor-sokoliuk/mcp-searxng",
     "description": "MCP server for SearXNG integration",
     "license": "MIT",
@@ -71,5 +71,8 @@
         "supertest": "^7.2.2",
         "tsx": "4.22.4",
         "typescript": "^5.8.3"
+    },
+    "overrides": {
+        "hono": ">=4.12.25"
     }
 }

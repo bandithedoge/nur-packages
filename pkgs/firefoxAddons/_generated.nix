@@ -1586,10 +1586,10 @@
   };
   "stylus" = buildMozillaXpiAddon {
     pname = "stylus";
-    version = "2.3.34";
+    version = "2.3.34.30";
     addonId = "{7a7a4a92-a2a0-41d1-9fd7-1e92480d612d}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4845329/styl_us-2.3.34.xpi";
-    sha256 = "7530002c56a106c38a4703d6f5bf476e0059c78ed3c9fa3fbea2d9ce84e02ed4";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4854763/styl_us-2.3.34.30.xpi";
+    sha256 = "74040f0eb43327acc58a78604262768f46425a85d23c1a194a9815986ea38a4e";
     meta = with lib; {
       homepage = "https://add0n.com/stylus.html";
       description = "Redesign your favorite websites with Stylus, an actively developed and community driven userstyles manager. Easily install custom themes from popular online repositories, or create, edit, and manage your own personalized CSS stylesheets.";
@@ -1665,10 +1665,10 @@
   };
   "tridactyl" = buildMozillaXpiAddon {
     pname = "tridactyl";
-    version = "1.24.5";
+    version = "1.24.6";
     addonId = "tridactyl.vim@cmcaine.co.uk";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4704384/tridactyl_vim-1.24.5.xpi";
-    sha256 = "0bf18c2a3a8edbcbf46c991548988ec510734b19b95f325beb76f4484079fb07";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4854935/tridactyl_vim-1.24.6.xpi";
+    sha256 = "13abd6fef2b5d13a2eca70addb5485a4fba0800436f6a12c57abb03f3cf99205";
     meta = with lib; {
       homepage = "https://tridactyl.xyz";
       description = "Vim, but in your browser. Replace Firefox's control mechanism with one modelled on Vim.\n\nThis addon is very usable, but is in an early stage of development. We intend to implement the majority of Vimperator's features.";
