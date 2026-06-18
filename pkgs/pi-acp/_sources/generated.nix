@@ -8,17 +8,17 @@
 {
   pi-acp = {
     pname = "pi-acp";
-    version = "v0.0.30";
+    version = "v0.0.31";
     src = fetchFromGitHub {
       owner = "svkozak";
       repo = "pi-acp";
-      rev = "v0.0.30";
+      rev = "v0.0.31";
       fetchSubmodules = false;
-      sha256 = "sha256-shIGSJYBcbsDg9UdZIHJoI6E4M4gH25FRaXOQuJVFZo=";
+      sha256 = "sha256-bM3V/3fxkY2Ib+OyfT82StIIRSLXGDuYUbt1CZKpTuo=";
     };
     extract = {
-      "package-lock.json" = ./. + "/sha256-shIGSJYBcbsDg9UdZIHJoI6E4M4gH25FRaXOQuJVFZo=/package-lock.json";
-      "package.json" = ./. + "/sha256-shIGSJYBcbsDg9UdZIHJoI6E4M4gH25FRaXOQuJVFZo=/package.json";
+      "package-lock.json" = ./. + "/sha256-bM3V_3fxkY2Ib+OyfT82StIIRSLXGDuYUbt1CZKpTuo=/package-lock.json";
+      "package.json" = ./. + "/sha256-bM3V_3fxkY2Ib+OyfT82StIIRSLXGDuYUbt1CZKpTuo=/package.json";
     };
   };
 }
