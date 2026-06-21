@@ -124,4 +124,17 @@
       maintainers = [ lib.maintainers.bandithedoge ];
     };
   };
+
+  lua-resty-mpd = luaPackages.buildLuarocksPackage rec {
+    inherit (sources.lua-resty-mpd) pname version src;
+
+    knownRockspec = "${src}/specs/lua-resty-mpd-${version}-0.rockspec";
+
+    meta = {
+      description = "Client library for the Music Player Daemon, compatible with OpenResty, cqueues, and Luasocket";
+      homepage = "https://buffering.party/software/lua-resty-mpd/";
+      license = lib.licenses.mit;
+      maintainers = [ lib.maintainers.bandithedoge ];
+    };
+  };
 }

@@ -8,15 +8,15 @@
 {
   astal-lua = {
     pname = "astal-lua";
-    version = "b6730d96583f00af9103741af37fdfea17b45989";
+    version = "db96bd38d6d4033e1600563b17405397bed63c59";
     src = fetchFromGitHub {
       owner = "tokyob0t";
       repo = "astal-lua";
-      rev = "b6730d96583f00af9103741af37fdfea17b45989";
+      rev = "db96bd38d6d4033e1600563b17405397bed63c59";
       fetchSubmodules = false;
-      sha256 = "sha256-bLZ53qslwCrbDB2tsg7PUFQFg+7Ncd7rira1kiFCkTo=";
+      sha256 = "sha256-GGCB2iotgZgCbo+0gqDNfPVXFnlNzBIHMFMqqxWyw9g=";
     };
-    date = "2026-05-31";
+    date = "2026-06-19";
   };
   bling = {
     pname = "bling";
@@ -65,6 +65,14 @@
       sha256 = "sha256-H44JBe2n4QZcQRyQTcYY/DtuG7XQgolPrdPgUU6SJTs=";
     };
     date = "2025-11-15";
+  };
+  lua-resty-mpd = {
+    pname = "lua-resty-mpd";
+    version = "5.2.3";
+    src = fetchTarball {
+      url = "https://buffering.party/software/lua-resty-mpd/lua-resty-mpd-5.2.3.tar.gz";
+      sha256 = "sha256-myGOgzqQOCWzL6bwqzRhfReRPdHrFKTb89H/bRmIZD8=";
+    };
   };
   luarocks-build-fennel = {
     pname = "luarocks-build-fennel";
