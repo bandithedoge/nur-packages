@@ -13,11 +13,11 @@
             "name": null,
             "owner": "bethington",
             "repo": "ghidra-mcp",
-            "rev": "v5.13.1",
-            "sha256": "sha256-fxUY+RKmDkPjCYXz7Fj/TWRBd0IeDap1VZ2NdqbbiJI=",
+            "rev": "v5.14.1",
+            "sha256": "sha256-rMC4/SZP7TfjOzlNihxcPvmnGZ8pYTs5uHn09PdzJms=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "v5.13.1"
+        "version": "v5.14.1"
     }
 }
