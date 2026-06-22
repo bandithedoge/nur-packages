@@ -8,16 +8,16 @@
 {
   tack = {
     pname = "tack";
-    version = "v0.1.1";
+    version = "v1.0.0";
     src = fetchFromGitHub {
       owner = "manic-systems";
       repo = "tack";
-      rev = "v0.1.1";
+      rev = "v1.0.0";
       fetchSubmodules = false;
-      sha256 = "sha256-WUzhuU/LN5M491PQLn3LyTXbwbqDpLNHLNjvXpkleG8=";
+      sha256 = "sha256-KhJb0NWLhj8AkD8uWEbXt179YlFLemk0OgOltw4jEk8=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./. + "/sha256-WUzhuU_LN5M491PQLn3LyTXbwbqDpLNHLNjvXpkleG8=/Cargo.lock";
+      lockFile = ./. + "/sha256-KhJb0NWLhj8AkD8uWEbXt179YlFLemk0OgOltw4jEk8=/Cargo.lock";
       outputHashes = {
         
       };
