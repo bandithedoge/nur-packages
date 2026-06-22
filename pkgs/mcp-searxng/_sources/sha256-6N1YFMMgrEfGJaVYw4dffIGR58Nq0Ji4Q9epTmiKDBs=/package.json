@@ -1,6 +1,6 @@
 {
     "name": "mcp-searxng",
-    "version": "1.6.0",
+    "version": "1.7.2",
     "mcpName": "io.github.ihor-sokoliuk/mcp-searxng",
     "description": "MCP server for SearXNG integration",
     "license": "MIT",
@@ -55,16 +55,17 @@
         "express": "^5.2.1",
         "express-rate-limit": "^8.5.2",
         "node-html-markdown": "^2.0.0",
-        "undici": "7.27.2"
+        "node-html-parser": "^6.1.13",
+        "undici": "7.28.0"
     },
     "devDependencies": {
-        "@types/node": "22.19.20",
+        "@types/node": "22.19.21",
         "@types/supertest": "^7.2.0",
-        "@typescript-eslint/eslint-plugin": "8.61.0",
-        "@typescript-eslint/parser": "8.61.0",
+        "@typescript-eslint/eslint-plugin": "8.61.1",
+        "@typescript-eslint/parser": "8.61.1",
         "c8": "^11.0.0",
         "cross-env": "^10.1.0",
-        "eslint": "10.4.1",
+        "eslint": "10.5.0",
         "eslint-plugin-security": "^4.0.0",
         "fast-check": "^4.8.0",
         "shx": "^0.4.0",

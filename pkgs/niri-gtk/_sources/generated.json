@@ -1,7 +1,7 @@
 {
     "niri-gtk": {
         "cargoLock": null,
-        "date": "2026-05-30",
+        "date": "2026-06-19",
         "extract": null,
         "name": "niri-gtk",
         "passthru": null,
@@ -13,11 +13,11 @@
             "name": null,
             "owner": "sameoldlab",
             "repo": "niri-gtk",
-            "rev": "b842f1c002d06e5bcdda7065385e6ff59839544b",
-            "sha256": "sha256-IgmxXJreEw20RMi+Juvy8cVVmbxoA346PjUlACKzAmU=",
+            "rev": "1948789ac0a1dc3ab133e7be0a8e75ccf73d64ad",
+            "sha256": "sha256-Hiurzs/qs72jyIVfKs/QIk8KtKsXFkMg8Zz3cPtYazI=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "b842f1c002d06e5bcdda7065385e6ff59839544b"
+        "version": "1948789ac0a1dc3ab133e7be0a8e75ccf73d64ad"
     }
 }

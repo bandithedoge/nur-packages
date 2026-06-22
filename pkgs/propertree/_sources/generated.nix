@@ -8,14 +8,14 @@
 {
   propertree = {
     pname = "propertree";
-    version = "8fac15567803e02fbc9b8de60b23288340f0f766";
+    version = "51ed53dbe3c96a81686ae1fc47f6d2a92f668159";
     src = fetchFromGitHub {
       owner = "corpnewt";
       repo = "ProperTree";
-      rev = "8fac15567803e02fbc9b8de60b23288340f0f766";
+      rev = "51ed53dbe3c96a81686ae1fc47f6d2a92f668159";
       fetchSubmodules = false;
-      sha256 = "sha256-t/A1/g7aVf4GQToOKd3TP6Ps5LWNs8W3BkLUdJQcgNE=";
+      sha256 = "sha256-yDkIALfDh8LcCStZGPaUDQbmDdei6nir8XSed2ZqOIs=";
     };
-    date = "2026-05-20";
+    date = "2026-06-20";
   };
 }

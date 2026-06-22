@@ -11,7 +11,7 @@
     version = "cachyos-11.0-20260602-slr";
     src = fetchTarball {
       url = "https://github.com/CachyOS/proton-cachyos/releases/download/cachyos-11.0-20260602-slr/proton-cachyos-11.0-20260602-slr-x86_64_v3.tar.xz";
-      sha256 = "sha256-FNBO6DTlguBNGSozXDW3mSfhLhzsK7thk2QGkIGaWlQ=";
+      sha256 = "sha256-SVJSIqd7SEjtl2FcsCHOUgYYSDMn3cedA2GTGUNmDQM=";
     };
   };
   proton-em = {

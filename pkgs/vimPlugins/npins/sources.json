@@ -412,9 +412,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "2fb641678445047d9d814e05240d1b013c4ba642",
-      "url": "https://github.com/sudo-tee/opencode.nvim/archive/2fb641678445047d9d814e05240d1b013c4ba642.tar.gz",
-      "hash": "sha256-mOv67lBZrj9axN3Cui8sdGqyXo6Cf8xi4JNMd6lyV8Q="
+      "revision": "6ab7d2fa0167ee81f1e22af712aaaaea4b64488a",
+      "url": "https://github.com/sudo-tee/opencode.nvim/archive/6ab7d2fa0167ee81f1e22af712aaaaea4b64488a.tar.gz",
+      "hash": "sha256-EI3VthUFvy11EY8zrhTVhx0OQBbHqKPs1ys+GNAtS94="
     },
     "org-bullets.nvim": {
       "type": "Git",
@@ -542,9 +542,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "e437f60ea468268e49ffdc0c9ed7c5ba384e63cf",
-      "url": "https://github.com/prochri/telescope-all-recent.nvim/archive/e437f60ea468268e49ffdc0c9ed7c5ba384e63cf.tar.gz",
-      "hash": "sha256-Dq0eahhshmgdrof9eG3rBNm06UCCsjMYNkBs4KE/cEQ="
+      "revision": "6487903198657da9ab26db79fa2170af9d94f3bf",
+      "url": "https://github.com/prochri/telescope-all-recent.nvim/archive/6487903198657da9ab26db79fa2170af9d94f3bf.tar.gz",
+      "hash": "sha256-O1WvHKwXUh8BPRSKuvZFRO8UhlGEIaPN2p0rr93Q2ZY="
     },
     "telescope-tele-tabby.nvim": {
       "type": "Git",
