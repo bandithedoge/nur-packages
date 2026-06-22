@@ -1,7 +1,7 @@
 {
     "morewaita": {
         "cargoLock": null,
-        "date": "2026-04-28",
+        "date": "2026-06-20",
         "extract": null,
         "name": "morewaita",
         "passthru": null,
@@ -13,11 +13,11 @@
             "name": null,
             "owner": "somepaulo",
             "repo": "MoreWaita",
-            "rev": "a163f61f883225e7bc85c9bbd44d83ec696c87ba",
-            "sha256": "sha256-OLJJLwb/57wMUyzFdNiuc2W8Ctbgpn/8vnn0PnawxAk=",
+            "rev": "eea4d0b0afad8d4a0e45c8e860feaaf51a3fa5cf",
+            "sha256": "sha256-2C8Lu22piXrKAArB5egEvre3UekOhnaAuM21muFaQwI=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "a163f61f883225e7bc85c9bbd44d83ec696c87ba"
+        "version": "eea4d0b0afad8d4a0e45c8e860feaaf51a3fa5cf"
     }
 }
