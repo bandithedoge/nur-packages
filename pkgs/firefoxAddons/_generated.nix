@@ -803,10 +803,10 @@
   };
   "lovely-forks" = buildMozillaXpiAddon {
     pname = "lovely-forks";
-    version = "3.7.3";
+    version = "3.7.4";
     addonId = "github-forks-addon@musicallyut.in";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4257592/lovely_forks-3.7.3.xpi";
-    sha256 = "ab9a444acbaa2bebf1bea88a1d41edd9f35208b05510522ab574fdf4cae3058d";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4863232/lovely_forks-3.7.4.xpi";
+    sha256 = "16e8139fc8429c8ce30660f94ed573d9c0fd94763dc4953f6144468602d29fca";
     meta = with lib; {
       homepage = "https://github.com/musically-ut/lovely-forks";
       description = "Show notable forks of Github projects.";
@@ -820,10 +820,10 @@
   };
   "material-icons-for-github" = buildMozillaXpiAddon {
     pname = "material-icons-for-github";
-    version = "1.16.1";
+    version = "1.16.2";
     addonId = "{eac6e624-97fa-4f28-9d24-c06c9b8aa713}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4819856/material_icons_for_github-1.16.1.xpi";
-    sha256 = "b8aefaef558d8a1e9759627a77343ca2fea7bb22801ab5694427135352d94ded";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4865929/material_icons_for_github-1.16.2.xpi";
+    sha256 = "ad4d552510f3b731dd6e8fea7a5f25540445a2863438ae7fc2905860d7f07970";
     meta = with lib; {
       homepage = "https://github.com/material-extensions/material-icons-browser-extension";
       description = "Replace the file/folder icons on github file browsers with icons representing the file's type and which tool it is used by.";
@@ -911,10 +911,10 @@
   };
   "privacy-badger" = buildMozillaXpiAddon {
     pname = "privacy-badger";
-    version = "2026.2.20";
+    version = "2026.6.16";
     addonId = "jid1-MnnxcxisBPnSXQ@jetpack";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4700632/privacy_badger17-2026.2.20.xpi";
-    sha256 = "eea49f1461de5eb00eb17b22b2864b55b54acb577b0360687460fe982633fbd6";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4854040/privacy_badger17-2026.6.16.xpi";
+    sha256 = "060860a601993fd7c505de9873c5f47adb3e568af1894dc2460b071aa5a32308";
     meta = with lib; {
       homepage = "https://privacybadger.org/";
       description = "Automatically learns to block hidden trackers. Made by the leading digital rights nonprofit EFF to stop companies from spying on you.";
