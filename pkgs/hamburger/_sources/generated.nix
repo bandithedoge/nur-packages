@@ -22,15 +22,15 @@
   };
   clap-juce-extensions = {
     pname = "clap-juce-extensions";
-    version = "51a9359315298de632cf44e9d7524940868441e6";
+    version = "16e9d4ca7b1e86c76e04584b2c08e85a764bcda8";
     src = fetchFromGitHub {
       owner = "free-audio";
       repo = "clap-juce-extensions";
-      rev = "51a9359315298de632cf44e9d7524940868441e6";
+      rev = "16e9d4ca7b1e86c76e04584b2c08e85a764bcda8";
       fetchSubmodules = true;
-      sha256 = "sha256-VJuWiw9wtFcBhDXvjwaEmbeFkZgZC5RYg8U+MXl53II=";
+      sha256 = "sha256-0oV0KR//AfkdcXyjFQIadmKqMdJTzoVWNSFydoQlzO4=";
     };
-    date = "2026-06-01";
+    date = "2026-06-24";
   };
   hamburger = {
     pname = "hamburger";
