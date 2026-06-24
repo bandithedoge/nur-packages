@@ -1,7 +1,7 @@
 {
     "clap-juce-extensions": {
         "cargoLock": null,
-        "date": "2026-06-01",
+        "date": "2026-06-24",
         "extract": null,
         "name": "clap-juce-extensions",
         "passthru": null,
@@ -13,12 +13,12 @@
             "name": null,
             "owner": "free-audio",
             "repo": "clap-juce-extensions",
-            "rev": "51a9359315298de632cf44e9d7524940868441e6",
-            "sha256": "sha256-VJuWiw9wtFcBhDXvjwaEmbeFkZgZC5RYg8U+MXl53II=",
+            "rev": "16e9d4ca7b1e86c76e04584b2c08e85a764bcda8",
+            "sha256": "sha256-0oV0KR//AfkdcXyjFQIadmKqMdJTzoVWNSFydoQlzO4=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "51a9359315298de632cf44e9d7524940868441e6"
+        "version": "16e9d4ca7b1e86c76e04584b2c08e85a764bcda8"
     },
     "juce": {
         "cargoLock": null,
@@ -43,7 +43,7 @@
     },
     "unplugred": {
         "cargoLock": null,
-        "date": "2026-06-20",
+        "date": "2026-06-22",
         "extract": null,
         "name": "unplugred",
         "passthru": null,
@@ -55,11 +55,11 @@
             "name": null,
             "owner": "unplugred",
             "repo": "vsts",
-            "rev": "d0ec26a94b2263c14a2c120ab3871578e01952d3",
-            "sha256": "sha256-OblPwdcY0JJgdf198XYq2go6LqK+KWdSpXURzwZPIXo=",
+            "rev": "d01dd8d08bd563ce09b06e4a14a362ff3d6eb2cc",
+            "sha256": "sha256-teqloy+PKj6By2leifbWxzyVMV5k3DUfbWH0LjbR+Q0=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "d0ec26a94b2263c14a2c120ab3871578e01952d3"
+        "version": "d01dd8d08bd563ce09b06e4a14a362ff3d6eb2cc"
     }
 }
