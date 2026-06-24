@@ -2,7 +2,7 @@
     "zerostack": {
         "cargoLock": {
             "Cargo.lock": [
-                "sha256-CLBb7SaSaE4kpQqTOWdjneg9smszE5uJfvNJ8fQDmrg=/Cargo.lock",
+                "sha256-saTgIgVeOx__IsjWBHlLPQua06iAJe0hPsF58ZRMhHU=/Cargo.lock",
                 {}
             ]
         },
@@ -18,11 +18,11 @@
             "name": null,
             "owner": "gi-dellav",
             "repo": "zerostack",
-            "rev": "v1.5.0",
-            "sha256": "sha256-CLBb7SaSaE4kpQqTOWdjneg9smszE5uJfvNJ8fQDmrg=",
+            "rev": "v1.5.1-rc1",
+            "sha256": "sha256-saTgIgVeOx//IsjWBHlLPQua06iAJe0hPsF58ZRMhHU=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "v1.5.0"
+        "version": "v1.5.1-rc1"
     }
 }
