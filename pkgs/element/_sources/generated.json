@@ -1,7 +1,7 @@
 {
     "element": {
         "cargoLock": null,
-        "date": "2026-06-19",
+        "date": "2026-06-24",
         "extract": null,
         "name": "element",
         "passthru": null,
@@ -13,11 +13,32 @@
             "name": null,
             "owner": "kushview",
             "repo": "element",
-            "rev": "c2d7e0d61def46cb50f0fa8eabddceeb0f9fdb3d",
-            "sha256": "sha256-MS8/rHQ/FAyb2IFeM4u9Ch4MJ0LCYhDysWddCDXLRgo=",
+            "rev": "c86360d940cc511bae82a979b1f4548356036e1c",
+            "sha256": "sha256-2dyucn+MWfICV0NVNr5JFh5GYu8kNYgD40/Lj70ni8I=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "c2d7e0d61def46cb50f0fa8eabddceeb0f9fdb3d"
+        "version": "c86360d940cc511bae82a979b1f4548356036e1c"
+    },
+    "juce": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "juce",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "juce-framework",
+            "repo": "JUCE",
+            "rev": "8.0.13",
+            "sha256": "sha256-TKqW2rsFMAO1HJZ9IFQ7myOzNRScqR0gmLSLQA5Sw28=",
+            "sparseCheckout": [],
+            "type": "github"
+        },
+        "version": "8.0.13"
     }
 }

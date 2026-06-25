@@ -52,13 +52,13 @@
   };
   juce = {
     pname = "juce";
-    version = "8.0.13";
+    version = "8.0.14";
     src = fetchFromGitHub {
       owner = "juce-framework";
       repo = "JUCE";
-      rev = "8.0.13";
+      rev = "8.0.14";
       fetchSubmodules = false;
-      sha256 = "sha256-TKqW2rsFMAO1HJZ9IFQ7myOzNRScqR0gmLSLQA5Sw28=";
+      sha256 = "sha256-oXFYfFqySW2XtM1e5/ifxAp9qSIVLzY1WAUKE3EscoQ=";
     };
   };
   rechoir = {

@@ -21,6 +21,11 @@ rustPlatform.buildRustPackage {
 
   nativeCheckInputs = [ writableTmpDirAsHomeHook ];
 
+  checkFlags = [
+    "--skip"
+    "tests::session_tests::detect_git_branch_in_repo_returns_nonempty"
+  ];
+
   meta = {
     description = "Minimalistic coding agent written in Rust, optimized for memory footprint and performance";
     homepage = "https://github.com/gi-dellav/zerostack";

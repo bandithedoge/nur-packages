@@ -8,18 +8,18 @@
 {
   yadaw-bin-aarch64 = {
     pname = "yadaw-bin-aarch64";
-    version = "0.9.1";
+    version = "0.9.2";
     src = fetchTarball {
-      url = "https://github.com/mlm-games/yadaw/releases/download/v0.9.1/yadaw-0.9.1-aarch64-unknown-linux-gnu.tar.gz";
-      sha256 = "sha256-r/wlQbYP6JZckx3G/QYZb6v6WZO3haYTq2MPEXmaz7A=";
+      url = "https://github.com/mlm-games/yadaw/releases/download/v0.9.2/yadaw-0.9.2-aarch64-unknown-linux-gnu.tar.gz";
+      sha256 = "sha256-9EUqdPlwJnSBdjhftr5jU10tiksl2k3g1bER6sLtVow=";
     };
   };
   yadaw-bin-x86_64 = {
     pname = "yadaw-bin-x86_64";
-    version = "0.9.1";
+    version = "0.9.2";
     src = fetchTarball {
-      url = "https://github.com/mlm-games/yadaw/releases/download/v0.9.1/yadaw-0.9.1-x86_64-unknown-linux-gnu.tar.gz";
-      sha256 = "sha256-BeWWC8CnQRXzm2LlTdpVjhtBB/EhPpxtSpk7fAuSMBs=";
+      url = "https://github.com/mlm-games/yadaw/releases/download/v0.9.2/yadaw-0.9.2-x86_64-unknown-linux-gnu.tar.gz";
+      sha256 = "sha256-Co5BEVxaM1ZOY5fCoxo44JiZ99NXOxUZDH20aHQEnVo=";
     };
   };
 }
