@@ -18,4 +18,15 @@
     };
     date = "2026-06-24";
   };
+  juce = {
+    pname = "juce";
+    version = "8.0.13";
+    src = fetchFromGitHub {
+      owner = "juce-framework";
+      repo = "JUCE";
+      rev = "8.0.13";
+      fetchSubmodules = false;
+      sha256 = "sha256-TKqW2rsFMAO1HJZ9IFQ7myOzNRScqR0gmLSLQA5Sw28=";
+    };
+  };
 }

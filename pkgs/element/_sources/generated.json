@@ -19,5 +19,26 @@
             "type": "github"
         },
         "version": "c86360d940cc511bae82a979b1f4548356036e1c"
+    },
+    "juce": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "juce",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "juce-framework",
+            "repo": "JUCE",
+            "rev": "8.0.13",
+            "sha256": "sha256-TKqW2rsFMAO1HJZ9IFQ7myOzNRScqR0gmLSLQA5Sw28=",
+            "sparseCheckout": [],
+            "type": "github"
+        },
+        "version": "8.0.13"
     }
 }

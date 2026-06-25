@@ -6,7 +6,6 @@
 
   boost,
   cairo,
-  juce,
   juceCmakeHook,
   ladspa-sdk,
   libjack2,
@@ -30,7 +29,6 @@ clangStdenv.mkDerivation {
   buildInputs = [
     boost
     cairo
-    juce
     ladspa-sdk
     libjack2
     libxcomposite
@@ -41,7 +39,10 @@ clangStdenv.mkDerivation {
     suil
   ];
 
-  cmakeFlags = [ (lib.cmakeBool "ELEMENT_ENABLE_PLUGINS" enablePlugins) ];
+  cmakeFlags = [
+    (lib.cmakeBool "ELEMENT_ENABLE_PLUGINS" enablePlugins)
+    "-DFETCHCONTENT_SOURCE_DIR_JUCE=${sources.juce.src}"
+  ];
 
   installPhase = ''
     mkdir -p $out/bin
