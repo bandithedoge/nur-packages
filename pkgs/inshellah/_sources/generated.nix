@@ -8,20 +8,20 @@
 {
   inshellah = {
     pname = "inshellah";
-    version = "d9b0785a14acb6b9f439d19b0fd696489b017591";
+    version = "60963b2ac9072353ccdb7f721980e8b3206b6990";
     src = fetchFromGitHub {
       owner = "manic-systems";
       repo = "inshellah";
-      rev = "d9b0785a14acb6b9f439d19b0fd696489b017591";
+      rev = "60963b2ac9072353ccdb7f721980e8b3206b6990";
       fetchSubmodules = false;
-      sha256 = "sha256-yAyiffrfDxZvjsDSJzVkxJB2rHCe7pamtuv0xq0zIuU=";
+      sha256 = "sha256-zO2UZTHci0QUziMw4Cs2w+lk70MBFPVcORCwJ1PvEVQ=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./. + "/sha256-yAyiffrfDxZvjsDSJzVkxJB2rHCe7pamtuv0xq0zIuU=/Cargo.lock";
+      lockFile = ./. + "/sha256-zO2UZTHci0QUziMw4Cs2w+lk70MBFPVcORCwJ1PvEVQ=/Cargo.lock";
       outputHashes = {
         
       };
     };
-    date = "2026-06-09";
+    date = "2026-06-25";
   };
 }
