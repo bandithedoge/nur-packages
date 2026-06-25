@@ -65,7 +65,7 @@
     inherit (sources.astal-lua) pname src;
     version = sources.astal-lua.date;
 
-    knownRockspec = src + "/astal-dev-*.rockspec";
+    knownRockspec = src + "/astal-*.rockspec";
 
     propagatedBuildInputs = with luaPackages; [
       argparse
