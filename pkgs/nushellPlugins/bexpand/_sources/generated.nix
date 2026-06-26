@@ -8,22 +8,22 @@
 {
   nu-plugin-bexpand = {
     pname = "nu-plugin-bexpand";
-    version = "de17e2756684ad3d6130ff1c91aac0f1e900917a";
+    version = "5f0c0b7f4a6855e4f8608683af7af49506a244eb";
     src = fetchgit {
       url = "https://forge.axfive.net/Taylor/nu-plugin-bexpand.git";
-      rev = "de17e2756684ad3d6130ff1c91aac0f1e900917a";
+      rev = "5f0c0b7f4a6855e4f8608683af7af49506a244eb";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-mN+54dn/to7JOXL3uCFd0/LmKEz21R3heVG6tGgiapw=";
+      sha256 = "sha256-sSnIC0PoGOxS5/NenMcvSATAS+huTnHyJ/Xv/CibFrU=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./. + "/sha256-mN+54dn_to7JOXL3uCFd0_LmKEz21R3heVG6tGgiapw=/Cargo.lock";
+      lockFile = ./. + "/sha256-sSnIC0PoGOxS5_NenMcvSATAS+huTnHyJ_Xv_CibFrU=/Cargo.lock";
       outputHashes = {
         
       };
     };
-    date = "2026-05-25";
+    date = "2026-06-25";
   };
 }
