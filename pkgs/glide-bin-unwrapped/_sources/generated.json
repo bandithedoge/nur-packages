@@ -1,0 +1,30 @@
+{
+    "glide-bin-unwrapped-aarch64-linux": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "glide-bin-unwrapped-aarch64-linux",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "sha256": "sha256-K4JIEHTs+UqXc9+2qAZWcd1Pe9pfL1zNImOWKkMLVtM=",
+            "type": "tarball",
+            "url": "https://github.com/glide-browser/glide/releases/download/0.1.62a/glide.linux-aarch64.tar.xz"
+        },
+        "version": "0.1.62a"
+    },
+    "glide-bin-unwrapped-x86_64-linux": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "glide-bin-unwrapped-x86_64-linux",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "sha256": "sha256-fB+fcSi+J5Jb9UlKnPW6n3D1NwgTylBDAxMNeLN32CQ=",
+            "type": "tarball",
+            "url": "https://github.com/glide-browser/glide/releases/download/0.1.62a/glide.linux-x86_64.tar.xz"
+        },
+        "version": "0.1.62a"
+    }
+}
