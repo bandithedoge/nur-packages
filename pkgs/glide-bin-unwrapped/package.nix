@@ -6,6 +6,7 @@
   config,
   formats,
 
+  adwaita-icon-theme,
   alsa-lib,
   autoPatchelfHook,
   curl,
@@ -15,6 +16,7 @@
   pciutils,
   pipewire,
   vulkan-loader,
+  wrapGAppsHook3,
 
   policies ? { },
 }:
@@ -37,6 +39,7 @@ stdenv.mkDerivation {
   nativeBuildInputs = [
     autoPatchelfHook
     patchelfUnstable
+    wrapGAppsHook3
   ];
 
   patchelfFlags = [ "--no-clobber-old-sections" ];
@@ -45,6 +48,7 @@ stdenv.mkDerivation {
     alsa-lib
     stdenv.cc.cc.lib
     gtk3
+    adwaita-icon-theme
   ];
 
   runtimeDependencies = [
