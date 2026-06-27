@@ -8,13 +8,13 @@
 {
   ghidra-mcp = {
     pname = "ghidra-mcp";
-    version = "v5.14.1";
+    version = "v5.14.2";
     src = fetchFromGitHub {
       owner = "bethington";
       repo = "ghidra-mcp";
-      rev = "v5.14.1";
+      rev = "v5.14.2";
       fetchSubmodules = false;
-      sha256 = "sha256-rMC4/SZP7TfjOzlNihxcPvmnGZ8pYTs5uHn09PdzJms=";
+      sha256 = "sha256-2EMETCttJAz53GQaJDHtegb8+T2cHKmHZVMPrV5Cwxc=";
     };
   };
 }
