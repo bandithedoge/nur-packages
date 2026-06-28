@@ -425,9 +425,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "9183a0cc146a29e4f25749463d293be920c6691e",
-      "url": "https://gitlab.com/api/v4/projects/hartan%2Fweb-devicons.xplr/repository/archive.tar.gz?sha=9183a0cc146a29e4f25749463d293be920c6691e",
-      "hash": "sha256-qzibWL5tOWmXAMaxhUO5jFUdD6k7wsG3Mdhz/elngKQ="
+      "revision": "6ffb691e80b5284c49cbd29d5e3996de1f3a6cfe",
+      "url": "https://gitlab.com/api/v4/projects/hartan%2Fweb-devicons.xplr/repository/archive.tar.gz?sha=6ffb691e80b5284c49cbd29d5e3996de1f3a6cfe",
+      "hash": "sha256-nuvvUxUTrznKOqE1+lHCPcZd5zkPUoF/OMfT4HgvCis="
     },
     "wl-clipboard.xplr": {
       "type": "Git",
