@@ -8,18 +8,18 @@
 {
   glide-bin-unwrapped-aarch64-linux = {
     pname = "glide-bin-unwrapped-aarch64-linux";
-    version = "0.1.62a";
+    version = "0.1.63a";
     src = fetchTarball {
-      url = "https://github.com/glide-browser/glide/releases/download/0.1.62a/glide.linux-aarch64.tar.xz";
-      sha256 = "sha256-K4JIEHTs+UqXc9+2qAZWcd1Pe9pfL1zNImOWKkMLVtM=";
+      url = "https://github.com/glide-browser/glide/releases/download/0.1.63a/glide.linux-aarch64.tar.xz";
+      sha256 = "sha256-BgEqMObAFvIDNA2EmcuU6BlTJrOrbbZSxwV/toqHmI8=";
     };
   };
   glide-bin-unwrapped-x86_64-linux = {
     pname = "glide-bin-unwrapped-x86_64-linux";
-    version = "0.1.62a";
+    version = "0.1.63a";
     src = fetchTarball {
-      url = "https://github.com/glide-browser/glide/releases/download/0.1.62a/glide.linux-x86_64.tar.xz";
-      sha256 = "sha256-fB+fcSi+J5Jb9UlKnPW6n3D1NwgTylBDAxMNeLN32CQ=";
+      url = "https://github.com/glide-browser/glide/releases/download/0.1.63a/glide.linux-x86_64.tar.xz";
+      sha256 = "sha256-xB5xhmJ3gAlyxxhukQLUwPvgBjWSZktzRMJTblsU0lE=";
     };
   };
 }
