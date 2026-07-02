@@ -8,13 +8,13 @@
 {
   cherry-doom = {
     pname = "cherry-doom";
-    version = "cherry-doom-2.0.0";
+    version = "cherry-doom-2.1.0";
     src = fetchFromGitHub {
       owner = "xemonix0";
       repo = "Cherry-Doom";
-      rev = "cherry-doom-2.0.0";
+      rev = "cherry-doom-2.1.0";
       fetchSubmodules = false;
-      sha256 = "sha256-f/5b4i5omCp34upJ2/VF7VuvwU9YliXcWnyR4jl9gKA=";
+      sha256 = "sha256-ixuYlr+X9xLC0xUqazuuj+ebflJf/GjSuWXK05kbtwA=";
     };
   };
 }
