@@ -8,14 +8,14 @@
 {
   niri-gtk = {
     pname = "niri-gtk";
-    version = "1948789ac0a1dc3ab133e7be0a8e75ccf73d64ad";
+    version = "b413fbfcf055d92d7028ee3356bfa148e90e2e31";
     src = fetchFromGitHub {
       owner = "sameoldlab";
       repo = "niri-gtk";
-      rev = "1948789ac0a1dc3ab133e7be0a8e75ccf73d64ad";
+      rev = "b413fbfcf055d92d7028ee3356bfa148e90e2e31";
       fetchSubmodules = false;
-      sha256 = "sha256-Hiurzs/qs72jyIVfKs/QIk8KtKsXFkMg8Zz3cPtYazI=";
+      sha256 = "sha256-W0HXUX5SZYTQV+f7F3uVErKbU4Ylj2gBrFBklyffEcU=";
     };
-    date = "2026-06-19";
+    date = "2026-06-30";
   };
 }
