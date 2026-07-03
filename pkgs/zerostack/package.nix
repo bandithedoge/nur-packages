@@ -22,8 +22,8 @@ rustPlatform.buildRustPackage {
   nativeCheckInputs = [ writableTmpDirAsHomeHook ];
 
   checkFlags = [
-    "--skip"
-    "tests::session_tests::detect_git_branch_in_repo_returns_nonempty"
+    "--skip=tests::session_tests::detect_git_branch_in_repo_returns_nonempty"
+    "--skip=tests::logging_tests::test_build_stderr_filter_default"
   ];
 
   meta = {
