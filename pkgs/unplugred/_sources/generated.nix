@@ -31,13 +31,13 @@
   };
   unplugred = {
     pname = "unplugred";
-    version = "ca8fdac8e40c0eed8488f8476412dba4a9b38225";
+    version = "bfc5e421c2c9c283d71e15c2bf7b561221d385f8";
     src = fetchFromGitHub {
       owner = "unplugred";
       repo = "vsts";
-      rev = "ca8fdac8e40c0eed8488f8476412dba4a9b38225";
+      rev = "bfc5e421c2c9c283d71e15c2bf7b561221d385f8";
       fetchSubmodules = false;
-      sha256 = "sha256-gzv1OPcnnXqhHrUJKlwrlb/XD8uXITFYku7tLp5rPx8=";
+      sha256 = "sha256-gKtYzEcWzomRQqth/pKJKsouHMd6SCCnzbL+3aVWFMI=";
     };
     date = "2026-07-04";
   };
