@@ -105,7 +105,7 @@ jobs:
       - name: Merge into master
         uses: everlytic/branch-merge@1.1.5
         with:
-          github_token: ${{ github.token }}
+          github_token: ${{ secrets.BRANCH_MERGE_PAT }}
           source_ref: staging
           target_branch: master
           commit_message_template: "Merge updates"
