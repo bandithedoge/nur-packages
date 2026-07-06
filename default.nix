@@ -1,5 +1,9 @@
 {
-  pkgs ? import <nixpkgs> { },
+  overlays ? { },
+  pkgs ? import <nixpkgs> {
+    inherit overlays;
+    config.allowUnfree = true;
+  },
   ...
 }:
 let
