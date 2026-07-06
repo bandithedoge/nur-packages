@@ -2,31 +2,40 @@
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
     flake-parts.url = "github:hercules-ci/flake-parts";
-    treefmt-nix.url = "github:numtide/treefmt-nix";
-    mozilla-addons-to-nix.url = "sourcehut:~rycee/mozilla-addons-to-nix";
-
-    cache-nix-action = {
-      url = "github:nix-community/cache-nix-action";
-      flake = false;
-    };
   };
   outputs =
     inputs@{ flake-parts, ... }:
     flake-parts.lib.mkFlake { inherit inputs; } {
-      imports = with inputs; [
+      imports = [
         flake-parts.flakeModules.easyOverlay
-        treefmt-nix.flakeModule
+        flake-parts.flakeModules.partitions
       ];
       systems = [
         "x86_64-linux"
         "aarch64-linux"
         "aarch64-darwin"
       ];
+
+      partitions.dev = {
+        extraInputsFlake = ./dev;
+        module = { inputs, ... }: {
+          imports = [
+            inputs.treefmt-nix.flakeModule
+            ./dev/perSystem.nix
+          ];
+        };
+      };
+
+      partitionedAttrs = {
+        checks = "dev";
+        devShells = "dev";
+        treefmt = "dev";
+      };
+
       perSystem =
         {
           pkgs,
           system,
-          self',
           ...
         }:
         {
@@ -123,64 +132,7 @@
                 "| ${name'} | ${version'} | ${value'} | ${license'} |"
               ) allPackages;
 
-              inherit
-                (import "${inputs.cache-nix-action}/saveFromGC.nix" {
-                  inherit pkgs inputs;
-                  derivations =
-                    (builtins.attrValues (pkgs.lib.filterAttrs (k: v: !(cacheable ? k)) buildable))
-                    ++ (builtins.attrValues self'.devShells);
-                })
-                saveFromGC
-                ;
             };
-
-          devShells = {
-            build = pkgs.mkShell {
-              packages = with pkgs.lixPackageSets.latest; [
-                nix-eval-jobs
-                nix-fast-build
-              ];
-            };
-
-            update = pkgs.mkShell {
-              packages = with pkgs; [
-                inputs.mozilla-addons-to-nix.packages.${system}.default
-                npins
-                nushell
-                nvfetcher
-              ];
-            };
-
-            default = pkgs.mkShell {
-              inputsFrom = with self'.devShells; [
-                build
-                update
-              ];
-            };
-          };
-
-          treefmt.config = {
-            projectRootFile = "flake.nix";
-            settings.excludes = [
-              "*/_sources/*"
-              "*/npins/*"
-            ];
-            programs = {
-              clang-format.enable = true;
-              nixfmt = {
-                enable = true;
-                package = pkgs.nixfmt;
-              };
-              prettier = {
-                enable = true;
-                package = pkgs.prettier;
-              };
-              ruff-format.enable = true;
-              shfmt.enable = true;
-              taplo.enable = true;
-              keep-sorted.enable = true;
-            };
-          };
         };
     };
   nixConfig = {
