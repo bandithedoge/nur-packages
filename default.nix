@@ -1,5 +1,5 @@
 {
-  overlays ? { },
+  overlays ? [ ],
   pkgs ? import <nixpkgs> {
     inherit overlays;
     config.allowUnfree = true;

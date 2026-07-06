@@ -22,13 +22,7 @@
             npins
             nushell
             nvfetcher
-          ];
-        };
-
-        lint = pkgs.mkShell {
-          packages = with pkgs; [
             nixpkgs-hammering
-            nushell
           ];
         };
 
@@ -36,7 +30,6 @@
           inputsFrom = with self'.devShells; [
             build
             update
-            lint
           ];
         };
       };
