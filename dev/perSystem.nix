@@ -25,10 +25,18 @@
           ];
         };
 
+        lint = pkgs.mkShell {
+          packages = with pkgs; [
+            nixpkgs-hammering
+            nushell
+          ];
+        };
+
         default = pkgs.mkShell {
           inputsFrom = with self'.devShells; [
             build
             update
+            lint
           ];
         };
       };
