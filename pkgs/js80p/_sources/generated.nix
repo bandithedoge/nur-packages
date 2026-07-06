@@ -8,13 +8,13 @@
 {
   js80p = {
     pname = "js80p";
-    version = "v4.1.0";
+    version = "v4.1.1";
     src = fetchFromGitHub {
       owner = "attilammagyar";
       repo = "js80p";
-      rev = "v4.1.0";
+      rev = "v4.1.1";
       fetchSubmodules = false;
-      sha256 = "sha256-Hg1Ep7dFe6RvFnWkYVTB8EPEkuaZx2xz65yeHnhPWII=";
+      sha256 = "sha256-wFhkwRyxul+mr9GsL+coNFQWu6z4x+Cxm7BUpUujiwk=";
     };
   };
 }
