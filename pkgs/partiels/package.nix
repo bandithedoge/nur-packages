@@ -9,17 +9,7 @@
   juceCmakeHook,
   libjack2,
   makeDesktopItem,
-  runCommand,
 }:
-let
-  vamp-plugin-sdk' = runCommand "vamp-plugin-sdk" { nativeBuildInputs = [ git ]; } ''
-    cp -r --no-preserve all ${sources.vamp-plugin-sdk.src} vamp-plugin-sdk
-    cd vamp-plugin-sdk
-    git apply "${sources.partiels.src}/BinaryData/Resource/vamp-plugin-sdk-src.patch"
-    cd ..
-    cp -r vamp-plugin-sdk $out
-  '';
-in
 stdenv.mkDerivation {
   inherit (sources.partiels) pname version src;
 
@@ -34,6 +24,8 @@ stdenv.mkDerivation {
   ];
 
   installPhase = ''
+    runHook preInstall
+
     mkdir -p $out/{bin,lib/vamp}
     cp -r Partiels $out/libexec
 
@@ -42,11 +34,9 @@ stdenv.mkDerivation {
 
     mkdir -p $out/share/icons/hicolor/512x512/apps
     ln -s $out/libexec/icon.png $out/share/icons/hicolor/512x512/apps/partiels.png
-  '';
 
-  cmakeFlags = [
-    "-DFETCHCONTENT_SOURCE_DIR_VAMP-PLUGIN-SDK=${vamp-plugin-sdk'}"
-  ];
+    runHook postInstall
+  '';
 
   desktopItems = [
     (makeDesktopItem {
