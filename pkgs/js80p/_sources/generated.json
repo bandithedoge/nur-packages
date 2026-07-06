@@ -13,11 +13,11 @@
             "name": null,
             "owner": "attilammagyar",
             "repo": "js80p",
-            "rev": "v4.1.0",
-            "sha256": "sha256-Hg1Ep7dFe6RvFnWkYVTB8EPEkuaZx2xz65yeHnhPWII=",
+            "rev": "v4.1.1",
+            "sha256": "sha256-wFhkwRyxul+mr9GsL+coNFQWu6z4x+Cxm7BUpUujiwk=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "v4.1.0"
+        "version": "v4.1.1"
     }
 }
