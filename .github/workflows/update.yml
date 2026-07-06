@@ -44,6 +44,7 @@ jobs:
           GIT_CONFIG_VALUE_0: "git@github.com:"
         run: |
           nix flake update --commit-lock-file
+          nix flake update --commit-lock-file --flake ./dev
           echo -e '[keys]\ngithub = "${{ secrets.GITHUB_TOKEN }}"' > keyfile.toml
           chmod +x fetch.nu
           nix develop .#update -c ./fetch.nu --commit

@@ -67,6 +67,19 @@ jobs:
             --result-file result.xml \
             --result-format junit
 
+      - name: Install uncacheable packages
+        if: ${{ !matrix.cacheable }}
+        shell: nix run nixpkgs#nushell -- {0}
+        run: |
+          nix profile list --json
+            | from json
+            | get elements
+            | items {|key, _| nix profile remove $key}
+
+          nix eval .#_UNCACHEABLE --apply builtins.attrNames --json
+            | from json
+            | each {|attr| nix profile install $".#_UNCACHEABLE.($attr)" }
+
       - name: Build summary
         uses: test-summary/action@v2
         if: always()
