@@ -56,39 +56,12 @@ jobs:
           echo "# Dupes\n" >> $GITHUB_STEP_SUMMARY
           nix eval .#_DUPES --json | jq 'map("- `\(. | join("."))`") | .[]' -r >> $GITHUB_STEP_SUMMARY
 
-      - name: Run nixpkgs-hammering
-        shell: nix develop .#update -c nu {0}
-        run: |
-          "# nixpkgs-hammering\n" | save -a $env.GITHUB_STEP_SUMMARY
-
-          nix eval .#_BUILDABLE --apply builtins.attrNames --json
-          | from json
-          | par-each {|pkg|
-            (nixpkgs-hammer
-              -e=attribute-ordering
-              -e=no-build-output
-              -e=explicit-phases
-              --json
-              ($pkg | str replace -a "/" "."))
-            | from json
-          }
-          | reduce {|it, acc| $acc | merge $it}
-          | items {|n, v|
-            if ($v | is-not-empty) {
-              $"## `($n)`\n" ++ (
-                $v | each {|prob|
-                  $"- ($prob.name) - ($prob.msg)"}
-                  | flatten
-                  | str join "\n"
-                )
-            }
-          }
-          | where { is-not-empty}
-          | str join "\n"
-          | save -a $env.GITHUB_STEP_SUMMARY
-
       - name: Generate package list
         run: nix eval --raw .#_LIST > LIST.md
+
+      - name: Check for nixpkgs dupes
+        run: |
+          nix eval .#_DUPES --json | jq 'map("- `\(. | join("."))`") | .[]' -r >> $GITHUB_STEP_SUMMARY
 
       - name: Format code
         run: nix fmt
