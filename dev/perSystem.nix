@@ -22,7 +22,6 @@
             npins
             nushell
             nvfetcher
-            nixpkgs-hammering
           ];
         };
 

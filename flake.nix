@@ -30,7 +30,6 @@
         checks = "dev";
         devShells = "dev";
         treefmt = "dev";
-        formatter = "dev";
       };
 
       perSystem =
