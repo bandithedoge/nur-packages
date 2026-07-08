@@ -8,13 +8,13 @@
 {
   filt-r = {
     pname = "filt-r";
-    version = "v1.2.0";
+    version = "v1.3.0";
     src = fetchFromGitHub {
       owner = "tiagolr";
       repo = "filtr";
-      rev = "v1.2.0";
+      rev = "v1.3.0";
       fetchSubmodules = true;
-      sha256 = "sha256-LW21Hv0Gs7csgHg9tMPa4fmZGAby64uDAOdkwhOSwx4=";
+      sha256 = "sha256-diOM6Y2HrOP5wXg4tVXms7TYOSM16t06ZDg1/Q1L/zc=";
     };
   };
 }
