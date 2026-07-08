@@ -8,34 +8,34 @@
 {
   zine-bin-aarch64-darwin = {
     pname = "zine-bin-aarch64-darwin";
-    version = "v0.11.3";
+    version = "v0.12.0";
     src = fetchurl {
-      url = "https://github.com/kristoff-it/zine/releases/download/v0.11.3/aarch64-macos.zip";
-      sha256 = "sha256-g2VuamLbPnAA1D4MToMMrdMOmAIoE2IARbPLRBIfyjs=";
+      url = "https://github.com/kristoff-it/zine/releases/download/v0.12.0/aarch64-macos.zip";
+      sha256 = "sha256-ISe3uzq+wzZzhdaWOIdXV6l79QvWuiYAE0ppr/eknLc=";
     };
   };
   zine-bin-aarch64-linux = {
     pname = "zine-bin-aarch64-linux";
-    version = "v0.11.3";
+    version = "v0.12.0";
     src = fetchurl {
-      url = "https://github.com/kristoff-it/zine/releases/download/v0.11.3/aarch64-linux-musl.tar.xz";
-      sha256 = "sha256-ZYUauYgE9pO30+3RI+2cmhGMU1dKiyFC+TrVSXgq4/c=";
+      url = "https://github.com/kristoff-it/zine/releases/download/v0.12.0/aarch64-linux-musl.tar.xz";
+      sha256 = "sha256-rGhSCUPADDLRUuBuU/dw7LmUZGbMpb42j0udblRONrk=";
     };
   };
   zine-bin-x86_64-darwin = {
     pname = "zine-bin-x86_64-darwin";
-    version = "v0.11.3";
+    version = "v0.12.0";
     src = fetchurl {
-      url = "https://github.com/kristoff-it/zine/releases/download/v0.11.3/x86_64-macos.zip";
-      sha256 = "sha256-dNv5lVZ+sIPkTZa2SK/sxxtTud0rEQTmEaACOYHdvdo=";
+      url = "https://github.com/kristoff-it/zine/releases/download/v0.12.0/x86_64-macos.zip";
+      sha256 = "sha256-s0sIX+rlm3/4eWJBWz9oNK6syHrlt3BwFqVRyC56wxk=";
     };
   };
   zine-bin-x86_64-linux = {
     pname = "zine-bin-x86_64-linux";
-    version = "v0.11.3";
+    version = "v0.12.0";
     src = fetchurl {
-      url = "https://github.com/kristoff-it/zine/releases/download/v0.11.3/x86_64-linux-musl.tar.xz";
-      sha256 = "sha256-wl5Tcril0nWfK35YGu+5DIAZ/wBWojCpfv48jtqzvBk=";
+      url = "https://github.com/kristoff-it/zine/releases/download/v0.12.0/x86_64-linux-musl.tar.xz";
+      sha256 = "sha256-Cm1/6TjXwF6KghIFmd/WEpmk889e+2tMrkwlSd6ZctQ=";
     };
   };
 }
