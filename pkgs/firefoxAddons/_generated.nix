@@ -1586,10 +1586,10 @@
   };
   "stylus" = buildMozillaXpiAddon {
     pname = "stylus";
-    version = "2.4.3";
+    version = "2.4.5";
     addonId = "{7a7a4a92-a2a0-41d1-9fd7-1e92480d612d}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4882702/styl_us-2.4.3.xpi";
-    sha256 = "16ea7ec442c605da0f57f88255c3ab2c8f3a2c90aa24e315c3474615c893ba5a";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4887700/styl_us-2.4.5.xpi";
+    sha256 = "509557b542d9dcd496a316b108dadbcbd5cfa9ec46a44c1f37c463d45f32270a";
     meta = with lib; {
       homepage = "https://add0n.com/stylus.html";
       description = "Redesign your favorite websites with Stylus, an actively developed and community driven userstyles manager. Easily install custom themes from popular online repositories, or create, edit, and manage your own personalized CSS stylesheets.";
@@ -1703,10 +1703,10 @@
   };
   "ublock-origin" = buildMozillaXpiAddon {
     pname = "ublock-origin";
-    version = "1.72.0";
+    version = "1.72.2";
     addonId = "uBlock0@raymondhill.net";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4872816/ublock_origin-1.72.0.xpi";
-    sha256 = "79cd426ab599801c59dfe9895cb4b8002faf3da059f7111c2721ac10168a3b64";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4888680/ublock_origin-1.72.2.xpi";
+    sha256 = "40c315b0da7871868155ecfae7a50a58dfa0920aebd865e008214986f1b7c578";
     meta = with lib; {
       homepage = "https://github.com/gorhill/uBlock#ublock-origin";
       description = "Finally, an efficient wide-spectrum content blocker. Easy on CPU and memory.";
