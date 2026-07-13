@@ -555,12 +555,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "cmov"
-version = "0.5.4"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "0c9ea0ac24bc397ab3c98583a3c9ba74fa56b09a4449bbe172b9b1ddb016027a"
-
-[[package]]
 name = "colorchoice"
 version = "1.0.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -800,7 +794,7 @@ checksum = "460fbee9c2c2f33933d720630a6a0bac33ba7053db5344fac858d4b8952d77d5"
 
 [[package]]
 name = "crw-browse"
-version = "0.22.0"
+version = "0.23.0"
 dependencies = [
  "anyhow",
  "async-trait",
@@ -830,7 +824,7 @@ dependencies = [
 
 [[package]]
 name = "crw-cli"
-version = "0.22.0"
+version = "0.23.0"
 dependencies = [
  "anyhow",
  "axum",
@@ -865,7 +859,7 @@ dependencies = [
 
 [[package]]
 name = "crw-core"
-version = "0.22.0"
+version = "0.23.0"
 dependencies = [
  "config",
  "crw-mcp-proto",
@@ -884,7 +878,7 @@ dependencies = [
 
 [[package]]
 name = "crw-crawl"
-version = "0.22.0"
+version = "0.23.0"
 dependencies = [
  "crw-core",
  "crw-diff",
@@ -910,7 +904,7 @@ dependencies = [
 
 [[package]]
 name = "crw-diff"
-version = "0.22.0"
+version = "0.23.0"
 dependencies = [
  "crw-core",
  "hex",
@@ -925,12 +919,13 @@ dependencies = [
 
 [[package]]
 name = "crw-extract"
-version = "0.22.0"
+version = "0.23.0"
 dependencies = [
  "crw-core",
  "ego-tree",
  "flate2",
  "futures",
+ "hex",
  "htmd",
  "jsonschema",
  "lol_html",
@@ -944,6 +939,7 @@ dependencies = [
  "scraper",
  "serde",
  "serde_json",
+ "sha2 0.11.0",
  "sxd-document",
  "sxd-xpath",
  "sxd_html",
@@ -957,7 +953,7 @@ dependencies = [
 
 [[package]]
 name = "crw-mcp"
-version = "0.22.0"
+version = "0.23.0"
 dependencies = [
  "base64",
  "clap",
@@ -973,7 +969,7 @@ dependencies = [
 
 [[package]]
 name = "crw-mcp-proto"
-version = "0.22.0"
+version = "0.23.0"
 dependencies = [
  "jsonschema",
  "serde",
@@ -982,31 +978,8 @@ dependencies = [
 ]
 
 [[package]]
-name = "crw-monitor"
-version = "0.22.0"
-dependencies = [
- "crw-core",
- "crw-crawl",
- "crw-diff",
- "crw-extract",
- "crw-renderer",
- "hex",
- "hmac",
- "reqwest",
- "rusqlite",
- "serde",
- "serde_json",
- "sha2 0.11.0",
- "thiserror 2.0.18",
- "tokio",
- "tracing",
- "url",
- "uuid",
-]
-
-[[package]]
 name = "crw-renderer"
-version = "0.22.0"
+version = "0.23.0"
 dependencies = [
  "async-trait",
  "axum",
@@ -1035,7 +1008,7 @@ dependencies = [
 
 [[package]]
 name = "crw-search"
-version = "0.22.0"
+version = "0.23.0"
 dependencies = [
  "crw-core",
  "futures",
@@ -1053,7 +1026,7 @@ dependencies = [
 
 [[package]]
 name = "crw-server"
-version = "0.22.0"
+version = "0.23.0"
 dependencies = [
  "axum",
  "axum-test",
@@ -1063,7 +1036,6 @@ dependencies = [
  "crw-crawl",
  "crw-diff",
  "crw-extract",
- "crw-monitor",
  "crw-renderer",
  "crw-search",
  "crw-server",
@@ -1149,15 +1121,6 @@ checksum = "10a2a99df6e410a8ff4245aa2006499ea662245f967cc7c0a38c83ef8eb44dbf"
 dependencies = [
  "quote",
  "syn",
-]
-
-[[package]]
-name = "ctutils"
-version = "0.4.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7d5515a3834141de9eafb9717ad39eea8247b5674e6066c404e8c4b365d2a29e"
-dependencies = [
- "cmov",
 ]
 
 [[package]]
@@ -1328,7 +1291,6 @@ dependencies = [
  "block-buffer 0.12.1",
  "const-oid",
  "crypto-common 0.2.2",
- "ctutils",
 ]
 
 [[package]]
@@ -1584,18 +1546,6 @@ dependencies = [
  "quote",
  "syn",
 ]
-
-[[package]]
-name = "fallible-iterator"
-version = "0.3.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2acce4a10f12dc2fb14a218589d4f1f62ef011b2d0cc4b3cb1bba8e94da14649"
-
-[[package]]
-name = "fallible-streaming-iterator"
-version = "0.1.9"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7360491ce676a36bf9bb3c56c1aa791658183a54d2744120f27285738d90465a"
 
 [[package]]
 name = "fancy-regex"
@@ -1900,15 +1850,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "hashlink"
-version = "0.12.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "32069d97bb81e38fa67eab65e3393bf804bb85969f2bc06bf13f64aef5aba248"
-dependencies = [
- "hashbrown 0.17.1",
-]
-
-[[package]]
 name = "heck"
 version = "0.5.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1994,15 +1935,6 @@ dependencies = [
  "thiserror 2.0.18",
  "tokio",
  "tracing",
-]
-
-[[package]]
-name = "hmac"
-version = "0.13.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "6303bc9732ae41b04cb554b844a762b4115a61bfaa81e3e83050991eeb56863f"
-dependencies = [
- "digest 0.11.3",
 ]
 
 [[package]]
@@ -2566,17 +2498,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "c943259e342f1e06ff2da7a83eabdfe7f92ce10262688dbf1895ff0b3e6e4652"
 dependencies = [
  "libc",
-]
-
-[[package]]
-name = "libsqlite3-sys"
-version = "0.38.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f6c19a05435c21ac299d71b6a9c13db3e3f47c520517d58990a462a1397a61db"
-dependencies = [
- "cc",
- "pkg-config",
- "vcpkg",
 ]
 
 [[package]]
@@ -3805,31 +3726,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "rsqlite-vfs"
-version = "0.1.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c51c9ae4df8a7fba42103df5c621fa3c37eccf3a3c650879e90fc48b11cc192c"
-dependencies = [
- "hashbrown 0.16.1",
- "thiserror 2.0.18",
-]
-
-[[package]]
-name = "rusqlite"
-version = "0.40.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "11438310b19e3109b6446c33d1ed5e889428cf2e278407bc7896bc4aaea43323"
-dependencies = [
- "bitflags 2.13.0",
- "fallible-iterator",
- "fallible-streaming-iterator",
- "hashlink 0.12.1",
- "libsqlite3-sys",
- "smallvec",
- "sqlite-wasm-rs",
-]
-
-[[package]]
 name = "rust-ini"
 version = "0.21.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -4354,18 +4250,6 @@ name = "spin"
 version = "0.9.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "6980e8d7511241f8acf4aebddbb1ff938df5eebe98691418c4468d0b72a96a67"
-
-[[package]]
-name = "sqlite-wasm-rs"
-version = "0.5.5"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "dc3efc0da82635d7e1ced0053bbbfa8c7ab9645d0bf36ceb4f7127bb85315d75"
-dependencies = [
- "cc",
- "js-sys",
- "rsqlite-vfs",
- "wasm-bindgen",
-]
 
 [[package]]
 name = "stable_deref_trait"
@@ -5138,12 +5022,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "ba73ea9cf16a25df0c8caa16c51acb937d5712a8429db78a3ee29d5dcacd3a65"
 
 [[package]]
-name = "vcpkg"
-version = "0.2.15"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "accd4ea62f7bb7a82fe23066fb0957d48ef677f6eeb8215f372f52e48bb32426"
-
-[[package]]
 name = "version_check"
 version = "0.9.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -5548,7 +5426,7 @@ checksum = "631a50d867fafb7093e709d75aaee9e0e0d5deb934021fcea25ac2fe09edc51e"
 dependencies = [
  "arraydeque",
  "encoding_rs",
- "hashlink 0.11.1",
+ "hashlink",
 ]
 
 [[package]]
