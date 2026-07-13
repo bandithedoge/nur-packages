@@ -848,10 +848,10 @@
   };
   "nexusmods-advance" = buildMozillaXpiAddon {
     pname = "nexusmods-advance";
-    version = "0.26.84";
+    version = "0.26.85";
     addonId = "NexusModsAdvance@Caiota";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4836921/nexusmods_advance-0.26.84.xpi";
-    sha256 = "f58717b8b4a515e64fce052304765532bff40239fec5ba52cd2a5fa3ea74b61d";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4896160/nexusmods_advance-0.26.85.xpi";
+    sha256 = "7d454c85fbc38f56de5a1d0212240fabbd08506da00f09ae67c8d37bf921788f";
     meta = with lib; {
       description = "Enhance your browsing experience on the NexusMods site and manage your mods directly through the browser!";
       license = licenses.mpl20;
@@ -1390,10 +1390,10 @@
   };
   "refined-github" = buildMozillaXpiAddon {
     pname = "refined-github";
-    version = "26.7";
+    version = "26.7.12";
     addonId = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4876625/refined_github-26.7.xpi";
-    sha256 = "e3eeffcef15770b97042e2b6caf69b67984d2398b124b75778f176f3b9eff373";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4895101/refined_github-26.7.12.xpi";
+    sha256 = "d7601af3c1a6146fe18d0f5f71def6fd4aac4c4ff4d462500540a882855d6d78";
     meta = with lib; {
       homepage = "https://github.com/refined-github/refined-github";
       description = "Simplifies the GitHub interface and adds many useful features.";
