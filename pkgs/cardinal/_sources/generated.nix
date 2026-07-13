@@ -14,7 +14,7 @@
       repo = "Cardinal";
       rev = "0f5cb4b690c59cba7c717f044a8b56ae8f99c838";
       fetchSubmodules = true;
-      sha256 = "sha256-R1D7e9NPA1zDrSezxCluhaYBCJSbhbqPJpL5POKdirw=";
+      sha256 = "sha256-HD0YJ0eROUOX3pc2KQvCFKL655gxLTlcXkkcC2FziwU=";
     };
     date = "2026-06-29";
   };
