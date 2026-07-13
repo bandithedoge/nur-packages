@@ -1,0 +1,23 @@
+{
+    "serena": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "serena",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "oraios",
+            "repo": "serena",
+            "rev": "v1.5.3",
+            "sha256": "sha256-8RHjJG8loqC742LoFK7O3MK7JDEhb1qw8VMBhzj04MM=",
+            "sparseCheckout": [],
+            "type": "github"
+        },
+        "version": "v1.5.3"
+    }
+}
