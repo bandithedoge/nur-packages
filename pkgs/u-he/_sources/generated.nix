@@ -152,10 +152,10 @@
   };
   Zebra3 = {
     pname = "Zebra3";
-    version = "300_21799";
+    version = "301_22165";
     src = fetchTarball {
-      url = "https://uhe-dl.b-cdn.net/releases/Zebra3_300_21799_Linux.tar.xz";
-      sha256 = "sha256-HXLFPRVtRLr4Iv27tI1NpPcpHsfJbwuuG3Oj693XSUg=";
+      url = "https://uhe-dl.b-cdn.net/releases/Zebra3_301_22165_Linux.tar.xz";
+      sha256 = "sha256-u25uYcuf3q1b5hRipptWa8LdXk8JTlwlq6pgnLKaYLQ=";
     };
   };
   ZebraCM = {
