@@ -56,16 +56,16 @@
   };
   xsimd = {
     pname = "xsimd";
-    version = "171349b0dfeb297ffd17e8af0c20c41bcc6a44ba";
+    version = "e88a72831858123924f7118f345dfe5d70d95991";
     src = fetchgit {
       url = "https://github.com/xtensor-stack/xsimd.git";
-      rev = "171349b0dfeb297ffd17e8af0c20c41bcc6a44ba";
+      rev = "e88a72831858123924f7118f345dfe5d70d95991";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-O/bFTT1TATeH3AJOOVjRkhB8P0HWnoNzSwTYtnT0Obs=";
+      sha256 = "sha256-0m9gUDCgGh58lf9uPp1Obw4rsqWEL1RffWYB6s315p0=";
     };
-    date = "2026-07-10";
+    date = "2026-07-15";
   };
 }

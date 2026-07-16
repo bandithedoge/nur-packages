@@ -8,18 +8,18 @@
 {
   helium-bin-arm64 = {
     pname = "helium-bin-arm64";
-    version = "0.14.5.1";
+    version = "0.14.6.1";
     src = fetchTarball {
-      url = "https://github.com/imputnet/helium-linux/releases/download/0.14.5.1/helium-0.14.5.1-arm64_linux.tar.xz";
-      sha256 = "sha256-sRmiUnwiQ79lNxUxpRzTnayscOXBzy3G10rXxRTLkus=";
+      url = "https://github.com/imputnet/helium-linux/releases/download/0.14.6.1/helium-0.14.6.1-arm64_linux.tar.xz";
+      sha256 = "sha256-AsUKh0s7IzqBB0q1gSFrW5Sw9UlXh5r+DQKoK3Frf7E=";
     };
   };
   helium-bin-x86_64 = {
     pname = "helium-bin-x86_64";
-    version = "0.14.5.1";
+    version = "0.14.6.1";
     src = fetchTarball {
-      url = "https://github.com/imputnet/helium-linux/releases/download/0.14.5.1/helium-0.14.5.1-x86_64_linux.tar.xz";
-      sha256 = "sha256-RC9b91W1/vXkgkgfpgexOkv79W6B2pV1kYjvDkRa7fg=";
+      url = "https://github.com/imputnet/helium-linux/releases/download/0.14.6.1/helium-0.14.6.1-x86_64_linux.tar.xz";
+      sha256 = "sha256-KMIh8RdA6mcer3Lkl+oJh6UZ7G7wZBUnBIDjXtiltIM=";
     };
   };
 }
