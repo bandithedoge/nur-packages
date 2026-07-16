@@ -13,11 +13,11 @@
             "name": null,
             "owner": "winegui",
             "repo": "WineGUI",
-            "rev": "v3.1.0",
-            "sha256": "sha256-Y/qdXG0LVcui6rqYYC6QKi2uL/GGZ7SwASmE0Mv9BLM=",
+            "rev": "v4.0.0",
+            "sha256": "sha256-kXZREj9aNPv7myjEtCjjo0ikZJSbaDcECxyTr0yWaSI=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "v3.1.0"
+        "version": "v4.0.0"
     }
 }
