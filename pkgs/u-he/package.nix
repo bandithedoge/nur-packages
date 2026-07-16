@@ -9,6 +9,7 @@
   glib,
   gtk3,
   libxcb,
+  libxcb-cursor,
   libxcb-keysyms,
   libxcb-util,
   unzip,
@@ -263,6 +264,7 @@ in
     postBuild = ''
       mkdir -p $out/libexec/Zebra3/{Modules/{Envelope,LFO,MSEG},Tunefiles}/User
     '';
+    extraLibs = [ libxcb-cursor ];
 
     meta = {
       homepage = "https://u-he.com/products/synths/zebra3/";
