@@ -302,10 +302,10 @@
   };
   "csgofloat" = buildMozillaXpiAddon {
     pname = "csgofloat";
-    version = "5.15.1";
+    version = "5.16.0";
     addonId = "{194d0dc6-7ada-41c6-88b8-95d7636fe43c}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4791498/csgofloat-5.15.1.xpi";
-    sha256 = "c87a739ce36751c7dc93370b2cc8a3ede58768736f0790e9a12fb0ba7441d1d3";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4897673/csgofloat-5.16.0.xpi";
+    sha256 = "8fd6c0c0bab28ca779ee304fed7ab39ccb26cb0615077760cc7b6358950c8db1";
     meta = with lib; {
       homepage = "https://csgofloat.com";
       description = "Shows the float value, paint seed, and screenshots of Counter-Strike (CS:GO &amp; CS2) items on the Steam Market or Inventories";
@@ -1367,10 +1367,10 @@
   };
   "reddit-enhancement-suite" = buildMozillaXpiAddon {
     pname = "reddit-enhancement-suite";
-    version = "5.24.9";
+    version = "5.24.10";
     addonId = "jid1-xUfzOsOFlzSOXg@jetpack";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4881407/reddit_enhancement_suite-5.24.9.xpi";
-    sha256 = "dacde06a8289b558d7f3a95cda112459430e3fac3042929eae2ded6a67e440d8";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4899821/reddit_enhancement_suite-5.24.10.xpi";
+    sha256 = "4573cfdb10193467e99e1dd5a792f23ae69764540c2e06d0444f12a81cdc4f0a";
     meta = with lib; {
       homepage = "https://redditenhancementsuite.com/";
       description = "Reddit Enhancement Suite (RES) is a suite of tools to enhance your Reddit browsing experience.";
@@ -1441,10 +1441,10 @@
   };
   "sidebery" = buildMozillaXpiAddon {
     pname = "sidebery";
-    version = "5.5.2";
+    version = "5.6.1";
     addonId = "{3c078156-979c-498b-8990-85f7987dd929}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4766841/sidebery-5.5.2.xpi";
-    sha256 = "43e7dd4b8f684e637193d645fbcc94fb182583d24ac9a5b58effc4fb4d9faef2";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4903712/sidebery-5.6.1.xpi";
+    sha256 = "e8a0a4b556ab7dd536897c1816af9d0918030223068ea6683a04376103a6caf2";
     meta = with lib; {
       homepage = "https://github.com/mbnuqw/sidebery";
       description = "Vertical tabs tree and bookmarks in sidebar with advanced containers configuration, grouping and many other features.";
@@ -1586,10 +1586,10 @@
   };
   "stylus" = buildMozillaXpiAddon {
     pname = "stylus";
-    version = "2.4.6";
+    version = "2.4.7";
     addonId = "{7a7a4a92-a2a0-41d1-9fd7-1e92480d612d}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4899605/styl_us-2.4.6.xpi";
-    sha256 = "6954080952bf11dae66d9d46cf739ba98966c62d52ab8ae5d8884d1e620c7428";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4903256/styl_us-2.4.7.xpi";
+    sha256 = "76f47f30dfedb53dc9773243bb66c57536aff3df4d86c22a8e4d031ac75b72d6";
     meta = with lib; {
       homepage = "https://add0n.com/stylus.html";
       description = "Redesign your favorite websites with Stylus, an actively developed and community driven userstyles manager. Easily install custom themes from popular online repositories, or create, edit, and manage your own personalized CSS stylesheets.";
