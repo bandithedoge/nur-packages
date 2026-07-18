@@ -8,10 +8,10 @@
 {
   wavetable-bin = {
     pname = "wavetable-bin";
-    version = "v1.0.32";
+    version = "v1.0.33";
     src = fetchurl {
-      url = "https://github.com/FigBug/Wavetable/releases/download/v1.0.32/Wavetable.deb";
-      sha256 = "sha256-TBNeHpBGJjNpoa3VJlfWRJwovL8s51KKHxS06laOIvc=";
+      url = "https://github.com/FigBug/Wavetable/releases/download/v1.0.33/Wavetable.deb";
+      sha256 = "sha256-56nH8y3//uvKJ/MITtjtWhIJKNxnMBY6REwuQsfN1jc=";
     };
   };
 }

@@ -8,10 +8,10 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-TBNeHpBGJjNpoa3VJlfWRJwovL8s51KKHxS06laOIvc=",
+            "sha256": "sha256-56nH8y3//uvKJ/MITtjtWhIJKNxnMBY6REwuQsfN1jc=",
             "type": "url",
-            "url": "https://github.com/FigBug/Wavetable/releases/download/v1.0.32/Wavetable.deb"
+            "url": "https://github.com/FigBug/Wavetable/releases/download/v1.0.33/Wavetable.deb"
         },
-        "version": "v1.0.32"
+        "version": "v1.0.33"
     }
 }
