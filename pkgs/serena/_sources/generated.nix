@@ -8,13 +8,13 @@
 {
   serena = {
     pname = "serena";
-    version = "v1.5.3";
+    version = "v1.6.0";
     src = fetchFromGitHub {
       owner = "oraios";
       repo = "serena";
-      rev = "v1.5.3";
+      rev = "v1.6.0";
       fetchSubmodules = false;
-      sha256 = "sha256-8RHjJG8loqC742LoFK7O3MK7JDEhb1qw8VMBhzj04MM=";
+      sha256 = "sha256-PpZTvI+HGm1Iq1AyqBw+b/tn8U/ZGwUNjFBAOYMIIr8=";
     };
   };
 }
