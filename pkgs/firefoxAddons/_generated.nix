@@ -820,10 +820,10 @@
   };
   "material-icons-for-github" = buildMozillaXpiAddon {
     pname = "material-icons-for-github";
-    version = "1.16.2";
+    version = "1.16.3";
     addonId = "{eac6e624-97fa-4f28-9d24-c06c9b8aa713}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4865929/material_icons_for_github-1.16.2.xpi";
-    sha256 = "ad4d552510f3b731dd6e8fea7a5f25540445a2863438ae7fc2905860d7f07970";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4908635/material_icons_for_github-1.16.3.xpi";
+    sha256 = "ad6955b1808e35ce94703e648f8231c488aa342fbe3d037e59baafd35b6b9a7a";
     meta = with lib; {
       homepage = "https://github.com/material-extensions/material-icons-browser-extension";
       description = "Replace the file/folder icons on github file browsers with icons representing the file's type and which tool it is used by.";
@@ -1586,10 +1586,10 @@
   };
   "stylus" = buildMozillaXpiAddon {
     pname = "stylus";
-    version = "2.4.7";
+    version = "2.4.8";
     addonId = "{7a7a4a92-a2a0-41d1-9fd7-1e92480d612d}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4903256/styl_us-2.4.7.xpi";
-    sha256 = "76f47f30dfedb53dc9773243bb66c57536aff3df4d86c22a8e4d031ac75b72d6";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4907275/styl_us-2.4.8.xpi";
+    sha256 = "455426890a38bd3ee511000112ece51675f8bbc21e988be2170c3ae6900cbedf";
     meta = with lib; {
       homepage = "https://add0n.com/stylus.html";
       description = "Redesign your favorite websites with Stylus, an actively developed and community driven userstyles manager. Easily install custom themes from popular online repositories, or create, edit, and manage your own personalized CSS stylesheets.";
