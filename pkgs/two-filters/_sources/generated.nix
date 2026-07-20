@@ -8,15 +8,15 @@
 {
   two-filters = {
     pname = "two-filters";
-    version = "b6d9bd3da5f8fa1db42cc6521a3d47b6cc4cbfa9";
+    version = "4f8ea343bcb3e469e3001962ffd408e3cf95e9d6";
     src = fetchFromGitHub {
       owner = "baconpaul";
       repo = "two-filters";
-      rev = "b6d9bd3da5f8fa1db42cc6521a3d47b6cc4cbfa9";
+      rev = "4f8ea343bcb3e469e3001962ffd408e3cf95e9d6";
       fetchSubmodules = true;
-      sha256 = "sha256-mjkEfRtK7IqbtAZy7lgDeaAg9k4MKltuHqCehw9v2rE=";
+      sha256 = "sha256-e3RCcpapZ2Skmq97pt2AA2GH0g5vIoNfnxfdlK8BBOw=";
     };
-    date = "2026-06-24";
+    date = "2026-07-19";
   };
   vst3sdk = {
     pname = "vst3sdk";
