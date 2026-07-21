@@ -84,7 +84,7 @@
     },
     "xsimd": {
         "cargoLock": null,
-        "date": "2026-07-16",
+        "date": "2026-07-20",
         "extract": null,
         "name": "xsimd",
         "passthru": null,
@@ -94,12 +94,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "d0c4a8f4262cb844dd2ca58c331ed53a411f107b",
-            "sha256": "sha256-dx6ikUTa/7uSGKLFmuFdB5PDAqY2t+lZENCFqMxZSCk=",
+            "rev": "82a37aa77f77ef086104d2cacc26aaa1f628e94d",
+            "sha256": "sha256-3lcjIwrJSyFo+8GoO1h9o4eJyMvN/uzG+hzKIr1xmz0=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/xtensor-stack/xsimd.git"
         },
-        "version": "d0c4a8f4262cb844dd2ca58c331ed53a411f107b"
+        "version": "82a37aa77f77ef086104d2cacc26aaa1f628e94d"
     }
 }
