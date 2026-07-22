@@ -1,7 +1,7 @@
 {
     "element": {
         "cargoLock": null,
-        "date": "2026-07-17",
+        "date": "2026-07-20",
         "extract": null,
         "name": "element",
         "passthru": null,
@@ -13,12 +13,12 @@
             "name": null,
             "owner": "kushview",
             "repo": "element",
-            "rev": "db61e50ce0ee1df04092dacd28ba7b6e97038038",
-            "sha256": "sha256-gNUB5spB2mwxdwrsFZ3rA386PF7EYN/b2Kd05Z+VZL0=",
+            "rev": "0c2d8e8039b741ff61d5034ded7bbae12a63a66e",
+            "sha256": "sha256-tz2JTVba/TbPoM2iacbEgBO2iQuuIVKmRIEFyv9b+74=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "db61e50ce0ee1df04092dacd28ba7b6e97038038"
+        "version": "0c2d8e8039b741ff61d5034ded7bbae12a63a66e"
     },
     "juce": {
         "cargoLock": null,

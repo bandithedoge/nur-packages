@@ -217,9 +217,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "5f2e22e784dd5fc830cd85885a6d1d6690b52298",
-      "url": "https://github.com/h-hg/yamb.yazi/archive/5f2e22e784dd5fc830cd85885a6d1d6690b52298.tar.gz",
-      "hash": "sha256-3Cp3+v0laSVsDdTyG26EOh2xt18ER8P9Nla9vtRuj9k="
+      "revision": "5576bd790e6868019d3ce7e958873cee3c94d783",
+      "url": "https://github.com/h-hg/yamb.yazi/archive/5576bd790e6868019d3ce7e958873cee3c94d783.tar.gz",
+      "hash": "sha256-oq9zyVduKbOPuJVzFHiNIxe/JvNcqujS5edEjZJstpQ="
     }
   },
   "version": 8
