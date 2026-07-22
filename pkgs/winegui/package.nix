@@ -7,6 +7,7 @@
   cmake,
   gtkmm4,
   ninja,
+  nlohmann_json,
   pkg-config,
 }:
 stdenv.mkDerivation {
@@ -21,6 +22,7 @@ stdenv.mkDerivation {
 
   buildInputs = [
     gtkmm4
+    nlohmann_json
   ];
 
   meta = {
