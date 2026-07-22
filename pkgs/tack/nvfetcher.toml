@@ -1,4 +1,0 @@
-[tack]
-src.github = "manic-systems/tack"
-fetch.github = "manic-systems/tack"
-cargo_lock = ["Cargo.lock"]

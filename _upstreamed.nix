@@ -55,6 +55,7 @@
     "nerd-fonts"
     "symbols-only"
   ];
+  tack = [ "tack" ];
   treeSitterGrammars.hypr = [
     "tree-sitter-grammars"
     "tree-sitter-hyprland"
@@ -209,6 +210,7 @@
   yaziPlugins =
     lib.genAttrs
       [
+        "allmytoes"
         "bookmarks"
         "bypass"
         "compress"
