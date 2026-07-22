@@ -136,6 +136,7 @@ symlinkJoin {
 
   passthru = {
     inherit yabridge yabridgectl wine;
+    _ignoreDupe = true;
   };
 
   meta = {

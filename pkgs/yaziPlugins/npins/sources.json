@@ -1,18 +1,5 @@
 {
   "pins": {
-    "allmytoes.yazi": {
-      "type": "Git",
-      "repository": {
-        "type": "GitHub",
-        "owner": "Sonico98",
-        "repo": "allmytoes.yazi"
-      },
-      "branch": "master",
-      "submodules": false,
-      "revision": "acdc53be76434a82218eed8e1fda5512971bf3cc",
-      "url": "https://github.com/Sonico98/allmytoes.yazi/archive/acdc53be76434a82218eed8e1fda5512971bf3cc.tar.gz",
-      "hash": "sha256-zZ9L0FrcxFvSuDJwi6VHQXDT7b/sM4DhZ3LPi/i9tig="
-    },
     "archivemount.yazi": {
       "type": "Git",
       "repository": {
