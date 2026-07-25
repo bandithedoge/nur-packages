@@ -24,6 +24,7 @@
     "cachyos"
   ];
   resonarium = [ "resonarium-bin" ];
+  sgdboop-bin = [ "sgdboop" ];
   swift-mesonlsp-bin = [ "mesonlsp-bin" ];
   the-usual-suspects = {
     osirus = [ "dsp56300" ];
