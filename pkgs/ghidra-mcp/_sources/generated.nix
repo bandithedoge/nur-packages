@@ -17,4 +17,15 @@
       sha256 = "sha256-LnhhJwycO8NQV+YaTP7ZoxGkoGLkc14BwY66wczbpp0=";
     };
   };
+  python-mcp = {
+    pname = "python-mcp";
+    version = "v1.29.0";
+    src = fetchFromGitHub {
+      owner = "modelcontextprotocol";
+      repo = "python-sdk";
+      rev = "v1.29.0";
+      fetchSubmodules = false;
+      sha256 = "sha256-lRlj5RT/R5zrYL5XpdQR2l9t99G94WTsubN0gSQekMc=";
+    };
+  };
 }
