@@ -848,10 +848,10 @@
   };
   "nexusmods-advance" = buildMozillaXpiAddon {
     pname = "nexusmods-advance";
-    version = "0.26.85";
+    version = "0.26.86";
     addonId = "NexusModsAdvance@Caiota";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4896160/nexusmods_advance-0.26.85.xpi";
-    sha256 = "7d454c85fbc38f56de5a1d0212240fabbd08506da00f09ae67c8d37bf921788f";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4934055/nexusmods_advance-0.26.86.xpi";
+    sha256 = "b81e189af76a2b6c2869dd3fc938a63bb97cfc8c2ccc57fd82cafd276e4cf1fa";
     meta = with lib; {
       description = "Enhance your browsing experience on the NexusMods site and manage your mods directly through the browser!";
       license = licenses.mpl20;
@@ -1586,10 +1586,10 @@
   };
   "stylus" = buildMozillaXpiAddon {
     pname = "stylus";
-    version = "2.4.8";
+    version = "2.4.9";
     addonId = "{7a7a4a92-a2a0-41d1-9fd7-1e92480d612d}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4907275/styl_us-2.4.8.xpi";
-    sha256 = "455426890a38bd3ee511000112ece51675f8bbc21e988be2170c3ae6900cbedf";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4934380/styl_us-2.4.9.xpi";
+    sha256 = "7108b8d5b600d9d35caee46c50416b296721683d3497c572e029e84f7e42afb7";
     meta = with lib; {
       homepage = "https://add0n.com/stylus.html";
       description = "Redesign your favorite websites with Stylus, an actively developed and community driven userstyles manager. Easily install custom themes from popular online repositories, or create, edit, and manage your own personalized CSS stylesheets.";
