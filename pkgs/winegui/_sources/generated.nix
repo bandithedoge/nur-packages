@@ -8,13 +8,13 @@
 {
   winegui = {
     pname = "winegui";
-    version = "v4.2.0";
+    version = "v4.2.1";
     src = fetchFromGitHub {
       owner = "winegui";
       repo = "WineGUI";
-      rev = "v4.2.0";
+      rev = "v4.2.1";
       fetchSubmodules = false;
-      sha256 = "sha256-rnwmCmLD0dR0Egp+IoHSny1wc0Bq5RYVhxLiIrL1mQA=";
+      sha256 = "sha256-4Gisn2BOeg7aMfoC2UScIB1p3bdh2ojYWrufiuDZ9iI=";
     };
   };
 }
