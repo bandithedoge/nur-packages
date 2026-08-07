@@ -1468,15 +1468,15 @@
   };
   "skip-redirect" = buildMozillaXpiAddon {
     pname = "skip-redirect";
-    version = "2.3.6";
+    version = "3.0.0";
     addonId = "skipredirect@sblask";
-    url = "https://addons.mozilla.org/firefox/downloads/file/3920533/skip_redirect-2.3.6.xpi";
-    sha256 = "dbe8950245c1f475c5c1c6daab89c79b83ba4680621c91e80f15be7b09b618ae";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4926851/skip_redirect-3.0.0.xpi";
+    sha256 = "0ac20d39dda5f6657fdb72883c7a225173bfa3e64569cd47375ddab88fbe6665";
     meta = with lib; {
       description = "Some web pages use intermediary pages before redirecting to a final page. This add-on tries to extract the final url from the intermediary url and goes there straight away if successful.";
       license = licenses.mit;
       mozPermissions = [
-        "<all_urls>"
+        "alarms"
         "clipboardWrite"
         "contextMenus"
         "notifications"
