@@ -22,6 +22,7 @@
             npins
             nushell
             nvfetcher
+            nix-update
           ];
         };
 
@@ -35,10 +36,16 @@
 
       treefmt.config = {
         projectRootFile = "flake.nix";
-        settings.excludes = [
-          "*/_sources/*"
-          "*/npins/*"
-        ];
+        settings = {
+          excludes = [
+            "*/_sources/*"
+            "*/npins/*"
+          ];
+          formatter.nufmt = {
+            command = pkgs.lib.getExe pkgs.nufmt;
+            includes = [ "*.nu" ];
+          };
+        };
         programs = {
           clang-format.enable = true;
           nixfmt = {

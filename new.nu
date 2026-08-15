@@ -1,8 +1,6 @@
 #!/usr/bin/env nu
 
-def main [
-    name: string
-] {
+def main [name: string] {
     mkdir $"pkgs/($name)"
     $"[($name)]\n" | save $"pkgs/($name)/nvfetcher.toml"
     $"{

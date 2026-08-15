@@ -20,11 +20,15 @@ def fetch-yazi [] {
     ^npins -d pkgs/yaziPlugins/npins update
 }
 
-def fetch [
-    path: string
-    --commit
-] {
-    mut cmd = [nvfetcher -c ($path ++ /nvfetcher.toml) -o ($path ++ /_sources) -t]
+def fetch [path: string, --commit] {
+    mut cmd = [
+        nvfetcher
+        -c
+        ($path ++ /nvfetcher.toml)
+        -o
+        ($path ++ /_sources)
+        -t
+    ]
     if ("keyfile.toml" | path exists) {
         $cmd ++= [-k keyfile.toml]
     }
@@ -34,10 +38,7 @@ def fetch [
     run-external $cmd
 }
 
-def main [
-    ...packages: string
-    --commit
-] {
+def main [--commit, ...packages: string] {
     if ($packages | is-empty) {
         (ls **/nvfetcher.toml) | each {|pkg|
             echo $pkg
@@ -51,12 +52,12 @@ def main [
     } else {
         for $package in $packages {
             match $package {
-                "emacs" => fetch-emacs,
-                "firefox" => fetch-firefox,
-                "vim" => fetch-vim,
-                "xplr" => fetch-xplr,
-                "yazi" => fetch-yazi,
-                _ => {fetch $package --commit=$commit },
+                emacs => fetch-emacs
+                firefox => fetch-firefox
+                vim => fetch-vim
+                xplr => fetch-xplr
+                yazi => fetch-yazi
+                _ => { fetch $package --commit=$commit }
             }
         }
     }
