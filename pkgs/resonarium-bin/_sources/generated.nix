@@ -8,18 +8,18 @@
 {
   resonarium-bin = {
     pname = "resonarium-bin";
-    version = "0.0.11";
+    version = "0.1.0";
     src = fetchurl {
-      url = "https://github.com/gabrielsoule/resonarium/releases/download/v0.0.11/Resonarium-Instrument-0.0.11-Linux.zip";
-      sha256 = "sha256-L7kZA7mJ/gj8KsOmC037pv0i9pK8I7o5jO92Je1/A7E=";
+      url = "https://github.com/gabrielsoule/resonarium/releases/download/v0.1.0/Resonarium-Instrument-0.1.0-Linux.zip";
+      sha256 = "sha256-qDJU90fEShT4LCrgEn/etCwy8mPgCjxXn8+CB1Hxuc0=";
     };
   };
   resonarium-effect-bin = {
     pname = "resonarium-effect-bin";
-    version = "0.0.11";
+    version = "0.1.0";
     src = fetchurl {
-      url = "https://github.com/gabrielsoule/resonarium/releases/download/v0.0.11/Resonarium-Effect-0.0.11-Linux.zip";
-      sha256 = "sha256-UCpUse9QBOfTLmRTlK6VLv1plpPmCWI9bofk7cpg11E=";
+      url = "https://github.com/gabrielsoule/resonarium/releases/download/v0.1.0/Resonarium-Effect-0.1.0-Linux.zip";
+      sha256 = "sha256-GFos0HLM6CTU99DLB6e4OuySgODcZDdxheM+K2VHOUY=";
     };
   };
 }
