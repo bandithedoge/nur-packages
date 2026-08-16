@@ -8,20 +8,20 @@
 {
   nu-plugin-mime = {
     pname = "nu-plugin-mime";
-    version = "7dd4ae2bf757f1732d5e0a4d9e615bc0586b09d8";
+    version = "8e5872a5c94573d0ede3127b5ab8628b8d7f4a4c";
     src = fetchFromGitHub {
       owner = "kik4444";
       repo = "nu_plugin_mime";
-      rev = "7dd4ae2bf757f1732d5e0a4d9e615bc0586b09d8";
+      rev = "8e5872a5c94573d0ede3127b5ab8628b8d7f4a4c";
       fetchSubmodules = false;
-      sha256 = "sha256-ZlUCM105Bfe7QsWMyDSOoVT/WXBJTKdFjvEdPc2KD0w=";
+      sha256 = "sha256-XK8rco+OQWsgwD/a0zht6PKgj8ZhiZAhop5+eFefowc=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./. + "/sha256-ZlUCM105Bfe7QsWMyDSOoVT_WXBJTKdFjvEdPc2KD0w=/Cargo.lock";
+      lockFile = ./. + "/sha256-XK8rco+OQWsgwD_a0zht6PKgj8ZhiZAhop5+eFefowc=/Cargo.lock";
       outputHashes = {
         
       };
     };
-    date = "2026-05-09";
+    date = "2026-08-15";
   };
 }
