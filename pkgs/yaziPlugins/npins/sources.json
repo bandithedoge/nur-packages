@@ -9,9 +9,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "73027118bb26ce290bebc9d38fe72a14469d9ec2",
-      "url": "https://github.com/AnirudhG07/archivemount.yazi/archive/73027118bb26ce290bebc9d38fe72a14469d9ec2.tar.gz",
-      "hash": "sha256-I5z7h5gm8zME4wKXbt1pFsDf6HzdJS+tkd6QqnVh2R8="
+      "revision": "f5c5c5c1a891b1c94372cdca44f3645d6f26bfe2",
+      "url": "https://github.com/AnirudhG07/archivemount.yazi/archive/f5c5c5c1a891b1c94372cdca44f3645d6f26bfe2.tar.gz",
+      "hash": "sha256-J+D4kmbtRcgYuLEOknAZ4pwWeJkxY3gpEDDfUTGUajA="
     },
     "augment-command.yazi": {
       "type": "Git",
@@ -22,9 +22,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "dd2d6cf07f81cef543e37883352e30b91634ec86",
-      "url": "https://github.com/hankertrix/augment-command.yazi/archive/dd2d6cf07f81cef543e37883352e30b91634ec86.tar.gz",
-      "hash": "sha256-sB2t3Gg+WdPG6OE8pD6VovD+x9nN21Jn8XydZZdTqCg="
+      "revision": "6269d41760522d1848169fd4e7dd1e4e808f3be0",
+      "url": "https://github.com/hankertrix/augment-command.yazi/archive/6269d41760522d1848169fd4e7dd1e4e808f3be0.tar.gz",
+      "hash": "sha256-p8tz+cIhXBT6vGun1FYe+ja4WKiXk8NSqhVvIC3HX7c="
     },
     "exifaudio.yazi": {
       "type": "Git",

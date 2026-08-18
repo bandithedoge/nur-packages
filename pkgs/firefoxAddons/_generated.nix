@@ -220,10 +220,10 @@
   };
   "auto-tab-discard" = buildMozillaXpiAddon {
     pname = "auto-tab-discard";
-    version = "0.7.1";
+    version = "0.7.2";
     addonId = "{c2c003ee-bd69-42a2-b0e9-6f34222cb046}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4959845/auto_tab_discard-0.7.1.xpi";
-    sha256 = "3eea86e33f1716026b9e3d7d9d0bde3c91163d420081290530d29a2fefedd683";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4962080/auto_tab_discard-0.7.2.xpi";
+    sha256 = "ff0ed41080d4596a3577e1751b6a5780ab4672114ca91b79accf024083a80d3b";
     meta = with lib; {
       homepage = "https://webextension.org/listing/tab-discard.html";
       description = "Increase browser speed and reduce memory load and when you have numerous open tabs.";
@@ -545,10 +545,10 @@
   };
   "indie-wiki-buddy" = buildMozillaXpiAddon {
     pname = "indie-wiki-buddy";
-    version = "3.14.6";
+    version = "3.14.8";
     addonId = "{cb31ec5d-c49a-4e5a-b240-16c767444f62}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4815321/indie_wiki_buddy-3.14.6.xpi";
-    sha256 = "ed5e9bd34eb285a51205c149b963266e490c3742a2fe9ec50211b03492bc612b";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4951001/indie_wiki_buddy-3.14.8.xpi";
+    sha256 = "69d0fb83217fa5b6921e711f73768e34562dbee15ca99261dd509cac9f9e8197";
     meta = with lib; {
       homepage = "https://getindie.wiki/";
       description = "Helping you discover quality, independent wikis!\n\nWhen visiting a Fandom wiki, Indie Wiki Buddy redirects or alerts you of independent alternatives. It also filters search engine results. BreezeWiki is also supported, to reduce clutter on Fandom.";
