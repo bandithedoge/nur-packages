@@ -2,7 +2,7 @@
     "fastcrw": {
         "cargoLock": {
             "Cargo.lock": [
-                "sha256-gcVsffHupkslHrmhd1y2CWgHegy9+1r_ed34BoqAjg4=/Cargo.lock",
+                "sha256-xHB7LibVrWjM+X23ImIJC8yBDy5lBb8XR7wn7hXJ9aA=/Cargo.lock",
                 {}
             ]
         },
@@ -18,11 +18,11 @@
             "name": null,
             "owner": "us",
             "repo": "crw",
-            "rev": "v0.30.0",
-            "sha256": "sha256-gcVsffHupkslHrmhd1y2CWgHegy9+1r/ed34BoqAjg4=",
+            "rev": "v0.31.0",
+            "sha256": "sha256-xHB7LibVrWjM+X23ImIJC8yBDy5lBb8XR7wn7hXJ9aA=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "v0.30.0"
+        "version": "v0.31.0"
     }
 }
