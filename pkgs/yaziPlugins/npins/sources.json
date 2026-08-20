@@ -22,9 +22,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "6269d41760522d1848169fd4e7dd1e4e808f3be0",
-      "url": "https://github.com/hankertrix/augment-command.yazi/archive/6269d41760522d1848169fd4e7dd1e4e808f3be0.tar.gz",
-      "hash": "sha256-p8tz+cIhXBT6vGun1FYe+ja4WKiXk8NSqhVvIC3HX7c="
+      "revision": "352dc37dd737792370e86b09099c1551162a5d43",
+      "url": "https://github.com/hankertrix/augment-command.yazi/archive/352dc37dd737792370e86b09099c1551162a5d43.tar.gz",
+      "hash": "sha256-PN8GE18MGYqpg8EdtCAH1cMRy1lFX9nA3y3lanmhY6E="
     },
     "exifaudio.yazi": {
       "type": "Git",
@@ -165,9 +165,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "f46528243c458de3ffce38c44607d5a0cde67559",
-      "url": "https://github.com/kirasok/torrent-preview.yazi/archive/f46528243c458de3ffce38c44607d5a0cde67559.tar.gz",
-      "hash": "sha256-VhJvNRKHxVla4v2JJeSnP0MOMBFSm4k7gfqjrHOMVlo="
+      "revision": "d745df633a4a52f9621eeab46e74a54e8c056a56",
+      "url": "https://github.com/kirasok/torrent-preview.yazi/archive/d745df633a4a52f9621eeab46e74a54e8c056a56.tar.gz",
+      "hash": "sha256-nC8mIGB4wQftDMRXKprvF4SThNdvueCLQ8REiPs8HUY="
     },
     "video-ffmpeg.yazi": {
       "type": "Git",
