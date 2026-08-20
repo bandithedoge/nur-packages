@@ -8,17 +8,17 @@
 {
   mcp-searxng = {
     pname = "mcp-searxng";
-    version = "v1.15.0";
+    version = "v1.16.0";
     src = fetchFromGitHub {
       owner = "ihor-sokoliuk";
       repo = "mcp-searxng";
-      rev = "v1.15.0";
+      rev = "v1.16.0";
       fetchSubmodules = false;
-      sha256 = "sha256-vNh96VKUD+hrwVhHvVAk88IKunfsY2gQ8WWmgRaywqY=";
+      sha256 = "sha256-FD/Je21W7oKW0+09NptggR6aHZomzajsLrj5Ty0M7bM=";
     };
     extract = {
-      "package-lock.json" = ./. + "/sha256-vNh96VKUD+hrwVhHvVAk88IKunfsY2gQ8WWmgRaywqY=/package-lock.json";
-      "package.json" = ./. + "/sha256-vNh96VKUD+hrwVhHvVAk88IKunfsY2gQ8WWmgRaywqY=/package.json";
+      "package-lock.json" = ./. + "/sha256-FD_Je21W7oKW0+09NptggR6aHZomzajsLrj5Ty0M7bM=/package-lock.json";
+      "package.json" = ./. + "/sha256-FD_Je21W7oKW0+09NptggR6aHZomzajsLrj5Ty0M7bM=/package.json";
     };
   };
 }
