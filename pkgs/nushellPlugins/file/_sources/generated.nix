@@ -8,16 +8,16 @@
 {
   nu-plugin-file = {
     pname = "nu-plugin-file";
-    version = "v0.26.0";
+    version = "v0.27.0";
     src = fetchFromGitHub {
       owner = "fdncred";
       repo = "nu_plugin_file";
-      rev = "v0.26.0";
+      rev = "v0.27.0";
       fetchSubmodules = false;
-      sha256 = "sha256-pSicwUpRDeyJYjA/TsZmHwh0LkXWnJ9vDIQcGWoQnhg=";
+      sha256 = "sha256-TC5XlHSg4K+eJ5vu7Q1JAKPL7qTUfEWTP7CQY6wYzgg=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./. + "/sha256-pSicwUpRDeyJYjA_TsZmHwh0LkXWnJ9vDIQcGWoQnhg=/Cargo.lock";
+      lockFile = ./. + "/sha256-TC5XlHSg4K+eJ5vu7Q1JAKPL7qTUfEWTP7CQY6wYzgg=/Cargo.lock";
       outputHashes = {
         
       };
