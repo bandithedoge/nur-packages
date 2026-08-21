@@ -1468,10 +1468,10 @@
   };
   "skip-redirect" = buildMozillaXpiAddon {
     pname = "skip-redirect";
-    version = "3.0.1";
+    version = "3.0.2";
     addonId = "skipredirect@sblask";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4951882/skip_redirect-3.0.1.xpi";
-    sha256 = "e981580b23c1df9316f04fdb6921e67ddc801b8cbffc86fee6364331674a4253";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4968151/skip_redirect-3.0.2.xpi";
+    sha256 = "1ed9c4ca15fced2963dc001d95c4745eed9a1c5bb9d76d70a3140dbd5715b9d7";
     meta = with lib; {
       description = "Some web pages use intermediary pages before redirecting to a final page. This add-on tries to extract the final url from the intermediary url and goes there straight away if successful.";
       license = licenses.mit;
@@ -1586,10 +1586,10 @@
   };
   "stylus" = buildMozillaXpiAddon {
     pname = "stylus";
-    version = "2.4.10";
+    version = "2.4.11";
     addonId = "{7a7a4a92-a2a0-41d1-9fd7-1e92480d612d}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4947910/styl_us-2.4.10.xpi";
-    sha256 = "907c1ebcfeaaa78890ef82ebb1a004f8e607fe482095165cd1b8309373112129";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4970801/styl_us-2.4.11.xpi";
+    sha256 = "a1fb8025132ad77f3f81dcdf6ac6a31798048a95ea65b975d12b335116df0224";
     meta = with lib; {
       homepage = "https://add0n.com/stylus.html";
       description = "Redesign your favorite websites with Stylus, an actively developed and community driven userstyles manager. Easily install custom themes from popular online repositories, or create, edit, and manage your own personalized CSS stylesheets.";
@@ -1741,10 +1741,10 @@
   };
   "violentmonkey" = buildMozillaXpiAddon {
     pname = "violentmonkey";
-    version = "2.47.0";
+    version = "2.48.0";
     addonId = "{aecec67f-0d10-4fa7-b7c7-609a2db280cf}";
-    url = "https://addons.mozilla.org/firefox/downloads/file/4941753/violentmonkey-2.47.0.xpi";
-    sha256 = "cce81b8ae7064e7d70a805f61e73190fbd546bdd3c78483d3b702be003b1316f";
+    url = "https://addons.mozilla.org/firefox/downloads/file/4963965/violentmonkey-2.48.0.xpi";
+    sha256 = "e73e3103697cbeee3335020c31c7e3c587946929740cd78f9bff1b50bf62be34";
     meta = with lib; {
       homepage = "https://violentmonkey.github.io/";
       description = "Userscript support for browsers, open source.";
