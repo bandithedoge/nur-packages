@@ -2,15 +2,17 @@
 
 def main [name: string] {
     mkdir $"pkgs/($name)"
-    $"[($name)]\n" | save $"pkgs/($name)/nvfetcher.toml"
     $"{
-      sources,
-
       lib,
+      nix-update-script,
       stdenv,
     }:
     stdenv.mkDerivation {
-      inherit \(sources.($name)) pname version src;
+      pname = \"($name)\";
+      version = \"\";
+      src = null;
+
+      passthru.updateScript = nix-update-script {};
 
       # meta = {
       #   description = \"\";
