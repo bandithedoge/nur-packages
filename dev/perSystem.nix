@@ -21,7 +21,6 @@
             inputs.mozilla-addons-to-nix.packages.${system}.default
             npins
             nushell
-            nvfetcher
             nix-update
           ];
         };

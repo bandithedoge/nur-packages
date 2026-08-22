@@ -1,0 +1,18 @@
+diff --git a/configuration.sh b/configuration.sh
+index e311f1c75..29dffb570 100755
+--- a/configuration.sh
++++ b/configuration.sh
+@@ -249,13 +249,6 @@ if [ "$($PKGqt --libs-only-L Qt5Core)" != "" ] ; then
+         handle_failure "Not empty"
+     fi
+         
+-    A=$($PKGqt --libs-only-L Qt5Core | xargs)
+-    B="-L$($QMAKE -query QT_INSTALL_PREFIX)/lib"
+-    if [ "$A" != "$B" ] ; then
+-	handle_failure "$PKGqt and $QMAKE doesn't seem to point to the same Qt:\n" \
+-		       "PKG: \"$A\".\n" \
+-		       "${QMAKE}: \"$B\""
+-    fi
+ else
+     if ! is_set QMAKE_LIBS_ONLY_L_SHOULD_BE_EMPTY ; then
+         if [ "$($QMAKE -query QT_INSTALL_PREFIX)" != "/usr" ] ; then
