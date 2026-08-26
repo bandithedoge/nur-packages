@@ -16,6 +16,7 @@
     "eglot-inactive-regions"
   ];
   filtr = [ "filt-r" ];
+  git-pages-bin = [ "git-pages" ];
   lamb = [ "lamb-bin" ];
   microbiome-bin = [ "microbiome" ];
   nodePackages.some-sass-language-server = [ "some-sass-language-server" ];
