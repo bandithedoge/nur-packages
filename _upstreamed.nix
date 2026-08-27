@@ -21,6 +21,7 @@
       };
   geonkick = [ "geonkick" ];
   giada = [ "giada" ];
+  git-pages = [ "git-pages" ];
   haskellPackages =
     builtins.mapAttrs
       (_: name: [
