@@ -130,6 +130,7 @@
         "material-nvim"
         "mini-nvim"
         "mkdir-nvim"
+        "neo-tree-diagnostics-nvim"
         "neo-tree-nvim"
         "neoconf-nvim"
         "neodev-nvim"
