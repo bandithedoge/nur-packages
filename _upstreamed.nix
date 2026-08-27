@@ -17,6 +17,7 @@
         on = "on";
         once = "once";
         smartparens = "smartparens";
+        eglot-x = "eglot-x";
       };
   geonkick = [ "geonkick" ];
   giada = [ "giada" ];
