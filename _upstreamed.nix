@@ -230,6 +230,7 @@
         "rsync"
         "starship"
         "sudo"
+        "yamb"
         "yatline"
       ]
       (name: [
