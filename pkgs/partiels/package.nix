@@ -8,6 +8,7 @@
   git,
   juceCmakeHook,
   libjack2,
+  libxi,
   makeDesktopItem,
 }:
 stdenv.mkDerivation (finalAttrs: {
@@ -29,6 +30,7 @@ stdenv.mkDerivation (finalAttrs: {
 
   buildInputs = [
     libjack2
+    libxi
   ];
 
   installPhase = ''
