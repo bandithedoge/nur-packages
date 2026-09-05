@@ -15,12 +15,12 @@
 }:
 stdenv.mkDerivation (finalAttrs: {
   pname = "dsp56300";
-  version = "2.2.9";
+  version = "2.2.16";
   src = fetchFromGitHub {
     owner = "dsp56300";
     repo = "gearmulator";
     rev = finalAttrs.version;
-    hash = "sha256-ro5g3458VrNtMBsuX1e2HK13OQfgB6wO3yHHnkGN0p4=";
+    hash = "sha256-gkN13tCVHyl0mO0Qo7aRn+XwvScXz62JjiM9f4IKpIs=";
     fetchSubmodules = true;
   };
 
