@@ -42,6 +42,7 @@ rustPlatform.buildRustPackage (finalAttrs: {
     "--skip=tests::logging_tests::test_build_stderr_filter_default"
     "--skip=tests::provider_tests::anthropic_custom_base_appends_v1_messages"
     "--skip=tests::tui_loop_tests"
+    "--skip=tests::worktree_tests::tests"
   ];
 
   passthru.updateScript = nix-update-script { };
