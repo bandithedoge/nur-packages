@@ -35,6 +35,7 @@
         xmonad-entryhelper = "xmonad-entryhelper";
       };
   luakit = [ "luakit" ];
+  mcp-searxng = [ "mcp-searxng" ];
   mesonlsp-bin = [ "mesonlsp" ];
   molot-lite = [ "molot-lite" ];
   nimlangserver = [ "nimlangserver" ];
