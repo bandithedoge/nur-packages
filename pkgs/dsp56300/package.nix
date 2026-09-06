@@ -30,6 +30,7 @@ stdenv.mkDerivation (finalAttrs: {
 
   postPatch = ''
     substituteAll CMakeLists.txt --replace-fail "/usr/local" "${placeholder "out"}"
+    substituteInPlace source/CMakeLists.txt --replace-fail "add_subdirectory(framework/tools/midiLearnTest)" ""
   '';
 
   installPhase = ''
@@ -39,16 +40,16 @@ stdenv.mkDerivation (finalAttrs: {
     cp source/ronaldo/je8086/jeTestConsole/JE8086TestConsole $out/bin
   ''
   + lib.optionalString enableNodalRed2x ''
-    cp source/nord/n2x/n2xTestConsole/n2xTestConsole $out/bin
+    cp source/claudia/n2x/n2xTestConsole/n2xTestConsole $out/bin
   ''
   + lib.optionalString (enableOsirus || enableOsTIrus) ''
-    cp source/virusTestConsole/virusTestConsole $out/bin
+    cp source/axel/virusTestConsole/virusTestConsole $out/bin
   ''
   + lib.optionalString enableVavra ''
-    cp source/mqTestConsole/mqTestConsole $out/bin
+    cp source/waldi/microq/mqTestConsole/mqTestConsole $out/bin
   ''
   + lib.optionalString enableXenia ''
-    cp source/xtTestConsole/xtTestConsole $out/bin
+    cp source/waldi/xt/xtTestConsole/xtTestConsole $out/bin
   ''
   + ''
     cd ../bin/plugins/Release
