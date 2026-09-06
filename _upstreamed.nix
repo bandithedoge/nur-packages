@@ -19,6 +19,7 @@
         smartparens = "smartparens";
         eglot-x = "eglot-x";
       };
+  fastcrw = [ "fastcrw" ];
   geonkick = [ "geonkick" ];
   giada = [ "giada" ];
   git-pages = [ "git-pages" ];
