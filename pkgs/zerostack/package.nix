@@ -16,15 +16,15 @@
 }:
 rustPlatform.buildRustPackage (finalAttrs: {
   pname = "zerostack";
-  version = "1.8.3";
+  version = "1.8.4";
   src = fetchFromGitHub {
     owner = "gi-dellav";
     repo = "zerostack";
     rev = "v${finalAttrs.version}";
-    hash = "sha256-/KfmyHM02i7uuE0fe/snA6myVKY29pdIVHGs2Ua7ZxQ=";
+    hash = "sha256-1NYNZkzULkQPSh1yuYD5abTpXSak+Y3f0ex0ZaArEaU=";
   };
 
-  cargoHash = "sha256-H+x5Hthbeg89X8ph/DGb0He/2K6ADroot9gzaDB+J3Y=";
+  cargoHash = "sha256-fLDhu1sFyyyPMXPGJ6S/AbRIH76jTfIy9mOYmH+mQsw=";
   buildFeatures =
     lib.optional withAcp "acp"
     ++ lib.optional withAdvisor "advisor"
