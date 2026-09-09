@@ -1450,10 +1450,10 @@
     };
     "tridactyl" = buildMozillaXpiAddon {
       pname = "tridactyl";
-      version = "1.25.0";
+      version = "1.25.1";
       addonId = "tridactyl.vim@cmcaine.co.uk";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4988638/tridactyl_vim-1.25.0.xpi";
-      sha256 = "46f4dec5b81c08a688c704a1b2ea7b45f44b3a4a1c4295f991cabffb670f1816";
+      url = "https://addons.mozilla.org/firefox/downloads/file/5014416/tridactyl_vim-1.25.1.xpi";
+      sha256 = "722c2c6dfc03d80e48faeb4c3113d330203940483e3fcfc6c1d410e1cc58563e";
       meta = with lib;
       {
         homepage = "https://tridactyl.xyz";
@@ -1528,10 +1528,10 @@
     };
     "violentmonkey" = buildMozillaXpiAddon {
       pname = "violentmonkey";
-      version = "2.48.0";
+      version = "2.49.0";
       addonId = "{aecec67f-0d10-4fa7-b7c7-609a2db280cf}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4963965/violentmonkey-2.48.0.xpi";
-      sha256 = "e73e3103697cbeee3335020c31c7e3c587946929740cd78f9bff1b50bf62be34";
+      url = "https://addons.mozilla.org/firefox/downloads/file/5009389/violentmonkey-2.49.0.xpi";
+      sha256 = "761ea6a32cee78c3263d19bbd821eafd4ea0722f10ff358ecba2739c5bff76fb";
       meta = with lib;
       {
         homepage = "https://violentmonkey.github.io/";
