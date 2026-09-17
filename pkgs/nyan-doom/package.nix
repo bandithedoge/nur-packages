@@ -8,15 +8,18 @@
   SDL2_image,
   SDL2_mixer,
   cmake,
+  discord-rpc,
   fluidsynth,
   libGLU,
   libmad,
   libopenmpt,
   libsndfile,
+  libspng,
   libvorbis,
   libzip,
   ninja,
   portmidi,
+  rapidjson,
   zlib,
 }:
 stdenv.mkDerivation (finalAttrs: {
@@ -39,14 +42,17 @@ stdenv.mkDerivation (finalAttrs: {
     SDL2
     SDL2_image
     SDL2_mixer
+    discord-rpc
     fluidsynth
     libGLU
     libmad
     libopenmpt
     libsndfile
+    libspng
     libvorbis
     libzip
     portmidi
+    rapidjson
     zlib
   ];
 
