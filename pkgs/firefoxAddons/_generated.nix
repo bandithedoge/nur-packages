@@ -1370,10 +1370,10 @@
     };
     "stylus" = buildMozillaXpiAddon {
       pname = "stylus";
-      version = "2.4.13";
+      version = "2.4.14";
       addonId = "{7a7a4a92-a2a0-41d1-9fd7-1e92480d612d}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/5028285/styl_us-2.4.13.xpi";
-      sha256 = "2d969b7514acbfa7b77b4e4c6341b9e1e8bcd4c3b9bc63d8b06e5d853dd1cbdd";
+      url = "https://addons.mozilla.org/firefox/downloads/file/5044316/styl_us-2.4.14.xpi";
+      sha256 = "51d4efd6aa6484a749b97e36222f7bbe2ff699ed16b9a13adf40ecb6a0597081";
       meta = with lib;
       {
         homepage = "https://add0n.com/stylus.html";
