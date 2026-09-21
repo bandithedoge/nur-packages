@@ -13,12 +13,12 @@
 }:
 stdenvNoCC.mkDerivation {
   pname = "morewaita";
-  version = "49-unstable-2026-09-16";
+  version = "49-unstable-2026-09-21";
   src = fetchFromGitHub {
     owner = "somepaulo";
     repo = "MoreWaita";
-    rev = "0b3d65fb647eafe583f4f7d67b55e86c862a3905";
-    hash = "sha256-ZCwvBD6SqGK1wQQVW+f7tghZ73AdqJ8wQX/3IpZotdw=";
+    rev = "8ee561313b9737fa960d75ce2ac91846b4576df7";
+    hash = "sha256-vb0Anr3yw54PIaBhMzrm+/CWWGmGoq2s44hs7A2CL34=";
   };
 
   nativeBuildInputs = [
