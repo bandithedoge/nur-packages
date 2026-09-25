@@ -68,6 +68,7 @@ stdenv.mkDerivation (finalAttrs: {
   ];
 
   dontUseJuceInstall = true;
+  dontUseMold = true;
 
   passthru.updateScript = nix-update-script { };
 
