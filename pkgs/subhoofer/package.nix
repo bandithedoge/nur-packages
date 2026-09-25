@@ -48,7 +48,7 @@ rustPlatform.buildRustPackage (finalAttrs: {
     description = "Sub and Bass Enhancement plugin";
     homepage = "https://github.com/ardura/Subhoofer";
     license = lib.licenses.gpl3Plus;
-    platforms = lib.licenses.linux;
+    platforms = lib.platforms.linux;
     maintainers = [ lib.maintainers.bandithedoge ];
   };
 })
