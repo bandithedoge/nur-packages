@@ -259,16 +259,16 @@
     };
     "betterviewer" = buildMozillaXpiAddon {
       pname = "betterviewer";
-      version = "3.0.0";
+      version = "3.0.4";
       addonId = "ademking@betterviewer";
-      url = "https://addons.mozilla.org/firefox/downloads/file/5065762/betterviewer-3.0.0.xpi";
-      sha256 = "244143d1ca2d40ad7bb850fc6956d9fe20f0fca2b4883c31d51e4f247737c162";
+      url = "https://addons.mozilla.org/firefox/downloads/file/5077261/betterviewer-3.0.4.xpi";
+      sha256 = "b467813646af1c971cc691724d4ac9fe089e8c4111e1a631fc8d42ac88653cb4";
       meta = with lib;
       {
         homepage = "https://github.com/Ademking/BetterViewer";
         description = "BetterViewer was designed as a replacement for the image viewing mode built into Firefox and Chrome-based web browsers. With BetterViewer you can use various keyboard shortcuts to quickly pan, zoom images, edit and a lot more!";
         license = licenses.mit;
-        mozPermissions = [ "storage" "<all_urls>" ];
+        mozPermissions = [ "storage" "contextMenus" "activeTab" "<all_urls>" ];
         platforms = platforms.all;
       };
     };
@@ -468,10 +468,10 @@
     };
     "github-isometric-contributions" = buildMozillaXpiAddon {
       pname = "github-isometric-contributions";
-      version = "1.2.7";
+      version = "1.2.8";
       addonId = "isometric-contributions@jasonlong.me";
-      url = "https://addons.mozilla.org/firefox/downloads/file/5001889/github_isometric_contributions-1.2.7.xpi";
-      sha256 = "aac3842e00253583a1deff5502c1d0ee43e7e015800f9f9bcce1d412bee228be";
+      url = "https://addons.mozilla.org/firefox/downloads/file/5074179/github_isometric_contributions-1.2.8.xpi";
+      sha256 = "6d5d16e7e4eaa01e7604d48cbcdf571ae71246d690bf19900b865236ec3ad462";
       meta = with lib;
       {
         description = "Renders an isometric pixel view of GitHub contribution graphs.";
@@ -587,10 +587,10 @@
     };
     "material-icons-for-github" = buildMozillaXpiAddon {
       pname = "material-icons-for-github";
-      version = "1.16.4";
+      version = "1.17.0";
       addonId = "{eac6e624-97fa-4f28-9d24-c06c9b8aa713}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/4978028/material_icons_for_github-1.16.4.xpi";
-      sha256 = "88246df1f6b54f8376ece3c9ed95724b9fb33550f44ef15f359879e4799b7740";
+      url = "https://addons.mozilla.org/firefox/downloads/file/5078292/material_icons_for_github-1.17.0.xpi";
+      sha256 = "8d4366dce8fdf2f1681b538303b6fca74531c41a013b31079bceece2506e5834";
       meta = with lib;
       {
         homepage = "https://github.com/material-extensions/material-icons-browser-extension";
@@ -1168,10 +1168,10 @@
     };
     "refined-github" = buildMozillaXpiAddon {
       pname = "refined-github";
-      version = "26.9.12";
+      version = "26.10";
       addonId = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/5024350/refined_github-26.9.12.xpi";
-      sha256 = "eff601153ab28f19ac3bcda4b5d8f3f8c8f4eb47ac45dddaa3a49a67b734138d";
+      url = "https://addons.mozilla.org/firefox/downloads/file/5075070/refined_github-26.10.xpi";
+      sha256 = "ee4784797ac6af961e8bdea62767357a753dbfefbad51a25a04746d6156ea192";
       meta = with lib;
       {
         homepage = "https://github.com/refined-github/refined-github";
@@ -1426,10 +1426,10 @@
     };
     "tree-style-tab" = buildMozillaXpiAddon {
       pname = "tree-style-tab";
-      version = "4.4.8";
+      version = "4.4.9";
       addonId = "treestyletab@piro.sakura.ne.jp";
-      url = "https://addons.mozilla.org/firefox/downloads/file/5068525/tree_style_tab-4.4.8.xpi";
-      sha256 = "62f6fd91fe90b52255434da5d43ebf8b395d6286d69663fe6f8785180c1270bf";
+      url = "https://addons.mozilla.org/firefox/downloads/file/5072919/tree_style_tab-4.4.9.xpi";
+      sha256 = "6fa89f9228ecd5d61bebb38f38ba6851e24ee521d446525fba0b24a492e96984";
       meta = with lib;
       {
         homepage = "https://github.com/piroor/treestyletab";
