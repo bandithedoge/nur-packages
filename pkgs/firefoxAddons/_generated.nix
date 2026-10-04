@@ -259,10 +259,10 @@
     };
     "betterviewer" = buildMozillaXpiAddon {
       pname = "betterviewer";
-      version = "3.0.4";
+      version = "3.1.1";
       addonId = "ademking@betterviewer";
-      url = "https://addons.mozilla.org/firefox/downloads/file/5077261/betterviewer-3.0.4.xpi";
-      sha256 = "b467813646af1c971cc691724d4ac9fe089e8c4111e1a631fc8d42ac88653cb4";
+      url = "https://addons.mozilla.org/firefox/downloads/file/5082423/betterviewer-3.1.1.xpi";
+      sha256 = "801ffd69f989f394778ac3fd4ebf5ee9950d9427c342fc48d4671da71771f3fa";
       meta = with lib;
       {
         homepage = "https://github.com/Ademking/BetterViewer";
@@ -616,10 +616,10 @@
     };
     "nexusmods-advance" = buildMozillaXpiAddon {
       pname = "nexusmods-advance";
-      version = "0.27.1";
+      version = "0.27.2";
       addonId = "NexusModsAdvance@Caiota";
-      url = "https://addons.mozilla.org/firefox/downloads/file/5056782/nexusmods_advance-0.27.1.xpi";
-      sha256 = "3afb31a03deefc7ef426d75e7852897d85f61d4aa07daca7e7330c74e2c7dcd0";
+      url = "https://addons.mozilla.org/firefox/downloads/file/5083376/nexusmods_advance-0.27.2.xpi";
+      sha256 = "4d754989d90aa8878c00aee51e828a50b0b6415a6e68402c2a249b4bc93954de";
       meta = with lib;
       {
         description = "Enhance your browsing experience on the NexusMods site and manage your mods directly through the browser!";
