@@ -12,6 +12,7 @@
   libdecor,
   libdrm,
   libgbm,
+  libjack2,
   libsndfile,
   libx11,
   libxcursor,
@@ -24,6 +25,7 @@
   makeWrapper,
   openal,
   openssl,
+  portaudio,
   unzip,
   wayland,
 }:
@@ -48,6 +50,7 @@ stdenv.mkDerivation (finalAttrs: {
     libdecor
     libdrm
     libgbm
+    libjack2
     libsndfile
     libx11
     libxcursor
@@ -59,6 +62,7 @@ stdenv.mkDerivation (finalAttrs: {
     libxxf86vm
     openal
     openssl
+    portaudio
     stdenv.cc.cc.lib
     wayland
   ];
