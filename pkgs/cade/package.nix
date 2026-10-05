@@ -9,12 +9,12 @@
 }:
 rustPlatform.buildRustPackage {
   pname = "cade";
-  version = "0.1.0-unstable-2026-10-01";
+  version = "0.1.0-unstable-2026-10-04";
   src = fetchFromGitHub {
     owner = "manic-systems";
     repo = "cade";
-    rev = "762038d0768ed06fdbf3757db7f512f357421259";
-    hash = "sha256-xpNpV/wYSiPE/3ppXUk/sby6TTtTLnwKi6G0HzOeADY=";
+    rev = "f93eb1a1c62886d982b1295a0777ebe6bfee7d35";
+    hash = "sha256-v9ciOki8H3Ty6AC3SvlDiMCTVWQrQ/aGRo7Mrk9E6fc=";
   };
 
   cargoHash = "sha256-Hpmge+YRDUhovt55NoBDd9GSV15cp184nDuMJZDnOX8=";
