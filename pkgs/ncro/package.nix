@@ -8,15 +8,15 @@
 }:
 rustPlatform.buildRustPackage.override { stdenv = clangStdenv; } (finalAttrs: {
   pname = "ncro";
-  version = "2.2.2";
+  version = "2.3.0";
   src = fetchFromGitHub {
     owner = "manic-systems";
     repo = "ncro";
     rev = "v${finalAttrs.version}";
-    hash = "sha256-attdCg/FjUooYxVidEDR5wVeQ8aAPAj4b6HQVL17Tng=";
+    hash = "sha256-+jkCy826eI/CQjh8lfzYq4HbwKoCkoTqiB8FOeD7I0U=";
   };
 
-  cargoHash = "sha256-woqDFlQ8r/8KMVLW6K8ucrMPBNZklqmiaaAevQnzbPk=";
+  cargoHash = "sha256-/LdG4ho2tNThQaCMllszxc3kATo9z0OgG6gZMofUcn8=";
 
   nativeBuildInputs = [ wild ];
 
