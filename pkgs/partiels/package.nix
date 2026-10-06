@@ -33,6 +33,11 @@ stdenv.mkDerivation (finalAttrs: {
     libxi
   ];
 
+  postPatch = ''
+    substituteInPlace Dependencies/ircam-vamp-extension/Source/IvePluginExtension.hpp \
+      --replace-fail "std::uint32_t" "uint32_t"
+  '';
+
   installPhase = ''
     runHook preInstall
 
