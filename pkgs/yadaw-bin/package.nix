@@ -12,15 +12,15 @@
   wayland,
 }:
 let
-  version = "0.11.4";
+  version = "0.11.5";
   sources = {
     aarch64 = fetchzip {
       url = "https://github.com/mlm-games/yadaw/releases/download/v${version}/yadaw-${version}-aarch64-unknown-linux-gnu.tar.gz";
-      hash = "sha256-8Pq5adz07+Eiu1VlkAEVkXMXMqe2JivDhEpK4WBAmKE=";
+      hash = "sha256-0sM2RxiQeWscj7zvnM+5DRwDlTFr84YbfOk72m0kwu0=";
     };
     x86_64 = fetchzip {
       url = "https://github.com/mlm-games/yadaw/releases/download/v${version}/yadaw-${version}-x86_64-unknown-linux-gnu.tar.gz";
-      hash = "sha256-HrOxx0p0te6/Nhw/tOKTytpgdHcEkCyKbURrsyvJb/E=";
+      hash = "sha256-R9NYndAaHATpbVVcx0ngaVNLi77/qjSKe8IBkka37lU=";
     };
   };
 in
