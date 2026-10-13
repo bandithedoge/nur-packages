@@ -9,7 +9,12 @@
   dbus,
   glib,
   libuuid,
+  libxcursor,
+  libxrandr,
+  makeWrapper,
+  ncurses,
   qt5,
+  readline,
 }:
 stdenv.mkDerivation (finalAttrs: {
   pname = "mod-desktop-bin";
@@ -21,6 +26,7 @@ stdenv.mkDerivation (finalAttrs: {
 
   nativeBuildInputs = [
     autoPatchelfHook
+    makeWrapper
   ];
 
   buildInputs = [
@@ -28,7 +34,11 @@ stdenv.mkDerivation (finalAttrs: {
     dbus
     glib
     libuuid
+    libxcursor
+    libxrandr
+    ncurses
     qt5.qtbase
+    readline
     stdenv.cc.cc.lib
   ];
 
@@ -39,6 +49,22 @@ stdenv.mkDerivation (finalAttrs: {
     cp -r * $out/libexec
 
     runHook postBuild
+  '';
+
+  installPhase = ''
+    runHook preInstall
+
+    mkdir -p $out/{bin,lib/clap,lib/lv2,lib/vst3,lib/vst}
+
+    makeWrapper $out/libexec/mod-desktop/mod-desktop $out/bin/mod-desktop \
+      --chdir "$out/libexec/mod-desktop"
+
+    ln -s $out/libexec/plugin-variants/mod-desktop.clap $out/lib/clap
+    ln -s $out/libexec/plugin-variants/mod-desktop.lv2 $out/lib/lv2
+    ln -s $out/libexec/plugin-variants/mod-desktop.vst3 $out/lib/vst3
+    ln -s $out/libexec/plugin-variants/mod-desktop-vst.so $out/lib/vst
+
+    runHook postInstall
   '';
 
   dontWrapQtApps = true;
