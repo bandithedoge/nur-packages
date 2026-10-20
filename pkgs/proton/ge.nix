@@ -6,15 +6,15 @@
   writeScript,
 }:
 let
-  version = "11-10";
+  version = "11-11";
   sources = {
     aarch64 = fetchzip {
       url = "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton${version}/GE-Proton${version}-aarch64.tar.gz";
-      sha256 = "sha256-FxDbnLUTor8HkdLSObcazOXuOqmH3EqRuPrS8vPdNdk=";
+      sha256 = "sha256-ev2dO+vZAHmobs0OCLOODGerS3AfZIavWDr7Ftt3dUM=";
     };
     x86_64 = fetchzip {
       url = "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton${version}/GE-Proton${version}-x86_64.tar.gz";
-      sha256 = "sha256-pR0MFuBcjr1RZOCJ9aDyWvadGDcXfpZt7loFSNFjWuU=";
+      sha256 = "sha256-3tVgf83IkteFtVo/bHd4yG1xCtPeuW8FXaTrHOLjvKQ=";
     };
   };
 in
