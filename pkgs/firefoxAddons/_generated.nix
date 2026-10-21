@@ -298,10 +298,10 @@
     };
     "csgofloat" = buildMozillaXpiAddon {
       pname = "csgofloat";
-      version = "5.19.0";
+      version = "5.19.1";
       addonId = "{194d0dc6-7ada-41c6-88b8-95d7636fe43c}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/5122158/csgofloat-5.19.0.xpi";
-      sha256 = "fb7fee5a407ed96c0343b5b778b810bdb48e731051ae037a142de5dce42998bd";
+      url = "https://addons.mozilla.org/firefox/downloads/file/5145136/csgofloat-5.19.1.xpi";
+      sha256 = "f86ee3ab061a8d5834ad7a0de6eee31a83c60eb9692a54e9297bf19d5eed1c61";
       meta = with lib;
       {
         homepage = "https://csgofloat.com";
