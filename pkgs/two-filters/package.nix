@@ -18,8 +18,8 @@ stdenv.mkDerivation (finalAttrs: {
   src = fetchFromGitHub {
     owner = "baconpaul";
     repo = "two-filters";
-    rev = "a6b0f7058d6d34ffd411d72d8c6f66ef939e0d9a";
-    hash = "sha256-NHxU0RgPnxA3r65s48Ycom8DDN0pvhEeTxCa/UKlfBk=";
+    rev = "2989343c0c2538a29b684f144e38010baebc544e";
+    hash = "sha256-rtuTsS1JOzUHTOXdXrAZ1fEV66eMgc3ZYLyCWTe5Jl4=";
     fetchSubmodules = true;
   };
 
