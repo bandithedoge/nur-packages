@@ -32,21 +32,36 @@ symlinkJoin {
       build-system = with python3Packages; [ hatchling ];
 
       dependencies = [
-        (python3Packages.mcp.overrideAttrs (
-          _:
-          let
-            version = "1.29.0";
-          in
-          {
-            inherit version;
-            src = fetchFromGitHub {
-              owner = "modelcontextprotocol";
-              repo = "python-sdk";
-              rev = "v${version}";
-              hash = "sha256-lRlj5RT/R5zrYL5XpdQR2l9t99G94WTsubN0gSQekMc=";
-            };
-          }
-        ))
+        (
+          (python3Packages.mcp.overrideAttrs (
+            _:
+            let
+              version = "1.29.0";
+            in
+            {
+              inherit version;
+              src = fetchFromGitHub {
+                owner = "modelcontextprotocol";
+                repo = "python-sdk";
+                rev = "v${version}";
+                hash = "sha256-lRlj5RT/R5zrYL5XpdQR2l9t99G94WTsubN0gSQekMc=";
+              };
+            }
+          )).overridePythonAttrs
+            (_: {
+              dependencies = with python3Packages; [
+                httpx-sse
+                jsonschema
+                pydantic-settings
+                pyjwt
+                python-multipart
+                sse-starlette
+                starlette
+                uvicorn
+              ];
+              dontUsePytestCheck = true;
+            })
+        )
       ];
     })
 
