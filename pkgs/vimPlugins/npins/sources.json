@@ -568,9 +568,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "8a47060bb4002434b983390c08ba107d88064eae",
-      "url": "https://github.com/Aetf/ucw.nvim/archive/8a47060bb4002434b983390c08ba107d88064eae.tar.gz",
-      "hash": "sha256-bFbCQ29FuRFhMqK118DLwHZm6VsM4tjyVd5dRI6gOwI="
+      "revision": "c8ff80d7cb7707a901ace1a00fa6e61dd4cac85b",
+      "url": "https://github.com/Aetf/ucw.nvim/archive/c8ff80d7cb7707a901ace1a00fa6e61dd4cac85b.tar.gz",
+      "hash": "sha256-A2kBsoDACLomGDsNJe9V0N0IIDiufzS6tEAh5yK6Gdw="
     },
     "vim-faust": {
       "type": "Git",
