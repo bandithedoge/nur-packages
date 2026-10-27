@@ -259,10 +259,10 @@
     };
     "betterviewer" = buildMozillaXpiAddon {
       pname = "betterviewer";
-      version = "3.2.0";
+      version = "3.3.0";
       addonId = "ademking@betterviewer";
-      url = "https://addons.mozilla.org/firefox/downloads/file/5107056/betterviewer-3.2.0.xpi";
-      sha256 = "0703c43512caec2198fa5d84fe99697cac9abe0ec667f562b768082c4963ed15";
+      url = "https://addons.mozilla.org/firefox/downloads/file/5168321/betterviewer-3.3.0.xpi";
+      sha256 = "d2f9eed01f436977856624ca4449718998eecf190acd8c9587d40cae58845b03";
       meta = with lib;
       {
         homepage = "https://github.com/Ademking/BetterViewer";
@@ -505,10 +505,10 @@
     };
     "harper" = buildMozillaXpiAddon {
       pname = "harper";
-      version = "2.13.0";
+      version = "3.0.0";
       addonId = "harper@writewithharper.com";
-      url = "https://addons.mozilla.org/firefox/downloads/file/5129427/private_grammar_checker_harper-2.13.0.xpi";
-      sha256 = "0632946eabecc5fa6b512f3fc0663cd178ff28833ef5274dae59e4193bdff078";
+      url = "https://addons.mozilla.org/firefox/downloads/file/5171001/private_grammar_checker_harper-3.0.0.xpi";
+      sha256 = "037f4c65163eb14be4b98430500304e88e6787234eae7e5ea0e305c63eb21648";
       meta = with lib;
       {
         homepage = "https://writewithharper.com";
@@ -587,10 +587,10 @@
     };
     "material-icons-for-github" = buildMozillaXpiAddon {
       pname = "material-icons-for-github";
-      version = "1.17.1";
+      version = "1.18.0";
       addonId = "{eac6e624-97fa-4f28-9d24-c06c9b8aa713}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/5080172/material_icons_for_github-1.17.1.xpi";
-      sha256 = "6cbd72b544f948e177a3a46df806844409bc67e4de24eac2038fd9b0bcb90558";
+      url = "https://addons.mozilla.org/firefox/downloads/file/5172134/material_icons_for_github-1.18.0.xpi";
+      sha256 = "487a7e9848076c6fdc85a0a76c8e3aa85e6092f9c2d3b5ca1455da535c7ef363";
       meta = with lib;
       {
         homepage = "https://github.com/material-extensions/material-icons-browser-extension";
@@ -1531,10 +1531,10 @@
     };
     "violentmonkey" = buildMozillaXpiAddon {
       pname = "violentmonkey";
-      version = "2.49.0";
+      version = "2.50.0";
       addonId = "{aecec67f-0d10-4fa7-b7c7-609a2db280cf}";
-      url = "https://addons.mozilla.org/firefox/downloads/file/5009389/violentmonkey-2.49.0.xpi";
-      sha256 = "761ea6a32cee78c3263d19bbd821eafd4ea0722f10ff358ecba2739c5bff76fb";
+      url = "https://addons.mozilla.org/firefox/downloads/file/5170937/violentmonkey-2.50.0.xpi";
+      sha256 = "5e074465c7fdd31934e5b4664e3d2eac54269df575a0c0db52c843fe9afd81df";
       meta = with lib;
       {
         homepage = "https://violentmonkey.github.io/";
