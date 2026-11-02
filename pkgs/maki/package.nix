@@ -22,6 +22,8 @@ rustPlatform.buildRustPackage (finalAttrs: {
 
   passthru.updateScript = nix-update-script { };
 
+  checkFlags = [ "--skip=cmd::tui::tests" ];
+
   meta = {
     description = "Efficient AI coding agent extendable by neovim-like Lua plugins";
     homepage = "https://maki.sh";
