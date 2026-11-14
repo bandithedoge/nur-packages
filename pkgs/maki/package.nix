@@ -4,7 +4,9 @@
   nix-update-script,
   rustPlatform,
 
+  aws-lc,
   perl,
+  pkg-config,
 }:
 rustPlatform.buildRustPackage (finalAttrs: {
   pname = "maki";
@@ -18,7 +20,14 @@ rustPlatform.buildRustPackage (finalAttrs: {
 
   cargoHash = "sha256-Ld0mj+4URAUMjMyCfDW8dBK8dSse28c4FTcxkLh1mQY=";
 
-  nativeBuildInputs = [ perl ];
+  nativeBuildInputs = [
+    perl
+    pkg-config
+  ];
+
+  buildInputs = [
+    aws-lc
+  ];
 
   passthru.updateScript = nix-update-script { };
 
