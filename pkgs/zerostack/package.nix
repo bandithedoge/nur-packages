@@ -11,7 +11,9 @@
   nix-update-script,
   rustPlatform,
 
+  aws-lc,
   mold,
+  pkg-config,
   writableTmpDirAsHomeHook,
 }:
 rustPlatform.buildRustPackage (finalAttrs: {
@@ -33,9 +35,18 @@ rustPlatform.buildRustPackage (finalAttrs: {
     ++ lib.optional withMultimodal "multimodal"
     ++ lib.optional withPdf "pdf";
 
-  nativeBuildInputs = [ mold ];
+  nativeBuildInputs = [
+    mold
+    pkg-config
+  ];
 
-  nativeCheckInputs = [ writableTmpDirAsHomeHook ];
+  buildInputs = [
+    aws-lc
+  ];
+
+  nativeCheckInputs = [
+    writableTmpDirAsHomeHook
+  ];
 
   doCheck = false;
 
